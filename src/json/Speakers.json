@@ -5,25 +5,406 @@
       "id": "all"
     },
     {
-      "name": "AI Model",
-      "id": "ai-model"
+      "name": "AI Models & Infra",
+      "id": "ai-models-infra"
     },
-    {
-      "name": "AI Infra",
-      "id": "ai-infra"
-    },
-    {
-      "name": "AI Apps",
-      "id": "ai-apps"
-    },
-    {
+        {
       "name": "Embodied AI",
       "id": "embodied-ai"
+    },
+    {
+      "name": "Agentic Web",
+      "id": "agentic-web"
+    },
+    {
+      "name": "Apps & Agents",
+      "id": "apps-agents"
     },
     {
       "name": "GOSIM Spotlight",
       "id": "spotlight"
     }
   ],
-  "speakers": []
+  "speakers": [
+    {
+      "id": "aurlienmorgan-claudon",
+      "name": "Aurélien-Morgan CLAUDON",
+      "bio": "French ML Engineer with 20+ years of hands-on experience in automation and data-driven delivery. Former Capgemini consultant, with big corp, startup, and freelance experience. An ESSEC Executive MBA graduate, he has been active in the ML space since 2017, with a sharp focus on MLOps for the past 5+ years. His work blends engineering pragmatism with deep product thinking.\r\nHe is the creator of `retrain-pipelines` (Apache 2), an open-source framework designed from first principles to address the MLOps field’s chronic lack of user-centricity. His mission: to empower ML Engineers with practical, scalable tools for continuous learning workflows.",
+      "role": "Senior MLOps Lead",
+      "org": "Unaffiliated",
+      "roleOrg": "Senior MLOps Lead at Unaffiliated",
+      "image": "aurlienmorgan-claudon.png",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/AurelienMorgan_",
+        "github": "https://github.com/aurelienmorgan/retrain-pipelines",
+        "linkedin": "https://www.linkedin.com/in/aurelienmorganclaudon/",
+        "website": "https://huggingface.co/blog/Aurelien-Morgan/the-almighty-function-caller"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "shiwei-liu",
+      "name": "Shiwei Liu",
+      "bio": "Shiwei Liu is a Royal Society Newton International Fellow at the University of Oxford. He previously served as a Postdoctoral Fellow at the University of Texas at Austin. He obtained his Ph.D. with Cum Laude from Eindhoven University of Technology in 2022. His research goal is to leverage, understand, and expand the role of low-dimentionanlity in neural networks for scalable and efficient AI. Dr. Liu has received two Rising Star Awards from KAUST and the Conference on Parsimony and Learning (CPAL). His Ph.D. thesis received the 2023 Best Dissertation Award from Informatics Europe.",
+      "role": "Newton International Fellow",
+      "org": "University of Oxford",
+      "roleOrg": "Newton International Fellow at University of Oxford",
+      "image": "shiwei-liu.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "https://shiweiliuiiiiiii.github.io/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "gaowei-chang",
+      "name": "常高伟",
+      "bio": "常高伟，ANP开源技术社区发起人，W3C AI Agent protocol CG联合主席，AgentNetworkProtocol(ANP)是全球最早发布的开源智能体通信协议，ANP的目标是成为智能体互联网时代的HTTP，ANP的愿景是定义智能体之间的连接方式，为数十亿智能体构建一个开放、安全、高效的协作网络。",
+      "role": "发起人",
+      "org": "ANP开源技术社区",
+      "roleOrg": "发起人 at ANP开源技术社区",
+      "image": "gaowei-chang.jpg",
+      "tag": "agentic-web",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yunfei-zhang",
+      "name": "张云飞",
+      "bio": "中国电信智慧城市研究院副院长，中国电信首席专家，教授级高级工程师，国家级人才计划特聘专家，交通运输部中青年领军人才、国际公路交通科技领军人才，5G产业方阵副理事长，中国通信标准化协会物联网委员会副主席，曾任腾讯未来网络实验室主任，腾讯智慧交通首席科学家。提出泛V2X技术体系和实践，在业界形成广泛影响。在IETF 创立P2P流媒体协议（PPSP）工作组并担任主席，在IETF、ITU-T等发布10多个国际标准。获得中华杰出工程师青年奖、国家专利银奖、国家标准奖、上海市技术发明一等奖、上海市科技进步奖一等奖、深圳市科技进步一等奖、金桥奖个人奖、中国车联网杰出人物奖、IEEE ITSC智慧交通和车路协同双冠军等省部级以上奖励20多项。",
+      "role": "中国电信智慧城市研究院副院长，中国电信首席专家",
+      "org": "中电信数智科技有限公司",
+      "roleOrg": "中国电信智慧城市研究院副院长，中国电信首席专家 at 中电信数智科技有限公司",
+      "image": "yunfei-zhang.jpeg",
+      "tag": "assign-me",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "matt-white",
+      "name": "Matt White",
+      "bio": "Matt White is the Executive Director of the PyTorch Foundation and GM of AI at the Linux Foundation, as well as the Director of the Generative AI Commons under the LF AI & Data Foundation. With nearly 30 years of experience in AI research, standards, and applications across telecom, media, and gaming, he has specialized since 2012 in machine learning, simulations, and multi-sensory learning. He previously co-founded the Open Metaverse Foundation, chairs the Metaverse Standards Forum, and co-organizes both the Silicon Valley Generative AI paper reading group and the GenAI Collective.",
+      "role": "GM of AI/Executive Director",
+      "org": "Linux Foundation/PyTorch Foundation",
+      "roleOrg": "GM of AI/Executive Director at Linux Foundation/PyTorch Foundation",
+      "image": "matt-white.png",
+      "tag": "undefined",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "matthew-d-white",
+        "github": "matthew-d-white",
+        "linkedin": "https://www.linkedin.com/in/mdwdata",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zhiyu-li",
+      "name": "Zhiyu Li",
+      "bio": "Zhiyu Li, Ph.D., is the Co-founder and CTO of MemTensor (Shanghai) Technology Co., Ltd., Researcher at IAAR, and Industry Young Scientist at the SAI, Shanghai Jiao Tong University. His research focuses on large language models (LLMs) and Generative AI, particularly in Memory-Augmented Intelligence and Infrastructure for GAI. Dr. Li previously led core AI teams at Alibaba and Xiaohongshu, driving algorithmic innovations that generated billions in commercial revenue. At MemTensor, he led  the world’s first Memory Operating System for LLMs (MemOS). He has published over 40 papers in top AI venues including Patterns (Cell Press), ICLR, ACL, and AAAI, with over 1,000 citations and 10+ patents. His work has been featured as a cover story in MIT Technology Review.",
+      "role": "CTO",
+      "org": "MemTensor (Shanghai) Technology Co., Ltd.",
+      "roleOrg": "CTO at MemTensor (Shanghai) Technology Co., Ltd.",
+      "image": "zhiyu-li.jpg",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xavier",
+      "name": "Xavier",
+      "bio": "Founder of 1ms.ai, which is a startup that aim at building moonshot open source project in AI. \r\n\r\nOne of those project is dora-rs which is a groundbreaking middleware that is able to share data between AI models, sensors and actuators with state of the art performance.\r\n\r\nThis enables to build very complex applications across modality: text, audio, vision and action. This has enabled us to create very complex robotic demos!",
+      "role": "Founder",
+      "org": "1ms.ai",
+      "roleOrg": "Founder at 1ms.ai",
+      "image": "xavier.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/HaixuanT",
+        "github": "https://github.com/haixuanTao",
+        "linkedin": "https://www.linkedin.com/in/haixuan-xavier-tao-7460b1102/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yikai-zhu",
+      "name": "Yikai Zhu",
+      "bio": "SGLang committer, Previously worked in QWen Team for pretraining infra,",
+      "role": "Software Engineer, Model Performance",
+      "org": "Baseten",
+      "roleOrg": "Software Engineer, Model Performance at Baseten",
+      "image": "yikai-zhu.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "@zyksir995",
+        "github": "https://github.com/zyksir/",
+        "linkedin": "https://www.linkedin.com/in/zyksir?originalSubdomain=cn",
+        "website": "https://zyksir.github.io/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jian-shi",
+      "name": "Jian Shi",
+      "bio": "Jian Shi is the co-founder of Kornia AI and a core maintainer of the Kornia library, a leading computer vision framework in PyTorch. With Kornia AI, he works to advance and democratize spatial artificial intelligence through open collaboration. He is a Ph.D. candidate at KAUST, focusing on generative models and stereo vision. Jian has published at major venues including ICCV, ECCV, and TPAMI. With prior research experience at NEC Labs, CUHK, and GE Power, his work spans medical imaging, LiDAR understanding, and generative 3D vision.",
+      "role": "Co-founder",
+      "org": "Kornia AI",
+      "roleOrg": "Co-founder at Kornia AI",
+      "image": "jian-shi.jpg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/shijianjian",
+        "linkedin": "https://www.linkedin.com/in/jian-shi-1ba543110/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "edgar-riba",
+      "name": "Edgar Riba",
+      "bio": "Dr. Edgar Riba earned his PhD in Computer Science from Universitat Autònoma de Barcelona (UAB)—where his dissertation bridged classical computer vision and deep learning for low-level tasks—and holds an MSc in Automatic Control and Robotics from UPC (Barcelona).\r\n\r\nHe recently joined Bonsai Robotics as a Staff Research Engineer, spearheading work in agentic AI and vision–language action models and tools tailored for educational and research robotics. Prior to this, Edgar built autonomy pipelines—from navigation stacks and robot drivers to edge‑ML deployment infrastructure—at startups including Farm‑ng, LightningAI, and Arraiy. His academic and research background includes over a year as a Research Scientist at IRI‑CSIC/UPC and more than two years at Arraiy, focusing on advanced vision and spatial AI.\r\n\r\nEdgar is the founder and project lead of Kornia, a differentiable computer vision library for PyTorch with over 10,000 GitHub stars and 2 million+ monthly downloads. He also presides over its non-profit organization and is admin of Kornia’s Google Summer of Code program—mentoring students and coordinating major open-source contributions.\r\n\r\nA dedicated community builder, Edgar served also on the OpenCV Foundation steering committee, mentors Google Summer of Code participants, and organizes workshops, hackathons, and conference talks. With eight peer-reviewed publications—including the foundational Kornia paper—he expertly bridges classical CV, deep learning, and real-world robotics to deliver robust, scalable autonomy solutions.\r\n",
+      "role": "Staff Research Engineer",
+      "org": "Bonsai Robotics",
+      "roleOrg": "Staff Research Engineer at Bonsai Robotics",
+      "image": "edgar-riba.jpeg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/edgarriba",
+        "github": "https://github.com/edgarriba",
+        "linkedin": "https://www.linkedin.com/in/edgarriba/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "sbastien-crozet",
+      "name": "Sébastien Crozet",
+      "bio": "Sébastien Crozet has been in love with the Rust programming language since its earliest days. He is the creator and maintainer of popular open-source libraries, including nalgebra and Rapier, for the Rust ecosystem that specialize in linear algebra, geometry, and physics. He is the founder of Dimforge where he focuses on contributing to the future of cross-platform scientific computing and AI.",
+      "role": "Founder",
+      "org": "Dimforge",
+      "roleOrg": "Founder at Dimforge",
+      "image": "sbastien-crozet.png",
+      "tag": "assign-me",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/dimforge",
+        "linkedin": "undefined",
+        "website": "https://dimforge.com"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "haichuan-chen",
+      "name": "陈海泉",
+      "bio": "Developer at Volcano Engine and core contributor to the veRL project. Focus on agentic RL and cloud infrastructure.",
+      "role": "Developer",
+      "org": "ByteDance",
+      "roleOrg": "Developer at ByteDance",
+      "image": "haichuan-chen.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/chenhaiq",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xuan-son-nguyen",
+      "name": "Xuan Son Nguyen",
+      "bio": "I'm software engineer at Hugging Face, core maintainer of llama.cpp",
+      "role": "Software Engineer",
+      "org": "Hugging Face",
+      "roleOrg": "Software Engineer at Hugging Face",
+      "image": "xuan-son-nguyen.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "@ngxson",
+        "github": "https://github.com/ngxson",
+        "linkedin": "https://linkedin.com/in/ngxson",
+        "website": "https://ngxson.com"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "ruping-cen",
+      "name": "Ruping Cen",
+      "bio": "Cen Ruping, Ph.D., is currently affiliated with the School of Automation at Chongqing University of Posts and Telecommunications, where his research focuses on mobile robot localization and navigation as well as multi-sensor fusion localization. Driven by his academic expertise, he created the open-source project MickRobot, which engineers a dual-arm humanoid robotics platform from the ground up, spanning mechanical design, hardware integration, perception/localization, and navigation control systems. Extending its impact beyond code, he has authored technical blogs and tutorials documenting this development journey, garnering over 1.1 million page views and demonstrating significant community reach.",
+      "role": "Ph. D.",
+      "org": "Chongqing University of Posts and Telecommunications",
+      "roleOrg": "Ph. D. at Chongqing University of Posts and Telecommunications",
+      "image": "ruping-cen.jpg",
+      "tag": "assign-me",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/RuPingCen",
+        "linkedin": "undefined",
+        "website": "https://blog.csdn.net/crp997576280?type=blog"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "pengwei-wang",
+      "name": "王鹏伟",
+      "bio": "北京智源人工智能研究院具身智能大模型负责人、目前主要负责具身大脑大模型RoboBrain以及大小脑框架RoboOS，研究方向是具身智能、多模态大模型、深度学习、自然语言处理和机器学习等方向，曾就职于阿里巴巴达摩院以及快手科技大模型中台部门，主要负责大规模语音语义一体化等多模态交互系统以及多模态预训练项目，具有丰富的多模态大模型、文本大模型以及机器智能等产学经验。",
+      "role": "身智能大模型负责人",
+      "org": "北京智源人工智能研究院",
+      "roleOrg": "身智能大模型负责人 at 北京智源人工智能研究院",
+      "image": "pengwei-wang.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jingya-huang",
+      "name": "Jingya Huang",
+      "bio": "I’m a machine learning engineer at Hugging Face and a core developer of *Optimum*, the extension library of Hugging Face’s *Transformers*. At Hugging Face, I focus on accelerating model training and efficient deployment, as well as integrating the Hugging Face open-source ecosystem with emerging AI hardware accelerators.",
+      "role": "Machine Learning Engineer",
+      "org": "Hugging Face",
+      "roleOrg": "Machine Learning Engineer at Hugging Face",
+      "image": "jingya-huang.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/Jhuaplin",
+        "github": "https://github.com/JingyaHuang",
+        "linkedin": "https://www.linkedin.com/in/jingya-huang-96158b15b/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "kaichao-you",
+      "name": "Kaichao You",
+      "bio": "Kaichao gets Ph.D. degree from Tsinghua University, and has been working on the vLLM project since his visit to UC Berkeley in 2024. He serves as a core maintainer in the vLLM project, working on the distributed inference architecture of vLLM, torch.compile integration of vLLM, open-source collaboration, and various aspects.",
+      "role": "Core Maintainer",
+      "org": "vLLM",
+      "roleOrg": "Core Maintainer at vLLM",
+      "image": "kaichao-you.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/KaichaoYou",
+        "github": "https://github.com/youkaichao",
+        "linkedin": "https://www.linkedin.com/in/youkaichao/",
+        "website": "https://youkaichao.github.io/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "tao-li",
+      "name": "tao li",
+      "bio": "I'm a software engineer at Shenkaihong. Currently, I serve as the main developer for the OpenHarmony open-source robotics system project.",
+      "role": "Software Engineer",
+      "org": "Shenzhen Kaihong Digital Industry Development Co., Ltd.",
+      "roleOrg": "Software Engineer at Shenzhen Kaihong Digital Industry Development Co., Ltd.",
+      "image": "tao-li.jpg",
+      "tag": "assign-me",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yunpeng-yin",
+      "name": "尹云鹏",
+      "bio": "openloong控制框架开发者",
+      "role": "运控算法与框架负责人",
+      "org": "人形机器人上海有限公司",
+      "roleOrg": "运控算法与框架负责人 at 人形机器人上海有限公司",
+      "image": "yunpeng-yin.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "cen-ming",
+      "name": "Cen Ming",
+      "bio": "Cen Ming received the Ph.D. degree in optical engineering from Graduate School of the Chinese Academy of Sciences, in 2006.\r\nHe is currently a professor at the Chongqing University of Posts and Telecommunications. During his career, he worked as a software system analyst and deputy director of Automotive Electronics &Embedded System Research Center.  His research interests include information fusion, multi-target tracking, autonomous driving, and intelligent robot.",
+      "role": "professor ",
+      "org": "Chongqing University of Posts and Telecommunications",
+      "roleOrg": "professor  at Chongqing University of Posts and Telecommunications",
+      "image": "cen-ming.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    }
+  ]
 }
