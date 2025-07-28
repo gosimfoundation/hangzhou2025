@@ -11,9 +11,9 @@ import GetTickets from "components/GetTickets.astro";
 import VenueInfo from "components/VenueInfo.astro";
 import TextAndSponsors from "components/TextAndSponsors.astro";
 import TextAndImageReverse from "components/TextAndImageReverse.astro";
-import FeaturedSpeakers from "components/FeaturedSpeakers.astro"
+import FeaturedSpeakers from "components/FeaturedSpeakers.astro";
 import Timeline from "components/Timeline.astro";
-import Marquee from "components/Marquee.astro"
+import Marquee from "components/Marquee.astro";
 
 // Images
 import Placeholder1 from "images/homepage/stats1.jpeg";
@@ -157,7 +157,6 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     }}
   />
 
-
   <TextAndImageReverse
     id="proposals"
     title="Call for Proposals"
@@ -294,11 +293,15 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
-
   <GetTickets
-    title="Join the open-source revolution!"
+    title="Grab your GOSIM Hangzhou ticket"
     location="Hangzhou, China"
     date="September 13-14, 2025"
     text="Secure your spot today at GOSIM Hangzhou 2025. Collaborate with innovators, engage with industry pioneers, and be part of shaping the future of open-source technology."
+    ctaButton={{
+      text: "Get tickets",
+      link: "/tickets",
+      openInNewTab: false,
+    }}
   />
 </Layout>
