@@ -97,23 +97,24 @@ const {
     </div>
   </div>
 </div>
-<section
-  class="section"
-  data-theme-section="light"
-  data-bg-section="lightgray"
->
-<div class="container">
-  <OpenStreetMap
-    latitude={30.172599}
-    longitude={120.102973}
-    zoom={11}
-    markerTitle={programTitle2}
-    height="350px"
-  />
-</div>
+<section class="section" data-theme-section="light" data-bg-section="light">
+  <div class="container map-container">
+    <OpenStreetMap
+      latitude={30.172599}
+      longitude={120.102973}
+      zoom={11}
+      markerTitle={programTitle2}
+      height="350px"
+    />
+  </div>
 </section>
 
 <style>
+  .map-container {
+    z-index: 0;
+    position: relative;
+  }
+
   .section-program-overview {
     padding: 4rem 0;
   }
