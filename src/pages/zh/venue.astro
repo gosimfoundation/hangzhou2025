@@ -3,11 +3,20 @@ import Layout from '../../layouts/LayoutLandingZh.astro';
 import VenueInfo from '../../components/VenueInfo.astro';
 ---
 
-<Layout title="会场信息 – GOSIM Hangzhou 2025">
-  <main>
+
+<Layout title="会议地址 – GOSIM Hangzhou 2025" description="Information about the venue for GOSIM Hangzhou 2025">
+  <section
+    class="section speaker-detail-header"
+    data-theme-section="light"
+    data-bg-section="light"
+  >
     <div class="container">
-      <h1>会场信息</h1>
-      <VenueInfo />
+      <h1>会议地址</h1>
+      <VenueInfo
+        title = "杭州白金汉爵酒店";
+        location = "浙江省杭州市西湖区珊瑚沙东路9号";
+        image="/images/homepage/杭州白金汉爵酒店.jpg"
+      />
     </div>
-  </main>
+  </section>
 </Layout>
