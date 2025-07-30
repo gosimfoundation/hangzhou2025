@@ -2,9 +2,6 @@
 // Packages
 import { Picture } from "astro:assets";
 
-// Components
-import OpenStreetMap from "components/OpenStreetMap.astro";
-
 // Images
 import why0 from "/public/images/venue/venue1.jpg";
 import why2 from "/public/images/venue/venue2.jpg";
@@ -97,24 +94,8 @@ const {
     </div>
   </div>
 </div>
-<section class="section" data-theme-section="light" data-bg-section="light">
-  <div class="container map-container">
-    <OpenStreetMap
-      latitude={30.172599}
-      longitude={120.102973}
-      zoom={11}
-      markerTitle={[programTitle, programTitle2]}
-      height="350px"
-    />
-  </div>
-</section>
 
 <style>
-  .map-container {
-    z-index: 0;
-    position: relative;
-  }
-
   .section-program-overview {
     padding: 4rem 0;
   }
@@ -145,32 +126,14 @@ const {
     margin-bottom: 1.5rem;
   }
   .program-description-container {
-    background: linear-gradient(
-      45deg,
-      var(--color-primary),
-      var(--color-secondary),
-      var(--color-primary)
-    );
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
     margin-top: 3rem;
     margin-bottom: 1rem;
-    padding: 20px;
+    padding-left: 20px;
     position: relative;
-  }
-
-  .program-description-container::before {
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    right: 2px;
-    bottom: 2px;
-    background: rgb(249 244 220);
-    border-radius: 8px;
-    z-index: 0;
+    border-left: 2px solid var(--color-primary);
   }
 
   .program-description-container > * {

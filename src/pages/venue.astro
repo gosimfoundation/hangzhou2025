@@ -3,6 +3,7 @@ import VenueInfo from "../components/VenueDetails.astro";
 import Layout from "layouts/LayoutLanding.astro";
 import HeroText from "components/HeroText.astro";
 import GetTickets from "components/GetTickets.astro";
+import LocationConnectivity from "components/LocationConnectivity.astro";
 ---
 
 <Layout
@@ -15,6 +16,8 @@ import GetTickets from "components/GetTickets.astro";
   <section class="section" data-theme-section="light" data-bg-section="light">
     <VenueInfo />
   </section>
+    <LocationConnectivity />
+
   <GetTickets
     title="Grab your GOSIM Hangzhou ticket"
     location="Hangzhou, China"
