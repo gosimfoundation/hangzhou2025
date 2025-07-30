@@ -1,22 +1,30 @@
 ---
-import Layout from '../../layouts/LayoutLandingZh.astro';
-import VenueInfo from '../../components/VenueInfo.astro';
+import VenueInfo from "components/VenueDetailsZh.astro";
+import Layout from "layouts/LayoutLandingZh.astro";
+import HeroText from "components/HeroText.astro";
+import GetTickets from "components/GetTickets.astro";
 ---
 
+<Layout
+  title="会议地点 – GOSIM Hangzhou 2025"
+  description="Information about the venue for GOSIM Hangzhou 2025"
+  navBackground="lightgray"
+>
+  <HeroText title="会议地点" />
 
-<Layout title="会议地址 – GOSIM Hangzhou 2025" description="Information about the venue for GOSIM Hangzhou 2025">
-  <section
-    class="section speaker-detail-header"
-    data-theme-section="light"
-    data-bg-section="light"
-  >
-    <div class="container">
-      <h1>会议地址</h1>
-      <VenueInfo
-        title = "杭州白金汉爵酒店";
-        location = "浙江省杭州市西湖区珊瑚沙东路9号";
-        image="/images/homepage/杭州白金汉爵酒店.jpg"
-      />
-    </div>
+  <section class="section" data-theme-section="light" data-bg-section="light">
+    <VenueInfo />
   </section>
+
+  <GetTickets
+    title="获取您的 GOSIM Hangzhou 2025 门票"
+    location="杭州, 浙江"
+    date="2025年9月13-14日"
+    text="立即预定您在 GOSIM Hangzhou 2025 的席位。与创新者合作，与行业先驱交流，并成为塑造开源技术未来的一部分。"
+    ctaButton={{
+      text: "获取门票",
+      link: "/tickets",
+      openInNewTab: false,
+    }}
+  />
 </Layout>

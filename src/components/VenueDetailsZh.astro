@@ -15,9 +15,7 @@ interface Props {
   introTitle?: string;
   introText?: string;
   programTitle?: string;
-  programTitle2?: string;
   programDescription?: string;
-  programDescription2?: string;
   finalistText?: string;
   ctaText?: string;
   ctaLink?: string;
@@ -28,11 +26,9 @@ interface Props {
 }
 
 const {
-  programTitle = "Hangzhou Platinum Hanjue Hotel",
-  programTitle2 = "杭州白金汉爵酒店",
-  programDescription = "No. 9, Shanshadong Road, Xihu District, Hangzhou City, Zhejiang Province",
-  programDescription2 = "浙江省杭州市西湖区珊瑚沙东路9号",
-  finalistText = "Located in Hangzhou’s scenic Xihu District near West Lake, the Hangzhou Platinum Hanjue Hotel is a premier venue for conferences and events. Spanning 170,000 m² with over 1,100 upscale guest rooms, it features 16 multifunctional banquet halls—including a grand 3,800 m² ballroom with 11-meter ceilings—capable of hosting up to 5,000 guests. The hotel offers full business amenities, onsite dining, ample parking, and convenient access to local landmarks, making it an ideal choice for both domestic and international gatherings.",
+  programTitle = "杭州白金汉爵酒店",
+  programDescription = "浙江省杭州市西湖区珊瑚沙东路9号",
+  finalistText = "酒店坐落于杭州风景优美的西湖区，毗邻西湖，杭州铂金汉爵酒店是举办会议和活动的绝佳场所。酒店占地17万平方米，拥有1100余间高档客房，设有16个多功能宴会厅，其中包括一个3800平方米、层高11米的宏伟宴会厅，可容纳多达5000位宾客。酒店提供完善的商务设施、内部餐饮、充足的停车位，以及前往当地地标的便利交通，是举办国内和国际聚会的理想选择。",
   images = [
     { src: why0, alt: "GOSIM Hangzhou Spotlight program highlight" },
     { src: why2, alt: "GOSIM Hangzhou Spotlight project showcase" },
@@ -47,10 +43,8 @@ const {
   <div class="row program-grid">
     <div class="col">
       <h2>{programTitle}</h2>
-      <h2 class="program-title2">{programTitle2}</h2>
       <div class="program-description-container">
         <p class="program-description">{programDescription}</p>
-        <p class="program-description">{programDescription2}</p>
       </div>
       <p class="finalist-text">
         {finalistText}
@@ -103,8 +97,8 @@ const {
       latitude={30.172599}
       longitude={120.102973}
       zoom={11}
-      markerTitle={[programTitle, programTitle2]}
       height="350px"
+      markerTitle="杭州白金汉爵酒店"
     />
   </div>
 </section>

@@ -1,0 +1,118 @@
+{
+  "categories": [
+    {
+      "name": "All",
+      "id": "all"
+    },
+    {
+      "name": "BAAI Briton Workshop",
+      "id": "baai-triton-workshop"
+    },
+    {
+      "name": "Cangjie Workshop",
+      "id": "cangjie-workshop"
+    },
+    {
+      "name": "Dora Workshop",
+      "id": "dora-workshop"
+    },
+    {
+      "name": "GDC / OpenWallet Workshop",
+      "id": "gdc-openwallet-workshop"
+    },
+    {
+      "name": "SGLang Workshop",
+      "id": "sglang-workshop"
+    }
+  ],
+  "speakers": [
+    {
+      "id": "yin-zhang",
+      "name": "Yin Zhang",
+      "bio": "Yin Zhang is an active proponent of computer science (CS) and software engineering (SE) curriculum reform in traditional universities. He is committed to integrating various CS/SE courses using rich technical resources such as Cangjie programming language, modern application development frameworks, MVVM + IService architecture patterns, microservice reference architectures, and artificial intelligence services, to design highly integrated CS/SE education curricula. He has contributed a series of free online courses, such as \"Cangjie Community Software Engineering,\" to the technical community, demonstrating the potential and advantages of integrating cutting-edge technologies into traditional university CS/SE curricula. He also organized the student open-source community \"Cangjie Interest Group\" at the Software School of Northeastern University, contributing a series of open-source projects to the Cangjie community and incorporating these projects into courses, promoting the close integration of course content with the open-source community. In his future work, he will continue to introduce rich Huawei technologies such as continuous integration, containerization, and large language models into courses to help students better understand modern development technologies.",
+      "role": "Associate Professor",
+      "org": "Northeastern University",
+      "roleOrg": "Associate Professor at Northeastern University",
+      "image": "yin-zhang.png",
+      "tag": "cangjie-workshop",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false,
+      "title": "Sharing on Cangjie's Teaching Practices in University Open Source Software Engineering",
+      "abstract": "He also organized the student open-source community “Cangjie Interest Group” at the Software School of Northeastern University, contributing a series of open-source projects to the Cangjie community and incorporating these projects into courses, promoting the close integration of course content with the open-source community.",
+      "language": "Chinese"
+    },
+    {
+      "id": "jingrun-wu",
+      "name": "Jingrun Wu",
+      "bio": "Server Application Architect at Beijing Chulian Technology Co., Ltd.",
+      "role": "Server Application Architect",
+      "org": "Beijing Chulian Technology Co., Ltd.",
+      "roleOrg": "Server Application Architect at Beijing Chulian Technology Co., Ltd.",
+      "image": "jingrun-wu.png",
+      "tag": "cangjie-workshop",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false,
+      "title": "Development Practice of Fountain: A Cangjie-based Server Application Suite",
+      "abstract": "Fountain: A Cangjie Server Application Development Suite. Topic introduction: 1. Deep utilization of Cangjie language features. 2. Organic combination of macros and annotations. 3. Simple initialization methods. 4. Various tool APIs for server development.",
+      "language": "Chinese"
+    },
+    {
+      "id": "xuezhi-wang",
+      "name": "Xuezhi Wang",
+      "bio": "Wang Xuezhi, Director of Cangjie Programming Language Ecosystem and Industry Development at Huawei",
+      "role": "Director of Cangjie Programming Language Ecosystem and Industry Development",
+      "org": "Huawei",
+      "roleOrg": "Director of Cangjie Programming Language Ecosystem and Industry Development at Huawei",
+      "image": "xuezhi-wang.jpg",
+      "tag": "cangjie-workshop",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false,
+      "title": "Introduction to the Progress of Cangjie Programming Language Ecosystem Construction",
+      "abstract": "Overall progress of the Cangjie programming language ecosystem.",
+      "language": "Chinese"
+    },
+    {
+      "id": "shangming-cai",
+      "name": "Shangming Cai",
+      "bio": "Shangming Cai received the Ph.D. degree in computer science from the Department of Computer Science and Technology, Tsinghua University, China, in 2022. He is currently an Engineer and Researcher with Alibaba Cloud Computing and an active contributor to open-source LLM projects such as SGLang, Mooncake, vLLM. His main research interests include distributed machine learning training, large language models, efficient serving systems, and big data analytics.",
+      "role": "Senior Engineer",
+      "org": "Alibaba Cloud",
+      "roleOrg": "Senior Engineer at Alibaba Cloud",
+      "image": "shangming-cai.jpg",
+      "tag": "sglang-workshop",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false,
+      "title": "SGLang Prefill/Decode Disaggregation with Mooncake",
+      "abstract": "Large Language Model (LLM) inference comprises two distinct phases: Prefill and Decode. The Prefill phase is computation-intensive, processing the entire input sequence, while the Decode phase is memory-intensive, managing the Key-Value (KV) cache for token generation. Traditionally, these phases are handled within a unified engine, where combined scheduling of prefill and decode batches introduces inefficiencies. To address these challenges, we introduce Prefill and Decoding (PD) Disaggregation in SGLang, which enables tailored optimizations for each. This presentation will introduce the implementation of Mooncake backend in detail, which is also the first integrated and default PD disaggregation backend of sglang. In addition to explaining the overall process, this talk will also detail how PD disaggregation works with features such as DP attention and MTP, and how to achieve different TP sizes for PD. Moreover, this talk will also introduce some of the work we have done in fault tolerance to ensure stable operation in a production environment.",
+      "language": "English"
+    }
+  ]
+}

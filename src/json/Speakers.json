@@ -8,7 +8,7 @@
       "name": "AI Models & Infra",
       "id": "ai-models-infra"
     },
-        {
+    {
       "name": "Embodied AI",
       "id": "embodied-ai"
     },
@@ -21,8 +21,8 @@
       "id": "apps-agents"
     },
     {
-      "name": "GOSIM Spotlight",
-      "id": "spotlight"
+      "name": "AI Next",
+      "id": "ai-next"
     }
   ],
   "speakers": [
@@ -66,11 +66,11 @@
     },
     {
       "id": "gaowei-chang",
-      "name": "常高伟",
-      "bio": "常高伟，ANP开源技术社区发起人，W3C AI Agent protocol CG联合主席，AgentNetworkProtocol(ANP)是全球最早发布的开源智能体通信协议，ANP的目标是成为智能体互联网时代的HTTP，ANP的愿景是定义智能体之间的连接方式，为数十亿智能体构建一个开放、安全、高效的协作网络。",
-      "role": "发起人",
-      "org": "ANP开源技术社区",
-      "roleOrg": "发起人 at ANP开源技术社区",
+      "name": "Gaowei Chang",
+      "bio": "Gaowei Chang is the initiator of the ANP open-source technology community and co-chair of the W3C AI Agent Protocol CG. AgentNetworkProtocol (ANP) is the world's earliest open-source communication protocol for intelligent agents. ANP's goal is to become the HTTP of the intelligent agent internet era, and its vision is to define how agents connect, building an open, secure, and efficient collaborative network for billions of agents.",
+      "role": "Initiator",
+      "org": "ANP Open Source Technology Community",
+      "roleOrg": "Initiator at ANP Open Source Technology Community",
       "image": "gaowei-chang.jpg",
       "tag": "agentic-web",
       "socialLinks": {
@@ -85,11 +85,11 @@
     },
     {
       "id": "yunfei-zhang",
-      "name": "张云飞",
-      "bio": "中国电信智慧城市研究院副院长，中国电信首席专家，教授级高级工程师，国家级人才计划特聘专家，交通运输部中青年领军人才、国际公路交通科技领军人才，5G产业方阵副理事长，中国通信标准化协会物联网委员会副主席，曾任腾讯未来网络实验室主任，腾讯智慧交通首席科学家。提出泛V2X技术体系和实践，在业界形成广泛影响。在IETF 创立P2P流媒体协议（PPSP）工作组并担任主席，在IETF、ITU-T等发布10多个国际标准。获得中华杰出工程师青年奖、国家专利银奖、国家标准奖、上海市技术发明一等奖、上海市科技进步奖一等奖、深圳市科技进步一等奖、金桥奖个人奖、中国车联网杰出人物奖、IEEE ITSC智慧交通和车路协同双冠军等省部级以上奖励20多项。",
-      "role": "中国电信智慧城市研究院副院长，中国电信首席专家",
-      "org": "中电信数智科技有限公司",
-      "roleOrg": "中国电信智慧城市研究院副院长，中国电信首席专家 at 中电信数智科技有限公司",
+      "name": "Yunfei Zhang",
+      "bio": "Vice President of China Telecom's Smart City Research Institute, Chief Expert at China Telecom, professor-level senior engineer, and a distinguished expert in the National Talent Program. He is recognized as a young and middle-aged leading talent by the Ministry of Transport, an international leader in highway and transportation technology, vice-chairman of the 5G Industry Alliance, and vice-chairman of the IoT Committee of the China Communications Standards Association. Formerly, he was the Director of Tencent's Future Network Lab and Chief Scientist for Tencent's smart transportation initiatives. He proposed the pan-V2X technology framework and its practical applications, creating significant industry impact. He founded and chaired the P2P Streaming Protocol (PPSP) working group at the IETF and has published over 10 international standards through the IETF and ITU-T. He has received over 20 provincial and ministerial-level awards, including the Chinese Outstanding Engineer Youth Award, the National Patent Silver Award, the National Standard Award, First Prize in the Shanghai Technical Invention Awards, First Prize in the Shanghai Science and Technology Progress Awards, First Prize in the Shenzhen Science and Technology Progress Awards, the Jinqiao Award (Individual), the China Connected Vehicle Outstanding Figure Award, and dual championships at IEEE ITSC for Smart Transportation and Vehicle-Road-Collaboration.",
+      "role": "Vice President, China Telecom Smart City Research Institute; Chief Expert, China Telecom",
+      "org": "China Telecom Digital Intelligence Technology Co., Ltd.",
+      "roleOrg": "Vice President, China Telecom Smart City Research Institute; Chief Expert, China Telecom at China Telecom Digital Intelligence Technology Co., Ltd.",
       "image": "yunfei-zhang.jpeg",
       "tag": "assign-me",
       "socialLinks": {
@@ -237,7 +237,7 @@
     },
     {
       "id": "haichuan-chen",
-      "name": "陈海泉",
+      "name": "Haichuan Chen",
       "bio": "Developer at Volcano Engine and core contributor to the veRL project. Focus on agentic RL and cloud infrastructure.",
       "role": "Developer",
       "org": "ByteDance",
@@ -294,11 +294,11 @@
     },
     {
       "id": "pengwei-wang",
-      "name": "王鹏伟",
-      "bio": "北京智源人工智能研究院具身智能大模型负责人、目前主要负责具身大脑大模型RoboBrain以及大小脑框架RoboOS，研究方向是具身智能、多模态大模型、深度学习、自然语言处理和机器学习等方向，曾就职于阿里巴巴达摩院以及快手科技大模型中台部门，主要负责大规模语音语义一体化等多模态交互系统以及多模态预训练项目，具有丰富的多模态大模型、文本大模型以及机器智能等产学经验。",
-      "role": "身智能大模型负责人",
-      "org": "北京智源人工智能研究院",
-      "roleOrg": "身智能大模型负责人 at 北京智源人工智能研究院",
+      "name": "Pengwei Wang",
+      "bio": "Head of the Embodied AI Large Model at the Beijing Academy of Artificial Intelligence (BAAI). He currently leads the development of the embodied brain large model, RoboBrain, and the cerebellum-inspired framework, RoboOS. His research focuses on embodied intelligence, multimodal large models, deep learning, natural language processing, and machine learning. He previously worked at Alibaba's DAMO Academy and the Large Model Platform department at Kuaishou Technology, where he was responsible for large-scale, speech-semantic integrated multimodal interaction systems and multimodal pre-training projects. He possesses extensive academic and industrial experience in multimodal large models, text-based large models, and machine intelligence.",
+      "role": "Head of Embodied AI Large Model",
+      "org": "Beijing Academy of Artificial Intelligence",
+      "roleOrg": "Head of Embodied AI Large Model at Beijing Academy of Artificial Intelligence",
       "image": "pengwei-wang.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -351,7 +351,7 @@
     },
     {
       "id": "tao-li",
-      "name": "tao li",
+      "name": "Tao Li",
       "bio": "I'm a software engineer at Shenkaihong. Currently, I serve as the main developer for the OpenHarmony open-source robotics system project.",
       "role": "Software Engineer",
       "org": "Shenzhen Kaihong Digital Industry Development Co., Ltd.",
@@ -370,11 +370,11 @@
     },
     {
       "id": "yunpeng-yin",
-      "name": "尹云鹏",
-      "bio": "openloong控制框架开发者",
-      "role": "运控算法与框架负责人",
-      "org": "人形机器人上海有限公司",
-      "roleOrg": "运控算法与框架负责人 at 人形机器人上海有限公司",
+      "name": "Yunpeng Yin",
+      "bio": "Developer of the OpenLoong control framework.",
+      "role": "Head of Motion Control Algorithms and Framework",
+      "org": "Shanghai Humanoid Robot Co., Ltd.",
+      "roleOrg": "Head of Motion Control Algorithms and Framework at Shanghai Humanoid Robot Co., Ltd.",
       "image": "yunpeng-yin.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
