@@ -1,10 +1,10 @@
 ---
 // Components
-import Button from "components/Button.astro"
-import Logo from "./Logo.astro"
-import NotificationBar from "components/NotificationBar.astro"
+import Button from "components/Button.astro";
+import Logo from "./Logo.astro";
+import NotificationBar from "components/NotificationBar.astro";
 
-const hasNotificationBar = false // Set this to false when NotificationBar is removed or page will crash
+const hasNotificationBar = false; // Set this to false when NotificationBar is removed or page will crash
 
 const links = [
   // {
@@ -15,7 +15,7 @@ const links = [
     text: "Speakers",
     link: "/speakers",
   },
-    {
+  {
     text: "Workshops",
     link: "/workshops",
   },
@@ -52,11 +52,11 @@ const links = [
   //   text: "FAQ",
   //   link: "/faq/",
   // },
-]
+];
 
-const slug = Astro.url.pathname
-const isZhPath = slug.startsWith('/zh/')
-const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
+const slug = Astro.url.pathname;
+const isZhPath = slug.startsWith("/zh/");
+const switchPath = isZhPath ? slug.replace("/zh/", "/") : `/zh${slug}`;
 ---
 
 <header>
@@ -227,10 +227,22 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
       <div class="header-buttons">
         <div class="language-dropdown">
           <button class="language-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
               <circle cx="12" cy="12" r="10"></circle>
               <line x1="2" y1="12" x2="22" y2="12"></line>
-              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              <path
+                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+              ></path>
             </svg>
           </button>
           <div class="language-dropdown-content">
@@ -312,7 +324,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
     color: inherit;
     transition: color 0.3s ease;
   }
-  
+
   /* Ensure the globe icon inherits the text color */
   .language-btn svg {
     color: inherit;
@@ -325,7 +337,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
     position: absolute;
     background-color: #f9f9f9;
     min-width: 120px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 4px;
     right: 0;
@@ -359,6 +371,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
 
   .language-mobile-menu {
     display: flex;
+    justify-content: center;
     gap: 15px;
     padding: 10px 0;
   }
@@ -372,5 +385,12 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
   .language-item.active {
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  @media screen and (max-width: 1070px) {
+    .language-dropdown {
+      position: absolute;
+      left: 100px;
+    }
   }
 </style>
