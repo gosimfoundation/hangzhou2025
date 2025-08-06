@@ -25,8 +25,45 @@
       "id": "ai-next"
     }
   ],
-  
   "speakers": [
+    {
+      "id": "mehdi-snene",
+      "name": "Dr. Mehdi Snene",
+      "bio": "Mehdi Snene博士是联合国秘书长数字和新兴技术特使的高级顾问，也是联合国数字和新兴技术办公室的成员，负责领导人工智能能力建设、数字公共基础设施和新兴技术的全球倡议。他曾指导瑞士洛桑联邦理工学院（EPFL）耗资10亿欧元的“人类大脑计划”，推动神经形态计算和大脑模拟的发展，并曾担任HealthAI的首席人工智能官，负责监督人工智能在医疗领域的战略发展和部署。他曾是日内瓦大学的副教授，创立并领导了一个专注于人工智能、神经科学和高性能计算的研究实验室。",
+      "role": "联合国秘书长数字和新兴技术特使高级顾问",
+      "org": "联合国数字和新兴技术办公室",
+      "roleOrg": "高级顾问, 联合国数字和新兴技术办公室",
+      "image": "mehdi-snene.png",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "florian-hnicke",
+      "name": "Florian Hönicke",
+      "bio": "Florian 在人工智能领域拥有超过10年的经验，曾在 Axel-Springer、德勤和 SoundCloud 工作。他作为 Jina AI 的创始工程师，快速构建人工智能解决方案的原型。他的专业领域是智能体搜索和合成数据生成。Florian 还担任人工智能政策顾问，向欧洲议会议员提供解释和见解，以增强他们对人工智能的理解。",
+      "role": "创始工程师",
+      "org": "Jina AI",
+      "roleOrg": "创始工程师 @ Jina AI",
+      "image": "florian-hnicke.png",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/florianhoenicke",
+        "github": "https://github.com/florian-hoenicke",
+        "linkedin": "https://www.linkedin.com/in/florian-h%C3%B6nicke-b902b6aa/",
+        "website": "https://jina.ai/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
     {
       "id": "aurlienmorgan-claudon",
       "name": "Aurélien-Morgan CLAUDON",
@@ -47,14 +84,33 @@
       "draft": false
     },
     {
+      "id": "ruoyu-ying",
+      "name": "Ruoyu Ying",
+      "bio": "应偌玉是英特尔STG部门的云软件工程师。她曾在不同社区从事ONAP、网络、服务网格和机密计算方面的工作。目前，她的主要工作重点之一是在云原生基础设施上实现创成式AI。她还参与了边缘计算白皮书和书籍的撰写，并随后在OpenInfra和KubeCon峰会上成功发表了多次演讲。",
+      "role": "云软件工程师",
+      "org": "Intel",
+      "roleOrg": "云软件工程师 @ Intel",
+      "image": "ruoyu-ying.jpg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
       "id": "shiwei-liu",
       "name": "Shiwei Liu",
-      "bio": "刘诗薇（Shiwei Liu）是牛津大学的英国皇家学会牛顿国际研究员。他曾是德克萨斯大学奥斯汀分校的博士后研究员。他于2022年以优异成绩获得埃因霍温理工大学的博士学位。他的研究目标是利用、理解和扩展神经网络中低维性在可扩展和高效人工智能中的作用。刘博士曾获得阿卜杜拉国王科技大学（KAUST）和简约与学习会议（CPAL）颁发的两项新星奖。他的博士论文获得了2023年欧洲信息学最佳博士论文奖。",
+      "bio": "刘士玮是牛津大学的英国皇家学会牛顿国际研究员。他之前在德克萨斯大学奥斯汀分校担任博士后研究员。他于2022年以优等成绩获得埃因霍温理工大学博士学位。他的研究目标是利用、理解和扩展神经网络中低维性的作用，以实现可扩展和高效的人工智能。刘博士曾获得阿卜杜拉国王科技大学（KAUST）和简约与学习会议（CPAL）颁发的两项新星奖。他的博士论文获得了2023年欧洲信息学最佳博士论文奖。",
       "role": "牛顿国际研究员",
       "org": "牛津大学",
       "roleOrg": "牛顿国际研究员 @ 牛津大学",
       "image": "shiwei-liu.jpg",
-      "tag": "ai-models-infra",
+      "tag": "ai-next",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -66,13 +122,13 @@
       "draft": false
     },
     {
-      "id": "gaowei-chang",
+      "id": "speaker-86e177b7",
       "name": "常高伟",
-      "bio": "常高伟，ANP开源技术社区发起人，W3C AI Agent protocol CG联合主席。AgentNetworkProtocol(ANP)是全球最早发布的开源智能体通信协议。ANP的目标是成为智能体互联网时代的HTTP，其愿景是定义智能体之间的连接方式，为数十亿智能体构建一个开放、安全、高效的协作网络。",
+      "bio": "常高伟，ANP开源技术社区发起人，W3C AI Agent protocol CG联合主席，AgentNetworkProtocol(ANP)是全球最早发布的开源智能体通信协议，ANP的目标是成为智能体互联网时代的HTTP，ANP的愿景是定义智能体之间的连接方式，为数十亿智能体构建一个开放、安全、高效的协作网络。",
       "role": "发起人",
       "org": "ANP开源技术社区",
       "roleOrg": "发起人 @ ANP开源技术社区",
-      "image": "gaowei-chang.jpg",
+      "image": "speaker-86e177b7.jpg",
       "tag": "agentic-web",
       "socialLinks": {
         "mastodon": "undefined",
@@ -85,14 +141,14 @@
       "draft": false
     },
     {
-      "id": "yunfei-zhang",
+      "id": "speaker-e580ca69",
       "name": "张云飞",
-      "bio": "中国电信智慧城市研究院副院长，中国电信首席专家，教授级高级工程师，国家级人才计划特聘专家。他被交通运输部认定为中青年领军人才、国际公路交通科技领军人才，担任5G产业方阵副理事长，以及中国通信标准化协会物联网委员会副主席。曾任腾讯未来网络实验室主任、腾讯智慧交通首席科学家。他提出的泛V2X技术体系及其实践，在业界产生了广泛影响。他在IETF创立并担任P2P流媒体协议（PPSP）工作组主席，并通过IETF和ITU-T等组织发布了超过10项国际标准。他荣获超过20项省部级以上奖励，包括中华杰出工程师青年奖、国家专利银奖、国家标准奖、上海市技术发明一等奖、上海市科技进步一等奖、深圳市科技进步一等奖、金桥奖（个人）、中国车联网杰出人物奖，以及IEEE ITSC智慧交通与车路协同双料冠军。",
+      "bio": "中国电信智慧城市研究院副院长，中国电信首席专家，教授级高级工程师，国家级人才计划特聘专家，交通运输部中青年领军人才、国际公路交通科技领军人才，5G产业方阵副理事长，中国通信标准化协会物联网委员会副主席，曾任腾讯未来网络实验室主任，腾讯智慧交通首席科学家。提出泛V2X技术体系和实践，在业界形成广泛影响。在IETF 创立P2P流媒体协议（PPSP）工作组并担任主席，在IETF、ITU-T等发布10多个国际标准。获得中华杰出工程师青年奖、国家专利银奖、国家标准奖、上海市技术发明一等奖、上海市科技进步奖一等奖、深圳市科技进步一等奖、金桥奖个人奖、中国车联网杰出人物奖、IEEE ITSC智慧交通和车路协同双冠军等省部级以上奖励20多项。",
       "role": "中国电信智慧城市研究院副院长，中国电信首席专家",
       "org": "中电信数智科技有限公司",
       "roleOrg": "中国电信智慧城市研究院副院长，中国电信首席专家 @ 中电信数智科技有限公司",
-      "image": "yunfei-zhang.jpeg",
-      "tag": "assign-me",
+      "image": "speaker-e580ca69.jpeg",
+      "tag": "agentic-web",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -104,12 +160,31 @@
       "draft": false
     },
     {
+      "id": "xiaohu-zhu",
+      "name": "Xiaohu Zhu",
+      "bio": "一个安全的AGI研究员",
+      "role": "创始人",
+      "org": "安全AGI中心",
+      "roleOrg": "创始人 @ 安全AGI中心",
+      "image": "xiaohu-zhu.png",
+      "tag": "forum-aivision",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "@neil_csagi",
+        "github": "http://github.com/tigerneil/",
+        "linkedin": "https://www.linkedin.com/in/xiaohu-zhu-97686637/",
+        "website": "https://xiaohuzhu.xyz"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
       "id": "matt-white",
       "name": "Matt White",
-      "bio": "Matt White是PyTorch基金会的执行董事和Linux基金会的人工智能总经理，同时也是LF AI & Data基金会下属的Generative AI Commons的主任。他在电信、媒体和游戏领域的AI研究、标准和应用方面拥有近30年的经验，自2012年以来，他专注于机器学习、模拟和多感官学习。他曾共同创立了开放元宇宙基金会，担任元宇宙标准论坛主席，并共同组织了硅谷生成式AI论文阅读小组和GenAI Collective。",
+      "bio": "Matt White 是 PyTorch 基金会的执行董事和 Linux 基金会的人工智能总经理，同时也是 LF AI & Data 基金会下 Generative AI Commons 的主管。他在电信、媒体和游戏领域的AI研究、标准和应用方面拥有近30年的经验，自2012年以来专注于机器学习、模拟和多感官学习。他之前共同创立了开放元宇宙基金会，担任元宇宙标准论坛主席，并共同组织了硅谷生成式AI论文阅读小组和GenAI Collective。",
       "role": "人工智能总经理/执行董事",
-      "org": "Linux基金会/PyTorch基金会",
-      "roleOrg": "人工智能总经理/执行董事 @ Linux基金会/PyTorch基金会",
+      "org": "Linux 基金会/PyTorch 基金会",
+      "roleOrg": "人工智能总经理/执行董事 @ Linux 基金会/PyTorch 基金会",
       "image": "matt-white.png",
       "tag": "undefined",
       "socialLinks": {
@@ -125,12 +200,12 @@
     {
       "id": "zhiyu-li",
       "name": "Zhiyu Li",
-      "bio": "李治宇博士，幂方（上海）科技有限公司联合创始人兼首席技术官，IAAR研究员，上海交通大学SAI产业青年科学家。他的研究重点是大型语言模型（LLM）和生成式AI，特别是在记忆增强智能和GAI基础设施方面。李博士曾领导阿里巴巴和小红书的核心AI团队，推动算法创新，创造了数十亿的商业收入。在幂方科技，他领导了全球首个用于LLM的内存操作系统（MemOS）。他在顶级AI会议（包括Patterns (Cell Press), ICLR, ACL, 和 AAAI）上发表了40多篇论文，被引用超过1000次，并拥有10多项专利。他的工作曾作为《麻省理工科技评论》的封面故事进行报道。",
-      "role": "首席技术官",
-      "org": "幂方（上海）科技有限公司",
-      "roleOrg": "首席技术官 @ 幂方（上海）科技有限公司",
+      "bio": "李直昱博士是忆异步（上海）科技有限公司的联合创始人兼CTO，IAAR研究员，以及上海交通大学SAI的行业青年科学家。他的研究重点是大型语言模型（LLM）和生成式人工智能，特别是在内存增强智能和GAI基础设施方面。李博士之前曾在阿里巴巴和小红书领导核心AI团队，推动算法创新，创造了数十亿的商业收入。在忆异步，他领导开发了全球首个用于LLM的内存操作系统（MemOS）。他在顶级AI会议（包括Patterns (Cell Press)、ICLR、ACL和AAAI）上发表了40多篇论文，被引用超过1000次，并拥有10多项专利。他的工作曾作为封面故事被《麻省理工科技评论》报道。",
+      "role": "CTO",
+      "org": "忆异步（上海）科技有限公司",
+      "roleOrg": "CTO @ 忆异步（上海）科技有限公司",
       "image": "zhiyu-li.jpg",
-      "tag": "ai-next",
+      "tag": "apps-agents",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -144,7 +219,7 @@
     {
       "id": "xavier",
       "name": "Xavier",
-      "bio": "1ms.ai的创始人，这是一家旨在构建AI领域“登月计划”级开源项目的初创公司。\n\n其中一个项目是dora-rs，这是一个突破性的中间件，能够以业界顶尖的性能在AI模型、传感器和执行器之间共享数据。\n\n这使得构建跨越文本、音频、视觉和动作等多种模态的复杂应用成为可能。我们已经用它创建了非常复杂的机器人演示！",
+      "bio": "1ms.ai的创始人，这是一家旨在构建AI领域登月级开源项目的初创公司。\n\n其中一个项目是dora-rs，这是一个开创性的中间件，能够以最先进的性能在AI模型、传感器和执行器之间共享数据。\n\n这使得构建跨模态的非常复杂的应用成为可能：文本、音频、视觉和动作。这也使我们能够创造出非常复杂的机器人演示！",
       "role": "创始人",
       "org": "1ms.ai",
       "roleOrg": "创始人 @ 1ms.ai",
@@ -161,20 +236,20 @@
       "draft": false
     },
     {
-      "id": "yikai-zhu",
-      "name": "Yikai Zhu",
-      "bio": "SGLang提交者，曾在QWen团队从事预训练基础设施工作。",
-      "role": "软件工程师，模型性能",
-      "org": "Baseten",
-      "roleOrg": "软件工程师，模型性能 @ Baseten",
-      "image": "yikai-zhu.jpg",
-      "tag": "ai-models-infra",
+      "id": "salim-nahle",
+      "name": "Salim Nahle",
+      "bio": "Salim Nahle博士是Efrei Paris的“数据与人工智能”项目经理和高管教育学术经理。他于2005年获得黎巴嫩大学电信和计算机科学工程学位，2006年获得巴黎第六大学（UPMC）计算机科学硕士学位，并于2009年获得索邦大学计算机科学博士学位。他的博士研究重点是使用Wi-Fi和WiMAX技术的无线网状网络，涉及调度、路由和生活质量问题。从2011年到2014年，他在GE医疗担任“CT Revolution”项目的软件工程师。2014年至2019年，他担任ECE网络安全和大数据部门负责人，创建了“大数据与分析”和“防御性网络安全”专业。如今，他作为项目经理在Efrei领导AI、数据和云领域的学术创新。他还为合作公司开发和部署继续教育和高管教育项目。",
+      "role": "“数据与人工智能”项目经理和高管教育学术经理",
+      "org": "Efrei Paris",
+      "roleOrg": "“数据与人工智能”项目经理和高管教育学术经理 @ Efrei Paris",
+      "image": "salim-nahle.jpg",
+      "tag": "forum-aivision",
       "socialLinks": {
         "mastodon": "undefined",
-        "twitter": "@zyksir995",
-        "github": "https://github.com/zyksir/",
-        "linkedin": "https://www.linkedin.com/in/zyksir?originalSubdomain=cn",
-        "website": "https://zyksir.github.io/"
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/salim-nahle-03672571/",
+        "website": "undefined"
       },
       "status": "Accept",
       "draft": false
@@ -182,12 +257,12 @@
     {
       "id": "jian-shi",
       "name": "Jian Shi",
-      "bio": "Jian Shi是Kornia AI的联合创始人，也是PyTorch中领先的计算机视觉框架Kornia库的核心维护者。通过Kornia AI，他致力于通过开放协作来推进和普及空间人工智能。他是阿卜杜拉国王科技大学（KAUST）的博士候选人，专注于生成模型和立体视觉。Jian曾在ICCV、ECCV和TPAMI等主要会议上发表论文。他曾在NEC实验室、香港中文大学和GE Power有过研究经历，其工作涵盖医学成像、激光雷达理解和生成式3D视觉。",
+      "bio": "施建是Kornia AI的联合创始人，也是PyTorch领先的计算机视觉框架Kornia库的核心维护者。在Kornia AI，他致力于通过开放协作来推进和普及空间人工智能。他是阿卜杜拉国王科技大学（KAUST）的博士候选人，专注于生成模型和立体视觉。施建曾在ICCV、ECCV和TPAMI等主要会议上发表论文。他曾在NEC实验室、香港中文大学和GE Power有过研究经验，其工作涵盖医学影像、激光雷达理解和生成式3D视觉。",
       "role": "联合创始人",
       "org": "Kornia AI",
       "roleOrg": "联合创始人 @ Kornia AI",
       "image": "jian-shi.jpg",
-      "tag": "apps-agents",
+      "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -201,10 +276,10 @@
     {
       "id": "edgar-riba",
       "name": "Edgar Riba",
-      "bio": "Edgar Riba博士在巴塞罗那自治大学（UAB）获得计算机科学博士学位，其博士论文将经典计算机视觉与深度学习在底层任务中相结合。他还拥有巴塞罗那加泰罗尼亚理工大学（UPC）的自动控制与机器人学硕士学位。\n\n他最近加入Bonsai Robotics担任主任研究工程师，领导专为教育和研究机器人设计的智能体AI及视觉-语言-动作模型和工具的研发工作。在此之前，Edgar曾在Farm-ng、LightningAI和Arraiy等初创公司构建自主系统流程，从导航堆栈、机器人驱动到边缘ML部署基础设施均有涉足。他的学术和研究背景包括在IRI-CSIC/UPC担任研究科学家超过一年，以及在Arraiy工作超过两年，专注于高级视觉和空间AI。\n\nEdgar是Kornia的创始人和项目负责人，这是一个用于PyTorch的可微计算机视觉库，在GitHub上拥有超过1万颗星标，每月下载量超过200万次。他还担任其非营利组织的主席，并是Kornia的谷歌编程之夏（GSoC）项目的管理员，指导学生并协调重大的开源贡献。\n\n作为一名敬业的社区建设者，Edgar还曾任职于OpenCV基金会指导委员会，指导GSoC参与者，并组织工作坊、黑客马拉松和会议演讲。他发表了八篇同行评审的出版物，包括Kornia的基础论文，专业地将经典计算机视觉、深度学习和现实世界机器人技术相结合，以提供稳健、可扩展的自主解决方案。",
-      "role": "主任研究工程师",
+      "bio": "Edgar Riba 博士在巴塞罗那自治大学（UAB）获得计算机科学博士学位，其论文将经典计算机视觉与深度学习相结合，用于低级任务。他还拥有巴塞罗那加泰罗尼亚理工大学（UPC）的自动控制与机器人学硕士学位。\n\n他最近加入 Bonsai Robotics 担任高级研究工程师，领导智能体AI以及专为教育和研究机器人设计的视觉-语言-动作模型和工具的开发。在此之前，Edgar曾在Farm-ng、LightningAI和Arraiy等初创公司构建自主系统，涵盖从导航堆栈和机器人驱动程序到边缘ML部署基础设施的各个方面。他的学术和研究背景包括在IRI-CSIC/UPC担任研究科学家超过一年，以及在Arraiy工作超过两年，专注于高级视觉和空间AI。\n\nEdgar是Kornia的创始人和项目负责人，这是一个用于PyTorch的可微计算机视觉库，在GitHub上拥有超过10,000颗星标，每月下载量超过200万次。他还担任其非营利组织的主席，并是Kornia的Google Summer of Code项目的管理员，指导学生并协调重大的开源贡献。\n\n作为一名敬业的社区建设者，Edgar还曾任OpenCV基金会指导委员会成员，指导Google Summer of Code的参与者，并组织研讨会、黑客马拉松和会议演讲。他发表了八篇同行评审的出版物，包括Kornia的基础论文，专业地将经典计算机视觉、深度学习和现实世界机器人技术相结合，提供强大、可扩展的自主解决方案。",
+      "role": "高级研究工程师",
       "org": "Bonsai Robotics",
-      "roleOrg": "主任研究工程师 @ Bonsai Robotics",
+      "roleOrg": "高级研究工程师 @ Bonsai Robotics",
       "image": "edgar-riba.jpeg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -220,7 +295,7 @@
     {
       "id": "sbastien-crozet",
       "name": "Sébastien Crozet",
-      "bio": "Sébastien Crozet从Rust编程语言的早期就对其情有独钟。他是Rust生态系统中多个流行开源库（包括nalgebra和Rapier）的创建者和维护者，这些库专注于线性代数、几何和物理学。他是Dimforge的创始人，致力于为跨平台科学计算和AI的未来做出贡献。",
+      "bio": "Sébastien Crozet 从 Rust 编程语言诞生之初就对其情有独钟。他是 Rust 生态系统中广受欢迎的开源库（包括 nalgebra 和 Rapier）的创建者和维护者，这些库专门用于线性代数、几何和物理学。他是 Dimforge 的创始人，专注于为跨平台科学计算和人工智能的未来做出贡献。",
       "role": "创始人",
       "org": "Dimforge",
       "roleOrg": "创始人 @ Dimforge",
@@ -237,13 +312,13 @@
       "draft": false
     },
     {
-      "id": "haichuan-chen",
+      "id": "speaker-37874bae",
       "name": "陈海泉",
-      "bio": "字节跳动火山引擎的开发者，veRL项目的核心贡献者。专注于智能体强化学习和云基础设施。",
+      "bio": "火山引擎开发者，veRL 项目核心贡献者。专注于智能体强化学习和云基础设施。",
       "role": "开发者",
       "org": "字节跳动",
       "roleOrg": "开发者 @ 字节跳动",
-      "image": "haichuan-chen.jpg",
+      "image": "speaker-37874bae.jpg",
       "tag": "ai-models-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -277,12 +352,12 @@
     {
       "id": "ruping-cen",
       "name": "Ruping Cen",
-      "bio": "岑如平博士，目前任职于重庆邮电大学自动化学院，研究方向为移动机器人定位导航及多传感器融合定位。基于其学术专长，他创建了开源项目MickRobot，从零开始设计了一个双臂人形机器人平台，涵盖了机械设计、硬件集成、感知/定位及导航控制系统。除了代码之外，他还撰写了记录开发过程的技术博客和教程，获得了超过110万的页面浏览量，显示出显著的社区影响力。",
+      "bio": "岑入平，博士，现就职于重庆邮电大学自动化学院，研究方向为移动机器人定位导航及多传感器融合定位。基于其学术专长，他创建了开源项目MickRobot，从零开始设计了一个双臂人形机器人平台，涵盖了机械设计、硬件集成、感知/定位和导航控制系统。除了代码，他还撰写了记录开发过程的技术博客和教程，获得了超过110万的页面浏览量，显示了其在社区中的巨大影响力。",
       "role": "博士",
       "org": "重庆邮电大学",
       "roleOrg": "博士 @ 重庆邮电大学",
       "image": "ruping-cen.jpg",
-      "tag": "assign-me",
+      "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -294,13 +369,13 @@
       "draft": false
     },
     {
-      "id": "pengwei-wang",
+      "id": "speaker-2d57e6a7",
       "name": "王鹏伟",
-      "bio": "北京智源人工智能研究院（BAAI）具身智能大模型负责人。他目前领导具身大脑大模型RoboBrain和小脑启发框架RoboOS的开发。他的研究方向包括具身智能、多模态大模型、深度学习、自然语言处理和机器学习。他曾就职于阿里巴巴达摩院和快手科技的大模型平台部门，负责大规模语音-语义一体化多模态交互系统和多模态预训练项目。他在多模态大模型、文本大模型和机器智能方面拥有丰富的产学研经验。",
+      "bio": "北京智源人工智能研究院具身智能大模型负责人、目前主要负责具身大脑大模型RoboBrain以及大小脑框架RoboOS，研究方向是具身智能、多模态大模型、深度学习、自然语言处理和机器学习等方向，曾就职于阿里巴巴达摩院以及快手科技大模型中台部门，主要负责大规模语音语义一体化等多模态交互系统以及多模态预训练项目，具有丰富的多模态大模型、文本大模型以及机器智能等产学经验。",
       "role": "具身智能大模型负责人",
       "org": "北京智源人工智能研究院",
       "roleOrg": "具身智能大模型负责人 @ 北京智源人工智能研究院",
-      "image": "pengwei-wang.jpg",
+      "image": "speaker-2d57e6a7.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
@@ -315,7 +390,7 @@
     {
       "id": "jingya-huang",
       "name": "Jingya Huang",
-      "bio": "我是Hugging Face的机器学习工程师，也是Hugging Face *Transformers* 扩展库 *Optimum* 的核心开发者。在Hugging Face，我专注于加速模型训练和高效部署，以及将Hugging Face开源生态系统与新兴的AI硬件加速器集成。",
+      "bio": "我是Hugging Face的机器学习工程师，也是Hugging Face Transformers扩展库Optimum的核心开发者。在Hugging Face，我专注于加速模型训练和高效部署，以及将Hugging Face开源生态系统与新兴的AI硬件加速器集成。",
       "role": "机器学习工程师",
       "org": "Hugging Face",
       "roleOrg": "机器学习工程师 @ Hugging Face",
@@ -334,7 +409,7 @@
     {
       "id": "kaichao-you",
       "name": "Kaichao You",
-      "bio": "游凯超从清华大学获得博士学位，自2024年访问加州大学伯克利分校以来，一直致力于vLLM项目。他作为vLLM项目的核心维护者，负责vLLM的分布式推理架构、vLLM的torch.compile集成、开源协作等多个方面的工作。",
+      "bio": "游凯超于清华大学获得博士学位，自2024年访问加州大学伯克利分校以来，一直致力于vLLM项目。他作为vLLM项目的核心维护者，负责vLLM的分布式推理架构、vLLM的torch.compile集成、开源协作等多个方面的工作。",
       "role": "核心维护者",
       "org": "vLLM",
       "roleOrg": "核心维护者 @ vLLM",
@@ -352,13 +427,13 @@
     },
     {
       "id": "tao-li",
-      "name": "Tao Li",
+      "name": "tao li",
       "bio": "我是深开鸿的软件工程师。目前，我担任OpenHarmony开源机器人系统项目的主要开发者。",
       "role": "软件工程师",
       "org": "深圳开鸿数字产业发展有限公司",
       "roleOrg": "软件工程师 @ 深圳开鸿数字产业发展有限公司",
       "image": "tao-li.jpg",
-      "tag": "assign-me",
+      "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -370,13 +445,13 @@
       "draft": false
     },
     {
-      "id": "yunpeng-yin",
+      "id": "speaker-fdf1fc9c",
       "name": "尹云鹏",
-      "bio": "OpenLoong（开龙）控制框架的开发者。",
+      "bio": "openloong控制框架开发者",
       "role": "运控算法与框架负责人",
-      "org": "人形机器人上海有限公司",
-      "roleOrg": "运控算法与框架负责人 @ 人形机器人上海有限公司",
-      "image": "yunpeng-yin.jpg",
+      "org": "人形机器人（上海）有限公司",
+      "roleOrg": "运控算法与框架负责人 @ 人形机器人（上海）有限公司",
+      "image": "speaker-fdf1fc9c.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
@@ -391,7 +466,7 @@
     {
       "id": "cen-ming",
       "name": "Cen Ming",
-      "bio": "岑明于2006年从中国科学院研究生院获得光学工程博士学位。\n他目前是重庆邮电大学的教授。在他的职业生涯中，他曾担任软件系统分析师和汽车电子与嵌入式系统研究中心副主任。他的研究兴趣包括信息融合、多目标跟踪、自动驾驶和智能机器人。",
+      "bio": "岑明于2006年获得中国科学院研究生院光学工程博士学位。\n他目前是重庆邮电大学的教授。在他的职业生涯中，他曾担任软件系统分析师和汽车电子与嵌入式系统研究中心副主任。他的研究兴趣包括信息融合、多目标跟踪、自动驾驶和智能机器人。",
       "role": "教授",
       "org": "重庆邮电大学",
       "roleOrg": "教授 @ 重庆邮电大学",
@@ -403,6 +478,234 @@
         "github": "undefined",
         "linkedin": "undefined",
         "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-da742ef2",
+      "name": "董鑫",
+      "bio": "2008-2017微软 技术leader 从事微软Azure企业云Dynamics365平台研发工作 2017- 华为技术有限公司 技术专家/产品总监 从事研发工具链，编程语言，IDE等核心基础软件研发工作。 在华为公司工作期间，先后作为首席技术专家和项目经理从事华为移动端AI研发工具，公司级AI研发平台，华为昇腾AI芯片工具链，鸿蒙OS工具链等相关工作。 2021年起负责华为编程语言和IDE基础软件的研发业务，并担任项目群总监，从事自主可控的编程语言及IDE开发工具的核心技术研发工作，对国产应用编程语言的技术规划，产品化，产业落地进展等工作出了重要的贡献",
+      "role": "华为中央软件院项目群总监",
+      "org": "华为",
+      "roleOrg": "华为中央软件院项目群总监 @ 华为",
+      "image": "speaker-da742ef2.jpg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "joaquin-salvachua",
+      "name": "Joaquin Salvachua",
+      "bio": "Joaquín Salvachúa是马德里理工大学电信学院电信系统工程系的教授。他是Gaia-X Hub España、FIWARE和BDVA的董事会成员，也是Gaia-X AISBL的积极贡献者。他积极参与ML-OPS、大数据架构、云计算、下一代互联网技术、网络科学和形式化方法的研究，并撰写了众多学术出版物。",
+      "role": "教授",
+      "org": "马德里理工大学",
+      "roleOrg": "教授 @ 马德里理工大学",
+      "image": "joaquin-salvachua.jpeg",
+      "tag": "open-for-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/jsalvachua",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/jsalvachua/",
+        "website": "https://portalcientifico.upm.es/es/ipublic/researcher/305315"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xuan-xia",
+      "name": "夏旋",
+      "bio": "夏旋，上海交通大学博士，现任深圳市人工智能与机器人研究院副研究员。他是国家自然科学基金项目负责人，2024年吴文俊人工智能科学技术奖科技进步奖获得者，深圳市高层次人才，深圳市龙岗区高层次人才。他的研究主要集中在具身智能、多模态学习、计算机视觉、缺陷检测和生成模型。他曾主持国家自然科学基金、广东省自然科学基金和中国博士后科学基金资助的项目。他还作为骨干参与了多项国家、省、市级基金项目以及多家企业的联合项目。他出版了一本专著，发表了二十多篇论文，并申请了十多项发明专利。",
+      "role": "副研究员",
+      "org": "深圳市人工智能与机器人研究院",
+      "roleOrg": "副研究员 @ 深圳市人工智能与机器人研究院",
+      "image": "xuan-xia.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jos-andrs-muoz-arcentales",
+      "name": "José Andrés Muñoz Arcentales",
+      "bio": "马德里理工大学副教授",
+      "role": "副教授",
+      "org": "马德里理工大学",
+      "roleOrg": "副教授 @ 马德里理工大学",
+      "image": "jos-andrs-muoz-arcentales.jpg",
+      "tag": "agentic-web",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "www.linkedin.com/in/anmunozx",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "guang-liu",
+      "name": "Guang Liu",
+      "bio": "刘光是北京人工智能研究院（BAAI）数据研究团队的技术负责人，他领导着OpenSeek计划。作为Aquila大语言模型（LLM）系列和Infinity-Instruct数据集家族的首席架构师，他目前的研究重点是DataAgent，利用创新的合成数据生成技术来优化下一代AI系统的训练效率。",
+      "role": "数据研究团队技术负责人",
+      "org": "BAAI",
+      "roleOrg": "数据研究团队技术负责人 @ BAAI",
+      "image": "guang-liu.jpeg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/ZacLiu123",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-14759e38",
+      "name": "刘南兵",
+      "bio": "饺子互动科技联合创始人，5ire.app 作者，中文写作社区 essay.ink 发起人。",
+      "role": "CTO",
+      "org": "四川饺子互动科技有限公司",
+      "roleOrg": "CTO @ 四川饺子互动科技有限公司",
+      "image": "speaker-14759e38.jpg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://twitter.com/1ronben",
+        "github": "https://github.com/nanbingxyz",
+        "linkedin": "https://linkedin.com/in/nanbing",
+        "website": "https://ironben.essay.ink"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-3281af60",
+      "name": "唯伟",
+      "bio": "毕业于中央美术学院，从事审美教育和科普",
+      "role": "讲师",
+      "org": "长沙有点艺思教育咨询科技有限公司",
+      "roleOrg": "讲师 @ 长沙有点艺思教育咨询科技有限公司",
+      "image": "speaker-3281af60.jpg",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "richard-reiner",
+      "name": "Richard REINER",
+      "bio": "我是一位连续创业家和公司建设者，曾有多次财富1000强公司的退出经历，也是一位全球领先的网络安全专家，曾在多家全球领先公司担任C级和副总裁职位。我活跃于高增长公司的执行、投资、导师和董事会成员，这些公司涉及网络安全、人工智能和物联网的交叉领域，在这些领域我已成功创建并退出了多家公司，并拥有多项专利。\n\n我是CC Stratus Capital的创始合伙人，这是一家专注于网络安全和人工智能的创新投资公司。\n\n我曾是dfuse / StreamingFast（领先的区块链大数据平台，被The Graph收购）的执行主席，以及Cybeats（物联网终端安全公司，被Relay Medical收购）的主席。我之前曾是英特尔安全集团安全身份的首席技术官，以及McAfee的安全身份副总裁。我曾是领先的数字身份公司PasswordBox的总裁，直至该公司被英特尔收购。我曾是全球云计算领导者Enomaly的董事长兼首席执行官，直至2011年Enomaly被收购；并是领先的网络安全公司Assurent的创始人、首席执行官和首席技术官，直至2006年被收购。\n\n我曾在多家领先的网络安全、云、人工智能和物联网公司的董事会和顾问委员会任职，如Autohost、Korbit AI、Shearwater Aerospace、Immunio、Elliptic Technologies、Virima、CloudeAssurance、Veracode、NetClarity、Virima和Fonolo。\n\n我经常被媒体引用，如《纽约时报》、CBS、NBC、《今日美国》、TechCrunch等，并拥有网络安全、大数据和人工智能领域的博士学位和多项专利。",
+      "role": "董事会成员和顾问",
+      "org": "Procero AI",
+      "roleOrg": "董事会成员和顾问 @ Procero AI",
+      "image": "richard-reiner.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/richardreiner/",
+        "website": "https://www.richardreiner.com/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yuxuan-zhang",
+      "name": "Yuxuan Zhang",
+      "bio": "智谱AI技术布道师",
+      "role": "技术布道师",
+      "org": "智谱AI",
+      "roleOrg": "技术布道师 @ 智谱AI",
+      "image": "yuxuan-zhang.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/zRzRzRzRzRzRzR",
+        "linkedin": "https://www.linkedin.com/in/yuxuan-zhang-86a124282/",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-cf20f23f",
+      "name": "张拳石",
+      "bio": "张拳石，上海交通大学电院计算机科学与工程系长聘副教授，博士生导师，入选国家级海外高层次人才引进计划，获ACM China新星奖。他于2014年获得日本东京大学博士学位，于2014-2018年在加州大学洛杉矶分校（UCLA）从事博士后研究。张拳石在神经网络可解释性方向取得了多项具有国际影响力的创新性成果。张拳石承担了TMLR的责任编辑，CCF-A类会议NeurIPS 2024的领域主席，IJCAI 2020和IJCAI 2021的可解释性方向的Tutorial，并先后担任了AAAI 2019, CVPR 2019, ICML 2021大会可解释性方向的分论坛主席。",
+      "role": "副教授",
+      "org": "上海交通大学",
+      "roleOrg": "副教授 @ 上海交通大学",
+      "image": "speaker-cf20f23f.jpg",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-af64a527",
+      "name": "白婷",
+      "bio": "白婷，北京邮电大学计算机学院副教授，专注于个性化推荐、大模型研究及应用，以第一或者通讯作者发表高水平学术论文40余篇，包括4篇最佳论文/最佳论文候选奖，相关研究成果应用于腾讯、小米等头部互联网公司。获得2020年中国中文信息学会“优秀博士学位论文奖”，2023年中国电子学会“科技进步一等奖”，2023年百度首届“全球AI 华人女性青年学者”，2024年中国科协青年托举人才。",
+      "role": "副教授",
+      "org": "北京邮电大学",
+      "roleOrg": "副教授 @ 北京邮电大学",
+      "image": "speaker-af64a527.jpg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jinwei-gu",
+      "name": "Jinwei Gu",
+      "bio": "顾金伟博士目前是英伟达的首席研究科学家和香港中文大学的兼职副教授，致力于生成式人工智能、世界模型以及计算机视觉、计算机图形学和机器学习等领域。他于2010年获得哥伦比亚大学计算机科学博士学位，并分别于2002年和2005年获得清华大学的学士和硕士学位。在英伟达，顾博士是Cosmos模型开发的技​​术负责人之一——这是一个多模态世界基础模型家族，专注于在机器人、自动驾驶和生成式人工智能领域实现实际应用。加入英伟达之前，他曾在SenseBrain担任研发执行总监，专注于利用新型图像传感器和成像系统进行移动计算摄影。他在顶级会议和期刊上发表了大量文章，并担任IEEE模式分析与机器智能汇刊（TPAMI）和IEEE计算成像汇刊（TCI）（2018-2023）的副主编，以及CVPR、NeurIPS、ICCV、ICCP和ECCV的领域主席，并组织了多个研讨会（MIPI、RichMediaGAI）。他自2018年起成为IEEE高级会员。他的研究工作已成功应用于许多产品，如NVIDIA-Cosmos、NVIDIA-CoPilot SDK、NVIDIA-DriveIX SDK，以及在许多旗舰手机中广泛使用的超分辨率、超级夜景、人像修复、RGBW解决方案等。",
+      "role": "首席研究科学家和技术负责人",
+      "org": "NVIDIA",
+      "roleOrg": "首席研究科学家和技术负责人 @ NVIDIA",
+      "image": "jinwei-gu.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": "www.gujinwei.org"
       },
       "status": "Accept",
       "draft": false

@@ -5,80 +5,28 @@
       "id": "all"
     },
     {
-      "name": "北京智源-Triton 工作坊",
-      "id": "baai-triton-workshop"
-    },
-    {
       "name": "仓颉 工作坊",
-      "id": "cangjie-workshop"
+      "id": "ws-cangjie"
     },
     {
       "name": "Dora 工作坊",
-      "id": "dora-workshop"
-    },
-    {
-      "name": "GDC / 开放钱包工作坊",
-      "id": "gdc-openwallet-workshop"
+      "id": "ws-dora"
     },
     {
       "name": "SGLang 工作坊",
-      "id": "sglang-workshop"
+      "id": "ws-sglang"
     }
   ],
   "speakers": [
     {
-      "id": "yin-zhang",
-      "name": "张引",
-      "bio": "张引是传统大学计算机科学（CS）和软件工程（SE）课程改革的积极促进者，致力于利用仓颉编程语言、现代应用开发框架、MVVM + IService架构模式、微服务参考架构和人工智能服务等丰富技术资源，将各种CS/SE课程相互关联，设计高度集成的CS/SE教育课程。他为技术社区贡献了“仓颉社区软件工程”等一系列免费的在线课程，展现出将尖端技术整合到传统大学的CS/SE课程中的潜力与优势。他还在东北大学软件学院组织了学生开源社区“仓颉兴趣组”，为仓颉社区贡献了一系列开源项目，并将这些开源项目引入到课程中，促进课程内容与开源社区的紧密融合。在未来的工作中，他会将持续集成、容器化、大语言模型等丰富的华为技术引入到课程中，帮助学生更好地理解现代开发技术。",
-      "role": "副教授",
-      "org": "东北大学",
-      "roleOrg": "东北大学副教授",
-      "image": "yin-zhang.png",
-      "tag": "cangjie-workshop",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false,
-      "title": "仓颉在高校开源软件工程教学实践分享",
-      "abstract": "他还在东北大学软件学院组织了学生开源社区“仓颉兴趣组”，为仓颉社区贡献了一系列开源项目，并将这些开源项目引入到课程中，促进课程内容与开源社区的紧密融合",
-      "language": "Chinese"
-    },
-    {
-      "id": "jingrun-wu",
-      "name": "吴京润",
-      "bio": "北京初联科技有限公司 服务器应用架构师",
-      "role": "服务器应用架构师",
-      "org": "北京初联科技有限公司",
-      "roleOrg": "北京初联科技有限公司服务器应用架构师",
-      "image": "jingrun-wu.png",
-      "tag": "cangjie-workshop",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false,
-      "title": "基于仓颉的服务器应用套件：Fountain的开发实践",
-      "abstract": "fountain：一个仓颉服务器应用开发套件 议题简介： 1. 深刻利用仓颉语言特性 2. 宏与注解有机结合 3. 简单的初始化方式 4. 各种服务器开发的工具API",
-      "language": "Chinese"
-    },
-    {
-      "id": "xuezhi-wang",
+      "id": "speaker-c08ac8a6",
       "name": "王学智",
       "bio": "王学智，华为仓颉编程语言生态与产业发展总监",
       "role": "华为仓颉编程语言生态与产业发展总监",
       "org": "华为",
-      "roleOrg": "华为仓颉编程语言生态与产业发展总监",
-      "image": "xuezhi-wang.jpg",
-      "tag": "cangjie-workshop",
+      "roleOrg": "华为仓颉编程语言生态与产业发展总监 @ 华为",
+      "image": "speaker-c08ac8a6.jpg",
+      "tag": "ws-cangjie",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -87,20 +35,17 @@
         "website": "undefined"
       },
       "status": "Accept",
-      "draft": false,
-      "title": "仓颉编程语言生态建设进展介绍",
-      "abstract": "整体仓颉编程语言整体生态进展",
-      "language": "Chinese"
+      "draft": false
     },
     {
-      "id": "shangming-cai",
-      "name": "蔡尚明",
-      "bio": "Shangming Cai received the Ph.D. degree in computer science from the Department of Computer Science and Technology, Tsinghua University, China, in 2022. He is currently an Engineer and Researcher with Alibaba Cloud Computing and an active contributor to open-source LLM projects such as SGLang, Mooncake, vLLM. His main research interests include distributed machine learning training, large language models, efficient serving systems, and big data analytics.",
-      "role": "高级工程师",
-      "org": "阿里云",
-      "roleOrg": "阿里云高级工程师",
-      "image": "shangming-cai.jpg",
-      "tag": "sglang-workshop",
+      "id": "speaker-09dc38ab",
+      "name": "吴京润",
+      "bio": "北京初联科技有限公司 服务器应用架构师",
+      "role": "服务器应用架构师",
+      "org": "北京初联科技有限公司",
+      "roleOrg": "服务器应用架构师 @ 北京初联科技有限公司",
+      "image": "speaker-09dc38ab.png",
+      "tag": "ws-cangjie",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -109,10 +54,235 @@
         "website": "undefined"
       },
       "status": "Accept",
-      "draft": false,
-      "title": "SGLang Prefill/Decode Disaggregation with Mooncake",
-      "abstract": "Large Language Model (LLM) inference comprises two distinct phases: Prefill and Decode. The Prefill phase is computation-intensive, processing the entire input sequence, while the Decode phase is memory-intensive, managing the Key-Value (KV) cache for token generation. Traditionally, these phases are handled within a unified engine, where combined scheduling of prefill and decode batches introduces inefficiencies. To address these challenges, we introduce Prefill and Decoding (PD) Disaggregation in SGLang, which enables tailored optimizations for each. This presentation will introduce the implementation of Mooncake backend in detail, which is also the first integrated and default PD disaggregation backend of sglang. In addition to explaining the overall process, this talk will also detail how PD disaggregation works with features such as DP attention and MTP, and how to achieve different TP sizes for PD. Moreover, this talk will also introduce some of the work we have done in fault tolerance to ensure stable operation in a production environment.",
-      "language": "English"
+      "draft": false
+    },
+    {
+      "id": "speaker-4f433ef9",
+      "name": "张引",
+      "bio": "张引是传统大学计算机科学（CS）和软件工程（SE）课程改革的积极促进者，致力于利用仓颉编程语言、现代应用开发框架、MVVM + IService架构模式、微服务参考架构和人工智能服务等丰富技术资源，将各种CS/SE课程相互关联，设计高度集成的CS/SE教育课程。他为技术社区贡献了“仓颉社区软件工程”等一系列免费的在线课程，展现出将尖端技术整合到传统大学的CS/SE课程中的潜力和优势。他还在东北大学软件学院组织了学生开源社区“仓颉兴趣组”，为仓颉社区贡献了一系列开源项目，并将这些开源项目引入到课程中，促进课程内容与开源社区的紧密融合。在未来的工作中，他会将持续集成、容器化、大语言模型等丰富的华为技术引入到课程中，帮助学生更好地理解现代开发技术。",
+      "role": "副教授",
+      "org": "东北大学",
+      "roleOrg": "副教授 @ 东北大学",
+      "image": "speaker-4f433ef9.png",
+      "tag": "ws-cangjie",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "shangming-cai-",
+      "name": "Shangming Cai",
+      "bio": "蔡尚铭于2022年在中国清华大学计算机科学与技术系获得计算机科学博士学位。他目前是阿里云计算的工程师和研究员，并且是SGLang、Mooncake、vLLM等开源LLM项目的积极贡献者。他的主要研究兴趣包括分布式机器学习训练、大型语言模型、高效服务系统和大数据分析。",
+      "role": "高级工程师",
+      "org": "阿里云",
+      "roleOrg": "高级工程师 @ 阿里云",
+      "image": "shangming-cai-.jpg",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/ShangmingCai",
+        "linkedin": "",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yi-zhang",
+      "name": "Yi Zhang",
+      "bio": "张懿，阿里云的研发工程师，SGLang Team的成员之一，目前主要关注构建高性能的LLM/VLM推理引擎。",
+      "role": "研发工程师",
+      "org": "阿里云计算有限公司",
+      "roleOrg": "研发工程师 @ 阿里云计算有限公司",
+      "image": "yi-zhang.png",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/yizhang2077",
+        "linkedin": "https://www.linkedin.com/in/yizhang2077",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yikai-zhu",
+      "name": "Yikai Zhu",
+      "bio": "现任Sglang提交者",
+      "role": "软件工程师",
+      "org": "无",
+      "roleOrg": "软件工程师 @ 无",
+      "image": "yikai-zhu.jpg",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/zyksir",
+        "linkedin": "https://www.linkedin.com/in/zyksir/",
+        "website": "https://zyksir.github.io/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-d82e23b6",
+      "name": "张昊阳",
+      "bio": "张昊阳，东北大学人工智能（未来实验班）专业本科生，东北大学花粉俱乐部部长，HarmonyOS开发者。曾获开放原子开源大赛OpenHarmony应用创新赛二等奖，带领MindSpire团队参加2024HarmonyOS创新赛和2024极客马拉松，用时两个月上架一款应用至HarmonyOS NEXT应用商店，并贡献一个CodeLabs，获得跑跑码特活动三等奖。",
+      "role": "学生仓颉布道师",
+      "org": "东北大学",
+      "roleOrg": "学生仓颉布道师 @ 东北大学",
+      "image": "speaker-d82e23b6.png",
+      "tag": "ws-cangjie",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-81c6f15f",
+      "name": "陈玉龙",
+      "bio": "CSDN开新院副院长",
+      "role": "CSDN开新院副院长",
+      "org": "开心武汉科技有限公司",
+      "roleOrg": "CSDN开新院副院长 @ 开心武汉科技有限公司",
+      "image": "speaker-81c6f15f.png",
+      "tag": "ws-cangjie",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "junrong-lin",
+      "name": "Junrong Lin",
+      "bio": "SGLang 提交者",
+      "role": "技术人员",
+      "org": "阿里巴巴集团通义千问团队",
+      "roleOrg": "技术人员 @ 阿里巴巴集团通义千问团队",
+      "image": "junrong-lin.jpg",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/ocss884",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yanboyang",
+      "name": "yanboyang",
+      "bio": "负责Maas平台的研发工作。",
+      "role": "Committer",
+      "org": "SGlang",
+      "roleOrg": "Committer @ SGlang",
+      "image": "yanboyang.png",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "whybeyoung",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-c91d363f",
+      "name": "潘万坤",
+      "bio": "助理研究员",
+      "role": "助理研究员",
+      "org": "爱奇艺",
+      "roleOrg": "助理研究员 @ 爱奇艺",
+      "image": "speaker-c91d363f.jpg",
+      "tag": "ws-cangjie",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "-lukecwang",
+      "name": "王超 (lukecwang)",
+      "bio": "https://github.com/sleepcoo",
+      "role": "SGlang Committer",
+      "org": "美团",
+      "roleOrg": "SGlang Committer @ 美团",
+      "image": "-lukecwang.jpg",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zhongjin",
+      "name": "Zhongjin",
+      "bio": "东南大学学生",
+      "role": "开发者（实习）",
+      "org": "Dora-rs",
+      "roleOrg": "开发者（实习） @ Dora-rs",
+      "image": "zhongjin.jpg",
+      "tag": "ws-dora",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "tao-li",
+      "name": "tao li",
+      "bio": "我是深开鸿的软件工程师。目前，我担任OpenHarmony开源机器人系统项目的主要开发者。",
+      "role": "软件工程师",
+      "org": "深圳开鸿数字产业发展有限公司",
+      "roleOrg": "软件工程师 @ 深圳开鸿数字产业发展有限公司",
+      "image": "tao-li.jpg",
+      "tag": "ws-dora",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
     }
   ]
 }
