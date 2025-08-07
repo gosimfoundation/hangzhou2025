@@ -5,7 +5,7 @@
       "id": "all"
     },
     {
-      "name": "AI Models & Infra",
+      "name": "AI Models × Infra",
       "id": "ai-models-infra"
     },
     {
@@ -17,7 +17,7 @@
       "id": "agentic-web"
     },
     {
-      "name": "Apps & Agents",
+      "name": "Apps × Agents",
       "id": "apps-agents"
     },
     {
@@ -29,7 +29,7 @@
     {
       "id": "mehdi-snene",
       "name": "Dr. Mehdi Snene",
-      "bio": "Dr. Mehdi Snene is a Senior Advisor to the UN Secretary-General's Special Envoy for Digital and Emerging Technologies and a member of the UN Office for Digital and Emerging Technologies, where he leads global initiatives in AI capacity-building, digital public infrastructure, and emerging tech. He previously directed the €1 billion Human Brain Project at EPFL, advancing neuromorphic computing and brain simulation, and served as Chief AI Officer at HealthAI, overseeing the strategic development and deployment of AI in healthcare. A former Associate Professor at the University of Geneva, he founded and led a research lab focused on AI, neuroscience, and high-performance computing.",
+      "bio": "Dr. Mehdi Snene is a Senior Advisor to the UN Secretary-General's Special Envoy for Digital and Emerging Technologies and a member of the UN Office for Digital and Emerging Technologies, where he leads global initiatives in AI capacity-building, digital public infrastructure, and emerging tech. He previously directed the €1 billion Human Brain Project, EPFL, advancing neuromorphic computing and brain simulation, and served as Chief AI Officer, HealthAI, overseeing the strategic development and deployment of AI in healthcare. A former Associate Professor, the University of Geneva, he founded and led a research lab focused on AI, neuroscience, and high-performance computing.",
       "role": "Senior Advisor to the UN Secretary-General's Special Envoy for Digital and Emerging Technologies",
       "org": "UN Office for Digital and Emerging Technologies",
       "roleOrg": "Senior Advisor, UN Office for Digital and Emerging Technologies",
@@ -46,12 +46,31 @@
       "draft": false
     },
     {
+      "id": "zhongzhi-shi",
+      "name": "Zhongzhi Shi",
+      "bio": "Zhongzhi Shi is a researcher and doctoral supervisor, the Institute of Computing Technology, Chinese Academy of Sciences, an academician of the International Academy for Information Study (IAIS), and a long-term researcher in intelligent science and artificial intelligence. He will deliver a presentation titled 'Collaborative Innovation in the Intelligent Era.' He believes the awarding of the 2024 Nobel Prizes in Physics and Chemistry marks the arrival of the human intelligent era. His report will introduce the development of intelligent science, AI agents based on large models, and look ahead, future trends. Professor Shi is a former Vice President of the Chinese Association for Artificial Intelligence (CAAI) and was the recipient of the 2013 Wu Wenjun AI Science & Technology Achievement Award. He has published over 20 books and more than 500 academic papers.",
+      "role": "Researcher, Doctoral Supervisor",
+      "org": "Institute of Computing Technology, Chinese Academy of Sciences",
+      "roleOrg": "Academician, International Academy for Information Study (IAIS)",
+      "image": "zhongzhi-shi.png",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
       "id": "florian-hnicke",
       "name": "Florian Hönicke",
-      "bio": "Florian has more than 10 years of experience in the Field of AI, working at Axel-Springer, Deloitte, and SoundCloud. He works as a Founding Engineer at Jina AI, rapidly prototyping AI solutions. His expert domain is Agentic Search and synthetic data generation. Florian is serving as an AI policy advisor, providing explanations and insights to members of the European Parliament to enhance their understanding of artificial intelligence.",
+      "bio": "Florian has more than 10 years of experience in the Field of AI, working, Axel-Springer, Deloitte, and SoundCloud. He works as a Founding Engineer, Jina AI, rapidly prototyping AI solutions. His expert domain is Agentic Search and synthetic data generation. Florian is serving as an AI policy advisor, providing explanations and insights to members of the European Parliament to enhance their understanding of artificial intelligence.",
       "role": "Founding Engineer",
       "org": "Jina AI",
-      "roleOrg": "Founding Engineer at Jina AI",
+      "roleOrg": "Founding Engineer, Jina AI",
       "image": "florian-hnicke.png",
       "tag": "apps-agents",
       "socialLinks": {
@@ -70,7 +89,7 @@
       "bio": "French ML Engineer with 20+ years of hands-on experience in automation and data-driven delivery. Former Capgemini consultant, with big corp, startup, and freelance experience. An ESSEC Executive MBA graduate, he has been active in the ML space since 2017, with a sharp focus on MLOps for the past 5+ years. His work blends engineering pragmatism with deep product thinking.\r\nHe is the creator of retrain-pipelines (Apache 2), an open-source framework designed from first principles to address the MLOps field’s chronic lack of user-centricity. His mission: to empower ML Engineers with practical, scalable tools for continuous learning workflows.",
       "role": "Senior MLOps Lead",
       "org": "Unaffiliated",
-      "roleOrg": "Senior MLOps Lead at Unaffiliated",
+      "roleOrg": "Senior MLOps Lead, Unaffiliated",
       "image": "aurlienmorgan-claudon.png",
       "tag": "ai-models-infra",
       "socialLinks": {
@@ -89,7 +108,7 @@
       "bio": "Ruoyu Ying is a cloud software engineer from department of STG, Intel. She used to worked on ONAP , networking, service mesh, confidential computing in different communities. GenAI Enablement on Cloud-Native Infrastructure is now one of her main focus. She also participated in the composition of the white paper and book on edge computing. And later she successfully delivered several presentations in OpenInfra and KubeCon summits.",
       "role": "Cloud Software Engineer",
       "org": "Intel",
-      "roleOrg": "Cloud Software Engineer at Intel",
+      "roleOrg": "Cloud Software Engineer, Intel",
       "image": "ruoyu-ying.jpg",
       "tag": "apps-agents",
       "socialLinks": {
@@ -105,10 +124,10 @@
     {
       "id": "shiwei-liu",
       "name": "Shiwei Liu",
-      "bio": "Shiwei Liu is a Royal Society Newton International Fellow at the University of Oxford. He previously served as a Postdoctoral Fellow at the University of Texas at Austin. He obtained his Ph.D. with Cum Laude from Eindhoven University of Technology in 2022. His research goal is to leverage, understand, and expand the role of low-dimentionanlity in neural networks for scalable and efficient AI. Dr. Liu has received two Rising Star Awards from KAUST and the Conference on Parsimony and Learning (CPAL). His Ph.D. thesis received the 2023 Best Dissertation Award from Informatics Europe.",
+      "bio": "Shiwei Liu is a Royal Society Newton International Fellow, the University of Oxford. He previously served as a Postdoctoral Fellow, the University of Texas, Austin. He obtained his Ph.D. with Cum Laude from Eindhoven University of Technology in 2022. His research goal is to leverage, understand, and expand the role of low-dimentionanlity in neural networks for scalable and efficient AI. Dr. Liu has received two Rising Star Awards from KAUST and the Conference on Parsimony and Learning (CPAL). His Ph.D. thesis received the 2023 Best Dissertation Award from Informatics Europe.",
       "role": "Newton International Fellow",
       "org": "University of Oxford",
-      "roleOrg": "Newton International Fellow at University of Oxford",
+      "roleOrg": "Newton International Fellow, University of Oxford",
       "image": "shiwei-liu.jpg",
       "tag": "ai-next",
       "socialLinks": {
@@ -127,7 +146,7 @@
       "bio": "Gaowei Chang, initiator of the ANP open-source technology community and co-chair of the W3C AI Agent protocol CG. AgentNetworkProtocol (ANP) is the world's first open-source intelligent agent communication protocol. ANP's goal is to become the HTTP of the intelligent agent internet era. ANP's vision is to define the connection methods between intelligent agents and build an open, secure, and efficient collaborative network for billions of intelligent agents.",
       "role": "Initiator",
       "org": "ANP Open Source Technology Community",
-      "roleOrg": "Initiator at ANP Open Source Technology Community",
+      "roleOrg": "Initiator, ANP Open Source Technology Community",
       "image": "speaker-86e177b7.jpg",
       "tag": "agentic-web",
       "socialLinks": {
@@ -143,10 +162,10 @@
     {
       "id": "speaker-e580ca69",
       "name": "Yunfei Zhang",
-      "bio": "Vice President of China Telecom Smart City Research Institute, Chief Expert of China Telecom, Professor-level Senior Engineer, specially-appointed expert of the National Talent Program, young and middle-aged leading talent of the Ministry of Transport, leading talent in international highway transportation technology, Vice Chairman of the 5G Industry Alliance, Vice Chairman of the Internet of Things Committee of the China Communications Standards Association. He formerly served as the Director of Tencent's Future Network Lab and Chief Scientist of Tencent's Smart Transportation. He proposed the pan-V2X technology system and practice, which has had a wide impact in the industry. He founded and chaired the P2P streaming media protocol (PPSP) working group at the IETF and has published more than 10 international standards in the IETF, ITU-T, and other organizations. He has received more than 20 provincial and ministerial-level awards, including the Chinese Outstanding Engineer Youth Award, the National Patent Silver Award, the National Standard Award, the Shanghai Technical Invention First Prize, the Shanghai Science and Technology Progress First Prize, the Shenzhen Science and Technology Progress First Prize, the Jinqiao Award Personal Award, the China IoV Outstanding Person Award, and the IEEE ITSC Smart Transportation and Vehicle-Road-Cloud Collaboration double champion.",
+      "bio": "Vice President of China Telecom Smart City Research Institute, Chief Expert of China Telecom, Professor-level Senior Engineer, specially-appointed expert of the National Talent Program, young and middle-aged leading talent of the Ministry of Transport, leading talent in international highway transportation technology, Vice Chairman of the 5G Industry Alliance, Vice Chairman of the Internet of Things Committee of the China Communications Standards Association. He formerly served as the Director of Tencent's Future Network Lab and Chief Scientist of Tencent's Smart Transportation. He proposed the pan-V2X technology system and practice, which has had a wide impact in the industry. He founded and chaired the P2P streaming media protocol (PPSP) working group, the IETF and has published more than 10 international standards in the IETF, ITU-T, and other organizations. He has received more than 20 provincial and ministerial-level awards, including the Chinese Outstanding Engineer Youth Award, the National Patent Silver Award, the National Standard Award, the Shanghai Technical Invention First Prize, the Shanghai Science and Technology Progress First Prize, the Shenzhen Science and Technology Progress First Prize, the Jinqiao Award Personal Award, the China IoV Outstanding Person Award, and the IEEE ITSC Smart Transportation and Vehicle-Road-Cloud Collaboration double champion.",
       "role": "Vice President of China Telecom Smart City Research Institute, Chief Expert of China Telecom",
       "org": "China Telecom Digital Intelligence Technology Co., Ltd.",
-      "roleOrg": "Vice President of China Telecom Smart City Research Institute, Chief Expert of China Telecom at China Telecom Digital Intelligence Technology Co., Ltd.",
+      "roleOrg": "Vice President of China Telecom Smart City Research Institute, Chief Expert of China Telecom, China Telecom Digital Intelligence Technology Co., Ltd.",
       "image": "speaker-e580ca69.jpeg",
       "tag": "agentic-web",
       "socialLinks": {
@@ -165,7 +184,7 @@
       "bio": "A Safe AGI Researcher",
       "role": "Founder",
       "org": "Center for Safe AGI",
-      "roleOrg": "Founder at Center for Safe AGI",
+      "roleOrg": "Founder, Center for Safe AGI",
       "image": "xiaohu-zhu.png",
       "tag": "forum-aivision",
       "socialLinks": {
@@ -181,10 +200,10 @@
     {
       "id": "matt-white",
       "name": "Matt White",
-      "bio": "Matt White is the Executive Director of the PyTorch Foundation and GM of AI at the Linux Foundation, as well as the Director of the Generative AI Commons under the LF AI & Data Foundation. With nearly 30 years of experience in AI research, standards, and applications across telecom, media, and gaming, he has specialized since 2012 in machine learning, simulations, and multi-sensory learning. He previously co-founded the Open Metaverse Foundation, chairs the Metaverse Standards Forum, and co-organizes both the Silicon Valley Generative AI paper reading group and the GenAI Collective.",
+      "bio": "Matt White is the Executive Director of the PyTorch Foundation and GM of AI, the Linux Foundation, as well as the Director of the Generative AI Commons under the LF AI & Data Foundation. With nearly 30 years of experience in AI research, standards, and applications across telecom, media, and gaming, he has specialized since 2012 in machine learning, simulations, and multi-sensory learning. He previously co-founded the Open Metaverse Foundation, chairs the Metaverse Standards Forum, and co-organizes both the Silicon Valley Generative AI paper reading group and the GenAI Collective.",
       "role": "GM of AI/Executive Director",
       "org": "Linux Foundation/PyTorch Foundation",
-      "roleOrg": "GM of AI/Executive Director at Linux Foundation/PyTorch Foundation",
+      "roleOrg": "GM of AI/Executive Director, Linux Foundation/PyTorch Foundation",
       "image": "matt-white.png",
       "tag": "undefined",
       "socialLinks": {
@@ -200,10 +219,10 @@
     {
       "id": "zhiyu-li",
       "name": "Zhiyu Li",
-      "bio": "Zhiyu Li, Ph.D., is the Co-founder and CTO of MemTensor (Shanghai) Technology Co., Ltd., Researcher at IAAR, and Industry Young Scientist at the SAI, Shanghai Jiao Tong University. His research focuses on large language models (LLMs) and Generative AI, particularly in Memory-Augmented Intelligence and Infrastructure for GAI. Dr. Li previously led core AI teams at Alibaba and Xiaohongshu, driving algorithmic innovations that generated billions in commercial revenue. At MemTensor, he led  the world’s first Memory Operating System for LLMs (MemOS). He has published over 40 papers in top AI venues including Patterns (Cell Press), ICLR, ACL, and AAAI, with over 1,000 citations and 10+ patents. His work has been featured as a cover story in MIT Technology Review.",
+      "bio": "Zhiyu Li, Ph.D., is the Co-founder and CTO of MemTensor (Shanghai) Technology Co., Ltd., Researcher, IAAR, and Industry Young Scientist, the SAI, Shanghai Jiao Tong University. His research focuses on large language models (LLMs) and Generative AI, particularly in Memory-Augmented Intelligence and Infrastructure for GAI. Dr. Li previously led core AI teams, Alibaba and Xiaohongshu, driving algorithmic innovations that generated billions in commercial revenue., MemTensor, he led  the world’s first Memory Operating System for LLMs (MemOS). He has published over 40 papers in top AI venues including Patterns (Cell Press), ICLR, ACL, and AAAI, with over 1,000 citations and 10+ patents. His work has been featured as a cover story in MIT Technology Review.",
       "role": "CTO",
       "org": "MemTensor (Shanghai) Technology Co., Ltd.",
-      "roleOrg": "CTO at MemTensor (Shanghai) Technology Co., Ltd.",
+      "roleOrg": "CTO, MemTensor (Shanghai) Technology Co., Ltd.",
       "image": "zhiyu-li.jpg",
       "tag": "apps-agents",
       "socialLinks": {
@@ -219,10 +238,10 @@
     {
       "id": "xavier",
       "name": "Xavier",
-      "bio": "Founder of 1ms.ai, which is a startup that aim at building moonshot open source project in AI. \r\n\r\nOne of those project is dora-rs which is a groundbreaking middleware that is able to share data between AI models, sensors and actuators with state of the art performance.\r\n\r\nThis enables to build very complex applications across modality: text, audio, vision and action. This has enabled us to create very complex robotic demos!",
+      "bio": "Founder of 1ms.ai, which is a startup that aim, building moonshot open source project in AI. \r\n\r\nOne of those project is dora-rs which is a groundbreaking middleware that is able to share data between AI models, sensors and actuators with state of the art performance.\r\n\r\nThis enables to build very complex applications across modality: text, audio, vision and action. This has enabled us to create very complex robotic demos!",
       "role": "Founder",
       "org": "1ms.ai",
-      "roleOrg": "Founder at 1ms.ai",
+      "roleOrg": "Founder, 1ms.ai",
       "image": "xavier.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -238,10 +257,10 @@
     {
       "id": "salim-nahle",
       "name": "Salim Nahle",
-      "bio": "Dr. Salim Nahle is Program Manager “Data & Artificial Intelligence” and Academic Manager of Executive Education at Efrei Paris. He holds an engineering degree in telecommunications and computer science from the Lebanese University (2005), a Master’s degree in computer science from Paris VI – UMPC (2006), and a Ph.D. in computer science from Sorbonne University (2009). His doctoral research focused on wireless mesh networks using Wi-Fi and WiMAX technologies, addressing scheduling, routing, and quality of service. From 2011 to 2014, he worked as a software engineer at GE Healthcare on the “CT Revolution” project. Between 2014 and 2019, he served as Head of the Cybersecurity and Big Data Department at ECE, where he created the “Big Data & Analytics” and “Defensive Cybersecurity” specializations. Today, he leads academic innovation in AI, Data and cloud at Efrei as a program manager. He also develops and deploys continuous education and executive education programs for partner companies. ",
+      "bio": "Dr. Salim Nahle is Program Manager “Data & Artificial Intelligence” and Academic Manager of Executive Education, Efrei Paris. He holds an engineering degree in telecommunications and computer science from the Lebanese University (2005), a Master’s degree in computer science from Paris VI – UMPC (2006), and a Ph.D. in computer science from Sorbonne University (2009). His doctoral research focused on wireless mesh networks using Wi-Fi and WiMAX technologies, addressing scheduling, routing, and quality of service. From 2011 to 2014, he worked as a software engineer, GE Healthcare on the “CT Revolution” project. Between 2014 and 2019, he served as Head of the Cybersecurity and Big Data Department, ECE, where he created the “Big Data & Analytics” and “Defensive Cybersecurity” specializations. Today, he leads academic innovation in AI, Data and cloud, Efrei as a program manager. He also develops and deploys continuous education and executive education programs for partner companies. ",
       "role": " Program Manager “Data & Artificial Intelligence” and Academic Manager of Executive Education",
       "org": "Efrei Paris",
-      "roleOrg": " Program Manager “Data & Artificial Intelligence” and Academic Manager of Executive Education at Efrei Paris",
+      "roleOrg": " Program Manager “Data & Artificial Intelligence” and Academic Manager of Executive Education, Efrei Paris",
       "image": "salim-nahle.jpg",
       "tag": "forum-aivision",
       "socialLinks": {
@@ -257,10 +276,10 @@
     {
       "id": "jian-shi",
       "name": "Jian Shi",
-      "bio": "Jian Shi is the co-founder of Kornia AI and a core maintainer of the Kornia library, a leading computer vision framework in PyTorch. With Kornia AI, he works to advance and democratize spatial artificial intelligence through open collaboration. He is a Ph.D. candidate at KAUST, focusing on generative models and stereo vision. Jian has published at major venues including ICCV, ECCV, and TPAMI. With prior research experience at NEC Labs, CUHK, and GE Power, his work spans medical imaging, LiDAR understanding, and generative 3D vision.",
+      "bio": "Jian Shi is the co-founder of Kornia AI and a core maintainer of the Kornia library, a leading computer vision framework in PyTorch. With Kornia AI, he works to advance and democratize spatial artificial intelligence through open collaboration. He is a Ph.D. candidate, KAUST, focusing on generative models and stereo vision. Jian has published, major venues including ICCV, ECCV, and TPAMI. With prior research experience, NEC Labs, CUHK, and GE Power, his work spans medical imaging, LiDAR understanding, and generative 3D vision.",
       "role": "Co-founder",
       "org": "Kornia AI",
-      "roleOrg": "Co-founder at Kornia AI",
+      "roleOrg": "Co-founder, Kornia AI",
       "image": "jian-shi.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -276,10 +295,10 @@
     {
       "id": "edgar-riba",
       "name": "Edgar Riba",
-      "bio": "Dr. Edgar Riba earned his PhD in Computer Science from Universitat Autònoma de Barcelona (UAB)—where his dissertation bridged classical computer vision and deep learning for low-level tasks—and holds an MSc in Automatic Control and Robotics from UPC (Barcelona).\r\n\r\nHe recently joined Bonsai Robotics as a Staff Research Engineer, spearheading work in agentic AI and vision–language action models and tools tailored for educational and research robotics. Prior to this, Edgar built autonomy pipelines—from navigation stacks and robot drivers to edge‑ML deployment infrastructure—at startups including Farm‑ng, LightningAI, and Arraiy. His academic and research background includes over a year as a Research Scientist at IRI‑CSIC/UPC and more than two years at Arraiy, focusing on advanced vision and spatial AI.\r\n\r\nEdgar is the founder and project lead of Kornia, a differentiable computer vision library for PyTorch with over 10,000 GitHub stars and 2 million+ monthly downloads. He also presides over its non-profit organization and is admin of Kornia’s Google Summer of Code program—mentoring students and coordinating major open-source contributions.\r\n\r\nA dedicated community builder, Edgar served also on the OpenCV Foundation steering committee, mentors Google Summer of Code participants, and organizes workshops, hackathons, and conference talks. With eight peer-reviewed publications—including the foundational Kornia paper—he expertly bridges classical CV, deep learning, and real-world robotics to deliver robust, scalable autonomy solutions.\r\n",
+      "bio": "Dr. Edgar Riba earned his PhD in Computer Science from Universitat Autònoma de Barcelona (UAB)—where his dissertation bridged classical computer vision and deep learning for low-level tasks—and holds an MSc in Automatic Control and Robotics from UPC (Barcelona).\r\n\r\nHe recently joined Bonsai Robotics as a Staff Research Engineer, spearheading work in agentic AI and vision–language action models and tools tailored for educational and research robotics. Prior to this, Edgar built autonomy pipelines—from navigation stacks and robot drivers to edge‑ML deployment infrastructure—at startups including Farm‑ng, LightningAI, and Arraiy. His academic and research background includes over a year as a Research Scientist, IRI‑CSIC/UPC and more than two years, Arraiy, focusing on advanced vision and spatial AI.\r\n\r\nEdgar is the founder and project lead of Kornia, a differentiable computer vision library for PyTorch with over 10,000 GitHub stars and 2 million+ monthly downloads. He also presides over its non-profit organization and is admin of Kornia’s Google Summer of Code program—mentoring students and coordinating major open-source contributions.\r\n\r\nA dedicated community builder, Edgar served also on the OpenCV Foundation steering committee, mentors Google Summer of Code participants, and organizes workshops, hackathons, and conference talks. With eight peer-reviewed publications—including the foundational Kornia paper—he expertly bridges classical CV, deep learning, and real-world robotics to deliver robust, scalable autonomy solutions.\r\n",
       "role": "Staff Research Engineer",
       "org": "Bonsai Robotics",
-      "roleOrg": "Staff Research Engineer at Bonsai Robotics",
+      "roleOrg": "Staff Research Engineer, Bonsai Robotics",
       "image": "edgar-riba.jpeg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -298,7 +317,7 @@
       "bio": "Sébastien Crozet has been in love with the Rust programming language since its earliest days. He is the creator and maintainer of popular open-source libraries, including nalgebra and Rapier, for the Rust ecosystem that specialize in linear algebra, geometry, and physics. He is the founder of Dimforge where he focuses on contributing to the future of cross-platform scientific computing and AI.",
       "role": "Founder",
       "org": "Dimforge",
-      "roleOrg": "Founder at Dimforge",
+      "roleOrg": "Founder, Dimforge",
       "image": "sbastien-crozet.png",
       "tag": "assign-me",
       "socialLinks": {
@@ -314,10 +333,10 @@
     {
       "id": "speaker-37874bae",
       "name": "Haiquan Chen",
-      "bio": "Developer at Volcano Engine and core contributor to the veRL project. Focus on agentic RL and cloud infrastructure.",
+      "bio": "Developer, Volcano Engine and core contributor to the veRL project. Focus on agentic RL and cloud infrastructure.",
       "role": "Developer",
       "org": "ByteDance",
-      "roleOrg": "Developer at ByteDance",
+      "roleOrg": "Developer, ByteDance",
       "image": "speaker-37874bae.jpg",
       "tag": "ai-models-infra",
       "socialLinks": {
@@ -333,10 +352,10 @@
     {
       "id": "xuan-son-nguyen",
       "name": "Xuan Son Nguyen",
-      "bio": "I'm software engineer at Hugging Face, core maintainer of llama.cpp",
+      "bio": "I'm software engineer, Hugging Face, core maintainer of llama.cpp",
       "role": "Software Engineer",
       "org": "Hugging Face",
-      "roleOrg": "Software Engineer at Hugging Face",
+      "roleOrg": "Software Engineer, Hugging Face",
       "image": "xuan-son-nguyen.jpg",
       "tag": "ai-models-infra",
       "socialLinks": {
@@ -352,10 +371,10 @@
     {
       "id": "ruping-cen",
       "name": "Ruping Cen",
-      "bio": "Cen Ruping, Ph.D., is currently affiliated with the School of Automation at Chongqing University of Posts and Telecommunications, where his research focuses on mobile robot localization and navigation as well as multi-sensor fusion localization. Driven by his academic expertise, he created the open-source project MickRobot, which engineers a dual-arm humanoid robotics platform from the ground up, spanning mechanical design, hardware integration, perception/localization, and navigation control systems. Extending its impact beyond code, he has authored technical blogs and tutorials documenting this development journey, garnering over 1.1 million page views and demonstrating significant community reach.",
+      "bio": "Cen Ruping, Ph.D., is currently affiliated with the School of Automation, Chongqing University of Posts and Telecommunications, where his research focuses on mobile robot localization and navigation as well as multi-sensor fusion localization. Driven by his academic expertise, he created the open-source project MickRobot, which engineers a dual-arm humanoid robotics platform from the ground up, spanning mechanical design, hardware integration, perception/localization, and navigation control systems. Extending its impact beyond code, he has authored technical blogs and tutorials documenting this development journey, garnering over 1.1 million page views and demonstrating significant community reach.",
       "role": "Ph. D.",
       "org": "Chongqing University of Posts and Telecommunications",
-      "roleOrg": "Ph. D. at Chongqing University of Posts and Telecommunications",
+      "roleOrg": "Ph. D., Chongqing University of Posts and Telecommunications",
       "image": "ruping-cen.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -371,10 +390,10 @@
     {
       "id": "speaker-2d57e6a7",
       "name": "Pengwei Wang",
-      "bio": "Head of Embodied AI Large Model at Beijing Academy of Artificial Intelligence (BAAI). Currently responsible for the embodied brain large model RoboBrain and the cerebellum framework RoboOS. His research interests include embodied intelligence, multimodal large models, deep learning, natural language processing, and machine learning. He has worked at Alibaba DAMO Academy and Kuaishou Technology's large model middle platform department, where he was mainly responsible for large-scale speech-semantic integrated multimodal interaction systems and multimodal pre-training projects, possessing rich experience in both industry and academia in multimodal large models, text large models, and machine intelligence.",
+      "bio": "Head of Embodied AI Large Model, Beijing Academy of Artificial Intelligence (BAAI). Currently responsible for the embodied brain large model RoboBrain and the cerebellum framework RoboOS. His research interests include embodied intelligence, multimodal large models, deep learning, natural language processing, and machine learning. He has worked, Alibaba DAMO Academy and Kuaishou Technology's large model middle platform department, where he was mainly responsible for large-scale speech-semantic integrated multimodal interaction systems and multimodal pre-training projects, possessing rich experience in both industry and academia in multimodal large models, text large models, and machine intelligence.",
       "role": "Head of Embodied AI Large Model",
       "org": "Beijing Academy of Artificial Intelligence",
-      "roleOrg": "Head of Embodied AI Large Model at Beijing Academy of Artificial Intelligence",
+      "roleOrg": "Head of Embodied AI Large Model, Beijing Academy of Artificial Intelligence",
       "image": "speaker-2d57e6a7.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -390,10 +409,10 @@
     {
       "id": "jingya-huang",
       "name": "Jingya Huang",
-      "bio": "I’m a machine learning engineer at Hugging Face and a core developer of Optimum, the extension library of Hugging Face’s Transformers. At Hugging Face, I focus on accelerating model training and efficient deployment, as well as integrating the Hugging Face open-source ecosystem with emerging AI hardware accelerators.",
+      "bio": "I’m a machine learning engineer, Hugging Face and a core developer of Optimum, the extension library of Hugging Face’s Transformers., Hugging Face, I focus on accelerating model training and efficient deployment, as well as integrating the Hugging Face open-source ecosystem with emerging AI hardware accelerators.",
       "role": "Machine Learning Engineer",
       "org": "Hugging Face",
-      "roleOrg": "Machine Learning Engineer at Hugging Face",
+      "roleOrg": "Machine Learning Engineer, Hugging Face",
       "image": "jingya-huang.jpg",
       "tag": "ai-models-infra",
       "socialLinks": {
@@ -412,7 +431,7 @@
       "bio": "Kaichao gets Ph.D. degree from Tsinghua University, and has been working on the vLLM project since his visit to UC Berkeley in 2024. He serves as a core maintainer in the vLLM project, working on the distributed inference architecture of vLLM, torch.compile integration of vLLM, open-source collaboration, and various aspects.",
       "role": "Core Maintainer",
       "org": "vLLM",
-      "roleOrg": "Core Maintainer at vLLM",
+      "roleOrg": "Core Maintainer, vLLM",
       "image": "kaichao-you.jpg",
       "tag": "ai-models-infra",
       "socialLinks": {
@@ -428,10 +447,10 @@
     {
       "id": "tao-li",
       "name": "Tao Li",
-      "bio": "I'm a software engineer at Shenkaihong. Currently, I serve as the main developer for the OpenHarmony open-source robotics system project.",
+      "bio": "I'm a software engineer, Shenkaihong. Currently, I serve as the main developer for the OpenHarmony open-source robotics system project.",
       "role": "Software Engineer",
       "org": "Shenzhen Kaihong Digital Industry Development Co., Ltd.",
-      "roleOrg": "Software Engineer at Shenzhen Kaihong Digital Industry Development Co., Ltd.",
+      "roleOrg": "Software Engineer, Shenzhen Kaihong Digital Industry Development Co., Ltd.",
       "image": "tao-li.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -450,7 +469,7 @@
       "bio": "Developer of the openloong control framework.",
       "role": "Head of Motion Control Algorithms and Framework",
       "org": "Humanoid Robot Shanghai Co., Ltd.",
-      "roleOrg": "Head of Motion Control Algorithms and Framework at Humanoid Robot Shanghai Co., Ltd.",
+      "roleOrg": "Head of Motion Control Algorithms and Framework, Humanoid Robot Shanghai Co., Ltd.",
       "image": "speaker-fdf1fc9c.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -466,10 +485,10 @@
     {
       "id": "cen-ming",
       "name": "Cen Ming",
-      "bio": "Cen Ming received the Ph.D. degree in optical engineering from Graduate School of the Chinese Academy of Sciences, in 2006.\r\nHe is currently a professor at the Chongqing University of Posts and Telecommunications. During his career, he worked as a software system analyst and deputy director of Automotive Electronics &Embedded System Research Center.  His research interests include information fusion, multi-target tracking, autonomous driving, and intelligent robot.",
+      "bio": "Cen Ming received the Ph.D. degree in optical engineering from Graduate School of the Chinese Academy of Sciences, in 2006.\r\nHe is currently a professor, the Chongqing University of Posts and Telecommunications. During his career, he worked as a software system analyst and deputy director of Automotive Electronics &Embedded System Research Center.  His research interests include information fusion, multi-target tracking, autonomous driving, and intelligent robot.",
       "role": "Professor",
       "org": "Chongqing University of Posts and Telecommunications",
-      "roleOrg": "Professor at Chongqing University of Posts and Telecommunications",
+      "roleOrg": "Professor, Chongqing University of Posts and Telecommunications",
       "image": "cen-ming.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -485,10 +504,10 @@
     {
       "id": "speaker-da742ef2",
       "name": "Xin Dong",
-      "bio": "2008-2017 Microsoft, Technical Leader, engaged in the R&D of Microsoft Azure enterprise cloud Dynamics365 platform. 2017- Huawei Technologies Co., Ltd., Technical Expert/Product Director, engaged in the R&D of core basic software such as development toolchains, programming languages, and IDEs. During his time at Huawei, he served as a chief technical expert and project manager for Huawei's mobile AI development tools, company-level AI development platform, Huawei Ascend AI chip toolchain, and HarmonyOS toolchain. Since 2021, he has been responsible for the R&D business of Huawei's programming languages and IDE basic software, and served as the director of the project group, engaged in the core technology R&D of independently controllable programming languages and IDE development tools, making important contributions to the technical planning, productization, and industrial implementation of domestic application programming languages.",
+      "bio": "2008-2017 Microsoft, Technical Leader, engaged in the R&D of Microsoft Azure enterprise cloud Dynamics365 platform. 2017- Huawei Technologies Co., Ltd., Technical Expert/Product Director, engaged in the R&D of core basic software such as development toolchains, programming languages, and IDEs. During his time, Huawei, he served as a chief technical expert and project manager for Huawei's mobile AI development tools, company-level AI development platform, Huawei Ascend AI chip toolchain, and HarmonyOS toolchain. Since 2021, he has been responsible for the R&D business of Huawei's programming languages and IDE basic software, and served as the director of the project group, engaged in the core technology R&D of independently controllable programming languages and IDE development tools, making important contributions to the technical planning, productization, and industrial implementation of domestic application programming languages.",
       "role": "Director of Project Group, Huawei Central Software Institute",
       "org": "Huawei",
-      "roleOrg": "Director of Project Group, Huawei Central Software Institute at Huawei",
+      "roleOrg": "Director of Project Group, Huawei Central Software Institute, Huawei",
       "image": "speaker-da742ef2.jpg",
       "tag": "apps-agents",
       "socialLinks": {
@@ -504,10 +523,10 @@
     {
       "id": "joaquin-salvachua",
       "name": "Joaquin Salvachua",
-      "bio": "Joaquín Salvachúa is a Professor at the Universidad Politécnica de Madrid, In the specializing in the Department of Telematics Systems Engineering at the Telecommunication School. He is a member of the board at Gaia-X Hub España, FIWARE and BDVA and active contributor in Gaia-X AISBL. and actively participates in research on ML-OPS, Big data architectures, cloud computing, next-generation internet technologies, network science and formal methods. Has authored numerous academic publications.",
+      "bio": "Joaquín Salvachúa is a Professor, the Universidad Politécnica de Madrid, In the specializing in the Department of Telematics Systems Engineering, the Telecommunication School. He is a member of the board, Gaia-X Hub España, FIWARE and BDVA and active contributor in Gaia-X AISBL. and actively participates in research on ML-OPS, Big data architectures, cloud computing, next-generation internet technologies, network science and formal methods. Has authored numerous academic publications.",
       "role": "Professor",
       "org": "Universidad Politecnica De Madrid",
-      "roleOrg": "Professor at Universidad Politecnica De Madrid",
+      "roleOrg": "Professor, Universidad Politecnica De Madrid",
       "image": "joaquin-salvachua.jpeg",
       "tag": "open-for-sdg",
       "socialLinks": {
@@ -523,10 +542,10 @@
     {
       "id": "xuan-xia",
       "name": "Xuan Xia",
-      "bio": "Xia Xuan, who holds a Ph.D. from Shanghai Jiao Tong University, is currently an associate researcher at the Shenzhen Institute of Artificial Intelligence and Robotics for Society. He is the principal investigator of the National Natural Science Foundation of China, a recipient of the 2024 Wu Wenjun Artificial Intelligence Science and Technology Award for Progress in Science and Technology, a high-level talent in Shenzhen, and a high-level talent in Longgang District, Shenzhen. His research mainly focuses on embodied intelligence, multimodal learning, computer vision, defect detection, and generative models. He has led projects funded by the National Natural Science Foundation of China, the Guangdong Provincial Natural Science Foundation, and the China Postdoctoral Science Foundation. He has also participated in numerous national, provincial, and municipal fund projects as well as several joint projects with enterprises. He has published a monograph and over twenty papers, and has applied for more than ten invention patents.",
+      "bio": "Xia Xuan, who holds a Ph.D. from Shanghai Jiao Tong University, is currently an associate researcher, the Shenzhen Institute of Artificial Intelligence and Robotics for Society. He is the principal investigator of the National Natural Science Foundation of China, a recipient of the 2024 Wu Wenjun Artificial Intelligence Science and Technology Award for Progress in Science and Technology, a high-level talent in Shenzhen, and a high-level talent in Longgang District, Shenzhen. His research mainly focuses on embodied intelligence, multimodal learning, computer vision, defect detection, and generative models. He has led projects funded by the National Natural Science Foundation of China, the Guangdong Provincial Natural Science Foundation, and the China Postdoctoral Science Foundation. He has also participated in numerous national, provincial, and municipal fund projects as well as several joint projects with enterprises. He has published a monograph and over twenty papers, and has applied for more than ten invention patents.",
       "role": "Associate Researcher",
       "org": "Shenzhen Institute of Artificial Intelligence and Robotics for Society",
-      "roleOrg": "Associate Researcher at Shenzhen Institute of Artificial Intelligence and Robotics for Society",
+      "roleOrg": "Associate Researcher, Shenzhen Institute of Artificial Intelligence and Robotics for Society",
       "image": "xuan-xia.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -545,7 +564,7 @@
       "bio": "Associate Professor of Universidad Politécnica de Madrid ",
       "role": "Associate Professor",
       "org": "Universidad Politécnica de Madrid",
-      "roleOrg": "Associate Professor at Universidad Politécnica de Madrid",
+      "roleOrg": "Associate Professor, Universidad Politécnica de Madrid",
       "image": "jos-andrs-muoz-arcentales.jpg",
       "tag": "agentic-web",
       "socialLinks": {
@@ -561,10 +580,10 @@
     {
       "id": "guang-liu",
       "name": "Guang Liu",
-      "bio": "Guang Liu is the Technical Lead of the Data Research Team at the Beijing Academy of Artificial Intelligence (BAAI), where he leads the OpenSeek initiative. As the principal architect of the Aquila large language model (LLM) series and the Infinity-Instruct dataset family. His current research focuses on DataAgent, leveraging innovative synthetic data generation techniques to optimize training efficiency for next-generation AI systems.",
+      "bio": "Guang Liu is the Technical Lead of the Data Research Team, the Beijing Academy of Artificial Intelligence (BAAI), where he leads the OpenSeek initiative. As the principal architect of the Aquila large language model (LLM) series and the Infinity-Instruct dataset family. His current research focuses on DataAgent, leveraging innovative synthetic data generation techniques to optimize training efficiency for next-generation AI systems.",
       "role": "Technical Lead of Data Research Team",
       "org": "BAAI",
-      "roleOrg": "Technical Lead of Data Research Team at BAAI",
+      "roleOrg": "Technical Lead of Data Research Team, BAAI",
       "image": "guang-liu.jpeg",
       "tag": "ai-models-infra",
       "socialLinks": {
@@ -583,7 +602,7 @@
       "bio": "Co-founder of Jiaozi Interactive Technology, author of 5ire.app, and initiator of the Chinese writing community essay.ink.",
       "role": "CTO",
       "org": "Sichuan Jiaozi Interactive Technology Co., Ltd.",
-      "roleOrg": "CTO at Sichuan Jiaozi Interactive Technology Co., Ltd.",
+      "roleOrg": "CTO, Sichuan Jiaozi Interactive Technology Co., Ltd.",
       "image": "speaker-14759e38.jpg",
       "tag": "apps-agents",
       "socialLinks": {
@@ -602,7 +621,7 @@
       "bio": "Graduated from the Central Academy of Fine Arts, engaged in aesthetic education and popular science.",
       "role": "Lecturer",
       "org": "Changsha Youdian Yisi Education Consulting Co., Ltd.",
-      "roleOrg": "Lecturer at Changsha Youdian Yisi Education Consulting Co., Ltd.",
+      "roleOrg": "Lecturer, Changsha Youdian Yisi Education Consulting Co., Ltd.",
       "image": "speaker-3281af60.jpg",
       "tag": "ai-next",
       "socialLinks": {
@@ -618,10 +637,10 @@
     {
       "id": "richard-reiner",
       "name": "Richard REINER",
-      "bio": "I am a serial entrepreneur and company builder with multiple Fortune 1000 exits, and a leading global cybersecurity expert who has held C-level and VP roles at leading global companies. I'm active as an executive, investor, mentor, and Board member with many high-growth companies at the intersections of cybersecurity, AI, and IoT, the same spaces in which I have built and successfully exited multiple companies and hold numerous patents.\r\n\r\nI am Founding Partner at CC Stratus Capital, an innovative investment firm with a strategic focus on cybersecurity and AI.\r\n\r\nI was Executive Chair of dfuse / StreamingFast, the leading blockchain big data platform (acquired by The Graph) and Chair of Cybeats, the IoT endpoint security company (acquired by Relay Medical). I was previously Chief Technology Officer - Safe Identity in Intel's Security Group, and VP Safe Identity at McAfee. I was President of PasswordBox, the leading digital identity company, leading up to the company’s acquisition by Intel. I was Chairman & CEO of Enomaly, a global leader in cloud computing, up to Enomaly’s acquisition in 2011; and was the founder, CEO, and CTO of Assurent, a leading cybersecurity company, up to its acquisition in 2006.\r\n\r\nI serve and have served on the Boards and Advisory Boards of many leading cybersecurity, cloud, AI, and IoT companies such as Autohost, Korbit AI, Shearwater Aerospace, Immunio, Elliptic Technologies, Virima, CloudeAssurance, Veracode, NetClarity, Virima, and Fonolo.\r\n\r\nI'm often quoted by the press, in media such as the New York Times, CBS, NBC, USA Today, TechCrunch, etc., and hold a Ph.D. and numerous patents in cybersecurity, big data, and AI.",
+      "bio": "I am a serial entrepreneur and company builder with multiple Fortune 1000 exits, and a leading global cybersecurity expert who has held C-level and VP roles, leading global companies. I'm active as an executive, investor, mentor, and Board member with many high-growth companies, the intersections of cybersecurity, AI, and IoT, the same spaces in which I have built and successfully exited multiple companies and hold numerous patents.\r\n\r\nI am Founding Partner, CC Stratus Capital, an innovative investment firm with a strategic focus on cybersecurity and AI.\r\n\r\nI was Executive Chair of dfuse / StreamingFast, the leading blockchain big data platform (acquired by The Graph) and Chair of Cybeats, the IoT endpoint security company (acquired by Relay Medical). I was previously Chief Technology Officer - Safe Identity in Intel's Security Group, and VP Safe Identity, McAfee. I was President of PasswordBox, the leading digital identity company, leading up to the company’s acquisition by Intel. I was Chairman & CEO of Enomaly, a global leader in cloud computing, up to Enomaly’s acquisition in 2011; and was the founder, CEO, and CTO of Assurent, a leading cybersecurity company, up to its acquisition in 2006.\r\n\r\nI serve and have served on the Boards and Advisory Boards of many leading cybersecurity, cloud, AI, and IoT companies such as Autohost, Korbit AI, Shearwater Aerospace, Immunio, Elliptic Technologies, Virima, CloudeAssurance, Veracode, NetClarity, Virima, and Fonolo.\r\n\r\nI'm often quoted by the press, in media such as the New York Times, CBS, NBC, USA Today, TechCrunch, etc., and hold a Ph.D. and numerous patents in cybersecurity, big data, and AI.",
       "role": "Board Member and Advisor",
       "org": "Procero AI",
-      "roleOrg": "Board Member and Advisor at Procero AI",
+      "roleOrg": "Board Member and Advisor, Procero AI",
       "image": "richard-reiner.jpg",
       "tag": "ai-models-infra",
       "socialLinks": {
@@ -640,7 +659,7 @@
       "bio": "ZhipuAI Technology Evangelist",
       "role": "Technology Evangelist",
       "org": "ZhipuAI",
-      "roleOrg": "Technology Evangelist at ZhipuAI",
+      "roleOrg": "Technology Evangelist, ZhipuAI",
       "image": "yuxuan-zhang.jpg",
       "tag": "ai-models-infra",
       "socialLinks": {
@@ -656,10 +675,10 @@
     {
       "id": "speaker-cf20f23f",
       "name": "Quanshi Zhang",
-      "bio": "Quanshi Zhang is a tenured associate professor and doctoral supervisor in the Department of Computer Science and Engineering at Shanghai Jiao Tong University. He was selected for the National Overseas High-level Talent Introduction Plan and received the ACM China Rising Star Award. He obtained his Ph.D. from the University of Tokyo in 2014 and conducted postdoctoral research at the University of California, Los Angeles (UCLA) from 2014-2018. Quanshi Zhang has made several internationally influential innovative achievements in the field of neural network interpretability. He serves as an action editor for TMLR, a domain chair for the CCF-A conference NeurIPS 2024, and has given tutorials on interpretability at IJCAI 2020 and IJCAI 2021. He has also served as a session chair for interpretability forums at AAAI 2019, CVPR 2019, and ICML 2021.",
+      "bio": "Quanshi Zhang is a tenured associate professor and doctoral supervisor in the Department of Computer Science and Engineering, Shanghai Jiao Tong University. He was selected for the National Overseas High-level Talent Introduction Plan and received the ACM China Rising Star Award. He obtained his Ph.D. from the University of Tokyo in 2014 and conducted postdoctoral research, the University of California, Los Angeles (UCLA) from 2014-2018. Quanshi Zhang has made several internationally influential innovative achievements in the field of neural network interpretability. He serves as an action editor for TMLR, a domain chair for the CCF-A conference NeurIPS 2024, and has given tutorials on interpretability, IJCAI 2020 and IJCAI 2021. He has also served as a session chair for interpretability forums, AAAI 2019, CVPR 2019, and ICML 2021.",
       "role": "Associate Professor",
       "org": "Shanghai Jiao Tong University",
-      "roleOrg": "Associate Professor at Shanghai Jiao Tong University",
+      "roleOrg": "Associate Professor, Shanghai Jiao Tong University",
       "image": "speaker-cf20f23f.jpg",
       "tag": "ai-next",
       "socialLinks": {
@@ -675,10 +694,10 @@
     {
       "id": "speaker-af64a527",
       "name": "Ting Bai",
-      "bio": "Ting Bai is an associate professor at the School of Computer Science, Beijing University of Posts and Telecommunications, focusing on personalized recommendation, large model research, and applications. She has published over 40 high-level academic papers as the first or corresponding author, including four best paper/best paper candidate awards. Her research has been applied in leading internet companies such as Tencent and Xiaomi. She received the 'Excellent Doctoral Dissertation Award' from the Chinese Information Processing Society of China in 2020, the 'First Prize for Science and Technology Progress' from the Chinese Institute of Electronics in 2023, the first 'Global AI Chinese Female Young Scholar' award from Baidu in 2023, and was selected for the Young Elite Scientist Sponsorship Program by the China Association for Science and Technology in 2024.",
+      "bio": "Ting Bai is an associate professor, the School of Computer Science, Beijing University of Posts and Telecommunications, focusing on personalized recommendation, large model research, and applications. She has published over 40 high-level academic papers as the first or corresponding author, including four best paper/best paper candidate awards. Her research has been applied in leading internet companies such as Tencent and Xiaomi. She received the 'Excellent Doctoral Dissertation Award' from the Chinese Information Processing Society of China in 2020, the 'First Prize for Science and Technology Progress' from the Chinese Institute of Electronics in 2023, the first 'Global AI Chinese Female Young Scholar' award from Baidu in 2023, and was selected for the Young Elite Scientist Sponsorship Program by the China Association for Science and Technology in 2024.",
       "role": "Associate Professor",
       "org": "Beijing University of Posts and Telecommunications",
-      "roleOrg": "Associate Professor at Beijing University of Posts and Telecommunications",
+      "roleOrg": "Associate Professor, Beijing University of Posts and Telecommunications",
       "image": "speaker-af64a527.jpg",
       "tag": "apps-agents",
       "socialLinks": {
@@ -694,10 +713,10 @@
     {
       "id": "jinwei-gu",
       "name": "Jinwei Gu",
-      "bio": "Dr. Jinwei Gu is currently a Principal Research Scientist at NVIDIA and an Adjunct Associate Professor at the Chinese University of Hong Kong, working on generative AI, world models, and the general fields of computer vision, computer graphics, and machine learning.  He received his Ph.D. in Computer Science from Columbia University in 2010, and B.S. and M.S. from Tsinghua University in 2002 and 2005, respectively. At NVIDIA, Dr. Gu is one of tech leads in cosmos model development – a family of multimodality world foundation models, with a focus on enabling real-world applications in robotics, autonomous driving, and generative AI. Prior to joining NVIDIA, he worked at SenseBrain as a R&D Executive Director, focusing on mobile computational photography with novel image sensors and imaging systems. He has published extensively in top-tier conferences and journals, and serves as an Associate Editor for IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) and IEEE Transactions on Computational Imaging (TCI) (2018-2023), an Area Chair for CVPR, NeurIPS, ICCV, ICCP, and ECCV, and organizing chairs for several workshops (MIPI, RichMediaGAI).  He is an IEEE senior member since 2018. His research work has been successfully transferred to many products such as NVIDIA-Cosmos, NVIDIA-CoPilot SDK, NVIDIA-DriveIX SDK, as well as Super Resolution, Super Night, Portrait Restoration, RGBW solution which are widely used in many flagship mobile phones.",
+      "bio": "Dr. Jinwei Gu is currently a Principal Research Scientist, NVIDIA and an Adjunct Associate Professor, the Chinese University of Hong Kong, working on generative AI, world models, and the general fields of computer vision, computer graphics, and machine learning.  He received his Ph.D. in Computer Science from Columbia University in 2010, and B.S. and M.S. from Tsinghua University in 2002 and 2005, respectively., NVIDIA, Dr. Gu is one of tech leads in cosmos model development – a family of multimodality world foundation models, with a focus on enabling real-world applications in robotics, autonomous driving, and generative AI. Prior to joining NVIDIA, he worked, SenseBrain as a R&D Executive Director, focusing on mobile computational photography with novel image sensors and imaging systems. He has published extensively in top-tier conferences and journals, and serves as an Associate Editor for IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) and IEEE Transactions on Computational Imaging (TCI) (2018-2023), an Area Chair for CVPR, NeurIPS, ICCV, ICCP, and ECCV, and organizing chairs for several workshops (MIPI, RichMediaGAI).  He is an IEEE senior member since 2018. His research work has been successfully transferred to many products such as NVIDIA-Cosmos, NVIDIA-CoPilot SDK, NVIDIA-DriveIX SDK, as well as Super Resolution, Super Night, Portrait Restoration, RGBW solution which are widely used in many flagship mobile phones.",
       "role": "Principal Research Scientist and Tech Lead",
       "org": "NVIDIA",
-      "roleOrg": "Principal Research Scientist and Tech Lead at NVIDIA",
+      "roleOrg": "Principal Research Scientist and Tech Lead, NVIDIA",
       "image": "jinwei-gu.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
