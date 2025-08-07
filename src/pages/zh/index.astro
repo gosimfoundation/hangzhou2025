@@ -12,6 +12,7 @@ import VenueInfo from "components/VenueInfo.astro";
 import TextAndSponsors from "components/TextAndSponsors.astro";
 import TextAndImageReverse from "components/TextAndImageReverse.astro";
 import Timeline from "components/Timeline.astro";
+import Cards from "components/Cards.astro";
 
 // Images
 import Placeholder1 from "images/homepage/stats1.jpeg";
@@ -36,7 +37,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
 >
   <Hero
     date="2025年9月13-14日"
-    location="中国杭州"
+    location="浙江 杭州"
     links={[
       {
         text: "提案征集 Call For Proposals",
@@ -102,7 +103,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   <VenueInfo
     subtitle="会议地点"
     title="杭州白金汉爵酒店"
-    location="中国杭州 - 创新与历史交汇之地"
+    location="浙江 杭州 - 创新与历史交汇之地"
     text="在杭州体验GOSIM 2025，这座城市以其历史遗产和充满活力的科技未来而闻名。杭州，一颗历史瑰宝和现代科技中心，为灵感、交流和突破性创新提供了完美的背景。"
     image="/images/homepage/hangzhoubg.png"
   />
@@ -175,19 +176,26 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
-  <TextAndImage
-    id="rust-global"
-    title="同期举办RustGlobal与RustChinaConf"
-    text="RustGlobal是Rust基金会主办的首个专注于全球领导环境中使用Rust的聚会。"
-    image={RustGlobalWhite}
-    imageAlt="Rust Global"
-    dataBgSection="dark"
-    dataThemeSection="dark"
-    ctaButton={{
-      text: "RustGlobal + RustChinaConf 2025",
-      link: "https://rustcc.cn/2025conf/",
-      openInNewTab: true,
-    }}
+  <Cards
+    id="co-located-events"
+    title="同期活动"
+    description="GOSIM Hangzhou 2025 期间将举办以下同期活动。"
+    cards={[
+      {
+        title: "RustGlobal & RustChinaConf",
+        description: "RustGlobal是Rust基金会主办的首次致力于在全球领导力环境中应用Rust的盛会。",
+        image: ["/images/homepage/rust-global-logo.svg","/images/homepage/RustChinaConf-hangzhou-black.svg"],
+        link: "https://rustcc.cn/2025conf/",
+        openInNewTab: true,
+      },
+      {
+        title: "Code Alert黑客松大赛",
+        description: "一场基于经典游戏“红色警戒”的AI黑客松。参赛者将使用自然语言指挥AI智能体，通过在线挑战和现场决赛进行对战。",
+        image: "/images/homepage/hackathon-code-alert.png",
+        link: "https://hackathon.mofa.ai",
+        openInNewTab: true,
+      },
+    ]}
   />
 
   <TextAndSponsors
@@ -279,7 +287,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
 
   <GetTickets
     title="加入开源革命！"
-    location="中国杭州"
+    location="浙江 杭州"
     date="2025年9月13-14日"
     text="立即确保您在GOSIM Hangzhou 2025的席位。与创新者合作，与行业先驱交流，成为塑造开源技术未来的一部分。"
   />

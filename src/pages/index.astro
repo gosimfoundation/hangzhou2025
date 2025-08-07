@@ -14,13 +14,13 @@ import TextAndImageReverse from "components/TextAndImageReverse.astro";
 import FeaturedSpeakers from "components/FeaturedSpeakers.astro";
 import Timeline from "components/Timeline.astro";
 import Marquee from "components/Marquee.astro";
+import Cards from "components/Cards.astro";
 
 // Images
 import Placeholder1 from "images/homepage/stats1.jpeg";
 import Placeholder2 from "images/homepage/stats2.jpg";
 import Placeholder3 from "images/homepage/stats3.png";
 import SpotlightBlue from "images/homepage/spotlight-hg.svg";
-import RustGlobalWhite from "images/homepage/rust-svg.svg";
 import Proposals from "images/homepage/hangzhou-proposals-min.jpg";
 
 import GosimShanghai from "images/homepage/gosim-shanghai.png";
@@ -191,20 +191,37 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
-  <TextAndImage
-    id="rust-global"
-    title="Co-located RustGlobal & RustChinaConf"
-    text="RustGlobal is the first Rust Foundation-hosted gathering dedicated to the use of Rust in global leadership settings."
-    image={RustGlobalWhite}
-    imageAlt="Rust Global"
-    dataBgSection="dark"
-    dataThemeSection="dark"
-    ctaButton={{
-      text: "RustGlobal + RustChinaConf 2025",
-      link: "https://rustcc.cn/2025conf/",
-      openInNewTab: true,
-    }}
+
+  <Cards
+    id="co-located-events"
+    title="Co-located Events"
+    description="We are excited to host these co-located events at GOSIM Hangzhou 2025."
+    cards={[
+      {
+        title: "RustGlobal & RustChinaConf",
+        description: "RustGlobal is the first Rust Foundation-hosted gathering dedicated to the use of Rust in global leadership settings.",
+        image: ["/images/homepage/rust-global-logo.svg","/images/homepage/RustChinaConf-hangzhou-black.svg"],
+        link: "https://rustcc.cn/2025conf/",
+        openInNewTab: true,
+      },
+      {
+        title: "Code Alert Hackathon",
+        description: "An AI hackathon based on the classic game \"Red Alert.\" Competitors will use natural language to command an AI agent through online challenges and live final battles.",
+        image: "/images/homepage/hackathon-code-alert.png",
+        link: "https://hackathon.mofa.ai",
+        openInNewTab: true,
+      },
+      // {
+      //   title: "To be announced",
+      //   description: "Stay tuned for more information on our third co-located event.",
+      //   image: "/images/homepage/placeholder.jpg",
+      //   link: "#",
+      //   openInNewTab: false,
+      // },
+    ]}
   />
+
+  
 <!--
   <TextAndSponsors
     title="Sponsorship Opportunities"
