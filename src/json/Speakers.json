@@ -48,7 +48,7 @@
     {
       "id": "zhongzhi-shi",
       "name": "Zhongzhi Shi",
-      "bio": "Zhongzhi Shi is a researcher and doctoral supervisor, the Institute of Computing Technology, Chinese Academy of Sciences, an academician of the International Academy for Information Study (IAIS), and a long-term researcher in intelligent science and artificial intelligence. He will deliver a presentation titled 'Collaborative Innovation in the Intelligent Era.' He believes the awarding of the 2024 Nobel Prizes in Physics and Chemistry marks the arrival of the human intelligent era. His report will introduce the development of intelligent science, AI agents based on large models, and look ahead, future trends. Professor Shi is a former Vice President of the Chinese Association for Artificial Intelligence (CAAI) and was the recipient of the 2013 Wu Wenjun AI Science & Technology Achievement Award. He has published over 20 books and more than 500 academic papers.",
+      "bio": "Zhongzhi Shi is an expert in artificial intelligence and intelligent science, a researcher and doctoral supervisor at the Institute of Computing Technology, Chinese Academy of Sciences, and an academician of the International Academy for Information Study (IAIS). He will deliver a presentation titled 'Collaborative Innovation in the Intelligence Era.' He believes the awarding of the 2024 Nobel Prizes in Physics and Chemistry marks the arrival of the human intelligent era. His report will introduce the development of intelligent science, AI agents based on large models, and look ahead to future trends. Professor Shi has received six national and ministerial scientific and technological awards and was the recipient of the 2013 Wu Wenjun AI Science & Technology Achievement Award. He has published over 20 books and more than 500 academic papers, and he is a former Vice President of the Chinese Association for Artificial Intelligence (CAAI).",
       "role": "Researcher, Doctoral Supervisor",
       "org": "Institute of Computing Technology, Chinese Academy of Sciences",
       "roleOrg": "Academician, International Academy for Information Study (IAIS)",
@@ -63,7 +63,7 @@
       },
       "status": "Accept",
       "draft": false
-    },
+    },  
     {
       "id": "florian-hnicke",
       "name": "Florian Hönicke",

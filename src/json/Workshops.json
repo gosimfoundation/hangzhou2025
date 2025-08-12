@@ -24,7 +24,7 @@
       "bio": "Xuezhi Wang, Director of Ecology and Industry Development for Huawei's Cangjie Programming Language.",
       "role": "Director of Ecology and Industry Development for Huawei's Cangjie Programming Language",
       "org": "Huawei",
-      "roleOrg": "Director of Ecology and Industry Development for Huawei's Cangjie Programming Language at Huawei",
+      "roleOrg": "Director of Ecology and Industry Development for Huawei's Cangjie Programming Language, Huawei",
       "image": "speaker-c08ac8a6.jpg",
       "tag": "ws-cangjie",
       "socialLinks": {
@@ -40,10 +40,10 @@
     {
       "id": "speaker-09dc38ab",
       "name": "Jingrun Wu",
-      "bio": "Server Application Architect at Beijing Chulian Technology Co., Ltd.",
+      "bio": "Server Application Architect, Beijing Chulian Technology Co., Ltd.",
       "role": "Server Application Architect",
       "org": "Beijing Chulian Technology Co., Ltd.",
-      "roleOrg": "Server Application Architect at Beijing Chulian Technology Co., Ltd.",
+      "roleOrg": "Server Application Architect, Beijing Chulian Technology Co., Ltd.",
       "image": "speaker-09dc38ab.png",
       "tag": "ws-cangjie",
       "socialLinks": {
@@ -59,10 +59,10 @@
     {
       "id": "speaker-4f433ef9",
       "name": "Yin Zhang",
-      "bio": "Yin Zhang is an active promoter of reforming traditional university computer science (CS) and software engineering (SE) courses. He is committed to using the Cangjie programming language, modern application development frameworks, MVVM + IService architectural patterns, microservices reference architectures, and artificial intelligence services to interconnect various CS/SE courses and design highly integrated CS/SE educational curricula. He has contributed a series of free online courses to the tech community, such as 'Cangjie Community Software Engineering,' demonstrating the potential and advantages of integrating cutting-edge technology into traditional university CS/SE courses. He also organized a student open-source community, the 'Cangjie Interest Group,' at Northeastern University's School of Software, contributing a series of open-source projects to the Cangjie community and incorporating these projects into his courses to promote close integration between course content and the open-source community. In his future work, he will continue to introduce rich Huawei technologies such as continuous integration, containerization, and large language models into his courses to help students better understand modern development technologies.",
+      "bio": "Yin Zhang is an active promoter of reforming traditional university computer science (CS) and software engineering (SE) courses. He is committed to using the Cangjie programming language, modern application development frameworks, MVVM + IService architectural patterns, microservices reference architectures, and artificial intelligence services to interconnect various CS/SE courses and design highly integrated CS/SE educational curricula. He has contributed a series of free online courses to the tech community, such as 'Cangjie Community Software Engineering,' demonstrating the potential and advantages of integrating cutting-edge technology into traditional university CS/SE courses. He also organized a student open-source community, the 'Cangjie Interest Group,', Northeastern University's School of Software, contributing a series of open-source projects to the Cangjie community and incorporating these projects into his courses to promote close integration between course content and the open-source community. In his future work, he will continue to introduce rich Huawei technologies such as continuous integration, containerization, and large language models into his courses to help students better understand modern development technologies.",
       "role": "Associate Professor",
       "org": "Northeastern University",
-      "roleOrg": "Associate Professor at Northeastern University",
+      "roleOrg": "Associate Professor, Northeastern University",
       "image": "speaker-4f433ef9.png",
       "tag": "ws-cangjie",
       "socialLinks": {
@@ -81,7 +81,7 @@
       "bio": "Shangming Cai received the Ph.D. degree in computer science from the Department of Computer Science and Technology, Tsinghua University, China, in 2022. He is currently an Engineer and Researcher with Alibaba Cloud Computing and an active contributor to open-source LLM projects such as SGLang, Mooncake, vLLM. His main research interests include distributed machine learning training, large language models, efficient serving systems, and big data analytics.",
       "role": "Senior Engineer",
       "org": "Alibaba Cloud",
-      "roleOrg": "Senior Engineer at Alibaba Cloud",
+      "roleOrg": "Senior Engineer, Alibaba Cloud",
       "image": "shangming-cai-.jpg",
       "tag": "ws-sglang",
       "socialLinks": {
@@ -97,10 +97,10 @@
     {
       "id": "yi-zhang",
       "name": "Yi Zhang",
-      "bio": "Yi Zhang, a Software Engineer at Alibaba Cloud and a member of the SGLang Team, is currently focused on building high-performance LLM/VLM inference engines.",
+      "bio": "Yi Zhang, a Software Engineer, Alibaba Cloud and a member of the SGLang Team, is currently focused on building high-performance LLM/VLM inference engines.",
       "role": "Software Engineer",
       "org": "Alibaba Cloud Computing Co., Ltd.",
-      "roleOrg": "Software Engineer at Alibaba Cloud Computing Co., Ltd.",
+      "roleOrg": "Software Engineer, Alibaba Cloud Computing Co., Ltd.",
       "image": "yi-zhang.png",
       "tag": "ws-sglang",
       "socialLinks": {
@@ -119,7 +119,7 @@
       "bio": "Current Sglang committer",
       "role": "Software Engineer",
       "org": "N/A",
-      "roleOrg": "Software Engineer at N/A",
+      "roleOrg": "Software Engineer, N/A",
       "image": "yikai-zhu.jpg",
       "tag": "ws-sglang",
       "socialLinks": {
@@ -135,10 +135,10 @@
     {
       "id": "speaker-d82e23b6",
       "name": "Haoyang Zhang",
-      "bio": "Haoyang Zhang, an undergraduate student in Artificial Intelligence (Future Experimental Class) at Northeastern University, is the head of the Northeastern University Huawei Fans Club and a HarmonyOS developer. He won the second prize in the OpenHarmony Application Innovation Competition of the Open Atom Open Source Competition. He led the MindSpire team to participate in the 2024 HarmonyOS Innovation Competition and the 2024 Geek Marathon, launching an application on the HarmonyOS NEXT App Store within two months. He also contributed a CodeLab and won the third prize in the 'Paopaoma' event.",
+      "bio": "Haoyang Zhang, an undergraduate student in Artificial Intelligence (Future Experimental Class), Northeastern University, is the head of the Northeastern University Huawei Fans Club and a HarmonyOS developer. He won the second prize in the OpenHarmony Application Innovation Competition of the Open Atom Open Source Competition. He led the MindSpire team to participate in the 2024 HarmonyOS Innovation Competition and the 2024 Geek Marathon, launching an application on the HarmonyOS NEXT App Store within two months. He also contributed a CodeLab and won the third prize in the 'Paopaoma' event.",
       "role": "Student Cangjie Evangelist",
       "org": "Northeastern University",
-      "roleOrg": "Student Cangjie Evangelist at Northeastern University",
+      "roleOrg": "Student Cangjie Evangelist, Northeastern University",
       "image": "speaker-d82e23b6.png",
       "tag": "ws-cangjie",
       "socialLinks": {
@@ -157,7 +157,7 @@
       "bio": "Vice President of CSDN Kaixin College",
       "role": "Vice President of CSDN Kaixin College",
       "org": "Kaixin Wuhan Technology Co., Ltd.",
-      "roleOrg": "Vice President of CSDN Kaixin College at Kaixin Wuhan Technology Co., Ltd.",
+      "roleOrg": "Vice President of CSDN Kaixin College, Kaixin Wuhan Technology Co., Ltd.",
       "image": "speaker-81c6f15f.png",
       "tag": "ws-cangjie",
       "socialLinks": {
@@ -176,7 +176,7 @@
       "bio": "SGLang committer",
       "role": "Member of Technical Staff",
       "org": "Qwen Team, Alibaba Group",
-      "roleOrg": "Member of Technical Staff at Qwen Team, Alibaba Group",
+      "roleOrg": "Member of Technical Staff, Qwen Team, Alibaba Group",
       "image": "junrong-lin.jpg",
       "tag": "ws-sglang",
       "socialLinks": {
@@ -195,7 +195,7 @@
       "bio": "Responsible for the research and development of the Maas platform.",
       "role": "Committer",
       "org": "SGlang",
-      "roleOrg": "Committer at SGlang",
+      "roleOrg": "Committer, SGlang",
       "image": "yanboyang.png",
       "tag": "ws-sglang",
       "socialLinks": {
@@ -214,7 +214,7 @@
       "bio": "Assistant Researcher",
       "role": "Assistant Researcher",
       "org": "iQIYI",
-      "roleOrg": "Assistant Researcher at iQIYI",
+      "roleOrg": "Assistant Researcher, iQIYI",
       "image": "speaker-c91d363f.jpg",
       "tag": "ws-cangjie",
       "socialLinks": {
@@ -233,7 +233,7 @@
       "bio": "https://github.com/sleepcoo",
       "role": "SGlang Committer",
       "org": "Meituan",
-      "roleOrg": "SGlang Committer at Meituan",
+      "roleOrg": "SGlang Committer, Meituan",
       "image": "-lukecwang.jpg",
       "tag": "ws-sglang",
       "socialLinks": {
@@ -252,7 +252,7 @@
       "bio": "Student@SEU",
       "role": "Developer(Intern)",
       "org": "Dora-rs",
-      "roleOrg": "Developer(Intern) at Dora-rs",
+      "roleOrg": "Developer(Intern), Dora-rs",
       "image": "zhongjin.jpg",
       "tag": "ws-dora",
       "socialLinks": {
@@ -268,10 +268,10 @@
     {
       "id": "tao-li",
       "name": "Tao Li",
-      "bio": "I'm a software engineer at Shenkaihong. Currently, I serve as the main developer for the OpenHarmony open-source robotics system project.",
+      "bio": "I'm a software engineer, Shenkaihong. Currently, I serve as the main developer for the OpenHarmony open-source robotics system project.",
       "role": "Software Engineer",
       "org": "Shenzhen Kaihong Digital Industry Development Co., Ltd.",
-      "roleOrg": "Software Engineer at Shenzhen Kaihong Digital Industry Development Co., Ltd.",
+      "roleOrg": "Software Engineer, Shenzhen Kaihong Digital Industry Development Co., Ltd.",
       "image": "tao-li.jpg",
       "tag": "ws-dora",
       "socialLinks": {
