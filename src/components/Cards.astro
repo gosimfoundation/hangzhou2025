@@ -11,13 +11,15 @@ interface Props {
         link: string,
         openInNewTab?: boolean,
     }>,
+    id?: string,
 }
 
-const { title, description, cards } = Astro.props;
+const { title, description, cards, id } = Astro.props;
 const twoCards = cards?.length === 2;
 ---
 
 <section
+    id={id}
     class="section section-home-why"
     data-theme-section="light"
     data-bg-section="lightgray"
