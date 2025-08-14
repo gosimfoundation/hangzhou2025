@@ -5,7 +5,7 @@ import type { ImageMetadata } from "astro";
 
 // Components
 import Layout from "layouts/LayoutLanding.astro";
-import speakers from "json/Speakers.json";
+import speakers from "json/Workshops.json";
 import schedule from "json/Schedule.json";
 import scheduleForum from "json/Schedule-forum.json";
 
@@ -50,7 +50,7 @@ const { speaker } = Astro.props as { speaker: Speaker };
 
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "images/speakers/*.{jpeg,jpg,png,gif}"
+  "images/speakers/*.{jpeg,jpg,png,gif}",
 );
 
 // Find speaker's sessions across all categories and forum schedule
@@ -60,7 +60,7 @@ const speakerSessions = [
     (acc: Session[], [category, sessions]: [string, Session[]]) => {
       const matchingSessions = sessions
         .filter((session) =>
-          session.speakers.some((s) => s.name === speaker.name)
+          session.speakers.some((s) => s.name === speaker.name),
         )
         .map((session) => ({
           ...session,
@@ -69,14 +69,14 @@ const speakerSessions = [
 
       return [...acc, ...matchingSessions];
     },
-    []
+    [],
   ),
   // Get sessions from forum schedule
   ...scheduleForum
     .filter(
       (session) =>
         session.speakers &&
-        session.speakers.some((s) => s.name === speaker.name)
+        session.speakers.some((s) => s.name === speaker.name),
     )
     .map((session) => ({
       title: session.title,
@@ -149,7 +149,7 @@ const socialIconMap: Record<string, string> = {
                 Object.entries(speaker.socialLinks || {})
                   .filter(
                     ([_, url]) =>
-                      url && url.trim() !== "" && url !== "undefined"
+                      url && url.trim() !== "" && url !== "undefined",
                   )
                   .map(([platform, url]) => (
                     <a
