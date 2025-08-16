@@ -11,15 +11,17 @@ import GetTickets from "components/GetTickets.astro";
 import VenueInfo from "components/VenueInfo.astro";
 import TextAndSponsors from "components/TextAndSponsors.astro";
 import TextAndImageReverse from "components/TextAndImageReverse.astro";
+import FeaturedSpeakers from "components/FeaturedSpeakersZh.astro";
 import Timeline from "components/Timeline.astro";
+import Marquee from "components/MarqueeZh.astro";
 import Cards from "components/Cards.astro";
+import CardsSponsors from "components/CardsSponsors.astro";
 
 // Images
 import Placeholder1 from "images/homepage/stats1.jpeg";
 import Placeholder2 from "images/homepage/stats2.jpg";
 import Placeholder3 from "images/homepage/stats3.png";
 import SpotlightBlue from "images/homepage/spotlight-hg.svg";
-import RustGlobalWhite from "images/homepage/rust-svg.svg";
 import Proposals from "images/homepage/hangzhou-proposals-min.jpg";
 
 import GosimShanghai from "images/homepage/gosim-shanghai.png";
@@ -40,13 +42,14 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     location="浙江 杭州"
     links={[
       {
-        text: "提案征集 Call For Proposals",
+        text: "提案征集 Call For Proposals - 8月18日 截止",
         link: "/zh/#proposals",
         openInNewTab: false,
       },
     ]}
   />
-  <!--   <CardsSponsors
+
+  <!-- <CardsSponsors
     title="由以下机构赞助"
     sponsors={[
       {
@@ -63,6 +66,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   /> -->
+
   <div
     class="section-wrap"
     id="intro"
@@ -100,13 +104,6 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       ]}
     />
   </div>
-  <VenueInfo
-    subtitle="会议地点"
-    title="杭州白金汉爵酒店"
-    location="浙江 杭州 - 创新与历史交汇之地"
-    text="在杭州体验GOSIM 2025，这座城市以其历史遗产和充满活力的科技未来而闻名。杭州，一颗历史瑰宝和现代科技中心，为灵感、交流和突破性创新提供了完美的背景。"
-    image="/images/homepage/hangzhoubg.png"
-  />
 
   <Tracks
     id="tracks"
@@ -142,9 +139,28 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       link: "",
     }}
   />
+
+  <VenueInfo
+    subtitle="会议地点"
+    title={"杭州白金汉爵酒店"}
+    location="浙江 杭州 - 创新与历史交汇之地"
+    text="在杭州体验GOSIM 2025，这座城市以其历史遗产和充满活力的科技未来而闻名。杭州，一颗历史瑰宝和现代科技中心，为灵感、交流和突破性创新提供了完美的背景。"
+    image="/images/homepage/hangzhoubg.png"
+  />
+
+  <Marquee />
+
+  <FeaturedSpeakers
+    title="特邀演讲嘉宾"
+    ctaButton={{
+      text: "更多演讲嘉宾",
+      link: "/zh/speakers/",
+    }}
+  />
+
   <TextAndImageReverse
     id="proposals"
-    title="提案征集 Call For Proposals"
+    title="提案征集 Call For Proposals - 8月18日 截止"
     text="我们正在寻找大胆的想法和新鲜的声音来塑造未来。如果您对前沿技术、新兴趋势或变革性实践有见解，我们希望听到您的声音。提交演讲提案，加入由推动边界的创新者、思想领袖和变革者组成的阵容。"
     image={Proposals}
     imageAlt="GOSIM Hangzhou 2025"
@@ -176,6 +192,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
+
   <Cards
     id="co-located-events"
     title="同期活动"
@@ -195,7 +212,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
         link: "https://forum.gosim.org/en/",
         openInNewTab: false,
       },
-      {
+            {
         title: "开放共创 · 可持续发展大会",
         description: "一场汇聚全球开源、人工智能及政策领域专家的盛会，旨在通过开放协作与AI技术，共同为联合国可持续发展目标（SDG）的实现加速。",
         image: "/images/homepage/co-located-open-sdg.jpg",
@@ -218,6 +235,8 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
+
+  
 
   <TextAndSponsors
     title="赞助机会"
@@ -254,6 +273,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
+  
   <TextAndImage
     id="spotlight"
     title="GOSIM AI for Human Spotlight"
@@ -263,8 +283,8 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     dataBgSection="light"
     dataThemeSection="light"
     ctaButton={{
-      text: "立即申请或提名",
-      link: "https://spotlight.gosim.org/",
+      text: "立即申请或提名 - 8月18日 截止",
+      link: "https:/spotlight.gosim.org/",
       openInNewTab: true,
     }}
   />
@@ -305,11 +325,15 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
-
   <GetTickets
     title="加入开源革命！"
     location="浙江 杭州"
     date="2025年9月13-14日"
     text="立即确保您在GOSIM Hangzhou 2025的席位。与创新者合作，与行业先驱交流，成为塑造开源技术未来的一部分。"
+    ctaButton={{
+      text: "立即购票",
+      link: "/zh/tickets",
+      openInNewTab: false,
+    }}
   />
 </Layout>

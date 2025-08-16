@@ -11,6 +11,7 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.2.1",
     "astro": "^5.12.1",
-    "sass": "^1.85.1"
+    "sass": "^1.85.1",
+    "wordcloud": "^1.2.3"
   }
 }
