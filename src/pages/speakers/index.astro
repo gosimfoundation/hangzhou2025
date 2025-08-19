@@ -12,11 +12,31 @@ import AllSpeakers from "components/Speakers.astro";
   navBackground="light"
   pageTransitionName="Speakers"
 >
-  <HeroText
-    title="This Year's Speakers"
-    text="From foundational models to cutting-edge research, our speakers will cover a wide range of topics to help you stay at the forefront of AI innovation."
-    lightgray
-  />
+  <section
+    class="section default-header"
+    style="background-image: linear-gradient(rgba(239, 239, 221, 0.92), rgba(239, 239, 221, 0.92)), url('/images/speakers/word_cloud.png'); background-size: cover; background-position: center bottom;"
+    data-theme-section="light"
+    data-bg-section="lightgray"
+    data-scroll-section
+>
+    <div class="container">
+        <div class="row grid">
+            <div class="border-bottom" />
+
+            <div class="col col-title">
+                <div class="col-row col-row-title">
+                    <h1 style="margin-bottom: 2rem; color: #000;">This Year's Speakers</h1>
+                </div>
+            </div>
+
+            <div class="col col-text">
+                <div class="col-row styled-content">
+                    <p style="color: #000;">From foundational models to cutting-edge research, our speakers will cover a wide range of topics to help you stay at the forefront of AI innovation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
   <AllSpeakers />
 
