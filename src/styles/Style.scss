@@ -1528,12 +1528,12 @@ footer {
 
 .section-speakers-grid .grid {
    padding-top: var(--section-padding);
-   --columns: 4;
+   --columns: 8;
 }
 
 @media screen and (max-width: 1024px) {
    .section-speakers-grid .grid {
-      --columns: 3;
+      --columns: 5;
    }
 }
 
