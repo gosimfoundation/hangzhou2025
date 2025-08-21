@@ -15,9 +15,336 @@
     {
       "name": "SGLang 工作坊",
       "id": "ws-sglang"
+    },
+    {
+      "name": "开放共创 · 可持续发展大会",
+      "id": "co-open-sdg"
     }
   ],
   "speakers": [
+    {
+      "id": "tiejun-huang",
+      "name": "黄铁军",
+      "bio": "北京大学教授，北京智源人工智能研究院（BAAI）理事长。",
+      "role": "教授兼理事长",
+      "org": "北京大学 / 北京智源人工智能研究院",
+      "roleOrg": "北京大学教授，北京智源人工智能研究院理事长",
+      "image": "tiejun-huang.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "mehdi-snene",
+      "name": "Mehdi Snene",
+      "bio": "Mehdi Snene博士是联合国秘书长数字与新兴技术特使的高级顾问，也是联合国数字与新兴技术办公室的成员，负责领导人工智能能力建设、数字公共基础设施和新兴技术的全球倡议。他曾指导过欧洲洛桑联邦理工学院（EPFL）耗资10亿欧元的“人类大脑计划”，推动神经形态计算和大脑模拟的发展。他还曾担任HealthAI的首席人工智能官，负责监督人工智能在医疗保健领域的战略发展和部署。他曾是日内瓦大学的副教授，创立并领导了一个专注于人工智能、神经科学和高性能计算的研究实验室。",
+      "role": "首席人工智能官，联合国秘书长数字与新兴技术特使高级顾问",
+      "org": "联合国数字与新兴技术办公室",
+      "roleOrg": "首席人工智能官，联合国数字基础设施与新兴技术",
+      "image": "mehdi-snene.png",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "muhammadou-mo-kah",
+      "name": "Muhammadou M.O. Kah",
+      "bio": "冈比亚共和国大使。",
+      "role": "大使",
+      "org": "冈比亚共和国",
+      "roleOrg": "冈比亚共和国大使",
+      "image": "muhammadou-mo-kah.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yonghua-lin",
+      "name": "林咏华",
+      "bio": "林咏华现任北京智源人工智能研究院副院长兼总工程师, 主管大模型基础技术、人工智能系统研究、产业生态合作等重要方向。IEEE女工程师亚太区领导组成员。曾任IBM中国研究院院长，同时也是IBM全球杰出工程师，在IBM内部引领全球人工智能系统的创新。从事近20年的系统架构、云计算、AI系统, 计算机视觉等领域的研究，并多次获得ACM/IEEE最佳论文奖。获评2019年福布斯中国50位科技领导女性。",
+      "role": "副院长兼总工程师",
+      "org": "北京智源人工智能研究院",
+      "roleOrg": "北京智源人工智能研究院副院长兼总工程师",
+      "image": "yonghua-lin.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "nicolas-flores-herr",
+      "name": "Nicolas Flores Herr",
+      "bio": "弗劳恩霍夫智能分析和信息系统研究所（IAIS）基础模型与生成式人工智能系统团队负责人。",
+      "role": "团队负责人",
+      "org": "弗劳恩霍夫智能分析和信息系统研究所",
+      "roleOrg": "弗劳恩霍夫智能分析和信息系统研究所基础模型与生成式人工智能系统团队负责人",
+      "image": "nicolas-flores-herr.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "joaquin-salvachua",
+      "name": "Joaquin Salvachua",
+      "bio": "马德里理工大学教授，专注于机器学习运维（ML-OPS）和大数据架构。",
+      "role": "教授",
+      "org": "马德里理工大学",
+      "roleOrg": "马德里理工大学教授",
+      "image": "joaquin-salvachua.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "nooman-fehri",
+      "name": "Nooman Fehri",
+      "bio": "突尼斯前数字与技术部长。",
+      "role": "前部长",
+      "org": "突尼斯政府",
+      "roleOrg": "突尼斯前数字与技术部长",
+      "image": "nooman-fehri.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "https://acetforafrica.org/our-people/noomane-fehri/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "matt-white",
+      "name": "Matt White",
+      "bio": "Pytorch基金会执行董事。",
+      "role": "执行董事",
+      "org": "Pytorch基金会",
+      "roleOrg": "Pytorch基金会执行董事",
+      "image": "matt-white.png",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "anni-lai",
+      "name": "Anni Lai",
+      "bio": "生成式AI Commons联合主席，LF AI & Data董事会成员。",
+      "role": "主持人 / 联合主席 / 董事会成员",
+      "org": "Generative AI Commons / LF AI & Data",
+      "roleOrg": "Generative AI Commons联合主席，LF AI & Data董事会成员",
+      "image": "anni-lai.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "minghui-zhou",
+      "name": "周明辉",
+      "bio": "北京大学终身正教授、副院长。曾任联合国人工智能高级别咨询机构（HLAB on AI）成员，联合国教科文组织法律专家。",
+      "role": "教授兼副院长",
+      "org": "北京大学",
+      "roleOrg": "北京大学终身正教授、副院长",
+      "image": "minghui-zhou.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "mohamed-farahat",
+      "name": "Mohamed Farahat",
+      "bio": "Mohamed Farahat是一名埃及的法律从业者、培训师、政治和法律研究员。Farahat在埃及难民权利基金会（EFRR）担任项目总监，并在英国约克大学担任法律研究员。他曾是非洲和中东难民援助组织的诉诸司法团队负责人，也曾在国际法学家委员会（ICJ）担任法律研究员。作为顾问，他曾为HUMENA人权与公民参与组织担任法律分析师，为国际移民组织（IOM-埃及）担任法律顾问，参与有关移民道德招聘、人口贩运、走私、劳动和移民政策制度的项目，为联合国儿童基金会（UNICEF）担任儿童司法顾问，并在开罗美国大学（AUC）移民与难民研究中心担任法律专家。他曾是国际信息通信技术政策促进东非和南部非洲组织（CIPESA）的研究员，后担任数字权利顾问。Farahat先生曾作为研究员和分析师，参与撰写了关于非洲互联网法律监督和数字权利状况的报告（发展研究所-IDS），并与非洲数字权利中心（ADRH）合作领导了关于非洲数据保护的项目，还与Paradigm Initiative合作撰写了关于非洲数字权利的报告。他是埃及国际关怀组织（CARE-International）的法律顾问，负责（基于性别的暴力）问题。Farahat先生是“变革创新”中东和北非（MENA）中心的董事会成员，北非互联网治理论坛（NAIGF）的管理咨询组成员（MAG），非洲数字权利网络（ADRN）成员，以及中东和北非无国籍网络的指导委员会成员和北非协调员。作为一名法律和政治研究员，Farahat发表了20篇关于国际难民法、无国籍问题、政治、民主、议会研究、数字权利和互联网治理的文章。Farahat先生在人权领域拥有丰富的经验，包括诉诸司法、难民权利、移民和工人权利、无国籍和国籍权、移民拘留、驱逐出境、儿童刑事司法、立法改革、司法独立、言论自由、（基于性别的暴力）、数字权利、互联网监控、网络中断、互联网接入和包容性、假新闻、数据保护和隐私权。在学术方面，Farahat先生拥有开罗大学的法学学位以及国际法、人权与公民社会、国际谈判、非洲研究-政治方向、议会研究等多个研究生文凭。",
+      "role": "",
+      "org": "",
+      "roleOrg": "前联合国秘书长高级别咨询机构成员，前联合国人工智能高级别咨询机构成员，联合国教科文-组织法律专家。",
+      "image": "mohamed-farahat.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "walid-mathlouthi",
+      "name": "Walid Mathlouthi",
+      "bio": "国际电信联盟（ITU）基础设施部门负责人。",
+      "role": "基础设施部门负责人",
+      "org": "国际电信联盟",
+      "roleOrg": "国际电信联盟，基础设施部门负责人",
+      "image": "walid-mathlouthi.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/walidmathlouthi/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xinwei-hu",
+      "name": "胡欣蔚",
+      "bio": "华为openEuler社区技术委员会主席。",
+      "role": "主席",
+      "org": "openEuler社区技术委员会",
+      "roleOrg": "openEuler社区技术委员会主席",
+      "image": "xinwei-hu.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "bryan-che",
+      "name": "Bryan Che",
+      "bio": "Eclipse基金会和LF CNCF董事会成员",
+      "role": "董事会成员",
+      "org": "Eclipse基金会和LF CNCF",
+      "roleOrg": "Eclipse基金会和LF CNCF董事会成员",
+      "image": "bryan-che.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "kai-du",
+      "name": "杜凯",
+      "bio": "Eclipse基金会董事会成员，清华大学心理与认知科学系教授。",
+      "role": "教授",
+      "org": "清华大学",
+      "roleOrg": "清华大学教授",
+      "image": "0-placeholder-person.png",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "qian-zheng",
+      "name": "郑乾",
+      "bio": "浙江大学计算机科学与技术学院及脑机智能全国重点实验室研究员。他的研究方向是类脑视觉。",
+      "role": "研究员",
+      "org": "浙江大学",
+      "roleOrg": "浙江大学研究员",
+      "image": "qian-zheng.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "weijie-sun",
+      "name": "孙伟杰",
+      "bio": "深势科技（DP Technology）创始人兼首席执行官，该公司专注于‘AI for Science’（人工智能驱动科学研究）。",
+      "role": "创始人兼首席执行官",
+      "org": "深势科技",
+      "roleOrg": "深势科技创始人兼首席执行官",
+      "image": "weijie-sun.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
     {
       "id": "speaker-1755113545424",
       "name": "王学智",
@@ -77,8 +404,8 @@
     },
     {
       "id": "shangming-cai-",
-      "name": "Shangming Cai (蔡尚铭)",
-      "bio": "Shangming Cai 于2022年在中国清华大学计算机科学与技术系获得计算机科学博士学位。他目前是阿里云计算的工程师和研究员，并且是 SGLang、Mooncake、vLLM 等开源 LLM 项目的积极贡献者。他的主要研究兴趣包括分布式机器学习训练、大语言模型、高效服务系统和大数据分析。",
+      "name": "蔡尚铭",
+      "bio": "蔡尚铭于2022年在中国清华大学计算机科学与技术系获得计算机科学博士学位。他目前是阿里云计算的工程师和研究员，并且是 SGLang、Mooncake、vLLM 等开源 LLM 项目的积极贡献者。他的主要研究兴趣包括分布式机器学习训练、大语言模型、高效服务系统和大数据分析。",
       "role": "高级工程师",
       "org": "阿里云",
       "roleOrg": "高级工程师, 阿里云",
@@ -96,7 +423,7 @@
     },
     {
       "id": "yi-zhang",
-      "name": "张懿/Yi Zhang",
+      "name": "张懿",
       "bio": "张懿，阿里云的研发工程师，SGLang Team的成员之一，目前主要关注构建高性能的LLM/VLM推理引擎。",
       "role": "研发工程师",
       "org": "阿里云计算有限公司",
@@ -115,7 +442,7 @@
     },
     {
       "id": "yikai-zhu",
-      "name": "Yikai Zhu",
+      "name": "朱熠恺",
       "bio": "现任 SGLang 提交者。",
       "role": "软件工程师",
       "org": "无",
@@ -172,7 +499,7 @@
     },
     {
       "id": "junrong-lin",
-      "name": "Junrong Lin",
+      "name": "林骏荣",
       "bio": "SGLang 提交者。",
       "role": "技术人员",
       "org": "阿里巴巴集团通义千问团队",
@@ -191,7 +518,7 @@
     },
     {
       "id": "yanboyang",
-      "name": "yanboyang",
+      "name": "杨彦波",
       "bio": "负责Maas平台的研发工作。",
       "role": "提交者",
       "org": "SGlang",
@@ -229,7 +556,7 @@
     },
     {
       "id": "-lukecwang",
-      "name": "王超 （lukecwang）",
+      "name": "王超",
       "bio": "https://github.com/sleepcoo",
       "role": "SGlang 提交者",
       "org": "美团",
@@ -248,7 +575,7 @@
     },
     {
       "id": "zhongjin",
-      "name": "Zhongjin",
+      "name": "Zhongjin Lu",
       "bio": "东南大学学生。",
       "role": "开发者（实习）",
       "org": "Dora-rs",
@@ -267,7 +594,7 @@
     },
     {
       "id": "tao-li",
-      "name": "Tao Li",
+      "name": "李涛",
       "bio": "我是深开鸿的一名软件工程师。目前，我担任 OpenHarmony 开源机器人系统项目的主要开发者。",
       "role": "软件工程师",
       "org": "深圳开鸿数字产业发展有限公司",
@@ -286,7 +613,7 @@
     },
     {
       "id": "yizhong-cao-",
-      "name": "Yizhong Cao 曹逸中",
+      "name": "曹逸中",
       "bio": "通义千问 - 推理团队",
       "role": "工程师",
       "org": "阿里巴巴",

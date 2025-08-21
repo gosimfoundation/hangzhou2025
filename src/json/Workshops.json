@@ -15,9 +15,336 @@
     {
       "name": "SGLang Workshop",
       "id": "ws-sglang"
+    },
+    {
+      "name": "Open for SDG Conference",
+      "id": "co-open-sdg"
     }
   ],
   "speakers": [
+    {
+      "id": "tiejun-huang",
+      "name": "Tiejun Huang",
+      "bio": "Professor at Peking University and Chairman of the Beijing Academy of Artificial Intelligence (BAAI).",
+      "role": "Professor and Chairman",
+      "org": "Peking University / BAAI",
+      "roleOrg": "Prof. from Peking Univ., Chairman of BAAI",
+      "image": "tiejun-huang.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "mehdi-snene",
+      "name": "Mehdi Snene",
+      "bio": "Dr. Mehdi Snene is a Senior Advisor to the UN Secretary-General's Special Envoy for Digital and Emerging Technologies and a member of the UN Office for Digital and Emerging Technologies, where he leads global initiatives in AI capacity-building, digital public infrastructure, and emerging tech. He previously directed the €1 billion Human Brain Project, EPFL, advancing neuromorphic computing and brain simulation, and served as Chief AI Officer, HealthAI, overseeing the strategic development and deployment of AI in healthcare. A former Associate Professor, the University of Geneva, he founded and led a research lab focused on AI, neuroscience, and high-performance computing.",
+      "role": "Chief AI Officer, Senior Advisor to the UN Secretary-General's Special Envoy for Digital and Emerging Technologies",
+      "org": "UN Office for Digital and Emerging Technologies",
+      "roleOrg": "Chief AI Officer, Digital infrastructure and emerging technologies @ UN",
+      "image": "mehdi-snene.png",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "muhammadou-mo-kah",
+      "name": "Muhammadou M.O. Kah",
+      "bio": "Ambassador of The Republic of the Gambia.",
+      "role": "Ambassador",
+      "org": "The Republic of the Gambia",
+      "roleOrg": "Ambassador of The Republic of the Gambia",
+      "image": "muhammadou-mo-kah.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yonghua-lin",
+      "name": "Yonghua Lin",
+      "bio": "VP and Chief Engineer at the Beijing Academy of Artificial Intelligence (BAAI).",
+      "role": "VP and Chief Engineer",
+      "org": "BAAI",
+      "roleOrg": "VP and Chief Engineer at BAAI",
+      "image": "yonghua-lin.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "nicolas-flores-herr",
+      "name": "Nicolas Flores Herr",
+      "bio": "Team Lead for Foundation Models & Gen AI Systems at Fraunhofer IAIS.",
+      "role": "Team Lead",
+      "org": "Fraunhofer IAIS",
+      "roleOrg": "Team Lead Foundation Models & Gen AI Systems, Fraunhofer IAIS",
+      "image": "nicolas-flores-herr.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "joaquin-salvachua",
+      "name": "Joaquin Salvachua",
+      "bio": "Professor at the Universidad Politecnica de Madrid, specializing in ML-OPS and Big Data architectures.",
+      "role": "Professor",
+      "org": "Universidad Politecnica de Madrid",
+      "roleOrg": "Professor at the Universidad Politecnica de Madrid",
+      "image": "joaquin-salvachua.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "nooman-fehri",
+      "name": "Nooman Fehri",
+      "bio": "Former Minister of Digital and Technology for Tunisia.",
+      "role": "Former Minister",
+      "org": "Government of Tunisia",
+      "roleOrg": "Former Digital and technology minister, Tunisia",
+      "image": "nooman-fehri.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "https://acetforafrica.org/our-people/noomane-fehri/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "matt-white",
+      "name": "Matt White",
+      "bio": "Executive Director of the Pytorch Foundation.",
+      "role": "Executive Director",
+      "org": "Pytorch Foundation",
+      "roleOrg": "Executive Director, Pytorch Foundation",
+      "image": "matt-white.png",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "anni-lai",
+      "name": "Anni Lai",
+      "bio": "Co-Chair of Generative AI Commons and a Board Member at LF AI & Data.",
+      "role": "Moderator / Co-Chair / Board Member",
+      "org": "Generative AI Commons / LF AI & Data",
+      "roleOrg": "Co-Chair, Generative AI Commons. Board Member. LF AI & Data",
+      "image": "anni-lai.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "minghui-zhou",
+      "name": "Minghui Zhou",
+      "bio": "Tenured Full Professor and Vice Dean at Peking University. Former member of the UN HLAB on AI and a legal expert with UNESCO.",
+      "role": "Professor and Vice Dean",
+      "org": "Peking University",
+      "roleOrg": "Tenured Full Professor and Vice Dean at Peking University",
+      "image": "minghui-zhou.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "mohamed-farahat",
+      "name": "Mohamed Farahat",
+      "bio": "Mohamed Farahat is an Egyptian based legal practitioner, trainer, political, and legal researcher. Farahat works as programs director at Egyptian Foundation for refugees Rights (EFRR) , Legal Researcher officer -University of York-UK . Farahat was Access to Justice team leader at African and Middle East for Refugees Assistance , was Legal researcher at International Commission for Jurists (ICJ), As consultant he worked with HUMENA for human rights and civic engagement as a legal analyst, Legal Consultant with (IOM-Egypt)on projects related to ethical recruitment for migrants , Trafficking, Smuggling, Labor and Migration Policy Regimes, Justice for Children Consultant (UNICEF) ,Legal Expert with Center for Migration and Refugees Studies American University in Cairo (AUC) . research fellow and later as digital rights consultant with International ICT Policy for East and Southern Africa (CIPESA). Mr. Farahat was Researcher and Analyst, co-author in report on internet law surveillance and Digital Rights Landscape Reports ,in Africa -The Institute of Development Studies (IDS)-, research leader with African Digital Rights Hub (ADRH) in project about data protection in Africa, and Co-author with Paradigm Initiative about digital rights report in Africa. He is legal consultant with CARE-International Egypt about (SGBV). Mr. Farahat is a member of bord of directors - Innovation for Change Middle East and North Africa MENA Hub, Management Advisory Group (MAG) member at North Africa Internet Governance (NAIGF), member of African Digital Rights Network (ADRN), Steering committee member and North Africa Coordinator at MENA statelessness Network,. As a legal and political researcher, Farahat has 20 published articles related to international refugee law, Statelessness, Politics, Democracy, Parliamentary studies, Digital rights, and internet governance. Mr. Farahat has a variety experience in human rights as access to Justice, refugees’ rights, migrant and workers’ rights, statelessness and right to nationality , migration detention , deportation , criminal justice for Children, legislative reforms, independence of judiciary, freedom of expression, (SGBV), digital rights ,Internet surveillance, internet shutdown, access to internet and internet inclusion , fake news, data protection and rights to privacy. Academically, Mr. Farahat holds a degree in Law from Cairo University and several post-graduate diplomas in international law, Human Rights and civil society, International Negotiation, African Studies-politics division, Parliamentary Studies.",
+      "role": "",
+      "org": "",
+      "roleOrg": "Former UNSG HLAB member, former member of UN HLAB on AI, legal expert with UNESCO.",
+      "image": "mohamed-farahat.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "walid-mathlouthi",
+      "name": "Walid Mathlouthi",
+      "bio": "Head of the Infrastructure division at the International Telecommunication Union (ITU).",
+      "role": "Head of Infrastructure division",
+      "org": "ITU",
+      "roleOrg": "ITU, Head of Infrastructure division",
+      "image": "walid-mathlouthi.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/walidmathlouthi/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xinwei-hu",
+      "name": "Xinwei Hu",
+      "bio": "Chair of the openEuler Community Technical Committee at Huawei.",
+      "role": "Chair",
+      "org": "openEuler Community Technical Committee",
+      "roleOrg": "Chair of the openEuler Community Technical Committee",
+      "image": "xinwei-hu.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "bryan-che",
+      "name": "Bryan Che",
+      "bio": "Board Member, Eclipse Foundation and LF CNCF",
+      "role": "Board Member",
+      "org": "Eclipse Foundation and LF CNCF",
+      "roleOrg": "Board Member, Eclipse Foundation and LF CNCF",
+      "image": "bryan-che.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "kai-du",
+      "name": "Kai Du",
+      "bio": "Board Member of the Eclipse Foundation and Professor in the Department of Psychology and Cognitive Science at Tsinghua University.",
+      "role": "Professor",
+      "org": "Tsinghua University",
+      "roleOrg": "Professor, Tsinghua University",
+      "image": "0-placeholder-person.png",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "qian-zheng",
+      "name": "Qian Zheng",
+      "bio": "Researcher at the College of Computer Science and Technology and the National Key Laboratory of Brain-Computer Intelligence at Zhejiang University. His research focuses on brain-inspired vision.",
+      "role": "Researcher",
+      "org": "Zhejiang University",
+      "roleOrg": "Researcher, Zhejiang University",
+      "image": "qian-zheng.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "weijie-sun",
+      "name": "Weijie Sun",
+      "bio": "Founder & CEO of DP Technology, a company focused on 'AI for Science'.",
+      "role": "Founder & CEO",
+      "org": "DP Technology",
+      "roleOrg": "Founder&CEO at DP Technology",
+      "image": "weijie-sun.jpg",
+      "tag": "co-open-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
     {
       "id": "speaker-1755113545424",
       "name": "Xuezhi Wang",
@@ -248,7 +575,7 @@
     },
     {
       "id": "zhongjin",
-      "name": "Zhongjin",
+      "name": "Zhongjin Lu",
       "bio": "Student at Southeast University.",
       "role": "Developer (Intern)",
       "org": "Dora-rs",

@@ -7,17 +7,18 @@ import NotificationBar from "components/NotificationBar.astro";
 const hasNotificationBar = false; // Set this to false when NotificationBar is removed or page will crash
 
 const links = [
-  // {
-  //   text: "Location",
-  //   link: "/#venue",
-  // },
   {
-    text: "Speakers",
-    link: "/speakers",
-  },
-  {
-    text: "Workshops",
-    link: "/workshops",
+    text: "All Speakers",
+    subLinks: [
+      {
+        text: "Keynote & Track Speakers",
+        link: "/speakers",
+      },
+      {
+        text: "Workshop & Co-located Events Speakers",
+        link: "/workshops",
+      },
+    ],
   },
   {
     text: "Tracks",
@@ -155,8 +156,8 @@ const switchPath = isZhPath ? slug.replace("/zh/", "/") : `/zh${slug}`;
           }
           <li class="link link-hover mobile-language-item">
             <div class="language-mobile-menu">
-              <a class="language-item active" href={slug}>English</a>
-              <a class="language-item" href={`/zh${slug}`}>中文</a>
+              <a class="language-item active" href={slug} onclick="localStorage.setItem('language_preference', 'en')">English</a>
+              <a class="language-item" href={`/zh${slug}`} onclick="localStorage.setItem('language_preference', 'zh'); sessionStorage.setItem('language_just_switched', 'true');">中文</a>
             </div>
           </li>
         </ul>
@@ -276,8 +277,8 @@ const switchPath = isZhPath ? slug.replace("/zh/", "/") : `/zh${slug}`;
             </svg>
           </button>
           <div class="language-dropdown-content">
-            <a href={slug} class="active">English</a>
-            <a href={`/zh${slug}`}>中文</a>
+            <a href={slug} class="active" onclick="localStorage.setItem('language_preference', 'en')">English</a>
+            <a href={`/zh${slug}`} onclick="localStorage.setItem('language_preference', 'zh'); sessionStorage.setItem('language_just_switched', 'true');">中文</a>
           </div>
         </div>
         <Button

@@ -8,12 +8,17 @@ const hasNotificationBar = false // Set this to false when NotificationBar is re
 
 const links = [
   {
-    text: "讲师",
-    link: "/zh/speakers",
-  },
-  {
-    text: "工作坊",
-    link: "/zh/workshops",
+    text: "所有讲师",
+    subLinks: [
+      {
+        text: "全体 Keynote & 主题讲师",
+        link: "/zh/speakers",
+      },
+      {
+        text: "工作坊 & 同期活动讲师",
+        link: "/zh/workshops",
+      },
+    ],
   },
   {
     text: "主题",
@@ -145,8 +150,8 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
           }
           <li class="link link-hover mobile-language-item">
             <div class="language-mobile-menu">
-              <a class="language-item" href={slug.replace('/zh/', '/')}>English</a>
-              <a class="language-item active" href={slug}>中文</a>
+              <a class="language-item" href={slug.replace('/zh', '') || '/'} onclick="localStorage.setItem('language_preference', 'en'); sessionStorage.setItem('language_just_switched', 'true');">English</a>
+              <a class="language-item active" href={slug} onclick="localStorage.setItem('language_preference', 'zh')">中文</a>
             </div>
           </li>
         </ul>
@@ -254,8 +259,8 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
             </svg>
           </button>
           <div class="language-dropdown-content">
-            <a href={slug.replace('/zh/', '/')}>English</a>
-            <a href={slug} class="active">中文</a>
+            <a href={slug.replace('/zh', '') || '/'} onclick="localStorage.setItem('language_preference', 'en'); sessionStorage.setItem('language_just_switched', 'true');">English</a>
+            <a href={slug} class="active" onclick="localStorage.setItem('language_preference', 'zh')">中文</a>
           </div>
         </div>
         <Button

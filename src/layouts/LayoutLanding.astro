@@ -42,22 +42,41 @@ const {
       pageTransitionName={pageTransitionName}
     />
     <script is:inline>
-      // Redirect to Chinese site if browser language is Chinese
-      (function() {
-        var lang = navigator.language || navigator.userLanguage;
-        var isChinese = lang.toLowerCase().startsWith('zh');
-        var isAlreadyOnChinesePage = window.location.pathname.startsWith('/zh');
+        // Handle language preference and browser language detection
+        (function() {
+          var lang = navigator.language || navigator.userLanguage;
+          var isChinese = lang.toLowerCase().startsWith('zh');
+          var isAlreadyOnChinesePage = window.location.pathname.startsWith('/zh');
+          var languagePreference = localStorage.getItem('language_preference');
+          var hasJustSwitched = sessionStorage.getItem('language_just_switched');
 
-        if (isChinese && !isAlreadyOnChinesePage) {
-          var newPath = '/zh' + window.location.pathname;
-          // Handle root path
-          if (window.location.pathname === '/') {
-            newPath = '/zh/';
+          // Clear the switch flag after a short delay
+          if (hasJustSwitched) {
+            sessionStorage.removeItem('language_just_switched');
+            return;
           }
-          window.location.href = newPath;
-        }
-      })();
-    </script>
+
+          // Only redirect based on stored preference if it exists and differs from current page
+          if (languagePreference === 'zh' && !isAlreadyOnChinesePage) {
+            sessionStorage.setItem('language_just_switched', 'true');
+            var newPath = '/zh' + window.location.pathname;
+            if (window.location.pathname === '/') {
+              newPath = '/zh/';
+            }
+            window.location.href = newPath;
+            return;
+          }
+
+          // Only redirect based on browser language if no preference is set
+          if (!languagePreference && isChinese && !isAlreadyOnChinesePage) {
+            var newPath = '/zh' + window.location.pathname;
+            if (window.location.pathname === '/') {
+              newPath = '/zh/';
+            }
+            window.location.href = newPath;
+          }
+        })();
+      </script>
   </head>
 
   <body
