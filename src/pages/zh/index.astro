@@ -73,72 +73,103 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     data-theme-section="light"
     data-bg-section="lightgray"
   >
-    <Intro>
-      <h1 class="h3 light split-words animate-read">
-        加入我们的GOSIM Hangzhou 2025，中国首屈一指的开源会议，这里是创新、协作和技术突破的汇聚之地。
-      </h1>
-    </Intro>
+    <div class="intro-statistics-container" style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 0rem;">
+      <Intro>
+        <h3 class="h3 light split-words animate-read">
+          加入我们的GOSIM Hangzhou 2025，中国首屈一指的开源会议，这里是创新、协作和技术突破的汇聚之地。
+        </h3>
+      </Intro>
 
-    <Statistics
-      stats={[
-        {
-          title: "1500",
-          subtitle: "与会者",
-          image: Placeholder1,
-          imageAlt: "",
-          hasPlus: true,
-        },
-        {
-          title: "100",
-          subtitle: "演讲嘉宾",
-          imageAlt: "",
-          image: Placeholder2,
-          hasPlus: true,
-        },
-        {
-          title: "2",
-          subtitle: "精彩日程",
-          imageAlt: "",
-          image: Placeholder3,
-        },
-      ]}
-    />
+      <Statistics
+        stats={[
+          {
+            title: "1500",
+            subtitle: "与会者",
+            image: Placeholder1,
+            imageAlt: "",
+            hasPlus: true,
+          },
+          {
+            title: "100",
+            subtitle: "演讲嘉宾",
+            imageAlt: "",
+            image: Placeholder2,
+            hasPlus: true,
+          },
+          {
+            title: "2",
+            subtitle: "精彩日程",
+            imageAlt: "",
+            image: Placeholder3,
+          },
+        ]}
+      />
+    </div>
   </div>
+
+  <FeaturedSpeakers
+    title="特邀演讲嘉宾"
+    ctaButton={{
+      text: "更多演讲嘉宾",
+      link: "/zh/speakers/",
+    }}
+  />
 
   <Tracks
     id="tracks"
-    title="5大前沿主题"
-    list={[
+    title="前沿主题 × 工作坊"
+    tracksTitle="主题"
+    workshopsTitle="工作坊"
+    tracks={[
       {
         title: "AI 模型 × 基础设施",
-        text: `基础模型、边缘推理、生成式AI、AI训练工具等。`,
+        text: "基础模型、边缘推理、生成式AI、AI训练工具等。",
       },
       {
         title: "具身智能",
-        text: `在现实世界中应用AI，从人形机器人到自主系统。`,
+        text: "在现实世界中应用AI，从人形机器人到自主系统。",
       },
       {
         title: "智能体网络",
-        text: `去中心化应用、身份识别、增强隐私技术和协作平台。`,
+        text: "去中心化应用、身份识别、增强隐私技术和协作平台。",
       },
       {
         title: "应用 × 智能体",
-        text: `跨平台和AI辅助应用开发、Rust GUI应用、WebAssembly和超级应用生态系统。`,
+        text: "跨平台和AI辅助应用开发、Rust GUI应用、WebAssembly和超级应用生态系统。",
       },
       {
         title: "下一代 AI",
-        text: `AI赋能用例、AI设备、人机交互界面、AI平台和AI治理。`,
+        text: "AI赋能用例、AI设备、人机交互界面、AI平台和AI治理。",
       },
-      // {
-      //   title: "Rust",
-      //   text: `Rust Global和Rust China会议，专注于Rust编程语言及其应用。`,
-      // },
+    ]}
+    workshops={[
+      {
+        title: "仓颉 工作坊",
+        text: "亲手实践仓颉语言模型，从训练技巧到实际应用部署。",
+      },
+      {
+        title: "Dora 工作坊",
+        text: "使用开源Dora框架为自主系统开发和部署机器人应用程序。"
+      },
+      {
+        title: "SGLang 工作坊",
+        text: "使用SGLang掌握高效且可控的大语言模型推理与交互。"
+      },
+      {
+        title: "边缘 AI 工作坊",
+        text: "学习如何在资源受限的边缘设备上优化和部署强大的AI模型，以实现实时推理。"
+      },
+      {
+        title: "未来网络 工作坊",
+        text: "探索下一代网络，重点关注去中心化身份、智能体AI和隐私优先技术。"
+      },
     ]}
     ctaButton={{
       text: "日程安排即将公布",
       link: "",
     }}
   />
+
 
   <VenueInfo
     subtitle="会议地点"
@@ -150,13 +181,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
 
   <Marquee />
 
-  <FeaturedSpeakers
-    title="特邀演讲嘉宾"
-    ctaButton={{
-      text: "更多演讲嘉宾",
-      link: "/zh/speakers/",
-    }}
-  />
+
 
   <TextAndImageReverse
     id="proposals"

@@ -63,82 +63,112 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
         name: "CSDN",
         image: "/images/sponsors/csdn.png",
       },
-    ]}
-  /> -->
+    ]} -->
   <div
     class="section-wrap"
     id="intro"
     data-theme-section="light"
     data-bg-section="lightgray"
   >
-    <Intro>
-      <h1 class="h3 light split-words animate-read">
-        Join us at GOSIM Hangzhou 2025, China's premier open-source conference,
-        where innovation, collaboration, and technological breakthroughs
-        converge.
-      </h1>
-    </Intro>
+    <div class="intro-statistics-container" style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 0rem;">
+      <Intro>
+        <h3 class="h3 light split-words animate-read">
+          Join us at GOSIM Hangzhou 2025, China's premier open-source conference,
+          where innovation, collaboration, and technological breakthroughs
+          converge.
+        </h3>
+      </Intro>
 
-    <Statistics
-      stats={[
-        {
-          title: "1500",
-          subtitle: "Attendees",
-          image: Placeholder1,
-          imageAlt: "",
-          hasPlus: true,
-        },
-        {
-          title: "100",
-          subtitle: "Speakers",
-          imageAlt: "",
-          image: Placeholder2,
-          hasPlus: true,
-        },
-        {
-          title: "2",
-          subtitle: "Exhilarating days",
-          imageAlt: "",
-          image: Placeholder3,
-        },
-      ]}
-    />
+      <Statistics
+        stats={[
+          {
+            title: "1500",
+            subtitle: "Attendees",
+            image: Placeholder1,
+            imageAlt: "",
+            hasPlus: true,
+          },
+          {
+            title: "100",
+            subtitle: "Speakers",
+            imageAlt: "",
+            image: Placeholder2,
+            hasPlus: true,
+          },
+          {
+            title: "2",
+            subtitle: "Exhilarating days",
+            imageAlt: "",
+            image: Placeholder3,
+          },
+        ]}
+      />
+    </div>
   </div>
+
+  <FeaturedSpeakers
+    title="Featured Speakers"
+    ctaButton={{
+      text: "More speakers",
+      link: "/speakers/",
+    }}
+  />
 
   <Tracks
     id="tracks"
-    title="5 Cutting-Edge Tracks"
-    list={[
+    title="Cutting-Edge Tracks × Workshops"
+    tracksTitle="Tracks"
+    workshopsTitle="Workshops"
+    tracks={[
       {
         title: "AI Models × Infra",
-        text: `Foundation models, edge inference, generative AI, tools for AI training and beyond.`,
+        text: "Foundation models, edge inference, generative AI, tools for AI training and beyond.",
       },
       {
         title: "Embodied AI",
-        text: `Apply AI in the real world, from humanoid robotics to autonomous systems.`,
+        text: "Apply AI in the real world, from humanoid robotics to autonomous systems.",
       },
       {
         title: "Agentic Web",
-        text: `Decentralized applications, identity, privacy-enhanced technologies, and collaborative platforms.`,
+        text: "Decentralized applications, identity, privacy-enhanced technologies, and collaborative platforms.",
       },
       {
         title: "Apps × Agents",
-        text: `Cross-platform and AI-assisted app dev, Rust GUI apps, WebAssembly, and super-app ecosystems.`,
+        text: "Cross-platform and AI-assisted app dev, Rust GUI apps, WebAssembly, and super-app ecosystems.",
       },
       {
         title: "AI Next",
-        text: `AI Enabled Use Cases, AI Devices, Human AI Interfaces, AI Platforms, and AI Governnances`,
+        text: "AI Enabled Use Cases, AI Devices, Human AI Interfaces, AI Platforms, and AI Governnances",
       },
-      // {
-      //   title: "Rust",
-      //   text: `Rust Global and Rust China conferences, focusing on the Rust programming language and its applications.`,
-      // },
+    ]}
+    workshops={[
+      {
+        title: "Cangjie Workshop",
+        text: "Hands-on with the Cangjie language model, from training techniques to real-world application deployment.",
+      },
+      {
+        title: "Dora Workshop",
+        text: "Develop and deploy robotics applications with the open-source Dora framework for autonomous systems."
+      },
+      {
+        title: "SGLang Workshop",
+        text: "Master efficient and controllable large language model inference and interaction using SGLang."
+      },
+      {
+        title: "Edge AI Workshop",
+        text: "Learn to optimize and deploy powerful AI models on resource-constrained edge devices for real-time inference."
+      },
+      {
+        title: "Future Web Workshop",
+        text: "Explore the next generation of the web, focusing on decentralized identity, agentic AI, and privacy-first technologies."
+      },
     ]}
     ctaButton={{
       text: "Schedule Coming Soon",
       link: "",
     }}
   />
+
 
   <VenueInfo
     subtitle="Venue"
@@ -150,13 +180,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
 
   <Marquee />
 
-  <FeaturedSpeakers
-    title="Featured Speakers"
-    ctaButton={{
-      text: "More speakers",
-      link: "/speakers/",
-    }}
-  />
+
 
   <TextAndImageReverse
     id="proposals"
