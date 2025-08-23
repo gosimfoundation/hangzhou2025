@@ -1,13 +1,13 @@
 ---
 // Packages
-import { Picture } from "astro:assets"
-import type { ImageMetadata } from "astro"
+import { Picture } from "astro:assets";
+import type { ImageMetadata } from "astro";
 
 // Components
-import Button from "components/Button.astro"
+import Button from "components/Button.astro";
 
 // JSON
-import speakersData from "json/FeaturedSpeakersZh.json"
+import speakersData from "json/FeaturedSpeakersZh.json";
 
 // Define speaker type
 interface Speaker {
@@ -31,28 +31,29 @@ interface Speaker {
 }
 
 const filteredSpeakers = speakersData.speakers.filter(
-  (speaker) => speaker.draft !== true && speaker.id !== "tbd")
+  (speaker) => speaker.draft !== true && speaker.id !== "tbd",
+);
 
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "images/speakers/*.{jpeg,jpg,png,gif}"
-)
+  "images/speakers/*.{jpeg,jpg,png,gif}",
+);
 
 interface Props {
-  title: string
+  title: string;
   ctaButton: {
-    text: string
-    link: string
-  }
+    text: string;
+    link: string;
+  };
 }
 
-const { title, ctaButton } = Astro.props
+const { title, ctaButton } = Astro.props;
 
 // Function to map tag ID to category name
 const getCategoryNameFromTag = (tagId: string): string => {
-  const category = speakersData.categories.find((cat) => cat.id === tagId)
-  return category ? category.name : tagId
-}
+  const category = speakersData.categories.find((cat) => cat.id === tagId);
+  return category ? category.name : tagId;
+};
 ---
 
 <section
@@ -71,45 +72,41 @@ const getCategoryNameFromTag = (tagId: string): string => {
       class="flickity-slider-group four-col count-6"
       data-flickity-slider-type="cards"
     >
-      <div class="flickity-carousel" style="outline: none;" id="speakers-carousel">
+      <div
+        class="flickity-carousel"
+        style="outline: none;"
+        id="speakers-carousel"
+      >
         {
-          filteredSpeakers?.map(
-            (loop) => (
-              <div class="flickity-slide" data-cursor-bubble-text="Drag">
-                <a href={`/workshops/${loop.id}/`} class="speaker-card-link">
-                  <div class="single-speakers-card">
-                    <div class="card-row card-row-image">
-                      <div class="card-image">
-                        {loop?.image &&
-                          images[`/public/images/speakers/${loop.image}`] && (
-                            <Picture
-                              src={images[
-                                `/public/images/speakers/${loop.image}`
-                              ]()}
-                              formats={["webp", "jpg"]}
-                              alt={loop.name}
-                              class="overlay"
-                              widths={[275, 400, 500, 600, 750, 900]}
-                              sizes="(max-width: 700px) 58vw, 450px"
-                            />
-                          )}
-                      </div>
-
-                      <div class="card-tags group-tags">
-                        <div class="single-tag">
-                          <p>{getCategoryNameFromTag(loop.tag)}</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-row card-row-info">
-                      <h3 class="h5">{loop.name}</h3>
-                      <p>{loop.roleOrg}</p>
+          filteredSpeakers?.map((loop) => (
+            <div class="flickity-slide" data-cursor-bubble-text="Drag">
+              <a href={`/workshops/${loop.id}/`} class="speaker-card-link">
+                <div class="single-speakers-card">
+                  <div class="card-row card-row-image">
+                    <div class="card-image">
+                      {loop?.image &&
+                        images[`/public/images/speakers/${loop.image}`] && (
+                          <Picture
+                            src={images[
+                              `/public/images/speakers/${loop.image}`
+                            ]()}
+                            formats={["webp", "jpg"]}
+                            alt={loop.name}
+                            class="overlay"
+                            widths={[275, 400, 500, 600, 750, 900]}
+                            sizes="(max-width: 700px) 58vw, 450px"
+                          />
+                        )}
                     </div>
                   </div>
-                </a>
-              </div>
-            )
-          )
+                  <div class="card-row card-row-info">
+                    <h3 class="h5">{loop.name}</h3>
+                    <p>{loop.roleOrg}</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          ))
         }
       </div>
     </div>
@@ -133,40 +130,7 @@ const getCategoryNameFromTag = (tagId: string): string => {
     display: block;
     transition: transform 0.3s ease;
   }
-  
   .speaker-card-link:hover {
     transform: translateY(-5px);
   }
 </style>
-
-<script>
-  // Function to shuffle array (Fisher-Yates algorithm)
-  function shuffleArray<T>(array: T[]): T[] {
-    const shuffled = [...array];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-    return shuffled;
-  }
-
-  // Wait for the DOM to be fully loaded
-  document.addEventListener('DOMContentLoaded', () => {
-    const carousel = document.getElementById('speakers-carousel');
-    if (!carousel) return;
-
-    // Get all speaker slides
-    const slides = Array.from(carousel.children);
-    
-    // Shuffle the slides
-    const shuffledSlides = shuffleArray(slides);
-    
-    // Clear the carousel
-    carousel.innerHTML = '';
-    
-    // Add only the first 11 shuffled slides back
-    shuffledSlides.slice(0, 11).forEach(slide => {
-      carousel.appendChild(slide);
-    });
-  });
-</script>

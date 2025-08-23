@@ -55,384 +55,204 @@
   ],
   "speakers": [
     {
-      "id": "tiejun-huang",
-      "name": "Tiejun Huang",
-      "bio": "Professor at Peking University and Chairman of the Beijing Academy of Artificial Intelligence (BAAI).",
-      "role": "Professor and Chairman",
-      "org": "Peking University / BAAI",
-      "roleOrg": "Prof. from Peking Univ., Chairman of BAAI",
-      "image": "tiejun-huang.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
       "id": "mehdi-snene",
       "name": "Mehdi Snene",
-      "bio": "Dr. Mehdi Snene is a Senior Advisor to the UN Secretary-General's Special Envoy for Digital and Emerging Technologies and a member of the UN Office for Digital and Emerging Technologies, where he leads global initiatives in AI capacity-building, digital public infrastructure, and emerging tech. He previously directed the €1 billion Human Brain Project, EPFL, advancing neuromorphic computing and brain simulation, and served as Chief AI Officer, HealthAI, overseeing the strategic development and deployment of AI in healthcare. A former Associate Professor, the University of Geneva, he founded and led a research lab focused on AI, neuroscience, and high-performance computing.",
-      "role": "Chief AI Officer, Senior Advisor to the UN Secretary-General's Special Envoy for Digital and Emerging Technologies",
-      "org": "UN Office for Digital and Emerging Technologies",
-      "roleOrg": "Chief AI Officer, Digital infrastructure and emerging technologies @ UN",
+      "bio": "Mehdi Snene博士是联合国秘书长数字与新兴技术特使的高级顾问，也是联合国数字与新兴技术办公室的成员，负责领导人工智能能力建设、数字公共基础设施和新兴技术的全球倡议。他曾指导过欧洲洛桑联邦理工学院（EPFL）耗资10亿欧元的“人类大脑计划”，推动神经形态计算和大脑模拟的发展。他还曾担任HealthAI的首席人工智能官，负责监督人工智能在医疗保健领域的战略发展和部署。他曾是日内eva大学的副教授，创立并领导了一个专注于人工智能、神经科学和高性能计算的研究实验室。",
+      "role": "首席人工智能官，联合国秘书长数字与新兴技术特使高级顾问",
+      "org": "联合国数字与新兴技术办公室",
+      "roleOrg": "首席人工智能官，联合国数字基础设施与新兴技术",
       "image": "mehdi-snene.png",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
+      "tag": "open-for-sdg"
     },
     {
       "id": "muhammadou-mo-kah",
       "name": "Muhammadou M.O. Kah",
-      "bio": "Ambassador of The Republic of the Gambia.",
-      "role": "Ambassador",
-      "org": "The Republic of the Gambia",
-      "roleOrg": "Ambassador of The Republic of the Gambia",
+      "bio": "冈比亚共和国大使。",
+      "role": "大使",
+      "org": "冈比亚共和国",
+      "roleOrg": "冈比亚共和国大使",
       "image": "muhammadou-mo-kah.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "yonghua-lin",
-      "name": "Yonghua Lin",
-      "bio": "VP and Chief Engineer at the Beijing Academy of Artificial Intelligence (BAAI).",
-      "role": "VP and Chief Engineer",
-      "org": "BAAI",
-      "roleOrg": "VP and Chief Engineer at BAAI",
-      "image": "yonghua-lin.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "nicolas-flores-herr",
-      "name": "Nicolas Flores Herr",
-      "bio": "Team Lead for Foundation Models & Gen AI Systems at Fraunhofer IAIS.",
-      "role": "Team Lead",
-      "org": "Fraunhofer IAIS",
-      "roleOrg": "Team Lead Foundation Models & Gen AI Systems, Fraunhofer IAIS",
-      "image": "nicolas-flores-herr.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "joaquin-salvachua",
-      "name": "Joaquin Salvachua",
-      "bio": "Professor at the Universidad Politecnica de Madrid, specializing in ML-OPS and Big Data architectures.",
-      "role": "Professor",
-      "org": "Universidad Politecnica de Madrid",
-      "roleOrg": "Professor at the Universidad Politecnica de Madrid",
-      "image": "joaquin-salvachua.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "johann-diedrick",
-      "name": "Johann Diedrick",
-      "bio": "I am an artist and engineer who makes listening rooms, spaces for encountering new sonic possibilities off-the-grid, through installations (🏗), performances (👯), software (📱), sculptures (🔊), and workshops (🛠).",
-      "role": "Staff Engineer & Data Scientist",
-      "org": "Mozilla Data Collective",
-      "roleOrg": "Staff Engineer & Data Scientist， Mozilla Data Collective",
-      "image": "johann-diedrick.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "nooman-fehri",
-      "name": "Nooman Fehri",
-      "bio": "Former Minister of Digital and Technology for Tunisia.",
-      "role": "Former Minister",
-      "org": "Government of Tunisia",
-      "roleOrg": "Former Digital and technology minister, Tunisia",
-      "image": "nooman-fehri.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "https://acetforafrica.org/our-people/noomane-fehri/"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "vincent-caldeira",
-      "name": "Vincent Caldeira",
-      "bio": "Vincent Caldeira, CTO of Red Hat in APAC, is responsible for technology strategy and emerging\r\ntechnology engineering. Named a Top 10 CTO in APAC by Technology Magazine in 2023, he\r\nhas more than 20 years in IT, excelling in technology transformation in finance. An authority in\r\nopen source, cloud computing, and digital transformation, Vincent frequently speaks on data\r\nanalytics, AI/ML including AI Safety, digital sovereignty, and IT sustainability. He is a Technical\r\nAdvisor to Linux Foundation OS-Climate, a member of the GSF Green AI Committee, a\r\nTechnical Oversight Committee Member at FinTech Open Source Foundation (FINOS), a\r\nmember of LF AI & Data GenAI Commons and leads several CNCF AI Initiatives.",
-      "role": "CTO",
-      "org": "Red Hat APAC",
-      "roleOrg": "CTO, Red Hat APAC",
-      "image": "vincent-caldeira.jpeg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "website": ""
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "matt-white",
-      "name": "Matt White",
-      "bio": "Matt White is the Executive Director of the PyTorch Foundation and GM of AI at the Linux Foundation, as well as the Director of the Generative AI Commons under the LF AI & Data Foundation. With nearly 30 years of experience in AI research, standards, and applications across telecom, media, and gaming, he has specialized since 2012 in machine learning, simulations, and multi-sensory learning. He previously co-founded the Open Metaverse Foundation, chairs the Metaverse Standards Forum, and co-organizes both the Silicon Valley Generative AI paper reading group and the GenAI Collective.",
-      "role": "GM of AI/Executive Director",
-      "org": "Linux Foundation/PyTorch Foundation",
-      "roleOrg": "GM of AI/Executive Director, Linux Foundation/PyTorch Foundation",
-      "image": "matt-white.png",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "matthew-d-white",
-        "github": "matthew-d-white",
-        "linkedin": "https://www.linkedin.com/in/mdwdata",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "anni-lai",
-      "name": "Anni Lai",
-      "bio": "Co-Chair of Generative AI Commons and a Board Member at LF AI & Data.",
-      "role": "Moderator / Co-Chair / Board Member",
-      "org": "Generative AI Commons / LF AI & Data",
-      "roleOrg": "Co-Chair, Generative AI Commons. Board Member. LF AI & Data",
-      "image": "anni-lai.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "liyun-yang",
-      "name": "Liyun Yang",
-      "bio": "Senior Engineer, Director of the Cloud Computing Research Office at the China Electronics Standardization Institute, Deputy Secretary-General of the China Open Source Cloud Alliance, Convener for the Mainland of the Cross-Strait Cloud Computing Sub-forum of the Ministry of Industry and Information Technology, and Head of the Secretariat of the National Information Technology Standardization Committee Cloud Computing Standards Working Group.",
-      "role": "Senior Engineer",
-      "org": "China Electronics Standardization Institute",
-      "roleOrg": "Senior Engineer, Director of the Cloud Computing Research Office at the China Electronics Standardization Institute",
-      "image": "liyun-yang.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "alexy-khrabrov-",
-      "name": "Alexy Khrabrov ",
-      "bio": "Alexy Khrabrov is the AI Community Architect at Neo4j, the category-defining Graph database company. Alexy is the founding Chair of Open-Source Science at NumFOCUS, and a cofounder of the AI Alliance. Alexy was the founding Chair of the Generative AI Commons at the Linux Foundation for AI and Data (LFAI) and now represents Neo4j at LFAI.  Alexy is the founder and organizer of Bay Area AI and AI Agent SF meetups, as well as the Scale/Data/AI By the Bay conferences, the independent OSS AI conference running since 2013.",
-      "role": "AI Community Architect",
-      "org": "Neo4j",
-      "roleOrg": "AI Community Architect, Neo4j",
-      "image": "alexy-khrabrov-.jpeg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "@chiefscientist",
-        "github": "https://github.com/alexy",
-        "linkedin": "https://linkedin.com/in/chiefscientist",
-        "website": "https://chiefscientist.org"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "minghui-zhou",
-      "name": "Minghui Zhou",
-      "bio": "Tenured Full Professor and Vice Dean at Peking University. Former member of the UN HLAB on AI and a legal expert with UNESCO.",
-      "role": "Professor and Vice Dean",
-      "org": "Peking University",
-      "roleOrg": "Tenured Full Professor and Vice Dean at Peking University",
-      "image": "minghui-zhou.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "mohamed-farahat",
-      "name": "Mohamed Farahat",
-      "bio": "Mohamed Farahat is an Egyptian based legal practitioner, trainer, political, and legal researcher. Farahat works as programs director at Egyptian Foundation for refugees Rights (EFRR) , Legal Researcher officer -University of York-UK . Farahat was Access to Justice team leader at African and Middle East for Refugees Assistance , was Legal researcher at International Commission for Jurists (ICJ), As consultant he worked with HUMENA for human rights and civic engagement as a legal analyst, Legal Consultant with (IOM-Egypt)on projects related to ethical recruitment for migrants , Trafficking, Smuggling, Labor and Migration Policy Regimes, Justice for Children Consultant (UNICEF) ,Legal Expert with Center for Migration and Refugees Studies American University in Cairo (AUC) . research fellow and later as digital rights consultant with International ICT Policy for East and Southern Africa (CIPESA). Mr. Farahat was Researcher and Analyst, co-author in report on internet law surveillance and Digital Rights Landscape Reports ,in Africa -The Institute of Development Studies (IDS)-, research leader with African Digital Rights Hub (ADRH) in project about data protection in Africa, and Co-author with Paradigm Initiative about digital rights report in Africa. He is legal consultant with CARE-International Egypt about (SGBV). Mr. Farahat is a member of bord of directors - Innovation for Change Middle East and North Africa MENA Hub, Management Advisory Group (MAG) member at North Africa Internet Governance (NAIGF), member of African Digital Rights Network (ADRN), Steering committee member and North Africa Coordinator at MENA statelessness Network,. As a legal and political researcher, Farahat has 20 published articles related to international refugee law, Statelessness, Politics, Democracy, Parliamentary studies, Digital rights, and internet governance. Mr. Farahat has a variety experience in human rights as access to Justice, refugees’ rights, migrant and workers’ rights, statelessness and right to nationality , migration detention , deportation , criminal justice for Children, legislative reforms, independence of judiciary, freedom of expression, (SGBV), digital rights ,Internet surveillance, internet shutdown, access to internet and internet inclusion , fake news, data protection and rights to privacy. Academically, Mr. Farahat holds a degree in Law from Cairo University and several post-graduate diplomas in international law, Human Rights and civil society, International Negotiation, African Studies-politics division, Parliamentary Studies.",
-      "role": "",
-      "org": "",
-      "roleOrg": "Former UNSG HLAB member, former member of UN HLAB on AI, legal expert with UNESCO.",
-      "image": "mohamed-farahat.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
+      "tag": "open-for-sdg"
     },
     {
       "id": "walid-mathlouthi",
       "name": "Walid Mathlouthi",
-      "bio": "Head of the Infrastructure division at the International Telecommunication Union (ITU).",
-      "role": "Head of Infrastructure division",
-      "org": "ITU",
-      "roleOrg": "ITU, Head of Infrastructure division",
+      "bio": "国际电信联盟（ITU）基础设施部门负责人。",
+      "role": "基础设施部门负责人",
+      "org": "国际电信联盟",
+      "roleOrg": "国际电信联盟，基础设施部门负责人",
       "image": "walid-mathlouthi.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "https://www.linkedin.com/in/walidmathlouthi/",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
+      "tag": "open-for-sdg"
     },
     {
-      "id": "xinwei-hu",
-      "name": "Xinwei Hu",
-      "bio": "Chair of the openEuler Community Technical Committee at Huawei.",
-      "role": "Chair",
-      "org": "openEuler Community Technical Committee",
-      "roleOrg": "Chair of the openEuler Community Technical Committee",
-      "image": "xinwei-hu.jpeg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
+      "id": "nooman-fehri",
+      "name": "Nooman Fehri",
+      "bio": "突尼斯前数字与技术部长。",
+      "role": "前部长",
+      "org": "突尼斯政府",
+      "roleOrg": "突尼斯前数字与技术部长",
+      "image": "nooman-fehri.jpg",
+      "tag": "open-for-sdg"
     },
     {
-      "id": "bryan-che",
-      "name": "Bryan Che",
-      "bio": "Board Member, Eclipse Foundation and LF CNCF",
-      "role": "Board Member",
-      "org": "Eclipse Foundation and LF CNCF",
-      "roleOrg": "Board Member, Eclipse Foundation and LF CNCF",
-      "image": "bryan-che.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
+      "id": "matt-white",
+      "name": "Matt White",
+      "bio": "Pytorch基金会执行董事。",
+      "role": "执行董事",
+      "org": "Pytorch基金会",
+      "roleOrg": "Pytorch基金会执行董事",
+      "image": "matt-white.png",
+      "tag": "open-for-sdg"
     },
     {
-      "id": "kai-du",
-      "name": "Kai Du",
-      "bio": "Board Member of the Eclipse Foundation and Professor in the Department of Psychology and Cognitive Science at Tsinghua University.",
-      "role": "Professor",
-      "org": "Tsinghua University",
-      "roleOrg": "Professor, Tsinghua University",
-      "image": "0-placeholder-person.png",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
+      "id": "tiejun-huang",
+      "name": "黄铁军",
+      "bio": "北京大学教授，北京智源人工智能研究院（BAAI）理事长。",
+      "role": "教授兼理事长",
+      "org": "北京大学 / 北京智源人工智能研究院",
+      "roleOrg": "北京大学教授，北京智源人工智能研究院理事长",
+      "image": "tiejun-huang.jpg",
+      "tag": "open-for-sdg"
     },
     {
       "id": "satya-mallick",
       "name": "Satya Mallick",
-      "bio": "Dr. Satya Mallick is the CEO of OpenCV.org - the non-profit that maintains the largest computer vision library in the world. He is an entrepreneur in Artificial Intelligence, Computer Vision, and Machine Learning. Before starting his AI consulting company, Big Vision LLC, he co-founded Sight Commerce Inc (formerly Taaz Inc.), where he built AI products that reached over 100M users. His work has been covered in publications like TechCrunch, Huffington Post, NYTimes, and WSJ. Dr. Mallick is also the creator of some of the most popular online computer vision and AI courses. In 2017, IBM's AI Blog named Dr. Mallick as one of the top 20 people in AI to follow on Twitter. ",
-      "role": "CEO",
+      "bio": "Satya Mallick博士是OpenCV.org的首席执行官，该非营利组织维护着全球最大的计算机视觉库。他是一位在人工智能、计算机视觉和机器学习领域的企业家。在创办他的AI咨询公司Big Vision LLC之前，他联合创办了Sight Commerce Inc（前身为Taaz Inc.），在那里他构建的AI产品用户超过1亿。他的工作被TechCrunch、赫芬顿邮报、纽约时报和华尔街日报等出版物报道。Mallick博士也是一些最受欢迎的在线计算机视觉和AI课程的创建者。2017年，IBM的AI博客将Mallick博士评为Twitter上最值得关注的20位AI人物之一。",
+      "role": "首席执行官",
       "org": "OpenCV.org",
-      "roleOrg": "CEO, OpenCV.org",
+      "roleOrg": "首席执行官, OpenCV.org",
       "image": "satya-mallick.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "https://x.com/LearnOpenCV",
-        "github": "https://github.com/spmallick/learnopencv",
-        "linkedin": "https://www.linkedin.com/in/satyamallick/",
-        "website": ""
-      },
-      "status": "Accept",
-      "draft": false
+      "tag": "embodied-ai"
+    },
+    {
+      "id": "minghui-zhou",
+      "name": "周明辉",
+      "bio": "北京大学终身正教授、副院长。曾任联合国人工智能高级别咨询机构（HLAB on AI）成员，联合国教科文组织法律专家。",
+      "role": "教授兼副院长",
+      "org": "北京大学",
+      "roleOrg": "北京大学终身正教授、副院长",
+      "image": "minghui-zhou.jpg",
+      "tag": "open-for-sdg"
+    },
+    {
+      "id": "vincent-caldeira",
+      "name": "Vincent Caldeira",
+      "bio": "Vincent Caldeira，红帽亚太区首席技术官，负责技术战略和新兴技术工程。2023年被《技术杂志》评为亚太区十大CTO之一，他在IT领域拥有超过20年的经验，尤其擅长金融领域的技术转型。作为开源、云计算和数字化转型领域的权威，Vincent经常就数据分析、AI/ML（包括AI安全）、数字主权和IT可持续性等话题发表演讲。他是Linux基金会OS-Climate的技术顾问，GSF绿色AI委员会成员，金融科技开源基金会（FINOS）技术监督委员会成员，LF AI & Data GenAI Commons成员，并领导多项CNCF AI计划。",
+      "role": "首席技术官",
+      "org": "红帽亚太区",
+      "roleOrg": "首席技术官, 红帽亚太区",
+      "image": "vincent-caldeira.jpeg",
+      "tag": "ai-models-infra"
+    },
+    {
+      "id": "yonghua-lin",
+      "name": "林咏华",
+      "bio": "林咏华现任北京智源人工智能研究院副院长兼总工程师, 主管大模型基础技术、人工智能系统研究、产业生态合作等重要方向。IEEE女工程师亚太区领导组成员。曾任IBM中国研究院院长，同时也是IBM全球杰出工程师，在IBM内部引领全球人工智能系统的创新。从事近20年的系统架构、云计算、AI系统, 计算机视觉等领域的研究，并多次获得ACM/IEEE最佳论文奖。获评2019年福布斯中国50位科技领导女性。",
+      "role": "副院长兼总工程师",
+      "org": "北京智源人工智能研究院",
+      "roleOrg": "北京智源人工智能研究院副院长兼总工程师",
+      "image": "yonghua-lin.jpg",
+      "tag": "open-for-sdg"
+    },
+    {
+      "id": "bryan-che",
+      "name": "Bryan Che",
+      "bio": "Eclipse基金会和LF CNCF董事会成员",
+      "role": "董事会成员",
+      "org": "Eclipse基金会和LF CNCF",
+      "roleOrg": "Eclipse基金会和LF CNCF董事会成员",
+      "image": "bryan-che.jpg",
+      "tag": "open-for-sdg"
+    },
+    {
+      "id": "alexy-khrabrov-",
+      "name": "Alexy Khrabrov ",
+      "bio": "Alexy Khrabrov是图数据库领域的定义者Neo4j公司的AI社区架构师。Alexy是NumFOCUS开源科学的创始主席，也是AI联盟的联合创始人。Alexy曾是Linux基金会AI与数据（LFAI）创成式AI Commons的创始主席，现在代表Neo4j在LFAI任职。Alexy是湾区AI和AI Agent SF聚会的创始人及组织者，也是自2013年以来举办的独立开源AI会议Scale/Data/AI By the Bay的组织者。",
+      "role": "AI社区架构师",
+      "org": "Neo4j",
+      "roleOrg": "AI社区架构师, Neo4j",
+      "image": "alexy-khrabrov-.jpeg",
+      "tag": "apps-agents"
+    },
+    {
+      "id": "liyun-yang",
+      "name": "杨丽蕴",
+      "bio": "高级工程师，中国电子技术标准化研究院云计算研究室主任，中国开源云联盟常务副秘书长，工信部海峡两岸云计算分论坛大陆召集人，全国信标委云计算标准工作组秘书处负责人。",
+      "role": "高级工程师",
+      "org": "中国电子技术标准化研究院",
+      "roleOrg": "高级工程师，中国电子技术标准化研究院云计算研究室主任",
+      "image": "liyun-yang.jpg",
+      "tag": "open-for-sdg"
+    },
+    {
+      "id": "xinwei-hu",
+      "name": "胡欣蔚",
+      "bio": "华为openEuler社区技术委员会主席。",
+      "role": "主席",
+      "org": "openEuler社区技术委员会",
+      "roleOrg": "openEuler社区技术委员会主席",
+      "image": "xinwei-hu.jpeg",
+      "tag": "open-for-sdg"
+    },
+    {
+      "id": "kai-du",
+      "name": "杜凯",
+      "bio": "Eclipse基金会董事会成员，清华大学心理与认知科学系教授。",
+      "role": "教授",
+      "org": "清华大学",
+      "roleOrg": "清华大学教授",
+      "image": "0-placeholder-person.png",
+      "tag": "open-for-sdg"
+    },
+    {
+      "id": "anni-lai",
+      "name": "Anni Lai",
+      "bio": "生成式AI Commons联合主席，LF AI & Data董事会成员。",
+      "role": "主持人 / 联合主席 / 董事会成员",
+      "org": "Generative AI Commons / LF AI & Data",
+      "roleOrg": "Generative AI Commons联合主席，LF AI & Data董事会成员",
+      "image": "anni-lai.jpg",
+      "tag": "open-for-sdg"
+    },
+    {
+      "id": "nicolas-flores-herr",
+      "name": "Nicolas Flores Herr",
+      "bio": "基础模型与创成式AI系统行政领导\r\n\r\n我是弗劳恩霍夫智能分析和信息系统研究所（IAIS）德累斯顿分部的负责人，自2022年以来，我领导一个跨学科团队，致力于大型语言模型（LLM）和生成式AI的开发与应用。我们的专业知识涵盖了从数据集创建、预训练和持续预训练到微调和指令调整的整个生命周期。我们在OpenGPT-X、TrustLLM、OpenEuroLLM和Eurolingua等欧洲旗舰项目中开展这项工作。\r\n\r\n在我的领导岗位上，我将科学卓越与战略影响力相结合。我的团队为各行各业的行业合作伙伴开发定制的GenAI解决方案，包括可扩展的企业聊天机器人和用于语义搜索和知识访问的专业工具。",
+      "role": "基础模型与创成式AI系统团队负责人",
+      "org": "弗劳恩霍夫智能分析和信息系统研究所",
+      "roleOrg": "基础模型与创成式AI系统团队负责人, 弗劳恩霍夫智能分析和信息系统研究所",
+      "image": "nicolas-flores-herr.jpg",
+      "tag": "ai-models-infra"
+    },
+    {
+      "id": "joaquin-salvachua",
+      "name": "Joaquin Salvachua",
+      "bio": "马德里理工大学教授，专注于机器学习运维（ML-OPS）和大数据架构。",
+      "role": "教授",
+      "org": "马德里理工大学",
+      "roleOrg": "马德里理工大学教授",
+      "image": "joaquin-salvachua.jpg",
+      "tag": "open-for-sdg"
+    },
+    {
+      "id": "mohamed-farahat",
+      "name": "Mohamed Farahat",
+      "bio": "Mohamed Farahat是一名埃及的法律从业者、培训师、政治和法律研究员。Farahat在埃及难民权利基金会（EFRR）担任项目总监，并在英国约克大学担任法律研究员。他曾是非洲和中东难民援助组织的诉诸司法团队负责人，也曾在国际法学家委员会（ICJ）担任法律研究员。作为顾问，他曾为HUMENA人权与公民参与组织担任法律分析师，为国际移民组织（IOM-埃及）担任法律顾问，参与有关移民道德招聘、人口贩运、走私、劳动和移民政策制度的项目，为联合国儿童基金会（UNICEF）担任儿童司法顾问，并在开罗美国大学（AUC）移民与难民研究中心担任法律专家。他曾是国际信息通信技术政策促进东非和南部非洲组织（CIPESA）的研究员，后担任数字权利顾问。Farahat先生曾作为研究员和分析师，参与撰写了关于非洲互联网法律监督和数字权利状况的报告（发展研究所-IDS），并与非洲数字权利中心（ADRH）合作领导了关于非洲数据保护的项目，还与Paradigm Initiative合作撰写了关于非洲数字权利的报告。他是埃及国际关怀组织（CARE-International）的法律顾问，负责（基于性别的暴力）问题。Farahat先生是“变革创新”中东和北非（MENA）中心的董事会成员，北非互联网治理论坛（NAIGF）的管理咨询组成员（MAG），非洲数字权利网络（ADRN）成员，以及中东和北非无国籍网络的指导委员会成员和北非协调员。作为一名法律和政治研究员，Farahat发表了20篇关于国际难民法、无国籍问题、政治、民主、议会研究、数字权利和互联网治理的文章。Farahat先生在人权领域拥有丰富的经验，包括诉诸司法、难民权利、移民和工人权利、无国籍和国籍权、移民拘留、驱逐出境、儿童刑事司法、立法改革、司法独立、言论自由、（基于性别的暴力）、数字权利、互联网监控、网络中断、互联网接入和包容性、假新闻、数据保护和隐私权。在学术方面，Farahat先生拥有开罗大学的法学学位以及国际法、人权与公民社会、国际谈判、非洲研究-政治方向、议会研究等多个研究生文凭。",
+      "role": "",
+      "org": "",
+      "roleOrg": "前联合国秘书长高级别咨询机构成员",
+      "image": "mohamed-farahat.jpg",
+      "tag": "open-for-sdg"
+    },
+    {
+      "id": "johann-diedrick",
+      "name": "Johann Diedrick",
+      "bio": "我是一位艺术家和工程师，通过装置（🏗）、表演（👯）、软件（📱）、雕塑（🔊）和工作坊（🛠）等形式，来打造“聆听室”——一个能让人在脱离常规（off-the-grid）的状态下，邂逅全新声音可能性的空间。",
+      "role": "工程师 & 数据科学家",
+      "org": "Mozilla 数据协作组",
+      "roleOrg": "Mozilla 数据协作组的工程师 & 数据科学家",
+      "image": "johann-diedrick.jpg",
+      "tag": "open-for-sdg"
     }
   ]
 }
