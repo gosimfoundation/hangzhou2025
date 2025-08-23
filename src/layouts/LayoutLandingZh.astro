@@ -70,13 +70,6 @@ const {
           // No automatic redirection to Chinese on Chinese layout
           // Users should only be here if they explicitly chose Chinese or were redirected from English layout
         })();
-            // Handle root path
-            if (window.location.pathname === '/') {
-              newPath = '/zh/';
-            }
-            window.location.href = newPath;
-          }
-        })();
       </script>
   </head>
 

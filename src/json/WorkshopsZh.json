@@ -73,25 +73,6 @@
       "draft": false
     },
     {
-      "id": "muhammadou-mo-kah",
-      "name": "Muhammadou M.O. Kah",
-      "bio": "冈比亚共和国大使。",
-      "role": "大使",
-      "org": "冈比亚共和国",
-      "roleOrg": "冈比亚共和国大使",
-      "image": "muhammadou-mo-kah.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
       "id": "yonghua-lin",
       "name": "林咏华",
       "bio": "林咏华现任北京智源人工智能研究院副院长兼总工程师, 主管大模型基础技术、人工智能系统研究、产业生态合作等重要方向。IEEE女工程师亚太区领导组成员。曾任IBM中国研究院院长，同时也是IBM全球杰出工程师，在IBM内部引领全球人工智能系统的创新。从事近20年的系统架构、云计算、AI系统, 计算机视觉等领域的研究，并多次获得ACM/IEEE最佳论文奖。获评2019年福布斯中国50位科技领导女性。",
@@ -434,6 +415,82 @@
       "draft": false
     },
     {
+      "id": "xiaohu-zhu",
+      "name": "朱小虎",
+      "bio": "安全通用人工智能研究员",
+      "role": "创始人",
+      "org": "安全通用人工智能中心",
+      "roleOrg": "安全通用人工智能中心创始人",
+      "image": "xiaohu-zhu.png",
+      "tag": "forum-aivision",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "@neil_csagi",
+        "github": "http://github.com/tigerneil/",
+        "linkedin": "https://www.linkedin.com/in/xiaohu-zhu-97686637/",
+        "website": "https://xiaohuzhu.xyz"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "guofeng-zhang",
+      "name": "张国锋",
+      "bio": "上海开源信息技术协会创始人，上海对外经贸大学开源创新与数字治理研究院院长。他从2013年开始从事开源和区块链的教学和理论研究，2015年至2018年组织了多次开源和区块链社区活动。2018年发起成立上海开源信息技术协会。2020年11月，组织撰写并发布《中国开源创新社会工程宣言》。2023年5月，推动上海对外经贸大学设立开源创新与数字治理微专业。2025年4月，他组织撰写的领导干部开源读本《开源前沿课》由人民日报出版社出版。",
+      "role": "创始人",
+      "org": "上海开源信息技术协会",
+      "roleOrg": "上海开源信息技术协会创始人",
+      "image": "guofeng-zhang.jpeg",
+      "tag": "open-for-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "salim-nahle",
+      "name": "Salim Nahle",
+      "bio": "Salim Nahle博士是Efrei Paris的“数据与人工智能”项目经理和高管教育学术经理。他拥有黎巴嫩大学的电信和计算机科学工程学位（2005年），巴黎第六大学（UPMC）的计算机科学硕士学位（2006年），以及索邦大学的计算机科学博士学位（2009年）。他的博士研究专注于使用Wi-Fi和WiMAX技术的无线网状网络，解决了调度、路由和生活质量问题。从2011年到2014年，他在GE Healthcare担任软件工程师，参与“CT Revolution”项目。2014年至2019年，他担任ECE网络安全和大数据部门负责人，创建了“大数据与分析”和“防御性网络安全”专业。如今，他作为项目经理在Efrei领导人工智能、数据和云领域的学术创新。他还为合作公司开发和部署继续教育和高管教育项目。",
+      "role": "“数据与人工智能”项目经理兼高管教育学术经理",
+      "org": "Efrei Paris",
+      "roleOrg": "Efrei Paris“数据与人工智能”项目经理兼高管教育学术经理",
+      "image": "salim-nahle.jpg",
+      "tag": "forum-aivision",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/salim-nahle-03672571/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "sbastien-crozet",
+      "name": "Sébastien Crozet",
+      "bio": "Sébastien Crozet has been in love with the Rust programming language since its earliest days. He is the creator and maintainer of popular open-source libraries, including nalgebra and Rapier, for the Rust ecosystem that specialize in linear algebra, geometry, and physics. He is the founder of Dimforge where he focuses on contributing to the future of cross-platform scientific computing and AI.",
+      "role": "Founder",
+      "org": "Dimforge",
+      "roleOrg": "Founder, Dimforge",
+      "image": "sbastien-crozet.png",
+      "tag": "assign-me",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/dimforge",
+        "linkedin": "undefined",
+        "website": "https://dimforge.com"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
       "id": "speaker-wang-xue-zhi",
       "name": "王学智",
       "bio": "王学智，华为仓颉编程语言生态与产业发展总监",
@@ -700,6 +757,25 @@
       "draft": false
     },
     {
+      "id": "yicuan-yue",
+      "name": "Yicuan Yue",
+      "bio": "我本科和硕士毕业于中央美术学院，博士毕业于首都师范大学美术学院。我是一名艺术家。",
+      "role": "艺术家",
+      "org": "首都师范大学",
+      "roleOrg": "首都师范大学艺术家",
+      "image": "yicuan-yue.jpg",
+      "tag": "forum-aivision",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": "https://www.xiaohongshu.com/user/profile/5e2c419300000000010055bf?xsec_token=YBqLl2Ej_No_5lwWIgZpFYRlRkFpDiPb1m1fXHLuwYr1I%3D&xsec_source=app_share&xhsshare=CopyLink&appuid=5e2c419300000000010055bf&apptime=1754270391&share_id=a61e9597ab124f738215f8638469922d&share_channel=copy_link"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
       "id": "yizhong-cao-",
       "name": "曹逸中",
       "bio": "通义千问 - 推理团队",
@@ -712,6 +788,25 @@
         "mastodon": "",
         "twitter": "",
         "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+        {
+      "id": "weiyu-xie",
+      "name": "谢伟虞",
+      "bio": "谢伟虞是清华大学计算机科学与技术系高性能计算研究所的五年级博士生。他的研究兴趣包括计算机系统、大语言模型（LLM）推理、图计算和数据库。",
+      "role": "博士研究生",
+      "org": "清华大学",
+      "roleOrg": "清华大学博士研究生",
+      "image": "weiyu-xie.jpg",
+      "tag": "ws-edge-ai",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/ErvinXie",
         "linkedin": "",
         "website": ""
       },
@@ -750,101 +845,6 @@
         "mastodon": "",
         "twitter": "",
         "github": "https://github.com/wangtiance",
-        "linkedin": "",
-        "website": ""
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "xiaohu-zhu",
-      "name": "朱小虎",
-      "bio": "安全通用人工智能研究员",
-      "role": "创始人",
-      "org": "安全通用人工智能中心",
-      "roleOrg": "安全通用人工智能中心创始人",
-      "image": "xiaohu-zhu.png",
-      "tag": "forum-aivision",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "@neil_csagi",
-        "github": "http://github.com/tigerneil/",
-        "linkedin": "https://www.linkedin.com/in/xiaohu-zhu-97686637/",
-        "website": "https://xiaohuzhu.xyz"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "guofeng-zhang",
-      "name": "张国锋",
-      "bio": "上海开源信息技术协会创始人，上海对外经贸大学开源创新与数字治理研究院院长。他从2013年开始从事开源和区块链的教学和理论研究，2015年至2018年组织了多次开源和区块链社区活动。2018年发起成立上海开源信息技术协会。2020年11月，组织撰写并发布《中国开源创新社会工程宣言》。2023年5月，推动上海对外经贸大学设立开源创新与数字治理微专业。2025年4月，他组织撰写的领导干部开源读本《开源前沿课》由人民日报出版社出版。",
-      "role": "创始人",
-      "org": "上海开源信息技术协会",
-      "roleOrg": "上海开源信息技术协会创始人",
-      "image": "0-placeholder-person.png",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "salim-nahle",
-      "name": "Salim Nahle",
-      "bio": "Salim Nahle博士是Efrei Paris的“数据与人工智能”项目经理和高管教育学术经理。他拥有黎巴嫩大学的电信和计算机科学工程学位（2005年），巴黎第六大学（UPMC）的计算机科学硕士学位（2006年），以及索邦大学的计算机科学博士学位（2009年）。他的博士研究专注于使用Wi-Fi和WiMAX技术的无线网状网络，解决了调度、路由和生活质量问题。从2011年到2014年，他在GE Healthcare担任软件工程师，参与“CT Revolution”项目。2014年至2019年，他担任ECE网络安全和大数据部门负责人，创建了“大数据与分析”和“防御性网络安全”专业。如今，他作为项目经理在Efrei领导人工智能、数据和云领域的学术创新。他还为合作公司开发和部署继续教育和高管教育项目。",
-      "role": "“数据与人工智能”项目经理兼高管教育学术经理",
-      "org": "Efrei Paris",
-      "roleOrg": "Efrei Paris“数据与人工智能”项目经理兼高管教育学术经理",
-      "image": "salim-nahle.jpg",
-      "tag": "forum-aivision",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "https://www.linkedin.com/in/salim-nahle-03672571/",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "yicuan-yue",
-      "name": "刘月刚",
-      "bio": "我本科和硕士毕业于中央美术学院，博士毕业于首都师范大学美术学院。我是一名艺术家。",
-      "role": "艺术家",
-      "org": "首都师范大学",
-      "roleOrg": "首都师范大学艺术家",
-      "image": "yicuan-yue.jpg",
-      "tag": "forum-aivision",
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "website": "https://www.xiaohongshu.com/user/profile/5e2c419300000000010055bf?xsec_token=YBqLl2Ej_No_5lwWIgZpFYRlRkFpDiPb1m1fXHLuwYr1I%3D&xsec_source=app_share&xhsshare=CopyLink&appuid=5e2c419300000000010055bf&apptime=1754270391&share_id=a61e9597ab124f738215f8638469922d&share_channel=copy_link"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "weiyu-xie",
-      "name": "谢伟虞",
-      "bio": "谢伟虞是清华大学计算机科学与技术系高性能计算研究所的五年级博士生。他的研究兴趣包括计算机系统、大语言模型（LLM）推理、图计算和数据库。",
-      "role": "博士研究生",
-      "org": "清华大学",
-      "roleOrg": "清华大学博士研究生",
-      "image": "weiyu-xie.jpg",
-      "tag": "ws-edge-ai",
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "https://github.com/ErvinXie",
         "linkedin": "",
         "website": ""
       },

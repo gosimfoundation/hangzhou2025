@@ -73,25 +73,6 @@
       "draft": false
     },
     {
-      "id": "muhammadou-mo-kah",
-      "name": "Muhammadou M.O. Kah",
-      "bio": "Ambassador of The Republic of the Gambia.",
-      "role": "Ambassador",
-      "org": "The Republic of the Gambia",
-      "roleOrg": "Ambassador of The Republic of the Gambia",
-      "image": "muhammadou-mo-kah.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
       "id": "yonghua-lin",
       "name": "Yonghua Lin",
       "bio": "VP and Chief Engineer at the Beijing Academy of Artificial Intelligence (BAAI).",
@@ -113,18 +94,18 @@
     {
       "id": "nicolas-flores-herr",
       "name": "Nicolas Flores Herr",
-      "bio": "Team Lead for Foundation Models & Gen AI Systems at Fraunhofer IAIS.",
-      "role": "Team Lead",
+      "bio": "Nicolas Flores Herr is Site Lead at Fraunhofer IAIS in Dresden, where he leads a team specialising in large language models and generative AI. He is responsible for projects such as OpenGPT-X, TrustLLM and Eurolingua, and develops bespoke GenAI solutions for industry and business applications.\r\n\r\nWith a PhD in physics and more than ten years of research in neuroscience, he combines scientific depth with practical innovation. In keynotes and panel discussions, he speaks about the strategic role of foundation models, digital sovereignty, and the responsible deployment of AI in Europe.",
+      "role": "Team Lead Foundation Models & Gen AI Systems",
       "org": "Fraunhofer IAIS",
       "roleOrg": "Team Lead Foundation Models & Gen AI Systems, Fraunhofer IAIS",
-      "image": "nicolas-flores-herr.jpg",
+      "image": "nicolas-flores-herr.jpeg",
       "tag": "open-for-sdg",
       "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://www.linkedin.com/in/floresherr/",
+        "linkedin": "https://www.linkedin.com/in/floresherr/",
+        "website": "https://www.iais.fraunhofer.de/de/branchen-themen/themen/generative-ki/opengpt-x.html"
       },
       "status": "Accept",
       "draft": false
@@ -262,7 +243,7 @@
       "status": "Accept",
       "draft": false
     },
-        {
+    {
       "id": "alexy-khrabrov-",
       "name": "Alexy Khrabrov ",
       "bio": "Alexy Khrabrov is the AI Community Architect at Neo4j, the category-defining Graph database company. Alexy is the founding Chair of Open-Source Science at NumFOCUS, and a cofounder of the AI Alliance. Alexy was the founding Chair of the Generative AI Commons at the Linux Foundation for AI and Data (LFAI) and now represents Neo4j at LFAI.  Alexy is the founder and organizer of Bay Area AI and AI Agent SF meetups, as well as the Scale/Data/AI By the Bay conferences, the independent OSS AI conference running since 2013.",
@@ -341,18 +322,18 @@
     {
       "id": "xinwei-hu",
       "name": "Xinwei Hu",
-      "bio": "Chair of the openEuler Community Technical Committee at Huawei.",
-      "role": "Chair",
-      "org": "openEuler Community Technical Committee",
-      "roleOrg": "Chair of the openEuler Community Technical Committee",
+      "bio": "Joined Huawei in 2011, currently serving as the Chief Expert of ICT Operating Systems and Director of Architecture and Design Management at the Central Software Institute; has been the Chairman of the openEuler Community Technical Committee since 2020; recipient of the 2021 CCF Outstanding Engineer Award. Previously held R&D leadership positions at companies such as SuSE Linux, with extensive experience and technical expertise in operating systems, high-availability software, and low-level software; possesses a broad technical perspective on processors, architectures, OS, and containers.",
+      "role": "Chair of the openEuler Community Technical Committee",
+      "org": "openEuler Community",
+      "roleOrg": "Chair of the openEuler Community Technical Committee, openEuler Community",
       "image": "xinwei-hu.jpeg",
       "tag": "open-for-sdg",
       "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
       },
       "status": "Accept",
       "draft": false
@@ -395,7 +376,7 @@
       "status": "Accept",
       "draft": false
     },
-        {
+    {
       "id": "satya-mallick",
       "name": "Satya Mallick",
       "bio": "Dr. Satya Mallick is the CEO of OpenCV.org - the non-profit that maintains the largest computer vision library in the world. He is an entrepreneur in Artificial Intelligence, Computer Vision, and Machine Learning. Before starting his AI consulting company, Big Vision LLC, he co-founded Sight Commerce Inc (formerly Taaz Inc.), where he built AI products that reached over 100M users. His work has been covered in publications like TechCrunch, Huffington Post, NYTimes, and WSJ. Dr. Mallick is also the creator of some of the most popular online computer vision and AI courses. In 2017, IBM's AI Blog named Dr. Mallick as one of the top 20 people in AI to follow on Twitter. ",
@@ -459,7 +440,7 @@
       "role": "Founder",
       "org": "Shanghai Open Source Information Technology Association",
       "roleOrg": "Founder, Shanghai Open Source Information Technology Association",
-      "image": "0-placeholder-person.png",
+      "image": "guofeng-zhang.jpeg",
       "tag": "open-for-sdg",
       "socialLinks": {
         "mastodon": "undefined",
@@ -562,25 +543,6 @@
         "github": "undefined",
         "linkedin": "undefined",
         "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "joaquin-salvachua",
-      "name": "Joaquin Salvachua",
-      "bio": "Joaquín Salvachúa is a Professor at the Universidad Politécnica de Madrid, In the specializing in the Department of Telematics Systems Engineering at the Telecommunication School. He is a member of the board at Gaia-X Hub España, FIWARE and BDVA and active contributor in Gaia-X AISBL. and actively participates in research on ML-OPS, Big data architectures, cloud computing, next-generation internet technologies, network science and formal methods. Has authored numerous academic publications.",
-      "role": "Professor",
-      "org": "Universidad Politecnica De Madrid",
-      "roleOrg": "Professor, Universidad Politecnica De Madrid",
-      "image": "joaquin-salvachua.jpg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "https://x.com/jsalvachua",
-        "github": "undefined",
-        "linkedin": "https://www.linkedin.com/in/jsalvachua/",
-        "website": "https://portalcientifico.upm.es/es/ipublic/researcher/305315"
       },
       "status": "Accept",
       "draft": false
@@ -871,6 +833,25 @@
       "draft": false
     },
     {
+      "id": "speaker-wang-tian-ce",
+      "name": "Tiance Wang",
+      "bio": "Technical Expert, Huawei Central Software Institute",
+      "role": "Dr.",
+      "org": "Huawei",
+      "roleOrg": "Technical Expert, Huawei Central Software Institute",
+      "image": "speaker-wang-tian-ce.jpg",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/wangtiance",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
       "id": "martin-robinson",
       "name": "Martin Robinson",
       "bio": "Martin is a software engineer at Igalia. He has been working on web browsers for over a decade. Recently, he's been active in the Servo project helping to implement modern CSS layout and rendering. ",
@@ -1004,25 +985,6 @@
       "draft": false
     },
     {
-      "id": "xinwei-hu",
-      "name": "Xinwei Hu",
-      "bio": "Joined Huawei in 2011, currently serving as the Chief Expert of ICT Operating Systems and Director of Architecture and Design Management at the Central Software Institute; has been the Chairman of the openEuler Community Technical Committee since 2020; recipient of the 2021 CCF Outstanding Engineer Award. Previously held R&D leadership positions at companies such as SuSE Linux, with extensive experience and technical expertise in operating systems, high-availability software, and low-level software; possesses a broad technical perspective on processors, architectures, OS, and containers.",
-      "role": "Chair of the openEuler Community Technical Committee",
-      "org": "openEuler Community",
-      "roleOrg": "Chair of the openEuler Community Technical Committee, openEuler Community",
-      "image": "xinwei-hu.jpeg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "website": ""
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
       "id": "zhizhen-ye",
       "name": "Zhizhen Ye",
       "bio": "Zhizhen (Euclid) joined Huawei on December 2024, and started his adventure with Servo browser engine in February 2025. Over the past half year, he's become a core contributor to various parts, but most significantly Embedder and WebDriver. He's recently nominated as a maintainer of Servo project.",
@@ -1056,25 +1018,6 @@
         "github": "https://github.com/Shelley-BaoYue",
         "linkedin": "",
         "website": ""
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "nicolas-flores-herr",
-      "name": "Nicolas Flores Herr",
-      "bio": "Nicolas Flores Herr is Site Lead at Fraunhofer IAIS in Dresden, where he leads a team specialising in large language models and generative AI. He is responsible for projects such as OpenGPT-X, TrustLLM and Eurolingua, and develops bespoke GenAI solutions for industry and business applications.\r\n\r\nWith a PhD in physics and more than ten years of research in neuroscience, he combines scientific depth with practical innovation. In keynotes and panel discussions, he speaks about the strategic role of foundation models, digital sovereignty, and the responsible deployment of AI in Europe.",
-      "role": "Team Lead Foundation Models & Gen AI Systems",
-      "org": "Fraunhofer IAIS",
-      "roleOrg": "Team Lead Foundation Models & Gen AI Systems, Fraunhofer IAIS",
-      "image": "nicolas-flores-herr.jpeg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "https://www.linkedin.com/in/floresherr/",
-        "linkedin": "https://www.linkedin.com/in/floresherr/",
-        "website": "https://www.iais.fraunhofer.de/de/branchen-themen/themen/generative-ki/opengpt-x.html"
       },
       "status": "Accept",
       "draft": false
