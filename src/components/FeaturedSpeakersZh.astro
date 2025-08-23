@@ -8,6 +8,8 @@ import Button from "components/Button.astro";
 
 // JSON
 import speakersData from "json/FeaturedSpeakersZh.json";
+import workshopsData from "json/WorkshopsZh.json";
+import regularSpeakersData from "json/SpeakersZh.json";
 
 // Define speaker type
 interface Speaker {
@@ -48,6 +50,24 @@ interface Props {
 }
 
 const { title, ctaButton } = Astro.props;
+
+// Function to determine the correct route based on tag
+const getRouteForTag = (tagId: string): string => {
+  // Check if tag exists in workshops categories
+  const workshopCategory = workshopsData.categories.find((cat) => cat.id === tagId);
+  if (workshopCategory) {
+    return "/zh/workshops/";
+  }
+  
+  // Check if tag exists in speakers categories
+  const speakerCategory = regularSpeakersData.categories.find((cat) => cat.id === tagId);
+  if (speakerCategory) {
+    return "/zh/speakers/";
+  }
+  
+  // Default fallback - if tag not found, assume it's a speaker
+  return "/zh/speakers/";
+};
 
 // Function to map tag ID to category name
 const getCategoryNameFromTag = (tagId: string): string => {
@@ -101,7 +121,7 @@ const getCategoryNameFromTag = (tagId: string): string => {
         {
           filteredSpeakers?.map((loop) => (
             <div class="flickity-slide" data-cursor-bubble-text="Drag">
-              <a href={`/workshops/${loop.id}/`} class="speaker-card-link">
+              <a href={`${getRouteForTag(loop.tag)}${loop.id}/`} class="speaker-card-link">
                 <div class="single-speakers-card">
                   <div class="card-row card-row-image">
                     <div class="card-image">
