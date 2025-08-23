@@ -48,7 +48,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
-    <!-- <CardsSponsors
+  <!-- <CardsSponsors
     title="Proudly Sponsored By"
     sponsors={[
       {
@@ -64,18 +64,30 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
         image: "/images/sponsors/csdn.png",
       },
     ]} -->
+  
+    <FeaturedSpeakers
+    title="Featured Speakers"
+    ctaButton={{
+      text: "More speakers",
+      link: "/speakers/",
+    }}
+  />
+
   <div
     class="section-wrap"
     id="intro"
     data-theme-section="light"
     data-bg-section="lightgray"
   >
-    <div class="intro-statistics-container" style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 0rem;">
+    <div
+      class="intro-statistics-container"
+      style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 0rem;"
+    >
       <Intro>
         <h3 class="h3 light split-words animate-read">
-          Join us at GOSIM Hangzhou 2025, China's premier open-source conference,
-          where innovation, collaboration, and technological breakthroughs
-          converge.
+          Join us at GOSIM Hangzhou 2025, China's premier open-source
+          conference, where innovation, collaboration, and technological
+          breakthroughs converge.
         </h3>
       </Intro>
 
@@ -105,14 +117,6 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       />
     </div>
   </div>
-
-  <FeaturedSpeakers
-    title="Featured Speakers"
-    ctaButton={{
-      text: "More speakers",
-      link: "/speakers/",
-    }}
-  />
 
   <Tracks
     id="tracks"
@@ -148,19 +152,19 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
       {
         title: "Dora Workshop",
-        text: "Develop and deploy robotics applications with the open-source Dora framework for autonomous systems."
+        text: "Develop and deploy robotics applications with the open-source Dora framework for autonomous systems.",
       },
       {
         title: "SGLang Workshop",
-        text: "Master efficient and controllable large language model inference and interaction using SGLang."
+        text: "Master efficient and controllable large language model inference and interaction using SGLang.",
       },
       {
         title: "Edge AI Workshop",
-        text: "Learn to optimize and deploy powerful AI models on resource-constrained edge devices for real-time inference."
+        text: "Learn to optimize and deploy powerful AI models on resource-constrained edge devices for real-time inference.",
       },
       {
         title: "Future Web Workshop",
-        text: "Explore the next generation of the web, focusing on decentralized identity, agentic AI, and privacy-first technologies."
+        text: "Explore the next generation of the web, focusing on decentralized identity, agentic AI, and privacy-first technologies.",
       },
     ]}
     ctaButton={{
@@ -168,7 +172,6 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       link: "",
     }}
   />
-
 
   <VenueInfo
     subtitle="Venue"
@@ -179,8 +182,6 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   />
 
   <Marquee />
-
-
 
   <TextAndImageReverse
     id="proposals"
@@ -224,43 +225,49 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     cards={[
       {
         title: "RustGlobal & RustChinaConf",
-        description: "RustGlobal is the first Rust Foundation-hosted gathering dedicated to the use of Rust in global leadership settings.",
-        image: ["/images/homepage/rust-global-logo.svg","/images/homepage/RustChinaConf-hangzhou-black.svg"],
+        description:
+          "RustGlobal is the first Rust Foundation-hosted gathering dedicated to the use of Rust in global leadership settings.",
+        image: [
+          "/images/homepage/rust-global-logo.svg",
+          "/images/homepage/RustChinaConf-hangzhou-black.svg",
+        ],
         link: "https://rustcc.cn/2025conf/",
         openInNewTab: false,
       },
       {
         title: "AI Vision Forum",
-        description: "An exclusive forum for global thinkers and practitioners to explore a symbiotic future for AI and humanity, ensuring technological progress is guided by core human values.",
+        description:
+          "An exclusive forum for global thinkers and practitioners to explore a symbiotic future for AI and humanity, ensuring technological progress is guided by core human values.",
         image: "/images/homepage/co-located-ai-vision.png",
         link: "https://forum.gosim.org/en/",
         openInNewTab: false,
       },
-            {
+      {
         title: "Open for SDG Conference",
-        description: "A global conference uniting experts in open source, AI, and policy to accelerate the UN Sustainable Development Goals (SDGs) through open collaboration and technology.",
+        description:
+          "A global conference uniting experts in open source, AI, and policy to accelerate the UN Sustainable Development Goals (SDGs) through open collaboration and technology.",
         image: "/images/homepage/co-located-open-sdg.jpg",
         link: "https://opensdg.gosim.org/en/",
         openInNewTab: false,
       },
       {
         title: "Super Agent Campathon",
-        description: "A developer 'Campathon' that combines a training camp with a hackathon, challenging participants to build personalized and emotionally intelligent 'Super Agents' for next-generation interaction.",
+        description:
+          "A developer 'Campathon' that combines a training camp with a hackathon, challenging participants to build personalized and emotionally intelligent 'Super Agents' for next-generation interaction.",
         image: "/images/homepage/co-located-super-agent.png",
         link: "https://mofa.ai/super-agent-hackathon/",
         openInNewTab: false,
       },
       {
         title: "Code Alert Hackathon",
-        description: "An AI hackathon based on the classic game \"Red Alert.\" Competitors will use natural language to command an AI agent through online challenges and live final battles.",
+        description:
+          'An AI hackathon based on the classic game "Red Alert." Competitors will use natural language to command an AI agent through online challenges and live final battles.',
         image: "/images/homepage/co-located-code-alert.png",
         link: "https://hackathon.mofa.ai",
         openInNewTab: false,
       },
     ]}
   />
-
-  
 
   <TextAndSponsors
     title="Sponsorship Opportunities"
@@ -297,7 +304,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
-  
+
   <TextAndImage
     id="spotlight"
     title="GOSIM AI for Human Spotlight"

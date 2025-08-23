@@ -72,42 +72,84 @@ const getCategoryNameFromTag = (tagId: string): string => {
       class="flickity-slider-group four-col count-6"
       data-flickity-slider-type="cards"
     >
-      <div
-        class="flickity-carousel"
-        style="outline: none;"
-        id="speakers-carousel"
-      >
-        {
-          filteredSpeakers?.map((loop) => (
-            <div class="flickity-slide" data-cursor-bubble-text="Drag">
-              <a href={`/workshops/${loop.id}/`} class="speaker-card-link">
-                <div class="single-speakers-card">
-                  <div class="card-row card-row-image">
-                    <div class="card-image">
-                      {loop?.image &&
-                        images[`/public/images/speakers/${loop.image}`] && (
-                          <Picture
-                            src={images[
-                              `/public/images/speakers/${loop.image}`
-                            ]()}
-                            formats={["webp", "jpg"]}
-                            alt={loop.name}
-                            class="overlay"
-                            widths={[275, 400, 500, 600, 750, 900]}
-                            sizes="(max-width: 700px) 58vw, 450px"
-                          />
-                        )}
+      <div class="carousel-container">
+        <button
+          class="carousel-arrow carousel-arrow-prev"
+          data-flickity-control="prev"
+          aria-label="Previous speakers"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15 18L9 12L15 6"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+        </button>
+        <div
+          class="flickity-carousel"
+          style="outline: none;"
+          id="speakers-carousel"
+        >
+          {
+            filteredSpeakers?.map((loop) => (
+              <div class="flickity-slide" data-cursor-bubble-text="Drag">
+                <a href={`/workshops/${loop.id}/`} class="speaker-card-link">
+                  <div class="single-speakers-card">
+                    <div class="card-row card-row-image">
+                      <div class="card-image">
+                        {loop?.image &&
+                          images[`/public/images/speakers/${loop.image}`] && (
+                            <Picture
+                              src={images[
+                                `/public/images/speakers/${loop.image}`
+                              ]()}
+                              formats={["webp", "jpg"]}
+                              alt={loop.name}
+                              class="overlay"
+                              widths={[275, 400, 500, 600, 750, 900]}
+                              sizes="(max-width: 700px) 58vw, 450px"
+                            />
+                          )}
+                      </div>
+                    </div>
+                    <div class="card-row card-row-info">
+                      <h3 class="h5">{loop.name}</h3>
+                      <p>{loop.roleOrg}</p>
                     </div>
                   </div>
-                  <div class="card-row card-row-info">
-                    <h3 class="h5">{loop.name}</h3>
-                    <p>{loop.roleOrg}</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          ))
-        }
+                </a>
+              </div>
+            ))
+          }
+        </div>
+        <button
+          class="carousel-arrow carousel-arrow-next"
+          data-flickity-control="next"
+          aria-label="Next speakers"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 18L15 12L9 6"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+        </button>
       </div>
     </div>
 
@@ -132,5 +174,60 @@ const getCategoryNameFromTag = (tagId: string): string => {
   }
   .speaker-card-link:hover {
     transform: translateY(-5px);
+  }
+
+  .carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .carousel-arrow {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel-arrow:hover {
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+  }
+
+  .carousel-arrow:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  .carousel-arrow svg {
+    color: #333;
+  }
+
+  .flickity-carousel {
+    flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-arrow {
+      width: 40px;
+      height: 40px;
+    }
+
+    .carousel-arrow svg {
+      width: 20px;
+      height: 20px;
+    }
   }
 </style>
