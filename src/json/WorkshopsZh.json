@@ -358,6 +358,25 @@
       "draft": false
     },
     {
+      "id": "richard-bian",
+      "name": "边思康",
+      "bio": "边思康（英文名：Richard Bian）从蚂蚁集团开源倡议的第一天起便担任领导，将这项倡议从单人努力发展成为一个跨职能的开源项目办公室（OSPO）团队，涵盖治理、战略、开发者体验、产品开发、增长和国际化等多个方面。他最新的工作重点是生成式AI战略和创新产品。\n作为一名前Square、前微软工程师，边思康在四个不同的国家（新加坡、加拿大、美国和中国）学习和工作均超过五年，拥有丰富的跨文化协作经验。",
+      "role": "战略与新产品总监 (OSS)",
+      "org": "蚂蚁集团",
+      "roleOrg": "战略与新产品总监 (OSS)，蚂蚁集团",
+      "image": "richard-bian.jpg",
+      "tag": "open-for-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
       "id": "kai-du",
       "name": "杜凯",
       "bio": "Eclipse基金会董事会成员，清华大学心理与认知科学系教授。",

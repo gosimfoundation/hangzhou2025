@@ -358,6 +358,25 @@
       "draft": false
     },
     {
+      "id": "richard-bian",
+      "name": "Richard Bian",
+      "bio": "Richard Bian (Chinese: 边思康) led Ant Group Open Source initiative from day 1 and developed the initiative from a single person effort to a cross-functional Open Source Program Office (OSPO) team covering governance, strategy, developer experience, product development, growth and internationalization efforts. His latest focus is on GenAI strategy and innovative products. \nAs an ex-Square, ex-Microsoft engineer, Richard has been studying and working for more than 5 years each in 4 different countries (Singapore, Canada, USA and China) with immensely cross-cultural collaboration experience.",
+      "role": "Director of Strategy and New Product (OSS)",
+      "org": "Ant Group",
+      "roleOrg": "Director of Strategy and New Product (OSS), Ant Group",
+      "image": "richard-bian.jpg",
+      "tag": "open-for-sdg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
       "id": "kai-du",
       "name": "Kai Du",
       "bio": "Board Member of the Eclipse Foundation and Professor in the Department of Psychology and Cognitive Science at Tsinghua University.",
