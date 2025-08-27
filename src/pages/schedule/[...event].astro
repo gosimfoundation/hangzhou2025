@@ -8,6 +8,7 @@ import Layout from "layouts/LayoutLanding.astro";
 import schedule from "json/Schedule.json";
 import scheduleForum from "json/Schedule-forum.json";
 import speakers from "json/Speakers.json";
+import workshops from "json/Workshops.json";
 import SocialShare from "components/SocialShare.astro";
 
 // Types
@@ -145,26 +146,39 @@ const eventCategory = category || "Uncategorized";
                 <h2 class="h4 event-speaker-title">Speakers</h2>
                 <div class="card-row card-row-speakers event-detail_speakers">
                   {eventDetails.speakers.map((speaker) => {
-                    // Find full speaker details from speakers.json
-                    const fullSpeakerDetails = speakers.speakers.find(
+                    // Find full speaker details from speakers.json or workshops.json
+                    let fullSpeakerDetails = speakers.speakers.find(
                       (s) => s.name === speaker.name
                     );
+                    let isWorkshopSpeaker = false;
+                    
+                    // If not found in speakers, check workshops
+                    if (!fullSpeakerDetails) {
+                      fullSpeakerDetails = workshops.speakers.find(
+                        (s) => s.name === speaker.name
+                      );
+                      isWorkshopSpeaker = true;
+                    }
+
+                    // Determine the correct URL path
+                    const speakerPath = isWorkshopSpeaker ? '/workshops/' : '/speakers/';
+                    const speakerId = fullSpeakerDetails?.id || speaker.name.toLowerCase().replace(/\s+/g, "-");
 
                     return (
                       <div class="card-col">
                         <a
-                          href={`/speakers/${fullSpeakerDetails?.id || speaker.name.toLowerCase().replace(/\s+/g, "-")}/`}
+                          href={`${speakerPath}${speakerId}/`}
                         >
                           <div class="single-speakers-card">
                             <div class="card-row card-row-image">
                               <div class="card-image">
-                                {speaker?.image &&
+                                {(fullSpeakerDetails?.image || speaker?.image) &&
                                   images[
-                                    `/public/images/speakers/${speaker.image}`
+                                    `/public/images/speakers/${fullSpeakerDetails?.image || speaker.image}`
                                   ] && (
                                     <Picture
                                       src={images[
-                                        `/public/images/speakers/${speaker.image}`
+                                        `/public/images/speakers/${fullSpeakerDetails?.image || speaker.image}`
                                       ]()}
                                       formats={["webp", "jpg"]}
                                       alt={speaker.name}
@@ -177,7 +191,7 @@ const eventCategory = category || "Uncategorized";
                             </div>
                             <div class="card-row card-row-info">
                               <h3 class="h5">{speaker.name}</h3>
-                              <p>{speaker.roleOrg}</p>
+                              <p>{fullSpeakerDetails?.roleOrg || speaker.roleOrg}</p>
                             </div>
                           </div>
                         </a>

@@ -1,44 +1,2200 @@
 {
   "days": [
     {
-      "date": "Sept 13",
-      "title": "Saturday Sept 13",
+      "date": "September 13",
+      "title": "Saturday September 13",
       "url": "/schedule/"
     },
     {
-      "date": "Sept 14",
-      "title": "Sunday Sept 14",
+      "date": "September 14",
+      "title": "Sunday September 14",
       "url": "/schedule-day-2/"
     }
   ],
   "categories": [
     {
       "name": "AI Models x Infra",
-      "room": "Master Stage",
+      "room": "TBD room",
       "id": "ai-models-infra"
     },
     {
       "name": "Embodied AI",
-      "room": "Junior Stage",
+      "room": "TBD room",
       "id": "embodied-ai"
     },
     {
       "name": "Agentic Web",
-      "room": "Open Platform",
+      "room": "TBD room",
       "id": "agentic-web"
     },
     {
       "name": "Apps x Agents",
-      "room": "Open Stage",
+      "room": "TBD room",
       "id": "apps-agents"
     },
     {
       "name": "AI Next",
-      "room": "Founders Café (Updated)",
+      "room": "TBD room",
       "id": "ai-next"
+    },
+    {
+      "name": "Open for SDG Conference",
+      "room": "TBD room",
+      "id": "open-for-sdg"
+    },
+    {
+      "name": "AI Vision Forum",
+      "room": "TBD room",
+      "id": "forum-aivision"
+    },
+    {
+      "name": "SGLang Workshop",
+      "room": "TBD room",
+      "id": "ws-sglang"
+    },
+    {
+      "name": "Cangjie Workshop",
+      "room": "TBD room",
+      "id": "ws-cangjie"
+    },
+    {
+      "name": "Dora Workshop",
+      "room": "TBD room",
+      "id": "ws-dora"
+    },
+    {
+      "name": "Future Web Workshop",
+      "room": "TBD room",
+      "id": "ws-future-web"
+    },
+    {
+      "name": "Edge AI Workshop",
+      "room": "TBD room",
+      "id": "ws-edge-ai"
+    },
+    {
+      "name": "CANN Workshop",
+      "room": "TBD room",
+      "id": "ws-cann"
     }
   ],
   "sessions": {
-
+    "open-for-sdg": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Keynote: Open Source AI for Sustainable Development",
+        "content": "Opening keynote on how open source AI can drive sustainable development goals",
+        "speakers": [
+          {
+            "id": "mehdi-snene",
+            "name": "Mehdi Snene",
+            "roleOrg": "Chief AI Officer, ODET UN",
+            "tags": [
+              "open-for-sdg"
+            ],
+            "image": "mehdi-snene.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "How to be Successful with Open Source AI",
+        "content": "How to be Successful with Open Source AI",
+        "speakers": [
+          {
+            "id": "matt-white",
+            "name": "Matt White",
+            "roleOrg": "GM of AI/Executive Director, Linux Foundation/PyTorch Foundation",
+            "tags": [
+              "open-for-sdg"
+            ],
+            "image": "matt-white.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic Al Ecosystem",
+        "content": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic Al Ecosystem",
+        "speakers": [
+          {
+            "id": "joaquin-salvachua",
+            "name": "Joaquin Salvachua",
+            "roleOrg": "Professor, Universidad Politecnica De Madrid",
+            "tags": [
+              "open-for-sdg"
+            ],
+            "image": "joaquin-salvachua.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Open for SDG Conference Session",
+        "content": "Open for SDG Conference presentations",
+        "speakers": [
+          {
+            "id": "nooman-fehri",
+            "name": "Nooman Fehri",
+            "roleOrg": "Open for SDG conference",
+            "tags": [
+              "open-for-sdg"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Open for SDG Conference Session",
+        "content": "Open for SDG Conference presentations",
+        "speakers": [
+          {
+            "id": "minghui-zhou",
+            "name": "Minghui Zhou",
+            "roleOrg": "Open for SDG conference",
+            "tags": [
+              "open-for-sdg"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Open for SDG Conference Session",
+        "content": "Open for SDG Conference presentations",
+        "speakers": [
+          {
+            "id": "mohamed-farahat",
+            "name": "Mohamed Farahat",
+            "roleOrg": "Open for SDG conference",
+            "tags": [
+              "open-for-sdg"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Open for SDG Conference Session",
+        "content": "Open for SDG Conference presentations",
+        "speakers": [
+          {
+            "id": "walid-mathlouthi",
+            "name": "Walid Mathlouthi",
+            "roleOrg": "Open for SDG conference",
+            "tags": [
+              "open-for-sdg"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Open for SDG Conference Session",
+        "content": "Open for SDG Conference presentations",
+        "speakers": [
+          {
+            "id": "xinwei-hu",
+            "name": "Xinwei Hu",
+            "roleOrg": "Open for SDG conference",
+            "tags": [
+              "open-for-sdg"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Open for SDG Conference Session",
+        "content": "Open for SDG Conference presentations",
+        "speakers": [
+          {
+            "id": "guofeng-zhang",
+            "name": "Guofeng Zhang",
+            "roleOrg": "Open for SDG conference",
+            "tags": [
+              "open-for-sdg"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "forum-aivision": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Open Safe Superintelligence: Aligning Power with Collective Safety",
+        "content": "Open Safe Superintelligence: Aligning Power with Collective Safety",
+        "speakers": [
+          {
+            "id": "xiaohu-zhu",
+            "name": "Xiaohu Zhu",
+            "roleOrg": "Founder, Center for Safe AGI",
+            "tags": [
+              "forum-aivision"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Generative Al in education :Open source solutions and challenges",
+        "content": "Generative Al in education :Open source solutions and challenges",
+        "speakers": [
+          {
+            "id": "salim-nahle",
+            "name": "Salim Nahle",
+            "roleOrg": "Program Manager \"Data & Artificial intelligence\" and Academic Manager of Executive Education, Efrei Paris",
+            "tags": [
+              "forum-aivision"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "How to integrate artificial intelligence technology into the future art field",
+        "content": "How to integrate artificial intelligence technology into the future art field",
+        "speakers": [
+          {
+            "id": "yichuan-yue",
+            "name": "Yichuan Yue",
+            "roleOrg": "PhD, Capital Normal University, Artist",
+            "tags": [
+              "forum-aivision"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "AI Vision Forum Session",
+        "content": "AI Vision Forum presentations",
+        "speakers": [
+          {
+            "id": "liu-yue-gang",
+            "name": "Liu Yuegang",
+            "roleOrg": "AI Vision Forum GOSIM",
+            "tags": [
+              "forum-aivision"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "AI Vision Forum Session",
+        "content": "AI Vision Forum presentations",
+        "speakers": [
+          {
+            "id": "du-kai-forum",
+            "name": "Du Kai",
+            "roleOrg": "AI Vision Forum GOSIM",
+            "tags": [
+              "forum-aivision"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "AI Vision Forum Session",
+        "content": "AI Vision Forum presentations",
+        "speakers": [
+          {
+            "id": "cailean-osborne",
+            "name": "Cailean Osborne",
+            "roleOrg": "AI Vision Forum GOSIM",
+            "tags": [
+              "forum-aivision"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "AI Vision Forum Session",
+        "content": "AI Vision Forum presentations",
+        "speakers": [
+          {
+            "id": "jesse-mccrosky",
+            "name": "Jesse McCrosky",
+            "roleOrg": "AI Vision Forum GOSIM",
+            "tags": [
+              "forum-aivision"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "AI Vision Forum Session",
+        "content": "AI Vision Forum presentations",
+        "speakers": [
+          {
+            "id": "christian-maitre",
+            "name": "Christian Maitre",
+            "roleOrg": "AI Vision Forum GOSIM",
+            "tags": [
+              "forum-aivision"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ai-models-infra": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Khronos' Role in Standardizing AI Acceleration: AI Ecosystem Research Project Discoveries",
+        "content": "Khronos' Role in Standardizing AI Acceleration: AI Ecosystem Research Project Discoveries",
+        "speakers": [
+          {
+            "id": "markus-tavenrath",
+            "name": "Markus Tavenrath",
+            "roleOrg": "Principal Engineer Developer Technology, NVIDIA",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "markus-tavenrath.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Overhauling Multimodal Support in llama.cpp",
+        "content": "Overhauling Multimodal Support in llama.cpp",
+        "speakers": [
+          {
+            "id": "xuan-son-nguyen",
+            "name": "Xuan Son Nguyen",
+            "roleOrg": "Software Engineer, Hugging Face",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "xuan-son-nguyen.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "vLLM: Easy, Fast, and Cheap LLM Serving for Everyone",
+        "content": "vLLM: Easy, Fast, and Cheap LLM Serving for Everyone",
+        "speakers": [
+          {
+            "id": "kaichao-you",
+            "name": "Kaichao You",
+            "roleOrg": "Core Maintainer, vLLM",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "kaichao-you.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Unleashing GenAI Inference Capabilities at Scale: Deep Analysis of the llm-d Project",
+        "content": "Unleashing GenAI Inference Capabilities at Scale: Deep Analysis of the llm-d Project",
+        "speakers": [
+          {
+            "id": "vincent-caldeira",
+            "name": "Vincent Caldeira",
+            "roleOrg": "CTO, Red Hat APAC",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "vincent-caldeira.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "OpenSeek: Open-Source Driven Next AI Models",
+        "content": "OpenSeek: Open-Source Driven Next AI Models",
+        "speakers": [
+          {
+            "id": "guang-liu",
+            "name": "Guang Liu",
+            "roleOrg": "Technical Lead, BAAI Data Research Team, OpenSeek Project Lead",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "guang-liu.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Hardware-Agnostic Acceleration of Open-Source Models with Hugging Face",
+        "content": "Hardware-Agnostic Acceleration of Open-Source Models with Hugging Face",
+        "speakers": [
+          {
+            "id": "jingya-huang",
+            "name": "Jingya Huang",
+            "roleOrg": "Machine Learning Engineer, Hugging Face",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "jingya-huang.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Industrializing Continuous Learning: Building Retrainable Pipelines for tailored LLMs",
+        "content": "Industrializing Continuous Learning: Building Retrainable Pipelines for tailored LLMs",
+        "speakers": [
+          {
+            "id": "aurlienmorgan-claudon",
+            "name": "Aurélien-Morgan CLAUDON",
+            "roleOrg": "Senior MLOps Lead, Unaffiliated",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "aurlienmorgan-claudon.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Bringing AI to the Edge with Dynamic Optimization",
+        "content": "Bringing AI to the Edge with Dynamic Optimization",
+        "speakers": [
+          {
+            "id": "richard-reiner",
+            "name": "Richard REINER",
+            "roleOrg": "Board Member and Advisor, Procero AI",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Ant AI Gateway - Large-scale Online Inference Service Cluster Performance Optimization Practice",
+        "content": "Ant AI Gateway - Large-scale Online Inference Service Cluster Performance Optimization Practice",
+        "speakers": [
+          {
+            "id": "zhu-de-jiang",
+            "name": "Zhu Dejiang",
+            "roleOrg": "Technical Expert, Ant Group Network Team, Mooncake Core Member / Envoy Golang Maintainer",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Large-scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
+        "content": "Large-scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
+        "speakers": [
+          {
+            "id": "nicolas-flores-herr",
+            "name": "Nicolas Flores Herr",
+            "roleOrg": "Team Lead Foundation Models & Generative AI Systems, Fraunhofer IAIS",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Large Model Training and Inference Optimization Platform for Domestic Intelligent Computing Power",
+        "content": "Large Model Training and Inference Optimization Platform for Domestic Intelligent Computing Power",
+        "speakers": [
+          {
+            "id": "he-wan-qing",
+            "name": "He Wanqing",
+            "roleOrg": "VP, CIO, Qingcheng Jizhi",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "verl: Open Source LLM Reinforcement Learning Framework for Agent Tasks",
+        "content": "verl: Open Source LLM Reinforcement Learning Framework for Agent Tasks",
+        "speakers": [
+          {
+            "id": "speaker-chen-hai-quan",
+            "name": "Haiquan Chen",
+            "roleOrg": "Developer, ByteDance",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "speaker-chen-hai-quan.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Ascend High-Throughput Speculative Inference Framework Omni-Infer",
+        "content": "Ascend High-Throughput Speculative Inference Framework Omni-Infer",
+        "speakers": [
+          {
+            "id": "ding-yi-bin",
+            "name": "Ding Yibin",
+            "roleOrg": "Expert, Huawei 2012 Labs Central Research Institute Theory Research Department",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Engine and Furnace: Building Customized PyTorch Framework on Supercomputers",
+        "content": "Engine and Furnace: Building Customized PyTorch Framework on Supercomputers",
+        "speakers": [
+          {
+            "id": "krzysztof-ociepa",
+            "name": "Krzysztof Ociepa",
+            "roleOrg": "Core Team Member, Bielik.AI",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "AIKG: AI-Driven Kernel Generator",
+        "content": "AIKG: AI-Driven Kernel Generator",
+        "speakers": [
+          {
+            "id": "renwei-zhang",
+            "name": "Renwei Zhang",
+            "roleOrg": "AI Compiler Expert, Huawei",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "ZhipuAI Model Introduction and Open Source Ecosystem",
+        "content": "ZhipuAI Model Introduction and Open Source Ecosystem",
+        "speakers": [
+          {
+            "id": "yuxuan-zhang",
+            "name": "Yuxuan Zhang",
+            "roleOrg": "Engineer, ZhipuAI, CogVideoX Project Contributor",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Empowering Cloud-Native Inference: Breaking Large Language Model Deployment Challenges with Volcano Scheduler",
+        "content": "Empowering Cloud-Native Inference: Breaking Large Language Model Deployment Challenges with Volcano Scheduler",
+        "speakers": [
+          {
+            "id": "chen-zicong",
+            "name": "Chen Zicong",
+            "roleOrg": "R&D Engineer, Huawei Cloud",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "embodied-ai": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "OpenCV 5: The Struggle and Victory of Open Source Software",
+        "content": "OpenCV 5: The Struggle and Victory of Open Source Software",
+        "speakers": [
+          {
+            "id": "satya-mallick",
+            "name": "Satya Mallick",
+            "roleOrg": "CEO, OpenCV.org",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "satya-mallick.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Cosmos World Foundation Models for Physical AI",
+        "content": "Cosmos World Foundation Models for Physical AI",
+        "speakers": [
+          {
+            "id": "jinwei-gu",
+            "name": "Jinwei Gu",
+            "roleOrg": "Principal Research Scientist and Technical Lead, NVIDIA",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "jinwei-gu.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Mixing of multi modal AI model to solve complex robotic task with dora-rs",
+        "content": "Mixing of multi modal AI model to solve complex robotic task with dora-rs",
+        "speakers": [
+          {
+            "id": "xavier-tao",
+            "name": "Xavier Tao",
+            "roleOrg": "Founder, 1ms.ai",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "xavier-tao.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Human-Agent Interaction in Commerce: Balancing Autonomy and Human Control",
+        "content": "Human-Agent Interaction in Commerce: Balancing Autonomy and Human Control",
+        "speakers": [
+          {
+            "id": "mashengyue",
+            "name": "MaShengYue",
+            "roleOrg": "Robotics Technical Director, Unitree",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "HopeJr: $500 Open Source Humanoid Robotic Arm for Everyone",
+        "content": "HopeJr: $500 Open Source Humanoid Robotic Arm for Everyone",
+        "speakers": [
+          {
+            "id": "martino-russi",
+            "name": "Martino Russi",
+            "roleOrg": "Embodied AI Engineer, Hugging Face",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "martino-russi.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Amiga: A Modular, AI‑First Platform for Smart Farming and Outdoor Logistics",
+        "content": "Amiga: A Modular, AI‑First Platform for Smart Farming and Outdoor Logistics",
+        "speakers": [
+          {
+            "id": "edgar-riba",
+            "name": "Edgar Riba",
+            "roleOrg": "Staff Research Engineer, Bonsai Robotics, Kornia Project Founder",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "edgar-riba.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Accessible Agentic Computer Vision with Kornia",
+        "content": "Accessible Agentic Computer Vision with Kornia",
+        "speakers": [
+          {
+            "id": "jian-shi",
+            "name": "Jian Shi",
+            "roleOrg": "Co-founder, Kornia AI",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "jian-shi.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Map Generation and Path Planning Approach for Unstructured Environments",
+        "content": "Map Generation and Path Planning Approach for Unstructured Environments",
+        "speakers": [
+          {
+            "id": "cen-ming",
+            "name": "Cen Ming",
+            "roleOrg": "Professor, Chongqing University of Posts and Telecommunications",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "cen-ming.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Embodied Large and Small Brain Operation Framework and Embodied Brain Model Construction",
+        "content": "Embodied Large and Small Brain Operation Framework and Embodied Brain Model Construction",
+        "speakers": [
+          {
+            "id": "speaker-wang-peng-wei",
+            "name": "Pengwei Wang",
+            "roleOrg": "Head of Embodied Intelligence Large Model, Beijing Institute for General Artificial Intelligence (BAAI)",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "speaker-wang-peng-wei.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "AIRSPEED: Open Source Universal Data Production Platform for Embodied Intelligence",
+        "content": "AIRSPEED: Open Source Universal Data Production Platform for Embodied Intelligence",
+        "speakers": [
+          {
+            "id": "xuan-xia",
+            "name": "Xuan Xia",
+            "roleOrg": "Associate Researcher, Shenzhen Institute of Artificial Intelligence and Robotics for Society",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "xuan-xia.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "From Understanding to Knowledge: Changing Development Paradigms for Embodied Intelligent Robots",
+        "content": "From Understanding to Knowledge: Changing Development Paradigms for Embodied Intelligent Robots",
+        "speakers": [
+          {
+            "id": "speaker-yin-yun-peng",
+            "name": "Yunpeng Yin",
+            "roleOrg": "Head of Motion Control Algorithms and Framework, Humanoid Robot Shanghai Co., Ltd.",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "speaker-yin-yun-peng.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Application of the DORA-RS High-Performance Computing Framework in Embodied Robotics",
+        "content": "Application of the DORA-RS High-Performance Computing Framework in Embodied Robotics",
+        "speakers": [
+          {
+            "id": "ruping-cen",
+            "name": "Ruping Cen",
+            "roleOrg": "Ph.D., Chongqing University of Posts and Telecommunications",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "ruping-cen.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Driving the Future of ROS 2 with Zenoh: Fast, Scalable and Resilient Communication for Robotics and Autonomous Systems",
+        "content": "Driving the Future of ROS 2 with Zenoh: Fast, Scalable and Resilient Communication for Robotics and Autonomous Systems",
+        "speakers": [
+          {
+            "id": "yuyuan-yuan",
+            "name": "Yuyuan Yuan",
+            "roleOrg": "Senior Software Engineer, ZettaScale",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Robot Operating System Based on OpenHarmony",
+        "content": "Robot Operating System Based on OpenHarmony",
+        "speakers": [
+          {
+            "id": "tao-li-embodied",
+            "name": "Tao Li",
+            "roleOrg": "Software Engineer, Shenzhen Kaihong Digital Industry Development Co.,Ltd.",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "SpatialLM: Large Language Model Training for Structured Indoor Modeling",
+        "content": "SpatialLM: Large Language Model Training for Structured Indoor Modeling",
+        "speakers": [
+          {
+            "id": "yongsen-mao",
+            "name": "Yongsen Mao",
+            "roleOrg": "Research Engineer, Manycore Tech",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "agentic-web": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Self-Sovereign Identity and Trust Infrastructure for Agentic IA in Data Spaces",
+        "content": "Self-Sovereign Identity and Trust Infrastructure for Agentic IA in Data Spaces",
+        "speakers": [
+          {
+            "id": "jos-andrs-muoz-arcentales",
+            "name": "José Andrés Muñoz Arcentales",
+            "roleOrg": "Associate Professor, Universidad Politecnica de Madrid",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "jos-andrs-muoz-arcentales.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Agent Protocol: Leading the Internet into the Agentic Web Era",
+        "content": "Agent Protocol: Leading the Internet into the Agentic Web Era",
+        "speakers": [
+          {
+            "id": "speaker-chang-gao-wei",
+            "name": "Gaowei Chang",
+            "roleOrg": "Founder, ANP Open Source Community, W3C AI Agent protocol CG Co-chair",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "speaker-chang-gao-wei.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Beyond Existing Paradigms: RVP Protocol for Post-Digital AI Ecosystems",
+        "content": "Beyond Existing Paradigms: RVP Protocol for Post-Digital AI Ecosystems",
+        "speakers": [
+          {
+            "id": "speaker-zhang-yun-fei",
+            "name": "Yunfei Zhang",
+            "roleOrg": "Deputy Director, China Telecom Smart City Research Institute, Chief Expert, China Telecom",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "speaker-zhang-yun-fei.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "TMCP/TA2A: Running MCP and A2A on TSP",
+        "content": "TMCP/TA2A: Running MCP and A2A on TSP",
+        "speakers": [
+          {
+            "id": "wenjing-chu",
+            "name": "Wenjing Chu",
+            "roleOrg": "Senior Director of Technology Strategy, Futurewei",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Agent User Experience: How AG-UI Protocol Reshapes AI-Driven Interaction Experience",
+        "content": "Agent User Experience: How AG-UI Protocol Reshapes AI-Driven Interaction Experience",
+        "speakers": [
+          {
+            "id": "michael-tyler-slaton",
+            "name": "Michael Tyler Slaton",
+            "roleOrg": "Founding Engineer, CopilotKit",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Decentralized Identity for the Agent Internet",
+        "content": "Decentralized Identity for the Agent Internet",
+        "speakers": [
+          {
+            "id": "markus-sabadello",
+            "name": "Markus Sabadello",
+            "roleOrg": "CEO, Danube Tech",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "First Person Project: Building Trust Mechanisms for Personal AI Agents",
+        "content": "First Person Project: Building Trust Mechanisms for Personal AI Agents",
+        "speakers": [
+          {
+            "id": "drummond-reed",
+            "name": "Drummond Reed",
+            "roleOrg": "Founder, First Person Project",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "drummond-reed.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "OpenHarmony ArkWeb Progress and AI Exploration",
+        "content": "OpenHarmony ArkWeb Progress and AI Exploration",
+        "speakers": [
+          {
+            "id": "guangzhen-li",
+            "name": "Guangzhen Li",
+            "roleOrg": "Web Core Expert, Huawei",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Servo: A New Web Engine Written in Rust",
+        "content": "Servo: A New Web Engine Written in Rust",
+        "speakers": [
+          {
+            "id": "manuel-rego",
+            "name": "Manuel Rego",
+            "roleOrg": "Software Engineer, Igalia",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Exploring and Practicing Agent Internet Application Development",
+        "content": "Exploring and Practicing Agent Internet Application Development",
+        "speakers": [
+          {
+            "id": "chunhui-mo",
+            "name": "Chunhui Mo",
+            "roleOrg": "Technical Expert, Huawei Cloud",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Agent is all you need: Building Agents with ADK, A2A, MCP and Agent Engine",
+        "content": "Agent is all you need: Building Agents with ADK, A2A, MCP and Agent Engine",
+        "speakers": [
+          {
+            "id": "jennie-shi",
+            "name": "Jennie Shi",
+            "roleOrg": "AI Expert, Google Cloud",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic Al Ecosystem",
+        "content": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic Al Ecosystem",
+        "speakers": [
+          {
+            "id": "joaquin-salvachua",
+            "name": "Joaquin Salvachua",
+            "roleOrg": "Professor, Universidad Politecnica de Madrid",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "joaquin-salvachua.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Open Source MCP Universal Access Gateway, Solving Agent Tool Island Dilemma",
+        "content": "Open Source MCP Universal Access Gateway, Solving Agent Tool Island Dilemma",
+        "speakers": [
+          {
+            "id": "robin-shang",
+            "name": "Robin Shang",
+            "roleOrg": "CTO, iTunel Technology",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "High Performance Web Engine",
+        "content": "High Performance Web Engine",
+        "speakers": [
+          {
+            "id": "martin-alvarez-espinar",
+            "name": "Martin Alvarez Espinar",
+            "roleOrg": "Chair, W3C High Performance Web Engine Community Group",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "apps-agents": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Coze, Reshaping Productivity with Agents",
+        "content": "Coze, Reshaping Productivity with Agents",
+        "speakers": [
+          {
+            "id": "wang-xin-meng",
+            "name": "Wang Xinmeng",
+            "roleOrg": "Technical Lead, ByteDance Coze Compass",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Apps & Agents Session",
+        "content": "Apps & Agents presentations",
+        "speakers": [
+          {
+            "id": "zhai-ji-dong",
+            "name": "Zhai Jidong",
+            "roleOrg": "Tenured Professor, Department of Computer Science, Tsinghua University, Director of High Performance Institute",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Accelerating Enterprise AI Adoption: A Practical Path to Low-Cost, High-Efficiency, Seamless Integration",
+        "content": "Accelerating Enterprise AI Adoption: A Practical Path to Low-Cost, High-Efficiency, Seamless Integration",
+        "speakers": [
+          {
+            "id": "ruoyu-ying",
+            "name": "Ruoyu Ying",
+            "roleOrg": "Cloud Software Engineer, Intel",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "ruoyu-ying.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Intelligence Begins with Memory: Building a New Memory Management Paradigm Based on MemOS",
+        "content": "Intelligence Begins with Memory: Building a New Memory Management Paradigm Based on MemOS",
+        "speakers": [
+          {
+            "id": "zhiyu-li",
+            "name": "Zhiyu Li",
+            "roleOrg": "CTO, MemTensor (Shanghai) Technology Co., Ltd.",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "zhiyu-li.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Building AI Personalized Memory Operating Systems",
+        "content": "Building AI Personalized Memory Operating Systems",
+        "speakers": [
+          {
+            "id": "speaker-bai-ting",
+            "name": "Bai Ting",
+            "roleOrg": "Associate Professor, Beijing University of Posts and Telecommunications",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "speaker-bai-ting.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "5ire: From Zero to One of an Open Source AI Project",
+        "content": "5ire: From Zero to One of an Open Source AI Project",
+        "speakers": [
+          {
+            "id": "speaker-liu-nan-bing",
+            "name": "Liu Nanbing",
+            "roleOrg": "CTO, Sichuan Jiaozi Interactive Technology Co., Ltd.",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "speaker-liu-nan-bing.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "SPEAR - A Scalable and Distributed AI Agents Framework Across Edge and Cloud",
+        "content": "SPEAR - A Scalable and Distributed AI Agents Framework Across Edge and Cloud",
+        "speakers": [
+          {
+            "id": "wilson-wang",
+            "name": "Wilson Wang",
+            "roleOrg": "SW Engineer, ByteDance Inc.",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "wilson-wang.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Size Bias in Text Embeddings: Visualization and Impact on Search",
+        "content": "Size Bias in Text Embeddings: Visualization and Impact on Search",
+        "speakers": [
+          {
+            "id": "florian-hnicke",
+            "name": "Florian Hönicke",
+            "roleOrg": "Founding Engineer, Jina AI",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "florian-hnicke.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "kOS: Next-Generation Autonomous Intelligence System",
+        "content": "kOS: Next-Generation Autonomous Intelligence System",
+        "speakers": [
+          {
+            "id": "han-hong-ying",
+            "name": "Han Hongying",
+            "roleOrg": "Technical Researcher, Hangzhou Half Universe",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "New Context Engineering Strategies: Abandoning Rerankers, Introducing Memory, Unified Architecture from RAG Search to Robot Actions",
+        "content": "New Context Engineering Strategies: Abandoning Rerankers, Introducing Memory, Unified Architecture from RAG Search to Robot Actions",
+        "speakers": [
+          {
+            "id": "dandjinou-charbel",
+            "name": "DANDJINOU Charbel",
+            "roleOrg": "AI Research & MLOps Engineer, Exel Industries",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "MonkeyCode: Open Source AI Code Assistant",
+        "content": "MonkeyCode: Open Source AI Code Assistant",
+        "speakers": [
+          {
+            "id": "yin-zhenxi",
+            "name": "Yin Zhenxi",
+            "roleOrg": "Technical Director of AI Programming Products, Venustech",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "yin-zhenxi.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "OAKS ASKG: Agent-Server Knowledge Graph",
+        "content": "OAKS ASKG: Agent-Server Knowledge Graph",
+        "speakers": [
+          {
+            "id": "alexy-khrabrov-",
+            "name": "Alexy Khrabrov",
+            "roleOrg": "AI Community Architect, Neo4j",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "alexy-khrabrov-.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "How to Use AI to Create AI, How Agents Interact with the World",
+        "content": "How to Use AI to Create AI, How Agents Interact with the World",
+        "speakers": [
+          {
+            "id": "shuangrui-chen",
+            "name": "Shuangrui CHEN",
+            "roleOrg": "Senior Engineer, Huawei",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "shuangrui-chen.jpg"
+          }
+        ]
+      }
+    ],
+    "ai-next": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Collaborative Innovation in the Age of Intelligence",
+        "content": "Collaborative Innovation in the Age of Intelligence",
+        "speakers": [
+          {
+            "id": "speaker-shi-zhong-zhi",
+            "name": "Shi Zhongzhi",
+            "roleOrg": "Academician, International Academy for Information Studies",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "speaker-shi-zhong-zhi.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "From Community Sparks to National Impact: The Story and Power of Bielik.AI",
+        "content": "From Community Sparks to National Impact: The Story and Power of Bielik.AI",
+        "speakers": [
+          {
+            "id": "karol-stryja",
+            "name": "Karol Stryja",
+            "roleOrg": "99 Faces of AI Podcast / Bielik.AI Founder",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "karol-stryja.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "SongEval: Song Aesthetic Evaluation Benchmark Dataset",
+        "content": "SongEval: Song Aesthetic Evaluation Benchmark Dataset",
+        "speakers": [
+          {
+            "id": "huixin-xue",
+            "name": "Huixin Xue",
+            "roleOrg": "PhD Student, Shanghai Conservatory of Music",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "huixin-xuejixun-yao.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "AI Next Session",
+        "content": "AI Next presentations",
+        "speakers": [
+          {
+            "id": "jixun-yao",
+            "name": "Jixun Yao",
+            "roleOrg": "PhD Student, Northwestern Polytechnical University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "The Future Direction of AI Painting",
+        "content": "The Future Direction of AI Painting",
+        "speakers": [
+          {
+            "id": "speaker-wei-wei",
+            "name": "Wei Wei",
+            "roleOrg": "Famous Bilibili Art Content Creator \"Youdian Yisi Oh\"",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "speaker-wei-wei.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become the Eternal Shackles of Large Models?",
+        "content": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become the Eternal Shackles of Large Models?",
+        "speakers": [
+          {
+            "id": "speaker-zhang-quan-shi",
+            "name": "Zhang Quanshi",
+            "roleOrg": "Associate Professor, Shanghai Jiao Tong University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "speaker-zhang-quan-shi.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "The Curse of Depth in Large Language Models",
+        "content": "The Curse of Depth in Large Language Models",
+        "speakers": [
+          {
+            "id": "shiwei-liu",
+            "name": "Shiwei Liu",
+            "roleOrg": "Newton International Fellow, University of Oxford",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "shiwei-liu.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Towards Trustworthy and Reproducible: Building a Graded System for Large Model Open Source and Openness",
+        "content": "Towards Trustworthy and Reproducible: Building a Graded System for Large Model Open Source and Openness",
+        "speakers": [
+          {
+            "id": "wei-wang",
+            "name": "Wei Wang",
+            "roleOrg": "Director of Open Source Technology Committee, Singularity Intelligence Research Institute",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Spiking Computing: Challenges and Opportunities",
+        "content": "Spiking Computing: Challenges and Opportunities",
+        "speakers": [
+          {
+            "id": "qian-zheng",
+            "name": "Qian Zheng",
+            "roleOrg": "Assistant Professor, Zhejiang University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "AI-Driven Model & Data Compression for Next-Generation Gaming",
+        "content": "AI-Driven Model & Data Compression for Next-Generation Gaming",
+        "speakers": [
+          {
+            "id": "zhenghao-chen",
+            "name": "Zhenghao Chen",
+            "roleOrg": "Assistant Professor, Newcastle University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Collaboration and Responsibility in AI Open Source Ecosystem",
+        "content": "Collaboration and Responsibility in AI Open Source Ecosystem",
+        "speakers": [
+          {
+            "id": "adina-yakefu",
+            "name": "Adina Yakefu",
+            "roleOrg": "AI Researcher, Hugging Face",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Standing at the New Evolutionary Node: AGI and the Second Cognitive Revolution",
+        "content": "Standing at the New Evolutionary Node: AGI and the Second Cognitive Revolution",
+        "speakers": [
+          {
+            "id": "kai-du",
+            "name": "Kai Du",
+            "roleOrg": "Assistant Professor of Psychology and Cognitive Science, Tsinghua University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "How to integrate artificial intelligence technology into the future art field",
+        "content": "How to integrate artificial intelligence technology into the future art field",
+        "speakers": [
+          {
+            "id": "yichuan-yue",
+            "name": "Yichuan Yue",
+            "roleOrg": "PhD, Capital Normal University, Artist",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Several Core Propositions of AI Industry Paradigm Transformation",
+        "content": "Several Core Propositions of AI Industry Paradigm Transformation",
+        "speakers": [
+          {
+            "id": "li-jian-zhong",
+            "name": "Li Jianzhong",
+            "roleOrg": "Dean of Singularity Intelligence Research Institute, Senior Vice President of CSDN",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-sglang": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "SpecForge:Accelerating Speculative Decoding Training for SGLang",
+        "content": "SpecForge:Accelerating Speculative Decoding Training for SGLang",
+        "speakers": [
+          {
+            "id": "lukec-wang",
+            "name": "Lukec Wang",
+            "roleOrg": "SGLang Committer, Meituan",
+            "tags": [
+              "ws-sglang"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "EAGLE3 Training",
+        "content": "EAGLE3 Training",
+        "speakers": [
+          {
+            "id": "yikai-zhu",
+            "name": "Yikai Zhu",
+            "roleOrg": "Software Engineer, Model Performance Baseten, SGLang Committer",
+            "tags": [
+              "ws-sglang"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Qwen Team's Algorithm-System Joint Optimization Practice in Large Model Inference",
+        "content": "Qwen Team's Algorithm-System Joint Optimization Practice in Large Model Inference",
+        "speakers": [
+          {
+            "id": "yizhong-cao",
+            "name": "Yizhong Cao",
+            "roleOrg": "Qwen Team Member",
+            "tags": [
+              "ws-sglang"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "iFlytek MaaS Platform Large Model High-Performance Inference Practice",
+        "content": "iFlytek MaaS Platform Large Model High-Performance Inference Practice",
+        "speakers": [
+          {
+            "id": "yanbo-yang",
+            "name": "Yanbo Yang",
+            "roleOrg": "SGLang Committer",
+            "tags": [
+              "ws-sglang"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Reasoning with SGLang: Powering Training in the Reinforcement Learning Era",
+        "content": "Reasoning with SGLang: Powering Training in the Reinforcement Learning Era",
+        "speakers": [
+          {
+            "id": "junrong-lin",
+            "name": "Junrong Lin",
+            "roleOrg": "Member of Technical Staff, SGLang Committer, Qwen Team Member",
+            "tags": [
+              "ws-sglang"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "SGLang: An Efficient Open Source Large-Scale LLM Service Framework",
+        "content": "SGLang: An Efficient Open Source Large-Scale LLM Service Framework",
+        "speakers": [
+          {
+            "id": "yi-zhang-sglang",
+            "name": "Yi Zhang",
+            "roleOrg": "Software Engineer, Alibaba Cloud Computing Co., Ltd., SGLang Committer",
+            "tags": [
+              "ws-sglang"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "SGLang Prefill/Decode Disaggregation with Mooncake",
+        "content": "SGLang Prefill/Decode Disaggregation with Mooncake",
+        "speakers": [
+          {
+            "id": "shangming-cai-",
+            "name": "Shangming Cai",
+            "roleOrg": "Senior Engineer, Alibaba Cloud, Mooncake Core Member / SGLang Committer",
+            "tags": [
+              "ws-sglang"
+            ],
+            "image": "shangming-cai-.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "SGLang on ascend Large Model Inference Efficient Practice",
+        "content": "SGLang on ascend Large Model Inference Efficient Practice",
+        "speakers": [
+          {
+            "id": "xiaoming-bao",
+            "name": "Xiaoming Bao",
+            "roleOrg": "Architect, Huawei",
+            "tags": [
+              "ws-sglang"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Deploying Models on Compute-Constrained GPUs: Parameter Decomposition and Expert Parallelism Methods",
+        "content": "Deploying Models on Compute-Constrained GPUs: Parameter Decomposition and Expert Parallelism Methods",
+        "speakers": [
+          {
+            "id": "xiaolei-zhang-sglang",
+            "name": "Xiaolei Zhang",
+            "roleOrg": "AI Performance Optimization Expert, ByteDance",
+            "tags": [
+              "ws-sglang"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "All2All Communication Optimization Research in Large-Scale Mixture of Experts (MoE) Models",
+        "content": "All2All Communication Optimization Research in Large-Scale Mixture of Experts (MoE) Models",
+        "speakers": [
+          {
+            "id": "wang-dong",
+            "name": "Wang Dong",
+            "roleOrg": "GPU Computing Expert, NVIDIA",
+            "tags": [
+              "ws-sglang"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-cangjie": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Cangjie in HarmonyOS Applications: iQiyi's Application Development Practice",
+        "content": "Cangjie in HarmonyOS Applications: iQiyi's Application Development Practice",
+        "speakers": [
+          {
+            "id": "pan-wan-kun",
+            "name": "Pan Wankun",
+            "roleOrg": "Assistant Researcher, iQiyi",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Cangjie in Smart Healthcare Platform Application Development Practice",
+        "content": "Cangjie in Smart Healthcare Platform Application Development Practice",
+        "speakers": [
+          {
+            "id": "chen-yu-long",
+            "name": "Chen Yulong",
+            "roleOrg": "Deputy Dean, CSDN Kaixin Academy",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Cangjie in HarmonyOS Applications: YiKeBiao's Application Development Practice",
+        "content": "Cangjie in HarmonyOS Applications: YiKeBiao's Application Development Practice",
+        "speakers": [
+          {
+            "id": "zhang-hao-yang",
+            "name": "Zhang Haoyang",
+            "roleOrg": "Student, Northeastern University, Cangjie Evangelist",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Cangjie in University Open Source Software Engineering Teaching Practice",
+        "content": "Cangjie in University Open Source Software Engineering Teaching Practice",
+        "speakers": [
+          {
+            "id": "speaker-zhang-yin",
+            "name": "Yin Zhang",
+            "roleOrg": "Associate Professor, Northeastern University",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-zhang-yin.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Server Application Suite Based on Cangjie: Fountain Development Practice",
+        "content": "Server Application Suite Based on Cangjie: Fountain Development Practice",
+        "speakers": [
+          {
+            "id": "speaker-wu-jing-run",
+            "name": "Wu Jingrun",
+            "roleOrg": "Server Application Architect, Beijing Chulian Technology",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-wu-jing-run.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Cangjie Programming Language Ecosystem Construction Progress Introduction",
+        "content": "Cangjie Programming Language Ecosystem Construction Progress Introduction",
+        "speakers": [
+          {
+            "id": "speaker-wang-xue-zhi",
+            "name": "Wang Xuezhi",
+            "roleOrg": "Cangjie Programming Language Ecosystem and Industry Development Director, Huawei",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-wang-xue-zhi.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Cangjie in HarmonyOS Applications: Nano AI Search Application Development Practice",
+        "content": "Cangjie in HarmonyOS Applications: Nano AI Search Application Development Practice",
+        "speakers": [
+          {
+            "id": "zhao-dong",
+            "name": "Zhao Dong",
+            "roleOrg": "HarmonyOS Technical Team Leader, 360 Nano AI Search",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-dora": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Dora Development Practice Based on OpenHarmony",
+        "content": "Dora Development Practice Based on OpenHarmony",
+        "speakers": [
+          {
+            "id": "tao-li",
+            "name": "Tao Li",
+            "roleOrg": "Software Engineer, Shenzhen Kaihong Digital Industry Development Co.,Ltd.",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "tao-li.jpg"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Data Flow-Oriented Robot Architecture",
+        "content": "Data Flow-Oriented Robot Architecture",
+        "speakers": [
+          {
+            "id": "zhongjin-lu",
+            "name": "Zhongjin Lu",
+            "roleOrg": "DORA-RS Intern Developer",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "DoRobot: Containerized Embodied Intelligence Operating System Integrating Dora, ROS and LeRobot",
+        "content": "DoRobot: Containerized Embodied Intelligence Operating System Integrating Dora, ROS and LeRobot",
+        "speakers": [
+          {
+            "id": "xiang-yang-dora",
+            "name": "Xiang Yang",
+            "roleOrg": "Algorithm Engineer, BAAI",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "How to Switch Projects from ROS to Dora",
+        "content": "How to Switch Projects from ROS to Dora",
+        "speakers": [
+          {
+            "id": "hu-you-hao-dora",
+            "name": "Hu Youhao",
+            "roleOrg": "DORA-RS Developer",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "dora-rs Empowering Next-Generation Robot Development with Rust",
+        "content": "dora-rs Empowering Next-Generation Robot Development with Rust",
+        "speakers": [
+          {
+            "id": "li-yang",
+            "name": "Li Yang",
+            "roleOrg": "Technical Expert, Dora Community",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-future-web": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Deep Analysis of Servo Layout System",
+        "content": "Deep Analysis of Servo Layout System",
+        "speakers": [
+          {
+            "id": "martin-robinson-future",
+            "name": "Martin Robinson",
+            "roleOrg": "Software Engineer, Igalia",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Web Font Technology Exploration",
+        "content": "Web Font Technology Exploration",
+        "speakers": [
+          {
+            "id": "dmitrii-desiatkin-future",
+            "name": "Dmitrii Desiatkin",
+            "roleOrg": "System Engineer, Huawei",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Using Servo's WebDriver: Automated Testing and OpenHarmony Practice",
+        "content": "Using Servo's WebDriver: Automated Testing and OpenHarmony Practice",
+        "speakers": [
+          {
+            "id": "zhizhen-ye-future",
+            "name": "Zhizhen Ye",
+            "roleOrg": "Software Engineer, Huawei",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "The Joy and Value of Embedded Servo Systems",
+        "content": "The Joy and Value of Embedded Servo Systems",
+        "speakers": [
+          {
+            "id": "gregory-terzian-future",
+            "name": "Gregory Terzian",
+            "roleOrg": "Founder, FOSS Tech",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Servo's Unified Rendering Architecture on OpenHarmony",
+        "content": "Servo's Unified Rendering Architecture on OpenHarmony",
+        "speakers": [
+          {
+            "id": "jingshi-shangguan",
+            "name": "Jingshi Shangguan",
+            "roleOrg": "Software Engineer, Huawei",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-edge-ai": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "KTransformers: Ultimate Inference for Single-Card Large Models",
+        "content": "KTransformers: Ultimate Inference for Single-Card Large Models",
+        "speakers": [
+          {
+            "id": "weiyu-xie-edge",
+            "name": "Weiyu Xie",
+            "roleOrg": "PhD Student, Tsinghua University",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Edge AI: Possibilities and Value Exploration Based on KubeEdge",
+        "content": "Edge AI: Possibilities and Value Exploration Based on KubeEdge",
+        "speakers": [
+          {
+            "id": "yue-bao-edge",
+            "name": "Yue Bao",
+            "roleOrg": "Senior Engineer, Huawei",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Single-source cross-platform GPU LLM inference with Slang and Rust",
+        "content": "Single-source cross-platform GPU LLM inference with Slang and Rust",
+        "speakers": [
+          {
+            "id": "sbastien-crozet",
+            "name": "Sébastien Crozet",
+            "roleOrg": "Founder, Dimforge",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "sbastien-crozet.png"
+          }
+        ]
+      }
+    ],
+    "ws-cann": [
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "CANN Workshop",
+        "content": "CANN Workshop presentations",
+        "speakers": [
+          {
+            "id": "xiaolei-wang",
+            "name": "Xiaolei WANG",
+            "roleOrg": "General Manager, Ascend Chip Products",
+            "tags": [
+              "ws-cann"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "AsNumpy: Ascend Native Efficient Python Mathematical Computing Library",
+        "content": "AsNumpy: Ascend Native Efficient Python Mathematical Computing Library",
+        "speakers": [
+          {
+            "id": "su-tong-hua",
+            "name": "Su Tonghua",
+            "roleOrg": "Associate Dean of School of Software, Professor of Computing Department, Harbin Institute of Technology",
+            "tags": [
+              "ws-cann"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "TBD date",
+        "timeSlot": "TBD time",
+        "title": "Capacity Density-Driven Efficient Computing for Large Language Models",
+        "content": "Capacity Density-Driven Efficient Computing for Large Language Models",
+        "speakers": [
+          {
+            "id": "xu-han",
+            "name": "Xu Han",
+            "roleOrg": "Assistant Professor, Tsinghua University",
+            "tags": [
+              "ws-cann"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ]
   }
 }

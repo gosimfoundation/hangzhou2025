@@ -1,10 +1,10 @@
 ---
 // Components
-import Button from "components/Button.astro"
-import Logo from "./Logo.astro"
-import NotificationBar from "components/NotificationBar.astro"
+import Button from "components/Button.astro";
+import Logo from "./Logo.astro";
+import NotificationBar from "components/NotificationBar.astro";
 
-const hasNotificationBar = false // Set this to false when NotificationBar is removed or page will crash
+const hasNotificationBar = false; // Set this to false when NotificationBar is removed or page will crash
 
 const links = [
   {
@@ -23,6 +23,10 @@ const links = [
   {
     text: "主题",
     link: "/zh/#tracks",
+  },
+  {
+    text: "议程安排",
+    link: "/zh/schedule",
   },
   // {
   //   text: "赞助商",
@@ -61,7 +65,6 @@ const links = [
         openInNewTab: false,
       },
 
-      
       // {
       //   text: "AIOS 黑客松大赛",
       //   link: "https://mofa.ai/super-agent-hackathon/",
@@ -71,17 +74,17 @@ const links = [
   },
   {
     text: "会议地点",
-    link: "/zh/venue"
+    link: "/zh/venue",
   },
   // {
   //   text: "常见问题",
   //   link: "/zh/faq/",
   // },
-]
+];
 
-const slug = Astro.url.pathname
-const isZhPath = slug.startsWith('/zh/')
-const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
+const slug = Astro.url.pathname;
+const isZhPath = slug.startsWith("/zh/");
+const switchPath = isZhPath ? slug.replace("/zh/", "/") : `/zh${slug}`;
 ---
 
 <header>
@@ -150,8 +153,18 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
           }
           <li class="link link-hover mobile-language-item">
             <div class="language-mobile-menu">
-              <a class="language-item" href={slug.replace('/zh', '') || '/'} onclick="localStorage.setItem('language_preference', 'en'); sessionStorage.setItem('language_just_switched', 'true');">English</a>
-              <a class="language-item active" href={slug} onclick="localStorage.setItem('language_preference', 'zh')">中文</a>
+              <a
+                class="language-item"
+                href={slug.replace("/zh", "") || "/"}
+                onclick="localStorage.setItem('language_preference', 'en'); sessionStorage.setItem('language_just_switched', 'true');"
+                >English</a
+              >
+              <a
+                class="language-item active"
+                href={slug}
+                onclick="localStorage.setItem('language_preference', 'zh')"
+                >中文</a
+              >
             </div>
           </li>
         </ul>
@@ -252,15 +265,36 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
       <div class="header-buttons">
         <div class="language-dropdown">
           <button class="language-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
               <circle cx="12" cy="12" r="10"></circle>
               <line x1="2" y1="12" x2="22" y2="12"></line>
-              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              <path
+                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+              ></path>
             </svg>
           </button>
           <div class="language-dropdown-content">
-            <a href={slug.replace('/zh', '') || '/'} onclick="localStorage.setItem('language_preference', 'en'); sessionStorage.setItem('language_just_switched', 'true');">English</a>
-            <a href={slug} class="active" onclick="localStorage.setItem('language_preference', 'zh')">中文</a>
+            <a
+              href={slug.replace("/zh", "") || "/"}
+              onclick="localStorage.setItem('language_preference', 'en'); sessionStorage.setItem('language_just_switched', 'true');"
+              >English</a
+            >
+            <a
+              href={slug}
+              class="active"
+              onclick="localStorage.setItem('language_preference', 'zh')"
+              >中文</a
+            >
           </div>
         </div>
         <Button
@@ -337,7 +371,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
     color: inherit;
     transition: color 0.3s ease;
   }
-  
+
   /* Ensure the globe icon inherits the text color */
   .language-btn svg {
     color: inherit;
@@ -350,7 +384,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
     position: absolute;
     background-color: #f9f9f9;
     min-width: 120px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 4px;
     right: 0;

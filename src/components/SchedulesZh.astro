@@ -31,7 +31,7 @@ interface Props {
 }
 
 // Import the schedule data
-import scheduleData from "json/Schedule.json"
+import scheduleData from "json/ScheduleZh.json"
 
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
@@ -39,7 +39,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 )
 
 // Use the provided props or default values
-const { currentDay = "September 13", activeCategory = "All" } = Astro.props
+const { currentDay = "9月13日", activeCategory = "All" } = Astro.props
 
 // Helper function to get category name from tag ID
 const getCategoryNameFromTag = (tagId: string): string => {
@@ -50,9 +50,19 @@ const getCategoryNameFromTag = (tagId: string): string => {
 // Improved function to sort sessions by time
 const sortSessionsByTime = (sessions: Session[]) => {
   return sessions.sort((a, b) => {
+    // Handle TBD times - put them at the end
+    if (a.timeSlot === "待定时间" && b.timeSlot === "待定时间") return 0
+    if (a.timeSlot === "待定时间") return 1
+    if (b.timeSlot === "待定时间") return -1
+
     // Extract start times from timeSlot
     const [aStartTime] = a.timeSlot.split("-")
     const [bStartTime] = b.timeSlot.split("-")
+
+    // Check if times contain colons (valid time format)
+    if (!aStartTime.includes(":") || !bStartTime.includes(":")) {
+      return a.timeSlot.localeCompare(b.timeSlot)
+    }
 
     // Split hours and minutes
     const [aHour, aMinute] = aStartTime.split(":").map(Number)
@@ -63,11 +73,10 @@ const sortSessionsByTime = (sessions: Session[]) => {
   })
 }
 
-// Prepare all sessions for the current day
-const allSessions: Session[] = scheduleData.sessions ? Object.entries(scheduleData.sessions).flatMap(
-  ([categoryName, categorySessions]) =>
-    categorySessions
-      .filter((session: Session) => session.date === currentDay)
+// Prepare all sessions (no date filtering - show all sessions regardless of selected day)
+const allSessions: Session[] = scheduleData?.sessions ? Object.entries(scheduleData.sessions)
+  .flatMap(([categoryName, categorySessions]) =>
+    (categorySessions || [])
       .map((session) => ({
         ...session,
         category:
@@ -81,7 +90,7 @@ const allSessions: Session[] = scheduleData.sessions ? Object.entries(scheduleDa
           session.title === "Spotlight Demos" ||
           session.title === "Spotlight Talks"
       }))
-) : []
+  ) : []
 
 // Remove duplicates from all sessions while preserving the first occurrence
 const uniqueAllSessions = Array.from(
@@ -309,11 +318,12 @@ const getEventUrl = (title: string): string => {
                             )}
 
                             <!-- Social share component with reduced spacing -->
-                              <SocialShare
-                                title={`${session.title} - GOSIM AI Paris 2025`}
-                                url={getEventUrl(session.title)}
-                                description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
-                            </div>
+                            <SocialShare
+                              title={`${session.title} - GOSIM AI Paris 2025`}
+                              url={getEventUrl(session.title)}
+                              description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
+                            />
+                          </div>
                           </div>
                         </div>
                       </div>
@@ -447,11 +457,11 @@ const getEventUrl = (title: string): string => {
                                 )}
 
                                 <!-- Social share component with reduced spacing -->
-                                  <SocialShare
-                                    title={`${session.title} - GOSIM AI Paris 2025`}
-                                    url={getEventUrl(session.title)}
-                                    description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
-                                  />
+                                <SocialShare
+                                  title={`${session.title} - GOSIM AI Paris 2025`}
+                                  url={getEventUrl(session.title)}
+                                  description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
+                                />
                               </div>
                             </div>
                           </div>

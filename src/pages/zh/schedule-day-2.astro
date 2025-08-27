@@ -3,7 +3,7 @@
 import Layout from "layouts/LayoutLandingZh.astro";
 import GetTickets from "components/GetTickets.astro";
 import HeroText from "components/HeroText.astro";
-import Schedules from "components/Schedules.astro";
+import Schedules from "components/SchedulesZh.astro";
 ---
 
 <Layout
@@ -12,13 +12,13 @@ import Schedules from "components/Schedules.astro";
   navBackground="light"
   pageTransitionName="Day 2"
 >
-  <HeroText title="日程：9月14日" />
+  <HeroText title="议程安排：9月14日" />
 
-  <Schedules currentDay="September 14" />
+  <Schedules currentDay="9月14日" />
 
   <GetTickets
     title="获取您的GOSIM Hangzhou门票"
-    location="浙江 杭州"
+    location="中国杭州"
     date="2025年9月13-14日"
     text="立即确保您在GOSIM Hangzhou 2025的席位。与创新者合作，与行业先驱交流，成为塑造开源技术未来的一部分。"
     ctaButton={{
