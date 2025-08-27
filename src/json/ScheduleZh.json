@@ -215,23 +215,6 @@
             "image": "0-placeholder-person.png"
           }
         ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "开放共创 · 可持续发展大会",
-        "content": "开放共创 · 可持续发展大会演讲",
-        "speakers": [
-          {
-            "id": "guofeng-zhang",
-            "name": "张国锋",
-            "roleOrg": "开放共创 · 可持续发展大会",
-            "tags": [
-              "open-for-sdg"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
       }
     ],
     "forum-aivision": [

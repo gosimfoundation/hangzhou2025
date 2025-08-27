@@ -453,25 +453,6 @@
       "draft": false
     },
     {
-      "id": "guofeng-zhang",
-      "name": "Guofeng Zhang",
-      "bio": "Founder of the Shanghai Open Source Information Technology Association, and Dean of the Institute for Open Source Innovation and Digital Governance at Shanghai University of International Business and Economics. He began teaching and conducting theoretical research in open source and blockchain in 2013, and organized several open source and blockchain community events from 2015 to 2018. He initiated the establishment of the Shanghai Open Source Information Technology Association in 2018. In November 2020, he organized the writing and release of the 'Manifesto of China's Open Source Innovation Social Engineering'. In May 2023, he promoted the establishment of a micro-major in Open Source Innovation and Digital Governance at Shanghai University of International Business and Economics. In April 2025, the open-source reader for leading cadres, 'Frontier Course on Open Source,' which he organized and authored, was published by the People's Daily Press.",
-      "role": "Founder",
-      "org": "Shanghai Open Source Information Technology Association",
-      "roleOrg": "Founder, Shanghai Open Source Information Technology Association",
-      "image": "guofeng-zhang.jpeg",
-      "tag": "open-for-sdg",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
       "id": "salim-nahle",
       "name": "Salim Nahle",
       "bio": "Dr. Salim Nahle is Program Manager “Data & Artificial Intelligence” and Academic Manager of Executive Education at Efrei Paris. He holds an engineering degree in telecommunications and computer science from the Lebanese University (2005), a Master’s degree in computer science from Paris VI – UMPC (2006), and a Ph.D. in computer science from Sorbonne University (2009). His doctoral research focused on wireless mesh networks using Wi-Fi and WiMAX technologies, addressing scheduling, routing, and quality of service. From 2011 to 2014, he worked as a software engineer at GE Healthcare on the “CT Revolution” project. Between 2014 and 2019, he served as Head of the Cybersecurity and Big Data Department at ECE, where he created the “Big Data & Analytics” and “Defensive Cybersecurity” specializations. Today, he leads academic innovation in AI, Data and cloud at Efrei as a program manager. He also develops and deploys continuous education and executive education programs for partner companies. ",

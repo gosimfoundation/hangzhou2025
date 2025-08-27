@@ -215,23 +215,6 @@
             "image": "0-placeholder-person.png"
           }
         ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Open for SDG Conference Session",
-        "content": "Open for SDG Conference presentations",
-        "speakers": [
-          {
-            "id": "guofeng-zhang",
-            "name": "Guofeng Zhang",
-            "roleOrg": "Open for SDG conference",
-            "tags": [
-              "open-for-sdg"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
       }
     ],
     "forum-aivision": [
