@@ -1414,24 +1414,16 @@
             "tags": [
               "ai-next"
             ],
-            "image": "huixin-xuejixun-yao.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "AI Next Session",
-        "content": "AI Next presentations",
-        "speakers": [
+            "image": "huixin-xue.png"
+          },
           {
             "id": "jixun-yao",
             "name": "Jixun Yao",
-            "roleOrg": "PhD Student, Northwestern Polytechnical University",
+            "roleOrg": "Ph.D. Candidate at Northwestern Polytechnical University",
             "tags": [
               "ai-next"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "jixun-yao.png"
           }
         ]
       },

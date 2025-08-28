@@ -787,13 +787,32 @@
       "draft": false
     },
     {
-      "id": "huixin-xuejixun-yao",
-      "name": "Huixin Xue/Jixun Yao",
-      "bio": "Huixin Xue is a Chinese composer, music producer and Music AI researcher. She is a Ph.D. candidate in Music AI at Shanghai Conservatory of Music under the supervision of Professor Liu Hao, a visiting scholar at the Hamburg University of Music and Theatre, and a member of SHCM's Key Laboratory of Artificial Intelligence Music Therapy. She graduated from the Music Engineering Department of Shanghai Conservatory of Music both for her bachelor's and master's degrees both as the top of her major. Xue’s pieces won numerous awards, including The top Prize of the 2024 OPUS ARTIS Paris International Composition Competition, the Honorable Mention of the 2024 Sound Chain International Electronic Music Composition Competition (the only Chinese winner among the 6 winners worldwide), the second place of the 2024 Hangzhou International Electronic Music Composition Competition. As a Music AI researcher, she strives to explore the possibility of AI technology enabling music creation, including AI music generation model training and evaluation and AI timbre synthesis. \r\n\r\nJixun Yao is a Ph.D. candidate in Computer Science at Northwestern Polytechnical University, under the supervision of Professor Lei Xie. His research centers on speech generation and privacy, with a focus on expressive and zero-shot speech synthesis and music generation. His academic work has been recognized at major conferences including ICLR, AAAI, ACL, and ICASSP, and he has achieved top rankings in the VoicePrivacy 2022 and 2024 challenges. His work aims to bridge academic innovation with real-world impact across multilingual and emotionally rich speech applications.",
-      "role": "Ph.D. Candidate at Shanghai Conservatory of Music/Ph.D. Candidate at Northwestern Polytechnical University",
-      "org": "Shanghai Conservatory of Music/Northwestern Polytechnical University",
-      "roleOrg": "Ph.D. Candidate at Shanghai Conservatory of Music/Ph.D. Candidate at Northwestern Polytechnical University, Shanghai Conservatory of Music/Northwestern Polytechnical University",
-      "image": "huixin-xuejixun-yao.png",
+      "id": "jixun-yao",
+      "name": "Jixun Yao",
+      "bio": "Jixun Yao is a Ph.D. candidate in Computer Science at Northwestern Polytechnical University, under the supervision of Professor Lei Xie. His research centers on speech generation and privacy, with a focus on expressive and zero-shot speech synthesis and music generation. His academic work has been recognized at major conferences including ICLR, AAAI, ACL, and ICASSP, and he has achieved top rankings in the VoicePrivacy 2022 and 2024 challenges. His work aims to bridge academic innovation with real-world impact across multilingual and emotionally rich speech applications.",
+      "role": "Ph.D. Candidate at Northwestern Polytechnical University",
+      "org": "Northwestern Polytechnical University",
+      "roleOrg": "Ph.D. Candidate at Northwestern Polytechnical University, Shanghai Conservatory of Music/Northwestern Polytechnical University",
+      "image": "jixun-yao.png",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/ASLP-lab/SongEval",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "huixin-xue",
+      "name": "Huixin Xue",
+      "bio": "Huixin Xue is a Chinese composer, music producer and Music AI researcher. She is a Ph.D. candidate in Music AI at Shanghai Conservatory of Music under the supervision of Professor Liu Hao, a visiting scholar at the Hamburg University of Music and Theatre, and a member of SHCM's Key Laboratory of Artificial Intelligence Music Therapy. She graduated from the Music Engineering Department of Shanghai Conservatory of Music both for her bachelor's and master's degrees both as the top of her major. Xue’s pieces won numerous awards, including The top Prize of the 2024 OPUS ARTIS Paris International Composition Competition, the Honorable Mention of the 2024 Sound Chain International Electronic Music Composition Competition (the only Chinese winner among the 6 winners worldwide), the second place of the 2024 Hangzhou International Electronic Music Composition Competition. As a Music AI researcher, she strives to explore the possibility of AI technology enabling music creation, including AI music generation model training and evaluation and AI timbre synthesis.",
+      "role": "Ph.D. Candidate at Shanghai Conservatory of Music",
+      "org": "Shanghai Conservatory of Music",
+      "roleOrg": "Ph.D. Candidate at Shanghai Conservatory of Music",
+      "image": "huixin-xue.png",
       "tag": "ai-next",
       "socialLinks": {
         "mastodon": "",

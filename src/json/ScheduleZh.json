@@ -1409,12 +1409,21 @@
         "speakers": [
           {
             "id": "huixin-xue",
-            "name": "薛慧欣",
+            "name": "薛蕙心",
             "roleOrg": "博士研究生, 上海音乐学院",
             "tags": [
               "ai-next"
             ],
-            "image": "huixin-xuejixun-yao.png"
+            "image": "huixin-xue.png"
+          },
+          {
+            "id": "jixun-yao",
+            "name": "姚继珣",
+            "roleOrg": "西北工业大学博士研究生, 上海音乐学院/西北工业大学",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "jixun-yao.png"
           }
         ]
       },
