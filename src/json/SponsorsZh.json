@@ -6,7 +6,9 @@
     { "name": "钻石赞助" },
     { "name": "白金赞助" },
     { "name": "金牌赞助" },
-    { "name": "银牌赞助" }
+    { "name": "银牌赞助" },
+    { "name": "支持组织" },
+    { "name": "讲师附属组织（部分）" }
   ],
   "partners": [
     {
@@ -27,7 +29,7 @@
     },
     {
       "category": "钻石赞助",
-      "image": "蚂蚁.png"
+      "image": "蚂蚁开源.png"
     },
     {
       "category": "白金赞助",
@@ -76,6 +78,182 @@
     {
       "category": "银牌赞助",
       "image": "异步社区.png"
+    },
+
+
+
+
+
+    {
+      "category": "支持组织",
+      "image": "lf-research-color.png"
+    },
+    {
+      "category": "支持组织",
+      "image": "lf-gen-ai.png"
+    },
+    {
+      "category": "支持组织",
+      "image": "eclipse-foundation.png"
+    },
+    {
+      "category": "支持组织",
+      "image": "rust-foundation.png"
+    },
+    {
+      "category": "支持组织",
+      "image": "baai.png"
+    },
+    {
+      "category": "支持组织",
+      "image": "aifc.png"
+    },
+    {
+      "category": "支持组织",
+      "image": "ajtis.jpg"
+    },
+    {
+      "category": "支持组织",
+      "image": "un-odet.png"
+    },
+
+
+
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "nvidia.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "google-cloud.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "nvidia.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "bytedance.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "huawei.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "aliyun.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "intel.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "蚂蚁集团.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "redhat.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "huggingface.png"
+    },    {
+      "category": "讲师附属组织（部分）",
+      "image": "unitree.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "linux-foundation.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "pytorch.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "opencv.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "eclipse-foundation.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "un-odet.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "nvidia.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "qwen.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "tsinghua-university.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "peking-university.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "baai.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "meituan.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "shanghai-jiaotong-university.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "university-of-oxford.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "neo4j.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "futurewei.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "360.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "zhipuai.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "cesi.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "中国电信.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "dora.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "vllm.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "jina-ai.png"
+    },
+    {
+      "category": "讲师附属组织（部分）",
+      "image": "bielik-ai.png"
     }
   ]
 }
+
