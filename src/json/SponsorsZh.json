@@ -4,7 +4,6 @@
     { "name": "主办/承办" },
     { "name": "首席赞助" },
     { "name": "钻石赞助" },
-    { "name": "白金赞助" },
     { "name": "金牌赞助" },
     { "name": "银牌赞助" },
     { "name": "支持组织" },
@@ -32,11 +31,11 @@
       "image": "蚂蚁开源.png"
     },
     {
-      "category": "白金赞助",
+      "category": "钻石赞助",
       "image": "清程极智.png"
     },
     {
-      "category": "白金赞助",
+      "category": "钻石赞助",
       "image": "baai.png"
     },
     {
@@ -62,6 +61,10 @@
     {
       "category": "金牌赞助",
       "image": "康迪.png"
+    },
+    {
+      "category": "金牌赞助",
+      "image": "荣天.png"
     },
     {
       "category": "银牌赞助",
@@ -116,7 +119,18 @@
       "category": "支持组织",
       "image": "un-odet.png"
     },
-
+    {
+      "category": "支持组织",
+      "image": "开源社.png"
+    },
+    {
+      "category": "支持组织",
+      "image": "copu.png"
+    },
+    {
+      "category": "支持组织",
+      "image": "木兰开源社区.png"
+    },
 
 
     {
@@ -126,10 +140,6 @@
     {
       "category": "讲师附属组织（部分）",
       "image": "google-cloud.png"
-    },
-    {
-      "category": "讲师附属组织（部分）",
-      "image": "nvidia.png"
     },
     {
       "category": "讲师附属组织（部分）",
@@ -181,10 +191,6 @@
     {
       "category": "讲师附属组织（部分）",
       "image": "un-odet.png"
-    },
-    {
-      "category": "讲师附属组织（部分）",
-      "image": "nvidia.png"
     },
     {
       "category": "讲师附属组织（部分）",

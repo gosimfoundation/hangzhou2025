@@ -4,7 +4,6 @@
     { "name": "Host" },
     { "name": "Premier" },
     { "name": "Diamond" },
-    { "name": "Platinum" },
     { "name": "Gold" },
     { "name": "Silver" },
     { "name": "Supporting Organization" },
@@ -32,11 +31,11 @@
       "image": "蚂蚁开源.png"
     },
     {
-      "category": "Platinum",
+      "category": "Diamond",
       "image": "清程极智.png"
     },
     {
-      "category": "Platinum",
+      "category": "Diamond",
       "image": "baai.png"
     },
     {
@@ -62,6 +61,10 @@
     {
       "category": "Gold",
       "image": "康迪.png"
+    },
+    {
+      "category": "Gold",
+      "image": "荣天.png"
     },
     {
       "category": "Silver",
@@ -114,6 +117,18 @@
       "category": "Supporting Organization",
       "image": "un-odet.png"
     },
+    {
+      "category": "Supporting Organization",
+      "image": "开源社.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "copu.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "木兰开源社区.png"
+    },
 
 
 
@@ -124,10 +139,6 @@
     {
       "category": "Speaker Affiliated (Partial)",
       "image": "google-cloud.png"
-    },
-    {
-      "category": "Speaker Affiliated (Partial)",
-      "image": "nvidia.png"
     },
     {
       "category": "Speaker Affiliated (Partial)",
@@ -179,10 +190,6 @@
     {
       "category": "Speaker Affiliated (Partial)",
       "image": "un-odet.png"
-    },
-    {
-      "category": "Speaker Affiliated (Partial)",
-      "image": "nvidia.png"
     },
     {
       "category": "Speaker Affiliated (Partial)",
