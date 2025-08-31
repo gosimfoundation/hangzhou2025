@@ -11,118 +11,7 @@
       "url": "/schedule-day-2/"
     }
   ],
-  "categoryGroups": {
-    "tracks": {
-      "title": "Tracks",
-      "categories": [
-        {
-          "name": "AI Models x Infra",
-          "room": "TBD room",
-          "id": "ai-models-infra"
-        },
-        {
-          "name": "Embodied AI",
-          "room": "TBD room",
-          "id": "embodied-ai"
-        },
-        {
-          "name": "Agentic Web",
-          "room": "TBD room",
-          "id": "agentic-web"
-        },
-        {
-          "name": "Apps x Agents",
-          "room": "TBD room",
-          "id": "apps-agents"
-        },
-        {
-          "name": "AI Next",
-          "room": "TBD room",
-          "id": "ai-next"
-        }
-      ]
-    },
-    "forums": {
-      "title": "High-level Forums",
-      "categories": [
-        {
-          "name": "AI Vision Forum",
-          "room": "TBD room",
-          "id": "forum-aivision"
-        },
-        {
-          "name": "Open for SDG Conference",
-          "room": "TBD room",
-          "id": "open-for-sdg"
-        }
-      ]
-    },
-    "workshops": {
-      "title": "Workshops & Meetups",
-      "categories": [
-        {
-          "name": "Future Web Workshop",
-          "room": "TBD room",
-          "id": "ws-future-web"
-        },
-        {
-          "name": "CANN Workshop",
-          "room": "TBD room",
-          "id": "ws-cann"
-        },
-        {
-          "name": "Flutter Workshop",
-          "room": "TBD room",
-          "id": "ws-flutter"
-        },
-        {
-          "name": "Cangjie Workshop",
-          "room": "TBD room",
-          "id": "ws-cangjie"
-        },
-        {
-          "name": "Edge AI Workshop",
-          "room": "TBD room",
-          "id": "ws-edge-ai"
-        },
-        {
-          "name": "Open Source Chitu First Meetup",
-          "room": "TBD room",
-          "id": "ws-chitu"
-        },
-        {
-          "name": "AI 4 Education Workshop",
-          "room": "TBD room",
-          "id": "ws-ai-4-education"
-        },
-        {
-          "name": "RN Workshop",
-          "room": "TBD room",
-          "id": "ws-rn"
-        },
-        {
-          "name": "Dora Workshop",
-          "room": "TBD room",
-          "id": "ws-dora"
-        },
-        {
-          "name": "Rust Workshop",
-          "room": "TBD room",
-          "id": "ws-rust"
-        },
-        {
-          "name": "SGLang Workshop",
-          "room": "TBD room",
-          "id": "ws-sglang"
-        },
-        {
-          "name": "Embedded Rust for AI Workshop",
-          "room": "TBD room",
-          "id": "ws-embedded-rust-for-ai"
-        }
-      ]
-    }
-  },
+
   "categories": [
     {
       "name": "AI Models x Infra",
@@ -215,7 +104,7 @@
       "id": "ws-sglang"
     },
     {
-      "name": "Embedded Rust for AI Workshop",
+      "name": "Makepad Workshop",
       "room": "TBD room",
       "id": "ws-embedded-rust-for-ai"
     }
