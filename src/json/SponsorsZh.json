@@ -6,7 +6,7 @@
     { "name": "钻石赞助" },
     { "name": "金牌赞助" },
     { "name": "银牌赞助" },
-    { "name": "支持组织" },
+    { "name": "合作伙伴" },
     { "name": "讲师附属组织（部分）" }
   ],
   "partners": [
@@ -88,47 +88,47 @@
 
 
     {
-      "category": "支持组织",
+      "category": "合作伙伴",
       "image": "lf-research-color.png"
     },
     {
-      "category": "支持组织",
+      "category": "合作伙伴",
       "image": "lf-gen-ai.png"
     },
     {
-      "category": "支持组织",
+      "category": "合作伙伴",
       "image": "eclipse-foundation.png"
     },
     {
-      "category": "支持组织",
+      "category": "合作伙伴",
       "image": "rust-foundation.png"
     },
     {
-      "category": "支持组织",
+      "category": "合作伙伴",
       "image": "baai.png"
     },
     {
-      "category": "支持组织",
+      "category": "合作伙伴",
       "image": "aifc.png"
     },
     {
-      "category": "支持组织",
+      "category": "合作伙伴",
       "image": "ajtis.jpg"
     },
     {
-      "category": "支持组织",
+      "category": "合作伙伴",
       "image": "un-odet.png"
     },
     {
-      "category": "支持组织",
+      "category": "合作伙伴",
       "image": "开源社.png"
     },
     {
-      "category": "支持组织",
+      "category": "合作伙伴",
       "image": "copu.png"
     },
     {
-      "category": "支持组织",
+      "category": "合作伙伴",
       "image": "木兰开源社区.png"
     },
 

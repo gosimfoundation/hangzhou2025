@@ -11,6 +11,118 @@
       "url": "/zh/schedule-day-2/"
     }
   ],
+  "categoryGroups": {
+    "tracks": {
+      "title": "主题论坛",
+      "categories": [
+        {
+          "name": "AI 模型 × 基础设施",
+          "room": "待定房间",
+          "id": "ai-models-infra"
+        },
+        {
+          "name": "具身智能",
+          "room": "待定房间",
+          "id": "embodied-ai"
+        },
+        {
+          "name": "智能体网络",
+          "room": "待定房间",
+          "id": "agentic-web"
+        },
+        {
+          "name": "应用 × 智能体",
+          "room": "待定房间",
+          "id": "apps-agents"
+        },
+        {
+          "name": "下一代 AI",
+          "room": "待定房间",
+          "id": "ai-next"
+        }
+      ]
+    },
+    "forums": {
+      "title": "高端论坛",
+      "categories": [
+        {
+          "name": "人工智能愿景论坛",
+          "room": "待定房间",
+          "id": "forum-aivision"
+        },
+        {
+          "name": "开放共创 · 可持续发展大会",
+          "room": "待定房间",
+          "id": "open-for-sdg"
+        }
+      ]
+    },
+    "workshops": {
+      "title": "工作坊与 Meetup",
+      "categories": [
+        {
+          "name": "SGLang 工作坊",
+          "room": "待定房间",
+          "id": "ws-sglang"
+        },
+        {
+          "name": "仓颉 工作坊",
+          "room": "待定房间",
+          "id": "ws-cangjie"
+        },
+        {
+          "name": "Dora 工作坊",
+          "room": "待定房间",
+          "id": "ws-dora"
+        },
+        {
+          "name": "未来 Web 技术论坛",
+          "room": "待定房间",
+          "id": "ws-future-web"
+        },
+        {
+          "name": "边缘 AI 工作坊",
+          "room": "待定房间",
+          "id": "ws-edge-ai"
+        },
+        {
+          "name": "CANN 工作坊",
+          "room": "待定房间",
+          "id": "ws-cann"
+        },
+        {
+          "name": "Flutter 技术沙龙",
+          "room": "待定房间",
+          "id": "ws-flutter"
+        },
+        {
+          "name": "开源赤兔项目首次 Meetup",
+          "room": "待定房间",
+          "id": "ws-chitu"
+        },
+        {
+          "name": "AI 教育工作坊",
+          "room": "待定房间",
+          "id": "ws-ai-4-education"
+        },
+        {
+          "name": "RN 技术沙龙",
+          "room": "待定房间",
+          "id": "ws-rn"
+        },
+        {
+          "name": "Rust 工作坊",
+          "room": "待定房间",
+          "id": "ws-rust"
+        },
+        {
+          "name": "Embedded Rust for AI 工作坊",
+          "room": "待定房间",
+          "id": "ws-embedded-rust-for-ai"
+        }
+      ]
+    }
+  },
   "categories": [
     {
       "name": "AI 模型 × 基础设施",
@@ -63,7 +175,7 @@
       "id": "ws-dora"
     },
     {
-      "name": "未来网络 工作坊",
+      "name": "未来 Web 技术论坛",
       "room": "待定房间",
       "id": "ws-future-web"
     },
@@ -76,6 +188,36 @@
       "name": "CANN 工作坊",
       "room": "待定房间",
       "id": "ws-cann"
+    },
+    {
+      "name": "Flutter 技术沙龙",
+      "room": "待定房间",
+      "id": "ws-flutter"
+    },
+    {
+      "name": "开源赤兔项目首次 Meetup",
+      "room": "待定房间",
+      "id": "ws-chitu"
+    },
+    {
+      "name": "AI 教育工作坊",
+      "room": "待定房间",
+      "id": "ws-ai-4-education"
+    },
+    {
+      "name": "RN 技术沙龙",
+      "room": "待定房间",
+      "id": "ws-rn"
+    },
+    {
+      "name": "Rust 工作坊",
+      "room": "待定房间",
+      "id": "ws-rust"
+    },
+    {
+      "name": "Embedded Rust for AI 工作坊",
+      "room": "待定房间",
+      "id": "ws-embedded-rust-for-ai"
     }
   ],
   "sessions": {
@@ -2182,6 +2324,120 @@
             "roleOrg": "助理教授, 清华大学",
             "tags": [
               "ws-cann"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-flutter": [
+      {
+        "date": "待定日期",
+        "timeSlot": "待定时间",
+        "title": "Flutter 技术沙龙",
+        "content": "Flutter 技术沙龙内容",
+        "speakers": [
+          {
+            "id": "flutter-workshop-speaker",
+            "name": "Flutter 技术沙龙讲师",
+            "roleOrg": "Flutter 技术沙龙",
+            "tags": [
+              "ws-flutter"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-chitu": [
+      {
+        "date": "待定日期",
+        "timeSlot": "待定时间",
+        "title": "开源赤兔项目首次 Meetup",
+        "content": "开源赤兔项目首次 Meetup 内容",
+        "speakers": [
+          {
+            "id": "chitu-meetup-speaker",
+            "name": "开源赤兔项目 Meetup 讲师",
+            "roleOrg": "开源赤兔项目首次 Meetup",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-ai-4-education": [
+      {
+        "date": "待定日期",
+        "timeSlot": "待定时间",
+        "title": "AI 教育工作坊",
+        "content": "AI 教育工作坊内容",
+        "speakers": [
+          {
+            "id": "ai-education-workshop-speaker",
+            "name": "AI 教育工作坊讲师",
+            "roleOrg": "AI 教育工作坊",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-rn": [
+      {
+        "date": "待定日期",
+        "timeSlot": "待定时间",
+        "title": "RN 技术沙龙",
+        "content": "RN 技术沙龙内容",
+        "speakers": [
+          {
+            "id": "rn-workshop-speaker",
+            "name": "RN 技术沙龙讲师",
+            "roleOrg": "RN 技术沙龙",
+            "tags": [
+              "ws-rn"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-rust": [
+      {
+        "date": "待定日期",
+        "timeSlot": "待定时间",
+        "title": "Rust 工作坊",
+        "content": "Rust 工作坊内容",
+        "speakers": [
+          {
+            "id": "rust-workshop-speaker",
+            "name": "Rust 工作坊讲师",
+            "roleOrg": "Rust 工作坊",
+            "tags": [
+              "ws-rust"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-embedded-rust-for-ai": [
+      {
+        "date": "待定日期",
+        "timeSlot": "待定时间",
+        "title": "Embedded Rust for AI 工作坊",
+        "content": "Embedded Rust for AI 工作坊内容",
+        "speakers": [
+          {
+            "id": "embedded-rust-ai-workshop-speaker",
+            "name": "Embedded Rust for AI 工作坊讲师",
+            "roleOrg": "Embedded Rust for AI 工作坊",
+            "tags": [
+              "ws-embedded-rust-for-ai"
             ],
             "image": "0-placeholder-person.png"
           }
