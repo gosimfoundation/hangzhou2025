@@ -32,16 +32,20 @@
     },
     {
       "category": "Diamond",
-      "image": "清程极智.png"
-    },
-    {
-      "category": "Diamond",
       "image": "baai.png"
     },
     {
-      "category": "Gold",
-      "image": "benq.png"
+      "category": "Diamond",
+      "image": "清程极智.png"
     },
+
+
+
+    {
+      "category": "Gold",
+      "image": "GitCode.png"
+    },
+
     {
       "category": "Gold",
       "image": "intel.png"
@@ -52,12 +56,13 @@
     },
     {
       "category": "Gold",
-      "image": "傲意科技.png"
+      "image": "benq.png"
     },
     {
       "category": "Gold",
-      "image": "GitCode.png"
+      "image": "傲意科技.png"
     },
+
     {
       "category": "Gold",
       "image": "康迪.png"
@@ -85,6 +90,8 @@
 
 
 
+
+
     {
       "category": "Supporting Organization",
       "image": "lf-research-color.png"
@@ -103,7 +110,15 @@
     },
     {
       "category": "Supporting Organization",
+      "image": "un-odet.png"
+    },
+    {
+      "category": "Supporting Organization",
       "image": "baai.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "second-state.png"
     },
     {
       "category": "Supporting Organization",
@@ -115,7 +130,20 @@
     },
     {
       "category": "Supporting Organization",
-      "image": "un-odet.png"
+      "image": "木兰开源社区.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "wasmedge.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "奇点智能研究院.png"
+    },
+
+    {
+      "category": "Supporting Organization",
+      "image": "copu.png"
     },
     {
       "category": "Supporting Organization",
@@ -123,12 +151,57 @@
     },
     {
       "category": "Supporting Organization",
-      "image": "copu.png"
+      "image": "睿类问特.png"
     },
     {
       "category": "Supporting Organization",
-      "image": "木兰开源社区.png"
+      "image": "rust-china-conf.png"
     },
+    {
+      "category": "Supporting Organization",
+      "image": "rust-cc.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "rust-global.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "broadview.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "非凸科技.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "greptimedb.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "linera.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "openbuild.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "solana.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "tintin.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "tuling.jpg"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "ruby.png"
+    },
+
 
 
 

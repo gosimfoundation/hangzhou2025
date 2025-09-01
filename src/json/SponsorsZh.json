@@ -32,16 +32,20 @@
     },
     {
       "category": "钻石赞助",
-      "image": "清程极智.png"
-    },
-    {
-      "category": "钻石赞助",
       "image": "baai.png"
     },
     {
-      "category": "金牌赞助",
-      "image": "benq.png"
+      "category": "钻石赞助",
+      "image": "清程极智.png"
     },
+
+
+
+    {
+      "category": "金牌赞助",
+      "image": "GitCode.png"
+    },
+
     {
       "category": "金牌赞助",
       "image": "intel.png"
@@ -52,12 +56,13 @@
     },
     {
       "category": "金牌赞助",
-      "image": "傲意科技.png"
+      "image": "benq.png"
     },
     {
       "category": "金牌赞助",
-      "image": "GitCode.png"
+      "image": "傲意科技.png"
     },
+
     {
       "category": "金牌赞助",
       "image": "康迪.png"
@@ -105,7 +110,15 @@
     },
     {
       "category": "合作伙伴",
+      "image": "un-odet.png"
+    },
+    {
+      "category": "合作伙伴",
       "image": "baai.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "second-state.png"
     },
     {
       "category": "合作伙伴",
@@ -117,7 +130,20 @@
     },
     {
       "category": "合作伙伴",
-      "image": "un-odet.png"
+      "image": "木兰开源社区.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "wasmedge.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "奇点智能研究院.png"
+    },
+
+    {
+      "category": "合作伙伴",
+      "image": "copu.png"
     },
     {
       "category": "合作伙伴",
@@ -125,12 +151,57 @@
     },
     {
       "category": "合作伙伴",
-      "image": "copu.png"
+      "image": "睿类问特.png"
     },
     {
       "category": "合作伙伴",
-      "image": "木兰开源社区.png"
+      "image": "rust-china-conf.png"
     },
+    {
+      "category": "合作伙伴",
+      "image": "rust-cc.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "rust-global.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "broadview.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "非凸科技.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "greptimedb.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "linera.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "openbuild.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "solana.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "tintin.png"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "tuling.jpg"
+    },
+    {
+      "category": "合作伙伴",
+      "image": "ruby.png"
+    },
+
 
 
     {
