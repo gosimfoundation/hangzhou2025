@@ -47,12 +47,29 @@ const getCategoryNameFromTag = (tagId: string): string => {
   return category ? category.name : tagId
 }
 
-// Improved function to sort sessions by time
-const sortSessionsByTime = (sessions: Session[]) => {
+// Improved function to sort sessions by date first, then by time
+const sortSessionsByDateAndTime = (sessions: Session[]) => {
   return sessions.sort((a, b) => {
+    // First, sort by date
+    const dateComparison = a.date.localeCompare(b.date)
+    if (dateComparison !== 0) {
+      return dateComparison
+    }
+
+    // If dates are the same, sort by time
+    // Handle TBD times - put them at the end
+    if (a.timeSlot === "TBD time" && b.timeSlot === "TBD time") return 0
+    if (a.timeSlot === "TBD time") return 1
+    if (b.timeSlot === "TBD time") return -1
+
     // Extract start times from timeSlot
     const [aStartTime] = a.timeSlot.split("-")
     const [bStartTime] = b.timeSlot.split("-")
+
+    // Check if times contain colons (valid time format)
+    if (!aStartTime.includes(":") || !bStartTime.includes(":")) {
+      return a.timeSlot.localeCompare(b.timeSlot)
+    }
 
     // Split hours and minutes
     const [aHour, aMinute] = aStartTime.split(":").map(Number)
@@ -64,9 +81,9 @@ const sortSessionsByTime = (sessions: Session[]) => {
 }
 
 // Prepare all sessions for the current day
-const allSessions: Session[] = scheduleData.sessions ? Object.entries(scheduleData.sessions).flatMap(
-  ([categoryName, categorySessions]) =>
-    categorySessions
+const allSessions: Session[] = scheduleData?.sessions ? Object.entries(scheduleData.sessions)
+  .flatMap(([categoryName, categorySessions]) =>
+    (categorySessions || [])
       .filter((session: Session) => session.date === currentDay)
       .map((session) => ({
         ...session,
@@ -81,14 +98,14 @@ const allSessions: Session[] = scheduleData.sessions ? Object.entries(scheduleDa
           session.title === "Spotlight Demos" ||
           session.title === "Spotlight Talks"
       }))
-) : []
+  ) : []
 
 // Remove duplicates from all sessions while preserving the first occurrence
 const uniqueAllSessions = Array.from(
   new Map(allSessions.map((session) => [session.title, session])).values()
 )
 
-const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
+const sortedAllSessions = sortSessionsByDateAndTime(uniqueAllSessions)
 
 // Helper function to generate event URL
 const getEventUrl = (title: string): string => {
@@ -309,12 +326,13 @@ const getEventUrl = (title: string): string => {
                             )}
 
                             <!-- Social share component with reduced spacing -->
-                              <SocialShare
-                                title={`${session.title} - GOSIM AI Paris 2025`}
-                                url={getEventUrl(session.title)}
-                                description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
-                            </div>
+                            <SocialShare
+                              title={`${session.title} - GOSIM AI Paris 2025`}
+                              url={getEventUrl(session.title)}
+                              description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
+                            />
                           </div>
+                        </div>
                         </div>
                       </div>
                     </div>
@@ -332,7 +350,7 @@ const getEventUrl = (title: string): string => {
           const categorySessions = allSessions.filter(
             (session) => session.category === category.name
           )
-          const sortedCategorySessions = sortSessionsByTime(categorySessions)
+          const sortedCategorySessions = sortSessionsByDateAndTime(categorySessions)
 
           return (
             <div
@@ -447,11 +465,11 @@ const getEventUrl = (title: string): string => {
                                 )}
 
                                 <!-- Social share component with reduced spacing -->
-                                  <SocialShare
-                                    title={`${session.title} - GOSIM AI Paris 2025`}
-                                    url={getEventUrl(session.title)}
-                                    description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
-                                  />
+                                <SocialShare
+                                  title={`${session.title} - GOSIM AI Paris 2025`}
+                                  url={getEventUrl(session.title)}
+                                  description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
+                                />
                               </div>
                             </div>
                           </div>

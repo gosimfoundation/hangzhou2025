@@ -1,6 +1,11 @@
 {
   "days": [
     {
+      "date": "待定日期",
+      "title": "待定日期",
+      "url": "/zh/schedule-day-tbd/"
+    },
+    {
       "date": "9月13日",
       "title": "9月13日，星期六",
       "url": "/zh/schedule/"
@@ -10,8 +15,8 @@
       "title": "9月14日，星期日",
       "url": "/zh/schedule-day-2/"
     }
-  ],
 
+  ],
   "categories": [
     {
       "name": "AI 模型 × 基础设施",
@@ -388,76 +393,8 @@
     ],
     "ai-models-infra": [
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "Khronos 在标准化AI加速中的角色：AI生态系统研究项目的发现",
-        "content": "Khronos 在标准化AI加速中的角色：AI生态系统研究项目的发现",
-        "speakers": [
-          {
-            "id": "markus-tavenrath",
-            "name": "Markus Tavenrath",
-            "roleOrg": "开发者技术首席工程师, NVIDIA",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "markus-tavenrath.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "llama.cpp多模态支持的全面升级",
-        "content": "llama.cpp多模态支持的全面升级",
-        "speakers": [
-          {
-            "id": "xuan-son-nguyen",
-            "name": "Xuan Son Nguyen",
-            "roleOrg": "软件工程师, Hugging Face",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "xuan-son-nguyen.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "vLLM：人人可用的简单、快速且低成本的大模型服务方案",
-        "content": "vLLM：人人可用的简单、快速且低成本的大模型服务方案",
-        "speakers": [
-          {
-            "id": "kaichao-you",
-            "name": "游凯超",
-            "roleOrg": "核心维护者, vLLM",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "kaichao-you.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "大规模释放GenAI推理能力：深入解析 llm-d 项目",
-        "content": "大规模释放GenAI推理能力：深入解析 llm-d 项目",
-        "speakers": [
-          {
-            "id": "vincent-caldeira",
-            "name": "Vincent Caldeira",
-            "roleOrg": "CTO, Red Hat 亚太区",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "vincent-caldeira.jpeg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月13日",
+        "timeSlot": "10:15 - 10:50",
         "title": "OpenSeek：开源驱动的下一代AI模型",
         "content": "OpenSeek：开源驱动的下一代AI模型",
         "speakers": [
@@ -473,8 +410,314 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月13日",
+        "timeSlot": "10:50 - 11:25",
+        "title": "引擎与熔炉：在超级计算机上构建定制化的 PyTorch 框架",
+        "content": "引擎与熔炉：在超级计算机上构建定制化的 PyTorch 框架",
+        "speakers": [
+          {
+            "id": "krzysztof-ociepa",
+            "name": "Krzysztof Ociepa",
+            "roleOrg": "核心团队成员, Bielik.AI",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Khronos 在标准化AI加速中的角色：AI生态系统研究项目的发现",
+        "content": "Khronos 在标准化AI加速中的角色：AI生态系统研究项目的发现",
+        "speakers": [
+          {
+            "id": "markus-tavenrath",
+            "name": "Markus Tavenrath",
+            "roleOrg": "开发者技术首席工程师, NVIDIA",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "markus-tavenrath.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:00 - 14:20",
+        "title": "大规模释放GenAI推理能力：深入解析 llm-d 项目",
+        "content": "大规模释放GenAI推理能力：深入解析 llm-d 项目",
+        "speakers": [
+          {
+            "id": "vincent-caldeira",
+            "name": "Vincent Caldeira",
+            "roleOrg": "CTO, Red Hat 亚太区",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "vincent-caldeira.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:20 - 14:40",
+        "title": "蚂蚁AI网关 - 大规模在线推理服务集群性能优化实战",
+        "content": "蚂蚁AI网关 - 大规模在线推理服务集群性能优化实战",
+        "speakers": [
+          {
+            "id": "zhu-de-jiang",
+            "name": "朱德江",
+            "roleOrg": "技术专家, 蚂蚁集团网络团队, Mooncake 核心成员 / Envoy Golang 维护者",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:40 - 15:00",
+        "title": "基于openUBMC构建下一代AI基础设施智能设备管理平台",
+        "content": "基于openUBMC构建下一代AI基础设施智能设备管理平台",
+        "speakers": [
+          {
+            "id": "zhang-yubo",
+            "name": "张雨博",
+            "roleOrg": "openUBMC社区技术委员会委员",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:00 - 15:20",
+        "title": "赋能云原生推理：基于Volcano调度器破解大规模语言模型部署难题",
+        "content": "赋能云原生推理：基于Volcano调度器破解大规模语言模型部署难题",
+        "speakers": [
+          {
+            "id": "chen-zicong",
+            "name": "Chen Zicong",
+            "roleOrg": "研发工程师, 华为云",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:40 - 16:15",
+        "title": "verl: 面向智能体任务的开源LLM强化学习框架",
+        "content": "verl: 面向智能体任务的开源LLM强化学习框架",
+        "speakers": [
+          {
+            "id": "speaker-chen-hai-quan",
+            "name": "陈海泉",
+            "roleOrg": "开发者, 字节跳动",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "speaker-chen-hai-quan.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:15 - 16:50",
+        "title": "昇腾高吞吐投机推理框架Omni-Infer",
+        "content": "昇腾高吞吐投机推理框架Omni-Infer",
+        "speakers": [
+          {
+            "id": "ding-yi-bin",
+            "name": "丁益斌",
+            "roleOrg": "专家, 华为2012实验室中央研究院理论研究部",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:50 - 17:25",
+        "title": "持续学习的工业化：构建可重训练的大模型定制流水线",
+        "content": "持续学习的工业化：构建可重训练的大模型定制流水线",
+        "speakers": [
+          {
+            "id": "aurlienmorgan-claudon",
+            "name": "Aurélien-Morgan CLAUDON",
+            "roleOrg": "资深MLOps负责人, 无隶属",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "aurlienmorgan-claudon.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:15 - 10:50",
+        "title": "面向国产智能算力的大模型训推优化平台",
+        "content": "面向国产智能算力的大模型训推优化平台",
+        "speakers": [
+          {
+            "id": "he-wan-qing",
+            "name": "何万青",
+            "roleOrg": "副总裁, 首席信息官, 青城极智",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:50 - 11:25",
+        "title": "vLLM：人人可用的简单、快速且低成本的大模型服务方案",
+        "content": "vLLM：人人可用的简单、快速且低成本的大模型服务方案",
+        "speakers": [
+          {
+            "id": "kaichao-you",
+            "name": "游凯超",
+            "roleOrg": "核心维护者, vLLM",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "kaichao-you.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "11:25 - 12:00",
+        "title": "蚂蚁多模态大模型实践",
+        "content": "蚂蚁多模态大模型实践",
+        "speakers": [
+          {
+            "id": "jingdong-chen",
+            "name": "Jingdong Chen",
+            "roleOrg": "Senior Algorithm Expert, Ant Group",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "14:00 - 14:20",
+        "title": "智谱AI模型介绍与开源生态",
+        "content": "智谱AI模型介绍与开源生态",
+        "speakers": [
+          {
+            "id": "yuxuan-zhang",
+            "name": "张昱轩",
+            "roleOrg": "工程师, 智谱AI, CogVideoX项目贡献者",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "14:20 - 14:40",
+        "title": "SCLang使能MindSpore框架方案",
+        "content": "SCLang使能MindSpore框架方案",
+        "speakers": [
+          {
+            "id": "wang-tiance",
+            "name": "王天策",
+            "roleOrg": "软件架构师, 华为",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "14:40 - 15:00",
+        "title": "Beat OpenAI and Build the Best AI For You: Mobilizing First-Party Data with Fine-Tuning",
+        "content": "Beat OpenAI and Build the Best AI For You: Mobilizing First-Party Data with Fine-Tuning",
+        "speakers": [
+          {
+            "id": "paul-yang",
+            "name": "Paul Yang",
+            "roleOrg": "ML Infra at Runhouse",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "15:00 - 15:20",
+        "title": "AIKG：AI驱动的内核生成器",
+        "content": "AIKG：AI驱动的内核生成器",
+        "speakers": [
+          {
+            "id": "renwei-zhang",
+            "name": "Renwei Zhang",
+            "roleOrg": "AI 编译器专家, 华为",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "15:40 - 16:15",
+        "title": "llama.cpp多模态支持的全面升级",
+        "content": "llama.cpp多模态支持的全面升级",
+        "speakers": [
+          {
+            "id": "xuan-son-nguyen",
+            "name": "Xuan Son Nguyen",
+            "roleOrg": "软件工程师, Hugging Face",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "xuan-son-nguyen.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "16:15 - 16:50",
+        "title": "以动态优化将AI推向边缘",
+        "content": "以动态优化将AI推向边缘",
+        "speakers": [
+          {
+            "id": "richard-reiner",
+            "name": "Richard REINER",
+            "roleOrg": "董事会成员兼顾问, Procero AI",
+            "tags": [
+              "ai-models-infra"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "16:50 - 17:25",
         "title": "基于Hugging Face实现开源模型的硬件无关加速方案",
         "content": "基于Hugging Face实现开源模型的硬件无关加速方案",
         "speakers": [
@@ -492,57 +735,6 @@
       {
         "date": "待定日期",
         "timeSlot": "待定时间",
-        "title": "持续学习的工业化：构建可重训练的大模型定制流水线",
-        "content": "持续学习的工业化：构建可重训练的大模型定制流水线",
-        "speakers": [
-          {
-            "id": "aurlienmorgan-claudon",
-            "name": "Aurélien-Morgan CLAUDON",
-            "roleOrg": "资深MLOps负责人, 无隶属",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "aurlienmorgan-claudon.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "以动态优化将AI推向边缘",
-        "content": "以动态优化将AI推向边缘",
-        "speakers": [
-          {
-            "id": "richard-reiner",
-            "name": "Richard REINER",
-            "roleOrg": "董事会成员兼顾问, Procero AI",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "蚂蚁AI网关 - 大规模在线推理服务集群性能优化实战",
-        "content": "蚂蚁AI网关 - 大规模在线推理服务集群性能优化实战",
-        "speakers": [
-          {
-            "id": "zhu-de-jiang",
-            "name": "朱德江",
-            "roleOrg": "技术专家, 蚂蚁集团网络团队, Mooncake 核心成员 / Envoy Golang 维护者",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
         "title": "大规模主权AI：欧洲基础模型的数据管道与科研基础设施",
         "content": "大规模主权AI：欧洲基础模型的数据管道与科研基础设施",
         "speakers": [
@@ -550,125 +742,6 @@
             "id": "nicolas-flores-herr",
             "name": "Nicolas Flores Herr",
             "roleOrg": "基础模型与生成式 AI 系统团队负责人, Fraunhofer IAIS",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "面向国产智能算力的大模型训推优化平台",
-        "content": "面向国产智能算力的大模型训推优化平台",
-        "speakers": [
-          {
-            "id": "he-wan-qing",
-            "name": "何万青",
-            "roleOrg": "副总裁, 首席信息官, 青城极智",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "verl: 面向智能体任务的开源LLM强化学习框架",
-        "content": "verl: 面向智能体任务的开源LLM强化学习框架",
-        "speakers": [
-          {
-            "id": "speaker-chen-hai-quan",
-            "name": "陈海泉",
-            "roleOrg": "开发者, 字节跳动",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "speaker-chen-hai-quan.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "昇腾高吞吐投机推理框架Omni-Infer",
-        "content": "昇腾高吞吐投机推理框架Omni-Infer",
-        "speakers": [
-          {
-            "id": "ding-yi-bin",
-            "name": "丁益斌",
-            "roleOrg": "专家, 华为2012实验室中央研究院理论研究部",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "引擎与熔炉：在超级计算机上构建定制化的 PyTorch 框架",
-        "content": "引擎与熔炉：在超级计算机上构建定制化的 PyTorch 框架",
-        "speakers": [
-          {
-            "id": "krzysztof-ociepa",
-            "name": "Krzysztof Ociepa",
-            "roleOrg": "核心团队成员, Bielik.AI",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "AIKG：AI驱动的内核生成器",
-        "content": "AIKG：AI驱动的内核生成器",
-        "speakers": [
-          {
-            "id": "renwei-zhang",
-            "name": "Renwei Zhang",
-            "roleOrg": "AI 编译器专家, 华为",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "智谱AI模型介绍与开源生态",
-        "content": "智谱AI模型介绍与开源生态",
-        "speakers": [
-          {
-            "id": "yuxuan-zhang",
-            "name": "张昱轩",
-            "roleOrg": "工程师, 智谱AI, CogVideoX项目贡献者",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "赋能云原生推理：基于Volcano调度器破解大规模语言模型部署难题",
-        "content": "赋能云原生推理：基于Volcano调度器破解大规模语言模型部署难题",
-        "speakers": [
-          {
-            "id": "chen-zicong",
-            "name": "Chen Zicong",
-            "roleOrg": "研发工程师, 华为云",
             "tags": [
               "ai-models-infra"
             ],
@@ -1235,7 +1308,7 @@
           {
             "id": "zhiyu-li",
             "name": "李志宇",
-            "roleOrg": "CTO, 忆臻（上海）科技有限公司",
+            "roleOrg": "记忆张量（上海）科技有限公司联合创始人兼 CTO",
             "tags": [
               "apps-agents"
             ],
