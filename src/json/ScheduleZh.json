@@ -15,7 +15,6 @@
       "title": "9月14日，星期日",
       "url": "/zh/schedule-day-2/"
     }
-
   ],
   "categories": [
     {
@@ -752,15 +751,15 @@
     ],
     "embodied-ai": [
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月13日",
+        "timeSlot": "10:15 - 10:50",
         "title": "OpenCV 5：开源软件的奋斗与胜利",
         "content": "OpenCV 5：开源软件的奋斗与胜利",
         "speakers": [
           {
             "id": "satya-mallick",
             "name": "Satya Mallick",
-            "roleOrg": "CEO, OpenCV.org",
+            "roleOrg": "OpenCV.org CEO",
             "tags": [
               "embodied-ai"
             ],
@@ -769,49 +768,15 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "面向物理AI的Cosmos世界基础模型",
-        "content": "面向物理AI的Cosmos世界基础模型",
+        "date": "9月13日",
+        "timeSlot": "10:50 - 11:25",
+        "title": "从非公路车到机器人：康迪科技的“三海”突围之路",
+        "content": "从非公路车到机器人：康迪科技的“三海”突围之路",
         "speakers": [
           {
-            "id": "jinwei-gu",
-            "name": "顾金伟",
-            "roleOrg": "首席研究科学家兼技术负责人, NVIDIA",
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "jinwei-gu.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "利用dora-rs混合多模态AI模型，解决复杂机器人任务",
-        "content": "利用dora-rs混合多模态AI模型，解决复杂机器人任务",
-        "speakers": [
-          {
-            "id": "xavier-tao",
-            "name": "陶海轩",
-            "roleOrg": "创始人, 1ms.ai",
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "xavier-tao.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "商业中的人与智能体交互：自主性与人工控制的平衡",
-        "content": "商业中的人与智能体交互：自主性与人工控制的平衡",
-        "speakers": [
-          {
-            "id": "mashengyue",
-            "name": "马生悦",
-            "roleOrg": "机器人技术总监, 宇树科技",
+            "id": "xueqin-dong",
+            "name": "董学勤",
+            "roleOrg": "康迪科技董事长",
             "tags": [
               "embodied-ai"
             ],
@@ -820,32 +785,15 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "HopeJr：面向所有人的500美元开源人形机械臂",
-        "content": "HopeJr：面向所有人的500美元开源人形机械臂",
-        "speakers": [
-          {
-            "id": "martino-russi",
-            "name": "Martino Russi",
-            "roleOrg": "具身智能工程师, Hugging Face",
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "martino-russi.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "Amiga：面向智能农业与户外物流的模块化AI优先平台",
-        "content": "Amiga：面向智能农业与户外物流的模块化AI优先平台",
+        "date": "9月13日",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Amiga：面向智能农业与户外物流的模块化 AI 优先平台",
+        "content": "Amiga：面向智能农业与户外物流的模块化 AI 优先平台",
         "speakers": [
           {
             "id": "edgar-riba",
             "name": "Edgar Riba",
-            "roleOrg": "资深研究工程师, Bonsai Robotics, Kornia项目创始人",
+            "roleOrg": "Bonsai Robotics 资深研究工程师，Kornia 项目创始人",
             "tags": [
               "embodied-ai"
             ],
@@ -854,83 +802,112 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "基于Kornia的易用型智能体视觉计算框架",
-        "content": "基于Kornia的易用型智能体视觉计算框架",
+        "date": "9月13日",
+        "timeSlot": "14:00 - 14:35",
+        "title": "具身智能 Panel （圆桌话题名待补充）",
+        "content": "具身智能 Panel （圆桌话题名待补充）",
         "speakers": [
           {
-            "id": "jian-shi",
-            "name": "史鉴",
-            "roleOrg": "联合创始人, Kornia AI",
+            "id": "xueqin-dong",
+            "name": "董学勤",
+            "roleOrg": "康迪科技董事长",
             "tags": [
               "embodied-ai"
             ],
-            "image": "jian-shi.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "面向非结构化环境的地图生成与路径规划方法",
-        "content": "面向非结构化环境的地图生成与路径规划方法",
-        "speakers": [
+            "image": "0-placeholder-person.png"
+          },
           {
-            "id": "cen-ming",
-            "name": "岑明",
-            "roleOrg": "教授, 重庆邮电大学",
+            "id": "mashengyue",
+            "name": "马生悦",
+            "roleOrg": "宇树科技机器人技术总监",
             "tags": [
               "embodied-ai"
             ],
-            "image": "cen-ming.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "具身大小脑操作框架与具身大脑模型构建",
-        "content": "具身大小脑操作框架与具身大脑模型构建",
-        "speakers": [
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "speaker-yin-yun-peng",
+            "name": "尹云鹏",
+            "roleOrg": "人形机器人上海有限公司运控算法与框架负责人",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "speaker-yin-yun-peng.jpg"
+          },
+          {
+            "id": "jinwei-gu",
+            "name": "顾金伟",
+            "roleOrg": "NVIDIA 首席研究科学家兼技术负责人",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "jinwei-gu.jpg"
+          },
           {
             "id": "speaker-wang-peng-wei",
             "name": "王鹏伟",
-            "roleOrg": "具身智能大模型负责人, 北京智源人工智能研究院 (BAAI)",
+            "roleOrg": "BAAI 具身智能大模型负责人",
             "tags": [
               "embodied-ai"
             ],
             "image": "speaker-wang-peng-wei.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "AIRSPEED:用于具身智能的开源通用数据生产平台",
-        "content": "AIRSPEED:用于具身智能的开源通用数据生产平台",
-        "speakers": [
+          },
           {
             "id": "xuan-xia",
             "name": "夏轩",
-            "roleOrg": "副研究员, 深圳市人工智能与机器人研究院",
+            "roleOrg": "深圳市人工智能与机器人研究院副研究员",
             "tags": [
               "embodied-ai"
             ],
             "image": "xuan-xia.jpg"
+          },
+          {
+            "id": "cen-ming",
+            "name": "岑明",
+            "roleOrg": "重庆邮电大学教授",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "cen-ming.jpg"
+          },
+          {
+            "id": "yu-huang",
+            "name": "黄浴",
+            "roleOrg": "主持人",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "0-placeholder-person.png"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月13日",
+        "timeSlot": "14:35 - 15:10",
+        "title": "利用 dora-rs 混合多模态 AI 模型，解决复杂机器人任务",
+        "content": "利用 dora-rs 混合多模态 AI 模型，解决复杂机器人任务",
+        "speakers": [
+          {
+            "id": "xavier-tao",
+            "name": "陶海轩",
+            "roleOrg": "1ms.ai 创始人",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "xavier-tao.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:40 - 16:15",
         "title": "从格物到致知，具身智能机器人开发范式的改变",
         "content": "从格物到致知，具身智能机器人开发范式的改变",
         "speakers": [
           {
             "id": "speaker-yin-yun-peng",
             "name": "尹云鹏",
-            "roleOrg": "运控算法与框架负责人, 人形机器人（上海）有限公司",
+            "roleOrg": "人形机器人上海有限公司运控算法与框架负责人",
             "tags": [
               "embodied-ai"
             ],
@@ -939,32 +916,15 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "DORA-RS 高性能计算框架在具身机器人中的应用",
-        "content": "DORA-RS 高性能计算框架在具身机器人中的应用",
+        "date": "9月13日",
+        "timeSlot": "16:15 - 16:50",
+        "title": "商业中的人与智能体交互：自主性与人工控制的平衡",
+        "content": "商业中的人与智能体交互：自主性与人工控制的平衡",
         "speakers": [
           {
-            "id": "ruping-cen",
-            "name": "岑汝平",
-            "roleOrg": "博士, 重庆邮电大学",
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "ruping-cen.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "以Zenoh驱动ROS 2的未来：快速、可扩展且具备弹性的机器人与自主系统通信",
-        "content": "以Zenoh驱动ROS 2的未来：快速、可扩展且具备弹性的机器人与自主系统通信",
-        "speakers": [
-          {
-            "id": "yuyuan-yuan",
-            "name": "袁佑緣",
-            "roleOrg": "高级软件工程师, ZettaScale",
+            "id": "mashengyue",
+            "name": "马生悦",
+            "roleOrg": "宇树科技机器人技术总监",
             "tags": [
               "embodied-ai"
             ],
@@ -973,15 +933,15 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "基于OpenHarmony的机器人操作系统",
-        "content": "基于OpenHarmony的机器人操作系统",
+        "date": "9月13日",
+        "timeSlot": "16:50 - 17:25",
+        "title": "基于 OpenHarmony 的机器人操作系统",
+        "content": "基于 OpenHarmony 的机器人操作系统",
         "speakers": [
           {
             "id": "tao-li-embodied",
             "name": "李涛",
-            "roleOrg": "软件工程师, 深圳开鸿数字产业发展有限公司",
+            "roleOrg": "深开鸿软件工程师",
             "tags": [
               "embodied-ai"
             ],
@@ -990,51 +950,170 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月14日",
+        "timeSlot": "10:15 - 10:50",
+        "title": "面向物理 AI 的 Cosmos 世界基础模型",
+        "content": "面向物理 AI 的 Cosmos 世界基础模型",
+        "speakers": [
+          {
+            "id": "jinwei-gu",
+            "name": "顾金伟",
+            "roleOrg": "NVIDIA 首席研究科学家兼技术负责人",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "jinwei-gu.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:50 - 11:25",
+        "title": "具身大小脑操作框架与具身大脑模型构建",
+        "content": "具身大小脑操作框架与具身大脑模型构建",
+        "speakers": [
+          {
+            "id": "speaker-wang-peng-wei",
+            "name": "王鹏伟",
+            "roleOrg": "BAAI 具身智能大模型负责人",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "speaker-wang-peng-wei.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "11:25 - 12:00",
+        "title": "HopeJr：面向所有人的 500 美元开源人形机械臂",
+        "content": "HopeJr：面向所有人的 500 美元开源人形机械臂",
+        "speakers": [
+          {
+            "id": "martino-russi",
+            "name": "Martino Russi",
+            "roleOrg": "Hugging Face 具身智能工程师",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "martino-russi.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "14:00 - 14:35",
+        "title": "以 Zenoh 驱动 ROS 2 的未来：快速、可扩展且具备弹性的机器人与自主系统通信",
+        "content": "以 Zenoh 驱动 ROS 2 的未来：快速、可扩展且具备弹性的机器人与自主系统通信",
+        "speakers": [
+          {
+            "id": "yuyuan-yuan",
+            "name": "袁佑缘",
+            "roleOrg": "ZettaScale 高级软件工程师",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "14:35 - 15:10",
+        "title": "基于 Kornia 的易用型智能体视觉计算框架",
+        "content": "基于 Kornia 的易用型智能体视觉计算框架",
+        "speakers": [
+          {
+            "id": "jian-shi",
+            "name": "史鉴",
+            "roleOrg": "Kornia AI 联合创始人",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "jian-shi.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "15:40 - 16:15",
         "title": "SpatialLM：用于结构化室内建模的大语言模型训练",
         "content": "SpatialLM：用于结构化室内建模的大语言模型训练",
         "speakers": [
           {
             "id": "yongsen-mao",
             "name": "毛永森",
-            "roleOrg": "研究工程师, Manycore Tech",
+            "roleOrg": "Manycore Tech研究工程师",
             "tags": [
               "embodied-ai"
             ],
             "image": "0-placeholder-person.png"
           }
         ]
-      }
-    ],
-    "agentic-web": [
+      },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "面向数据空间中智能体AI的自我主权身份与信任基础设施",
-        "content": "面向数据空间中智能体AI的自我主权身份与信任基础设施",
+        "date": "9月14日",
+        "timeSlot": "16:15 - 16:50",
+        "title": "AIRSPEED：用于具身智能的开源通用数据生产平台",
+        "content": "AIRSPEED：用于具身智能的开源通用数据生产平台",
         "speakers": [
           {
-            "id": "jos-andrs-muoz-arcentales",
-            "name": "José Andrés Muñoz Arcentales",
-            "roleOrg": "副教授, 马德里理工大学",
+            "id": "xuan-xia",
+            "name": "夏轩",
+            "roleOrg": "深圳市人工智能与机器人研究院副研究员",
             "tags": [
-              "agentic-web"
+              "embodied-ai"
             ],
-            "image": "jos-andrs-muoz-arcentales.jpg"
+            "image": "xuan-xia.jpg"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月14日",
+        "timeSlot": "16:50 - 17:25",
+        "title": "面向非结构化环境的地图生成与路径规划方法",
+        "content": "面向非结构化环境的地图生成与路径规划方法",
+        "speakers": [
+          {
+            "id": "cen-ming",
+            "name": "岑明",
+            "roleOrg": "重庆邮电大学教授",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "cen-ming.jpg"
+          }
+        ]
+      }
+    ],
+    "agentic-web": [
+      {
+        "date": "9月13日",
+        "timeSlot": "10:15 - 10:50",
+        "title": "AI与下一代Web",
+        "content": "AI与下一代Web",
+        "speakers": [
+          {
+            "id": "philippe-le-hegaret",
+            "name": "Philippe Le Hégaret",
+            "roleOrg": "VP, Technical Strateg of W3C",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "10:50 - 11:25",
         "title": "智能体协议：引领互联网迈向Agentic Web时代",
         "content": "智能体协议：引领互联网迈向Agentic Web时代",
         "speakers": [
           {
             "id": "speaker-chang-gao-wei",
             "name": "常高伟",
-            "roleOrg": "发起人, ANP开源技术社区, W3C AI Agent protocol CG联合主席",
+            "roleOrg": "发起人, ANP开源技术社区",
             "tags": [
               "agentic-web"
             ],
@@ -1043,15 +1122,32 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "超越现有范式:面向后数字时代AI生态系统的RVP协议",
-        "content": "超越现有范式:面向后数字时代AI生态系统的RVP协议",
+        "date": "9月13日",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Servo：一个用Rust编写的全新网页引擎",
+        "content": "Servo：一个用Rust编写的全新网页引擎",
+        "speakers": [
+          {
+            "id": "manuel-rego",
+            "name": "Manuel Rego",
+            "roleOrg": "Software engineer, Igalia",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:00 - 14:35",
+        "title": "超越现有范式：面向后数字时代AI生态系统的RVP协议",
+        "content": "超越现有范式：面向后数字时代AI生态系统的RVP协议",
         "speakers": [
           {
             "id": "speaker-zhang-yun-fei",
             "name": "张云飞",
-            "roleOrg": "副院长, 中国电信智慧城市研究院, 首席专家, 中国电信",
+            "roleOrg": "中国电信智慧城市研究院副院长，中国电信首席专家, 中电信数智科技有限公司",
             "tags": [
               "agentic-web"
             ],
@@ -1060,15 +1156,202 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "TMCP/TA2A：在TSP上运行MCP 和 A2A",
-        "content": "TMCP/TA2A：在TSP上运行MCP 和 A2A",
+        "date": "9月13日",
+        "timeSlot": "14:35 - 15:10",
+        "title": "一种数据空间定义语言（DSDL），用于实现数据空间之间的互操作性，并支持与自主智能体AI生态系统的集成",
+        "content": "一种数据空间定义语言（DSDL），用于实现数据空间之间的互操作性，并支持与自主智能体AI生态系统的集成",
+        "speakers": [
+          {
+            "id": "joaquin-salvachua",
+            "name": "Joaquin Salvachua",
+            "roleOrg": "Professor, Universidad Politecnica De Madrid",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "joaquin-salvachua.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:40 - 16:15",
+        "title": "Agent就是你所需要的一切：使用 ADK、A2A、MCP 和 Agent Engine 构建智能体",
+        "content": "Agent就是你所需要的一切：使用 ADK、A2A、MCP 和 Agent Engine 构建智能体",
+        "speakers": [
+          {
+            "id": "jennie-shi",
+            "name": "Jennie Shi",
+            "roleOrg": "AI 专家，Google Cloud",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:15 - 16:50",
+        "title": "无界对话：使用Flutter、WebRTC和LiveKit构建语音智能体",
+        "content": "无界对话：使用Flutter、WebRTC和LiveKit构建语音智能体",
+        "speakers": [
+          {
+            "id": "jesse-ezell",
+            "name": "Jesse Ezell",
+            "roleOrg": "CTO at TIMU",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:50 - 17:25",
+        "title": "MarkdownFlow，下一个HTML",
+        "content": "MarkdownFlow，下一个HTML",
+        "speakers": [
+          {
+            "id": "zhigang-sun",
+            "name": "Zhigang Sun",
+            "roleOrg": "Founder and CEO of AI Shifu",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:15 - 10:50",
+        "title": "第一人称项目：在个人AI智能体中建立信任",
+        "content": "第一人称项目：在个人AI智能体中建立信任",
+        "speakers": [
+          {
+            "id": "drummond-reed",
+            "name": "Drummond Reed",
+            "roleOrg": "Founder, First Person Project",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "drummond-reed.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:50 - 11:25",
+        "title": "面向智能体网络的去中心化标识符（DID）",
+        "content": "面向智能体网络的去中心化标识符（DID）",
+        "speakers": [
+          {
+            "id": "markus-sabadello",
+            "name": "Markus Sabadello",
+            "roleOrg": "CEO, Danube Tech",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "11:25 - 12:00",
+        "title": "探索与实践智能体WebApp开发",
+        "content": "探索与实践智能体WebApp开发",
+        "speakers": [
+          {
+            "id": "chunhui-mo",
+            "name": "Chunhui Mo",
+            "roleOrg": "Cloud Technology Experts, Huawei Corp.",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "14:00 - 14:35",
+        "title": "TMCP/TA2A：在TSP上运行MCP和A2A",
+        "content": "TMCP/TA2A：在TSP上运行MCP和A2A",
         "speakers": [
           {
             "id": "wenjing-chu",
             "name": "Wenjing Chu",
-            "roleOrg": "技术战略高级总监, Futurewei",
+            "roleOrg": "Senior Director of Technology Strategy, Futurewei Technologies, Inc.",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "14:35 - 15:10",
+        "title": "数据空间中面向智能体AI的自主主权身份和信任基础设施",
+        "content": "数据空间中面向智能体AI的自主主权身份和信任基础设施",
+        "speakers": [
+          {
+            "id": "jos-andrs-muoz-arcentales",
+            "name": "José Andrés Muñoz Arcentales",
+            "roleOrg": "Associate Professor, Universidad Politécnica de Madrid",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "jos-andrs-muoz-arcentales.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "15:40 - 16:15",
+        "title": "开源MCP通用访问网关，解决Agent工具孤岛困境",
+        "content": "开源MCP通用访问网关，解决Agent工具孤岛困境",
+        "speakers": [
+          {
+            "id": "robin-shang",
+            "name": "Robin Shang",
+            "roleOrg": "CTO, iTunel Technology Ltd (Hong Kong)",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "16:15 - 16:50",
+        "title": "高性能Web引擎",
+        "content": "高性能Web引擎",
+        "speakers": [
+          {
+            "id": "martin-alvarez-espinar",
+            "name": "Martin Alvarez Espinar",
+            "roleOrg": "Chair, High-Performance Web Engines CG, W3C",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "16:50 - 17:25",
+        "title": "OpenHarmony ArkWeb进展及AI探索",
+        "content": "OpenHarmony ArkWeb进展及AI探索",
+        "speakers": [
+          {
+            "id": "guangzhen-li",
+            "name": "Guangzhen Li",
+            "roleOrg": "Web Core Expert，HUAWEI",
             "tags": [
               "agentic-web"
             ],
@@ -1092,172 +1375,19 @@
             "image": "0-placeholder-person.png"
           }
         ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "面向智能体互联网的去中心化身份标识（DID）",
-        "content": "面向智能体互联网的去中心化身份标识（DID）",
-        "speakers": [
-          {
-            "id": "markus-sabadello",
-            "name": "Markus Sabadello",
-            "roleOrg": "CEO, Danube Tech",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "First Person Project：建立个人AI代理的信任机制",
-        "content": "First Person Project：建立个人AI代理的信任机制",
-        "speakers": [
-          {
-            "id": "drummond-reed",
-            "name": "Drummond Reed",
-            "roleOrg": "创始人, First Person Project",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "drummond-reed.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "OpenHarmony ArkWeb进展及AI探索",
-        "content": "OpenHarmony ArkWeb进展及AI探索",
-        "speakers": [
-          {
-            "id": "guangzhen-li",
-            "name": "Guangzhen Li",
-            "roleOrg": "Web核心专家, 华为",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "Servo：一个用Rust编写的全新网页引擎",
-        "content": "Servo：一个用Rust编写的全新网页引擎",
-        "speakers": [
-          {
-            "id": "manuel-rego",
-            "name": "Manuel Rego",
-            "roleOrg": "软件工程师, Igalia",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "探索与实践智能体互联网应用开发",
-        "content": "探索与实践智能体互联网应用开发",
-        "speakers": [
-          {
-            "id": "chunhui-mo",
-            "name": "莫春辉",
-            "roleOrg": "技术专家, 华为云",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "Agent is all you need：使用ADK、A2A、MCP和Agent Engine构建智能体",
-        "content": "Agent is all you need：使用ADK、A2A、MCP和Agent Engine构建智能体",
-        "speakers": [
-          {
-            "id": "jennie-shi",
-            "name": "史洁",
-            "roleOrg": "AI专家, 谷歌云",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "一种数据空间定义语言（DSDL），用于实现数据空间之间的互操作性，并支持与自主智能体AI生态系统的集成",
-        "content": "一种数据空间定义语言（DSDL），用于实现数据空间之间的互操作性，并支持与自主智能体AI生态系统的集成",
-        "speakers": [
-          {
-            "id": "joaquin-salvachua",
-            "name": "Joaquin Salvachua",
-            "roleOrg": "教授, 马德里理工大学",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "joaquin-salvachua.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "开源MCP通用访问网关，解决Agent工具孤岛困境",
-        "content": "开源MCP通用访问网关，解决Agent工具孤岛困境",
-        "speakers": [
-          {
-            "id": "robin-shang",
-            "name": "尚志斌",
-            "roleOrg": "CTO, iTunel科技",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "高性能网页引擎",
-        "content": "高性能网页引擎",
-        "speakers": [
-          {
-            "id": "martin-alvarez-espinar",
-            "name": "Martin Alvarez Espinar",
-            "roleOrg": "主席, W3C 高性能网页引擎社区组",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
       }
     ],
     "apps-agents": [
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "扣子 ，用Agent重塑生产力",
-        "content": "扣子 ，用Agent重塑生产力",
+        "date": "9月13日",
+        "timeSlot": "10:15 - 10:50",
+        "title": "扣子 ，用 Agent 重塑生产力",
+        "content": "扣子 ，用 Agent 重塑生产力",
         "speakers": [
           {
             "id": "wang-xin-meng",
             "name": "王新盟",
-            "roleOrg": "技术负责人, 字节跳动扣子罗盘",
+            "roleOrg": "扣子罗盘技术负责人, 字节跳动",
             "tags": [
               "apps-agents"
             ],
@@ -1266,15 +1396,15 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "应用与智能体",
-        "content": "应用与智能体演讲",
+        "date": "9月13日",
+        "timeSlot": "10:50 - 11:25",
+        "title": "2025大模型服务性能排行榜",
+        "content": "2025大模型服务性能排行榜",
         "speakers": [
           {
             "id": "zhai-ji-dong",
             "name": "翟季冬",
-            "roleOrg": "长聘教授, 计算机科学系, 清华大学, 高性能所所长",
+            "roleOrg": "清华大学计算机系长聘教授，博士生导师。国家杰出青年科学基金获得者，清华大学计算机系高性能所所长",
             "tags": [
               "apps-agents"
             ],
@@ -1283,15 +1413,32 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "加速企业AI落地：实现低成本、高效率、无缝集成的实用路径",
-        "content": "加速企业AI落地：实现低成本、高效率、无缝集成的实用路径",
+        "date": "9月13日",
+        "timeSlot": "11:25 - 12:00",
+        "title": "未来认知AI：基于OpenVINO的视觉语言应用的代理多模态模型与RAG",
+        "content": "未来认知AI：基于OpenVINO的视觉语言应用的代理多模态模型与RAG",
+        "speakers": [
+          {
+            "id": "zhuo-wu",
+            "name": "Zhuo Wu",
+            "roleOrg": "Intel AI Software Evangelist",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:00 - 14:20",
+        "title": "加速企业AI应用落地：实现低成本、高效率、无缝集成的实用路径",
+        "content": "加速企业AI应用落地：实现低成本、高效率、无缝集成的实用路径",
         "speakers": [
           {
             "id": "ruoyu-ying",
             "name": "Ruoyu Ying",
-            "roleOrg": "云软件工程师, Intel",
+            "roleOrg": "Intel, Cloud Software Engineer",
             "tags": [
               "apps-agents"
             ],
@@ -1300,25 +1447,127 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "智能始于记忆：打造基于MemOS的记忆管理新范式",
-        "content": "智能始于记忆：打造基于MemOS的记忆管理新范式",
+        "date": "9月13日",
+        "timeSlot": "14:20 - 14:40",
+        "title": "SPEAR - 跨边缘与云端的可扩展分布式AI代理框架",
+        "content": "SPEAR - 跨边缘与云端的可扩展分布式AI代理框架",
         "speakers": [
           {
-            "id": "zhiyu-li",
-            "name": "李志宇",
-            "roleOrg": "记忆张量（上海）科技有限公司联合创始人兼 CTO",
+            "id": "wilson-wang",
+            "name": "Wilson Wang",
+            "roleOrg": "SW Engineer, ByteDance Inc.",
             "tags": [
               "apps-agents"
             ],
-            "image": "zhiyu-li.jpg"
+            "image": "wilson-wang.jpeg"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月13日",
+        "timeSlot": "14:40 - 15:00",
+        "title": "MonkeyCode - 开源AI代码助手",
+        "content": "MonkeyCode - 开源AI代码助手",
+        "speakers": [
+          {
+            "id": "yin-zhenxi",
+            "name": "Yin Zhenxi",
+            "roleOrg": "Technical Director, AI Coding Products, Chaitin Tech",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "yin-zhenxi.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:00 - 15:20",
+        "title": "如何用AI制造AI，智能体如何与世界交互",
+        "content": "如何用AI制造AI，智能体如何与世界交互",
+        "speakers": [
+          {
+            "id": "shuangrui-chen",
+            "name": "Shuangrui CHEN",
+            "roleOrg": "Senior Engineer, Huawei Technology Ltd.",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "shuangrui-chen.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:40 - 16:15",
+        "title": "5ire：一个开源 AI 项目的从零到一",
+        "content": "5ire：一个开源 AI 项目的从零到一",
+        "speakers": [
+          {
+            "id": "speaker-liu-nan-bing",
+            "name": "刘南兵",
+            "roleOrg": "CTO, 四川饺子互动科技有限公司",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "speaker-liu-nan-bing.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:15 - 16:50",
+        "title": "有效的上下文工程：放弃重排序器，增加记忆，从RAG搜索到机器人动作的统一架构",
+        "content": "有效的上下文工程：放弃重排序器，增加记忆，从RAG搜索到机器人动作的统一架构",
+        "speakers": [
+          {
+            "id": "dandjinou-charbel",
+            "name": "DANDJINOU Charbel",
+            "roleOrg": "ai research & mlops engineer, Exel industries | EXXACT robotics",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:50 - 17:25",
+        "title": "待定",
+        "content": "待定",
+        "speakers": [
+          {
+            "id": "zhao-weiqi",
+            "name": "赵维奇",
+            "roleOrg": "Rokid",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:15 - 10:50",
+        "title": "kOS：下一代自主智能系统",
+        "content": "kOS：下一代自主智能系统",
+        "speakers": [
+          {
+            "id": "han-hong-ying",
+            "name": "韩虹莹",
+            "roleOrg": "杭州半个宇宙科技有限公司技术研究员",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:50 - 11:25",
         "title": "AI个性化记忆操作系统的构建",
         "content": "AI个性化记忆操作系统的构建",
         "speakers": [
@@ -1334,66 +1583,15 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "5ire：一个开源AI项目的从零到一",
-        "content": "5ire：一个开源AI项目的从零到一",
+        "date": "9月14日",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Second Me：用你的观点、经历与记忆，训练你的个人大模型",
+        "content": "Second Me：用你的观点、经历与记忆，训练你的个人大模型",
         "speakers": [
           {
-            "id": "speaker-liu-nan-bing",
-            "name": "刘南兵",
-            "roleOrg": "CTO, 四川饺子互动科技有限公司",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "speaker-liu-nan-bing.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "SPEAR：面向边缘与云端的可扩展分布式AI智能体框架",
-        "content": "SPEAR：面向边缘与云端的可扩展分布式AI智能体框架",
-        "speakers": [
-          {
-            "id": "wilson-wang",
-            "name": "Wilson Wang",
-            "roleOrg": "软件工程师, 字节跳动",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "wilson-wang.jpeg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "文本嵌入中的尺寸偏差：可视化与对搜索的影响",
-        "content": "文本嵌入中的尺寸偏差：可视化与对搜索的影响",
-        "speakers": [
-          {
-            "id": "florian-hnicke",
-            "name": "Florian Hönicke",
-            "roleOrg": "创始工程师, Jina AI",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "florian-hnicke.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "kOS：下一代自主智能系统",
-        "content": "kOS：下一代自主智能系统",
-        "speakers": [
-          {
-            "id": "han-hong-ying",
-            "name": "韩虹莹",
-            "roleOrg": "技术研究员, 杭州半个宇宙",
+            "id": "xiang-ying",
+            "name": "Xiang Ying",
+            "roleOrg": "CoFounder, Mindverse",
             "tags": [
               "apps-agents"
             ],
@@ -1402,15 +1600,15 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "上下文工程新策略：舍弃重排序器，引入记忆，从 RAG 搜索到机器人动作的一体化架构",
-        "content": "上下文工程新策略：舍弃重排序器，引入记忆，从 RAG 搜索到机器人动作的一体化架构",
+        "date": "9月14日",
+        "timeSlot": "14:00 - 14:35",
+        "title": "一个代理编写所有代码：构建Cline自主编码伙伴的经验教训",
+        "content": "一个代理编写所有代码：构建Cline自主编码伙伴的经验教训",
         "speakers": [
           {
-            "id": "dandjinou-charbel",
-            "name": "DANDJINOU Charbel",
-            "roleOrg": "人工智能研究与MLOps工程师, Exel Industries",
+            "id": "evan-fannin",
+            "name": "Evan Fannin",
+            "roleOrg": "Founding Engineer at Cline",
             "tags": [
               "apps-agents"
             ],
@@ -1419,32 +1617,32 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "MonkeyCode：开源AI代码助手",
-        "content": "MonkeyCode：开源AI代码助手",
+        "date": "9月14日",
+        "timeSlot": "14:35 - 15:10",
+        "title": "智能始于记忆：打造基于MemOS的记忆管理新范式",
+        "content": "智能始于记忆：打造基于MemOS的记忆管理新范式",
         "speakers": [
           {
-            "id": "yin-zhenxi",
-            "name": "尹振玺",
-            "roleOrg": "AI编程产品技术总监, 启明星辰",
+            "id": "zhiyu-li",
+            "name": "李志宇",
+            "roleOrg": "CTO, MemTensor (Shanghai) Technology Co., Ltd.",
             "tags": [
               "apps-agents"
             ],
-            "image": "yin-zhenxi.jpg"
+            "image": "zhiyu-li.jpg"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "OAKS ASKG：智能体-服务器知识图谱",
-        "content": "OAKS ASKG：智能体-服务器知识图谱",
+        "date": "9月14日",
+        "timeSlot": "15:40 - 16:15",
+        "title": "OAKS ASKG：代理-服务器知识图谱",
+        "content": "OAKS ASKG：代理-服务器知识图谱",
         "speakers": [
           {
             "id": "alexy-khrabrov-",
             "name": "Alexy Khrabrov",
-            "roleOrg": "AI社区架构师, Neo4j",
+            "roleOrg": "AI Community Architect, Neo4j",
             "tags": [
               "apps-agents"
             ],
@@ -1453,94 +1651,51 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "如何用AI制造AI，智能体如何与世界交互",
-        "content": "如何用AI制造AI，智能体如何与世界交互",
+        "date": "9月14日",
+        "timeSlot": "16:15 - 16:50",
+        "title": "文本嵌入中的大小偏差：可视化及其对搜索的影响",
+        "content": "文本嵌入中的大小偏差：可视化及其对搜索的影响",
         "speakers": [
           {
-            "id": "shuangrui-chen",
-            "name": "Shuangrui CHEN",
-            "roleOrg": "高级工程师, 华为",
+            "id": "florian-hnicke",
+            "name": "Florian Hönicke",
+            "roleOrg": "Founding Engineer, Jina AI",
             "tags": [
               "apps-agents"
             ],
-            "image": "shuangrui-chen.jpg"
+            "image": "florian-hnicke.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "16:50 - 17:25",
+        "title": "一个代理编写所有代码：构建Cline自主编码伙伴的经验教训",
+        "content": "一个代理编写所有代码：构建Cline自主编码伙伴的经验教训",
+        "speakers": [
+          {
+            "id": "sizhe-cheng",
+            "name": "Sizhe Cheng",
+            "roleOrg": "Lead Programmer, Elevatia Studio",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
           }
         ]
       }
     ],
     "ai-next": [
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "智能时代协同创新",
-        "content": "智能时代协同创新",
+        "date": "9月13日",
+        "timeSlot": "10:15 - 10:50",
+        "title": "待定",
+        "content": "待定",
         "speakers": [
           {
-            "id": "speaker-shi-zhong-zhi",
-            "name": "史忠植",
-            "roleOrg": "院士, 国际信息研究科学院",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "speaker-shi-zhong-zhi.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "从社区火花到国家影响力：Bielik.AI的故事与力量",
-        "content": "从社区火花到国家影响力：Bielik.AI的故事与力量",
-        "speakers": [
-          {
-            "id": "karol-stryja",
-            "name": "Karol Stryja",
-            "roleOrg": "《99 Faces of AI》播客 / Bielik.AI 创始人",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "karol-stryja.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "SongEval：歌曲美学评价基准数据集",
-        "content": "SongEval：歌曲美学评价基准数据集",
-        "speakers": [
-          {
-            "id": "huixin-xue",
-            "name": "薛蕙心",
-            "roleOrg": "博士研究生, 上海音乐学院",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "huixin-xue.png"
-          },
-          {
-            "id": "jixun-yao",
-            "name": "姚继珣",
-            "roleOrg": "西北工业大学博士研究生, 上海音乐学院/西北工业大学",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "jixun-yao.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "下一代 AI",
-        "content": "下一代 AI 演讲",
-        "speakers": [
-          {
-            "id": "jixun-yao",
-            "name": "姚继珣",
-            "roleOrg": "博士研究生, 西北工业大学",
+            "id": "wang-jialiang",
+            "name": "王佳梁",
+            "roleOrg": "待定",
             "tags": [
               "ai-next"
             ],
@@ -1549,8 +1704,8 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月13日",
+        "timeSlot": "10:50 - 11:25",
         "title": "AI绘画的未来方向",
         "content": "AI绘画的未来方向",
         "speakers": [
@@ -1566,15 +1721,245 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "神经网络是否可以被严谨地解释清楚?Scaling Law是否会成为大模型永远的桎梏",
-        "content": "神经网络是否可以被严谨地解释清楚?Scaling Law是否会成为大模型永远的桎梏",
+        "date": "9月13日",
+        "timeSlot": "11:25 - 12:00",
+        "title": "艺术与人工智能的桥梁：增强创造力？",
+        "content": "艺术与人工智能的桥梁：增强创造力？",
+        "speakers": [
+          {
+            "id": "alexandra-boucherifi-kornmann",
+            "name": "Alexandra Boucherifi-Kornmann",
+            "roleOrg": "艺术家，增强主义创始人，欧洲人工智能与增强主义双年展创办人",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:00 - 14:20",
+        "title": "如何将人工智能技术融入未来的艺术领域",
+        "content": "如何将人工智能技术融入未来的艺术领域",
+        "speakers": [
+          {
+            "id": "yichuan-yue",
+            "name": "岳一川",
+            "roleOrg": "首都师范大学博士，艺术家",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:20 - 14:40",
+        "title": "SongEval：歌曲美学评价基准数据集",
+        "content": "SongEval：歌曲美学评价基准数据集",
+        "speakers": [
+          {
+            "id": "huixin-xue",
+            "name": "薛蕙心",
+            "roleOrg": "上海音乐学院博士研究生",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "huixin-xue.png"
+          },
+          {
+            "id": "jixun-yao",
+            "name": "姚继珣",
+            "roleOrg": "西北工业大学博士研究生",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "jixun-yao.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:40 - 15:00",
+        "title": "待定",
+        "content": "待定",
+        "speakers": [
+          {
+            "id": "tbd-1",
+            "name": "待定",
+            "roleOrg": "待定",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:00 - 15:20",
+        "title": "Ventus OpenGPGPU 项目概述",
+        "content": "Ventus OpenGPGPU 项目概述",
+        "speakers": [
+          {
+            "id": "hu-he",
+            "name": "Hu He",
+            "roleOrg": "清华大学集成电路学院副教授",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:40 - 16:15",
+        "title": "面向下一代游戏的AI驱动模型与数据压缩",
+        "content": "面向下一代游戏的AI驱动模型与数据压缩",
+        "speakers": [
+          {
+            "id": "zhenghao-chen",
+            "name": "陈郑豪",
+            "roleOrg": "纽卡斯尔大学助理教授",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:15 - 16:50",
+        "title": "大规模主权 AI：欧洲基础模型的数据管道与科研基础设施",
+        "content": "大规模主权 AI：欧洲基础模型的数据管道与科研基础设施",
+        "speakers": [
+          {
+            "id": "nicolas-flores-herr",
+            "name": "Nicolas Flores Herr",
+            "roleOrg": "Fraunhofer IAIS 基础模型与生成式 AI 系统团队负责人",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:50 - 17:25",
+        "title": "从社区火花到国家影响力：Bielik.AI的故事与力量",
+        "content": "从社区火花到国家影响力：Bielik.AI的故事与力量",
+        "speakers": [
+          {
+            "id": "karol-stryja",
+            "name": "Karol Stryja",
+            "roleOrg": "《99 Faces of AI》播客 / Bielik.AI 创始人",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "karol-stryja.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:15 - 10:50",
+        "title": "AI产业范式转变的若干个核心命题",
+        "content": "AI产业范式转变的若干个核心命题",
+        "speakers": [
+          {
+            "id": "li-jian-zhong",
+            "name": "李建忠",
+            "roleOrg": "奇点智能研究院院长，CSDN高级副总裁",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:50 - 11:25",
+        "title": "智能时代协同创新",
+        "content": "智能时代协同创新",
+        "speakers": [
+          {
+            "id": "speaker-shi-zhong-zhi",
+            "name": "史忠植",
+            "roleOrg": "国际信息研究科学院院士",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "speaker-shi-zhong-zhi.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "11:25 - 12:00",
+        "title": "UCM面向稀疏化注意力加速的推理架构设计分享",
+        "content": "UCM面向稀疏化注意力加速的推理架构设计分享",
+        "speakers": [
+          {
+            "id": "jingbin-zhang",
+            "name": "Jingbin Zhang",
+            "roleOrg": "华为高级首席架构师兼技术经理",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "14:00 - 14:35",
+        "title": "站在新进化节点上 AGI与第二次认知革命",
+        "content": "站在新进化节点上 AGI与第二次认知革命",
+        "speakers": [
+          {
+            "id": "kai-du",
+            "name": "杜凯",
+            "roleOrg": "清华大学心理与认知科学助理教授",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "14:35 - 15:10",
+        "title": "脉冲计算：挑战和机遇",
+        "content": "脉冲计算：挑战和机遇",
+        "speakers": [
+          {
+            "id": "qian-zheng",
+            "name": "郑乾",
+            "roleOrg": "浙江大学助理教授",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "15:40 - 16:15",
+        "title": "神经网络是否可以被严谨地解释清楚？Scaling Law是否会成为大模型永远的桎梏",
+        "content": "神经网络是否可以被严谨地解释清楚？Scaling Law是否会成为大模型永远的桎梏",
         "speakers": [
           {
             "id": "speaker-zhang-quan-shi",
             "name": "张拳石",
-            "roleOrg": "副教授, 上海交通大学",
+            "roleOrg": "上海交通大学副教授",
             "tags": [
               "ai-next"
             ],
@@ -1583,15 +1968,15 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月14日",
+        "timeSlot": "16:15 - 16:50",
         "title": "大语言模型的“深度诅咒”",
         "content": "大语言模型的“深度诅咒”",
         "speakers": [
           {
             "id": "shiwei-liu",
             "name": "刘世伟",
-            "roleOrg": "牛顿国际研究员, 牛津大学",
+            "roleOrg": "牛津大学英国皇家牛顿国际研究员",
             "tags": [
               "ai-next"
             ],
@@ -1600,117 +1985,15 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "迈向可信与可复现：大模型开源开放分级体系构建",
-        "content": "迈向可信与可复现：大模型开源开放分级体系构建",
+        "date": "9月14日",
+        "timeSlot": "16:50 - 17:25",
+        "title": "待定",
+        "content": "待定",
         "speakers": [
           {
-            "id": "wei-wang",
-            "name": "王伟",
-            "roleOrg": "开源技术委员会主任, 奇点智能研究院",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "脉冲计算：挑战和机遇",
-        "content": "脉冲计算：挑战和机遇",
-        "speakers": [
-          {
-            "id": "qian-zheng",
-            "name": "郑乾",
-            "roleOrg": "助理教授, 浙江大学",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "面向下一代游戏的AI驱动模型与数据压缩",
-        "content": "面向下一代游戏的AI驱动模型与数据压缩",
-        "speakers": [
-          {
-            "id": "zhenghao-chen",
-            "name": "陈郑豪",
-            "roleOrg": "助理教授, 纽卡斯尔大学",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "AI 开源生态的协作与责任",
-        "content": "AI 开源生态的协作与责任",
-        "speakers": [
-          {
-            "id": "adina-yakefu",
-            "name": "阿迪娜·亚克甫",
-            "roleOrg": "人工智能研究员, Hugging Face",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "站在新进化节点上AGI与第二次认知革命",
-        "content": "站在新进化节点上AGI与第二次认知革命",
-        "speakers": [
-          {
-            "id": "kai-du",
-            "name": "杜凯",
-            "roleOrg": "心理与认知科学助理教授, 清华大学",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "如何将人工智能技术融入未来的艺术领域",
-        "content": "如何将人工智能技术融入未来的艺术领域",
-        "speakers": [
-          {
-            "id": "yichuan-yue",
-            "name": "岳一川",
-            "roleOrg": "博士, 首都师范大学, 艺术家",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "AI产业范式转变的若干个核心命题",
-        "content": "AI产业范式转变的若干个核心命题",
-        "speakers": [
-          {
-            "id": "li-jian-zhong",
-            "name": "李建忠",
-            "roleOrg": "奇点智能研究院院长, CSDN高级副总裁",
+            "id": "sun-weijie",
+            "name": "孙伟杰",
+            "roleOrg": "深势科技",
             "tags": [
               "ai-next"
             ],

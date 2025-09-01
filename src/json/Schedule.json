@@ -751,10 +751,10 @@
     ],
     "embodied-ai": [
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "OpenCV 5: The Struggle and Victory of Open Source Software",
-        "content": "OpenCV 5: The Struggle and Victory of Open Source Software",
+        "date": "September 13",
+        "timeSlot": "10:15 - 10:50",
+        "title": "OpenCV 5: The Struggles & Triumph of Open Source Software",
+        "content": "OpenCV 5: The Struggles & Triumph of Open Source Software",
         "speakers": [
           {
             "id": "satya-mallick",
@@ -768,25 +768,122 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Cosmos World Foundation Models for Physical AI",
-        "content": "Cosmos World Foundation Models for Physical AI",
+        "date": "September 13",
+        "timeSlot": "10:50 - 11:25",
+        "title": "From Off-Road Vehicles to Robotics: Kandi Technologies’ “Three Seas” Breakthrough Journey",
+        "content": "From Off-Road Vehicles to Robotics: Kandi Technologies’ “Three Seas” Breakthrough Journey",
         "speakers": [
           {
-            "id": "jinwei-gu",
-            "name": "Jinwei Gu",
-            "roleOrg": "Principal Research Scientist and Technical Lead, NVIDIA",
+            "id": "xueqin-dong",
+            "name": "Xueqin Dong",
+            "roleOrg": "Chairman, Kandi Technologies",
             "tags": [
               "embodied-ai"
             ],
-            "image": "jinwei-gu.jpg"
+            "image": "0-placeholder-person.png"
           }
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 13",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Amiga: A Modular, AI‑First Platform for Smart Farming and Outdoor Logistics",
+        "content": "Amiga: A Modular, AI‑First Platform for Smart Farming and Outdoor Logistics",
+        "speakers": [
+          {
+            "id": "edgar-riba",
+            "name": "Edgar Riba",
+            "roleOrg": "Staff Research Engineer, Bonsai Robotics, Founder of Kornia Project",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "edgar-riba.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:00 - 14:35",
+        "title": "Embodied AI Panel",
+        "content": "Embodied AI Panel",
+        "speakers": [
+          {
+            "id": "xueqin-dong",
+            "name": "Xueqin Dong",
+            "roleOrg": "Chairman, Kandi Technologies",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "mashengyue",
+            "name": "ShengYue Ma",
+            "roleOrg": "Robot Engineer / Technical Director, Unitree Robotics",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "speaker-yin-yun-peng",
+            "name": "Yunpeng Yin",
+            "roleOrg": "Head of Motion Control Algorithms and Framework, Humanoid Robotics (Shanghai) Co., Ltd.",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "speaker-yin-yun-peng.jpg"
+          },
+          {
+            "id": "jinwei-gu",
+            "name": "Jinwei Gu",
+            "roleOrg": "Principal Research Scientist and Tech Lead, NVIDIA",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "jinwei-gu.jpg"
+          },
+          {
+            "id": "speaker-wang-peng-wei",
+            "name": "Pengwei Wang",
+            "roleOrg": "Lead of Embodied AI Large Model, BAAI",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "speaker-wang-peng-wei.jpg"
+          },
+          {
+            "id": "xuan-xia",
+            "name": "Xuan Xia",
+            "roleOrg": "Associate Researcher, Shenzhen Institute of Artificial Intelligence and Robotics for Society",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "xuan-xia.jpg"
+          },
+          {
+            "id": "cen-ming",
+            "name": "Cen Ming",
+            "roleOrg": "Professor, Chongqing University of Posts and Telecommunications",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "cen-ming.jpg"
+          },
+          {
+            "id": "yu-huang",
+            "name": "Yu Huang",
+            "roleOrg": "Moderator",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:35 - 15:10",
         "title": "Mixing of multi modal AI model to solve complex robotic task with dora-rs",
         "content": "Mixing of multi modal AI model to solve complex robotic task with dora-rs",
         "speakers": [
@@ -802,15 +899,32 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Human-Agent Interaction in Commerce: Balancing Autonomy and Human Control",
-        "content": "Human-Agent Interaction in Commerce: Balancing Autonomy and Human Control",
+        "date": "September 13",
+        "timeSlot": "15:40 - 16:15",
+        "title": "From Investigation to Knowledge: A New Paradigm for Embodied Intelligent Robot Development",
+        "content": "From Investigation to Knowledge: A New Paradigm for Embodied Intelligent Robot Development",
+        "speakers": [
+          {
+            "id": "speaker-yin-yun-peng",
+            "name": "Yunpeng Yin",
+            "roleOrg": "Head of Motion Control Algorithms and Framework, Humanoid Robotics (Shanghai) Co., Ltd.",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "speaker-yin-yun-peng.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:15 - 16:50",
+        "title": "Human-Agent Interaction in Business: Autonomy vs. Human Control",
+        "content": "Human-Agent Interaction in Business: Autonomy vs. Human Control",
         "speakers": [
           {
             "id": "mashengyue",
-            "name": "MaShengYue",
-            "roleOrg": "Robotics Technical Director, Unitree",
+            "name": "ShengYue Ma",
+            "roleOrg": "Robot Engineer / Technical Director, Unitree Robotics",
             "tags": [
               "embodied-ai"
             ],
@@ -819,10 +933,61 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "HopeJr: $500 Open Source Humanoid Robotic Arm for Everyone",
-        "content": "HopeJr: $500 Open Source Humanoid Robotic Arm for Everyone",
+        "date": "September 13",
+        "timeSlot": "16:50 - 17:25",
+        "title": "Development Practices with Dora on OpenHarmony",
+        "content": "Development Practices with Dora on OpenHarmony",
+        "speakers": [
+          {
+            "id": "tao-li-embodied",
+            "name": "Tao Li",
+            "roleOrg": "Software Engineer, Shenzhen Kaihong Digital Industry Development Co., Ltd.",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "10:15 - 10:50",
+        "title": "Cosmos World Foundation Models for Physical AI",
+        "content": "Cosmos World Foundation Models for Physical AI",
+        "speakers": [
+          {
+            "id": "jinwei-gu",
+            "name": "Jinwei Gu",
+            "roleOrg": "Principal Research Scientist and Tech Lead, NVIDIA",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "jinwei-gu.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "10:50 - 11:25",
+        "title": "Embodied Cerebrum-Cerebellum Operation Framework and Brain Model Construction",
+        "content": "Embodied Cerebrum-Cerebellum Operation Framework and Brain Model Construction",
+        "speakers": [
+          {
+            "id": "speaker-wang-peng-wei",
+            "name": "Pengwei Wang",
+            "roleOrg": "Lead of Embodied AI Large Model, BAAI",
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "speaker-wang-peng-wei.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "11:25 - 12:00",
+        "title": "HopeJr: A $500 Open-Source Humanoid Arm for Everyone",
+        "content": "HopeJr: A $500 Open-Source Humanoid Arm for Everyone",
         "speakers": [
           {
             "id": "martino-russi",
@@ -836,25 +1001,25 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Amiga: A Modular, AI‑First Platform for Smart Farming and Outdoor Logistics",
-        "content": "Amiga: A Modular, AI‑First Platform for Smart Farming and Outdoor Logistics",
+        "date": "September 14",
+        "timeSlot": "14:00 - 14:35",
+        "title": "Powering the Future of ROS 2 with Zenoh: Fast, Scalable, and Resilient Communication for Robotics and Autonomy",
+        "content": "Powering the Future of ROS 2 with Zenoh: Fast, Scalable, and Resilient Communication for Robotics and Autonomy",
         "speakers": [
           {
-            "id": "edgar-riba",
-            "name": "Edgar Riba",
-            "roleOrg": "Staff Research Engineer, Bonsai Robotics, Kornia Project Founder",
+            "id": "yuyuan-yuan",
+            "name": "Yuyuan Yuan",
+            "roleOrg": "Senior Software Engineer, ZettaScale Technology",
             "tags": [
               "embodied-ai"
             ],
-            "image": "edgar-riba.jpeg"
+            "image": "0-placeholder-person.png"
           }
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 14",
+        "timeSlot": "14:35 - 15:10",
         "title": "Accessible Agentic Computer Vision with Kornia",
         "content": "Accessible Agentic Computer Vision with Kornia",
         "speakers": [
@@ -870,44 +1035,27 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Map Generation and Path Planning Approach for Unstructured Environments",
-        "content": "Map Generation and Path Planning Approach for Unstructured Environments",
+        "date": "September 14",
+        "timeSlot": "15:40 - 16:15",
+        "title": "SpatialLM: Training Large Language Models for Structured Indoor Modeling",
+        "content": "SpatialLM: Training Large Language Models for Structured Indoor Modeling",
         "speakers": [
           {
-            "id": "cen-ming",
-            "name": "Cen Ming",
-            "roleOrg": "Professor, Chongqing University of Posts and Telecommunications",
+            "id": "yongsen-mao",
+            "name": "Yongsen Mao",
+            "roleOrg": "Research engineer, Manycore Tech Inc.",
             "tags": [
               "embodied-ai"
             ],
-            "image": "cen-ming.jpg"
+            "image": "0-placeholder-person.png"
           }
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Embodied Large and Small Brain Operation Framework and Embodied Brain Model Construction",
-        "content": "Embodied Large and Small Brain Operation Framework and Embodied Brain Model Construction",
-        "speakers": [
-          {
-            "id": "speaker-wang-peng-wei",
-            "name": "Pengwei Wang",
-            "roleOrg": "Head of Embodied Intelligence Large Model, Beijing Institute for General Artificial Intelligence (BAAI)",
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "speaker-wang-peng-wei.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "AIRSPEED: Open Source Universal Data Production Platform for Embodied Intelligence",
-        "content": "AIRSPEED: Open Source Universal Data Production Platform for Embodied Intelligence",
+        "date": "September 14",
+        "timeSlot": "16:15 - 16:50",
+        "title": "AIRSPEED: An Open-Source General-Purpose Data Generation Platform for Embodied Intelligence",
+        "content": "AIRSPEED: An Open-Source General-Purpose Data Generation Platform for Embodied Intelligence",
         "speakers": [
           {
             "id": "xuan-xia",
@@ -921,112 +1069,44 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "From Understanding to Knowledge: Changing Development Paradigms for Embodied Intelligent Robots",
-        "content": "From Understanding to Knowledge: Changing Development Paradigms for Embodied Intelligent Robots",
+        "date": "September 14",
+        "timeSlot": "16:50 - 17:25",
+        "title": "Map Generation and Path Planning Approach for Unstructured Environments",
+        "content": "Map Generation and Path Planning Approach for Unstructured Environments",
         "speakers": [
           {
-            "id": "speaker-yin-yun-peng",
-            "name": "Yunpeng Yin",
-            "roleOrg": "Head of Motion Control Algorithms and Framework, Humanoid Robot Shanghai Co., Ltd.",
+            "id": "cen-ming",
+            "name": "Cen Ming",
+            "roleOrg": "Professor, Chongqing University of Posts and Telecommunications",
             "tags": [
               "embodied-ai"
             ],
-            "image": "speaker-yin-yun-peng.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Application of the DORA-RS High-Performance Computing Framework in Embodied Robotics",
-        "content": "Application of the DORA-RS High-Performance Computing Framework in Embodied Robotics",
-        "speakers": [
-          {
-            "id": "ruping-cen",
-            "name": "Ruping Cen",
-            "roleOrg": "Ph.D., Chongqing University of Posts and Telecommunications",
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "ruping-cen.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Driving the Future of ROS 2 with Zenoh: Fast, Scalable and Resilient Communication for Robotics and Autonomous Systems",
-        "content": "Driving the Future of ROS 2 with Zenoh: Fast, Scalable and Resilient Communication for Robotics and Autonomous Systems",
-        "speakers": [
-          {
-            "id": "yuyuan-yuan",
-            "name": "Yuyuan Yuan",
-            "roleOrg": "Senior Software Engineer, ZettaScale",
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Robot Operating System Based on OpenHarmony",
-        "content": "Robot Operating System Based on OpenHarmony",
-        "speakers": [
-          {
-            "id": "tao-li-embodied",
-            "name": "Tao Li",
-            "roleOrg": "Software Engineer, Shenzhen Kaihong Digital Industry Development Co.,Ltd.",
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "SpatialLM: Large Language Model Training for Structured Indoor Modeling",
-        "content": "SpatialLM: Large Language Model Training for Structured Indoor Modeling",
-        "speakers": [
-          {
-            "id": "yongsen-mao",
-            "name": "Yongsen Mao",
-            "roleOrg": "Research Engineer, Manycore Tech",
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "0-placeholder-person.png"
+            "image": "cen-ming.jpg"
           }
         ]
       }
     ],
     "agentic-web": [
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Self-Sovereign Identity and Trust Infrastructure for Agentic IA in Data Spaces",
-        "content": "Self-Sovereign Identity and Trust Infrastructure for Agentic IA in Data Spaces",
+        "date": "September 13",
+        "timeSlot": "10:15 - 10:50",
+        "title": "AI and Next Generation Web",
+        "content": "AI and Next Generation Web",
         "speakers": [
           {
-            "id": "jos-andrs-muoz-arcentales",
-            "name": "José Andrés Muñoz Arcentales",
-            "roleOrg": "Associate Professor, Universidad Politecnica de Madrid",
+            "id": "philippe-le-hegaret",
+            "name": "Philippe Le Hégaret",
+            "roleOrg": "VP, Technical Strateg of W3C",
             "tags": [
               "agentic-web"
             ],
-            "image": "jos-andrs-muoz-arcentales.jpg"
+            "image": "0-placeholder-person.png"
           }
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 13",
+        "timeSlot": "10:50 - 11:25",
         "title": "Agent Protocol: Leading the Internet into the Agentic Web Era",
         "content": "Agent Protocol: Leading the Internet into the Agentic Web Era",
         "speakers": [
@@ -1042,8 +1122,25 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 13",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Servo: A New Web Engine Written in Rust",
+        "content": "Servo: A New Web Engine Written in Rust",
+        "speakers": [
+          {
+            "id": "manuel-rego",
+            "name": "Manuel Rego",
+            "roleOrg": "Software Engineer, Igalia",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:00 - 14:35",
         "title": "Beyond Existing Paradigms: RVP Protocol for Post-Digital AI Ecosystems",
         "content": "Beyond Existing Paradigms: RVP Protocol for Post-Digital AI Ecosystems",
         "speakers": [
@@ -1059,8 +1156,127 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 13",
+        "timeSlot": "14:35 - 15:10",
+        "title": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic Al Ecosystem",
+        "content": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic Al Ecosystem",
+        "speakers": [
+          {
+            "id": "joaquin-salvachua",
+            "name": "Joaquin Salvachua",
+            "roleOrg": "Professor, Universidad Politecnica De Madrid",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "joaquin-salvachua.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:40 - 16:15",
+        "title": "Agent is all you need: Building Agents with ADK, A2A, MCP and Agent Engine",
+        "content": "Agent is all you need: Building Agents with ADK, A2A, MCP and Agent Engine",
+        "speakers": [
+          {
+            "id": "jennie-shi",
+            "name": "Jennie Shi",
+            "roleOrg": "AI Expert, Google Cloud",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:15 - 16:50",
+        "title": "Conversations Without Boundaries: Building Voice Agents with Flutter, WebRTC, and LiveKit",
+        "content": "Conversations Without Boundaries: Building Voice Agents with Flutter, WebRTC, and LiveKit",
+        "speakers": [
+          {
+            "id": "jesse-ezell",
+            "name": "Jesse Ezell",
+            "roleOrg": "CTO at TIMU",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:50 - 17:25",
+        "title": "MarkdownFlow, the next HTML",
+        "content": "MarkdownFlow, the next HTML",
+        "speakers": [
+          {
+            "id": "zhigang-sun",
+            "name": "Zhigang Sun",
+            "roleOrg": "Founder and CEO of AI Shifu",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "10:15 - 10:50",
+        "title": "First Person Project: Building Trust Mechanisms for Personal AI Agents",
+        "content": "First Person Project: Building Trust Mechanisms for Personal AI Agents",
+        "speakers": [
+          {
+            "id": "drummond-reed",
+            "name": "Drummond Reed",
+            "roleOrg": "Founder, First Person Project",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "drummond-reed.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "10:50 - 11:25",
+        "title": "Decentralized Identity for the Agent Internet",
+        "content": "Decentralized Identity for the Agent Internet",
+        "speakers": [
+          {
+            "id": "markus-sabadello",
+            "name": "Markus Sabadello",
+            "roleOrg": "CEO, Danube Tech",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Exploring and Practicing Agent Internet Application Development",
+        "content": "Exploring and Practicing Agent Internet Application Development",
+        "speakers": [
+          {
+            "id": "chunhui-mo",
+            "name": "Chunhui Mo",
+            "roleOrg": "Technical Expert, Huawei Cloud",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "14:00 - 14:35",
         "title": "TMCP/TA2A: Running MCP and A2A on TSP",
         "content": "TMCP/TA2A: Running MCP and A2A on TSP",
         "speakers": [
@@ -1068,6 +1284,74 @@
             "id": "wenjing-chu",
             "name": "Wenjing Chu",
             "roleOrg": "Senior Director of Technology Strategy, Futurewei",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "14:35 - 15:10",
+        "title": "Self-Sovereign Identity and Trust Infrastructure for Agentic IA in Data Spaces",
+        "content": "Self-Sovereign Identity and Trust Infrastructure for Agentic IA in Data Spaces",
+        "speakers": [
+          {
+            "id": "jos-andrs-muoz-arcentales",
+            "name": "José Andrés Muñoz Arcentales",
+            "roleOrg": "Associate Professor, Universidad Politecnica de Madrid",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "jos-andrs-muoz-arcentales.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "15:40 - 16:15",
+        "title": "Open Source MCP Universal Access Gateway, Solving Agent Tool Island Dilemma",
+        "content": "Open Source MCP Universal Access Gateway, Solving Agent Tool Island Dilemma",
+        "speakers": [
+          {
+            "id": "robin-shang",
+            "name": "Robin Shang",
+            "roleOrg": "CTO, iTunel Technology",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "16:15 - 16:50",
+        "title": "High Performance Web Engine",
+        "content": "High Performance Web Engine",
+        "speakers": [
+          {
+            "id": "martin-alvarez-espinar",
+            "name": "Martin Alvarez Espinar",
+            "roleOrg": "Chair, W3C High Performance Web Engine Community Group",
+            "tags": [
+              "agentic-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "16:50 - 17:25",
+        "title": "OpenHarmony ArkWeb Progress and AI Exploration",
+        "content": "OpenHarmony ArkWeb Progress and AI Exploration",
+        "speakers": [
+          {
+            "id": "guangzhen-li",
+            "name": "Guangzhen Li",
+            "roleOrg": "Web Core Expert, Huawei",
             "tags": [
               "agentic-web"
             ],
@@ -1091,165 +1375,12 @@
             "image": "0-placeholder-person.png"
           }
         ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Decentralized Identity for the Agent Internet",
-        "content": "Decentralized Identity for the Agent Internet",
-        "speakers": [
-          {
-            "id": "markus-sabadello",
-            "name": "Markus Sabadello",
-            "roleOrg": "CEO, Danube Tech",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "First Person Project: Building Trust Mechanisms for Personal AI Agents",
-        "content": "First Person Project: Building Trust Mechanisms for Personal AI Agents",
-        "speakers": [
-          {
-            "id": "drummond-reed",
-            "name": "Drummond Reed",
-            "roleOrg": "Founder, First Person Project",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "drummond-reed.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "OpenHarmony ArkWeb Progress and AI Exploration",
-        "content": "OpenHarmony ArkWeb Progress and AI Exploration",
-        "speakers": [
-          {
-            "id": "guangzhen-li",
-            "name": "Guangzhen Li",
-            "roleOrg": "Web Core Expert, Huawei",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Servo: A New Web Engine Written in Rust",
-        "content": "Servo: A New Web Engine Written in Rust",
-        "speakers": [
-          {
-            "id": "manuel-rego",
-            "name": "Manuel Rego",
-            "roleOrg": "Software Engineer, Igalia",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Exploring and Practicing Agent Internet Application Development",
-        "content": "Exploring and Practicing Agent Internet Application Development",
-        "speakers": [
-          {
-            "id": "chunhui-mo",
-            "name": "Chunhui Mo",
-            "roleOrg": "Technical Expert, Huawei Cloud",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Agent is all you need: Building Agents with ADK, A2A, MCP and Agent Engine",
-        "content": "Agent is all you need: Building Agents with ADK, A2A, MCP and Agent Engine",
-        "speakers": [
-          {
-            "id": "jennie-shi",
-            "name": "Jennie Shi",
-            "roleOrg": "AI Expert, Google Cloud",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic Al Ecosystem",
-        "content": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic Al Ecosystem",
-        "speakers": [
-          {
-            "id": "joaquin-salvachua",
-            "name": "Joaquin Salvachua",
-            "roleOrg": "Professor, Universidad Politecnica de Madrid",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "joaquin-salvachua.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Open Source MCP Universal Access Gateway, Solving Agent Tool Island Dilemma",
-        "content": "Open Source MCP Universal Access Gateway, Solving Agent Tool Island Dilemma",
-        "speakers": [
-          {
-            "id": "robin-shang",
-            "name": "Robin Shang",
-            "roleOrg": "CTO, iTunel Technology",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "High Performance Web Engine",
-        "content": "High Performance Web Engine",
-        "speakers": [
-          {
-            "id": "martin-alvarez-espinar",
-            "name": "Martin Alvarez Espinar",
-            "roleOrg": "Chair, W3C High Performance Web Engine Community Group",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
       }
     ],
     "apps-agents": [
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 13",
+        "timeSlot": "10:15 - 10:50",
         "title": "Coze, Reshaping Productivity with Agents",
         "content": "Coze, Reshaping Productivity with Agents",
         "speakers": [
@@ -1265,10 +1396,10 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Apps & Agents Session",
-        "content": "Apps & Agents presentations",
+        "date": "September 13",
+        "timeSlot": "10:50 - 11:25",
+        "title": "2025 Large Model Service Performance Rankings",
+        "content": "2025 Large Model Service Performance Rankings",
         "speakers": [
           {
             "id": "zhai-ji-dong",
@@ -1282,8 +1413,25 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 13",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Cognitive AI for the Future: Agentic Multimodal Models and RAG for Vision Language Applications with OpenVINO",
+        "content": "Cognitive AI for the Future: Agentic Multimodal Models and RAG for Vision Language Applications with OpenVINO",
+        "speakers": [
+          {
+            "id": "zhuo-wu",
+            "name": "Zhuo Wu",
+            "roleOrg": "Intel AI Software Evangelist",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:00 - 14:20",
         "title": "Accelerating Enterprise AI Adoption: A Practical Path to Low-Cost, High-Efficiency, Seamless Integration",
         "content": "Accelerating Enterprise AI Adoption: A Practical Path to Low-Cost, High-Efficiency, Seamless Integration",
         "speakers": [
@@ -1299,59 +1447,8 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Intelligence Begins with Memory: Building a New Memory Management Paradigm Based on MemOS",
-        "content": "Intelligence Begins with Memory: Building a New Memory Management Paradigm Based on MemOS",
-        "speakers": [
-          {
-            "id": "zhiyu-li",
-            "name": "Zhiyu Li",
-            "roleOrg": "CTO, MemTensor (Shanghai) Technology Co., Ltd.",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "zhiyu-li.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Building AI Personalized Memory Operating Systems",
-        "content": "Building AI Personalized Memory Operating Systems",
-        "speakers": [
-          {
-            "id": "speaker-bai-ting",
-            "name": "Bai Ting",
-            "roleOrg": "Associate Professor, Beijing University of Posts and Telecommunications",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "speaker-bai-ting.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "5ire: From Zero to One of an Open Source AI Project",
-        "content": "5ire: From Zero to One of an Open Source AI Project",
-        "speakers": [
-          {
-            "id": "speaker-liu-nan-bing",
-            "name": "Liu Nanbing",
-            "roleOrg": "CTO, Sichuan Jiaozi Interactive Technology Co., Ltd.",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "speaker-liu-nan-bing.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 13",
+        "timeSlot": "14:20 - 14:40",
         "title": "SPEAR - A Scalable and Distributed AI Agents Framework Across Edge and Cloud",
         "content": "SPEAR - A Scalable and Distributed AI Agents Framework Across Edge and Cloud",
         "speakers": [
@@ -1367,66 +1464,15 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Size Bias in Text Embeddings: Visualization and Impact on Search",
-        "content": "Size Bias in Text Embeddings: Visualization and Impact on Search",
-        "speakers": [
-          {
-            "id": "florian-hnicke",
-            "name": "Florian Hönicke",
-            "roleOrg": "Founding Engineer, Jina AI",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "florian-hnicke.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "kOS: Next-Generation Autonomous Intelligence System",
-        "content": "kOS: Next-Generation Autonomous Intelligence System",
-        "speakers": [
-          {
-            "id": "han-hong-ying",
-            "name": "Han Hongying",
-            "roleOrg": "Technical Researcher, Hangzhou Half Universe",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "New Context Engineering Strategies: Abandoning Rerankers, Introducing Memory, Unified Architecture from RAG Search to Robot Actions",
-        "content": "New Context Engineering Strategies: Abandoning Rerankers, Introducing Memory, Unified Architecture from RAG Search to Robot Actions",
-        "speakers": [
-          {
-            "id": "dandjinou-charbel",
-            "name": "DANDJINOU Charbel",
-            "roleOrg": "AI Research & MLOps Engineer, Exel Industries",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "MonkeyCode: Open Source AI Code Assistant",
-        "content": "MonkeyCode: Open Source AI Code Assistant",
+        "date": "September 13",
+        "timeSlot": "14:40 - 15:00",
+        "title": "MonkeyCode-Open-Source AI code assistant",
+        "content": "MonkeyCode-Open-Source AI code assistant",
         "speakers": [
           {
             "id": "yin-zhenxi",
             "name": "Yin Zhenxi",
-            "roleOrg": "Technical Director of AI Programming Products, Venustech",
+            "roleOrg": "Technical Director, AI Coding Products, Chaitin Tech",
             "tags": [
               "apps-agents"
             ],
@@ -1435,8 +1481,161 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 13",
+        "timeSlot": "15:00 - 15:20",
+        "title": "How to Use AI to Create AI, How Agents Interact with the World",
+        "content": "How to Use AI to Create AI, How Agents Interact with the World",
+        "speakers": [
+          {
+            "id": "shuangrui-chen",
+            "name": "Shuangrui CHEN",
+            "roleOrg": "Senior Engineer, Huawei Technology Ltd.",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "shuangrui-chen.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:40 - 16:15",
+        "title": "5ire: From Zero to One of an Open Source AI Project",
+        "content": "5ire: From Zero to One of an Open Source AI Project",
+        "speakers": [
+          {
+            "id": "speaker-liu-nan-bing",
+            "name": "Liu Nanbing",
+            "roleOrg": "CTO, Sichuan Jiaozi Interactive Technology Co., Ltd.",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "speaker-liu-nan-bing.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:15 - 16:50",
+        "title": "Context engineering that sticks: drop the reranker, add memory, one architecture from rag search to robot action",
+        "content": "Context engineering that sticks: drop the reranker, add memory, one architecture from rag search to robot action",
+        "speakers": [
+          {
+            "id": "dandjinou-charbel",
+            "name": "DANDJINOU Charbel",
+            "roleOrg": "AI Research & MLOps Engineer, Exel industries | EXXACT robotics",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:50 - 17:25",
+        "title": "TBD",
+        "content": "TBD",
+        "speakers": [
+          {
+            "id": "zhao-weiqi",
+            "name": "Zhao Weiqi",
+            "roleOrg": "Rokid",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "10:15 - 10:50",
+        "title": "kOS: Next-Generation Autonomous Intelligence System",
+        "content": "kOS: Next-Generation Autonomous Intelligence System",
+        "speakers": [
+          {
+            "id": "han-hong-ying",
+            "name": "Han Hongying",
+            "roleOrg": "Technical Researcher, Hangzhou Bange Yuzhou Technology Co., Ltd.",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "10:50 - 11:25",
+        "title": "Building AI Personalized Memory Operating Systems",
+        "content": "Building AI Personalized Memory Operating Systems",
+        "speakers": [
+          {
+            "id": "speaker-bai-ting",
+            "name": "Bai Ting",
+            "roleOrg": "Associate Professor, Beijing University of Posts and Telecommunications",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "speaker-bai-ting.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Second Me: Train Your Personal Large Model with Your Views, Experiences, and Memories",
+        "content": "Second Me: Train Your Personal Large Model with Your Views, Experiences, and Memories",
+        "speakers": [
+          {
+            "id": "xiang-ying",
+            "name": "Xiang Ying",
+            "roleOrg": "Co-Founder, Mindverse",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "14:00 - 14:35",
+        "title": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
+        "content": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
+        "speakers": [
+          {
+            "id": "evan-fannin",
+            "name": "Evan Fannin",
+            "roleOrg": "Founding Engineer, Cline",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "14:35 - 15:10",
+        "title": "Intelligence Begins with Memory: Building a New Memory Management Paradigm Based on MemOS",
+        "content": "Intelligence Begins with Memory: Building a New Memory Management Paradigm Based on MemOS",
+        "speakers": [
+          {
+            "id": "zhiyu-li",
+            "name": "Zhiyu Li",
+            "roleOrg": "CTO, MemTensor (Shanghai) Technology Co., Ltd.",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "zhiyu-li.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "15:40 - 16:15",
         "title": "OAKS ASKG: Agent-Server Knowledge Graph",
         "content": "OAKS ASKG: Agent-Server Knowledge Graph",
         "speakers": [
@@ -1452,255 +1651,325 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "How to Use AI to Create AI, How Agents Interact with the World",
-        "content": "How to Use AI to Create AI, How Agents Interact with the World",
+        "date": "September 14",
+        "timeSlot": "16:15 - 16:50",
+        "title": "Size Bias in Text Embeddings: Visualization and Impact on Search",
+        "content": "Size Bias in Text Embeddings: Visualization and Impact on Search",
         "speakers": [
           {
-            "id": "shuangrui-chen",
-            "name": "Shuangrui CHEN",
-            "roleOrg": "Senior Engineer, Huawei",
+            "id": "florian-hnicke",
+            "name": "Florian Hönicke",
+            "roleOrg": "Founding Engineer, Jina AI",
             "tags": [
               "apps-agents"
             ],
-            "image": "shuangrui-chen.jpg"
-          }
-        ]
-      }
-    ],
-    "ai-next": [
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Collaborative Innovation in the Age of Intelligence",
-        "content": "Collaborative Innovation in the Age of Intelligence",
-        "speakers": [
-          {
-            "id": "speaker-shi-zhong-zhi",
-            "name": "Shi Zhongzhi",
-            "roleOrg": "Academician, International Academy for Information Studies",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "speaker-shi-zhong-zhi.png"
+            "image": "florian-hnicke.png"
           }
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "From Community Sparks to National Impact: The Story and Power of Bielik.AI",
-        "content": "From Community Sparks to National Impact: The Story and Power of Bielik.AI",
+        "date": "September 14",
+        "timeSlot": "16:50 - 17:25",
+        "title": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
+        "content": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
         "speakers": [
           {
-            "id": "karol-stryja",
-            "name": "Karol Stryja",
-            "roleOrg": "99 Faces of AI Podcast / Bielik.AI Founder",
+            "id": "sizhe-cheng",
+            "name": "Sizhe Cheng",
+            "roleOrg": "Lead Programmer, Elevatia Studio",
             "tags": [
-              "ai-next"
-            ],
-            "image": "karol-stryja.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "SongEval: Song Aesthetic Evaluation Benchmark Dataset",
-        "content": "SongEval: Song Aesthetic Evaluation Benchmark Dataset",
-        "speakers": [
-          {
-            "id": "huixin-xue",
-            "name": "Huixin Xue",
-            "roleOrg": "PhD Student, Shanghai Conservatory of Music",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "huixin-xue.png"
-          },
-          {
-            "id": "jixun-yao",
-            "name": "Jixun Yao",
-            "roleOrg": "Ph.D. Candidate at Northwestern Polytechnical University",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "jixun-yao.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "The Future Direction of AI Painting",
-        "content": "The Future Direction of AI Painting",
-        "speakers": [
-          {
-            "id": "speaker-wei-wei",
-            "name": "Wei Wei",
-            "roleOrg": "Famous Bilibili Art Content Creator \"Youdian Yisi Oh\"",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "speaker-wei-wei.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become the Eternal Shackles of Large Models?",
-        "content": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become the Eternal Shackles of Large Models?",
-        "speakers": [
-          {
-            "id": "speaker-zhang-quan-shi",
-            "name": "Zhang Quanshi",
-            "roleOrg": "Associate Professor, Shanghai Jiao Tong University",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "speaker-zhang-quan-shi.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "The Curse of Depth in Large Language Models",
-        "content": "The Curse of Depth in Large Language Models",
-        "speakers": [
-          {
-            "id": "shiwei-liu",
-            "name": "Shiwei Liu",
-            "roleOrg": "Newton International Fellow, University of Oxford",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "shiwei-liu.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Towards Trustworthy and Reproducible: Building a Graded System for Large Model Open Source and Openness",
-        "content": "Towards Trustworthy and Reproducible: Building a Graded System for Large Model Open Source and Openness",
-        "speakers": [
-          {
-            "id": "wei-wang",
-            "name": "Wei Wang",
-            "roleOrg": "Director of Open Source Technology Committee, Singularity Intelligence Research Institute",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Spiking Computing: Challenges and Opportunities",
-        "content": "Spiking Computing: Challenges and Opportunities",
-        "speakers": [
-          {
-            "id": "qian-zheng",
-            "name": "Qian Zheng",
-            "roleOrg": "Assistant Professor, Zhejiang University",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "AI-Driven Model & Data Compression for Next-Generation Gaming",
-        "content": "AI-Driven Model & Data Compression for Next-Generation Gaming",
-        "speakers": [
-          {
-            "id": "zhenghao-chen",
-            "name": "Zhenghao Chen",
-            "roleOrg": "Assistant Professor, Newcastle University",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Collaboration and Responsibility in AI Open Source Ecosystem",
-        "content": "Collaboration and Responsibility in AI Open Source Ecosystem",
-        "speakers": [
-          {
-            "id": "adina-yakefu",
-            "name": "Adina Yakefu",
-            "roleOrg": "AI Researcher, Hugging Face",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Standing at the New Evolutionary Node: AGI and the Second Cognitive Revolution",
-        "content": "Standing at the New Evolutionary Node: AGI and the Second Cognitive Revolution",
-        "speakers": [
-          {
-            "id": "kai-du",
-            "name": "Kai Du",
-            "roleOrg": "Assistant Professor of Psychology and Cognitive Science, Tsinghua University",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "How to integrate artificial intelligence technology into the future art field",
-        "content": "How to integrate artificial intelligence technology into the future art field",
-        "speakers": [
-          {
-            "id": "yichuan-yue",
-            "name": "Yichuan Yue",
-            "roleOrg": "PhD, Capital Normal University, Artist",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Several Core Propositions of AI Industry Paradigm Transformation",
-        "content": "Several Core Propositions of AI Industry Paradigm Transformation",
-        "speakers": [
-          {
-            "id": "li-jian-zhong",
-            "name": "Li Jianzhong",
-            "roleOrg": "Dean of Singularity Intelligence Research Institute, Senior Vice President of CSDN",
-            "tags": [
-              "ai-next"
+              "apps-agents"
             ],
             "image": "0-placeholder-person.png"
           }
         ]
       }
     ],
+      "ai-next": [
+        {
+          "date": "September 13",
+          "timeSlot": "10:15 - 10:50",
+          "title": "TBD",
+          "content": "TBD",
+          "speakers": [
+            {
+              "id": "wang-jialiang",
+              "name": "Jialiang Wang",
+              "roleOrg": "TBD",
+              "tags": ["ai-next"],
+              "image": "0-placeholder-person.png"
+            }
+          ]
+        },
+        {
+          "date": "September 13",
+          "timeSlot": "10:50 - 11:25",
+          "title": "The Future Directions of AI Art",
+          "content": "The Future Directions of AI Art",
+          "speakers": [
+            {
+              "id": "speaker-wei-wei",
+              "name": "Wei Wei",
+              "roleOrg": "Popular Bilibili Art Creator “Youdian Yisi Oh”",
+              "tags": ["ai-next"],
+              "image": "speaker-wei-wei.jpg"
+            }
+          ]
+        },
+        {
+          "date": "September 13",
+          "timeSlot": "11:25 - 12:00",
+          "title": "Bridging Art and Artificial Intelligence : Augmenting Creativity ?",
+          "content": "Bridging Art and Artificial Intelligence : Augmenting Creativity ?",
+          "speakers": [
+            {
+              "id": "alexandra-boucherifi-kornmann",
+              "name": "Alexandra Boucherifi-Kornmann",
+              "roleOrg": "Artist, Founder of the augmented painting or augmentism, creator of the European Biennial of AI and augmentism Société de l'augmentisme",
+              "tags": ["ai-next"],
+              "image": "0-placeholder-person.png"
+            }
+          ]
+        },
+        {
+          "date": "September 13",
+          "timeSlot": "14:00 - 14:20",
+          "title": "How to integrate artificial intelligence technology into the future art field",
+          "content": "How to integrate artificial intelligence technology into the future art field",
+          "speakers": [
+            {
+              "id": "yichuan-yue",
+              "name": "Yichuan Yue",
+              "roleOrg": "Artist, capital normal university",
+              "tags": ["ai-next"],
+              "image": "0-placeholder-person.png"
+            }
+          ]
+        },
+        {
+          "date": "September 13",
+          "timeSlot": "14:20 - 14:40",
+          "title": "SongEval: A Benchmark Dataset for Song Aesthetics Evaluation",
+          "content": "SongEval: A Benchmark Dataset for Song Aesthetics Evaluation",
+          "speakers": [
+            {
+              "id": "huixin-xue",
+              "name": "Huixin Xue",
+              "roleOrg": "Ph.D. Candidate at Shanghai Conservatory of Music",
+              "tags": ["ai-next"],
+              "image": "huixin-xue.png"
+            },
+            {
+              "id": "jixun-yao",
+              "name": "Jixun Yao",
+              "roleOrg": "Ph.D. Candidate at Northwestern Polytechnical University",
+              "tags": ["ai-next"],
+              "image": "jixun-yao.png"
+            }
+          ]
+        },
+        {
+            "date": "September 13",
+            "timeSlot": "14:40 - 15:00",
+            "title": "TBD",
+            "content": "TBD",
+            "speakers": [
+              {
+                "id": "tbd-1",
+                "name": "TBD",
+                "roleOrg": "TBD",
+                "tags": [
+                  "ai-next"
+                ],
+                "image": "0-placeholder-person.png"
+              }
+            ]
+        },
+        {
+          "date": "September 13",
+          "timeSlot": "15:00 - 15:20",
+          "title": "Overview of Ventus OpenGPGPU Project",
+          "content": "Overview of Ventus OpenGPGPU Project",
+          "speakers": [
+            {
+              "id": "hu-he",
+              "name": "Hu He",
+              "roleOrg": "Associate professor, School of Integrated Circuits, Tsinghua University",
+              "tags": ["ai-next"],
+              "image": "0-placeholder-person.png"
+            }
+          ]
+        },
+        {
+          "date": "September 13",
+          "timeSlot": "15:40 - 16:15",
+          "title": "AI-Driven Model & Data Compression for Next-Generation Gaming",
+          "content": "AI-Driven Model & Data Compression for Next-Generation Gaming",
+          "speakers": [
+            {
+              "id": "zhenghao-chen",
+              "name": "Zhenghao Chen",
+              "roleOrg": "Assistant Professor, The University of Newcastle",
+              "tags": ["ai-next"],
+              "image": "0-placeholder-person.png"
+            }
+          ]
+        },
+        {
+            "date": "September 13",
+            "timeSlot": "16:15 - 16:50",
+            "title": "Large-Scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
+            "content": "Large-Scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
+            "speakers": [
+              {
+                "id": "nicolas-flores-herr",
+                "name": "Nicolas Flores Herr",
+                "roleOrg": "Team Lead for Foundation Models and Generative AI Systems, Fraunhofer IAIS",
+                "tags": [
+                  "ai-next"
+                ],
+                "image": "0-placeholder-person.png"
+              }
+            ]
+        },
+        {
+          "date": "September 13",
+          "timeSlot": "16:50 - 17:25",
+          "title": "From a Community Spark to National Impact: The Story and Power of Bielik.AI",
+          "content": "From a Community Spark to National Impact: The Story and Power of Bielik.AI",
+          "speakers": [
+            {
+              "id": "karol-stryja",
+              "name": "Karol Stryja",
+              "roleOrg": "Founder, 99 Faces of AI Podcast / Bielik.AI",
+              "tags": ["ai-next"],
+              "image": "karol-stryja.png"
+            }
+          ]
+        },
+        {
+          "date": "September 14",
+          "timeSlot": "10:15 - 10:50",
+          "title": "Several Core Propositions on the Paradigm Shift of the AI Industry",
+          "content": "Several Core Propositions on the Paradigm Shift of the AI Industry",
+          "speakers": [
+            {
+              "id": "li-jian-zhong",
+              "name": "Jason Li",
+              "roleOrg": "President, Singularity Intelligence Research Institute, Senior Vice President, CSDN",
+              "tags": ["ai-next"],
+              "image": "0-placeholder-person.png"
+            }
+          ]
+        },
+        {
+          "date": "September 14",
+          "timeSlot": "10:50 - 11:25",
+          "title": "Collaborative Innovation in the Age of Intelligence",
+          "content": "Collaborative Innovation in the Age of Intelligence",
+          "speakers": [
+            {
+              "id": "speaker-shi-zhong-zhi",
+              "name": "Zhongzhi Shi",
+              "roleOrg": "Academician, The International Academy of Information Technology",
+              "tags": ["ai-next"],
+              "image": "speaker-shi-zhong-zhi.png"
+            }
+          ]
+        },
+        {
+            "date": "September 14",
+            "timeSlot": "11:25 - 12:00",
+            "title": "Sharing on the Design of UCM Inference Architecture for Sparse Attention Acceleration",
+            "content": "Sharing on the Design of UCM Inference Architecture for Sparse Attention Acceleration",
+            "speakers": [
+              {
+                "id": "jingbin-zhang",
+                "name": "Jingbin Zhang",
+                "roleOrg": "Senior Principal Architect & Technical Manager, Huawei",
+                "tags": [
+                  "ai-next"
+                ],
+                "image": "0-placeholder-person.png"
+              }
+            ]
+        },
+        {
+          "date": "September 14",
+          "timeSlot": "14:00 - 14:35",
+          "title": "Standing at a New Evolutionary Node: AGI and the Second Cognitive Revolution",
+          "content": "Standing at a New Evolutionary Node: AGI and the Second Cognitive Revolution",
+          "speakers": [
+            {
+              "id": "kai-du",
+              "name": "Kai Du",
+              "roleOrg": "Assistant Professor, Department of Psychology and Cognitive Science, Tsinghua University",
+              "tags": ["ai-next"],
+              "image": "0-placeholder-person.png"
+            }
+          ]
+        },
+        {
+          "date": "September 14",
+          "timeSlot": "14:35 - 15:10",
+          "title": "Pulse Computing: Challenges and Opportunities",
+          "content": "Pulse Computing: Challenges and Opportunities",
+          "speakers": [
+            {
+              "id": "qian-zheng",
+              "name": "Qian Zheng",
+              "roleOrg": "Assistant Professor, Zhejiang University",
+              "tags": ["ai-next"],
+              "image": "0-placeholder-person.png"
+            }
+          ]
+        },
+        {
+          "date": "September 14",
+          "timeSlot": "15:40 - 16:15",
+          "title": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become an Eternal Constraint for Large Models?",
+          "content": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become an Eternal Constraint for Large Models?",
+          "speakers": [
+            {
+              "id": "speaker-zhang-quan-shi",
+              "name": "Quanshi Zhang",
+              "roleOrg": "Associate Professor, Shanghai Jiao Tong University",
+              "tags": ["ai-next"],
+              "image": "speaker-zhang-quan-shi.jpg"
+            }
+          ]
+        },
+        {
+          "date": "September 14",
+          "timeSlot": "16:15 - 16:50",
+          "title": "The Curse of Depth in Large Language Models",
+          "content": "The Curse of Depth in Large Language Models",
+          "speakers": [
+            {
+              "id": "shiwei-liu",
+              "name": "Shiwei Liu",
+              "roleOrg": "Newton International Fellow, University of Oxford",
+              "tags": ["ai-next"],
+              "image": "shiwei-liu.jpg"
+            }
+          ]
+        },
+        {
+          "date": "September 14",
+          "timeSlot": "16:50 - 17:25",
+          "title": "TBD",
+          "content": "TBD",
+          "speakers": [
+            {
+              "id": "sun-weijie",
+              "name": "Weijie Sun",
+              "roleOrg": "DP Technology",
+              "tags": ["ai-next"],
+              "image": "0-placeholder-person.png"
+            }
+          ]
+        }
+      ],  
     "ws-sglang": [
       {
         "date": "TBD date",
