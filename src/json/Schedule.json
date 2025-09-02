@@ -2004,172 +2004,158 @@
     ],
     "ws-sglang": [
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "SpecForge:Accelerating Speculative Decoding Training for SGLang",
-        "content": "SpecForge:Accelerating Speculative Decoding Training for SGLang",
+        "date": "September 14",
+        "timeSlot": "10:15 - 10:50",
+        "title": "SGLang: An Efficient Open-Source Framework for Large-Scale LLM Serving",
+        "content": "SGLang: An Efficient Open-Source Framework for Large-Scale LLM Serving",
         "speakers": [
           {
-            "id": "lukec-wang",
-            "name": "Lukec Wang",
-            "roleOrg": "SGLang Committer, Meituan",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "EAGLE3 Training",
-        "content": "EAGLE3 Training",
-        "speakers": [
-          {
-            "id": "yikai-zhu",
-            "name": "Yikai Zhu",
-            "roleOrg": "Software Engineer, Model Performance Baseten, SGLang Committer",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Qwen Team's Algorithm-System Joint Optimization Practice in Large Model Inference",
-        "content": "Qwen Team's Algorithm-System Joint Optimization Practice in Large Model Inference",
-        "speakers": [
-          {
-            "id": "yizhong-cao",
-            "name": "Yizhong Cao",
-            "roleOrg": "Qwen Team Member",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "iFlytek MaaS Platform Large Model High-Performance Inference Practice",
-        "content": "iFlytek MaaS Platform Large Model High-Performance Inference Practice",
-        "speakers": [
-          {
-            "id": "yanbo-yang",
-            "name": "Yanbo Yang",
-            "roleOrg": "SGLang Committer",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Reasoning with SGLang: Powering Training in the Reinforcement Learning Era",
-        "content": "Reasoning with SGLang: Powering Training in the Reinforcement Learning Era",
-        "speakers": [
-          {
-            "id": "junrong-lin",
-            "name": "Junrong Lin",
-            "roleOrg": "Member of Technical Staff, SGLang Committer, Qwen Team Member",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "SGLang: An Efficient Open Source Large-Scale LLM Service Framework",
-        "content": "SGLang: An Efficient Open Source Large-Scale LLM Service Framework",
-        "speakers": [
-          {
-            "id": "yi-zhang-sglang",
+            "id": "yi-zhang",
             "name": "Yi Zhang",
-            "roleOrg": "Software Engineer, Alibaba Cloud Computing Co., Ltd., SGLang Committer",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
+            "roleOrg": "Software Engineer, Alibaba Cloud Computing Co., Ltd.",
+            "tags": ["ws-sglang"],
+            "image": "yi-zhang.png"
           }
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 14",
+        "timeSlot": "10:50 - 11:25",
         "title": "SGLang Prefill/Decode Disaggregation with Mooncake",
         "content": "SGLang Prefill/Decode Disaggregation with Mooncake",
         "speakers": [
           {
-            "id": "shangming-cai-",
+            "id": "shangming-cai",
             "name": "Shangming Cai",
-            "roleOrg": "Senior Engineer, Alibaba Cloud, Mooncake Core Member / SGLang Committer",
-            "tags": [
-              "ws-sglang"
-            ],
+            "roleOrg": "Senior Engineer, Alibaba Cloud",
+            "tags": ["ws-sglang"],
             "image": "shangming-cai-.jpg"
           }
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "SGLang on ascend Large Model Inference Efficient Practice",
-        "content": "SGLang on ascend Large Model Inference Efficient Practice",
+        "date": "September 14",
+        "timeSlot": "11:25 - 12:00",
+        "title": "High-Performance Inference Practice for Large Language Models on iFLYTEK MaaS Platform",
+        "content": "High-Performance Inference Practice for Large Language Models on iFLYTEK MaaS Platform",
+        "speakers": [
+          {
+            "id": "yanbo-yang",
+            "name": "Yanbo Yang",
+            "roleOrg": "SGLang Committer",
+            "tags": ["ws-sglang"],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "14:00 - 14:35",
+        "title": "Thinking with SGLang: Inference empowering Training in the Reinforcement Learning Era",
+        "content": "Thinking with SGLang: Inference empowering Training in the Reinforcement Learning Era",
+        "speakers": [
+          {
+            "id": "junrong-lin",
+            "name": "Junrong Lin",
+            "roleOrg": "Member of Technical Staff, Qwen Team, Alibaba Group",
+            "tags": ["ws-sglang"],
+            "image": "junrong-lin.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "14:35 - 15:10",
+        "title": "SpecForge: Open Source Framework for Training Speculative Decoding Models",
+        "content": "SpecForge: Open Source Framework for Training Speculative Decoding Models",
+        "speakers": [
+          {
+            "id": "yikai-zhu",
+            "name": "Yikai Zhu",
+            "roleOrg": "Software Engineer, N/A",
+            "tags": ["ws-sglang"],
+            "image": "yikai-zhu.jpg"
+          },
+          {
+            "id": "lukecwang",
+            "name": "Chao Wang (lukecwang)",
+            "roleOrg": "SGlang Committer, Meituan",
+            "tags": ["ws-sglang"],
+            "image": "-lukecwang.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "15:10 - 15:20",
+        "title": "Group Photo",
+        "content": "Group Photo",
+        "speakers": []
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "15:20 - 15:40",
+        "title": "Tea Break",
+        "content": "Tea Break",
+        "speakers": []
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "15:40 - 16:15",
+        "title": "Joint Algorithm-System Optimization Practices by the Qwen Team in Large Language Model Inference",
+        "content": "Joint Algorithm-System Optimization Practices by the Qwen Team in Large Language Model Inference",
+        "speakers": [
+          {
+            "id": "yizhong-cao",
+            "name": "Yizhong Cao",
+            "roleOrg": "Engineer, Alibaba",
+            "tags": ["ws-sglang"],
+            "image": "yizhong-cao-.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "16:15 - 16:50",
+        "title": "Efficient Practices for LLM Inference with SGLang on Ascend",
+        "content": "Efficient Practices for LLM Inference with SGLang on Ascend",
         "speakers": [
           {
             "id": "xiaoming-bao",
             "name": "Xiaoming Bao",
             "roleOrg": "Architect, Huawei",
-            "tags": [
-              "ws-sglang"
-            ],
+            "tags": ["ws-sglang"],
+            "image": "xiaoming-bao.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "16:50 - 17:25",
+        "title": "Research on all-to-all Communication Optimization in Large-Scale Mixture of Experts (MoE) Models",
+        "content": "Research on all-to-all Communication Optimization in Large-Scale Mixture of Experts (MoE) Models",
+        "speakers": [
+          {
+            "id": "dong-wang",
+            "name": "Dong Wang",
+            "roleOrg": "GPU Computing Expert of NVIDIA",
+            "tags": ["ws-sglang"],
             "image": "0-placeholder-person.png"
           }
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Deploying Models on Compute-Constrained GPUs: Parameter Decomposition and Expert Parallelism Methods",
-        "content": "Deploying Models on Compute-Constrained GPUs: Parameter Decomposition and Expert Parallelism Methods",
+        "date": "September 14",
+        "timeSlot": "17:25 - 18:00",
+        "title": "Deploying models with PD Disaggregation and Expert Parallelism on compute-constrained GPUs",
+        "content": "Deploying models with PD Disaggregation and Expert Parallelism on compute-constrained GPUs",
         "speakers": [
           {
-            "id": "xiaolei-zhang-sglang",
+            "id": "xiaolei-zhang",
             "name": "Xiaolei Zhang",
-            "roleOrg": "AI Performance Optimization Expert, ByteDance",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "All2All Communication Optimization Research in Large-Scale Mixture of Experts (MoE) Models",
-        "content": "All2All Communication Optimization Research in Large-Scale Mixture of Experts (MoE) Models",
-        "speakers": [
-          {
-            "id": "wang-dong",
-            "name": "Wang Dong",
-            "roleOrg": "GPU Computing Expert, NVIDIA",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
+            "roleOrg": "AI Performance Optimization Expert, Bytedance",
+            "tags": ["ws-sglang"],
+            "image": "xiaolei-zhang.jpeg"
           }
         ]
       }

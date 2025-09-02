@@ -2004,59 +2004,36 @@
     ],
     "ws-sglang": [
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "SpecForge:Accelerating Speculative Decoding Training for SGLang",
-        "content": "SpecForge:Accelerating Speculative Decoding Training for SGLang",
+        "date": "9月14日",
+        "timeSlot": "10:15 - 10:50",
+        "title": "SGLang：一个高效的开源大规模LLM服务框架",
+        "content": "SGLang：一个高效的开源大规模LLM服务框架",
         "speakers": [
           {
-            "id": "lukec-wang",
-            "name": "王超",
-            "roleOrg": "SGLang Committer, 美团",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
+            "id": "yi-zhang",
+            "name": "张懿",
+            "roleOrg": "阿里云计算有限公司软件工程师",
+            "image": "yi-zhang.png"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "EAGLE3 Training",
-        "content": "EAGLE3 Training",
+        "date": "9月14日",
+        "timeSlot": "10:50 - 11:25",
+        "title": "基于Mooncake的SGLang Prefill/Decode分离方案",
+        "content": "基于Mooncake的SGLang Prefill/Decode分离方案",
         "speakers": [
           {
-            "id": "yikai-zhu",
-            "name": "朱熠恺",
-            "roleOrg": "软件工程师, Model Performance Baseten, SGLang Committer",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
+            "id": "shangming-cai",
+            "name": "蔡尚铭",
+            "roleOrg": "阿里云高级工程师",
+            "image": "shangming-cai-.jpg"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "Qwen团队在大模型推理中算法-系统联合优化实践",
-        "content": "Qwen团队在大模型推理中算法-系统联合优化实践",
-        "speakers": [
-          {
-            "id": "yizhong-cao",
-            "name": "曹逸中",
-            "roleOrg": "Qwen团队成员",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月14日",
+        "timeSlot": "11:25 - 12:00",
         "title": "讯飞MaaS平台大模型高性能推理实践",
         "content": "讯飞MaaS平台大模型高性能推理实践",
         "speakers": [
@@ -2064,112 +2041,118 @@
             "id": "yanbo-yang",
             "name": "杨彦波",
             "roleOrg": "SGLang Committer",
-            "tags": [
-              "ws-sglang"
-            ],
             "image": "0-placeholder-person.png"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "和SGLang一起思考 ：推理赋能强化学习时代的模型训练",
-        "content": "和SGLang一起思考 ：推理赋能强化学习时代的模型训练",
+        "date": "9月14日",
+        "timeSlot": "12:00 - 14:00",
+        "title": "午餐",
+        "content": "午餐",
+        "speakers": []
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "14:00 - 14:35",
+        "title": "和SGLang一起思考：推理赋能强化学习时代的模型训练",
+        "content": "和SGLang一起思考：推理赋能强化学习时代的模型训练",
         "speakers": [
           {
             "id": "junrong-lin",
             "name": "林骏荣",
-            "roleOrg": "技术人员, SGLang Committer, Qwen团队成员",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
+            "roleOrg": "阿里巴巴集团Qwen团队技术人员",
+            "image": "junrong-lin.jpg"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "SGLang:一个高效的开源大规模LLM服务框架",
-        "content": "SGLang:一个高效的开源大规模LLM服务框架",
+        "date": "9月14日",
+        "timeSlot": "14:35 - 15:10",
+        "title": "SpecForge: 用于训练投机采样模型的开源框架",
+        "content": "SpecForge: 用于训练投机采样模型的开源框架",
         "speakers": [
           {
-            "id": "yi-zhang-sglang",
-            "name": "张懿",
-            "roleOrg": "软件工程师, 阿里云计算有限公司, SGLang Committer",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
+            "id": "yikai-zhu",
+            "name": "朱熠恺",
+            "roleOrg": "软件工程师",
+            "image": "yikai-zhu.jpg"
+          },
+          {
+            "id": "lukecwang",
+            "name": "王超",
+            "roleOrg": "SGLang Committer，美团",
+            "image": "-lukecwang.jpg"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "SGLang与Mooncake的预填充/解码解耦方案",
-        "content": "SGLang与Mooncake的预填充/解码解耦方案",
+        "date": "9月14日",
+        "timeSlot": "15:10 - 15:20",
+        "title": "合影",
+        "content": "合影",
+        "speakers": []
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "15:20 - 15:40",
+        "title": "茶歇",
+        "content": "茶歇",
+        "speakers": []
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "15:40 - 16:15",
+        "title": "Qwen团队在大模型推理中算法-系统联合优化实践",
+        "content": "Qwen团队在大模型推理中算法-系统联合优化实践",
         "speakers": [
           {
-            "id": "shangming-cai-",
-            "name": "蔡尚铭",
-            "roleOrg": "高级工程师, 阿里云, Mooncake 核心成员 / SGLang Committer",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "shangming-cai-.jpg"
+            "id": "yizhong-cao",
+            "name": "曹逸中",
+            "roleOrg": "阿里巴巴工程师",
+            "image": "yizhong-cao-.jpg"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "SGLang on ascend大模型推理的高效实践",
-        "content": "SGLang on ascend大模型推理的高效实践",
+        "date": "9月14日",
+        "timeSlot": "16:15 - 16:50",
+        "title": "SGLang on Ascend大模型推理的高效实践",
+        "content": "SGLang on Ascend大模型推理的高效实践",
         "speakers": [
           {
             "id": "xiaoming-bao",
-            "name": "Xiaoming Bao",
-            "roleOrg": "架构师, 华为",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
+            "name": "包小明",
+            "roleOrg": "华为架构师",
+            "image": "xiaoming-bao.png"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "在计算受限的GPU上部署模型：参数分解与专家并行方法",
-        "content": "在计算受限的GPU上部署模型：参数分解与专家并行方法",
+        "date": "9月14日",
+        "timeSlot": "16:50 - 17:25",
+        "title": "大规模混合专家模型（MoE）中的AII2AII通信优化研究",
+        "content": "大规模混合专家模型（MoE）中的AII2AII通信优化研究",
         "speakers": [
           {
-            "id": "xiaolei-zhang-sglang",
-            "name": "Xiaolei Zhang",
-            "roleOrg": "AI性能优化专家, 字节跳动",
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "大规模混合专家模型（MoE）中的All2All通信优化研究",
-        "content": "大规模混合专家模型（MoE）中的All2All通信优化研究",
-        "speakers": [
-          {
-            "id": "wang-dong",
+            "id": "dong-wang",
             "name": "王冬",
-            "roleOrg": "GPU计算专家, NVIDIA",
-            "tags": [
-              "ws-sglang"
-            ],
+            "roleOrg": "英伟达GPU计算专家",
             "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "17:25 - 18:00",
+        "title": "在算力受限的GPU环境中部署PD分离与专家并行化模型",
+        "content": "在算力受限的GPU环境中部署PD分离与专家并行化模型",
+        "speakers": [
+          {
+            "id": "xiaolei-zhang",
+            "name": "张晓雷",
+            "roleOrg": "字节跳动AI性能优化专家",
+            "image": "xiaolei-zhang.jpeg"
           }
         ]
       }
