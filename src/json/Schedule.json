@@ -1685,291 +1685,323 @@
         ]
       }
     ],
-      "ai-next": [
-        {
-          "date": "September 13",
-          "timeSlot": "10:15 - 10:50",
-          "title": "TBD",
-          "content": "TBD",
-          "speakers": [
-            {
-              "id": "wang-jialiang",
-              "name": "Jialiang Wang",
-              "roleOrg": "TBD",
-              "tags": ["ai-next"],
-              "image": "0-placeholder-person.png"
-            }
-          ]
-        },
-        {
-          "date": "September 13",
-          "timeSlot": "10:50 - 11:25",
-          "title": "The Future Directions of AI Art",
-          "content": "The Future Directions of AI Art",
-          "speakers": [
-            {
-              "id": "speaker-wei-wei",
-              "name": "Wei Wei",
-              "roleOrg": "Popular Bilibili Art Creator “Youdian Yisi Oh”",
-              "tags": ["ai-next"],
-              "image": "speaker-wei-wei.jpg"
-            }
-          ]
-        },
-        {
-          "date": "September 13",
-          "timeSlot": "11:25 - 12:00",
-          "title": "Bridging Art and Artificial Intelligence : Augmenting Creativity ?",
-          "content": "Bridging Art and Artificial Intelligence : Augmenting Creativity ?",
-          "speakers": [
-            {
-              "id": "alexandra-boucherifi-kornmann",
-              "name": "Alexandra Boucherifi-Kornmann",
-              "roleOrg": "Artist, Founder of the augmented painting or augmentism, creator of the European Biennial of AI and augmentism Société de l'augmentisme",
-              "tags": ["ai-next"],
-              "image": "0-placeholder-person.png"
-            }
-          ]
-        },
-        {
-          "date": "September 13",
-          "timeSlot": "14:00 - 14:20",
-          "title": "How to integrate artificial intelligence technology into the future art field",
-          "content": "How to integrate artificial intelligence technology into the future art field",
-          "speakers": [
-            {
-              "id": "yichuan-yue",
-              "name": "Yichuan Yue",
-              "roleOrg": "Artist, capital normal university",
-              "tags": ["ai-next"],
-              "image": "0-placeholder-person.png"
-            }
-          ]
-        },
-        {
-          "date": "September 13",
-          "timeSlot": "14:20 - 14:40",
-          "title": "SongEval: A Benchmark Dataset for Song Aesthetics Evaluation",
-          "content": "SongEval: A Benchmark Dataset for Song Aesthetics Evaluation",
-          "speakers": [
-            {
-              "id": "huixin-xue",
-              "name": "Huixin Xue",
-              "roleOrg": "Ph.D. Candidate at Shanghai Conservatory of Music",
-              "tags": ["ai-next"],
-              "image": "huixin-xue.png"
-            },
-            {
-              "id": "jixun-yao",
-              "name": "Jixun Yao",
-              "roleOrg": "Ph.D. Candidate at Northwestern Polytechnical University",
-              "tags": ["ai-next"],
-              "image": "jixun-yao.png"
-            }
-          ]
-        },
-        {
-            "date": "September 13",
-            "timeSlot": "14:40 - 15:00",
-            "title": "TBD",
-            "content": "TBD",
-            "speakers": [
-              {
-                "id": "tbd-1",
-                "name": "TBD",
-                "roleOrg": "TBD",
-                "tags": [
-                  "ai-next"
-                ],
-                "image": "0-placeholder-person.png"
-              }
-            ]
-        },
-        {
-          "date": "September 13",
-          "timeSlot": "15:00 - 15:20",
-          "title": "Overview of Ventus OpenGPGPU Project",
-          "content": "Overview of Ventus OpenGPGPU Project",
-          "speakers": [
-            {
-              "id": "hu-he",
-              "name": "Hu He",
-              "roleOrg": "Associate professor, School of Integrated Circuits, Tsinghua University",
-              "tags": ["ai-next"],
-              "image": "0-placeholder-person.png"
-            }
-          ]
-        },
-        {
-          "date": "September 13",
-          "timeSlot": "15:40 - 16:15",
-          "title": "AI-Driven Model & Data Compression for Next-Generation Gaming",
-          "content": "AI-Driven Model & Data Compression for Next-Generation Gaming",
-          "speakers": [
-            {
-              "id": "zhenghao-chen",
-              "name": "Zhenghao Chen",
-              "roleOrg": "Assistant Professor, The University of Newcastle",
-              "tags": ["ai-next"],
-              "image": "0-placeholder-person.png"
-            }
-          ]
-        },
-        {
-            "date": "September 13",
-            "timeSlot": "16:15 - 16:50",
-            "title": "Large-Scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
-            "content": "Large-Scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
-            "speakers": [
-              {
-                "id": "nicolas-flores-herr",
-                "name": "Nicolas Flores Herr",
-                "roleOrg": "Team Lead for Foundation Models and Generative AI Systems, Fraunhofer IAIS",
-                "tags": [
-                  "ai-next"
-                ],
-                "image": "0-placeholder-person.png"
-              }
-            ]
-        },
-        {
-          "date": "September 13",
-          "timeSlot": "16:50 - 17:25",
-          "title": "From a Community Spark to National Impact: The Story and Power of Bielik.AI",
-          "content": "From a Community Spark to National Impact: The Story and Power of Bielik.AI",
-          "speakers": [
-            {
-              "id": "karol-stryja",
-              "name": "Karol Stryja",
-              "roleOrg": "Founder, 99 Faces of AI Podcast / Bielik.AI",
-              "tags": ["ai-next"],
-              "image": "karol-stryja.png"
-            }
-          ]
-        },
-        {
-          "date": "September 14",
-          "timeSlot": "10:15 - 10:50",
-          "title": "Several Core Propositions on the Paradigm Shift of the AI Industry",
-          "content": "Several Core Propositions on the Paradigm Shift of the AI Industry",
-          "speakers": [
-            {
-              "id": "li-jian-zhong",
-              "name": "Jason Li",
-              "roleOrg": "President, Singularity Intelligence Research Institute, Senior Vice President, CSDN",
-              "tags": ["ai-next"],
-              "image": "0-placeholder-person.png"
-            }
-          ]
-        },
-        {
-          "date": "September 14",
-          "timeSlot": "10:50 - 11:25",
-          "title": "Collaborative Innovation in the Age of Intelligence",
-          "content": "Collaborative Innovation in the Age of Intelligence",
-          "speakers": [
-            {
-              "id": "speaker-shi-zhong-zhi",
-              "name": "Zhongzhi Shi",
-              "roleOrg": "Academician, The International Academy of Information Technology",
-              "tags": ["ai-next"],
-              "image": "speaker-shi-zhong-zhi.png"
-            }
-          ]
-        },
-        {
-            "date": "September 14",
-            "timeSlot": "11:25 - 12:00",
-            "title": "Sharing on the Design of UCM Inference Architecture for Sparse Attention Acceleration",
-            "content": "Sharing on the Design of UCM Inference Architecture for Sparse Attention Acceleration",
-            "speakers": [
-              {
-                "id": "jingbin-zhang",
-                "name": "Jingbin Zhang",
-                "roleOrg": "Senior Principal Architect & Technical Manager, Huawei",
-                "tags": [
-                  "ai-next"
-                ],
-                "image": "0-placeholder-person.png"
-              }
-            ]
-        },
-        {
-          "date": "September 14",
-          "timeSlot": "14:00 - 14:35",
-          "title": "Standing at a New Evolutionary Node: AGI and the Second Cognitive Revolution",
-          "content": "Standing at a New Evolutionary Node: AGI and the Second Cognitive Revolution",
-          "speakers": [
-            {
-              "id": "kai-du",
-              "name": "Kai Du",
-              "roleOrg": "Assistant Professor, Department of Psychology and Cognitive Science, Tsinghua University",
-              "tags": ["ai-next"],
-              "image": "0-placeholder-person.png"
-            }
-          ]
-        },
-        {
-          "date": "September 14",
-          "timeSlot": "14:35 - 15:10",
-          "title": "Pulse Computing: Challenges and Opportunities",
-          "content": "Pulse Computing: Challenges and Opportunities",
-          "speakers": [
-            {
-              "id": "qian-zheng",
-              "name": "Qian Zheng",
-              "roleOrg": "Assistant Professor, Zhejiang University",
-              "tags": ["ai-next"],
-              "image": "0-placeholder-person.png"
-            }
-          ]
-        },
-        {
-          "date": "September 14",
-          "timeSlot": "15:40 - 16:15",
-          "title": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become an Eternal Constraint for Large Models?",
-          "content": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become an Eternal Constraint for Large Models?",
-          "speakers": [
-            {
-              "id": "speaker-zhang-quan-shi",
-              "name": "Quanshi Zhang",
-              "roleOrg": "Associate Professor, Shanghai Jiao Tong University",
-              "tags": ["ai-next"],
-              "image": "speaker-zhang-quan-shi.jpg"
-            }
-          ]
-        },
-        {
-          "date": "September 14",
-          "timeSlot": "16:15 - 16:50",
-          "title": "The Curse of Depth in Large Language Models",
-          "content": "The Curse of Depth in Large Language Models",
-          "speakers": [
-            {
-              "id": "shiwei-liu",
-              "name": "Shiwei Liu",
-              "roleOrg": "Newton International Fellow, University of Oxford",
-              "tags": ["ai-next"],
-              "image": "shiwei-liu.jpg"
-            }
-          ]
-        },
-        {
-          "date": "September 14",
-          "timeSlot": "16:50 - 17:25",
-          "title": "TBD",
-          "content": "TBD",
-          "speakers": [
-            {
-              "id": "sun-weijie",
-              "name": "Weijie Sun",
-              "roleOrg": "DP Technology",
-              "tags": ["ai-next"],
-              "image": "0-placeholder-person.png"
-            }
-          ]
-        }
-      ],  
+    "ai-next": [
+      {
+        "date": "September 13",
+        "timeSlot": "10:15 - 10:50",
+        "title": "TBD",
+        "content": "TBD",
+        "speakers": [
+          {
+            "id": "wang-jialiang",
+            "name": "Jialiang Wang",
+            "roleOrg": "TBD",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "10:50 - 11:25",
+        "title": "The Future Directions of AI Art",
+        "content": "The Future Directions of AI Art",
+        "speakers": [
+          {
+            "id": "speaker-wei-wei",
+            "name": "Wei Wei",
+            "roleOrg": "Popular Bilibili Art Creator “Youdian Yisi Oh”",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "speaker-wei-wei.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Bridging Art and Artificial Intelligence : Augmenting Creativity ?",
+        "content": "Bridging Art and Artificial Intelligence : Augmenting Creativity ?",
+        "speakers": [
+          {
+            "id": "alexandra-boucherifi-kornmann",
+            "name": "Alexandra Boucherifi-Kornmann",
+            "roleOrg": "Artist, Founder of the augmented painting or augmentism, creator of the European Biennial of AI and augmentism Société de l'augmentisme",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:00 - 14:20",
+        "title": "How to integrate artificial intelligence technology into the future art field",
+        "content": "How to integrate artificial intelligence technology into the future art field",
+        "speakers": [
+          {
+            "id": "yichuan-yue",
+            "name": "Yichuan Yue",
+            "roleOrg": "Artist, capital normal university",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:20 - 14:40",
+        "title": "SongEval: A Benchmark Dataset for Song Aesthetics Evaluation",
+        "content": "SongEval: A Benchmark Dataset for Song Aesthetics Evaluation",
+        "speakers": [
+          {
+            "id": "huixin-xue",
+            "name": "Huixin Xue",
+            "roleOrg": "Ph.D. Candidate at Shanghai Conservatory of Music",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "huixin-xue.png"
+          },
+          {
+            "id": "jixun-yao",
+            "name": "Jixun Yao",
+            "roleOrg": "Ph.D. Candidate at Northwestern Polytechnical University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "jixun-yao.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:40 - 15:00",
+        "title": "TBD",
+        "content": "TBD",
+        "speakers": [
+          {
+            "id": "tbd-1",
+            "name": "TBD",
+            "roleOrg": "TBD",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:00 - 15:20",
+        "title": "Overview of Ventus OpenGPGPU Project",
+        "content": "Overview of Ventus OpenGPGPU Project",
+        "speakers": [
+          {
+            "id": "hu-he",
+            "name": "Hu He",
+            "roleOrg": "Associate professor, School of Integrated Circuits, Tsinghua University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:40 - 16:15",
+        "title": "AI-Driven Model & Data Compression for Next-Generation Gaming",
+        "content": "AI-Driven Model & Data Compression for Next-Generation Gaming",
+        "speakers": [
+          {
+            "id": "zhenghao-chen",
+            "name": "Zhenghao Chen",
+            "roleOrg": "Assistant Professor, The University of Newcastle",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:15 - 16:50",
+        "title": "Large-Scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
+        "content": "Large-Scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
+        "speakers": [
+          {
+            "id": "nicolas-flores-herr",
+            "name": "Nicolas Flores Herr",
+            "roleOrg": "Team Lead for Foundation Models and Generative AI Systems, Fraunhofer IAIS",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:50 - 17:25",
+        "title": "From a Community Spark to National Impact: The Story and Power of Bielik.AI",
+        "content": "From a Community Spark to National Impact: The Story and Power of Bielik.AI",
+        "speakers": [
+          {
+            "id": "karol-stryja",
+            "name": "Karol Stryja",
+            "roleOrg": "Founder, 99 Faces of AI Podcast / Bielik.AI",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "karol-stryja.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "10:15 - 10:50",
+        "title": "Several Core Propositions on the Paradigm Shift of the AI Industry",
+        "content": "Several Core Propositions on the Paradigm Shift of the AI Industry",
+        "speakers": [
+          {
+            "id": "li-jian-zhong",
+            "name": "Jason Li",
+            "roleOrg": "President, Singularity Intelligence Research Institute, Senior Vice President, CSDN",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "10:50 - 11:25",
+        "title": "Collaborative Innovation in the Age of Intelligence",
+        "content": "Collaborative Innovation in the Age of Intelligence",
+        "speakers": [
+          {
+            "id": "speaker-shi-zhong-zhi",
+            "name": "Zhongzhi Shi",
+            "roleOrg": "Academician, The International Academy of Information Technology",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "speaker-shi-zhong-zhi.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Sharing on the Design of UCM Inference Architecture for Sparse Attention Acceleration",
+        "content": "Sharing on the Design of UCM Inference Architecture for Sparse Attention Acceleration",
+        "speakers": [
+          {
+            "id": "jingbin-zhang",
+            "name": "Jingbin Zhang",
+            "roleOrg": "Senior Principal Architect & Technical Manager, Huawei",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "14:00 - 14:35",
+        "title": "Standing at a New Evolutionary Node: AGI and the Second Cognitive Revolution",
+        "content": "Standing at a New Evolutionary Node: AGI and the Second Cognitive Revolution",
+        "speakers": [
+          {
+            "id": "kai-du",
+            "name": "Kai Du",
+            "roleOrg": "Assistant Professor, Department of Psychology and Cognitive Science, Tsinghua University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "14:35 - 15:10",
+        "title": "Pulse Computing: Challenges and Opportunities",
+        "content": "Pulse Computing: Challenges and Opportunities",
+        "speakers": [
+          {
+            "id": "qian-zheng",
+            "name": "Qian Zheng",
+            "roleOrg": "Assistant Professor, Zhejiang University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "15:40 - 16:15",
+        "title": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become an Eternal Constraint for Large Models?",
+        "content": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become an Eternal Constraint for Large Models?",
+        "speakers": [
+          {
+            "id": "speaker-zhang-quan-shi",
+            "name": "Quanshi Zhang",
+            "roleOrg": "Associate Professor, Shanghai Jiao Tong University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "speaker-zhang-quan-shi.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "16:15 - 16:50",
+        "title": "The Curse of Depth in Large Language Models",
+        "content": "The Curse of Depth in Large Language Models",
+        "speakers": [
+          {
+            "id": "shiwei-liu",
+            "name": "Shiwei Liu",
+            "roleOrg": "Newton International Fellow, University of Oxford",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "shiwei-liu.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "16:50 - 17:25",
+        "title": "TBD",
+        "content": "TBD",
+        "speakers": [
+          {
+            "id": "sun-weijie",
+            "name": "Weijie Sun",
+            "roleOrg": "DP Technology",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
     "ws-sglang": [
       {
         "date": "TBD date",
