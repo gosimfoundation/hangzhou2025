@@ -2460,13 +2460,13 @@
         "content": "KTransformers: 单卡大模型的极致推理",
         "speakers": [
           {
-            "id": "weiyu-xie-edge",
+            "id": "weiyu-xie",
             "name": "谢威宇",
             "roleOrg": "博士研究生, 清华大学",
             "tags": [
               "ws-edge-ai"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "weiyu-xie.jpg"
           }
         ]
       },

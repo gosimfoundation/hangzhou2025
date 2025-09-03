@@ -32,10 +32,6 @@
     },
     {
       "category": "Diamond",
-      "image": "baai.png"
-    },
-    {
-      "category": "Diamond",
       "image": "清程极智.png"
     },
 
@@ -211,6 +207,10 @@
     {
       "category": "Supporting Organization",
       "image": "xion.png"
+    },
+    {
+      "category": "Supporting Organization",
+      "image": "pytorch.png"
     },
 
 

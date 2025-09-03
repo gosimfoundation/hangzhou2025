@@ -2463,13 +2463,13 @@
         "content": "KTransformers: Ultimate Inference for Single-Card Large Models",
         "speakers": [
           {
-            "id": "weiyu-xie-edge",
+            "id": "weiyu-xie",
             "name": "Weiyu Xie",
             "roleOrg": "PhD Student, Tsinghua University",
             "tags": [
               "ws-edge-ai"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "weiyu-xie.jpg"
           }
         ]
       },
