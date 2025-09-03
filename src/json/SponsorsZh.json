@@ -6,7 +6,7 @@
     { "name": "钻石赞助" },
     { "name": "金牌赞助" },
     { "name": "银牌赞助" },
-    { "name": "合作伙伴" },
+    { "name": "支持伙伴" },
     { "name": "讲师附属组织（部分）" }
   ],
   "partners": [
@@ -97,119 +97,119 @@
 
 
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "lf-research-color.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "lf-gen-ai.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "eclipse-foundation.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "rust-foundation.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "un-odet.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "baai.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "second-state.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "aifc.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "ajtis.jpg"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "木兰开源社区.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "wasmedge.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "奇点智能研究院.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "sgl.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "copu.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "开源社.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "睿类问特.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "rust-china-conf.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "rust-cc.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "rust-global.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "broadview.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "非凸科技.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "greptimedb.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "linera.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "openbuild.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "solana.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "tintin.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "tuling.jpg"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "ruby.png"
     },
     {
-      "category": "合作伙伴",
+      "category": "支持伙伴",
       "image": "xion.png"
     },
 
