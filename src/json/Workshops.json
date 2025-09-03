@@ -5,24 +5,52 @@
       "id": "all"
     },
     {
+      "name": "Future Web Workshop",
+      "id": "ws-future-web"
+    },
+    {
+      "name": "CANN Workshop",
+      "id": "ws-cann"
+    },
+    {
+      "name": "Flutter Workshop",
+      "id": "ws-flutter"
+    },
+    {
       "name": "Cangjie Workshop",
       "id": "ws-cangjie"
-    },
-    {
-      "name": "Dora Workshop",
-      "id": "ws-dora"
-    },
-    {
-      "name": "SGLang Workshop",
-      "id": "ws-sglang"
     },
     {
       "name": "Edge AI Workshop",
       "id": "ws-edge-ai"
     },
     {
-      "name": "Future Web Workshop",
-      "id": "ws-future-web"
+      "name": "Open Source Chitu First Meetup",
+      "id": "ws-chitu"
+    },
+    {
+      "name": "AI Education Workshop",
+      "id": "ws-ai-education"
+    },
+    {
+      "name": "RN Workshop",
+      "id": "ws-rn"
+    },
+    {
+      "name": "Dora Workshop",
+      "id": "ws-dora"
+    },
+    {
+      "name": "Rust Workshop",
+      "id": "ws-rust"
+    },
+    {
+      "name": "SGLang Workshop",
+      "id": "ws-sglang"
+    },
+    {
+      "name": "Makepad Workshop",
+      "id": "ws-makepad"
     },
     {
       "name": "Open for SDG Conference",
@@ -441,7 +469,7 @@
       "org": "Center for Safe AGI",
       "roleOrg": "Founder, Center for Safe AGI",
       "image": "xiaohu-zhu.png",
-      "tag": "forum-aivision",
+      "tag": "Co-located",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "@neil_csagi",
@@ -460,7 +488,7 @@
       "org": "Efrei Paris",
       "roleOrg": "Program Manager “Data & Artificial Intelligence” and Academic Manager of Executive Education, Efrei Paris",
       "image": "salim-nahle.jpg",
-      "tag": "forum-aivision",
+      "tag": "Co-located",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -764,7 +792,7 @@
       "org": "Capital Normal University",
       "roleOrg": "Artist, Capital Normal University",
       "image": "yicuan-yue.jpg",
-      "tag": "forum-aivision",
+      "tag": "Co-located",
       "socialLinks": {
         "mastodon": "",
         "twitter": "",

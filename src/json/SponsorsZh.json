@@ -56,6 +56,10 @@
     },
     {
       "category": "金牌赞助",
+      "image": "鸿蒙生态服务.png"
+    },
+    {
+      "category": "金牌赞助",
       "image": "benq.png"
     },
     {
@@ -140,7 +144,10 @@
       "category": "合作伙伴",
       "image": "奇点智能研究院.png"
     },
-
+    {
+      "category": "合作伙伴",
+      "image": "sgl.png"
+    },
     {
       "category": "合作伙伴",
       "image": "copu.png"

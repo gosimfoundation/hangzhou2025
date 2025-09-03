@@ -5,24 +5,52 @@
       "id": "all"
     },
     {
-      "name": "仓颉 工作坊",
+      "name": "未来Web 技术论坛",
+      "id": "ws-future-web"
+    },
+    {
+      "name": "CANN 工作坊",
+      "id": "ws-cann"
+    },
+    {
+      "name": "Flutter 技术沙龙",
+      "id": "ws-flutter"
+    },
+    {
+      "name": "仓颉工作坊",
       "id": "ws-cangjie"
+    },
+    {
+      "name": "端侧 AI 推理工作坊",
+      "id": "ws-edge-ai"
+    },
+    {
+      "name": "开源赤兔项目首次 Meetup",
+      "id": "ws-chitu"
+    },
+    {
+      "name": "AI 教育工作坊",
+      "id": "ws-ai-education"
+    },
+    {
+      "name": "RN 技术沙龙",
+      "id": "ws-rn"
     },
     {
       "name": "Dora 工作坊",
       "id": "ws-dora"
     },
     {
+      "name": "Rust 工作坊",
+      "id": "ws-rust"
+    },
+    {
       "name": "SGLang 工作坊",
       "id": "ws-sglang"
     },
     {
-      "name": "边缘 AI 工作坊",
-      "id": "ws-edge-ai"
-    },
-    {
-      "name": "未来网络 工作坊",
-      "id": "ws-future-web"
+      "name": "Makepad 工作坊",
+      "id": "ws-makepad"
     },
     {
       "name": "开放共创 · 可持续发展大会",
@@ -32,6 +60,7 @@
       "name": "人工智能愿景论坛",
       "id": "forum-aivision"
     }
+
   ],
   "speakers": [
     {

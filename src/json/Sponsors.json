@@ -56,6 +56,10 @@
     },
     {
       "category": "Gold",
+      "image": "鸿蒙生态服务.png"
+    },
+    {
+      "category": "Gold",
       "image": "benq.png"
     },
     {
@@ -140,7 +144,10 @@
       "category": "Supporting Organization",
       "image": "奇点智能研究院.png"
     },
-
+    {
+      "category": "Supporting Organization",
+      "image": "sgl.png"
+    },
     {
       "category": "Supporting Organization",
       "image": "copu.png"
