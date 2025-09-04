@@ -1096,7 +1096,7 @@
           {
             "id": "speaker-chang-gao-wei",
             "name": "Gaowei Chang",
-            "roleOrg": "Founder, ANP Open Source Community, W3C AI Agent protocol CG Co-chair",
+            "roleOrg": "Founder, ANP Open Source Community",
             "tags": [
               "agentic-web"
             ],
@@ -1107,13 +1107,13 @@
       {
         "date": "September 13",
         "timeSlot": "11:25 - 12:00",
-        "title": "Servo: A New Web Engine Written in Rust",
-        "content": "Servo: A New Web Engine Written in Rust",
+        "title": "Servo: A new web engine written in Rust",
+        "content": "Servo: A new web engine written in Rust",
         "speakers": [
           {
             "id": "manuel-rego",
             "name": "Manuel Rego",
-            "roleOrg": "Software Engineer, Igalia",
+            "roleOrg": "Software engineer, Igalia",
             "tags": [
               "agentic-web"
             ],
@@ -1130,7 +1130,7 @@
           {
             "id": "speaker-zhang-yun-fei",
             "name": "Yunfei Zhang",
-            "roleOrg": "Deputy Director, China Telecom Smart City Research Institute, Chief Expert, China Telecom",
+            "roleOrg": "Deputy Director, China Telecom Smart City Research Institute, Chief Expert, China Telecom, China Telecom Digital Intelligence Technology Co., Ltd.",
             "tags": [
               "agentic-web"
             ],
@@ -1140,9 +1140,9 @@
       },
       {
         "date": "September 13",
-        "timeSlot": "14:35 - 15:10",
-        "title": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic Al Ecosystem",
-        "content": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic Al Ecosystem",
+        "timeSlot": "14:35 - 15:20",
+        "title": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic AI Ecosystem.",
+        "content": "A data space definition language (DSDL) to enable interoperability between data spaces and enable the integration with the Agentic AI Ecosystem.",
         "speakers": [
           {
             "id": "joaquin-salvachua",
@@ -1209,8 +1209,8 @@
       {
         "date": "September 14",
         "timeSlot": "10:15 - 10:50",
-        "title": "First Person Project: Building Trust Mechanisms for Personal AI Agents",
-        "content": "First Person Project: Building Trust Mechanisms for Personal AI Agents",
+        "title": "The First Person Project: Establishing Trust in Personal AI Agents",
+        "content": "The First Person Project: Establishing Trust in Personal AI Agents",
         "speakers": [
           {
             "id": "drummond-reed",
@@ -1226,8 +1226,8 @@
       {
         "date": "September 14",
         "timeSlot": "10:50 - 11:25",
-        "title": "Decentralized Identity for the Agent Internet",
-        "content": "Decentralized Identity for the Agent Internet",
+        "title": "Decentralized Identifiers (DIDs) for the Agentic Web",
+        "content": "Decentralized Identifiers (DIDs) for the Agentic Web",
         "speakers": [
           {
             "id": "markus-sabadello",
@@ -1243,13 +1243,13 @@
       {
         "date": "September 14",
         "timeSlot": "11:25 - 12:00",
-        "title": "Exploring and Practicing Agent Internet Application Development",
-        "content": "Exploring and Practicing Agent Internet Application Development",
+        "title": "Exploring and Practicing Agentic WebApp Development",
+        "content": "Exploring and Practicing Agentic WebApp Development",
         "speakers": [
           {
             "id": "chunhui-mo",
             "name": "Chunhui Mo",
-            "roleOrg": "Technical Expert, Huawei Cloud",
+            "roleOrg": "Cloud Technology Experts, Huawei Corp.",
             "tags": [
               "agentic-web"
             ],
@@ -1260,13 +1260,13 @@
       {
         "date": "September 14",
         "timeSlot": "14:00 - 14:35",
-        "title": "TMCP/TA2A: Running MCP and A2A on TSP",
-        "content": "TMCP/TA2A: Running MCP and A2A on TSP",
+        "title": "TMCP/TA2A: Running MCP and A2A over TSP",
+        "content": "TMCP/TA2A: Running MCP and A2A over TSP",
         "speakers": [
           {
             "id": "wenjing-chu",
             "name": "Wenjing Chu",
-            "roleOrg": "Senior Director of Technology Strategy, Futurewei",
+            "roleOrg": "Senior Director of Technology Strategy, Futurewei Technologies, Inc.",
             "tags": [
               "agentic-web"
             ],
@@ -1276,14 +1276,14 @@
       },
       {
         "date": "September 14",
-        "timeSlot": "14:35 - 15:10",
+        "timeSlot": "14:35 - 15:20",
         "title": "Self-Sovereign Identity and Trust Infrastructure for Agentic IA in Data Spaces",
         "content": "Self-Sovereign Identity and Trust Infrastructure for Agentic IA in Data Spaces",
         "speakers": [
           {
             "id": "jos-andrs-muoz-arcentales",
             "name": "José Andrés Muñoz Arcentales",
-            "roleOrg": "Associate Professor, Universidad Politecnica de Madrid",
+            "roleOrg": "Associate Professor, Universidad Politécnica de Madrid",
             "tags": [
               "agentic-web"
             ],
@@ -1300,7 +1300,7 @@
           {
             "id": "robin-shang",
             "name": "Robin Shang",
-            "roleOrg": "CTO, iTunel Technology",
+            "roleOrg": "CTO, iTunel Technology Ltd (Hong Kong)",
             "tags": [
               "agentic-web"
             ],
@@ -1311,13 +1311,13 @@
       {
         "date": "September 14",
         "timeSlot": "16:15 - 16:50",
-        "title": "High Performance Web Engine",
-        "content": "High Performance Web Engine",
+        "title": "High-Performance Web Engines",
+        "content": "High-Performance Web Engines",
         "speakers": [
           {
             "id": "martin-alvarez-espinar",
             "name": "Martin Alvarez Espinar",
-            "roleOrg": "Chair, W3C High Performance Web Engine Community Group",
+            "roleOrg": "Chair, High-Performance Web Engines CG, W3C",
             "tags": [
               "agentic-web"
             ],
@@ -1334,28 +1334,11 @@
           {
             "id": "guangzhen-li",
             "name": "Guangzhen Li",
-            "roleOrg": "Web Core Expert, Huawei",
+            "roleOrg": "Web Core Expert, HUAWEI",
             "tags": [
               "agentic-web"
             ],
             "image": "guangzhen-li.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Agent User Experience: How AG-UI Protocol Reshapes AI-Driven Interaction Experience",
-        "content": "Agent User Experience: How AG-UI Protocol Reshapes AI-Driven Interaction Experience",
-        "speakers": [
-          {
-            "id": "michael-tyler-slaton",
-            "name": "Michael Tyler Slaton",
-            "roleOrg": "Founding Engineer, CopilotKit",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "michael-tyler-slaton.png"
           }
         ]
       }

@@ -1091,8 +1091,8 @@
       {
         "date": "9月13日",
         "timeSlot": "10:50 - 11:25",
-        "title": "智能体协议：引领互联网迈向Agentic Web时代",
-        "content": "智能体协议：引领互联网迈向Agentic Web时代",
+        "title": "智能体协议：引领互联网迈向 Agentic Web 时代",
+        "content": "智能体协议：引领互联网迈向 Agentic Web 时代",
         "speakers": [
           {
             "id": "speaker-chang-gao-wei",
@@ -1141,9 +1141,9 @@
       },
       {
         "date": "9月13日",
-        "timeSlot": "14:35 - 15:10",
-        "title": "一种数据空间定义语言（DSDL），用于实现数据空间之间的互操作性，并支持与自主智能体AI生态系统的集成",
-        "content": "一种数据空间定义语言（DSDL），用于实现数据空间之间的互操作性，并支持与自主智能体AI生态系统的集成",
+        "timeSlot": "14:35 - 15:20",
+        "title": "一种数据空间定义语言（DSDL），用于实现数据空间之间的互操作性，并支持与自主智能体AI生态系统的集成。",
+        "content": "一种数据空间定义语言（DSDL），用于实现数据空间之间的互操作性，并支持与自主智能体AI生态系统的集成。",
         "speakers": [
           {
             "id": "joaquin-salvachua",
@@ -1159,8 +1159,8 @@
       {
         "date": "9月13日",
         "timeSlot": "15:40 - 16:15",
-        "title": "Agent就是你所需要的一切：使用 ADK、A2A、MCP 和 Agent Engine 构建智能体",
-        "content": "Agent就是你所需要的一切：使用 ADK、A2A、MCP 和 Agent Engine 构建智能体",
+        "title": "Agent is all you need：使用 ADK、A2A、MCP 和 Agent Engine 构建智能体",
+        "content": "Agent is all you need：使用 ADK、A2A、MCP 和 Agent Engine 构建智能体",
         "speakers": [
           {
             "id": "jennie-shi",
@@ -1277,7 +1277,7 @@
       },
       {
         "date": "9月14日",
-        "timeSlot": "14:35 - 15:10",
+        "timeSlot": "14:35 - 15:20",
         "title": "数据空间中面向智能体AI的自主主权身份和信任基础设施",
         "content": "数据空间中面向智能体AI的自主主权身份和信任基础设施",
         "speakers": [
@@ -1340,23 +1340,6 @@
               "agentic-web"
             ],
             "image": "guangzhen-li.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "智能体用户体验：AG-UI协议如何重塑AI驱动的交互体验",
-        "content": "智能体用户体验：AG-UI协议如何重塑AI驱动的交互体验",
-        "speakers": [
-          {
-            "id": "michael-tyler-slaton",
-            "name": "Michael Tyler Slaton",
-            "roleOrg": "创始工程师, CopilotKit",
-            "tags": [
-              "agentic-web"
-            ],
-            "image": "michael-tyler-slaton.png"
           }
         ]
       }
