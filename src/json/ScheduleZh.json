@@ -1673,13 +1673,13 @@
       {
         "date": "9月13日",
         "timeSlot": "10:15 - 10:50",
-        "title": "待定",
-        "content": "待定",
+        "title": "AI时代的创新教育",
+        "content": "AI时代的创新教育",
         "speakers": [
           {
             "id": "wang-jialiang",
             "name": "王佳梁",
-            "roleOrg": "待定",
+            "roleOrg": "上海交大工研院执行院长",
             "tags": [
               "ai-next"
             ],
@@ -1712,7 +1712,7 @@
         "speakers": [
           {
             "id": "alexandra-boucherifi-kornmann",
-            "name": "Alexandra Boucherifi-Kornmann",
+            "name": "Boucherifi-Kornmann",
             "roleOrg": "艺术家，增强主义创始人，欧洲人工智能与增强主义双年展创办人",
             "tags": [
               "ai-next"
@@ -1723,9 +1723,23 @@
       },
       {
         "date": "9月13日",
+        "timeSlot": "12:00 - 14:00",
+        "title": "午餐",
+        "content": "午餐",
+        "speakers": []
+      },
+      {
+        "date": "9月13日",
         "timeSlot": "14:00 - 14:20",
-        "title": "如何将人工智能技术融入未来的艺术领域",
-        "content": "如何将人工智能技术融入未来的艺术领域",
+        "title": "TBD",
+        "content": "TBD",
+        "speakers": []
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:20 - 14:40",
+        "title": "人工智能与传统艺术的跨学科融合研究",
+        "content": "人工智能与传统艺术的跨学科融合研究",
         "speakers": [
           {
             "id": "yichuan-yue",
@@ -1740,7 +1754,7 @@
       },
       {
         "date": "9月13日",
-        "timeSlot": "14:20 - 14:40",
+        "timeSlot": "14:40 - 15:00",
         "title": "SongEval：歌曲美学评价基准数据集",
         "content": "SongEval：歌曲美学评价基准数据集",
         "speakers": [
@@ -1766,41 +1780,7 @@
       },
       {
         "date": "9月13日",
-        "timeSlot": "14:40 - 15:00",
-        "title": "待定",
-        "content": "待定",
-        "speakers": [
-          {
-            "id": "tbd-1",
-            "name": "待定",
-            "roleOrg": "待定",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "9月13日",
         "timeSlot": "15:00 - 15:20",
-        "title": "Ventus OpenGPGPU 项目概述",
-        "content": "Ventus OpenGPGPU 项目概述",
-        "speakers": [
-          {
-            "id": "hu-he",
-            "name": "Hu He",
-            "roleOrg": "清华大学集成电路学院副教授",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "9月13日",
-        "timeSlot": "15:40 - 16:15",
         "title": "面向下一代游戏的AI驱动模型与数据压缩",
         "content": "面向下一代游戏的AI驱动模型与数据压缩",
         "speakers": [
@@ -1817,18 +1797,42 @@
       },
       {
         "date": "9月13日",
-        "timeSlot": "16:15 - 16:50",
-        "title": "大规模主权 AI：欧洲基础模型的数据管道与科研基础设施",
-        "content": "大规模主权 AI：欧洲基础模型的数据管道与科研基础设施",
+        "timeSlot": "15:20 - 15:40",
+        "title": "茶歇",
+        "content": "茶歇",
+        "speakers": []
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:40 - 16:15",
+        "title": "教育中的生成式人工智能：开源解决方案与挑战",
+        "content": "教育中的生成式人工智能：开源解决方案与挑战",
         "speakers": [
           {
-            "id": "nicolas-flores-herr",
-            "name": "Nicolas Flores Herr",
-            "roleOrg": "Fraunhofer IAIS 基础模型与生成式 AI 系统团队负责人",
+            "id": "salim-nahle",
+            "name": "Salim Nahle",
+            "roleOrg": "巴黎先贤祠-阿萨斯大学大学数据和人工智能院系总负责人，副教授",
             "tags": [
               "ai-next"
             ],
-            "image": "nicolas-flores-herr.jpg"
+            "image": "salim-nahle.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:15 - 16:50",
+        "title": "迈向可信与可复现：大模型开源开放分级体系构建",
+        "content": "迈向可信与可复现：大模型开源开放分级体系构建",
+        "speakers": [
+          {
+            "id": "wei-wang",
+            "name": "王伟",
+            "roleOrg": "奇点智能研究院开源技术委员会主任，华东师范大学数据科学与工程学院教授",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
           }
         ]
       },
@@ -1841,7 +1845,7 @@
           {
             "id": "karol-stryja",
             "name": "Karol Stryja",
-            "roleOrg": "《99 Faces of AI》播客 / Bielik.AI 创始人",
+            "roleOrg": "《99 Faces of AI》播客 / Bielik.AI创始人",
             "tags": [
               "ai-next"
             ],
@@ -1852,34 +1856,34 @@
       {
         "date": "9月14日",
         "timeSlot": "10:15 - 10:50",
-        "title": "AI产业范式转变的若干个核心命题",
-        "content": "AI产业范式转变的若干个核心命题",
-        "speakers": [
-          {
-            "id": "li-jian-zhong",
-            "name": "李建忠",
-            "roleOrg": "奇点智能研究院院长，CSDN高级副总裁",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "9月14日",
-        "timeSlot": "10:50 - 11:25",
         "title": "智能时代协同创新",
         "content": "智能时代协同创新",
         "speakers": [
           {
             "id": "speaker-shi-zhong-zhi",
             "name": "史忠植",
-            "roleOrg": "国际信息研究科学院院士",
+            "roleOrg": "中国人工智能学会会士，国际信息研究科学院院士，中国科学院计算技术研究所研究员",
             "tags": [
               "ai-next"
             ],
             "image": "speaker-shi-zhong-zhi.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:50 - 11:25",
+        "title": "大规模主权AI：欧洲基础模型的数据管道与科研基础设施",
+        "content": "大规模主权AI：欧洲基础模型的数据管道与科研基础设施",
+        "speakers": [
+          {
+            "id": "nicolas-flores-herr",
+            "name": "Nicolas Flores Herr",
+            "roleOrg": "Fraunhofer IAIS基础模型与生成式AI系统团队负责人",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "nicolas-flores-herr.jpg"
           }
         ]
       },
@@ -1902,9 +1906,16 @@
       },
       {
         "date": "9月14日",
+        "timeSlot": "12:00 - 14:00",
+        "title": "午餐",
+        "content": "午餐",
+        "speakers": []
+      },
+      {
+        "date": "9月14日",
         "timeSlot": "14:00 - 14:35",
-        "title": "站在新进化节点上 AGI与第二次认知革命",
-        "content": "站在新进化节点上 AGI与第二次认知革命",
+        "title": "迈向生物通用智能",
+        "content": "迈向生物通用智能",
         "speakers": [
           {
             "id": "kai-du",
@@ -1936,7 +1947,31 @@
       },
       {
         "date": "9月14日",
+        "timeSlot": "15:20 - 15:40",
+        "title": "茶歇",
+        "content": "茶歇",
+        "speakers": []
+      },
+      {
+        "date": "9月14日",
         "timeSlot": "15:40 - 16:15",
+        "title": "Ventus OpenGPGPU项目概览",
+        "content": "Ventus OpenGPGPU项目概览",
+        "speakers": [
+          {
+            "id": "hu-he",
+            "name": "何虎",
+            "roleOrg": "清华大学集成电路学院副教授",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "16:15 - 16:50",
         "title": "神经网络是否可以被严谨地解释清楚？Scaling Law是否会成为大模型永远的桎梏",
         "content": "神经网络是否可以被严谨地解释清楚？Scaling Law是否会成为大模型永远的桎梏",
         "speakers": [
@@ -1953,7 +1988,7 @@
       },
       {
         "date": "9月14日",
-        "timeSlot": "16:15 - 16:50",
+        "timeSlot": "16:50 - 17:25",
         "title": "大语言模型的“深度诅咒”",
         "content": "大语言模型的“深度诅咒”",
         "speakers": [
@@ -1965,23 +2000,6 @@
               "ai-next"
             ],
             "image": "shiwei-liu.jpg"
-          }
-        ]
-      },
-      {
-        "date": "9月14日",
-        "timeSlot": "16:50 - 17:25",
-        "title": "待定",
-        "content": "待定",
-        "speakers": [
-          {
-            "id": "sun-weijie",
-            "name": "孙伟杰",
-            "roleOrg": "深势科技",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
           }
         ]
       }

@@ -1672,13 +1672,13 @@
       {
         "date": "September 13",
         "timeSlot": "10:15 - 10:50",
-        "title": "TBD",
-        "content": "TBD",
+        "title": "Innovative Education in the AI Era",
+        "content": "Innovative Education in the AI Era",
         "speakers": [
           {
             "id": "wang-jialiang",
             "name": "Jialiang Wang",
-            "roleOrg": "TBD",
+            "roleOrg": "Executive Dean, Institute of Industrial Research, Shanghai Jiao Tong University",
             "tags": [
               "ai-next"
             ],
@@ -1695,7 +1695,7 @@
           {
             "id": "speaker-wei-wei",
             "name": "Wei Wei",
-            "roleOrg": "Popular Bilibili Art Creator “Youdian Yisi Oh”",
+            "roleOrg": "Popular Bilibili Art Creator \"Youdian Yisi Oh\"",
             "tags": [
               "ai-next"
             ],
@@ -1722,14 +1722,28 @@
       },
       {
         "date": "September 13",
+        "timeSlot": "12:00 - 14:00",
+        "title": "Lunch",
+        "content": "Lunch",
+        "speakers": []
+      },
+      {
+        "date": "September 13",
         "timeSlot": "14:00 - 14:20",
-        "title": "How to integrate artificial intelligence technology into the future art field",
-        "content": "How to integrate artificial intelligence technology into the future art field",
+        "title": "TBD",
+        "content": "TBD",
+        "speakers": []
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:20 - 14:40",
+        "title": "Interdisciplinary Research on the Integration of Artificial Intelligence and Traditional Art",
+        "content": "Interdisciplinary Research on the Integration of Artificial Intelligence and Traditional Art",
         "speakers": [
           {
             "id": "yichuan-yue",
             "name": "Yichuan Yue",
-            "roleOrg": "Artist, capital normal university",
+            "roleOrg": "Artist,  capital normal university",
             "tags": [
               "ai-next"
             ],
@@ -1739,14 +1753,14 @@
       },
       {
         "date": "September 13",
-        "timeSlot": "14:20 - 14:40",
+        "timeSlot": "14:40 - 15:00",
         "title": "SongEval: A Benchmark Dataset for Song Aesthetics Evaluation",
         "content": "SongEval: A Benchmark Dataset for Song Aesthetics Evaluation",
         "speakers": [
           {
             "id": "huixin-xue",
             "name": "Huixin Xue",
-            "roleOrg": "Ph.D. Candidate at Shanghai Conservatory of Music",
+            "roleOrg": "Ph.D. Candidate, Shanghai Conservatory of Music",
             "tags": [
               "ai-next"
             ],
@@ -1755,7 +1769,7 @@
           {
             "id": "jixun-yao",
             "name": "Jixun Yao",
-            "roleOrg": "Ph.D. Candidate at Northwestern Polytechnical University",
+            "roleOrg": "Ph.D. Candidate, Northwestern Polytechnical University",
             "tags": [
               "ai-next"
             ],
@@ -1765,41 +1779,7 @@
       },
       {
         "date": "September 13",
-        "timeSlot": "14:40 - 15:00",
-        "title": "TBD",
-        "content": "TBD",
-        "speakers": [
-          {
-            "id": "tbd-1",
-            "name": "TBD",
-            "roleOrg": "TBD",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "September 13",
         "timeSlot": "15:00 - 15:20",
-        "title": "Overview of Ventus OpenGPGPU Project",
-        "content": "Overview of Ventus OpenGPGPU Project",
-        "speakers": [
-          {
-            "id": "hu-he",
-            "name": "Hu He",
-            "roleOrg": "Associate professor, School of Integrated Circuits, Tsinghua University",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "September 13",
-        "timeSlot": "15:40 - 16:15",
         "title": "AI-Driven Model & Data Compression for Next-Generation Gaming",
         "content": "AI-Driven Model & Data Compression for Next-Generation Gaming",
         "speakers": [
@@ -1816,18 +1796,42 @@
       },
       {
         "date": "September 13",
-        "timeSlot": "16:15 - 16:50",
-        "title": "Large-Scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
-        "content": "Large-Scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
+        "timeSlot": "15:20 - 15:40",
+        "title": "Tea Break",
+        "content": "Tea Break",
+        "speakers": []
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:40 - 16:15",
+        "title": "Generative AI in education : Open source solutions and challenges.",
+        "content": "Generative AI in education : Open source solutions and challenges.",
         "speakers": [
           {
-            "id": "nicolas-flores-herr",
-            "name": "Nicolas Flores Herr",
-            "roleOrg": "Team Lead for Foundation Models and Generative AI Systems, Fraunhofer IAIS",
+            "id": "salim-nahle",
+            "name": "Salim Nahle",
+            "roleOrg": "Associate Professor, Head of the Department of Data and Artificial Intelligence, Panthéon-Assas University, Paris",
             "tags": [
               "ai-next"
             ],
-            "image": "nicolas-flores-herr.jpg"
+            "image": "salim-nahle.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:15 - 16:50",
+        "title": "Towards Trustworthy and Reproducible Large Models: An Open-Source Tiered Framework",
+        "content": "Towards Trustworthy and Reproducible Large Models: An Open-Source Tiered Framework",
+        "speakers": [
+          {
+            "id": "wei-wang",
+            "name": "Wei Wang",
+            "roleOrg": "Director of the Open Source Technology Committee, Singularity Intelligence Research Institute, Professor, East China Normal University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
           }
         ]
       },
@@ -1851,34 +1855,34 @@
       {
         "date": "September 14",
         "timeSlot": "10:15 - 10:50",
-        "title": "Several Core Propositions on the Paradigm Shift of the AI Industry",
-        "content": "Several Core Propositions on the Paradigm Shift of the AI Industry",
-        "speakers": [
-          {
-            "id": "li-jian-zhong",
-            "name": "Jason Li",
-            "roleOrg": "President, Singularity Intelligence Research Institute, Senior Vice President, CSDN",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "September 14",
-        "timeSlot": "10:50 - 11:25",
         "title": "Collaborative Innovation in the Age of Intelligence",
         "content": "Collaborative Innovation in the Age of Intelligence",
         "speakers": [
           {
             "id": "speaker-shi-zhong-zhi",
             "name": "Zhongzhi Shi",
-            "roleOrg": "Academician, The International Academy of Information Technology",
+            "roleOrg": "Fellow, The International Academy of Information Technology",
             "tags": [
               "ai-next"
             ],
             "image": "speaker-shi-zhong-zhi.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "10:50 - 11:25",
+        "title": "Sovereign AI at Scale: Data Pipelines and Research Infrastructures for European Foundation Models",
+        "content": "Sovereign AI at Scale: Data Pipelines and Research Infrastructures for European Foundation Models",
+        "speakers": [
+          {
+            "id": "nicolas-flores-herr",
+            "name": "Nicolas Flores Herr",
+            "roleOrg": "Team Lead Foundation Models & GenAI Systems, Fraunhofer IAIS",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "nicolas-flores-herr.jpg"
           }
         ]
       },
@@ -1901,9 +1905,16 @@
       },
       {
         "date": "September 14",
+        "timeSlot": "12:00 - 14:00",
+        "title": "Lunch",
+        "content": "Lunch",
+        "speakers": []
+      },
+      {
+        "date": "September 14",
         "timeSlot": "14:00 - 14:35",
-        "title": "Standing at a New Evolutionary Node: AGI and the Second Cognitive Revolution",
-        "content": "Standing at a New Evolutionary Node: AGI and the Second Cognitive Revolution",
+        "title": "Towards Biological General Intelligence",
+        "content": "Towards Biological General Intelligence",
         "speakers": [
           {
             "id": "kai-du",
@@ -1935,7 +1946,31 @@
       },
       {
         "date": "September 14",
+        "timeSlot": "15:20 - 15:40",
+        "title": "Tea Break",
+        "content": "Tea Break",
+        "speakers": []
+      },
+      {
+        "date": "September 14",
         "timeSlot": "15:40 - 16:15",
+        "title": "Overview of Ventus OpenGPGPU Project",
+        "content": "Overview of Ventus OpenGPGPU Project",
+        "speakers": [
+          {
+            "id": "hu-he",
+            "name": "Hu He",
+            "roleOrg": "Associate professor, School of Integrated Circuits, Tsinghua University",
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "16:15 - 16:50",
         "title": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become an Eternal Constraint for Large Models?",
         "content": "Can Neural Networks Be Rigorously Explained? Will Scaling Laws Become an Eternal Constraint for Large Models?",
         "speakers": [
@@ -1952,7 +1987,7 @@
       },
       {
         "date": "September 14",
-        "timeSlot": "16:15 - 16:50",
+        "timeSlot": "16:50 - 17:25",
         "title": "The Curse of Depth in Large Language Models",
         "content": "The Curse of Depth in Large Language Models",
         "speakers": [
@@ -1964,23 +1999,6 @@
               "ai-next"
             ],
             "image": "shiwei-liu.jpg"
-          }
-        ]
-      },
-      {
-        "date": "September 14",
-        "timeSlot": "16:50 - 17:25",
-        "title": "TBD",
-        "content": "TBD",
-        "speakers": [
-          {
-            "id": "sun-weijie",
-            "name": "Weijie Sun",
-            "roleOrg": "DP Technology",
-            "tags": [
-              "ai-next"
-            ],
-            "image": "0-placeholder-person.png"
           }
         ]
       }
