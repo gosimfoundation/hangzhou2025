@@ -2282,15 +2282,83 @@
     ],
     "ws-dora": [
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月14日",
+        "timeSlot": "10:15 - 10:35",
+        "title": "DORA-RS 高性能计算框架在具身机器人中的应用",
+        "content": "DORA-RS 高性能计算框架在具身机器人中的应用",
+        "speakers": [
+          {
+            "id": "ruping-ceng",
+            "name": "岑汝平",
+            "roleOrg": "重庆邮电大学博士",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:35 - 10:55",
+        "title": "Dora-rs用Rust赋能下一代机器人开发",
+        "content": "Dora-rs用Rust赋能下一代机器人开发",
+        "speakers": [
+          {
+            "id": "yang-li",
+            "name": "李扬",
+            "roleOrg": "Dora-rs开源机器人中间件社区技术专家",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "10:55 - 11:15",
+        "title": "Adora Robot和基于华为昇腾的dora数据平台",
+        "content": "Adora Robot和基于华为昇腾的dora数据平台",
+        "speakers": [
+          {
+            "id": "yiming-zhang",
+            "name": "张一鸣",
+            "roleOrg": "南开大学学生",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "11:15 - 11:35",
+        "title": "Dora 与 Isaacsim 的结合",
+        "content": "Dora 与 Isaacsim 的结合",
+        "speakers": [
+          {
+            "id": "baorui-lv",
+            "name": "吕宝瑞",
+            "roleOrg": "中国科学技术大学学生",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "11:35 - 11:55",
         "title": "基于OpenHarmony的Dora开发实践",
         "content": "基于OpenHarmony的Dora开发实践",
         "speakers": [
           {
             "id": "tao-li",
             "name": "李涛",
-            "roleOrg": "软件工程师, 深圳开鸿数字产业发展有限公司",
+            "roleOrg": "深圳开鸿数字产业发展有限公司软件工程师",
             "tags": [
               "ws-dora"
             ],
@@ -2299,32 +2367,22 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "面向数据流的机器人架构",
-        "content": "面向数据流的机器人架构",
-        "speakers": [
-          {
-            "id": "zhongjin-lu",
-            "name": "卢钟瑾",
-            "roleOrg": "DORA-RS实习开发工程师",
-            "tags": [
-              "ws-dora"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
+        "date": "9月14日",
+        "timeSlot": "12:00 - 14:00",
+        "title": "午餐",
+        "content": "午餐",
+        "speakers": []
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "DoRobot：集成 Dora 、ROS与LeRobot的容器化具身智能操作系统",
-        "content": "DoRobot：集成 Dora 、ROS与LeRobot的容器化具身智能操作系统",
+        "date": "9月14日",
+        "timeSlot": "14:00 - 14:20",
+        "title": "DoRobot：集成Dora、ROS与LeRobot的容器化具身智能操作系统",
+        "content": "DoRobot：集成Dora、ROS与LeRobot的容器化具身智能操作系统",
         "speakers": [
           {
-            "id": "xiang-yang-dora",
+            "id": "xiang-yang",
             "name": "杨翔",
-            "roleOrg": "算法工程师, BAAI",
+            "roleOrg": "北京智源人工智能研究院算法工程师",
             "tags": [
               "ws-dora"
             ],
@@ -2333,15 +2391,15 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月14日",
+        "timeSlot": "14:20 - 14:40",
         "title": "如何将项目从ROS切换到Dora",
         "content": "如何将项目从ROS切换到Dora",
         "speakers": [
           {
-            "id": "hu-you-hao-dora",
+            "id": "youhao-hu",
             "name": "胡友豪",
-            "roleOrg": "DORA-RS开发者",
+            "roleOrg": "江西理工大学学生",
             "tags": [
               "ws-dora"
             ],
@@ -2350,15 +2408,73 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "dora-rs用Rust赋能下一代机器人开发",
-        "content": "dora-rs用Rust赋能下一代机器人开发",
+        "date": "9月14日",
+        "timeSlot": "14:40 - 15:00",
+        "title": "如何使用 Dora-rs 从零开始制作一个 AI 机器人",
+        "content": "如何使用 Dora-rs 从零开始制作一个 AI 机器人",
         "speakers": [
           {
-            "id": "li-yang",
-            "name": "李扬",
-            "roleOrg": "技术专家, Dora社区",
+            "id": "zhongjin-lu",
+            "name": "卢钟瑾",
+            "roleOrg": "东南大学学生",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "15:00 - 15:20",
+        "title": "Dora接入与统一启动流程",
+        "content": "Dora接入与统一启动流程",
+        "speakers": [
+          {
+            "id": "yijun-chen",
+            "name": "陈毅俊",
+            "roleOrg": "南方科技大学学生",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "15:20 - 15:40",
+        "title": "茶歇",
+        "content": "茶歇",
+        "speakers": []
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "15:40 - 16:00",
+        "title": "分布式Dora的开发与探索",
+        "content": "分布式Dora的开发与探索",
+        "speakers": [
+          {
+            "id": "gege-wang",
+            "name": "王格格",
+            "roleOrg": "华为技术有限公司Dora开源贡献者",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "16:00 - 16:20",
+        "title": "开放生态中的创新与共建- Dora-rs 社区的活动与展望",
+        "content": "开放生态中的创新与共建- Dora-rs 社区的活动与展望",
+        "speakers": [
+          {
+            "id": "bob-ding",
+            "name": "丁心民",
+            "roleOrg": "Dora-rs 社区生态系统负责人",
             "tags": [
               "ws-dora"
             ],

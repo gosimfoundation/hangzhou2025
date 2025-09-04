@@ -2304,32 +2304,15 @@
     ],
     "ws-dora": [
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Dora Development Practice Based on OpenHarmony",
-        "content": "Dora Development Practice Based on OpenHarmony",
+        "date": "September 14",
+        "timeSlot": "10:15 - 10:35",
+        "title": "Application of the DORA-RS High-Performance Computing Framework in Embodied Robotics",
+        "content": "Application of the DORA-RS High-Performance Computing Framework in Embodied Robotics",
         "speakers": [
           {
-            "id": "tao-li",
-            "name": "Tao Li",
-            "roleOrg": "Software Engineer, Shenzhen Kaihong Digital Industry Development Co.,Ltd.",
-            "tags": [
-              "ws-dora"
-            ],
-            "image": "tao-li.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Data Flow-Oriented Robot Architecture",
-        "content": "Data Flow-Oriented Robot Architecture",
-        "speakers": [
-          {
-            "id": "zhongjin-lu",
-            "name": "Zhongjin Lu",
-            "roleOrg": "DORA-RS Intern Developer",
+            "id": "ruping-ceng",
+            "name": "Ruping Ceng",
+            "roleOrg": "Ph.D, Chongqing University of Posts and Telecommunications",
             "tags": [
               "ws-dora"
             ],
@@ -2338,13 +2321,88 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "DoRobot: Containerized Embodied Intelligence Operating System Integrating Dora, ROS and LeRobot",
-        "content": "DoRobot: Containerized Embodied Intelligence Operating System Integrating Dora, ROS and LeRobot",
+        "date": "September 14",
+        "timeSlot": "10:35 - 10:55",
+        "title": "Leveraging Rust, Dora-rs is empowering next-generation robotics development",
+        "content": "Leveraging Rust, Dora-rs is empowering next-generation robotics development",
         "speakers": [
           {
-            "id": "xiang-yang-dora",
+            "id": "yang-li",
+            "name": "Yang Li",
+            "roleOrg": "Developer, Dora-rs Open Source Project",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "10:55 - 11:15",
+        "title": "Adora Robot & Huawei Ascend-Based Dora Data Platform",
+        "content": "Adora Robot & Huawei Ascend-Based Dora Data Platform",
+        "speakers": [
+          {
+            "id": "yiming-zhang",
+            "name": "Yiming Zhang",
+            "roleOrg": "Student of Nankai University",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "11:15 - 11:35",
+        "title": "Integration of Dora with Isaacsim",
+        "content": "Integration of Dora with Isaacsim",
+        "speakers": [
+          {
+            "id": "baorui-lv",
+            "name": "Baorui Lv",
+            "roleOrg": "Student, University of Science and Technology of China",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "11:35 - 11:55",
+        "title": "Dora Development Practices on OpenHarmony",
+        "content": "Dora Development Practices on OpenHarmony",
+        "speakers": [
+          {
+            "id": "tao-li",
+            "name": "Tao Li",
+            "roleOrg": "Software Engineer, Shenzhen Kaihong Digital Industry Development Co., Ltd",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "tao-li.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "12:00 - 14:00",
+        "title": "Lunch",
+        "content": "Lunch",
+        "speakers": []
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "14:00 - 14:20",
+        "title": "DoRobot: A Containerized Embodied Intelligent Operating System Integrating Dora, ROS and LeRobot",
+        "content": "DoRobot: A Containerized Embodied Intelligent Operating System Integrating Dora, ROS and LeRobot",
+        "speakers": [
+          {
+            "id": "xiang-yang",
             "name": "Xiang Yang",
             "roleOrg": "Algorithm Engineer, BAAI",
             "tags": [
@@ -2355,15 +2413,15 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "How to Switch Projects from ROS to Dora",
-        "content": "How to Switch Projects from ROS to Dora",
+        "date": "September 14",
+        "timeSlot": "14:20 - 14:40",
+        "title": "How to Migrate a Project from ROS to Dora",
+        "content": "How to Migrate a Project from ROS to Dora",
         "speakers": [
           {
-            "id": "hu-you-hao-dora",
-            "name": "Hu Youhao",
-            "roleOrg": "DORA-RS Developer",
+            "id": "youhao-hu",
+            "name": "Youhao Hu",
+            "roleOrg": "Student, Jiangxi University of Science and Technology",
             "tags": [
               "ws-dora"
             ],
@@ -2372,15 +2430,73 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "dora-rs Empowering Next-Generation Robot Development with Rust",
-        "content": "dora-rs Empowering Next-Generation Robot Development with Rust",
+        "date": "September 14",
+        "timeSlot": "14:40 - 15:00",
+        "title": "How to Build an AI Robot from Scratch Using Dora-rs",
+        "content": "How to Build an AI Robot from Scratch Using Dora-rs",
         "speakers": [
           {
-            "id": "li-yang",
-            "name": "Li Yang",
-            "roleOrg": "Technical Expert, Dora Community",
+            "id": "zhongjin-lu",
+            "name": "Zhongjin Lu",
+            "roleOrg": "Student, Southeastern University",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "15:00 - 15:20",
+        "title": "Dora Integration and the Unified Launch Process",
+        "content": "Dora Integration and the Unified Launch Process",
+        "speakers": [
+          {
+            "id": "yijun-chen",
+            "name": "Yijun Chen",
+            "roleOrg": "Student of Southern University of Science and Technology",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "15:20 - 15:40",
+        "title": "Tea Break",
+        "content": "Tea Break",
+        "speakers": []
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "15:40 - 16:00",
+        "title": "Development and Exploration of Distributed Dora",
+        "content": "Development and Exploration of Distributed Dora",
+        "speakers": [
+          {
+            "id": "gege-wang",
+            "name": "Gege Wang",
+            "roleOrg": "Dora Contributor, Huawei Technology, Ltd.",
+            "tags": [
+              "ws-dora"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "16:00 - 16:20",
+        "title": "Innovation and Collaboration in the Open Ecosystem — The Dora-rs Community's Journey and Vision",
+        "content": "Innovation and Collaboration in the Open Ecosystem — The Dora-rs Community's Journey and Vision",
+        "speakers": [
+          {
+            "id": "bob-ding",
+            "name": "Bob Ding",
+            "roleOrg": "Head of Community Ecosystem, Dora-rs",
             "tags": [
               "ws-dora"
             ],
