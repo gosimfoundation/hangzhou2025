@@ -1,6 +1,7 @@
 ---
 // layouts
 import Layout from "layouts/LayoutLanding.astro"
+import HeroText from "components/HeroText.astro"
 
 // components
 import OpenStreetMap from "components/OpenStreetMap.astro"
@@ -41,15 +42,14 @@ const mapMarkers = [
   title="China Travel Essentials – GOSIM Hangzhou 2025"
   description="Information about traveling to GOSIM Hangzhou 2025"
 >
-  <section
-    class="section speaker-detail-header"
-    data-theme-section="light"
-    data-bg-section="light"
-  >
-    <div class="container">
-      <h1>China Essentials</h1>
-      <br /><br />
+  <HeroText
+    title="China Essentials"
+    text=""
+  />
 
+  <!-- Section 1: Before You Go -->
+  <section class="section speaker-detail-header" data-theme-section="light" data-bg-section="lightgray">
+    <div class="container">
       <h2>✈️ Before You Go</h2>
       <br />
       It is recommended to either install an eSIM application on your phone before
@@ -70,8 +70,12 @@ const mapMarkers = [
         <li>➤ eSIM app of your choice (if you plan to use eSIM)</li>
         <li>➤ VPN app of your choice (if you plan to use VPN)</li>
       </ul>
-      <br /><br />
+    </div>
+  </section>
 
+  <!-- Section 2: Internet & VPN -->
+  <section class="section speaker-detail-header" data-theme-section="light" data-bg-section="light">
+    <div class="container">
       <h2>📶 Internet & VPN</h2>
       <br />
       It is recommened to get an eSIM in order to use your mobile's data services
@@ -123,10 +127,10 @@ const mapMarkers = [
       Here are a list of VPN services that "should" work:
       <ul>
         <li>
-          ➤ <strong>Let's VPN</strong> - worked as of July.
-          It has a free trial period so you can make sure it works. After that, paid
-          service 1 week price is only $2.99. Client available on iOS, MacOS, Android
-          & Windows. (But 2 devices max)
+          ➤ <strong>Let's VPN</strong> - worked as of July. It has a free trial period
+          so you can make sure it works. After that, paid service 1 week price is
+          only $2.99. Client available on iOS, MacOS, Android & Windows. (But 2 devices
+          max)
         </li>
         <li>
           ➤ If you use International Roaming (i.e. Using a foreign SIM card with
@@ -137,8 +141,12 @@ const mapMarkers = [
           (not validated personally)
         </li>
       </ul>
-      <br /><br />
+    </div>
+  </section>
 
+  <!-- Section 3: Money & Payments -->
+  <section class="section speaker-detail-header" data-theme-section="light" data-bg-section="lightgray">
+    <div class="container">
       <h2>💶 Money & Payments</h2>
       <br />
       It's recommended to download the following apps ahead of time as they're very
@@ -185,7 +193,7 @@ const mapMarkers = [
           </ul>
         </li>
         <li>
-          •AliPay <strong>[Must Have]</strong>
+          ➤ AliPay <strong>[Must Have]</strong>
           <ul>
             <li>
               ➤ Alternative Payment method to WeChat (99% of busines supports
@@ -222,8 +230,12 @@ const mapMarkers = [
       If you have WeChat and/or Alipay setup ahead of time (registered and added
       your own credit cards), most of the time, there's no need to carry or use cash
       (RMB) in China.
-      <br /><br />
+    </div>
+  </section>
 
+  <!-- Section 4: Getting Around & Tourism -->
+  <section class="section speaker-detail-header" data-theme-section="light" data-bg-section="light">
+    <div class="container">
       <h2>📍 Getting Around</h2>
       <br />
       To get around in the city, you may use either public transport, or use an Uber-like
@@ -251,123 +263,122 @@ const mapMarkers = [
             </li>
           </ul>
         </li>
-        <br />
+      </ul>
+      <br />
 
-        <h3>Navigation Apps</h3>
-        <br />
-        Although Google Maps works if you're using VPN, the map may not be as accurate,
-        and there may not be as much local data.
-        <br />
-        Alternative, Apple Maps works well in China. But the best ones are Gaode
-        and Baidu Maps for local map and navigation.
-        <ul>
-          <li>➤ Gaode Maps 高德地图</li>
-          <li>➤ Baidu Maps 百度地图</li>
-        </ul>
-        <br />
+      <h3>Navigation Apps</h3>
+      <br />
+      Although Google Maps works if you're using VPN, the map may not be as accurate,
+      and there may not be as much local data.
+      <br />
+      Alternative, Apple Maps works well in China. But the best ones are Gaode
+      and Baidu Maps for local map and navigation.
+      <ul>
+        <li>➤ Gaode Maps 高德地图</li>
+        <li>➤ Baidu Maps 百度地图</li>
+      </ul>
+      <br />
 
-        <h3>Tourism</h3>
-        <br />
-        China is huge, so varieties of places to visit is vast. It all depends on
-        what type of places you'd like to see. There are tons of world heritage sites
-        and history places, as well as natural scenary to be seen. Here are some
-        ideas.
-        <ul>
-          <li>
-            ➤ <a
-              href="https://www.tripadvisor.com/Attractions-g298559-Activities-Hangzhou_Zhejiang.html"
-              >Tripadvisor: Things to Do in Hangzhou</a
-            >
-          </li>
-          <li>
-            ➤ <a
-              href="https://www.lonelyplanet.com/destinations/china/zhejiang/hangzhou"
-              >Lonely Planets: Hangzhou</a
-            >
-          </li>
-          <li>
-            ➤ <a href="https://www.instagram.com/hangzhou_guide/"
-              >Instagram: Hangzhou Guide</a
-            >
-          </li>
-          <li>
-            ➤ <a href="https://www.instagram.com/hangzhou_china/"
-              >Instagram: Hangzhou China</a
-            >
-          </li>
-          <li>
-            ➤ <a href="https://www.instagram.com/china.travels/"
-              >Instagram: China Travels</a
-            >
-          </li>
-        </ul>
-        <br />
+      <h3>Tourism</h3>
+      <br />
+      China is huge, so varieties of places to visit is vast. It all depends on
+      what type of places you'd like to see. There are tons of world heritage sites
+      and history places, as well as natural scenary to be seen. Here are some
+      ideas.
+      <ul>
+        <li>
+          ➤ <a
+            href="https://www.tripadvisor.com/Attractions-g298559-Activities-Hangzhou_Zhejiang.html"
+            >Tripadvisor: Things to Do in Hangzhou</a
+          >
+        </li>
+        <li>
+          ➤ <a
+            href="https://www.lonelyplanet.com/destinations/china/zhejiang/hangzhou"
+            >Lonely Planets: Hangzhou</a
+          >
+        </li>
+        <li>
+          ➤ <a href="https://www.instagram.com/hangzhou_guide/"
+            >Instagram: Hangzhou Guide</a
+          >
+        </li>
+        <li>
+          ➤ <a href="https://www.instagram.com/hangzhou_china/"
+            >Instagram: Hangzhou China</a
+          >
+        </li>
+        <li>
+          ➤ <a href="https://www.instagram.com/china.travels/"
+            >Instagram: China Travels</a
+          >
+        </li>
+      </ul>
+      <br />
 
-        <h3>Attractions in and around Hangzhou:</h3>
-        <br />
-        <ul>
-          <li>➤ West Lake (西湖)</li>
-          <li>➤ Lingyin Temple (灵隐寺)</li>
-          <li>➤ Leifeng Pagoda (雷峰塔)</li>
-          <li>➤ Xixi National Wetland Park (西溪国家湿地公园)</li>
-          <li>➤ Hefang Street (河坊街)</li>
-          <li>➤ Longjing Tea Plantations (龙井茶园)</li>
-          <li>➤ China National Silk Museum (中国丝绸博物馆)</li>
-          <li>➤ Grand Canal (京杭大运河)</li>
-        </ul>
+      <h3>Attractions in and around Hangzhou:</h3>
+      <br />
+      <ul>
+        <li>➤ West Lake (西湖)</li>
+        <li>➤ Lingyin Temple (灵隐寺)</li>
+        <li>➤ Leifeng Pagoda (雷峰塔)</li>
+        <li>➤ Xixi National Wetland Park (西溪国家湿地公园)</li>
+        <li>➤ Hefang Street (河坊街)</li>
+        <li>➤ Longjing Tea Plantations (龙井茶园)</li>
+        <li>➤ China National Silk Museum (中国丝绸博物馆)</li>
+        <li>➤ Grand Canal (京杭大运河)</li>
       </ul>
     </div>
-
-    <section
-      class="section section-big-image"
-      data-theme-section="light"
-      data-bg-section="lightgray"
-    >
-      <div class="container wide" id="china-essentials-map">
-        <div class="row">
-          <div class="col">
-            <OpenStreetMap
-              mapCenter={{ latitude: 30.172599, longitude: 120.102973 }}
-              mapZoom={10}
-              markers={mapMarkers}
-              height="350px"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section
-      class="section section-location-info"
-      data-theme-section="light"
-      data-bg-section="lightgray"
-    >
-      <div class="container wide">
-        <div class="row grid">
-          <div class="col col-info">
-            <div class="location-flex">
-              <p>{subtitle}</p>
-              <h2>{title}</h2>
-              <p>{location}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <style>
-      /* Increase specificity to override resets */
-      .container ul {
-        list-style-type: disc !important;
-        margin-left: 1em !important;
-        padding-left: 0 !important;
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
-      }
-      .container ul li::marker {
-        color: #222;
-        font-size: 1em;
-      }
-    </style>
   </section>
+
+  <section
+    class="section section-big-image"
+    data-theme-section="light"
+    data-bg-section="lightgray"
+  >
+    <div class="container wide" id="china-essentials-map">
+      <div class="row">
+        <div class="col">
+          <OpenStreetMap
+            mapCenter={{ latitude: 30.172599, longitude: 120.102973 }}
+            mapZoom={10}
+            markers={mapMarkers}
+            height="350px"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="section section-location-info"
+    data-theme-section="light"
+    data-bg-section="lightgray"
+  >
+    <div class="container wide">
+      <div class="row grid">
+        <div class="col col-info">
+          <div class="location-flex">
+            <p>{subtitle}</p>
+            <h2>{title}</h2>
+            <p>{location}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .container ul {
+      list-style-type: disc !important;
+      margin-left: 1em !important;
+      padding-left: 0 !important;
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+    }
+    .container ul li::marker {
+      color: #222;
+      font-size: 1em;
+    }
+  </style>
 </Layout>
