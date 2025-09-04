@@ -179,7 +179,7 @@
             "tags": [
               "open-for-sdg"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "nooman-fehri.jpg"
           }
         ]
       },
@@ -196,7 +196,7 @@
             "tags": [
               "open-for-sdg"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "minghui-zhou.jpg"
           }
         ]
       },
@@ -213,7 +213,7 @@
             "tags": [
               "open-for-sdg"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "mohamed-farahat.jpg"
           }
         ]
       },
@@ -230,7 +230,7 @@
             "tags": [
               "open-for-sdg"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "walid-mathlouthi.jpg"
           }
         ]
       },
@@ -247,7 +247,7 @@
             "tags": [
               "open-for-sdg"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "xinwei-hu.jpeg"
           }
         ]
       }
@@ -266,7 +266,7 @@
             "tags": [
               "forum-aivision"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "xiaohu-zhu.png"
           }
         ]
       },
@@ -283,7 +283,7 @@
             "tags": [
               "forum-aivision"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "salim-nahle.jpg"
           }
         ]
       },
@@ -400,7 +400,7 @@
           {
             "id": "guang-liu",
             "name": "Guang Liu",
-            "roleOrg": "Technical Lead, BAAI Data Research Team, OpenSeek Project Lead",
+            "roleOrg": "Technical Lead of Data Research Team, BAAI",
             "tags": [
               "ai-models-infra"
             ],
@@ -411,30 +411,30 @@
       {
         "date": "September 13",
         "timeSlot": "10:50 - 11:25",
-        "title": "Engine and Furnace: Building Customized PyTorch Framework on Supercomputers",
-        "content": "Engine and Furnace: Building Customized PyTorch Framework on Supercomputers",
+        "title": "The Engine and the Forge: Building a Custom PyTorch Framework on a Supercomputer",
+        "content": "The Engine and the Forge: Building a Custom PyTorch Framework on a Supercomputer",
         "speakers": [
           {
             "id": "krzysztof-ociepa",
             "name": "Krzysztof Ociepa",
-            "roleOrg": "Core Team Member, Bielik.AI",
+            "roleOrg": "Core Team Member of Bielik.AI",
             "tags": [
               "ai-models-infra"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "krzysztof-ociepa.jpeg"
           }
         ]
       },
       {
         "date": "September 13",
         "timeSlot": "11:25 - 12:00",
-        "title": "Khronos' Role in Standardizing AI Acceleration: AI Ecosystem Research Project Discoveries",
-        "content": "Khronos' Role in Standardizing AI Acceleration: AI Ecosystem Research Project Discoveries",
+        "title": "Khronos's Role in Standardizing AI Acceleration: Findings from the AI Ecosystem Research Project",
+        "content": "Khronos's Role in Standardizing AI Acceleration: Findings from the AI Ecosystem Research Project",
         "speakers": [
           {
             "id": "markus-tavenrath",
             "name": "Markus Tavenrath",
-            "roleOrg": "Principal Engineer Developer Technology, NVIDIA",
+            "roleOrg": "Principal Engineer Developer Technology of NVIDIA",
             "tags": [
               "ai-models-infra"
             ],
@@ -445,30 +445,30 @@
       {
         "date": "September 13",
         "timeSlot": "14:00 - 14:20",
-        "title": "Unleashing GenAI Inference Capabilities at Scale: Deep Analysis of the llm-d Project",
-        "content": "Unleashing GenAI Inference Capabilities at Scale: Deep Analysis of the llm-d Project",
+        "title": "Open-Source Ecosystem of the GLM-4.5 Series Models",
+        "content": "Open-Source Ecosystem of the GLM-4.5 Series Models",
         "speakers": [
           {
-            "id": "vincent-caldeira",
-            "name": "Vincent Caldeira",
-            "roleOrg": "CTO, Red Hat APAC",
+            "id": "yuxuan-zhang",
+            "name": "Yuxuan Zhang",
+            "roleOrg": "Technical Evangelist of Z.AI, Member of GLM-4.5 / GLM-4.5V",
             "tags": [
               "ai-models-infra"
             ],
-            "image": "vincent-caldeira.jpeg"
+            "image": "yuxuan-zhang.jpg"
           }
         ]
       },
       {
         "date": "September 13",
         "timeSlot": "14:20 - 14:40",
-        "title": "Ant AI Gateway - Large-scale Online Inference Service Cluster Performance Optimization Practice",
-        "content": "Ant AI Gateway - Large-scale Online Inference Service Cluster Performance Optimization Practice",
+        "title": "Ant AI Gateway - A Practical Guide to Optimizing Performance in Large-Scale Online Inference Service Clusters",
+        "content": "Ant AI Gateway - A Practical Guide to Optimizing Performance in Large-Scale Online Inference Service Clusters",
         "speakers": [
           {
             "id": "zhu-de-jiang",
-            "name": "Zhu Dejiang",
-            "roleOrg": "Technical Expert, Ant Group Network Team, Mooncake Core Member / Envoy Golang Maintainer",
+            "name": "Dejiang Zhu",
+            "roleOrg": "Technical Expert of Ant Group's Network Team, Core Member of Mooncake, Maintainer of Envoy Golang Extension",
             "tags": [
               "ai-models-infra"
             ],
@@ -479,13 +479,13 @@
       {
         "date": "September 13",
         "timeSlot": "14:40 - 15:00",
-        "title": "Building Next-Generation AI Infrastructure Smart Device Management Platform based on openUBMC",
-        "content": "Building Next-Generation AI Infrastructure Smart Device Management Platform based on openUBMC",
+        "title": "Building the Next-Generation AI Infrastructure Device Manageability Based on openUBMC",
+        "content": "Building the Next-Generation AI Infrastructure Device Manageability Based on openUBMC",
         "speakers": [
           {
             "id": "zhang-yubo",
             "name": "Yubo Zhang",
-            "roleOrg": "Technical Committee Member, openUBMC Community",
+            "roleOrg": "Member of the openUBMC Technical Committee",
             "tags": [
               "ai-models-infra"
             ],
@@ -496,13 +496,13 @@
       {
         "date": "September 13",
         "timeSlot": "15:00 - 15:20",
-        "title": "Empowering Cloud-Native Inference: Solving Large-Scale LLM Deployment Challenges with the Volcano Scheduler",
-        "content": "Empowering Cloud-Native Inference: Solving Large-Scale LLM Deployment Challenges with the Volcano Scheduler",
+        "title": "Empowering Cloud-Native AI: Solving Large-Scale LLM Deployment Challenges with the Volcano Scheduler",
+        "content": "Empowering Cloud-Native AI: Solving Large-Scale LLM Deployment Challenges with the Volcano Scheduler",
         "speakers": [
           {
             "id": "chen-zicong",
-            "name": "Chen Zicong",
-            "roleOrg": "R&D Engineer, Huawei Cloud",
+            "name": "Zicong Chen",
+            "roleOrg": "Huawei Cloud R&D Engineer, Volcano Reviewer, lws Contributor",
             "tags": [
               "ai-models-infra"
             ],
@@ -513,13 +513,13 @@
       {
         "date": "September 13",
         "timeSlot": "15:40 - 16:15",
-        "title": "verl: Open Source LLM Reinforcement Learning Framework for Agent Tasks",
-        "content": "verl: Open Source LLM Reinforcement Learning Framework for Agent Tasks",
+        "title": "verl: An Open-Source LLM Reinforcement Learning Framework for Agent-Oriented Training",
+        "content": "verl: An Open-Source LLM Reinforcement Learning Framework for Agent-Oriented Training",
         "speakers": [
           {
             "id": "speaker-chen-hai-quan",
             "name": "Haiquan Chen",
-            "roleOrg": "Developer, ByteDance",
+            "roleOrg": "Developer of ByteDance",
             "tags": [
               "ai-models-infra"
             ],
@@ -530,13 +530,13 @@
       {
         "date": "September 13",
         "timeSlot": "16:15 - 16:50",
-        "title": "Ascend High-Throughput Speculative Inference Framework Omni-Infer",
-        "content": "Ascend High-Throughput Speculative Inference Framework Omni-Infer",
+        "title": "Omni-Infer: Ascend High-Throughput Speculative Inference Framework",
+        "content": "Omni-Infer: Ascend High-Throughput Speculative Inference Framework",
         "speakers": [
           {
             "id": "ding-yi-bin",
-            "name": "Ding Yibin",
-            "roleOrg": "Expert, Huawei 2012 Labs Central Research Institute Theory Research Department",
+            "name": "Yibin Ding",
+            "roleOrg": "Expert, Theoretical Research Department, Central Research Institute, Huawei 2012 Labs",
             "tags": [
               "ai-models-infra"
             ],
@@ -553,7 +553,7 @@
           {
             "id": "aurlienmorgan-claudon",
             "name": "Aurélien-Morgan CLAUDON",
-            "roleOrg": "Senior MLOps Lead, Unaffiliated",
+            "roleOrg": "Senior MLOps Lead",
             "tags": [
               "ai-models-infra"
             ],
@@ -564,13 +564,13 @@
       {
         "date": "September 14",
         "timeSlot": "10:15 - 10:50",
-        "title": "Large Model Training and Inference Optimization Platform for Domestic Intelligent Computing Power",
-        "content": "Large Model Training and Inference Optimization Platform for Domestic Intelligent Computing Power",
+        "title": "Large Model Training and Inference Optimization Platform for Indigenous Intelligent Computing Power",
+        "content": "Large Model Training and Inference Optimization Platform for Indigenous Intelligent Computing Power",
         "speakers": [
           {
             "id": "he-wan-qing",
-            "name": "He Wanqing",
-            "roleOrg": "VP, CIO, Qingcheng Jizhi",
+            "name": "Wanqing He",
+            "roleOrg": "VP of Qingcheng.ai",
             "tags": [
               "ai-models-infra"
             ],
@@ -587,7 +587,7 @@
           {
             "id": "kaichao-you",
             "name": "Kaichao You",
-            "roleOrg": "Core Maintainer, vLLM",
+            "roleOrg": "Core Maintainer of vLLM",
             "tags": [
               "ai-models-infra"
             ],
@@ -598,13 +598,13 @@
       {
         "date": "September 14",
         "timeSlot": "11:25 - 12:00",
-        "title": "Ant Group's Multimodal Large Model Practice",
-        "content": "Ant Group's Multimodal Large Model Practice",
+        "title": "Multimodal Large Language Model Practices at Ant Group",
+        "content": "Multimodal Large Language Model Practices at Ant Group",
         "speakers": [
           {
             "id": "jingdong-chen",
             "name": "Jingdong Chen",
-            "roleOrg": "Senior Algorithm Expert, Ant Group",
+            "roleOrg": "Senior Algorithm Expert of Ant Group",
             "tags": [
               "ai-models-infra"
             ],
@@ -615,30 +615,30 @@
       {
         "date": "September 14",
         "timeSlot": "14:00 - 14:20",
-        "title": "ZhipuAI Model Introduction and Open Source Ecosystem",
-        "content": "ZhipuAI Model Introduction and Open Source Ecosystem",
+        "title": "Unleashing GenAI Inference at Scale: A Deep Dive into the llm-d Project",
+        "content": "Unleashing GenAI Inference at Scale: A Deep Dive into the llm-d Project",
         "speakers": [
           {
-            "id": "yuxuan-zhang",
-            "name": "Yuxuan Zhang",
-            "roleOrg": "Engineer, ZhipuAI, CogVideoX Project Contributor",
+            "id": "vincent-caldeira",
+            "name": "Vincent Caldeira",
+            "roleOrg": "CTO of Red Hat APAC",
             "tags": [
               "ai-models-infra"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "vincent-caldeira.jpeg"
           }
         ]
       },
       {
         "date": "September 14",
         "timeSlot": "14:20 - 14:40",
-        "title": "SGLang enabling MindSpore Framework Solution",
-        "content": "SGLang enabling MindSpore Framework Solution",
+        "title": "SGLang enabling MindSpore Framework",
+        "content": "SGLang enabling MindSpore Framework",
         "speakers": [
           {
             "id": "wang-tiance",
             "name": "Tiance Wang",
-            "roleOrg": "Software Architect, Huawei",
+            "roleOrg": "Software Architect of Huawei",
             "tags": [
               "ai-models-infra"
             ],
@@ -655,7 +655,7 @@
           {
             "id": "paul-yang",
             "name": "Paul Yang",
-            "roleOrg": "ML Infra at Runhouse",
+            "roleOrg": "ML Infra of Runhouse",
             "tags": [
               "ai-models-infra"
             ],
@@ -666,13 +666,13 @@
       {
         "date": "September 14",
         "timeSlot": "15:00 - 15:20",
-        "title": "AIKG: AI-Driven Kernel Generator",
-        "content": "AIKG: AI-Driven Kernel Generator",
+        "title": "AIKG: AI Driven Kernel Generator",
+        "content": "AIKG: AI Driven Kernel Generator",
         "speakers": [
           {
             "id": "renwei-zhang",
             "name": "Renwei Zhang",
-            "roleOrg": "AI Compiler Expert, Huawei",
+            "roleOrg": "AI Compiler Expert of Huawei",
             "tags": [
               "ai-models-infra"
             ],
@@ -689,7 +689,7 @@
           {
             "id": "xuan-son-nguyen",
             "name": "Xuan Son Nguyen",
-            "roleOrg": "Software Engineer, Hugging Face",
+            "roleOrg": "Software Engineer of Hugging Face",
             "tags": [
               "ai-models-infra"
             ],
@@ -706,11 +706,11 @@
           {
             "id": "richard-reiner",
             "name": "Richard REINER",
-            "roleOrg": "Board Member and Advisor, Procero AI",
+            "roleOrg": "Board Member and Advisor of Procero AI",
             "tags": [
               "ai-models-infra"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "richard-reiner.jpg"
           }
         ]
       },
@@ -723,28 +723,11 @@
           {
             "id": "jingya-huang",
             "name": "Jingya Huang",
-            "roleOrg": "Machine Learning Engineer, Hugging Face",
+            "roleOrg": "Machine Learning Engineer of Hugging Face",
             "tags": [
               "ai-models-infra"
             ],
             "image": "jingya-huang.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Large-scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
-        "content": "Large-scale Sovereign AI: Data Pipelines and Research Infrastructure for European Foundation Models",
-        "speakers": [
-          {
-            "id": "nicolas-flores-herr",
-            "name": "Nicolas Flores Herr",
-            "roleOrg": "Team Lead Foundation Models & Generative AI Systems, Fraunhofer IAIS",
-            "tags": [
-              "ai-models-infra"
-            ],
-            "image": "0-placeholder-person.png"
           }
         ]
       }
@@ -823,7 +806,7 @@
             "tags": [
               "embodied-ai"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "mashengyue.jpg"
           },
           {
             "id": "speaker-yin-yun-peng",
@@ -928,7 +911,7 @@
             "tags": [
               "embodied-ai"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "mashengyue.jpg"
           }
         ]
       },
@@ -1013,7 +996,7 @@
             "tags": [
               "embodied-ai"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "yuyuan-yuan.jpg"
           }
         ]
       },
@@ -1047,7 +1030,7 @@
             "tags": [
               "embodied-ai"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "yongsen-mao.jpg"
           }
         ]
       },
@@ -1134,7 +1117,7 @@
             "tags": [
               "agentic-web"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "manuel-rego.jpg"
           }
         ]
       },
@@ -1185,7 +1168,7 @@
             "tags": [
               "agentic-web"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "jennie-shi.jpeg"
           }
         ]
       },
@@ -1253,7 +1236,7 @@
             "tags": [
               "agentic-web"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "markus-sabadello.jpg"
           }
         ]
       },
@@ -1270,7 +1253,7 @@
             "tags": [
               "agentic-web"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "chunhui-mo.jpg"
           }
         ]
       },
@@ -1287,7 +1270,7 @@
             "tags": [
               "agentic-web"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "wenjing-chu.png"
           }
         ]
       },
@@ -1355,7 +1338,7 @@
             "tags": [
               "agentic-web"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "guangzhen-li.png"
           }
         ]
       },
@@ -1372,7 +1355,7 @@
             "tags": [
               "agentic-web"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "michael-tyler-slaton.png"
           }
         ]
       }
@@ -1385,9 +1368,9 @@
         "content": "Coze, Reshaping Productivity with Agents",
         "speakers": [
           {
-            "id": "wang-xin-meng",
+            "id": "wang-xinmeng",
             "name": "Wang Xinmeng",
-            "roleOrg": "Technical Lead, ByteDance Coze Compass",
+            "roleOrg": "Technical Lead, Coze Compass, ByteDance",
             "tags": [
               "apps-agents"
             ],
@@ -1402,9 +1385,9 @@
         "content": "2025 Large Model Service Performance Rankings",
         "speakers": [
           {
-            "id": "zhai-ji-dong",
+            "id": "zhai-jidong",
             "name": "Zhai Jidong",
-            "roleOrg": "Tenured Professor, Department of Computer Science, Tsinghua University, Director of High Performance Institute",
+            "roleOrg": "Tenured Professor, Department of Computer Science, Tsinghua University; Director of the Institute of High Performance Computing",
             "tags": [
               "apps-agents"
             ],
@@ -1432,23 +1415,6 @@
       {
         "date": "September 13",
         "timeSlot": "14:00 - 14:20",
-        "title": "Accelerating Enterprise AI Adoption: A Practical Path to Low-Cost, High-Efficiency, Seamless Integration",
-        "content": "Accelerating Enterprise AI Adoption: A Practical Path to Low-Cost, High-Efficiency, Seamless Integration",
-        "speakers": [
-          {
-            "id": "ruoyu-ying",
-            "name": "Ruoyu Ying",
-            "roleOrg": "Cloud Software Engineer, Intel",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "ruoyu-ying.jpg"
-          }
-        ]
-      },
-      {
-        "date": "September 13",
-        "timeSlot": "14:20 - 14:40",
         "title": "SPEAR - A Scalable and Distributed AI Agents Framework Across Edge and Cloud",
         "content": "SPEAR - A Scalable and Distributed AI Agents Framework Across Edge and Cloud",
         "speakers": [
@@ -1465,7 +1431,7 @@
       },
       {
         "date": "September 13",
-        "timeSlot": "14:40 - 15:00",
+        "timeSlot": "14:20 - 14:40",
         "title": "MonkeyCode-Open-Source AI code assistant",
         "content": "MonkeyCode-Open-Source AI code assistant",
         "speakers": [
@@ -1482,7 +1448,7 @@
       },
       {
         "date": "September 13",
-        "timeSlot": "15:00 - 15:20",
+        "timeSlot": "14:40 - 15:00",
         "title": "How to Use AI to Create AI, How Agents Interact with the World",
         "content": "How to Use AI to Create AI, How Agents Interact with the World",
         "speakers": [
@@ -1499,31 +1465,48 @@
       },
       {
         "date": "September 13",
-        "timeSlot": "15:40 - 16:15",
-        "title": "5ire: From Zero to One of an Open Source AI Project",
-        "content": "5ire: From Zero to One of an Open Source AI Project",
+        "timeSlot": "15:00 - 15:20",
+        "title": "HarmonyOS Industry Innovation Solution: Building a More Intelligent Application Service Experience",
+        "content": "HarmonyOS Industry Innovation Solution: Building a More Intelligent Application Service Experience",
         "speakers": [
           {
-            "id": "speaker-liu-nan-bing",
-            "name": "Liu Nanbing",
-            "roleOrg": "CTO, Sichuan Jiaozi Interactive Technology Co., Ltd.",
+            "id": "hugejile",
+            "name": "hugejile",
+            "roleOrg": "Advisory Operation Manager, Huawei",
             "tags": [
               "apps-agents"
             ],
-            "image": "speaker-liu-nan-bing.jpg"
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:40 - 16:15",
+        "title": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
+        "content": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
+        "speakers": [
+          {
+            "id": "evan-fannin",
+            "name": "Evan Fannin",
+            "roleOrg": "Founding Engineer at Cline",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
           }
         ]
       },
       {
         "date": "September 13",
         "timeSlot": "16:15 - 16:50",
-        "title": "Context engineering that sticks: drop the reranker, add memory, one architecture from rag search to robot action",
-        "content": "Context engineering that sticks: drop the reranker, add memory, one architecture from rag search to robot action",
+        "title": "End-to-end AI chat and translation system on local devices",
+        "content": "End-to-end AI chat and translation system on local devices",
         "speakers": [
           {
-            "id": "dandjinou-charbel",
-            "name": "DANDJINOU Charbel",
-            "roleOrg": "AI Research & MLOps Engineer, Exel industries | EXXACT robotics",
+            "id": "yanzhi-wang",
+            "name": "Yanzhi Wang",
+            "roleOrg": "Professor, Northeastern University",
             "tags": [
               "apps-agents"
             ],
@@ -1534,13 +1517,13 @@
       {
         "date": "September 13",
         "timeSlot": "16:50 - 17:25",
-        "title": "TBD",
-        "content": "TBD",
+        "title": "5ire: From Zero to One for an Open Source AI Project",
+        "content": "5ire: From Zero to One for an Open Source AI Project",
         "speakers": [
           {
-            "id": "zhao-weiqi",
-            "name": "Zhao Weiqi",
-            "roleOrg": "Rokid",
+            "id": "liu-nanbing",
+            "name": "Liu Nanbing",
+            "roleOrg": "CTO, Sichuan Jiaozi Interactive Technology Co., Ltd.",
             "tags": [
               "apps-agents"
             ],
@@ -1551,13 +1534,13 @@
       {
         "date": "September 14",
         "timeSlot": "10:15 - 10:50",
-        "title": "kOS: Next-Generation Autonomous Intelligence System",
-        "content": "kOS: Next-Generation Autonomous Intelligence System",
+        "title": "kOS: The Next Generation of Autonomous Intelligent Systems",
+        "content": "kOS: The Next Generation of Autonomous Intelligent Systems",
         "speakers": [
           {
-            "id": "han-hong-ying",
+            "id": "han-hongying",
             "name": "Han Hongying",
-            "roleOrg": "Technical Researcher, Hangzhou Bange Yuzhou Technology Co., Ltd.",
+            "roleOrg": "Technology Researcher, Hangzhou Half Universe Technology Co., Ltd.",
             "tags": [
               "apps-agents"
             ],
@@ -1568,17 +1551,17 @@
       {
         "date": "September 14",
         "timeSlot": "10:50 - 11:25",
-        "title": "Building AI Personalized Memory Operating Systems",
-        "content": "Building AI Personalized Memory Operating Systems",
+        "title": "The Construction of AI Personalized Memory Operating System",
+        "content": "The Construction of AI Personalized Memory Operating System",
         "speakers": [
           {
-            "id": "speaker-bai-ting",
+            "id": "bai-ting",
             "name": "Bai Ting",
             "roleOrg": "Associate Professor, Beijing University of Posts and Telecommunications",
             "tags": [
               "apps-agents"
             ],
-            "image": "speaker-bai-ting.jpg"
+            "image": "0-placeholder-person.png"
           }
         ]
       },
@@ -1591,7 +1574,7 @@
           {
             "id": "xiang-ying",
             "name": "Xiang Ying",
-            "roleOrg": "Co-Founder, Mindverse",
+            "roleOrg": "CoFounder, Mindverse",
             "tags": [
               "apps-agents"
             ],
@@ -1601,75 +1584,7 @@
       },
       {
         "date": "September 14",
-        "timeSlot": "14:00 - 14:35",
-        "title": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
-        "content": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
-        "speakers": [
-          {
-            "id": "evan-fannin",
-            "name": "Evan Fannin",
-            "roleOrg": "Founding Engineer, Cline",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "September 14",
-        "timeSlot": "14:35 - 15:10",
-        "title": "Intelligence Begins with Memory: Building a New Memory Management Paradigm Based on MemOS",
-        "content": "Intelligence Begins with Memory: Building a New Memory Management Paradigm Based on MemOS",
-        "speakers": [
-          {
-            "id": "zhiyu-li",
-            "name": "Zhiyu Li",
-            "roleOrg": "CTO, MemTensor (Shanghai) Technology Co., Ltd.",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "zhiyu-li.jpg"
-          }
-        ]
-      },
-      {
-        "date": "September 14",
-        "timeSlot": "15:40 - 16:15",
-        "title": "OAKS ASKG: Agent-Server Knowledge Graph",
-        "content": "OAKS ASKG: Agent-Server Knowledge Graph",
-        "speakers": [
-          {
-            "id": "alexy-khrabrov-",
-            "name": "Alexy Khrabrov",
-            "roleOrg": "AI Community Architect, Neo4j",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "alexy-khrabrov-.jpeg"
-          }
-        ]
-      },
-      {
-        "date": "September 14",
-        "timeSlot": "16:15 - 16:50",
-        "title": "Size Bias in Text Embeddings: Visualization and Impact on Search",
-        "content": "Size Bias in Text Embeddings: Visualization and Impact on Search",
-        "speakers": [
-          {
-            "id": "florian-hnicke",
-            "name": "Florian Hönicke",
-            "roleOrg": "Founding Engineer, Jina AI",
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "florian-hnicke.png"
-          }
-        ]
-      },
-      {
-        "date": "September 14",
-        "timeSlot": "16:50 - 17:25",
+        "timeSlot": "14:00 - 14:30",
         "title": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
         "content": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
         "speakers": [
@@ -1681,6 +1596,91 @@
               "apps-agents"
             ],
             "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "14:30 - 15:00",
+        "title": "OAKS ASKG: Agent-Server Knowledge Graph",
+        "content": "OAKS ASKG: Agent-Server Knowledge Graph",
+        "speakers": [
+          {
+            "id": "alexy-khrabrov",
+            "name": "Alexy Khrabrov",
+            "roleOrg": "AI Community Architect, Neo4j",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "15:00 - 15:20",
+        "title": "From Multimodal to Intelligent Agents: AI+AR Driving Human–Machine Symbiosis",
+        "content": "From Multimodal to Intelligent Agents: AI+AR Driving Human–Machine Symbiosis",
+        "speakers": [
+          {
+            "id": "zhao-weiqi",
+            "name": "Zhao Weiqi",
+            "roleOrg": "Global Senior Director of Product, Engineering and Ecosystem at Rokid",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "15:40 - 16:15",
+        "title": "Intelligence Begins with Memory: Creating a New Paradigm for Memory Management Based on MemOS",
+        "content": "Intelligence Begins with Memory: Creating a New Paradigm for Memory Management Based on MemOS",
+        "speakers": [
+          {
+            "id": "li-zhiyu",
+            "name": "Li Zhiyu",
+            "roleOrg": "CTO, MemTensor (Shanghai) Technology Co., Ltd.",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "16:15 - 16:50",
+        "title": "Information Retrieval Beyond Keywords: Unlocking Regulatory and Standards Knowledge at Scale",
+        "content": "Information Retrieval Beyond Keywords: Unlocking Regulatory and Standards Knowledge at Scale",
+        "speakers": [
+          {
+            "id": "abdallah-essa",
+            "name": "Abdallah ESSA",
+            "roleOrg": "Head of AI & NLP, Afnor Group",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "16:50 - 17:25",
+        "title": "Context engineering that sticks: drop the reranker, add memory, one architecture from rag search to robot action",
+        "content": "Context engineering that sticks: drop the reranker, add memory, one architecture from rag search to robot action",
+        "speakers": [
+          {
+            "id": "dandjinou-charbel",
+            "name": "DANDJINOU Charbel",
+            "roleOrg": "ai research & mlops engineer, Exel industries | EXXACT robotics",
+            "tags": [
+              "apps-agents"
+            ],
+            "image": "dandjinou-charbel.jpeg"
           }
         ]
       }
@@ -1827,7 +1827,7 @@
             "tags": [
               "ai-next"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "zhenghao-chen.png"
           }
         ]
       },
@@ -1844,7 +1844,7 @@
             "tags": [
               "ai-next"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "nicolas-flores-herr.jpg"
           }
         ]
       },
@@ -1946,7 +1946,7 @@
             "tags": [
               "ai-next"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "qian-zheng.jpg"
           }
         ]
       },
@@ -2013,7 +2013,9 @@
             "id": "yi-zhang",
             "name": "Yi Zhang",
             "roleOrg": "Software Engineer, Alibaba Cloud Computing Co., Ltd.",
-            "tags": ["ws-sglang"],
+            "tags": [
+              "ws-sglang"
+            ],
             "image": "yi-zhang.png"
           }
         ]
@@ -2028,7 +2030,9 @@
             "id": "shangming-cai",
             "name": "Shangming Cai",
             "roleOrg": "Senior Engineer, Alibaba Cloud",
-            "tags": ["ws-sglang"],
+            "tags": [
+              "ws-sglang"
+            ],
             "image": "shangming-cai-.jpg"
           }
         ]
@@ -2043,8 +2047,10 @@
             "id": "yanbo-yang",
             "name": "Yanbo Yang",
             "roleOrg": "SGLang Committer",
-            "tags": ["ws-sglang"],
-            "image": "0-placeholder-person.png"
+            "tags": [
+              "ws-sglang"
+            ],
+            "image": "yanboyang.png"
           }
         ]
       },
@@ -2058,7 +2064,9 @@
             "id": "junrong-lin",
             "name": "Junrong Lin",
             "roleOrg": "Member of Technical Staff, Qwen Team, Alibaba Group",
-            "tags": ["ws-sglang"],
+            "tags": [
+              "ws-sglang"
+            ],
             "image": "junrong-lin.jpg"
           }
         ]
@@ -2073,14 +2081,18 @@
             "id": "yikai-zhu",
             "name": "Yikai Zhu",
             "roleOrg": "Software Engineer, N/A",
-            "tags": ["ws-sglang"],
+            "tags": [
+              "ws-sglang"
+            ],
             "image": "yikai-zhu.jpg"
           },
           {
             "id": "lukecwang",
             "name": "Chao Wang (lukecwang)",
             "roleOrg": "SGlang Committer, Meituan",
-            "tags": ["ws-sglang"],
+            "tags": [
+              "ws-sglang"
+            ],
             "image": "-lukecwang.jpg"
           }
         ]
@@ -2109,7 +2121,9 @@
             "id": "yizhong-cao",
             "name": "Yizhong Cao",
             "roleOrg": "Engineer, Alibaba",
-            "tags": ["ws-sglang"],
+            "tags": [
+              "ws-sglang"
+            ],
             "image": "yizhong-cao-.jpg"
           }
         ]
@@ -2124,7 +2138,9 @@
             "id": "xiaoming-bao",
             "name": "Xiaoming Bao",
             "roleOrg": "Architect, Huawei",
-            "tags": ["ws-sglang"],
+            "tags": [
+              "ws-sglang"
+            ],
             "image": "xiaoming-bao.png"
           }
         ]
@@ -2139,7 +2155,9 @@
             "id": "dong-wang",
             "name": "Dong Wang",
             "roleOrg": "GPU Computing Expert of NVIDIA",
-            "tags": ["ws-sglang"],
+            "tags": [
+              "ws-sglang"
+            ],
             "image": "0-placeholder-person.png"
           }
         ]
@@ -2154,7 +2172,9 @@
             "id": "xiaolei-zhang",
             "name": "Xiaolei Zhang",
             "roleOrg": "AI Performance Optimization Expert, Bytedance",
-            "tags": ["ws-sglang"],
+            "tags": [
+              "ws-sglang"
+            ],
             "image": "xiaolei-zhang.jpeg"
           }
         ]
