@@ -2147,8 +2147,8 @@
       {
         "date": "9月14日",
         "timeSlot": "17:25 - 18:00",
-        "title": "在算力受限的GPU环境中部署PD分离与专家并行化模型",
-        "content": "在算力受限的GPU环境中部署PD分离与专家并行化模型",
+        "title": "火山引擎SGLang最佳实践-使用PD分离和专家并行部署DeepSeek模型",
+        "content": "火山引擎SGLang最佳实践-使用PD分离和专家并行部署DeepSeek模型",
         "speakers": [
           {
             "id": "xiaolei-zhang",
@@ -2696,6 +2696,184 @@
             "roleOrg": "助理教授, 清华大学",
             "tags": [
               "ws-cann"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-ai-4-education": [
+      {
+        "date": "9月13日",
+        "timeSlot": "10:15 - 10:25",
+        "title": "开场致辞",
+        "content": "开场致辞",
+        "speakers": [
+          {
+            "id": "yuegang-liu",
+            "name": "刘月刚",
+            "roleOrg": "中山大学深圳附属学校副校长",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "10:25 - 10:45",
+        "title": "TBD",
+        "content": "TBD",
+        "speakers": []
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "10:45 - 11:05",
+        "title": "未来学校新样态：人机共生的教育生态",
+        "content": "未来学校新样态：人机共生的教育生态",
+        "speakers": [
+          {
+            "id": "yuqing-yan",
+            "name": "严玉庆",
+            "roleOrg": "腾讯教育顾问，广东省人力资源研究会基础教育与教师发展专业委员会副会长，广东教师继续再教育专委会常务理事",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "11:05 - 11:25",
+        "title": "AI + 知识管理：为中小学教师赋能",
+        "content": "AI + 知识管理：为中小学教师赋能",
+        "speakers": [
+          {
+            "id": "maohua-zhou",
+            "name": "周茂华",
+            "roleOrg": "中国电子学会现代教育技术分会副主任委员，深圳第二高级中学创新教育中心主任",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "11:25 - 12:00",
+        "title": "圆桌会议：学校与未来教育改革创新探索者",
+        "content": "圆桌会议：学校与未来教育改革创新探索者",
+        "speakers": [
+          {
+            "id": "yuegang-liu",
+            "name": "刘月刚",
+            "roleOrg": "中山大学深圳附属学校副校长",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "yuqing-yan",
+            "name": "严玉庆",
+            "roleOrg": "腾讯教育顾问，广东省人力资源研究会基础教育与教师发展专业委员会副会长，广东教师继续再教育专委会常务理事",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "zhigang-sun",
+            "name": "孙志岗",
+            "roleOrg": "AI师傅创始人&CEO，原哈工大计算机副教授",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "haiyang-xin",
+            "name": "辛海洋",
+            "roleOrg": "可可乐博CEO",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "feng-yan",
+            "name": "彦风",
+            "roleOrg": "中国艺术研究院一级美术师",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "yanzhi-wang",
+            "name": "王言治",
+            "roleOrg": "美国东北大学教授",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-makepad": [
+      {
+        "date": "9月14日",
+        "timeSlot": "14:00 - 17:30",
+        "title": "How to Build Apps with Makepad",
+        "content": "How to Build Apps with Makepad",
+        "speakers": [
+          {
+            "id": "rik-arends",
+            "name": "Rik Arends",
+            "roleOrg": "Makepad联合创始人",
+            "tags": [
+              "ws-makepad"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "sebastian-michailidis",
+            "name": "Sebastian Michailidis",
+            "roleOrg": "Makepad联合创始人",
+            "tags": [
+              "ws-makepad"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-flutter": [
+      {
+        "date": "9月13日",
+        "timeSlot": "10:15 - 12:00",
+        "title": "Flutter Meetup",
+        "content": "Flutter Meetup",
+        "speakers": [
+          {
+            "id": "jesse-ezell",
+            "name": "Jesse Ezell",
+            "roleOrg": "TIMU首席技术官",
+            "tags": [
+              "ws-flutter"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "matt-carroll",
+            "name": "Matt Carroll",
+            "roleOrg": "前 Flutter 团队成员、Flutter Bounty Hunters 负责人",
+            "tags": [
+              "ws-flutter"
             ],
             "image": "0-placeholder-person.png"
           }

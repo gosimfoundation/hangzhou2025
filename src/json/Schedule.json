@@ -2166,8 +2166,8 @@
       {
         "date": "September 14",
         "timeSlot": "17:25 - 18:00",
-        "title": "Deploying models with PD Disaggregation and Expert Parallelism on compute-constrained GPUs",
-        "content": "Deploying models with PD Disaggregation and Expert Parallelism on compute-constrained GPUs",
+        "title": "Volcengine SGLang Best Practices - Deploying DeepSeek with PD Disaggregation and Expert Parallelism",
+        "content": "Volcengine SGLang Best Practices - Deploying DeepSeek with PD Disaggregation and Expert Parallelism",
         "speakers": [
           {
             "id": "xiaolei-zhang",
@@ -2718,6 +2718,184 @@
             "roleOrg": "Assistant Professor, Tsinghua University",
             "tags": [
               "ws-cann"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-ai-4-education": [
+      {
+        "date": "September 13",
+        "timeSlot": "10:15 - 10:25",
+        "title": "Opening Remarks",
+        "content": "Opening Remarks",
+        "speakers": [
+          {
+            "id": "yuegang-liu",
+            "name": "Yuegang Liu",
+            "roleOrg": "Vice Principal of SYU Shenzhen Affiliated School",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "10:25 - 10:45",
+        "title": "TBD",
+        "content": "TBD",
+        "speakers": []
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "10:45 - 11:05",
+        "title": "The New Model of Future Schools: An Educational Ecosystem of Human-Machine Coexistence",
+        "content": "The New Model of Future Schools: An Educational Ecosystem of Human-Machine Coexistence",
+        "speakers": [
+          {
+            "id": "yuqing-yan",
+            "name": "Yuqing Yan",
+            "roleOrg": "Tencent Education Consultant, Vice President of the Basic Education and Teacher Development Professional Committee of the Guangdong Human Resources Research Association, and Standing Director of the Guangdong Teachers Continuing Education Committee",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "11:05 - 11:25",
+        "title": "AI + Knowledge Management: Empowering Primary and Secondary School Teachers",
+        "content": "AI + Knowledge Management: Empowering Primary and Secondary School Teachers",
+        "speakers": [
+          {
+            "id": "maohua-zhou",
+            "name": "Maohua Zhou",
+            "roleOrg": "Vice Chairman of the Modern Educational Technology Branch of the Chinese Institute of Electronics, Director of the Innovation Education Center of Shenzhen No. 2 Senior High School",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "11:25 - 12:00",
+        "title": "Roundtable meeting: Innovative Explorer of School and Future Education Reform",
+        "content": "Roundtable meeting: Innovative Explorer of School and Future Education Reform",
+        "speakers": [
+          {
+            "id": "yuegang-liu",
+            "name": "Yuegang Liu",
+            "roleOrg": "Vice Principal of SYU Shenzhen Affiliated School",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "yuqing-yan",
+            "name": "Yuqing Yan",
+            "roleOrg": "Tencent Education Consultant, Vice President of the Basic Education and Teacher Development Professional Committee of the Guangdong Human Resources Research Association, and Standing Director of the Guangdong Teachers Continuing Education Committee",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "zhigang-sun",
+            "name": "Zhigang Sun",
+            "roleOrg": "Founder&CEO of AI Master, Former associate professor of computer science at Harbin Institute of Technology",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "haiyang-xin",
+            "name": "Haiyang Xin",
+            "roleOrg": "CEO of CocoRobo",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "feng-yan",
+            "name": "Feng Yan",
+            "roleOrg": "First-class Artist of the Chinese National Academy of Arts",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "yanzhi-wang",
+            "name": "Yanzhi Wang",
+            "roleOrg": "Professor of Northeastern University in the United States",
+            "tags": [
+              "ws-ai-4-education"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-embedded-rust-for-ai": [
+      {
+        "date": "September 14",
+        "timeSlot": "14:00 - 17:30",
+        "title": "How to Build Apps with Makepad",
+        "content": "How to Build Apps with Makepad",
+        "speakers": [
+          {
+            "id": "rik-arends",
+            "name": "Rik Arends",
+            "roleOrg": "Co-founder of Makepad",
+            "tags": [
+              "ws-embedded-rust-for-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "sebastian-michailidis",
+            "name": "Sebastian Michailidis",
+            "roleOrg": "Co-founder of Makepad",
+            "tags": [
+              "ws-embedded-rust-for-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-flutter": [
+      {
+        "date": "September 13",
+        "timeSlot": "10:15 - 12:00",
+        "title": "Flutter Meetup",
+        "content": "Flutter Meetup",
+        "speakers": [
+          {
+            "id": "jesse-ezell",
+            "name": "Jesse Ezell",
+            "roleOrg": "CTO, TIMU",
+            "tags": [
+              "ws-flutter"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "matt-carroll",
+            "name": "Matt Carroll",
+            "roleOrg": "Former Flutter team member, Chief of the Flutter Bounty Hunters",
+            "tags": [
+              "ws-flutter"
             ],
             "image": "0-placeholder-person.png"
           }
