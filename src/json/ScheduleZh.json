@@ -2369,15 +2369,32 @@
     ],
     "ws-future-web": [
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "深入解析Servo布局系统",
-        "content": "深入解析Servo布局系统",
+        "date": "9月13日",
+        "timeSlot": "10:15 - 10:20",
+        "title": "开场致辞",
+        "content": "开场致辞",
         "speakers": [
           {
-            "id": "martin-robinson-future",
+            "id": "ming-fu",
+            "name": "付明",
+            "roleOrg": "华为菲尔兹实验室主任",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "10:20 - 10:40",
+        "title": "Servo布局系统深入解析",
+        "content": "Servo布局系统深入解析",
+        "speakers": [
+          {
+            "id": "martin-robinson",
             "name": "Martin Robinson",
-            "roleOrg": "软件工程师, Igalia",
+            "roleOrg": "Igalia软件工程师",
             "tags": [
               "ws-future-web"
             ],
@@ -2386,49 +2403,15 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "万维网字体技术探索",
-        "content": "万维网字体技术探索",
+        "date": "9月13日",
+        "timeSlot": "10:40 - 11:00",
+        "title": "嵌入式Servo系统的乐趣与价值",
+        "content": "嵌入式Servo系统的乐趣与价值",
         "speakers": [
           {
-            "id": "dmitrii-desiatkin-future",
-            "name": "Dmitrii Desiatkin",
-            "roleOrg": "系统工程师, 华为",
-            "tags": [
-              "ws-future-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "使用Servo的WebDriver：自动化测试与OpenHarmony实践",
-        "content": "使用Servo的WebDriver：自动化测试与OpenHarmony实践",
-        "speakers": [
-          {
-            "id": "zhizhen-ye-future",
-            "name": "Zhizhen Ye",
-            "roleOrg": "软件工程师, 华为",
-            "tags": [
-              "ws-future-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "嵌入式 Servo 系统的乐趣与价值",
-        "content": "嵌入式 Servo 系统的乐趣与价值",
-        "speakers": [
-          {
-            "id": "gregory-terzian-future",
+            "id": "gregory-terzian",
             "name": "Gregory Terzian",
-            "roleOrg": "创始人, FOSS科技",
+            "roleOrg": "Servo浏览器引擎维护者",
             "tags": [
               "ws-future-web"
             ],
@@ -2437,15 +2420,58 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "OpenHarmony上Servo的统一渲染架构",
-        "content": "OpenHarmony上Servo的统一渲染架构",
+        "date": "9月13日",
+        "timeSlot": "11:00 - 11:20",
+        "title": "Prune4Web：面向Web智能体的DOM树剪枝编程框架",
+        "content": "Prune4Web：面向Web智能体的DOM树剪枝编程框架",
         "speakers": [
+          {
+            "id": "jing-zhang",
+            "name": "张晶",
+            "roleOrg": "北京航空航天大学软件工程学院副教授",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "11:20 - 11:40",
+        "title": "OpenHarmony与Servo的协同创新：统一渲染与WebDriver",
+        "content": "OpenHarmony与Servo的协同创新：统一渲染与WebDriver",
+        "speakers": [
+          {
+            "id": "zhizhen-ye",
+            "name": "叶郅臻",
+            "roleOrg": "华为软件工程师",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          },
           {
             "id": "jingshi-shangguan",
-            "name": "Jingshi Shangguan",
-            "roleOrg": "软件工程师, 华为",
+            "name": "上官景仕",
+            "roleOrg": "华为软件工程师",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "11:40 - 12:00",
+        "title": "AI与下一代互联网",
+        "content": "AI与下一代互联网",
+        "speakers": [
+          {
+            "id": "philippe-le-hegaret",
+            "name": "Philippe Le Hegaret",
+            "roleOrg": "W3C副总裁，战略负责人",
             "tags": [
               "ws-future-web"
             ],

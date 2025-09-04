@@ -2391,15 +2391,32 @@
     ],
     "ws-future-web": [
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Deep Analysis of Servo Layout System",
-        "content": "Deep Analysis of Servo Layout System",
+        "date": "September 13",
+        "timeSlot": "10:15 - 10:20",
+        "title": "Opening Remarks",
+        "content": "Opening Remarks",
         "speakers": [
           {
-            "id": "martin-robinson-future",
+            "id": "ming-fu",
+            "name": "Ming Fu",
+            "roleOrg": "Director of Huawei Field Laboratory",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "10:20 - 10:40",
+        "title": "A Dive Into the Servo Layout System",
+        "content": "A Dive Into the Servo Layout System",
+        "speakers": [
+          {
+            "id": "martin-robinson",
             "name": "Martin Robinson",
-            "roleOrg": "Software Engineer, Igalia",
+            "roleOrg": "Software Engineer at Igalia",
             "tags": [
               "ws-future-web"
             ],
@@ -2408,49 +2425,15 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Web Font Technology Exploration",
-        "content": "Web Font Technology Exploration",
-        "speakers": [
-          {
-            "id": "dmitrii-desiatkin-future",
-            "name": "Dmitrii Desiatkin",
-            "roleOrg": "System Engineer, Huawei",
-            "tags": [
-              "ws-future-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Using Servo's WebDriver: Automated Testing and OpenHarmony Practice",
-        "content": "Using Servo's WebDriver: Automated Testing and OpenHarmony Practice",
-        "speakers": [
-          {
-            "id": "zhizhen-ye-future",
-            "name": "Zhizhen Ye",
-            "roleOrg": "Software Engineer, Huawei",
-            "tags": [
-              "ws-future-web"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 13",
+        "timeSlot": "10:40 - 11:00",
         "title": "The Joy and Value of Embedded Servo Systems",
         "content": "The Joy and Value of Embedded Servo Systems",
         "speakers": [
           {
-            "id": "gregory-terzian-future",
+            "id": "gregory-terzian",
             "name": "Gregory Terzian",
-            "roleOrg": "Founder, FOSS Tech",
+            "roleOrg": "Servo Browser Engine Maintainer",
             "tags": [
               "ws-future-web"
             ],
@@ -2459,15 +2442,58 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Servo's Unified Rendering Architecture on OpenHarmony",
-        "content": "Servo's Unified Rendering Architecture on OpenHarmony",
+        "date": "September 13",
+        "timeSlot": "11:00 - 11:20",
+        "title": "Prune4Web: DOM Tree Pruning Programming for Web Agent",
+        "content": "Prune4Web: DOM Tree Pruning Programming for Web Agent",
         "speakers": [
+          {
+            "id": "jing-zhang",
+            "name": "Jing Zhang",
+            "roleOrg": "Associate Professor in School of Software, Beihang University",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "11:20 - 11:40",
+        "title": "Driving Innovation with Servo and OpenHarmony: Unified Rendering and WebDriver",
+        "content": "Driving Innovation with Servo and OpenHarmony: Unified Rendering and WebDriver",
+        "speakers": [
+          {
+            "id": "zhizhen-ye",
+            "name": "Zhizhen Ye",
+            "roleOrg": "Software Engineer at HUAWEI",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          },
           {
             "id": "jingshi-shangguan",
             "name": "Jingshi Shangguan",
-            "roleOrg": "Software Engineer, Huawei",
+            "roleOrg": "Software Engineer at HUAWEI",
+            "tags": [
+              "ws-future-web"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "11:40 - 12:00",
+        "title": "AI and Next Generation Web",
+        "content": "AI and Next Generation Web",
+        "speakers": [
+          {
+            "id": "philippe-le-hegaret",
+            "name": "Philippe Le Hegaret",
+            "roleOrg": "W3C Vice President, Strategy Lead",
             "tags": [
               "ws-future-web"
             ],
