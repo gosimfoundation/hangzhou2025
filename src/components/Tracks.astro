@@ -47,7 +47,7 @@ const {
 >
     <div class="container">
         <!-- Main Title -->
-        <div class="row">
+        <div class="row justify-center">
             <div class="col col-title">
                 <h2>{title}</h2>
             </div>
@@ -128,6 +128,7 @@ const {
                         </li>
                     ))}
                 </ul>
+                
             </div>
         </div>
 
@@ -146,6 +147,11 @@ const {
 
 <!-- 5. Component Styles -->
 <style>
+    .justify-center {
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 4rem;
+    }
     .col-title {
         margin-bottom: 2.5rem;
     }

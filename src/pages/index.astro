@@ -64,11 +64,11 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
         image: "/images/sponsors/csdn.png",
       },
     ]} -->
-  
-    <FeaturedSpeakers
+
+  <FeaturedSpeakers
     title="Featured Speakers"
     ctaButton={{
-      text: "More speakers",
+      text: "See all speakers",
       link: "/speakers/",
     }}
   />
@@ -79,10 +79,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     data-theme-section="light"
     data-bg-section="lightgray"
   >
-    <div
-      class="intro-statistics-container"
-      style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 0rem;"
-    >
+    <div class="intro-statistics-container" style="">
       <Intro>
         <h3 class="h3 light split-words animate-read">
           Join us at GOSIM Hangzhou 2025, China's premier open-source
@@ -168,8 +165,8 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
     ctaButton={{
-      text: "Schedule Coming Soon",
-      link: "",
+      text: "See full schedule",
+      link: "/schedule/",
     }}
   />
 
@@ -221,16 +218,13 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   <Cards
     id="co-located-events"
     title="Co-located Events"
-    description="We are excited to host these co-located events at GOSIM Hangzhou 2025."
+    description="GOSIM Hangzhou 2025 is enriched by a set of co-located events that bring fresh perspectives and hands-on innovation. From RustGlobal & RustChinaConf to forums on AI, sustainability, and next-generation agents, these gatherings create space for deep learning, collaboration, and breakthrough ideas. Together, they extend the impact of the summit and connect global communities driving the future of technology."
     cards={[
       {
         title: "RustGlobal & RustChinaConf",
         description:
-          "RustGlobal is the first Rust Foundation-hosted gathering dedicated to the use of Rust in global leadership settings.",
-        image: [
-          "/images/homepage/rust-global-logo.svg",
-          "/images/homepage/RustChinaConf-hangzhou-black.svg",
-        ],
+          "RustGlobal is the first Rust Foundation–hosted gathering, dedicated to showcasing the use of Rust in global leadership, innovation, and technology settings worldwide.",
+        image: "/images/homepage/rust-colocated.png",
         link: "https://rustcc.cn/2025conf/",
         openInNewTab: false,
       },
@@ -238,7 +232,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
         title: "AI Vision Forum",
         description:
           "An exclusive forum for global thinkers and practitioners to explore a symbiotic future for AI and humanity, ensuring technological progress is guided by core human values.",
-        image: "/images/homepage/co-located-ai-vision.png",
+        image: "/images/homepage/ai-vision-foum-min.png",
         link: "https://forum.gosim.org/en/",
         openInNewTab: false,
       },
@@ -246,7 +240,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
         title: "Open for SDG Conference",
         description:
           "A global conference uniting experts in open source, AI, and policy to accelerate the UN Sustainable Development Goals (SDGs) through open collaboration and technology.",
-        image: "/images/homepage/co-located-open-sdg.jpg",
+        image: "/images/homepage/open-sdg-conference-min.png",
         link: "https://opensdg.gosim.org/en/",
         openInNewTab: false,
       },
@@ -254,15 +248,15 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
         title: "Super Agent Campathon",
         description:
           "A developer 'Campathon' that combines a training camp with a hackathon, challenging participants to build personalized and emotionally intelligent 'Super Agents' for next-generation interaction.",
-        image: "/images/homepage/co-located-super-agent.png",
+        image: "/images/homepage/agent-hackathon-min.png",
         link: "https://mofa.ai/super-agent-hackathon/",
         openInNewTab: false,
       },
       {
         title: "Code Alert Hackathon",
         description:
-          'An AI hackathon based on the classic game "Red Alert." Competitors will use natural language to command an AI agent through online challenges and live final battles.',
-        image: "/images/homepage/co-located-code-alert.png",
+          'An AI hackathon inspired by the classic strategy game "Red Alert." Competitors will harness natural language to command AI agents through a series of online challenges, culminating in intense live final battles.',
+        image: "/images/homepage/code-hackathon-min.png",
         link: "https://hackathon.mofa.ai",
         openInNewTab: false,
       },

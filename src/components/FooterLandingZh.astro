@@ -1,7 +1,7 @@
 ---
 // Components
-import Button from "components/Button.astro"
-import Logo from "./Logo.astro"
+import Button from "components/Button.astro";
+import Logo from "./Logo.astro";
 
 const firstColumnLinks = [
   {
@@ -24,18 +24,24 @@ const firstColumnLinks = [
     text: "会议地点",
     link: "/zh/venue",
   },
-
-]
+];
 
 const secondColumnLinks = [
-  // {
-  //   text: "志愿者",
-  //   link: "https://docs.google.com/forms/d/e/1FAIpQLSc62kJczw7lr-l0JAAbkabeIrrPPAD7OWyzwDopTD0L4HC6EQ/viewform",
-  //   openInNewTab: true,
-  // },
-]
+  {
+    text: "China Essentials",
+    link: "/zh/china-essentials/",
+  },
+  {
+    text: "General Travel Info",
+    link: "/zh/general-travel/",
+  },
+  {
+    text: "Chinese Visa",
+    link: "/zh/chinese-visa/",
+  },
+];
 
-const slug = Astro.url.pathname
+const slug = Astro.url.pathname;
 ---
 
 <footer class="section footer" data-theme-section="dark" data-bg-section="dark">
