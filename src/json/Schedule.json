@@ -2183,100 +2183,15 @@
     ],
     "ws-cangjie": [
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Cangjie in HarmonyOS Applications: iQiyi's Application Development Practice",
-        "content": "Cangjie in HarmonyOS Applications: iQiyi's Application Development Practice",
+        "date": "September 13",
+        "timeSlot": "14:00 - 14:25",
+        "title": "Cangjie - A Fast Growing Programming Language",
+        "content": "Cangjie - A Fast Growing Programming Language",
         "speakers": [
           {
-            "id": "pan-wan-kun",
-            "name": "Pan Wankun",
-            "roleOrg": "Assistant Researcher, iQiyi",
-            "tags": [
-              "ws-cangjie"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Cangjie in Smart Healthcare Platform Application Development Practice",
-        "content": "Cangjie in Smart Healthcare Platform Application Development Practice",
-        "speakers": [
-          {
-            "id": "chen-yu-long",
-            "name": "Chen Yulong",
-            "roleOrg": "Deputy Dean, CSDN Kaixin Academy",
-            "tags": [
-              "ws-cangjie"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Cangjie in HarmonyOS Applications: YiKeBiao's Application Development Practice",
-        "content": "Cangjie in HarmonyOS Applications: YiKeBiao's Application Development Practice",
-        "speakers": [
-          {
-            "id": "zhang-hao-yang",
-            "name": "Zhang Haoyang",
-            "roleOrg": "Student, Northeastern University, Cangjie Evangelist",
-            "tags": [
-              "ws-cangjie"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Cangjie in University Open Source Software Engineering Teaching Practice",
-        "content": "Cangjie in University Open Source Software Engineering Teaching Practice",
-        "speakers": [
-          {
-            "id": "speaker-zhang-yin",
-            "name": "Yin Zhang",
-            "roleOrg": "Associate Professor, Northeastern University",
-            "tags": [
-              "ws-cangjie"
-            ],
-            "image": "speaker-zhang-yin.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Server Application Suite Based on Cangjie: Fountain Development Practice",
-        "content": "Server Application Suite Based on Cangjie: Fountain Development Practice",
-        "speakers": [
-          {
-            "id": "speaker-wu-jing-run",
-            "name": "Wu Jingrun",
-            "roleOrg": "Server Application Architect, Beijing Chulian Technology",
-            "tags": [
-              "ws-cangjie"
-            ],
-            "image": "speaker-wu-jing-run.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Cangjie Programming Language Ecosystem Construction Progress Introduction",
-        "content": "Cangjie Programming Language Ecosystem Construction Progress Introduction",
-        "speakers": [
-          {
-            "id": "speaker-wang-xue-zhi",
-            "name": "Wang Xuezhi",
-            "roleOrg": "Cangjie Programming Language Ecosystem and Industry Development Director, Huawei",
+            "id": "wang-xue-zhi",
+            "name": "Xuezhi Wang",
+            "roleOrg": "Director of Cangjie Programming Language Ecosystem and Industry Development",
             "tags": [
               "ws-cangjie"
             ],
@@ -2285,19 +2200,128 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Cangjie in HarmonyOS Applications: Nano AI Search Application Development Practice",
-        "content": "Cangjie in HarmonyOS Applications: Nano AI Search Application Development Practice",
+        "date": "September 13",
+        "timeSlot": "14:25 - 14:50",
+        "title": "Cangjie in HarmonyOS: Sharing of Nami AI Application Development",
+        "content": "Cangjie in HarmonyOS: Sharing of Nami AI Application Development",
         "speakers": [
           {
             "id": "zhao-dong",
-            "name": "Zhao Dong",
-            "roleOrg": "HarmonyOS Technical Team Leader, 360 Nano AI Search",
+            "name": "Dong Zhao",
+            "roleOrg": "HarmonyOS Technical Team Leader of Nami AI",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-zhao-dong.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:50 - 15:15",
+        "title": "Cangjie in HarmonyOS: Sharing of iQIYI Application Development",
+        "content": "Cangjie in HarmonyOS: Sharing of iQIYI Application Development",
+        "speakers": [
+          {
+            "id": "pan-wan-kun",
+            "name": "Wankun Pan",
+            "roleOrg": "iQIYI Associate Researcher",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-pan-wan-kun.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:15 - 15:40",
+        "title": "Cangjie in University: Practical Teaching of Open Source Software Engineering",
+        "content": "Cangjie in University: Practical Teaching of Open Source Software Engineering",
+        "speakers": [
+          {
+            "id": "zhang-yin",
+            "name": "Yin Zhang",
+            "roleOrg": "Associate Professor of Northeastern University",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-zhang-yin.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:40 - 15:50",
+        "title": "Tea Break",
+        "content": "Tea Break",
+        "speakers": []
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:50 - 16:15",
+        "title": "Spire: a Open Source Web Framework Base on Cangjie",
+        "content": "Spire: a Open Source Web Framework Base on Cangjie",
+        "speakers": [
+          {
+            "id": "wang-jianfeng",
+            "name": "Jianfeng Wang",
+            "roleOrg": "Architect of Jiechuang",
             "tags": [
               "ws-cangjie"
             ],
             "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:15 - 16:40",
+        "title": "AI Healthcare Platform Application Development Based on Cangjie",
+        "content": "AI Healthcare Platform Application Development Based on Cangjie",
+        "speakers": [
+          {
+            "id": "chen-yu-long",
+            "name": "Yulong Chen",
+            "roleOrg": "Vice President of CSDN Kaixin Institute",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-chen-yu-long.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:40 - 17:05",
+        "title": "Fountain: a Server Framework Based on Cangjie",
+        "content": "Fountain: a Server Framework Based on Cangjie",
+        "speakers": [
+          {
+            "id": "wu-jing-run",
+            "name": "Jingrun Wu",
+            "roleOrg": "Server Architect of Chulian",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-wu-jing-run.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "17:05 - 17:30",
+        "title": "Cangjie in HarmonyOS: Sharing of eSchedule Application Development",
+        "content": "Cangjie in HarmonyOS: Sharing of eSchedule Application Development",
+        "speakers": [
+          {
+            "id": "zhang-hao-yang",
+            "name": "Haoyang Zhang",
+            "roleOrg": "Student Developer of Northeastern University",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-zhang-hao-yang.png"
           }
         ]
       }
@@ -2673,49 +2697,66 @@
     ],
     "ws-cann": [
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "CANN Workshop",
-        "content": "CANN Workshop presentations",
+        "date": "September 14",
+        "timeSlot": "10:00 - 10:30",
+        "title": "CANN Comprehensive Open-Source and Openness Strategy and Roadmap",
+        "content": "CANN Comprehensive Open-Source and Openness Strategy and Roadmap",
         "speakers": [
           {
             "id": "xiaolei-wang",
-            "name": "Xiaolei WANG",
-            "roleOrg": "General Manager, Ascend Chip Products",
+            "name": "Xiaolei Wang",
+            "roleOrg": "Product Director, Huawei Ascend Processors",
             "tags": [
               "ws-cann"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "xiaolei-zhang.jpeg"
           }
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "AsNumpy: Ascend Native Efficient Python Mathematical Computing Library",
-        "content": "AsNumpy: Ascend Native Efficient Python Mathematical Computing Library",
-        "speakers": [
-          {
-            "id": "su-tong-hua",
-            "name": "Su Tonghua",
-            "roleOrg": "Associate Dean of School of Software, Professor of Computing Department, Harbin Institute of Technology",
-            "tags": [
-              "ws-cann"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Capacity Density-Driven Efficient Computing for Large Language Models",
-        "content": "Capacity Density-Driven Efficient Computing for Large Language Models",
+        "date": "September 14",
+        "timeSlot": "10:30 - 11:00",
+        "title": "Efficient Computing Framework for LLMs Driven by Knowledge Density",
+        "content": "Efficient Computing Framework for LLMs Driven by Knowledge Density",
         "speakers": [
           {
             "id": "xu-han",
             "name": "Xu Han",
-            "roleOrg": "Assistant Professor, Tsinghua University",
+            "roleOrg": "Tsinghua University Professor",
+            "tags": [
+              "ws-cann"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "11:00 - 11:30",
+        "title": "AsNumpy: Ascend-Native Efficient Python Mathematical Computing Library",
+        "content": "AsNumpy: Ascend-Native Efficient Python Mathematical Computing Library",
+        "speakers": [
+          {
+            "id": "su-tong-hua",
+            "name": "Tonghua Su",
+            "roleOrg": "Vice Dean, School of Software, Harbin Institute of Technology (HIT)",
+            "tags": [
+              "ws-cann"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 14",
+        "timeSlot": "11:30 - 12:00",
+        "title": "Ascend Innovative Practices In-Depth Development",
+        "content": "Ascend Innovative Practices In-Depth Development",
+        "speakers": [
+          {
+            "id": "jinxiang-wang",
+            "name": "Jinxiang Wang",
+            "roleOrg": "iFLYTEK Technical Expert",
             "tags": [
               "ws-cann"
             ],
@@ -2896,6 +2937,34 @@
             "roleOrg": "Former Flutter team member, Chief of the Flutter Bounty Hunters",
             "tags": [
               "ws-flutter"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-rn": [
+      {
+        "date": "September 13",
+        "timeSlot": "14:00 - 17:30",
+        "title": "Native apps without a build step",
+        "content": "Native apps without a build step",
+        "speakers": [
+          {
+            "id": "oskar-kwasniewski",
+            "name": "Oskar Kwasniewski",
+            "roleOrg": "React Native Core Contributor, Creator of React Native for visionOS",
+            "tags": [
+              "ws-rn"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "michal-pierzchala",
+            "name": "Michal Pierzchala",
+            "roleOrg": "Chief Engineer of Callstack",
+            "tags": [
+              "ws-rn"
             ],
             "image": "0-placeholder-person.png"
           }

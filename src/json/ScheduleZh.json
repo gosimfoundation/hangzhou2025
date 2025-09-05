@@ -98,7 +98,7 @@
       "id": "ws-ai-4-education"
     },
     {
-      "name": "RN 技术沙龙",
+      "name": "React Native 全球开发者研讨会",
       "room": "待定房间",
       "id": "ws-rn"
     },
@@ -2161,100 +2161,15 @@
     ],
     "ws-cangjie": [
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "仓颉在鸿蒙应用:爱奇艺的应用开发实践",
-        "content": "仓颉在鸿蒙应用:爱奇艺的应用开发实践",
-        "speakers": [
-          {
-            "id": "pan-wan-kun",
-            "name": "潘万坤",
-            "roleOrg": "助理研究员, 爱奇艺",
-            "tags": [
-              "ws-cangjie"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "仓颉在智慧医疗平台的应用开发实践",
-        "content": "仓颉在智慧医疗平台的应用开发实践",
-        "speakers": [
-          {
-            "id": "chen-yu-long",
-            "name": "陈玉龙",
-            "roleOrg": "副院长, CSDN开新院",
-            "tags": [
-              "ws-cangjie"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "仓颉在鸿蒙应用:逸课表的应用开发实践",
-        "content": "仓颉在鸿蒙应用:逸课表的应用开发实践",
-        "speakers": [
-          {
-            "id": "zhang-hao-yang",
-            "name": "张昊阳",
-            "roleOrg": "学生, 东北大学, 仓颉布道师",
-            "tags": [
-              "ws-cangjie"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "仓颉在高校开源软件工程教学实践分享",
-        "content": "仓颉在高校开源软件工程教学实践分享",
-        "speakers": [
-          {
-            "id": "speaker-zhang-yin",
-            "name": "张引",
-            "roleOrg": "副教授, 东北大学",
-            "tags": [
-              "ws-cangjie"
-            ],
-            "image": "speaker-zhang-yin.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "基于仓颉的服务器应用套件:Fountain的开发实践",
-        "content": "基于仓颉的服务器应用套件:Fountain的开发实践",
-        "speakers": [
-          {
-            "id": "speaker-wu-jing-run",
-            "name": "吴京润",
-            "roleOrg": "服务器应用架构师, 北京初联科技",
-            "tags": [
-              "ws-cangjie"
-            ],
-            "image": "speaker-wu-jing-run.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
+        "date": "9月13日",
+        "timeSlot": "14:00 - 14:25",
         "title": "仓颉编程语言生态建设进展介绍",
         "content": "仓颉编程语言生态建设进展介绍",
         "speakers": [
           {
-            "id": "speaker-wang-xue-zhi",
+            "id": "wang-xue-zhi",
             "name": "王学智",
-            "roleOrg": "仓颉编程语言生态与产业发展总监, 华为",
+            "roleOrg": "华为仓颉编程语言生态与产业发展总监",
             "tags": [
               "ws-cangjie"
             ],
@@ -2263,19 +2178,128 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "仓颉在鸿蒙应用：纳米AI搜索的应用开发实践",
-        "content": "仓颉在鸿蒙应用：纳米AI搜索的应用开发实践",
+        "date": "9月13日",
+        "timeSlot": "14:25 - 14:50",
+        "title": "仓颉在鸿蒙应用：纳米AI的应用开发实践",
+        "content": "仓颉在鸿蒙应用：纳米AI的应用开发实践",
         "speakers": [
           {
             "id": "zhao-dong",
             "name": "赵东",
-            "roleOrg": "鸿蒙端技术组长, 360 纳米AI搜索",
+            "roleOrg": "纳米AI鸿蒙端技术组长",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-zhao-dong.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:50 - 15:15",
+        "title": "仓颉在鸿蒙应用：爱奇艺的应用开发实践",
+        "content": "仓颉在鸿蒙应用：爱奇艺的应用开发实践",
+        "speakers": [
+          {
+            "id": "pan-wan-kun",
+            "name": "潘万坤",
+            "roleOrg": "爱奇艺助理研究员",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-pan-wan-kun.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:15 - 15:40",
+        "title": "仓颉高校开源软件工程教学实践分享",
+        "content": "仓颉高校开源软件工程教学实践分享",
+        "speakers": [
+          {
+            "id": "zhang-yin",
+            "name": "张引",
+            "roleOrg": "东北大学副教授",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-zhang-yin.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:40 - 15:50",
+        "title": "茶歇",
+        "content": "茶歇",
+        "speakers": []
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:50 - 16:15",
+        "title": "基于仓颉的开源Spire天擎Web开发框架介绍",
+        "content": "基于仓颉的开源Spire天擎Web开发框架介绍",
+        "speakers": [
+          {
+            "id": "wang-jianfeng",
+            "name": "王剑锋",
+            "roleOrg": "杭州颉创科技有限公司架构工程师",
             "tags": [
               "ws-cangjie"
             ],
             "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:15 - 16:40",
+        "title": "仓颉在智慧医疗平台的应用开发实践",
+        "content": "仓颉在智慧医疗平台的应用开发实践",
+        "speakers": [
+          {
+            "id": "chen-yu-long",
+            "name": "陈玉龙",
+            "roleOrg": "CSDN开新院副院长",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-chen-yu-long.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:40 - 17:05",
+        "title": "基于仓颉的服务器应用套件：Fountain的开发实践",
+        "content": "基于仓颉的服务器应用套件：Fountain的开发实践",
+        "speakers": [
+          {
+            "id": "wu-jing-run",
+            "name": "吴京润",
+            "roleOrg": "服务器应用架构师",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-wu-jing-run.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "17:05 - 17:30",
+        "title": "仓颉在鸿蒙应用：逸课表的应用开发实践",
+        "content": "仓颉在鸿蒙应用：逸课表的应用开发实践",
+        "speakers": [
+          {
+            "id": "zhang-hao-yang",
+            "name": "张昊阳",
+            "roleOrg": "东北大学学生仓颉布道师",
+            "tags": [
+              "ws-cangjie"
+            ],
+            "image": "speaker-zhang-hao-yang.png"
           }
         ]
       }
@@ -2651,49 +2675,66 @@
     ],
     "ws-cann": [
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "CANN 工作坊",
-        "content": "CANN 工作坊演讲",
+        "date": "9月14日",
+        "timeSlot": "10:00 - 10:30",
+        "title": "CANN 全面开源开放策略和节奏",
+        "content": "CANN 全面开源开放策略和节奏",
         "speakers": [
           {
             "id": "xiaolei-wang",
-            "name": "Xiaolei WANG",
-            "roleOrg": "昇腾芯片产品总经理",
+            "name": "王晓雷",
+            "roleOrg": "华为昇腾处理器产品总监",
             "tags": [
               "ws-cann"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "xiaolei-zhang.jpeg"
           }
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "AsNumpy：昇腾原生高效Python数学运算库",
-        "content": "AsNumpy：昇腾原生高效Python数学运算库",
-        "speakers": [
-          {
-            "id": "su-tong-hua",
-            "name": "苏统华",
-            "roleOrg": "软件学院副院长, 计算学部教授, 哈尔滨工业大学",
-            "tags": [
-              "ws-cann"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "面向大语言模型的容量密度驱动高效计算",
-        "content": "面向大语言模型的容量密度驱动高效计算",
+        "date": "9月14日",
+        "timeSlot": "10:30 - 11:00",
+        "title": "知识密度牵引下的大模型高效计算",
+        "content": "知识密度牵引下的大模型高效计算",
         "speakers": [
           {
             "id": "xu-han",
             "name": "韩旭",
-            "roleOrg": "助理教授, 清华大学",
+            "roleOrg": "清华大学教授",
+            "tags": [
+              "ws-cann"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "11:00 - 11:30",
+        "title": "AsNumpy：昇腾原生高效 Python 数学运算库",
+        "content": "AsNumpy：昇腾原生高效 Python 数学运算库",
+        "speakers": [
+          {
+            "id": "su-tong-hua",
+            "name": "苏统华",
+            "roleOrg": "哈尔滨工业大学软件学院副院长",
+            "tags": [
+              "ws-cann"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月14日",
+        "timeSlot": "11:30 - 12:00",
+        "title": "昇腾深度开发创新实践",
+        "content": "昇腾深度开发创新实践",
+        "speakers": [
+          {
+            "id": "jinxiang-wang",
+            "name": "汪锦想",
+            "roleOrg": "科大讯飞技术专家",
             "tags": [
               "ws-cann"
             ],
@@ -2874,6 +2915,34 @@
             "roleOrg": "前 Flutter 团队成员、Flutter Bounty Hunters 负责人",
             "tags": [
               "ws-flutter"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-rn": [
+      {
+        "date": "9月13日",
+        "timeSlot": "14:00 - 17:30",
+        "title": "“原生应用”新境界：免去构建的开发体验",
+        "content": "“原生应用”新境界：免去构建的开发体验",
+        "speakers": [
+          {
+            "id": "oskar-kwasniewski",
+            "name": "Oskar Kwasniewski",
+            "roleOrg": "React Native 核心贡献者、React Native for visionOS 创始人",
+            "tags": [
+              "ws-rn"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "michal-pierzchala",
+            "name": "Michal Pierzchala",
+            "roleOrg": "Callstack首席工程师",
+            "tags": [
+              "ws-rn"
             ],
             "image": "0-placeholder-person.png"
           }
