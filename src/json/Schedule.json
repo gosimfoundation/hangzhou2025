@@ -16,103 +16,135 @@
       "url": "/schedule-day-2/"
     }
   ],
+
   "categories": [
     {
       "name": "AI Models x Infra",
-      "room": "TBD room",
+      "room": "Venue 4 - 338",
       "id": "ai-models-infra"
     },
     {
       "name": "Embodied AI",
-      "room": "TBD room",
+      "room": "Venue 2 - 258",
       "id": "embodied-ai"
     },
     {
       "name": "Agentic Web",
-      "room": "TBD room",
+      "room": "Venue 1 - 278",
       "id": "agentic-web"
     },
     {
       "name": "Apps x Agents",
-      "room": "TBD room",
+      "room": "Venue 5 - 358",
       "id": "apps-agents"
     },
     {
       "name": "AI Next",
-      "room": "TBD room",
+      "room": "Keynote Venue - 318 & 328",
       "id": "ai-next"
     },
     {
-      "name": "AI Vision Forum",
-      "room": "TBD room",
-      "id": "forum-aivision"
-    },
-    {
       "name": "Open for SDG Conference",
-      "room": "TBD room",
+      "room": "Venue 3 - 268",
       "id": "open-for-sdg"
     },
     {
+      "name": "AI Vision Forum",
+      "room": "West Lake State Guesthouse",
+      "id": "forum-aivision"
+    },
+    {
+      "name": "RustChinaConf & Rust Global China",
+      "room": "Venue 11 - 287",
+      "id": "rust-china"
+    },
+    {
+      "name": "Track 1: Rust Global | In-depth Industry Applications",
+      "room": "Venue 11 - 287",
+      "id": "rust-china-1"
+    },
+    {
+      "name": "Track 2: Evolution of the Language Ecosystem",
+      "room": "Venue 12 - 288",
+      "id": "rust-china-2"
+    },
+    {
+      "name": "Track 3: Rust Innovations in Infrastructure: AI x OS",
+      "room": "Venue 13 - 289",
+      "id": "rust-china-3"
+    },
+    {
+      "name": "SGLang Workshop",
+      "room": "Venue 3 - 268",
+      "id": "ws-sglang"
+    },
+    {
+      "name": "Cangjie Workshop",
+      "room": "Venue 7 - B02",
+      "id": "ws-cangjie"
+    },
+    {
+      "name": "Dora Workshop",
+      "room": "Venue 7 - B02",
+      "id": "ws-dora"
+    },
+    {
       "name": "Future Web Workshop",
-      "room": "TBD room",
+      "room": "Venue 8 - B03",
       "id": "ws-future-web"
     },
     {
+      "name": "Edge AI Workshop",
+      "room": "Venue 6 - B01",
+      "id": "ws-edge-ai"
+    },
+    {
       "name": "CANN Workshop",
-      "room": "TBD room",
+      "room": "Venue 7 - B02",
       "id": "ws-cann"
     },
     {
       "name": "Flutter Workshop",
-      "room": "TBD room",
+      "room": "Venue 9 - B05",
       "id": "ws-flutter"
     },
     {
-      "name": "Cangjie Workshop",
-      "room": "TBD room",
-      "id": "ws-cangjie"
-    },
-    {
-      "name": "Edge AI Workshop",
-      "room": "TBD room",
-      "id": "ws-edge-ai"
-    },
-    {
       "name": "Open Source Chitu First Meetup",
-      "room": "TBD room",
+      "room": "Venue 8 - B03",
       "id": "ws-chitu"
     },
     {
       "name": "AI 4 Education Workshop",
-      "room": "TBD room",
+      "room": "Venue 8 - B03",
       "id": "ws-ai-4-education"
     },
     {
       "name": "RN Workshop",
-      "room": "TBD room",
+      "room": "Venue 9 - B05",
       "id": "ws-rn"
     },
     {
-      "name": "Dora Workshop",
-      "room": "TBD room",
-      "id": "ws-dora"
-    },
-    {
       "name": "Rust Workshop",
-      "room": "TBD room",
+      "room": "TBD Venue",
       "id": "ws-rust"
     },
     {
-      "name": "SGLang Workshop",
-      "room": "TBD room",
-      "id": "ws-sglang"
+      "name": "Makepad Workshop",
+      "room": "Venue 9 - B05",
+      "id": "ws-makepad"
     },
     {
-      "name": "Makepad Workshop",
-      "room": "TBD room",
-      "id": "ws-embedded-rust-for-ai"
+      "name": "Embedded Rust x AI WorkShop",
+      "room": "TBD Venue",
+      "id": "ws-embedded-rust"
+    },
+    {
+      "name": "Solana for Rustaceans Workshop",
+      "room": "Venue 6 - B01",
+      "id": "ws-solana"
     }
   ],
+  
   "sessions": {
     "open-for-sdg": [
       {
@@ -3259,6 +3291,7 @@
           }
         ]
       }
-    ]
+    ],
+    "rust-china": []
   }
 }

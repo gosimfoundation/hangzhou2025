@@ -19,87 +19,107 @@
   "categories": [
     {
       "name": "AI 模型 × 基础设施",
-      "room": "待定房间",
+      "room": "会场4-338",
       "id": "ai-models-infra"
     },
     {
       "name": "具身智能",
-      "room": "待定房间",
+      "room": "会场2-258",
       "id": "embodied-ai"
     },
     {
       "name": "智能体网络",
-      "room": "待定房间",
+      "room": "会场1-278",
       "id": "agentic-web"
     },
     {
       "name": "应用 × 智能体",
-      "room": "待定房间",
+      "room": "会场5-358",
       "id": "apps-agents"
     },
     {
       "name": "下一代 AI",
-      "room": "待定房间",
+      "room": "Keynote会场-318 & 328",
       "id": "ai-next"
     },
     {
       "name": "开放共创 · 可持续发展大会",
-      "room": "待定房间",
+      "room": "会场3-268",
       "id": "open-for-sdg"
     },
     {
       "name": "人工智能愿景论坛",
-      "room": "待定房间",
+      "room": "西湖国宾馆",
       "id": "forum-aivision"
+    },
+        {
+      "name": "RustChinaConf & Rust Global China（Rust）",
+      "room": "会场11-287",
+      "id": "rust-china"
+    },
+            {
+      "name": "Rust 分论坛 1: Rust Global 行业深度应用",
+      "room": "会场11-287",
+      "id": "rust-china-1"
+    },
+                {
+      "name": "Rust 分论坛 2: Rust 语言与生态",
+      "room": "会场12-288",
+      "id": "rust-china-2"
+    },
+                {
+      "name": "Rust 分论坛三：Rust 基础设施（AI & OS）",
+      "room": "会场13-289",
+      "id": "rust-china-3"
     },
     {
       "name": "SGLang 工作坊",
-      "room": "待定房间",
+      "room": "会场3-268",
       "id": "ws-sglang"
     },
     {
       "name": "仓颉 工作坊",
-      "room": "待定房间",
+      "room": "会场7-B02",
       "id": "ws-cangjie"
     },
     {
       "name": "Dora 工作坊",
-      "room": "待定房间",
+      "room": "会场7-B02",
       "id": "ws-dora"
     },
     {
       "name": "未来 Web 技术论坛",
-      "room": "待定房间",
+      "room": "会场8-B03",
       "id": "ws-future-web"
     },
     {
       "name": "端侧 AI 工作坊",
-      "room": "待定房间",
+      "room": "会场6-B01",
       "id": "ws-edge-ai"
     },
     {
       "name": "CANN 工作坊",
-      "room": "待定房间",
+      "room": "会场7-B02",
       "id": "ws-cann"
     },
     {
       "name": "Flutter 技术沙龙",
-      "room": "待定房间",
+      "room": "会场9-B05",
       "id": "ws-flutter"
     },
     {
       "name": "开源赤兔项目首次 Meetup",
-      "room": "待定房间",
+      "room": "会场8-B03",
       "id": "ws-chitu"
     },
     {
       "name": "AI 教育工作坊",
-      "room": "待定房间",
+      "room": "会场8-B03",
       "id": "ws-ai-4-education"
     },
     {
       "name": "React Native 全球开发者研讨会",
-      "room": "待定房间",
+      "room": "会场9-B05",
       "id": "ws-rn"
     },
     {
@@ -109,8 +129,18 @@
     },
     {
       "name": "Makepad 工作坊",
-      "room": "待定房间",
+      "room": "会场9-B05",
       "id": "ws-makepad"
+    },
+        {
+      "name": "嵌入式 Rust 与 AI 工作坊",
+      "room": "待定房间",
+      "id": "ws-embedded-rust"
+    },
+    {
+      "name": "Solana for Rustaceans 工作坊",
+      "room": "会场6-B01",
+      "id": "ws-solana"
     }
   ],
   "sessions": {

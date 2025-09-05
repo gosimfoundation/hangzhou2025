@@ -73,7 +73,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       link: "/zh/speakers/",
     }}
   />
-  
+
   <div
     class="section-wrap"
     id="intro"
@@ -83,7 +83,8 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     <div class="intro-statistics-container" style="">
       <Intro>
         <h3 class="h3 light split-words animate-read">
-          加入我们的GOSIM Hangzhou 2025，中国首屈一指的开源会议，这里是创新、协作和技术突破的汇聚之地。
+          加入我们的GOSIM Hangzhou
+          2025，中国首屈一指的开源会议，这里是创新、协作和技术突破的汇聚之地。
         </h3>
       </Intro>
 
@@ -114,13 +115,12 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     </div>
   </div>
 
-
-
   <Tracks
     id="tracks"
-    title="前沿主题 × 工作坊"
-    tracksTitle="主题"
-    workshopsTitle="工作坊"
+    title="前沿主题、工作坊、同期活动"
+    tracksTitle="五大 主题"
+    workshopsTitle="十四场 工作坊"
+    coLocatedEventsTitle="三场 同期活动"
     tracks={[
       {
         title: "AI 模型 × 基础设施",
@@ -150,19 +150,69 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
       {
         title: "Dora 工作坊",
-        text: "使用开源Dora框架为自主系统开发和部署机器人应用程序。"
+        text: "使用开源Dora框架为自主系统开发和部署机器人应用程序。",
       },
       {
         title: "SGLang 工作坊",
-        text: "使用SGLang掌握高效且可控的大语言模型推理与交互。"
+        text: "使用SGLang掌握高效且可控的大语言模型推理与交互。",
       },
       {
         title: "边缘 AI 工作坊",
-        text: "学习如何在资源受限的边缘设备上优化和部署强大的AI模型，以实现实时推理。"
+        text: "学习如何在资源受限的边缘设备上优化和部署强大的AI模型，以实现实时推理。",
       },
       {
         title: "未来网络 工作坊",
-        text: "探索下一代网络，重点关注去中心化身份、智能体AI和隐私优先技术。"
+        text: "探索下一代网络，重点关注去中心化身份、智能体AI和隐私优先技术。",
+      },
+      {
+        title: "CANN 工作坊",
+        text: "深入了解华为的神经网络计算架构（CANN），构建高性能 AI 解决方案。",
+      },
+      {
+        title: "Flutter 技术沙龙",
+        text: "使用单一代码库，为移动、Web 和桌面构建美观、本地编译的应用程序。",
+      },
+      {
+        title: "开源赤兔项目首次 Meetup",
+        text: "参加赤兔项目的首次社区聚会，共同探讨其未来和发展。",
+      },
+      {
+        title: "AI 教育工作坊",
+        text: "探索人工智能如何变革教育，从个性化学习到管理工具。",
+      },
+      {
+        title: "RN 技术沙龙",
+        text: "利用您的 React 技能，使用 React Native 构建原生的 iOS 和 Android 应用程序。",
+      },
+      {
+        title: "Rust 工作坊",
+        text: "亲身体验 Rust，专注于性能、可靠性和生产力。",
+      },
+      {
+        title: "Makepad 工作坊",
+        text: "学习使用 Makepad 在 Rust 中为 Web 和桌面应用程序构建快速、原生体验的 UI。",
+      },
+      {
+        title: "嵌入式 Rust 与 AI 工作坊",
+        text: "利用 Rust 的强大功能和安全性，探索嵌入式系统与人工智能的交集。",
+      },
+      {
+        title: "Solana for Rustaceans 工作坊",
+        text: "使用 Rust 在 Solana 区块链上构建高性能的去中心化应用程序。",
+      },
+    ]}
+    coLocatedEvents={[
+      {
+        title: "开放共创 · 可持续发展大会",
+        text: "一场汇聚全球开源、人工智能及政策领域专家的盛会，旨在通过开放协作与AI技术，共同为联合国可持续发展目标（SDG）的实现加速。",
+      },
+      {
+        title: "人工智能愿景论坛",
+        text: "一场汇聚全球思想家与实践者的高端闭门论坛，旨在探索人工智能如何与人类价值共生，确保AI发展始终以人为本。",
+      },
+      {
+        title: "RustGlobal & RustChinaConf",
+        text: "RustGlobal是Rust基金会主办的首次致力于在全球领导力环境中应用Rust的盛会。",
       },
     ]}
     ctaButton={{
@@ -170,7 +220,6 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       link: "/zh/schedule",
     }}
   />
-
 
   <VenueInfo
     subtitle="会议地点"
@@ -181,8 +230,6 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   />
 
   <Marquee />
-
-
 
   <TextAndImageReverse
     id="proposals"
@@ -226,43 +273,49 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     cards={[
       {
         title: "RustGlobal & RustChinaConf",
-        description: "RustGlobal是Rust基金会主办的首次致力于在全球领导力环境中应用Rust的盛会。",
-        image: ["/images/homepage/rust-global-logo.svg","/images/homepage/RustChinaConf-hangzhou-black.svg"],
+        description:
+          "RustGlobal是Rust基金会主办的首次致力于在全球领导力环境中应用Rust的盛会。",
+        image: [
+          "/images/homepage/rust-global-logo.svg",
+          "/images/homepage/RustChinaConf-hangzhou-black.svg",
+        ],
         link: "https://rustcc.cn/2025conf/",
         openInNewTab: false,
       },
       {
         title: "人工智能愿景论坛",
-        description: "一场汇聚全球思想家与实践者的高端闭门论坛，旨在探索人工智能如何与人类价值共生，确保AI发展始终以人为本。",
+        description:
+          "一场汇聚全球思想家与实践者的高端闭门论坛，旨在探索人工智能如何与人类价值共生，确保AI发展始终以人为本。",
         image: "/images/homepage/co-located-ai-vision.png",
         link: "https://forum.gosim.org/en/",
         openInNewTab: false,
       },
-            {
+      {
         title: "开放共创 · 可持续发展大会",
-        description: "一场汇聚全球开源、人工智能及政策领域专家的盛会，旨在通过开放协作与AI技术，共同为联合国可持续发展目标（SDG）的实现加速。",
+        description:
+          "一场汇聚全球开源、人工智能及政策领域专家的盛会，旨在通过开放协作与AI技术，共同为联合国可持续发展目标（SDG）的实现加速。",
         image: "/images/homepage/co-located-open-sdg.jpg",
         link: "https://opensdg.gosim.org/en/",
         openInNewTab: false,
       },
       {
         title: "超级智能体 Campathon",
-        description: "一场融合了技术训练营与编程马拉松的开发者大赛，参赛者将学习并亲手构建一个富有个性与情感的“超级智能体”。",
+        description:
+          "一场融合了技术训练营与编程马拉松的开发者大赛，参赛者将学习并亲手构建一个富有个性与情感的“超级智能体”。",
         image: "/images/homepage/co-located-super-agent.png",
         link: "https://mofa.ai/super-agent-hackathon/",
         openInNewTab: false,
       },
       {
         title: "Code Alert黑客松大赛",
-        description: "一场基于经典游戏“红色警戒”的AI黑客松。参赛者将使用自然语言指挥AI智能体，通过在线挑战和现场决赛进行对战。",
+        description:
+          "一场基于经典游戏“红色警戒”的AI黑客松。参赛者将使用自然语言指挥AI智能体，通过在线挑战和现场决赛进行对战。",
         image: "/images/homepage/co-located-code-alert.png",
         link: "https://hackathon.mofa.ai",
         openInNewTab: false,
       },
     ]}
   />
-
-  
 
   <TextAndSponsors
     title="赞助机会"
@@ -299,7 +352,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
-  
+
   <TextAndImage
     id="spotlight"
     title="GOSIM AI for Human Spotlight"
@@ -345,7 +398,8 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       {
         title: "GOSIM Conference（中国上海）",
         date: "2023年9月23-24日",
-        description: "一切的起点，GOSIM Conference和Workshop专注于倡导和增强开源贡献。",
+        description:
+          "一切的起点，GOSIM Conference和Workshop专注于倡导和增强开源贡献。",
         image: GosimShanghai,
         link: "https://conference2023.gosim.org/",
       },
