@@ -73,7 +73,7 @@
       "id": "ws-future-web"
     },
     {
-      "name": "边缘 AI 工作坊",
+      "name": "端侧 AI 工作坊",
       "room": "待定房间",
       "id": "ws-edge-ai"
     },
@@ -2622,32 +2622,24 @@
     ],
     "ws-edge-ai": [
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "KTransformers: 单卡大模型的极致推理",
-        "content": "KTransformers: 单卡大模型的极致推理",
+        "date": "9月13日",
+        "timeSlot": "14:00 - 14:05",
+        "title": "开场",
+        "content": "开场",
         "speakers": [
           {
-            "id": "weiyu-xie",
-            "name": "谢威宇",
-            "roleOrg": "博士研究生, 清华大学",
+            "id": "mats-lundgren",
+            "name": "Mats Lundgren",
+            "roleOrg": "Futurewei Technologies",
             "tags": [
               "ws-edge-ai"
             ],
-            "image": "weiyu-xie.jpg"
-          }
-        ]
-      },
-      {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "边缘AI：基于KubeEdge的可能性与价值探索",
-        "content": "边缘AI：基于KubeEdge的可能性与价值探索",
-        "speakers": [
+            "image": "0-placeholder-person.png"
+          },
           {
-            "id": "yue-bao-edge",
-            "name": "鲍玥",
-            "roleOrg": "高级工程师, 华为",
+            "id": "zhuo-wu",
+            "name": "Zhuo Wu",
+            "roleOrg": "英特尔AI软件布道师",
             "tags": [
               "ws-edge-ai"
             ],
@@ -2656,19 +2648,154 @@
         ]
       },
       {
-        "date": "待定日期",
-        "timeSlot": "待定时间",
-        "title": "基于 Slang 和 Rust 的单一源码、跨平台 GPU LLM 推理",
-        "content": "基于 Slang 和 Rust 的单一源码、跨平台 GPU LLM 推理",
+        "date": "9月13日",
+        "timeSlot": "14:05 - 14:30",
+        "title": "llama.cpp 多模态支持的全面升级",
+        "content": "llama.cpp 多模态支持的全面升级",
+        "speakers": [
+          {
+            "id": "xuan-son-nguyen",
+            "name": "Xuan Son Ngyuen",
+            "roleOrg": "Hugging Face 软件工程师",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "xuan-son-nguyen.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:30 - 14:55",
+        "title": "面向边缘的大规模 MoE 部署的协同压缩",
+        "content": "面向边缘的大规模 MoE 部署的协同压缩",
+        "speakers": [
+          {
+            "id": "yanzhi-wang",
+            "name": "王言治",
+            "roleOrg": "东北大学教授",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:55 - 15:20",
+        "title": "Hugging Face Transformer Optimum 项目",
+        "content": "Hugging Face Transformer Optimum 项目",
+        "speakers": [
+          {
+            "id": "jingyua-huang",
+            "name": "黄靖雅",
+            "roleOrg": "Hugging Face 机器学习工程师",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:20 - 15:40",
+        "title": "茶歇",
+        "content": "茶歇",
+        "speakers": []
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:40 - 16:05",
+        "title": "KTransformers: 单卡大模型的极致推理",
+        "content": "KTransformers: 单卡大模型的极致推理",
+        "speakers": [
+          {
+            "id": "weiyu-xie",
+            "name": "谢威宇",
+            "roleOrg": "清华大学博士研究生",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "weiyu-xie.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:05 - 16:30",
+        "title": "使用 Slang 和 Rust 实现的单一源跨平台 GPU 科学计算",
+        "content": "使用 Slang 和 Rust 实现的单一源跨平台 GPU 科学计算",
         "speakers": [
           {
             "id": "sbastien-crozet",
-            "name": "Sébastien Crozet",
-            "roleOrg": "创始人, Dimforge",
+            "name": "Sebastian Crozet",
+            "roleOrg": "Dimforge 创始人",
             "tags": [
               "ws-edge-ai"
             ],
             "image": "sbastien-crozet.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:30 - 16:55",
+        "title": "端侧 AI：探索 KubeEdge 的可能性与价值",
+        "content": "端侧 AI：探索 KubeEdge 的可能性与价值",
+        "speakers": [
+          {
+            "id": "yue-bao",
+            "name": "鲍玥",
+            "roleOrg": "华为高级工程师",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "yue-bao.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:55 - 17:20",
+        "title": "Khronos 计算 HAL 与 图形 HAL（SpirV）对比",
+        "content": "Khronos 计算 HAL 与 图形 HAL（SpirV）对比",
+        "speakers": [
+          {
+            "id": "markus-tavenrath",
+            "name": "Markus Tavenrath",
+            "roleOrg": "英伟达开发者技术首席工程师",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "markus-tavenrath.jpg"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "17:20 - 17:30",
+        "title": "总结",
+        "content": "总结",
+        "speakers": [
+          {
+            "id": "mats-lundgren",
+            "name": "Mats Lundgren",
+            "roleOrg": "Futurewei Technologies",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "zhuo-wu",
+            "name": "Zhuo Wu",
+            "roleOrg": "英特尔AI软件布道师",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "0-placeholder-person.png"
           }
         ]
       }
@@ -2943,6 +3070,168 @@
             "roleOrg": "Callstack首席工程师",
             "tags": [
               "ws-rn"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-chitu": [
+      {
+        "date": "9月13日",
+        "timeSlot": "13:30 - 13:40",
+        "title": "欢迎致辞",
+        "content": "欢迎致辞",
+        "speakers": [
+          {
+            "id": "wanqing-he",
+            "name": "何万青",
+            "roleOrg": "清程极智生态合作VP",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "13:40 - 14:10",
+        "title": "赤兔推理引擎的前世今生和未来",
+        "content": "赤兔推理引擎的前世今生和未来",
+        "speakers": [
+          {
+            "id": "shizhi-tang",
+            "name": "唐适之",
+            "roleOrg": "清程极智联合创始人",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:10 - 14:40",
+        "title": "Chitu 与并行推理优化的技术",
+        "content": "Chitu 与并行推理优化的技术",
+        "speakers": [
+          {
+            "id": "runqing-zhang",
+            "name": "张闰清",
+            "roleOrg": "清华大学计算机系 博士",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "14:40 - 15:00",
+        "title": "从 \"能跑\" 到 \"好用\"：Chitu 工业化部署实践与效率工具链",
+        "content": "从 \"能跑\" 到 \"好用\"：Chitu 工业化部署实践与效率工具链",
+        "speakers": [
+          {
+            "id": "jian-li",
+            "name": "李健",
+            "roleOrg": "清程极智技术专家",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:00 - 15:20",
+        "title": "自主创新算力平台建设",
+        "content": "自主创新算力平台建设",
+        "speakers": [
+          {
+            "id": "ji-li",
+            "name": "李冀",
+            "roleOrg": "上海仪电智算科技MaaS平台负责人",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:20 - 15:40",
+        "title": "茶歇",
+        "content": "茶歇",
+        "speakers": []
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "15:40 - 16:00",
+        "title": "基于K8s的Chitu高性能PD分离架构推理服务部署与运维实践",
+        "content": "基于K8s的Chitu高性能PD分离架构推理服务部署与运维实践",
+        "speakers": [
+          {
+            "id": "tongyu-guo",
+            "name": "郭彤宇",
+            "roleOrg": "阿里云高级工程师 RBG 项目 Committer",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:00 - 16:20",
+        "title": "GLM - 从想象力到生产力",
+        "content": "GLM - 从想象力到生产力",
+        "speakers": [
+          {
+            "id": "zhixing-li",
+            "name": "李智星",
+            "roleOrg": "智谱副总裁",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:20 - 16:40",
+        "title": "CANN开源开放分层解耦技术栈",
+        "content": "CANN开源开放分层解耦技术栈",
+        "speakers": [
+          {
+            "id": "zhibin-jia",
+            "name": "贾志宾",
+            "roleOrg": "昇腾生态技术专家",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "9月13日",
+        "timeSlot": "16:40 - 17:00",
+        "title": "沐曦推理引擎的极致性能",
+        "content": "沐曦推理引擎的极致性能",
+        "speakers": [
+          {
+            "id": "xiaowei-shen",
+            "name": "申小伟",
+            "roleOrg": "沐曦推理引擎负责人",
+            "tags": [
+              "ws-chitu"
             ],
             "image": "0-placeholder-person.png"
           }

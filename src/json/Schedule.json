@@ -2644,32 +2644,24 @@
     ],
     "ws-edge-ai": [
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "KTransformers: Ultimate Inference for Single-Card Large Models",
-        "content": "KTransformers: Ultimate Inference for Single-Card Large Models",
+        "date": "September 13",
+        "timeSlot": "14:00 - 14:05",
+        "title": "Intro",
+        "content": "Intro",
         "speakers": [
           {
-            "id": "weiyu-xie",
-            "name": "Weiyu Xie",
-            "roleOrg": "PhD Student, Tsinghua University",
+            "id": "mats-lundgren",
+            "name": "Mats Lundgren",
+            "roleOrg": "Futurewei Technologies",
             "tags": [
               "ws-edge-ai"
             ],
-            "image": "weiyu-xie.jpg"
-          }
-        ]
-      },
-      {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
-        "title": "Edge AI: Possibilities and Value Exploration Based on KubeEdge",
-        "content": "Edge AI: Possibilities and Value Exploration Based on KubeEdge",
-        "speakers": [
+            "image": "0-placeholder-person.png"
+          },
           {
-            "id": "yue-bao-edge",
-            "name": "Yue Bao",
-            "roleOrg": "Senior Engineer, Huawei",
+            "id": "zhuo-wu",
+            "name": "Zhuo Wu",
+            "roleOrg": "Intel AI Software Evangelist",
             "tags": [
               "ws-edge-ai"
             ],
@@ -2678,19 +2670,154 @@
         ]
       },
       {
-        "date": "TBD date",
-        "timeSlot": "TBD time",
+        "date": "September 13",
+        "timeSlot": "14:05 - 14:30",
+        "title": "How llama.cpp works, their focus, roadmap, how to contribute, etc",
+        "content": "How llama.cpp works, their focus, roadmap, how to contribute, etc",
+        "speakers": [
+          {
+            "id": "xuan-son-nguyen",
+            "name": "Xuan Son Nguyen",
+            "roleOrg": "Software Engineer, Hugging Face",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "xuan-son-nguyen.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:30 - 14:55",
+        "title": "Collaborative Compression for Large-Scale MoE Deployment on Edge",
+        "content": "Collaborative Compression for Large-Scale MoE Deployment on Edge",
+        "speakers": [
+          {
+            "id": "yanzhi-wang",
+            "name": "Yanzhi Wang",
+            "roleOrg": "Professor, Northeastern University",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:55 - 15:20",
+        "title": "Hugging Face transformer Optimum project",
+        "content": "Hugging Face transformer Optimum project",
+        "speakers": [
+          {
+            "id": "jingyua-huang",
+            "name": "Jingyua Huang",
+            "roleOrg": "Machine Learning Engineer, Hugging Face",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:20 - 15:40",
+        "title": "Tea Break",
+        "content": "Tea Break",
+        "speakers": []
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:40 - 16:05",
+        "title": "KTransformers: The Ultimate Inference on a Single Card",
+        "content": "KTransformers: The Ultimate Inference on a Single Card",
+        "speakers": [
+          {
+            "id": "weiyu-xie",
+            "name": "Weiyu Xie",
+            "roleOrg": "PH.D. Candidate, Tsinghua University",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "weiyu-xie.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:05 - 16:30",
         "title": "Single-source cross-platform GPU LLM inference with Slang and Rust",
         "content": "Single-source cross-platform GPU LLM inference with Slang and Rust",
         "speakers": [
           {
             "id": "sbastien-crozet",
-            "name": "Sébastien Crozet",
+            "name": "Sebastian Crozet",
             "roleOrg": "Founder, Dimforge",
             "tags": [
               "ws-edge-ai"
             ],
             "image": "sbastien-crozet.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:30 - 16:55",
+        "title": "AI for Edge: Exploring the possibilities and value with KubeEdge",
+        "content": "AI for Edge: Exploring the possibilities and value with KubeEdge",
+        "speakers": [
+          {
+            "id": "yue-bao",
+            "name": "Yue Bao",
+            "roleOrg": "Senior Engineering, Huawei",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "yue-bao.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:55 - 17:20",
+        "title": "Khronos Compute HAL vs Graph HAL (SpirV)",
+        "content": "Khronos Compute HAL vs Graph HAL (SpirV)",
+        "speakers": [
+          {
+            "id": "markus-tavenrath",
+            "name": "Markus Tavenrath",
+            "roleOrg": "Principal Engineer Developer Technology, NVIDIA",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "markus-tavenrath.jpg"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "17:20 - 17:30",
+        "title": "Summary",
+        "content": "Summary",
+        "speakers": [
+          {
+            "id": "mats-lundgren",
+            "name": "Mats Lundgren",
+            "roleOrg": "Futurewei Technologies",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "zhuo-wu",
+            "name": "Zhuo Wu",
+            "roleOrg": "Intel AI Software Evangelist",
+            "tags": [
+              "ws-edge-ai"
+            ],
+            "image": "0-placeholder-person.png"
           }
         ]
       }
@@ -2947,8 +3074,8 @@
       {
         "date": "September 13",
         "timeSlot": "14:00 - 17:30",
-        "title": "Native apps without a build step",
-        "content": "Native apps without a build step",
+        "title": "Native Apps Without a Build Step",
+        "content": "Native Apps Without a Build Step",
         "speakers": [
           {
             "id": "oskar-kwasniewski",
@@ -2965,6 +3092,168 @@
             "roleOrg": "Chief Engineer of Callstack",
             "tags": [
               "ws-rn"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
+    "ws-chitu": [
+      {
+        "date": "September 13",
+        "timeSlot": "13:30 - 13:40",
+        "title": "Welcome Speech",
+        "content": "Welcome Speech",
+        "speakers": [
+          {
+            "id": "wanqing-he",
+            "name": "Wanqing He",
+            "roleOrg": "Qingcheng.AI Eco-partnership VP",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "13:40 - 14:10",
+        "title": "The Past, Present, and Future of the Chitu Inference Engine",
+        "content": "The Past, Present, and Future of the Chitu Inference Engine",
+        "speakers": [
+          {
+            "id": "shizhi-tang",
+            "name": "Shizhi Tang",
+            "roleOrg": "Qingcheng.AI Co-Founder",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:10 - 14:40",
+        "title": "Chitu and Parallel Inference Optimization Technology",
+        "content": "Chitu and Parallel Inference Optimization Technology",
+        "speakers": [
+          {
+            "id": "runqing-zhang",
+            "name": "Runqing Zhang",
+            "roleOrg": "Ph.D., Department of Computer Science and Technology, Tsinghua University",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "14:40 - 15:00",
+        "title": "From \"Able\" to \"Useful\": Chitu's Industrial Deployment Practices and Turnkey Tool-chain",
+        "content": "From \"Able\" to \"Useful\": Chitu's Industrial Deployment Practices and Turnkey Tool-chain",
+        "speakers": [
+          {
+            "id": "jian-li",
+            "name": "Jian Li",
+            "roleOrg": "Qingcheng.AI Technical Expert",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:00 - 15:20",
+        "title": "Building an indigenous innovation Compute Platform",
+        "content": "Building an indigenous innovation Compute Platform",
+        "speakers": [
+          {
+            "id": "ji-li",
+            "name": "Ji Li",
+            "roleOrg": "INESA Director of MaaS Platform",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:20 - 15:40",
+        "title": "Tea Break",
+        "content": "Tea Break",
+        "speakers": []
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "15:40 - 16:00",
+        "title": "Deployment and Operational Practices for Chitu's High-Performance PD Disaggregation Architecture Inference Service Based on K8S",
+        "content": "Deployment and Operational Practices for Chitu's High-Performance PD Disaggregation Architecture Inference Service Based on K8S",
+        "speakers": [
+          {
+            "id": "tongyu-guo",
+            "name": "Tongyu Guo",
+            "roleOrg": "Alibaba Cloud Senior Engineer RBG Project Committer",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:00 - 16:20",
+        "title": "GLM - From Imagination to Productivity",
+        "content": "GLM - From Imagination to Productivity",
+        "speakers": [
+          {
+            "id": "zhixing-li",
+            "name": "Zhixing Li",
+            "roleOrg": "ZhiPuAI VP",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:20 - 16:40",
+        "title": "The CANN Open-Source Hierarchy Decoupled Technology Stack",
+        "content": "The CANN Open-Source Hierarchy Decoupled Technology Stack",
+        "speakers": [
+          {
+            "id": "zhibin-jia",
+            "name": "Zhibin Jia",
+            "roleOrg": "Ascend Ecosystem Technology Specialist",
+            "tags": [
+              "ws-chitu"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": "September 13",
+        "timeSlot": "16:40 - 17:00",
+        "title": "The Ultimate Performance of the Metax Inference System",
+        "content": "The Ultimate Performance of the Metax Inference System",
+        "speakers": [
+          {
+            "id": "xiaowei-shen",
+            "name": "XiaoWei Shen",
+            "roleOrg": "Head of MeTaX Inference System",
+            "tags": [
+              "ws-chitu"
             ],
             "image": "0-placeholder-person.png"
           }
