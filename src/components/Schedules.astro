@@ -87,6 +87,7 @@ const allSessions: Session[] = scheduleData?.sessions ? Object.entries(scheduleD
       .filter((session: Session) => session.date === currentDay)
       .map((session) => ({
         ...session,
+        speakers: session.speakers || [], // Ensure speakers is always an array
         category:
           scheduleData.categories.find((cat) => cat.id === categoryName)
             ?.name || categoryName,
