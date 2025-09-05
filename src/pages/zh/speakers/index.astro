@@ -12,31 +12,7 @@ import AllSpeakers from "components/SpeakersZh.astro";
   navBackground="light"
   pageTransitionName="Speakers"
 >
-  <section
-    class="section default-header"
-    style="background-image: linear-gradient(rgba(239, 239, 221, 0.92), rgba(239, 239, 221, 0.92)), url('/images/speakers/word_cloud.png'); background-size: cover; background-position: center bottom;"
-    data-theme-section="light"
-    data-bg-section="lightgray"
-    data-scroll-section
->
-    <div class="container">
-        <div class="row grid">
-            <div class="border-bottom" />
-
-            <div class="col col-title">
-                <div class="col-row col-row-title">
-                    <h1 style="margin-bottom: 2rem; color: #000;">全体 Keynote & 主题讲师</h1>
-                </div>
-            </div>
-
-            <div class="col col-text">
-                <div class="col-row styled-content">
-                    <p style="color: #000;">从基础模型到前沿研究，我们的演讲者将涵盖广泛的主题，帮助您保持在人工智能创新的前沿。</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+  <HeroText title="全体 Keynote & 主题讲师" text="" lightgray />
 
   <AllSpeakers />
 
