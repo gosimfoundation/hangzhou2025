@@ -151,7 +151,7 @@ const eventCategory = category || "Uncategorized";
                       (s) => s.name === speaker.name
                     );
                     let isWorkshopSpeaker = false;
-                    
+
                     // If not found in speakers, check workshops
                     if (!fullSpeakerDetails) {
                       fullSpeakerDetails = workshops.speakers.find(
@@ -161,18 +161,21 @@ const eventCategory = category || "Uncategorized";
                     }
 
                     // Determine the correct URL path
-                    const speakerPath = isWorkshopSpeaker ? '/workshops/' : '/speakers/';
-                    const speakerId = fullSpeakerDetails?.id || speaker.name.toLowerCase().replace(/\s+/g, "-");
+                    const speakerPath = isWorkshopSpeaker
+                      ? "/workshops/"
+                      : "/speakers/";
+                    const speakerId =
+                      fullSpeakerDetails?.id ||
+                      speaker.name.toLowerCase().replace(/\s+/g, "-");
 
                     return (
                       <div class="card-col">
-                        <a
-                          href={`${speakerPath}${speakerId}/`}
-                        >
+                        <a href={`${speakerPath}${speakerId}/`}>
                           <div class="single-speakers-card">
                             <div class="card-row card-row-image">
                               <div class="card-image">
-                                {(fullSpeakerDetails?.image || speaker?.image) &&
+                                {(fullSpeakerDetails?.image ||
+                                  speaker?.image) &&
                                   images[
                                     `/public/images/speakers/${fullSpeakerDetails?.image || speaker.image}`
                                   ] && (
@@ -191,7 +194,9 @@ const eventCategory = category || "Uncategorized";
                             </div>
                             <div class="card-row card-row-info">
                               <h3 class="h5">{speaker.name}</h3>
-                              <p>{fullSpeakerDetails?.roleOrg || speaker.roleOrg}</p>
+                              <p>
+                                {fullSpeakerDetails?.roleOrg || speaker.roleOrg}
+                              </p>
                             </div>
                           </div>
                         </a>
@@ -219,5 +224,9 @@ const eventCategory = category || "Uncategorized";
   .location-text {
     font-size: 0.85em;
     padding-bottom: 2rem;
+  }
+  .gradient-circle-wrap {
+    display: flex;
+    justify-content: center;
   }
 </style>
