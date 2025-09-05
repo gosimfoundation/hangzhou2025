@@ -502,4 +502,16 @@ const getEventUrl = (title: string): string => {
   .timeslot {
     min-width: 8em !important;
   }
+  .tracks {
+    flex-shrink: 0;
+  }
+    @media screen and (max-width: 500px) {
+       .accordion .single-agenda-card .top {
+      flex-direction: column;
+   }
+   .top > .tracks {
+    width: auto;
+    padding-top: 24px;
+   }
+  }
 </style>
