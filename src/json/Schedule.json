@@ -1158,13 +1158,13 @@
       {
         "date": "September 13",
         "timeSlot": "15:40 - 16:15",
-        "title": "Agent is all you need: Building Agents with ADK, A2A, MCP and Agent Engine",
-        "content": "Agent is all you need: Building Agents with ADK, A2A, MCP and Agent Engine",
+        "title": "Building the Agentic Web: Google's Vision, Technology, and Frameworks for a Collaborative AI Future",
+        "content": "Building the Agentic Web: Google's Vision, Technology, and Frameworks for a Collaborative AI Future",
         "speakers": [
           {
             "id": "jennie-shi",
             "name": "Jennie Shi",
-            "roleOrg": "AI Expert, Google Cloud",
+            "roleOrg": "AI Specialist, Google",
             "tags": [
               "agentic-web"
             ],

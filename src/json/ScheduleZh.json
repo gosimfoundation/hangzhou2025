@@ -1159,13 +1159,13 @@
       {
         "date": "9月13日",
         "timeSlot": "15:40 - 16:15",
-        "title": "Agent is all you need：使用 ADK、A2A、MCP 和 Agent Engine 构建智能体",
-        "content": "Agent is all you need：使用 ADK、A2A、MCP 和 Agent Engine 构建智能体",
+        "title": "构建Agentic Web：谷歌的愿景、技术与框架，共创协作式 AI 未来",
+        "content": "构建Agentic Web：谷歌的愿景、技术与框架，共创协作式 AI 未来",
         "speakers": [
           {
             "id": "jennie-shi",
-            "name": "Jennie Shi",
-            "roleOrg": "AI 专家，Google Cloud",
+            "name": "史洁",
+            "roleOrg": "谷歌AI专家",
             "tags": [
               "agentic-web"
             ],
