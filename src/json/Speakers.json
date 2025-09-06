@@ -5,6 +5,10 @@
       "id": "all"
     },
     {
+      "name": "GOSIM Plenary Sessions",
+      "id": "plenary"
+    },
+    {
       "name": "AI Models × Infra",
       "id": "ai-models-infra"
     },
@@ -73,12 +77,24 @@
       "id": "ws-makepad"
     },
     {
+      "name": "Embedded Rust x AI WorkShop",
+      "id": "ws-embedded-rust-ai"
+    },
+    {
+      "name": "Solana for Rustaceans Workshop",
+      "id": "ws-solana"
+    },
+    {
       "name": "Open for SDG Conference",
       "id": "open-for-sdg"
     },
     {
       "name": "AI Vision Forum",
       "id": "forum-aivision"
+    },
+    {
+      "name": "RustChinaConf & Rust Global China",
+      "id": "rustchinaconf"
     }
   ],
   "speakers": [
@@ -2180,7 +2196,7 @@
       "org": "Makepad",
       "roleOrg": "Co-founder of Makepad",
       "image": "rik-arends.png",
-      "tag": "apps-agents",
+      "tag": "rustchinaconf",
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2313,7 +2329,7 @@
       "org": "Dimforge",
       "roleOrg": "Founder, Dimforge",
       "image": "sbastien-crozet.png",
-      "tag": "assign-me",
+      "tag": "rustchinaconf",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3897,6 +3913,956 @@
         "github": "",
         "linkedin": "",
         "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "mike-tang",
+      "name": "Mike Tang / XiaGe",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "RustChinaConf Organizing Committee",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "rebecca-rumbul",
+      "name": "Rebecca",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Executive Director of the Rust Foundation",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "meng-ke",
+      "name": "Meng Ke",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Chairman of the Open Atom Open Source Xuanwu Community Working Committee",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yizhou-lu",
+      "name": "YiZhou Lu",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Head of Strategy at Non-convex Tech",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jack-huey",
+      "name": "Jack Huey",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Co-leads the types team, member of the compiler team, lang team advisor, and co-leads the Rust Vision Doc work",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "josh-triplett",
+      "name": "Josh Triplett",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Member of the Rust Project language, library, cargo, and specification teams",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "miguel-ojeda",
+      "name": "Miguel Ojeda",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Rust for Linux core developer",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yongyi-yu",
+      "name": "YongYi Yu & Yu Li",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "ByteDance R&D Engineer",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "rolland-dudemaine",
+      "name": "Rolland Dudemaine",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Director, Solutions Engineering of TrustInSoft",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yu-chen",
+      "name": "Yu Chen",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Associate Professor in the Department of Computer Science and Technology at Tsinghua University, PhD supervisor, and Deputy Director of the Software Research Institute",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "michael-yuan",
+      "name": "Michael Yuan",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "SecondState Founder",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "james-munns",
+      "name": "James Munns",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "one of the founding members of the Rust Embedded Working Group and the author of the postcard family of crates",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "adam-harvey",
+      "name": "Adam Harvey",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Security-focused Software Developer of Rust Foundation",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zili-chen",
+      "name": "Zili Chen",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Co-founder of ScopeDB",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jindi-shen",
+      "name": "JinDi Shen",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Initiator of RustPBX, Product Technology Director of Didi Cloud",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "dean-little",
+      "name": "Dean Little",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Blueshift CEO",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "haobo-gu",
+      "name": "HaoBo Gu",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "RMK author",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zhenchi-zhong",
+      "name": "ZhenChi Zhong",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Core Developer of GreptimeDB",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "hongbo-zhang",
+      "name": "HongBo Zhang",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Chief Scientist at IDEA Research Institute, Lead of Moonbit Platform",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yubing-zhao",
+      "name": "YuBing Zhao",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Linera Application Developer",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "smallfish-chen",
+      "name": "Smallfish",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "VP of Technology at Databend Labs",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xuecheng-yang",
+      "name": "XueCheng Yang",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Author of Rust Web Framework Salvo, Core Developer of Palpo",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zan-pan",
+      "name": "Zan Pan",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "CEO of Hangzhou Yusuan Technology / Author of Zino Application Development Framework",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "esteban-kuber",
+      "name": "Esteban Küber",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "member of Rust Compiler Team",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jonathan-kelly",
+      "name": "Jonathan Kelly",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Founder/CEO of Dioxus Labs",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "isacc-zhang",
+      "name": "IsaccZhang",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Infineon MCU Field Application Engineer",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "orhun-parmaksiz",
+      "name": "Orhun Parmaksız",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Primary maintainer of Ratatui",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "alejandra-gonzalez",
+      "name": "Alejandra González",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "member of clippy team",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yuan-li",
+      "name": "Yuan Li",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Huawei Engineer, Maintainer of Rust Compiler Team",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jiayan-wu",
+      "name": "JiaYan Wu",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Graduate Student at Nanjing University PASCAL Lab, rust-analyzer Maintainer, Rust Foundation Fellowship",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "bohao-tang",
+      "name": "Bohao Tang",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Lead DevRel APAC @Xion",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "kevin-boos",
+      "name": "Kevin Boos",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Chief Architect at Futurewei / Creator of Theseus OS / Technical lead of the Robius project.",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "guillaume-gomez",
+      "name": "Guillaume Gomez",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Lead of the Rustdoc team,member of the compiler team, of dev-tools team",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "david-lattimore",
+      "name": "David Lattimore",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Wild Linker Author",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "qiqi-zhang",
+      "name": "QiQi Zhang",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Kong Software Engineer, Tokio Maintainer",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xudong-huang",
+      "name": "XuDong Huang",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Author of May-rs / Senior Software Manager at a GPU chip industry company",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jiping-zhou",
+      "name": "Jiping Zhou",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Author of os-checker, open source contributor",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "hongliang-tian",
+      "name": "HongLiang Tian",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Senior Technical Expert of the Group, Initiator of the Asterinas OS Project",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "bart-massey",
+      "name": "Bart Massey",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Associate Professor of Computer Science at Portland State University/ Founder and leader of Rust-Edu",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "li-zhang",
+      "name": "Li Zhang",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Architect of Kuaishou Data Platform Big Data Engine",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "han-jiang",
+      "name": "Han Jiang",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "vivo System Architecture Expert, Over 10 years of experience in OS kernel and language runtime design and development",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "hui-ding",
+      "name": "Hui Ding",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Senior Technical Coach at ZTE",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "manuel-drehwald",
+      "name": "Manuel Sebastian Drehwald",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Rust compiler team member",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zhifeng-sun",
+      "name": "ZhiFeng Sun",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "ZTE Architect / Rust Evangelist",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xuewo-ding",
+      "name": "Xuewo",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "ASF Member, Apache OpenDAL PMC Chair, Senior Engineer at LanceDB",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yifei-sheng",
+      "name": "YiFei Sheng",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Author of GenUI, SurrealismUI Slint framework, and VoceSpace audio-video software",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "lio-qing",
+      "name": "Lio Qing",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "Student Research Assistant at the University of Hong Kong",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "archer-aimo",
+      "name": "Archer",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "AiMo Network Co-Founder && CTO",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yuxiao-wang",
+      "name": "YuXiao Wang",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "CertiK Security Researcher",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "mingxuan-liu",
+      "name": "MingXuan Liu",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "PhD student at Northwestern Polytechnical University, mainly researching operating systems, distributed systems, and cloud computing Serverless",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
       },
       "status": "Accept",
       "draft": false

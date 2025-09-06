@@ -5,6 +5,10 @@
       "id": "all"
     },
     {
+      "name": "GOSIM 全体大会",
+      "id": "plenary"
+    },
+    {
       "name": "AI 模型 × 基础设施",
       "id": "ai-models-infra"
     },
@@ -72,6 +76,14 @@
       "name": "Makepad 工作坊",
       "id": "ws-makepad"
     },
+        {
+      "name": "嵌入式 Rust 与 AI 工作坊",
+      "id": "ws-embedded-rust-ai"
+    },
+        {
+      "name": "Solana for Rustaceans 工作坊",
+      "id": "ws-solana"
+    },
     {
       "name": "开放共创 · 可持续发展大会",
       "id": "open-for-sdg"
@@ -79,6 +91,10 @@
     {
       "name": "人工智能愿景论坛",
       "id": "forum-aivision"
+    },
+    {
+      "name": "RustChinaConf & Rust Global China",
+      "id": "rustchinaconf"
     }
   ],
   "speakers": [
@@ -2180,7 +2196,7 @@
       "org": "",
       "roleOrg": "Makepad联合创始人",
       "image": "rik-arends.png",
-      "tag": "apps-agents",
+      "tag": "rustchinaconf",
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2309,11 +2325,11 @@
       "id": "sbastien-crozet",
       "name": "Sébastien Crozet",
       "bio": "Sébastien Crozet has been in love with the Rust programming language since its earliest days. He is the creator and maintainer of popular open-source libraries, including nalgebra and Rapier, for the Rust ecosystem that specialize in linear algebra, geometry, and physics. He is the founder of Dimforge where he focuses on contributing to the future of cross-platform scientific computing and AI.",
-      "role": "Founder",
+      "role": "Dimforge 创始人",
       "org": "Dimforge",
-      "roleOrg": "Founder, Dimforge",
+      "roleOrg": "Dimforge 创始人",
       "image": "sbastien-crozet.png",
-      "tag": "assign-me",
+      "tag": "rustchinaconf",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3897,6 +3913,956 @@
         "github": "",
         "linkedin": "",
         "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "mike-tang",
+      "name": "Mike Tang / 夏歌",
+      "bio": "Mike Tang / 夏歌 - RustChinaConf 组委会",
+      "role": "RustChinaConf 组委会",
+      "org": "",
+      "roleOrg": "RustChinaConf 组委会",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "rebecca-rumbul",
+      "name": "Rebecca",
+      "bio": "Rebecca - Rust 基金会执行董事",
+      "role": "Rust 基金会执行董事",
+      "org": "",
+      "roleOrg": "Rust 基金会执行董事",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "meng-ke",
+      "name": "柯猛",
+      "bio": "柯猛 - 开放原子开源旋武社区工作委员会主席",
+      "role": "开放原子开源旋武社区工作委员会主席",
+      "org": "",
+      "roleOrg": "开放原子开源旋武社区工作委员会主席",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yizhou-lu",
+      "name": "陆一洲",
+      "bio": "陆一洲 - 非凸科技策略负责人",
+      "role": "非凸科技策略负责人",
+      "org": "",
+      "roleOrg": "非凸科技策略负责人",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jack-huey",
+      "name": "Jack Huey",
+      "bio": "Jack Huey - Rust类型团队联合负责人，编译器团队成员，语言团队顾问，Rust愿景文档工作联合负责人",
+      "role": "Rust类型团队联合负责人，编译器团队成员，语言团队顾问，Rust愿景文档工作联合负责人",
+      "org": "",
+      "roleOrg": "Rust类型团队联合负责人，编译器团队成员，语言团队顾问，Rust愿景文档工作联合负责人",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "josh-triplett",
+      "name": "Josh Triplett",
+      "bio": "Josh Triplett - Rust 项目语言、库、Cargo 和规范团队成员",
+      "role": "Rust 项目语言、库、Cargo 和规范团队成员",
+      "org": "",
+      "roleOrg": "Rust 项目语言、库、Cargo 和规范团队成员",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "miguel-ojeda",
+      "name": "Miguel Ojeda",
+      "bio": "Miguel Ojeda - Rust for Linux 核心开发者",
+      "role": "Rust for Linux 核心开发者",
+      "org": "",
+      "roleOrg": "Rust for Linux 核心开发者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yongyi-yu",
+      "name": "于涌溢 & 李宇",
+      "bio": "于涌溢 & 李宇 - 字节跳动研发工程师",
+      "role": "字节跳动研发工程师",
+      "org": "",
+      "roleOrg": "字节跳动研发工程师",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "rolland-dudemaine",
+      "name": "Rolland Dudemaine",
+      "bio": "Rolland Dudemaine - TrustInSoft 解决方案工程总监",
+      "role": "TrustInSoft 解决方案工程总监",
+      "org": "",
+      "roleOrg": "TrustInSoft 解决方案工程总监",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yu-chen",
+      "name": "陈渝",
+      "bio": "陈渝 - 清华大学计算机科学与技术系的副教授和博士生导师兼该软件研究所的副所长",
+      "role": "清华大学计算机科学与技术系的副教授和博士生导师兼该软件研究所的副所长",
+      "org": "",
+      "roleOrg": "清华大学计算机科学与技术系的副教授和博士生导师兼该软件研究所的副所长",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "michael-yuan",
+      "name": "Michael Yuan",
+      "bio": "Michael Yuan - SecondState 创始人",
+      "role": "SecondState 创始人",
+      "org": "",
+      "roleOrg": "SecondState 创始人",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "james-munns",
+      "name": "James Munns",
+      "bio": "James Munns - 嵌入式 Rust 工作组的创始成员之一，也是 postcard 系列 crate 的作者",
+      "role": "嵌入式 Rust 工作组的创始成员之一，也是 postcard 系列 crate 的作者",
+      "org": "",
+      "roleOrg": "嵌入式 Rust 工作组的创始成员之一，也是 postcard 系列 crate 的作者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "adam-harvey",
+      "name": "Adam Harvey",
+      "bio": "Adam Harvey - Rust 基金会专注于安全的软件开发人员",
+      "role": "Rust 基金会专注于安全的软件开发人员",
+      "org": "",
+      "roleOrg": "Rust 基金会专注于安全的软件开发人员",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zili-chen",
+      "name": "陈子力",
+      "bio": "陈子力 - ScopeDB 联合创始人",
+      "role": "ScopeDB 联合创始人",
+      "org": "",
+      "roleOrg": "ScopeDB 联合创始人",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jindi-shen",
+      "name": "沈进迪",
+      "bio": "沈进迪 - RustPBX 发起人，滴滴云产品技术总监",
+      "role": "RustPBX 发起人，滴滴云产品技术总监",
+      "org": "",
+      "roleOrg": "RustPBX 发起人，滴滴云产品技术总监",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "dean-little",
+      "name": "Dean Little",
+      "bio": "Dean Little - Blueshift CEO",
+      "role": "Blueshift CEO",
+      "org": "",
+      "roleOrg": "Blueshift CEO",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "haobo-gu",
+      "name": "顾浩博",
+      "bio": "顾浩博 - RMK 作者",
+      "role": "RMK 作者",
+      "org": "",
+      "roleOrg": "RMK 作者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zhenchi-zhong",
+      "name": "钟振驰",
+      "bio": "钟振驰 - GreptimeDB 核心开发者",
+      "role": "GreptimeDB 核心开发者",
+      "org": "",
+      "roleOrg": "GreptimeDB 核心开发者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "hongbo-zhang",
+      "name": "张宏波",
+      "bio": "张宏波 - IDEA 研究院首席科学家，Moonbit 平台负责人",
+      "role": "IDEA 研究院首席科学家，Moonbit 平台负责人",
+      "org": "",
+      "roleOrg": "IDEA 研究院首席科学家，Moonbit 平台负责人",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yubing-zhao",
+      "name": "赵雨冰",
+      "bio": "赵雨冰 - Linera 应用程序开发者",
+      "role": "Linera 应用程序开发者",
+      "org": "",
+      "roleOrg": "Linera 应用程序开发者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "smallfish-chen",
+      "name": "陈小鱼",
+      "bio": "陈小鱼 - Databend Labs 技术副总裁",
+      "role": "Databend Labs 技术副总裁",
+      "org": "",
+      "roleOrg": "Databend Labs 技术副总裁",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xuecheng-yang",
+      "name": "杨雪程",
+      "bio": "杨雪程 - Rust Web 框架 Salvo 作者，Palpo 核心开发者",
+      "role": "Rust Web 框架 Salvo 作者，Palpo 核心开发者",
+      "org": "",
+      "roleOrg": "Rust Web 框架 Salvo 作者，Palpo 核心开发者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zan-pan",
+      "name": "潘赞",
+      "bio": "潘赞 - 杭州又算科技CEO/Zino应用开发框架作者",
+      "role": "杭州又算科技CEO/Zino应用开发框架作者",
+      "org": "",
+      "roleOrg": "杭州又算科技CEO/Zino应用开发框架作者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "esteban-kuber",
+      "name": "Esteban Küber",
+      "bio": "Esteban Küber - Rust 编译器团队成员",
+      "role": "Rust 编译器团队成员",
+      "org": "",
+      "roleOrg": "Rust 编译器团队成员",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jonathan-kelly",
+      "name": "Jonathan Kelley",
+      "bio": "Jonathan Kelley - Dioxus Labs 创始人/CEO",
+      "role": "Dioxus Labs 创始人/CEO",
+      "org": "",
+      "roleOrg": "Dioxus Labs 创始人/CEO",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "isacc-zhang",
+      "name": "张恰克",
+      "bio": "张恰克 - 英飞凌MCU现场应用工程师",
+      "role": "英飞凌MCU现场应用工程师",
+      "org": "",
+      "roleOrg": "英飞凌MCU现场应用工程师",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "orhun-parmaksiz",
+      "name": "Orhun Parmaksız",
+      "bio": "Orhun Parmaksız - Ratatui 的主要维护者",
+      "role": "Ratatui 的主要维护者",
+      "org": "",
+      "roleOrg": "Ratatui 的主要维护者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "alejandra-gonzalez",
+      "name": "Alejandra González",
+      "bio": "Alejandra González - clippy 团队成员",
+      "role": "clippy 团队成员",
+      "org": "",
+      "roleOrg": "clippy 团队成员",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yuan-li",
+      "name": "李媛",
+      "bio": "李媛 - 华为工程师，Rust 编译器团队维护者",
+      "role": "华为工程师，Rust 编译器团队维护者",
+      "org": "",
+      "roleOrg": "华为工程师，Rust 编译器团队维护者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jiayan-wu",
+      "name": "吴佳炎",
+      "bio": "吴佳炎 - 南京大学PASCAL实验室研究生，rust-analyzer维护者，Rust Foundation Fellowship",
+      "role": "南京大学PASCAL实验室研究生，rust-analyzer维护者，Rust Foundation Fellowship",
+      "org": "",
+      "roleOrg": "南京大学PASCAL实验室研究生，rust-analyzer维护者，Rust Foundation Fellowship",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "bohao-tang",
+      "name": "唐博昊",
+      "bio": "唐博昊 - Lead DevRel APAC @Xion",
+      "role": "Lead DevRel APAC @Xion",
+      "org": "",
+      "roleOrg": "Lead DevRel APAC @Xion",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "kevin-boos",
+      "name": "Kevin Boos",
+      "bio": "Kevin Boos - Futurewei 首席架构师 / Theseus OS 创造者 / Robius 项目技术负责人",
+      "role": "Futurewei 首席架构师 / Theseus OS 创造者 / Robius 项目技术负责人",
+      "org": "",
+      "roleOrg": "Futurewei 首席架构师 / Theseus OS 创造者 / Robius 项目技术负责人",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "guillaume-gomez",
+      "name": "Guillaume Gomez",
+      "bio": "Guillaume Gomez - Rustdoc 团队负责人，编译器团队、开发工具团队成员",
+      "role": "Rustdoc 团队负责人，编译器团队、开发工具团队成员",
+      "org": "",
+      "roleOrg": "Rustdoc 团队负责人，编译器团队、开发工具团队成员",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "david-lattimore",
+      "name": "David Lattimore",
+      "bio": "David Lattimore - Wild Linker 作者",
+      "role": "Wild Linker 作者",
+      "org": "",
+      "roleOrg": "Wild Linker 作者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "qiqi-zhang",
+      "name": "张琦琦",
+      "bio": "张琦琦 - Kong 软件工程师，Tokio 维护者",
+      "role": "Kong 软件工程师，Tokio 维护者",
+      "org": "",
+      "roleOrg": "Kong 软件工程师，Tokio 维护者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xudong-huang",
+      "name": "黄旭东",
+      "bio": "黄旭东 - May-rs 作者 / GPU芯片行业公司高级软件经理",
+      "role": "May-rs 作者 / GPU芯片行业公司高级软件经理",
+      "org": "",
+      "roleOrg": "May-rs 作者 / GPU芯片行业公司高级软件经理",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jiping-zhou",
+      "name": "周纪平",
+      "bio": "周纪平 - os-checker 作者，开源贡献者",
+      "role": "os-checker 作者，开源贡献者",
+      "org": "",
+      "roleOrg": "os-checker 作者，开源贡献者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "hongliang-tian",
+      "name": "田洪亮",
+      "bio": "田洪亮 - 集团高级技术专家，Asterinas OS 项目发起人",
+      "role": "集团高级技术专家，Asterinas OS 项目发起人",
+      "org": "",
+      "roleOrg": "集团高级技术专家，Asterinas OS 项目发起人",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "bart-massey",
+      "name": "Bart Massey",
+      "bio": "Bart Massey - 波特兰州立大学计算机科学副教授/ Rust-Edu 创始人和负责人",
+      "role": "波特兰州立大学计算机科学副教授/ Rust-Edu 创始人和负责人",
+      "org": "",
+      "roleOrg": "波特兰州立大学计算机科学副教授/ Rust-Edu 创始人和负责人",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "li-zhang",
+      "name": "张利",
+      "bio": "张利 - 快手数据平台大数据引擎架构师",
+      "role": "快手数据平台大数据引擎架构师",
+      "org": "",
+      "roleOrg": "快手数据平台大数据引擎架构师",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "han-jiang",
+      "name": "蒋涵",
+      "bio": "蒋涵 - vivo 系统架构专家，10余年操作系统内核和语言运行时设计开发经验",
+      "role": "vivo 系统架构专家，10余年操作系统内核和语言运行时设计开发经验",
+      "org": "",
+      "roleOrg": "vivo 系统架构专家，10余年操作系统内核和语言运行时设计开发经验",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "hui-ding",
+      "name": "丁辉",
+      "bio": "丁辉 - 中兴通讯高级技术教练",
+      "role": "中兴通讯高级技术教练",
+      "org": "",
+      "roleOrg": "中兴通讯高级技术教练",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "manuel-drehwald",
+      "name": "Manuel Drehwald",
+      "bio": "Manuel Drehwald - Rust 编译器团队成员",
+      "role": "Rust 编译器团队成员",
+      "org": "",
+      "roleOrg": "Rust 编译器团队成员",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zhifeng-sun",
+      "name": "孙志峰",
+      "bio": "孙志峰 - 中兴通讯架构师 / Rust 布道师",
+      "role": "中兴通讯架构师 / Rust 布道师",
+      "org": "",
+      "roleOrg": "中兴通讯架构师 / Rust 布道师",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xuewo-ding",
+      "name": "丁学沃",
+      "bio": "丁学沃 - ASF Member, Apache OpenDAL PMC Chair, Senior Engineer at LanceDB",
+      "role": "ASF Member, Apache OpenDAL PMC Chair, Senior Engineer at LanceDB",
+      "org": "",
+      "roleOrg": "ASF Member, Apache OpenDAL PMC Chair, Senior Engineer at LanceDB",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yifei-sheng",
+      "name": "盛一飞",
+      "bio": "盛一飞 - GenUI，SurrealismUI Slint框架，以及VoceSpace音视频软件的作者",
+      "role": "GenUI，SurrealismUI Slint框架，以及VoceSpace音视频软件的作者",
+      "org": "",
+      "roleOrg": "GenUI，SurrealismUI Slint框架，以及VoceSpace音视频软件的作者",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "lio-qing",
+      "name": "廖青",
+      "bio": "廖青 - 香港大学学生研究助理",
+      "role": "香港大学学生研究助理",
+      "org": "",
+      "roleOrg": "香港大学学生研究助理",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "archer-aimo",
+      "name": "Archer",
+      "bio": "Archer - AiMo Network Co-Founder && CTO",
+      "role": "AiMo Network Co-Founder && CTO",
+      "org": "",
+      "roleOrg": "AiMo Network Co-Founder && CTO",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yuxiao-wang",
+      "name": "王宇霄",
+      "bio": "王宇霄 - CertiK 安全研究员",
+      "role": "CertiK 安全研究员",
+      "org": "",
+      "roleOrg": "CertiK 安全研究员",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "mingxuan-liu",
+      "name": "刘铭轩",
+      "bio": "刘铭轩 - 西北工业大学博士生，主要研究操作系统，分布式系统和云计算Serverless",
+      "role": "西北工业大学博士生，主要研究操作系统，分布式系统和云计算Serverless",
+      "org": "",
+      "roleOrg": "西北工业大学博士生，主要研究操作系统，分布式系统和云计算Serverless",
+      "image": "0-placeholder-person.png",
+      "tag": "rustchinaconf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
       },
       "status": "Accept",
       "draft": false
