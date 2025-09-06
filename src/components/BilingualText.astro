@@ -1,4 +1,6 @@
 ---
+import { marked } from 'marked';
+
 interface BilingualTextData {
   en: string
   zh: string
@@ -75,13 +77,11 @@ const Element = element
 
 {hasTranslations && typeof displayText === 'object' ? (
   <Element class={cssClasses}>
-    <span class="zh-text">{displayText.zh}</span>
-    <span class="en-text">{displayText.en}</span>
+    <div class="zh-text" set:html={marked.parse(displayText.zh, { breaks: true })} />
+    <div class="en-text" set:html={marked.parse(displayText.en, { breaks: true })} />
   </Element>
 ) : (
-  <Element class={cssClasses}>
-    {displayText}
-  </Element>
+  <Element class={cssClasses} set:html={marked.parse(displayText, { breaks: true })} />
 )}
 
 <!-- Styles are now in src/styles/Components.scss -->
