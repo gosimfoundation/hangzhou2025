@@ -63,6 +63,13 @@ const processedScheduleData = safeProcessBilingualSchedule(
   handleError
 )
 
+// Group categories by their group property
+const groupedCategories = {
+  tracks: processedScheduleData.categories.filter(cat => cat.group === 'tracks'),
+  workshops: processedScheduleData.categories.filter(cat => cat.group === 'workshops'),
+  colocated: processedScheduleData.categories.filter(cat => cat.group === 'colocated')
+}
+
 // Use the provided props or default values based on language
 const defaultDay = currentLang === 'zh' ? "9月13日" : "September 13"
 const { currentDay = defaultDay, activeCategory = "All" } = Astro.props
@@ -163,16 +170,50 @@ const getEventUrl = (title: BilingualText | string): string => {
   return `${origin}/schedule/${titleText.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, "-").replace(/-+/g, '-').trim()}/`;
 }
 
+// Helper function to classify session type for styling
+const getSessionCategoryClass = (session: BilingualSession): string => {
+  const titleEn = safeGetBilingualText(session.title, 'en', '', handleError).toLowerCase()
+  const titleZh = safeGetBilingualText(session.title, 'zh', '', handleError)
+  
+  // Only apply styling to actual special events, be very specific
+  
+  // Keynote sessions (must start with "Keynote" or be explicitly marked)
+  if (titleEn.startsWith('keynote') || titleZh.startsWith('主旨')) {
+    return 'keynote-session'
+  }
+  
+  // Plenary sessions - only for GOSIM Plenary category sessions
+  if (session.category === getBilingualText({en: "GOSIM Plenary Sessions", zh: "GOSIM 全体大会"}, currentLang)) {
+    return 'plenary-session'
+  }
+  
+  // Lunch breaks - very specific matching
+  if (titleEn === 'lunch break' || titleEn === 'lunch' || titleZh === '午餐' || titleZh === '午餐时间') {
+    return 'lunch-break'
+  }
+  
+  // Coffee breaks - very specific matching
+  if (titleEn.includes('morning coffee') || titleEn.includes('afternoon coffee') || 
+      titleEn === 'coffee break' || titleZh.includes('茶歇') || titleZh.includes('咖啡')) {
+    return 'coffee-break'
+  }
+  
+  return ''
+}
+
 // Helper function to get localized text with error handling
 const getLocalizedText = (key: string): string => {
   const texts: Record<string, string> = {
-    'All': currentLang === 'zh' ? 'All' : 'All',
+    'All': currentLang === 'zh' ? 'All Events 全部议程' : 'All Events',
     'All Tracks': currentLang === 'zh' ? 'All Tracks' : 'All Tracks',
     'Filter:': currentLang === 'zh' ? 'Filter:' : 'Filter:',
     'No sessions available for this day': currentLang === 'zh' ? '此日暂无议程' : 'No sessions available for this day',
     'No sessions available for category': currentLang === 'zh' ? '此日没有此议程：' : 'No sessions available for category',
     'Schedules are subject to change': currentLang === 'zh' ? '议程为参考，实际可能变化' : 'Schedules are subject to change',
-    'TBA': currentLang === 'zh' ? 'TBA' : 'TBA'
+    'TBA': currentLang === 'zh' ? 'TBA' : 'TBA',
+    'Plenary & Tracks': currentLang === 'zh' ? '全体大会 & 主题' : 'Plenary & Tracks',
+    'Workshops': currentLang === 'zh' ? '工作坊' : 'Workshops',
+    'Colocated Events': currentLang === 'zh' ? '同期活动' : 'Co-located Events'
   }
   
   if (!(key in texts)) {
@@ -219,37 +260,105 @@ const getLocalizedText = (key: string): string => {
           }
         </div>
       </div>
-      <div
-        class="single-filter"
-        data-filter-status={activeCategory === "All" ? "active" : "not-active"}
-        data-filter-category="all"
-        role="button"
-        aria-pressed={activeCategory === "All" ? "true" : "false"}
-        aria-label="Show all categories"
-        tabindex="0"
-      >
-        <span>{getLocalizedText('All')}</span>
+      <!-- All Events Button -->
+      <div class="all-events-section">
+        <div
+          class="single-filter all-button full-width"
+          data-filter-status={activeCategory === "All" ? "active" : "not-active"}
+          data-filter-category="all"
+          data-multiple-select="false"
+          role="button"
+          aria-pressed={activeCategory === "All" ? "true" : "false"}
+          aria-label="Show all categories"
+          tabindex="0"
+        >
+          <span>{getLocalizedText('All')}</span>
+        </div>
       </div>
-      {
-        processedScheduleData.categories.map((category) => {
-          const categoryName = getBilingualText(category.name, currentLang)
-          return (
-            <div
-              class="single-filter"
-              data-filter-status={
-                categoryName === activeCategory ? "active" : "not-active"
-              }
-              data-filter-category={categoryName.toLowerCase().replace(/ /g, '-')}
-              role="button"
-              aria-pressed={categoryName === activeCategory ? "true" : "false"}
-              aria-label={`Filter by ${categoryName}`}
-              tabindex="0"
-            >
-              <span>{categoryName}</span>
-            </div>
-          )
-        })
-      }
+      
+      <!-- Plenary & Tracks Group -->
+      <div class="filter-group-section">
+        <div class="filter-group-header">
+          <h4 class="filter-group-title">{getLocalizedText('Plenary & Tracks')}</h4>
+        </div>
+        <div class="filter-group-tags">
+          {
+            groupedCategories.tracks.map((category) => {
+              const categoryName = getBilingualText(category.name, currentLang)
+              return (
+                <div
+                  class="single-filter"
+                  data-filter-status="not-active"
+                  data-filter-category={categoryName.toLowerCase().replace(/ /g, '-')}
+                  data-multiple-select="false"
+                  role="button"
+                  aria-pressed="false"
+                  aria-label={`Filter by ${categoryName}`}
+                  tabindex="0"
+                >
+                  <span>{categoryName}</span>
+                </div>
+              )
+            })
+          }
+        </div>
+      </div>
+      
+      <!-- Workshops Group -->
+      <div class="filter-group-section">
+        <div class="filter-group-header">
+          <h4 class="filter-group-title">{getLocalizedText('Workshops')}</h4>
+        </div>
+        <div class="filter-group-tags">
+          {
+            groupedCategories.workshops.map((category) => {
+              const categoryName = getBilingualText(category.name, currentLang)
+              return (
+                <div
+                  class="single-filter"
+                  data-filter-status="not-active"
+                  data-filter-category={categoryName.toLowerCase().replace(/ /g, '-')}
+                  data-multiple-select="false"
+                  role="button"
+                  aria-pressed="false"
+                  aria-label={`Filter by ${categoryName}`}
+                  tabindex="0"
+                >
+                  <span>{categoryName}</span>
+                </div>
+              )
+            })
+          }
+        </div>
+      </div>
+      
+      <!-- Colocated Events Group -->
+      <div class="filter-group-section">
+        <div class="filter-group-header">
+          <h4 class="filter-group-title">{getLocalizedText('Colocated Events')}</h4>
+        </div>
+        <div class="filter-group-tags">
+          {
+            groupedCategories.colocated.map((category) => {
+              const categoryName = getBilingualText(category.name, currentLang)
+              return (
+                <div
+                  class="single-filter"
+                  data-filter-status="not-active"
+                  data-filter-category={categoryName.toLowerCase().replace(/ /g, '-')}
+                  data-multiple-select="false"
+                  role="button"
+                  aria-pressed="false"
+                  aria-label={`Filter by ${categoryName}`}
+                  tabindex="0"
+                >
+                  <span>{categoryName}</span>
+                </div>
+              )
+            })
+          }
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -301,31 +410,91 @@ const getLocalizedText = (key: string): string => {
             </div>
           </div>
           <div class="date-divider"></div>
-          <div
-            class="single-filter"
-            data-filter-status={activeCategory === "All"
-              ? "active"
-              : "not-active"}
-            data-filter-category="all"
-          >
-            <span>{getLocalizedText('All')}</span>
+          <!-- All Events Button -->
+          <div class="all-events-section">
+            <div
+              class="single-filter all-button full-width"
+              data-filter-status={activeCategory === "All"
+                ? "active"
+                : "not-active"}
+              data-filter-category="all"
+              data-multiple-select="false"
+            >
+              <span>{getLocalizedText('All')}</span>
+            </div>
           </div>
-          {
-            processedScheduleData.categories.map((category) => {
-              const categoryName = getBilingualText(category.name, currentLang)
-              return (
-                <div
-                  class="single-filter"
-                  data-filter-status={
-                    categoryName === activeCategory ? "active" : "not-active"
-                  }
-                  data-filter-category={categoryName.toLowerCase().replace(/ /g, '-')}
-                >
-                  <span>{categoryName}</span>
-                </div>
-              )
-            })
-          }
+          
+          <!-- Plenary & Tracks Group -->
+          <div class="filter-group-section">
+            <div class="filter-group-header">
+              <h4 class="filter-group-title">{getLocalizedText('Plenary & Tracks')}</h4>
+            </div>
+            <div class="filter-group-tags">
+              {
+                groupedCategories.tracks.map((category) => {
+                  const categoryName = getBilingualText(category.name, currentLang)
+                  return (
+                    <div
+                      class="single-filter"
+                      data-filter-status="not-active"
+                      data-filter-category={categoryName.toLowerCase().replace(/ /g, '-')}
+                      data-multiple-select="false"
+                    >
+                      <span>{categoryName}</span>
+                    </div>
+                  )
+                })
+              }
+            </div>
+          </div>
+          
+          <!-- Workshops Group -->
+          <div class="filter-group-section">
+            <div class="filter-group-header">
+              <h4 class="filter-group-title">{getLocalizedText('Workshops')}</h4>
+            </div>
+            <div class="filter-group-tags">
+              {
+                groupedCategories.workshops.map((category) => {
+                  const categoryName = getBilingualText(category.name, currentLang)
+                  return (
+                    <div
+                      class="single-filter"
+                      data-filter-status="not-active"
+                      data-filter-category={categoryName.toLowerCase().replace(/ /g, '-')}
+                      data-multiple-select="false"
+                    >
+                      <span>{categoryName}</span>
+                    </div>
+                  )
+                })
+              }
+            </div>
+          </div>
+          
+          <!-- Colocated Events Group -->
+          <div class="filter-group-section">
+            <div class="filter-group-header">
+              <h4 class="filter-group-title">{getLocalizedText('Colocated Events')}</h4>
+            </div>
+            <div class="filter-group-tags">
+              {
+                groupedCategories.colocated.map((category) => {
+                  const categoryName = getBilingualText(category.name, currentLang)
+                  return (
+                    <div
+                      class="single-filter"
+                      data-filter-status="not-active"
+                      data-filter-category={categoryName.toLowerCase().replace(/ /g, '-')}
+                      data-multiple-select="false"
+                    >
+                      <span>{categoryName}</span>
+                    </div>
+                  )
+                })
+              }
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -345,7 +514,7 @@ const getLocalizedText = (key: string): string => {
                 
                 return (
                   <li
-                    class={`single-agenda-card single-accordion-item card-hover ${session.isSpecialEvent ? 'special-event' : ''}`}
+                    class={`single-agenda-card single-accordion-item card-hover ${session.isSpecialEvent ? 'special-event' : ''} ${getSessionCategoryClass(session)}`}
                     data-accordion-status="not-active"
                     data-filter-status="active"
                     data-filter-category="all"
@@ -509,7 +678,7 @@ const getLocalizedText = (key: string): string => {
                     
                     return (
                       <li
-                        class={`single-agenda-card single-accordion-item card-hover ${session.isSpecialEvent ? 'special-event' : ''}`}
+                        class={`single-agenda-card single-accordion-item card-hover ${session.isSpecialEvent ? 'special-event' : ''} ${getSessionCategoryClass(session)}`}
                         data-accordion-status="not-active"
                         data-filter-status="active"
                         data-filter-category={categoryName.toLowerCase().replace(/ /g, '-')}
@@ -670,6 +839,81 @@ const getLocalizedText = (key: string): string => {
   .tracks {
     flex-shrink: 0;
   }
+  
+  /* All Events Button styling */
+  .all-events-section {
+    margin: 1rem 0;
+    width: 100%;
+  }
+  
+  .all-button.full-width {
+    width: 100%;
+    display: block;
+    background-color: #e9cb2c !important;
+    color: #212529 !important;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .all-button.full-width:hover {
+    background-color: rgb(208, 156, 0) !important;
+  }
+  
+  /* Filter group styling */
+  .filter-group-section {
+    margin: 1rem 0;
+  }
+  
+  .filter-group-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter-group-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .filter-group-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  
+  /* Special session styling */
+  .single-agenda-card.plenary-session {
+    border-left: 4px solid #dc3545;
+    background: linear-gradient(135deg, #fff5f5 0%, #ffffff 100%);
+  }
+  
+  .single-agenda-card.lunch-break {
+    border-left: 4px solid #fd7e14;
+    background: linear-gradient(135deg, #fff8f0 0%, #ffffff 100%);
+  }
+  
+  .single-agenda-card.coffee-break {
+    border-left: 4px solid #6f42c1;
+    background: linear-gradient(135deg, #f8f6ff 0%, #ffffff 100%);
+  }
+  
+  .single-agenda-card.keynote-session {
+    border-left: 4px solid #198754;
+    background: linear-gradient(135deg, #f0fff4 0%, #ffffff 100%);
+  }
+  
   @media screen and (max-width: 500px) {
     .accordion .single-agenda-card .top {
       flex-direction: column;
@@ -680,3 +924,58 @@ const getLocalizedText = (key: string): string => {
     }
   }
 </style>
+
+<script>
+  // Single selection filtering
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterElements = document.querySelectorAll('[data-filter-category]') as NodeListOf<HTMLElement>;
+    const sessionElements = document.querySelectorAll('.single-agenda-card') as NodeListOf<HTMLElement>;
+    let activeFilter = 'all'; // Start with 'all' active
+    
+    filterElements.forEach(filter => {
+      filter.addEventListener('click', function(this: HTMLElement) {
+        const category = this.getAttribute('data-filter-category') || '';
+        
+        // Set the new active filter
+        activeFilter = category;
+        
+        updateFilterStates();
+        if (activeFilter === 'all') {
+          showAllSessions();
+        } else {
+          filterSessions();
+        }
+      });
+    });
+    
+    function updateFilterStates() {
+      filterElements.forEach(filter => {
+        const category = filter.getAttribute('data-filter-category') || '';
+        const isActive = category === activeFilter;
+        
+        filter.setAttribute('data-filter-status', isActive ? 'active' : 'not-active');
+        filter.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+      });
+    }
+    
+    function showAllSessions() {
+      sessionElements.forEach(session => {
+        session.style.display = 'block';
+        session.setAttribute('data-filter-status', 'active');
+      });
+    }
+    
+    function filterSessions() {
+      sessionElements.forEach(session => {
+        const sessionCategory = session.getAttribute('data-filter-category') || '';
+        const shouldShow = sessionCategory === activeFilter;
+        
+        session.style.display = shouldShow ? 'block' : 'none';
+        session.setAttribute('data-filter-status', shouldShow ? 'active' : 'not-active');
+      });
+    }
+    
+    // Initialize filter states
+    updateFilterStates();
+  });
+</script>
