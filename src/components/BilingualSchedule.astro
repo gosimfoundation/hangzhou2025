@@ -129,9 +129,8 @@ const allSessions: BilingualSession[] = processedScheduleData?.sessions ? Object
               speakers: session.speakers || [], // Ensure speakers is always an array
               category: getCategoryName(processedScheduleData.categories, categoryName, currentLang),
               isSpecialEvent:
-                safeGetBilingualText(session.title, 'en', '', handleError).includes("Keynote") ||
+                safeGetBilingualText(session.title, 'en', '', handleError).startsWith("Keynote") ||
                 safeGetBilingualText(session.title, 'en', '', handleError).includes("Morning Coffee") ||
-                safeGetBilingualText(session.title, 'en', '', handleError).includes("Lunch Break") ||
                 safeGetBilingualText(session.title, 'en', '', handleError).includes("Afternoon Coffee") ||
                 safeGetBilingualText(session.title, 'en', '', handleError).includes("Spotlight Demos") ||
                 safeGetBilingualText(session.title, 'en', '', handleError).includes("Spotlight Talks")

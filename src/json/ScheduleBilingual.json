@@ -46,6 +46,18 @@
   "categories": [
     {
       "name": {
+        "en": "GOSIM Plenary Sessions",
+        "zh": "GOSIM 全体大会"
+      },
+      "room": {
+        "en": "Keynote Venue - 318 & 328",
+        "zh": "Keynote会场-318 & 328"
+      },
+      "id": "gosim-plenary",
+      "group": "tracks"
+    },
+    {
+      "name": {
         "en": "AI Models x Infra",
         "zh": "AI 模型 × 基础设施"
       },
@@ -53,7 +65,8 @@
         "en": "Venue 4 - 338",
         "zh": "会场4-338"
       },
-      "id": "ai-models-infra"
+      "id": "ai-models-infra",
+      "group": "tracks"
     },
     {
       "name": {
@@ -64,7 +77,8 @@
         "en": "Venue 2 - 258",
         "zh": "会场2-258"
       },
-      "id": "embodied-ai"
+      "id": "embodied-ai",
+      "group": "tracks"
     },
     {
       "name": {
@@ -75,7 +89,8 @@
         "en": "Venue 1 - 278",
         "zh": "会场1-278"
       },
-      "id": "agentic-web"
+      "id": "agentic-web",
+      "group": "tracks"
     },
     {
       "name": {
@@ -86,7 +101,8 @@
         "en": "Venue 5 - 358",
         "zh": "会场5-358"
       },
-      "id": "apps-agents"
+      "id": "apps-agents",
+      "group": "tracks"
     },
     {
       "name": {
@@ -97,7 +113,8 @@
         "en": "Keynote Venue - 318 & 328",
         "zh": "Keynote会场-318 & 328"
       },
-      "id": "ai-next"
+      "id": "ai-next",
+      "group": "tracks"
     },
     {
       "name": {
@@ -108,7 +125,8 @@
         "en": "Venue 3 - 268",
         "zh": "会场3-268"
       },
-      "id": "open-for-sdg"
+      "id": "open-for-sdg",
+      "group": "colocated"
     },
     {
       "name": {
@@ -119,18 +137,20 @@
         "en": "West Lake State Guesthouse",
         "zh": "西湖国宾馆"
       },
-      "id": "forum-aivision"
+      "id": "forum-aivision",
+      "group": "colocated"
     },
     {
       "name": {
-        "en": "RustChinaConf & Rust Global China Keynote",
-        "zh": "RustChinaConf & Rust Global China 主题演讲"
+        "en": "RustChinaConf & Rust Global China Plenary",
+        "zh": "RustChinaConf & Rust Global China 全体大会"
       },
       "room": {
         "en": "Venue 11 - 287",
         "zh": "会场11-287"
       },
-      "id": "rust-china"
+      "id": "rust-china-plenary",
+      "group": "colocated"
     },
     {
       "name": {
@@ -141,7 +161,8 @@
         "en": "Venue 11 - 287",
         "zh": "会场11-287"
       },
-      "id": "rust-china-1"
+      "id": "rust-china-1",
+      "group": "colocated"
     },
     {
       "name": {
@@ -152,7 +173,8 @@
         "en": "Venue 12 - 288",
         "zh": "会场12-288"
       },
-      "id": "rust-china-2"
+      "id": "rust-china-2",
+      "group": "colocated"
     },
     {
       "name": {
@@ -163,7 +185,8 @@
         "en": "Venue 13 - 289",
         "zh": "会场13-289"
       },
-      "id": "rust-china-3"
+      "id": "rust-china-3",
+      "group": "colocated"
     },
     {
       "name": {
@@ -174,7 +197,8 @@
         "en": "Venue 3 - 268",
         "zh": "会场3-268"
       },
-      "id": "ws-sglang"
+      "id": "ws-sglang",
+      "group": "workshops"
     },
     {
       "name": {
@@ -185,7 +209,8 @@
         "en": "Venue 7 - B02",
         "zh": "会场7-B02"
       },
-      "id": "ws-cangjie"
+      "id": "ws-cangjie",
+      "group": "workshops"
     },
     {
       "name": {
@@ -196,7 +221,8 @@
         "en": "Venue 7 - B02",
         "zh": "会场7-B02"
       },
-      "id": "ws-dora"
+      "id": "ws-dora",
+      "group": "workshops"
     },
     {
       "name": {
@@ -207,7 +233,8 @@
         "en": "Venue 8 - B03",
         "zh": "会场8-B03"
       },
-      "id": "ws-future-web"
+      "id": "ws-future-web",
+      "group": "workshops"
     },
     {
       "name": {
@@ -218,7 +245,8 @@
         "en": "Venue 6 - B01",
         "zh": "会场6-B01"
       },
-      "id": "ws-edge-ai"
+      "id": "ws-edge-ai",
+      "group": "workshops"
     },
     {
       "name": {
@@ -229,7 +257,8 @@
         "en": "Venue 7 - B02",
         "zh": "会场7-B02"
       },
-      "id": "ws-cann"
+      "id": "ws-cann",
+      "group": "workshops"
     },
     {
       "name": {
@@ -240,7 +269,8 @@
         "en": "Venue 9 - B05",
         "zh": "会场9-B05"
       },
-      "id": "ws-flutter"
+      "id": "ws-flutter",
+      "group": "workshops"
     },
     {
       "name": {
@@ -251,7 +281,8 @@
         "en": "Venue 8 - B03",
         "zh": "会场8-B03"
       },
-      "id": "ws-chitu"
+      "id": "ws-chitu",
+      "group": "workshops"
     },
     {
       "name": {
@@ -262,7 +293,8 @@
         "en": "Venue 8 - B03",
         "zh": "会场8-B03"
       },
-      "id": "ws-ai-4-education"
+      "id": "ws-ai-4-education",
+      "group": "workshops"
     },
     {
       "name": {
@@ -273,7 +305,8 @@
         "en": "Venue 9 - B05",
         "zh": "会场9-B05"
       },
-      "id": "ws-rn"
+      "id": "ws-rn",
+      "group": "workshops"
     },
     {
       "name": {
@@ -284,7 +317,8 @@
         "en": "TBD Venue",
         "zh": "待定房间"
       },
-      "id": "ws-rust"
+      "id": "ws-rust",
+      "group": "workshops"
     },
     {
       "name": {
@@ -295,7 +329,8 @@
         "en": "Venue 9 - B05",
         "zh": "会场9-B05"
       },
-      "id": "ws-makepad"
+      "id": "ws-makepad",
+      "group": "workshops"
     },
     {
       "name": {
@@ -306,7 +341,8 @@
         "en": "TBD Venue",
         "zh": "待定房间"
       },
-      "id": "ws-embedded-rust"
+      "id": "ws-embedded-rust",
+      "group": "workshops"
     },
     {
       "name": {
@@ -317,10 +353,304 @@
         "en": "Venue 6 - B01",
         "zh": "会场6-B01"
       },
-      "id": "ws-solana"
+      "id": "ws-solana",
+      "group": "workshops"
     }
   ],
+  "groups": {
+    "tracks": {
+      "name": {
+        "en": "Main Conference Tracks",
+        "zh": "大会主赛道"
+      },
+      "description": {
+        "en": "Core AI technology tracks covering models, applications, and future innovations",
+        "zh": "核心AI技术赛道，涵盖模型、应用和未来创新"
+      },
+      "order": 1
+    },
+    "workshops": {
+      "name": {
+        "en": "Workshops & Technical Sessions",
+        "zh": "工作坊与技术专场"
+      },
+      "description": {
+        "en": "Hands-on workshops and technical deep-dives with industry experts",
+        "zh": "与行业专家进行实践性工作坊和技术深度探讨"
+      },
+      "order": 2
+    },
+    "colocated": {
+      "name": {
+        "en": "Co-located Events",
+        "zh": "同期活动"
+      },
+      "description": {
+        "en": "Special conferences and forums happening alongside the main event",
+        "zh": "与主会议同期举办的特别会议和论坛"
+      },
+      "order": 3
+    }
+  },
   "sessions": {
+    "gosim-plenary": [
+      {
+        "date": {
+          "en": "September 13",
+          "zh": "9月13日"
+        },
+        "timeSlot": "08:00 - 09:30",
+        "title": {
+          "en": "Registration and badge pickup",
+          "zh": "注册和领取胸牌"
+        },
+        "content": {
+          "en": "Registration and badge pickup starts",
+          "zh": "注册和领取胸牌开始"
+        },
+        "speakers": []
+      },
+      {
+        "date": {
+          "en": "September 13",
+          "zh": "9月13日"
+        },
+        "timeSlot": "08:30 - 09:30",
+        "title": {
+          "en": "Breakfast",
+          "zh": "早餐"
+        },
+        "content": {
+          "en": "Breakfast",
+          "zh": "早餐"
+        },
+        "speakers": []
+      },
+      {
+        "date": {
+          "en": "September 13",
+          "zh": "9月13日"
+        },
+        "timeSlot": "09:30 - 09:35",
+        "title": {
+          "en": "Plenary: Opening Remarks Day 1",
+          "zh": "全体大会：开场致辞 第一天"
+        },
+        "content": {
+          "en": "Opening Remarks by Tao Jiang, Founder and Chairman of CSDN, Founder of GOSIM.",
+          "zh": "由CSDN创始人&董事长、GOSIM发起人蒋涛致开场辞。"
+        },
+        "speakers": [
+          {
+            "id": "tao-jiang",
+            "name": {
+              "en": "Tao Jiang",
+              "zh": "蒋涛"
+            },
+            "roleOrg": {
+              "en": "Founder and Chairman of CSDN, Founder of GOSIM",
+              "zh": "CSDN创始人&董事长、GOSIM发起人"
+            },
+            "tags": [
+              "keynote"
+            ],
+            "image": "tao-jiang.jpg"
+          }
+        ]
+      },
+      {
+        "date": {
+          "en": "September 13",
+          "zh": "9月13日"
+        },
+        "timeSlot": "09:35 - 09:50",
+        "title": {
+          "en": "Plenary: TBD",
+          "zh": "全体大会：待定"
+        },
+        "content": {
+          "en": "Keynote by Mehdi Snene, Chief AI Officer, Digital infrastructure and emerging technologies, UN.",
+          "zh": "由联合国技术特使办公室首席人工智能官Mehdi Snene发表主题演讲。"
+        },
+        "speakers": [
+          {
+            "id": "mehdi-snene",
+            "name": {
+              "en": "Mehdi Snene",
+              "zh": "Mehdi Snene"
+            },
+            "roleOrg": {
+              "en": "Chief AI Officer, Digital infrastructure and emerging technologies, UN",
+              "zh": "联合国技术特使办公室首席人工智能官"
+            },
+            "tags": [
+              "keynote"
+            ],
+            "image": "mehdi-snene.png"
+          }
+        ]
+      },
+      {
+        "date": {
+          "en": "September 13",
+          "zh": "9月13日"
+        },
+        "timeSlot": "09:50 - 10:05",
+        "title": {
+          "en": "Plenary: Open Source Collaboration, Inspiring Innovation, Co-Creating an Intelligent World",
+          "zh": "全体大会：开源协作，激发创新，共创智能世界"
+        },
+        "content": {
+          "en": "Keynote by Bill Ren, Chief open source liaison officer, Board member of CNCF.",
+          "zh": "由华为首席开源联络官、CNCF基金会董事任旭东发表主题演讲。"
+        },
+        "speakers": [
+          {
+            "id": "bill-ren",
+            "name": {
+              "en": "Bill Ren",
+              "zh": "任旭东"
+            },
+            "roleOrg": {
+              "en": "Chief open source liaison officer, Board member of CNCF",
+              "zh": "华为首席开源联络官、CNCF基金会董事"
+            },
+            "tags": [
+              "keynote"
+            ],
+            "image": "bill-ren.jpg"
+          }
+        ]
+      },
+      {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
+        },
+        "timeSlot": "08:00 - 09:30",
+        "title": {
+          "en": "Registration and badge pickup",
+          "zh": "注册和领取胸牌"
+        },
+        "content": {
+          "en": "Registration and badge pickup starts",
+          "zh": "注册和领取胸牌开始"
+        },
+        "speakers": []
+      },
+      {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
+        },
+        "timeSlot": "08:30 - 09:30",
+        "title": {
+          "en": "Breakfast",
+          "zh": "早餐"
+        },
+        "content": {
+          "en": "Breakfast",
+          "zh": "早餐"
+        },
+        "speakers": []
+      },
+      {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
+        },
+        "timeSlot": "09:30 - 09:35",
+        "title": {
+          "en": "Plenary: Opening Remarks Day 2",
+          "zh": "全体大会：开场致辞 第二天"
+        },
+        "content": {
+          "en": "Opening Remarks by Michael Yuan, Founder of Second State, Founder of GOSIM.",
+          "zh": "由Second State创始人、GOSIM发起人Michael Yuan致开场辞。"
+        },
+        "speakers": [
+          {
+            "id": "michael-yuan",
+            "name": {
+              "en": "Michael Yuan",
+              "zh": "Michael Yuan"
+            },
+            "roleOrg": {
+              "en": "Founder of Second State, Founder of GOSIM",
+              "zh": "Second State创始人、GOSIM发起人"
+            },
+            "tags": [
+              "keynote"
+            ],
+            "image": "michael-yuan.jpg"
+          }
+        ]
+      },
+      {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
+        },
+        "timeSlot": "09:35 - 09:50",
+        "title": {
+          "en": "Open Data, Open Compute and Open Evaluation for Embodied AI innovation",
+          "zh": "开放数据、开放算力与开放评测：推动具身智能创新"
+        },
+        "content": {
+          "en": "Keynote by Yonghua Lin, VP & Chief Engineer, BAAI.",
+          "zh": "由北京智源人工智能研究院副院长兼首席工程师林咏华发表主题演讲。"
+        },
+        "speakers": [
+          {
+            "id": "yonghua-lin",
+            "name": {
+              "en": "Yonghua Lin",
+              "zh": "林咏华"
+            },
+            "roleOrg": {
+              "en": "VP & Chief Engineer, BAAI",
+              "zh": "北京智源人工智能研究院副院长兼首席工程师"
+            },
+            "tags": [
+              "keynote"
+            ],
+            "image": "yonghua-lin.jpg"
+          }
+        ]
+      },
+      {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
+        },
+        "timeSlot": "09:50 - 10:05",
+        "title": {
+          "en": "Plenary: Several Core Propositions on the Paradigm Shift of the AI Industry",
+          "zh": "全体大会：AI产业范式转变的若干个核心命题"
+        },
+        "content": {
+          "en": "Keynote by Jason Li, President, Singularity Intelligence Research Institute, Senior Vice President, CSDN.",
+          "zh": "由奇点智能研究院院长，CSDN高级副总裁李建忠发表主题演讲。"
+        },
+        "speakers": [
+          {
+            "id": "jason-li",
+            "name": {
+              "en": "Jason Li",
+              "zh": "李建忠"
+            },
+            "roleOrg": {
+              "en": "President, Singularity Intelligence Research Institute, Senior Vice President, CSDN",
+              "zh": "奇点智能研究院院长，CSDN高级副总裁"
+            },
+            "tags": [
+              "keynote"
+            ],
+            "image": "jason-li.jpg"
+          }
+        ]
+      }
+    ],
     "open-for-sdg": [
       {
         "date": {
@@ -348,7 +678,7 @@
               "zh": "北京大学教授，北京智源人工智能研究院理事长"
             },
             "tags": [
-              "keynote"
+              "open-for-sdg"
             ],
             "image": "tiejun-huang.jpg"
           },
@@ -363,7 +693,7 @@
               "zh": "联合国技术特使办公室首席人工智能官"
             },
             "tags": [
-              "keynote"
+              "open-for-sdg"
             ],
             "image": "mehdi-snene.png"
           }
@@ -502,7 +832,7 @@
               "zh": "CSDN 高级副总裁 & GitCode CEO"
             },
             "tags": [
-              "keynote"
+              "open-for-sdg"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -534,7 +864,7 @@
               "zh": "openEuler社区技术委员会主席"
             },
             "tags": [
-              "keynote"
+              "open-for-sdg"
             ],
             "image": "xinwei-hu.jpeg"
           }
@@ -937,8 +1267,8 @@
         },
         "timeSlot": "09:30 - 09:40",
         "title": {
-          "en": "Opening Remarks",
-          "zh": "主持开场"
+          "en": "AI Vision Forum: Opening Remarks",
+          "zh": "AI Vision Forum: 主持开场"
         },
         "content": {
           "en": "<p>GOSIM founder opening remarks, agenda introduction</p>",
@@ -2965,11 +3295,11 @@
         },
         "timeSlot": "10:15 - 10:50",
         "title": {
-          "en": "AI and Next Generation Web",
+          "en": "AI and Next Generation Web - Agentic Web",
           "zh": "AI与下一代Web"
         },
         "content": {
-          "en": "AI and Next Generation Web",
+          "en": "AI and Next Generation Web - Agentic Web",
           "zh": "AI与下一代Web"
         },
         "speakers": [
@@ -3895,12 +4225,12 @@
         },
         "timeSlot": "14:00 - 14:30",
         "title": {
-          "en": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
-          "zh": "一个Agent搞定所有代码：构建Cline自主编码伙伴的经验教训"
+          "en": "Feasibility and Implementation of LLM-based Auxiliary Combat Agents in Multi-unit Real-Time Strategy (RTS) Games",
+          "zh": "基于LLM的辅助作战Agent在多单位即时战略游戏（RTS）中的可行性与实现"
         },
         "content": {
-          "en": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
-          "zh": "一个Agent搞定所有代码：构建Cline自主编码伙伴的经验教訓"
+          "en": "Feasibility and Implementation of LLM-based Auxiliary Combat Agents in Multi-unit Real-Time Strategy (RTS) Games",
+          "zh": "基于LLM的辅助作战Agent在多单位即时战略游戏（RTS）中的可行性与实现"
         },
         "speakers": [
           {
@@ -5727,8 +6057,8 @@
         },
         "timeSlot": "10:15 - 10:20",
         "title": {
-          "en": "Opening Remarks",
-          "zh": "开场致辞"
+          "en": "Future Web: Opening Remarks",
+          "zh": "Future Web: 开场致辞"
         },
         "content": {
           "en": "Opening Remarks",
@@ -5902,11 +6232,11 @@
         },
         "timeSlot": "11:40 - 12:00",
         "title": {
-          "en": "AI and Next Generation Web",
+          "en": "AI and Next Generation Web - Future Web",
           "zh": "AI与下一代互联网"
         },
         "content": {
-          "en": "AI and Next Generation Web",
+          "en": "AI and Next Generation Web - Future Web",
           "zh": "AI与下一代互联网"
         },
         "speakers": [
@@ -6402,8 +6732,8 @@
         },
         "timeSlot": "10:15 - 10:25",
         "title": {
-          "en": "Opening Remarks",
-          "zh": "开场致辞"
+          "en": "AI for Education: Opening Remarks",
+          "zh": "AI for Education: 开场致辞"
         },
         "content": {
           "en": "Opening Remarks",
@@ -7102,7 +7432,7 @@
         ]
       }
     ],
-    "rust-china": [
+    "rust-china-plenary": [
       {
         "date": {
           "en": "September 13",
@@ -7110,8 +7440,8 @@
         },
         "timeSlot": "10:10 - 10:15",
         "title": {
-          "en": "Host Opening",
-          "zh": "主持人开场"
+          "en": "Plenary: Host Opening Day 1",
+          "zh": "全体大会：主持人开场 第一天"
         },
         "content": {
           "en": "Host Opening",
@@ -7129,7 +7459,10 @@
               "zh": "RustChinaConf 组委会"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7161,7 +7494,10 @@
               "zh": "Rust 基金会执行董事"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7193,7 +7529,10 @@
               "zh": "开放原子开源旋武社区工作委员会主席"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7225,7 +7564,10 @@
               "zh": "非凸科技策略负责人"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7257,7 +7599,10 @@
               "zh": "Rust类型团队联合负责人，编译器团队成员，语言团队顾问，Rust愿景文档工作联合负责人"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7289,7 +7634,10 @@
               "zh": "Rust 项目语言、库、Cargo 和规范团队成员"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7321,7 +7669,10 @@
               "zh": "Rust for Linux 核心开发者"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7353,7 +7704,10 @@
               "zh": "字节跳动研发工程师"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7385,7 +7739,10 @@
               "zh": "TrustInSoft 解决方案工程总监"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7417,7 +7774,10 @@
               "zh": "Dimforge创始人，nalgebra和Rapier的创建者及维护者"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7449,7 +7809,10 @@
               "zh": "清华大学计算机科学与技术系的副教授和博士生导师兼该软件研究所的副所长"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7481,7 +7844,10 @@
               "zh": "SecondState 创始人"
             },
             "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
+              "rust-china-plenary",
+              "rust-china-1",
+              "rust-china-2",
+              "rust-china-3"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -7489,390 +7855,6 @@
       }
     ],
     "rust-china-1": [
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:10 - 10:15",
-        "title": {
-          "en": "Host Opening",
-          "zh": "主持人开场"
-        },
-        "content": {
-          "en": "Host Opening",
-          "zh": "主持人开场"
-        },
-        "speakers": [
-          {
-            "id": "mike-tang",
-            "name": {
-              "en": "Mike Tang / XiaGe",
-              "zh": "Mike Tang / 夏歌"
-            },
-            "roleOrg": {
-              "en": "RustChinaConf Organizing Committee",
-              "zh": "RustChinaConf 组委会"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:15 - 10:25",
-        "title": {
-          "en": "A Secure and Sustainable Future",
-          "zh": "安全与可持续的未来"
-        },
-        "content": {
-          "en": "A Secure and Sustainable Future",
-          "zh": "安全与可持续的未来"
-        },
-        "speakers": [
-          {
-            "id": "rebecca-rumbul",
-            "name": {
-              "en": "Rebecca",
-              "zh": "Rebecca"
-            },
-            "roleOrg": {
-              "en": "Executive Director of the Rust Foundation",
-              "zh": "Rust 基金会执行董事"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:30 - 10:45",
-        "title": {
-          "en": "Open Atom Open Source Xuanwu Community's Ecological Vision",
-          "zh": "开放原子开源旋武社区的生态愿景"
-        },
-        "content": {
-          "en": "Open Atom Open Source Xuanwu Community's Ecological Vision",
-          "zh": "开放原子开源旋武社区的生态愿景"
-        },
-        "speakers": [
-          {
-            "id": "meng-ke",
-            "name": {
-              "en": "Meng Ke",
-              "zh": "柯猛"
-            },
-            "roleOrg": {
-              "en": "Chairman of the Open Atom Open Source Xuanwu Community Working Committee",
-              "zh": "开放原子开源旋武社区工作委员会主席"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:50 - 11:05",
-        "title": {
-          "en": "Rust x AI: Creating Safe and Efficient Next-Generation Strategy Tools for Small and Medium Investors",
-          "zh": "Rust x AI：为中小投资者打造安全、高效的新一代策略工具"
-        },
-        "content": {
-          "en": "Rust x AI: Creating Safe and Efficient Next-Generation Strategy Tools for Small and Medium Investors",
-          "zh": "Rust x AI：为中小投资者打造安全、高效的新一代策略工具"
-        },
-        "speakers": [
-          {
-            "id": "yizhou-lu",
-            "name": {
-              "en": "YiZhou Lu",
-              "zh": "陆一洲"
-            },
-            "roleOrg": {
-              "en": "Head of Strategy at Non-convex Tech",
-              "zh": "非凸科技策略负责人"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "11:10 - 11:40",
-        "title": {
-          "en": "Vision Doc: The Next 10 Years of Rust",
-          "zh": "愿景文档：Rust的下一个十年"
-        },
-        "content": {
-          "en": "Vision Doc: The Next 10 Years of Rust",
-          "zh": "愿景文档：Rust的下一个十年"
-        },
-        "speakers": [
-          {
-            "id": "jack-huey",
-            "name": {
-              "en": "Jack Huey",
-              "zh": "Jack Huey"
-            },
-            "roleOrg": {
-              "en": "Co-leads the types team, member of the compiler team, lang team advisor, and co-leads the Rust Vision Doc work",
-              "zh": "Rust类型团队联合负责人，编译器团队成员，语言团队顾问，Rust愿景文档工作联合负责人"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "11:40 - 12:00",
-        "title": {
-          "en": "Institutional memory and continuity through Rust specifications",
-          "zh": "通过Rust规范实现制度记忆与延续"
-        },
-        "content": {
-          "en": "Institutional memory and continuity through Rust specifications",
-          "zh": "通过Rust规范实现制度记忆与延续"
-        },
-        "speakers": [
-          {
-            "id": "josh-triplett",
-            "name": {
-              "en": "Josh Triplett",
-              "zh": "Josh Triplett"
-            },
-            "roleOrg": {
-              "en": "Member of the Rust Project language, library, cargo, and specification teams",
-              "zh": "Rust 项目语言、库、Cargo 和规范团队成员"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "09:25 - 09:35",
-        "title": {
-          "en": "Rust for Linux",
-          "zh": "Rust for Linux 最新进展"
-        },
-        "content": {
-          "en": "Rust for Linux",
-          "zh": "Rust for Linux 最新进展"
-        },
-        "speakers": [
-          {
-            "id": "miguel-ojeda",
-            "name": {
-              "en": "Miguel Ojeda",
-              "zh": "Miguel Ojeda"
-            },
-            "roleOrg": {
-              "en": "Rust for Linux core developer",
-              "zh": "Rust for Linux 核心开发者"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "09:35 - 10:05",
-        "title": {
-          "en": "From Go to Rust: Rust's Implementation in Tbps-level Live Streaming Protocol Stack",
-          "zh": "从Go到Rust：Rust在Tbps级直播协议栈上的落地"
-        },
-        "content": {
-          "en": "From Go to Rust: Rust's Implementation in Tbps-level Live Streaming Protocol Stack",
-          "zh": "从Go到Rust：Rust在Tbps级直播协议栈上的落地"
-        },
-        "speakers": [
-          {
-            "id": "yongyi-yu",
-            "name": {
-              "en": "YongYi Yu & Yu Li",
-              "zh": "于涌溢 & 李宇"
-            },
-            "roleOrg": {
-              "en": "ByteDance R&D Engineer",
-              "zh": "字节跳动研发工程师"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "10:05 - 10:35",
-        "title": {
-          "en": "Industrial-grade Rust Verification",
-          "zh": "工业级 Rust 验证"
-        },
-        "content": {
-          "en": "Industrial-grade Rust Verification",
-          "zh": "工业级 Rust 验证"
-        },
-        "speakers": [
-          {
-            "id": "rolland-dudemaine",
-            "name": {
-              "en": "Rolland Dudemaine",
-              "zh": "Rolland Dudemaine"
-            },
-            "roleOrg": {
-              "en": "Director, Solutions Engineering of TrustInSoft",
-              "zh": "TrustInSoft 解决方案工程总监"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "10:35 - 11:05",
-        "title": {
-          "en": "Single-source cross-platform GPU scientific computing with Slang and Rust",
-          "zh": "使用Slang和Rust实现单源跨平台GPU科学计算"
-        },
-        "content": {
-          "en": "Single-source cross-platform GPU scientific computing with Slang and Rust",
-          "zh": "使用Slang和Rust实现单源跨平台GPU科学计算"
-        },
-        "speakers": [
-          {
-            "id": "sebastien-crozet",
-            "name": {
-              "en": "Sébastien Crozet",
-              "zh": "Sébastien Crozet"
-            },
-            "roleOrg": {
-              "en": "the founder of Dimforge and the creator and maintainer of nalgebra and Rapier",
-              "zh": "Dimforge创始人，nalgebra和Rapier的创建者及维护者"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "11:05 - 11:35",
-        "title": {
-          "en": "Component-based Kernel Design Methods and Key Technology Research Based on Rust",
-          "zh": "基于rust的组件化内核设计方法与关键技术研究"
-        },
-        "content": {
-          "en": "Component-based Kernel Design Methods and Key Technology Research Based on Rust",
-          "zh": "基于rust的组件化内核设计方法与关键技术研究"
-        },
-        "speakers": [
-          {
-            "id": "yu-chen",
-            "name": {
-              "en": "Yu Chen",
-              "zh": "陈渝"
-            },
-            "roleOrg": {
-              "en": "Associate Professor in the Department of Computer Science and Technology at Tsinghua University, PhD supervisor, and Deputy Director of the Software Research Institute",
-              "zh": "清华大学计算机科学与技术系的副教授和博士生导师兼该软件研究所的副所长"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "11:35 - 12:10",
-        "title": {
-          "en": "Building MCP Server and Client with Rust: Injecting Powerful Engines into Agents",
-          "zh": "使用 Rust 构建 MCP Server 与 Client：为 Agent 注入强大引擎"
-        },
-        "content": {
-          "en": "Building MCP Server and Client with Rust: Injecting Powerful Engines into Agents",
-          "zh": "使用 Rust 构建 MCP Server 与 Client：为 Agent 注入强大引擎"
-        },
-        "speakers": [
-          {
-            "id": "michael-yuan",
-            "name": {
-              "en": "Michael Yuan",
-              "zh": "Michael Yuan"
-            },
-            "roleOrg": {
-              "en": "SecondState Founder",
-              "zh": "SecondState 创始人"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
       {
         "date": {
           "en": "September 13",
@@ -8307,390 +8289,6 @@
       }
     ],
     "rust-china-2": [
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:10 - 10:15",
-        "title": {
-          "en": "Host Opening",
-          "zh": "主持人开场"
-        },
-        "content": {
-          "en": "Host Opening",
-          "zh": "主持人开场"
-        },
-        "speakers": [
-          {
-            "id": "mike-tang",
-            "name": {
-              "en": "Mike Tang / XiaGe",
-              "zh": "Mike Tang / 夏歌"
-            },
-            "roleOrg": {
-              "en": "RustChinaConf Organizing Committee",
-              "zh": "RustChinaConf 组委会"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:15 - 10:25",
-        "title": {
-          "en": "A Secure and Sustainable Future",
-          "zh": "安全与可持续的未来"
-        },
-        "content": {
-          "en": "A Secure and Sustainable Future",
-          "zh": "安全与可持续的未来"
-        },
-        "speakers": [
-          {
-            "id": "rebecca-rumbul",
-            "name": {
-              "en": "Rebecca",
-              "zh": "Rebecca"
-            },
-            "roleOrg": {
-              "en": "Executive Director of the Rust Foundation",
-              "zh": "Rust 基金会执行董事"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:30 - 10:45",
-        "title": {
-          "en": "Open Atom Open Source Xuanwu Community's Ecological Vision",
-          "zh": "开放原子开源旋武社区的生态愿景"
-        },
-        "content": {
-          "en": "Open Atom Open Source Xuanwu Community's Ecological Vision",
-          "zh": "开放原子开源旋武社区的生态愿景"
-        },
-        "speakers": [
-          {
-            "id": "meng-ke",
-            "name": {
-              "en": "Meng Ke",
-              "zh": "柯猛"
-            },
-            "roleOrg": {
-              "en": "Chairman of the Open Atom Open Source Xuanwu Community Working Committee",
-              "zh": "开放原子开源旋武社区工作委员会主席"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:50 - 11:05",
-        "title": {
-          "en": "Rust x AI: Creating Safe and Efficient Next-Generation Strategy Tools for Small and Medium Investors",
-          "zh": "Rust x AI：为中小投资者打造安全、高效的新一代策略工具"
-        },
-        "content": {
-          "en": "Rust x AI: Creating Safe and Efficient Next-Generation Strategy Tools for Small and Medium Investors",
-          "zh": "Rust x AI：为中小投资者打造安全、高效的新一代策略工具"
-        },
-        "speakers": [
-          {
-            "id": "yizhou-lu",
-            "name": {
-              "en": "YiZhou Lu",
-              "zh": "陆一洲"
-            },
-            "roleOrg": {
-              "en": "Head of Strategy at Non-convex Tech",
-              "zh": "非凸科技策略负责人"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "11:10 - 11:40",
-        "title": {
-          "en": "Vision Doc: The Next 10 Years of Rust",
-          "zh": "愿景文档：Rust的下一个十年"
-        },
-        "content": {
-          "en": "Vision Doc: The Next 10 Years of Rust",
-          "zh": "愿景文档：Rust的下一个十年"
-        },
-        "speakers": [
-          {
-            "id": "jack-huey",
-            "name": {
-              "en": "Jack Huey",
-              "zh": "Jack Huey"
-            },
-            "roleOrg": {
-              "en": "Co-leads the types team, member of the compiler team, lang team advisor, and co-leads the Rust Vision Doc work",
-              "zh": "Rust类型团队联合负责人，编译器团队成员，语言团队顾问，Rust愿景文档工作联合负责人"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "11:40 - 12:00",
-        "title": {
-          "en": "Institutional memory and continuity through Rust specifications",
-          "zh": "通过Rust规范实现制度记忆与延续"
-        },
-        "content": {
-          "en": "Institutional memory and continuity through Rust specifications",
-          "zh": "通过Rust规范实现制度记忆与延续"
-        },
-        "speakers": [
-          {
-            "id": "josh-triplett",
-            "name": {
-              "en": "Josh Triplett",
-              "zh": "Josh Triplett"
-            },
-            "roleOrg": {
-              "en": "Member of the Rust Project language, library, cargo, and specification teams",
-              "zh": "Rust 项目语言、库、Cargo 和规范团队成员"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "09:25 - 09:35",
-        "title": {
-          "en": "Rust for Linux",
-          "zh": "Rust for Linux 最新进展"
-        },
-        "content": {
-          "en": "Rust for Linux",
-          "zh": "Rust for Linux 最新进展"
-        },
-        "speakers": [
-          {
-            "id": "miguel-ojeda",
-            "name": {
-              "en": "Miguel Ojeda",
-              "zh": "Miguel Ojeda"
-            },
-            "roleOrg": {
-              "en": "Rust for Linux core developer",
-              "zh": "Rust for Linux 核心开发者"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "09:35 - 10:05",
-        "title": {
-          "en": "From Go to Rust: Rust's Implementation in Tbps-level Live Streaming Protocol Stack",
-          "zh": "从Go到Rust：Rust在Tbps级直播协议栈上的落地"
-        },
-        "content": {
-          "en": "From Go to Rust: Rust's Implementation in Tbps-level Live Streaming Protocol Stack",
-          "zh": "从Go到Rust：Rust在Tbps级直播协议栈上的落地"
-        },
-        "speakers": [
-          {
-            "id": "yongyi-yu",
-            "name": {
-              "en": "YongYi Yu & Yu Li",
-              "zh": "于涌溢 & 李宇"
-            },
-            "roleOrg": {
-              "en": "ByteDance R&D Engineer",
-              "zh": "字节跳动研发工程师"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "10:05 - 10:35",
-        "title": {
-          "en": "Industrial-grade Rust Verification",
-          "zh": "工业级 Rust 验证"
-        },
-        "content": {
-          "en": "Industrial-grade Rust Verification",
-          "zh": "工业级 Rust 验证"
-        },
-        "speakers": [
-          {
-            "id": "rolland-dudemaine",
-            "name": {
-              "en": "Rolland Dudemaine",
-              "zh": "Rolland Dudemaine"
-            },
-            "roleOrg": {
-              "en": "Director, Solutions Engineering of TrustInSoft",
-              "zh": "TrustInSoft 解决方案工程总监"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "10:35 - 11:05",
-        "title": {
-          "en": "Single-source cross-platform GPU scientific computing with Slang and Rust",
-          "zh": "使用Slang和Rust实现单源跨平台GPU科学计算"
-        },
-        "content": {
-          "en": "Single-source cross-platform GPU scientific computing with Slang and Rust",
-          "zh": "使用Slang和Rust实现单源跨平台GPU科学计算"
-        },
-        "speakers": [
-          {
-            "id": "sebastien-crozet",
-            "name": {
-              "en": "Sébastien Crozet",
-              "zh": "Sébastien Crozet"
-            },
-            "roleOrg": {
-              "en": "the founder of Dimforge and the creator and maintainer of nalgebra and Rapier",
-              "zh": "Dimforge创始人，nalgebra和Rapier的创建者及维护者"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "11:05 - 11:35",
-        "title": {
-          "en": "Component-based Kernel Design Methods and Key Technology Research Based on Rust",
-          "zh": "基于rust的组件化内核设计方法与关键技术研究"
-        },
-        "content": {
-          "en": "Component-based Kernel Design Methods and Key Technology Research Based on Rust",
-          "zh": "基于rust的组件化内核设计方法与关键技术研究"
-        },
-        "speakers": [
-          {
-            "id": "yu-chen",
-            "name": {
-              "en": "Yu Chen",
-              "zh": "陈渝"
-            },
-            "roleOrg": {
-              "en": "Associate Professor in the Department of Computer Science and Technology at Tsinghua University, PhD supervisor, and Deputy Director of the Software Research Institute",
-              "zh": "清华大学计算机科学与技术系的副教授和博士生导师兼该软件研究所的副所长"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "11:35 - 12:10",
-        "title": {
-          "en": "Building MCP Server and Client with Rust: Injecting Powerful Engines into Agents",
-          "zh": "使用 Rust 构建 MCP Server 与 Client：为 Agent 注入强大引擎"
-        },
-        "content": {
-          "en": "Building MCP Server and Client with Rust: Injecting Powerful Engines into Agents",
-          "zh": "使用 Rust 构建 MCP Server 与 Client：为 Agent 注入强大引擎"
-        },
-        "speakers": [
-          {
-            "id": "michael-yuan",
-            "name": {
-              "en": "Michael Yuan",
-              "zh": "Michael Yuan"
-            },
-            "roleOrg": {
-              "en": "SecondState Founder",
-              "zh": "SecondState 创始人"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
       {
         "date": {
           "en": "September 13",
@@ -9173,390 +8771,6 @@
       }
     ],
     "rust-china-3": [
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:10 - 10:15",
-        "title": {
-          "en": "Host Opening",
-          "zh": "主持人开场"
-        },
-        "content": {
-          "en": "Host Opening",
-          "zh": "主持人开场"
-        },
-        "speakers": [
-          {
-            "id": "mike-tang",
-            "name": {
-              "en": "Mike Tang / XiaGe",
-              "zh": "Mike Tang / 夏歌"
-            },
-            "roleOrg": {
-              "en": "RustChinaConf Organizing Committee",
-              "zh": "RustChinaConf 组委会"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:15 - 10:25",
-        "title": {
-          "en": "A Secure and Sustainable Future",
-          "zh": "安全与可持续的未来"
-        },
-        "content": {
-          "en": "A Secure and Sustainable Future",
-          "zh": "安全与可持续的未来"
-        },
-        "speakers": [
-          {
-            "id": "rebecca-rumbul",
-            "name": {
-              "en": "Rebecca",
-              "zh": "Rebecca"
-            },
-            "roleOrg": {
-              "en": "Executive Director of the Rust Foundation",
-              "zh": "Rust 基金会执行董事"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:30 - 10:45",
-        "title": {
-          "en": "Open Atom Open Source Xuanwu Community's Ecological Vision",
-          "zh": "开放原子开源旋武社区的生态愿景"
-        },
-        "content": {
-          "en": "Open Atom Open Source Xuanwu Community's Ecological Vision",
-          "zh": "开放原子开源旋武社区的生态愿景"
-        },
-        "speakers": [
-          {
-            "id": "meng-ke",
-            "name": {
-              "en": "Meng Ke",
-              "zh": "柯猛"
-            },
-            "roleOrg": {
-              "en": "Chairman of the Open Atom Open Source Xuanwu Community Working Committee",
-              "zh": "开放原子开源旋武社区工作委员会主席"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:50 - 11:05",
-        "title": {
-          "en": "Rust x AI: Creating Safe and Efficient Next-Generation Strategy Tools for Small and Medium Investors",
-          "zh": "Rust x AI：为中小投资者打造安全、高效的新一代策略工具"
-        },
-        "content": {
-          "en": "Rust x AI: Creating Safe and Efficient Next-Generation Strategy Tools for Small and Medium Investors",
-          "zh": "Rust x AI：为中小投资者打造安全、高效的新一代策略工具"
-        },
-        "speakers": [
-          {
-            "id": "yizhou-lu",
-            "name": {
-              "en": "YiZhou Lu",
-              "zh": "陆一洲"
-            },
-            "roleOrg": {
-              "en": "Head of Strategy at Non-convex Tech",
-              "zh": "非凸科技策略负责人"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "11:10 - 11:40",
-        "title": {
-          "en": "Vision Doc: The Next 10 Years of Rust",
-          "zh": "愿景文档：Rust的下一个十年"
-        },
-        "content": {
-          "en": "Vision Doc: The Next 10 Years of Rust",
-          "zh": "愿景文档：Rust的下一个十年"
-        },
-        "speakers": [
-          {
-            "id": "jack-huey",
-            "name": {
-              "en": "Jack Huey",
-              "zh": "Jack Huey"
-            },
-            "roleOrg": {
-              "en": "Co-leads the types team, member of the compiler team, lang team advisor, and co-leads the Rust Vision Doc work",
-              "zh": "Rust类型团队联合负责人，编译器团队成员，语言团队顾问，Rust愿景文档工作联合负责人"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "11:40 - 12:00",
-        "title": {
-          "en": "Institutional memory and continuity through Rust specifications",
-          "zh": "通过Rust规范实现制度记忆与延续"
-        },
-        "content": {
-          "en": "Institutional memory and continuity through Rust specifications",
-          "zh": "通过Rust规范实现制度记忆与延续"
-        },
-        "speakers": [
-          {
-            "id": "josh-triplett",
-            "name": {
-              "en": "Josh Triplett",
-              "zh": "Josh Triplett"
-            },
-            "roleOrg": {
-              "en": "Member of the Rust Project language, library, cargo, and specification teams",
-              "zh": "Rust 项目语言、库、Cargo 和规范团队成员"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "09:25 - 09:35",
-        "title": {
-          "en": "Rust for Linux",
-          "zh": "Rust for Linux 最新进展"
-        },
-        "content": {
-          "en": "Rust for Linux",
-          "zh": "Rust for Linux 最新进展"
-        },
-        "speakers": [
-          {
-            "id": "miguel-ojeda",
-            "name": {
-              "en": "Miguel Ojeda",
-              "zh": "Miguel Ojeda"
-            },
-            "roleOrg": {
-              "en": "Rust for Linux core developer",
-              "zh": "Rust for Linux 核心开发者"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "09:35 - 10:05",
-        "title": {
-          "en": "From Go to Rust: Rust's Implementation in Tbps-level Live Streaming Protocol Stack",
-          "zh": "从Go到Rust：Rust在Tbps级直播协议栈上的落地"
-        },
-        "content": {
-          "en": "From Go to Rust: Rust's Implementation in Tbps-level Live Streaming Protocol Stack",
-          "zh": "从Go到Rust：Rust在Tbps级直播协议栈上的落地"
-        },
-        "speakers": [
-          {
-            "id": "yongyi-yu",
-            "name": {
-              "en": "YongYi Yu & Yu Li",
-              "zh": "于涌溢 & 李宇"
-            },
-            "roleOrg": {
-              "en": "ByteDance R&D Engineer",
-              "zh": "字节跳动研发工程师"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "10:05 - 10:35",
-        "title": {
-          "en": "Industrial-grade Rust Verification",
-          "zh": "工业级 Rust 验证"
-        },
-        "content": {
-          "en": "Industrial-grade Rust Verification",
-          "zh": "工业级 Rust 验证"
-        },
-        "speakers": [
-          {
-            "id": "rolland-dudemaine",
-            "name": {
-              "en": "Rolland Dudemaine",
-              "zh": "Rolland Dudemaine"
-            },
-            "roleOrg": {
-              "en": "Director, Solutions Engineering of TrustInSoft",
-              "zh": "TrustInSoft 解决方案工程总监"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "10:35 - 11:05",
-        "title": {
-          "en": "Single-source cross-platform GPU scientific computing with Slang and Rust",
-          "zh": "使用Slang和Rust实现单源跨平台GPU科学计算"
-        },
-        "content": {
-          "en": "Single-source cross-platform GPU scientific computing with Slang and Rust",
-          "zh": "使用Slang和Rust实现单源跨平台GPU科学计算"
-        },
-        "speakers": [
-          {
-            "id": "sebastien-crozet",
-            "name": {
-              "en": "Sébastien Crozet",
-              "zh": "Sébastien Crozet"
-            },
-            "roleOrg": {
-              "en": "the founder of Dimforge and the creator and maintainer of nalgebra and Rapier",
-              "zh": "Dimforge创始人，nalgebra和Rapier的创建者及维护者"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "11:05 - 11:35",
-        "title": {
-          "en": "Component-based Kernel Design Methods and Key Technology Research Based on Rust",
-          "zh": "基于rust的组件化内核设计方法与关键技术研究"
-        },
-        "content": {
-          "en": "Component-based Kernel Design Methods and Key Technology Research Based on Rust",
-          "zh": "基于rust的组件化内核设计方法与关键技术研究"
-        },
-        "speakers": [
-          {
-            "id": "yu-chen",
-            "name": {
-              "en": "Yu Chen",
-              "zh": "陈渝"
-            },
-            "roleOrg": {
-              "en": "Associate Professor in the Department of Computer Science and Technology at Tsinghua University, PhD supervisor, and Deputy Director of the Software Research Institute",
-              "zh": "清华大学计算机科学与技术系的副教授和博士生导师兼该软件研究所的副所长"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "11:35 - 12:10",
-        "title": {
-          "en": "Building MCP Server and Client with Rust: Injecting Powerful Engines into Agents",
-          "zh": "使用 Rust 构建 MCP Server 与 Client：为 Agent 注入强大引擎"
-        },
-        "content": {
-          "en": "Building MCP Server and Client with Rust: Injecting Powerful Engines into Agents",
-          "zh": "使用 Rust 构建 MCP Server 与 Client：为 Agent 注入强大引擎"
-        },
-        "speakers": [
-          {
-            "id": "michael-yuan",
-            "name": {
-              "en": "Michael Yuan",
-              "zh": "Michael Yuan"
-            },
-            "roleOrg": {
-              "en": "SecondState Founder",
-              "zh": "SecondState 创始人"
-            },
-            "tags": [
-              "rust-china", "rust-china-1", "rust-china-2", "rust-china-3"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
       {
         "date": {
           "en": "September 13",
