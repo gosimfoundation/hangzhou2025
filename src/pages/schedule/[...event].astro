@@ -8,7 +8,6 @@ import Layout from "layouts/LayoutLanding.astro";
 import schedule from "json/ScheduleBilingual.json";
 import scheduleForum from "json/Schedule-forum.json";
 import speakers from "json/Speakers.json";
-import workshops from "json/Workshops.json";
 import SocialShare from "components/SocialShare.astro";
 
 // Types
@@ -31,9 +30,10 @@ export async function getStaticPaths() {
   const createSlug = (title: string) => {
     return title
       .toLowerCase()
-      .replace(/[^\w\s-]/g, "")
+      .replace(/[^\w\s\u4e00-\u9fff-]/g, "")  // Keep ASCII word chars, spaces, Chinese chars, and hyphens
       .replace(/\s+/g, "-")
       .replace(/-+/g, "-")
+      .replace(/^-+|-+$/g, "")  // Remove leading/trailing hyphens
       .trim();
   };
 
@@ -150,19 +150,14 @@ const eventCategory = category || "Uncategorized";
                 <h2 class="h4 event-speaker-title">Speakers</h2>
                 <div class="card-row card-row-speakers event-detail_speakers">
                   {eventDetails.speakers.map((speaker) => {
-                    // Find full speaker details from speakers.json or workshops.json
+                    // Find full speaker details from unified speakers.json
                     let fullSpeakerDetails = speakers.speakers.find(
                       (s) => s.name === speaker.name
                     );
-                    let isWorkshopSpeaker = false;
-
-                    // If not found in speakers, check workshops
-                    if (!fullSpeakerDetails) {
-                      fullSpeakerDetails = workshops.speakers.find(
-                        (s) => s.name === speaker.name
-                      );
-                      isWorkshopSpeaker = true;
-                    }
+                    
+                    // Check if this speaker is a workshop speaker based on their tag
+                    const workshopCategories = ["ws-future-web", "ws-cann", "ws-flutter", "ws-cangjie", "ws-edge-ai", "ws-chitu", "ws-ai-education", "ws-rn", "ws-dora", "ws-rust", "ws-sglang", "open-for-sdg", "forum-aivision"];
+                    let isWorkshopSpeaker = fullSpeakerDetails ? workshopCategories.includes(fullSpeakerDetails.tag) : false;
 
                     // Determine the correct URL path
                     const speakerPath = isWorkshopSpeaker

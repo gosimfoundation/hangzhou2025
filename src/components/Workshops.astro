@@ -2,12 +2,13 @@
 import { Picture } from "astro:assets"
 import type { ImageMetadata } from "astro"
 
-// Import the workshops data
-import workshopsData from "json/Workshops.json"
+// Import the unified speakers data
+import speakersData from "json/Speakers.json"
 
-// Filter speakers to only include those where draft is false and id is not "tbd"
-const filteredSpeakers = workshopsData.speakers.filter(
-  (speaker) => speaker.draft !== true && speaker.id !== "tbd"
+// Filter speakers to only include workshop speakers where draft is false and id is not "tbd"
+const workshopCategories = ["ws-future-web", "ws-cann", "ws-flutter", "ws-cangjie", "ws-edge-ai", "ws-chitu", "ws-ai-education", "ws-rn", "ws-dora", "ws-rust", "ws-sglang", "open-for-sdg", "forum-aivision"];
+const filteredSpeakers = speakersData.speakers.filter(
+  (speaker) => speaker.draft !== true && speaker.id !== "tbd" && workshopCategories.includes(speaker.tag)
 )
 
 // Import all images
@@ -28,7 +29,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     <p>Filter:</p>
     <div class="filter-group" data-filter-group>
       {
-        workshopsData.categories.map((category) => (
+        speakersData.categories.filter(cat => workshopCategories.includes(cat.id)).map((category) => (
           <div
             class="single-filter"
             data-filter-status={category.id === "all" ? "active" : "not-active"}
@@ -55,7 +56,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       <div class="col">
         <div class="filter-group" data-filter-group>
           {
-            workshopsData.categories.map((category) => (
+            speakersData.categories.filter(cat => workshopCategories.includes(cat.id)).map((category) => (
               <div
                 class="single-filter"
                 data-filter-status={

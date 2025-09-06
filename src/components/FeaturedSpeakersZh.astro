@@ -7,9 +7,7 @@ import type { ImageMetadata } from "astro";
 import Button from "components/Button.astro";
 
 // JSON
-import speakersData from "json/FeaturedSpeakersZh.json";
-import workshopsData from "json/WorkshopsZh.json";
-import regularSpeakersData from "json/SpeakersZh.json";
+import speakersData from "json/SpeakersZh.json";
 
 // Define speaker type
 interface Speaker {
@@ -53,19 +51,13 @@ const { title, ctaButton } = Astro.props;
 
 // Function to determine the correct route based on tag
 const getRouteForTag = (tagId: string): string => {
-  // Check if tag exists in workshops categories
-  const workshopCategory = workshopsData.categories.find((cat) => cat.id === tagId);
-  if (workshopCategory) {
+  // Check if tag exists in workshop categories
+  const workshopCategories = ["ws-future-web", "ws-cann", "ws-flutter", "ws-cangjie", "ws-edge-ai", "ws-chitu", "ws-ai-education", "ws-rn", "ws-dora", "ws-rust", "ws-sglang", "open-for-sdg", "forum-aivision"];
+  if (workshopCategories.includes(tagId)) {
     return "/zh/workshops/";
   }
-  
-  // Check if tag exists in speakers categories
-  const speakerCategory = regularSpeakersData.categories.find((cat) => cat.id === tagId);
-  if (speakerCategory) {
-    return "/zh/speakers/";
-  }
-  
-  // Default fallback - if tag not found, assume it's a speaker
+
+  // Default to speakers route
   return "/zh/speakers/";
 };
 

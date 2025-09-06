@@ -5,7 +5,7 @@ import type { ImageMetadata } from "astro";
 
 // Components
 import Layout from "layouts/LayoutLanding.astro";
-import speakers from "json/Workshops.json";
+import speakers from "json/Speakers.json";
 import schedule from "json/ScheduleBilingual.json";
 import scheduleForum from "json/Schedule-forum.json";
 
@@ -16,6 +16,7 @@ interface Speaker {
   roleOrg: string;
   bio: string;
   image?: string;
+  tag: string;
   socialLinks?: {
     website?: string;
     github?: string;
@@ -40,7 +41,13 @@ interface schedule {
 
 // Get the speaker name from the route parameter
 export async function getStaticPaths() {
-  return speakers.speakers.map((speaker: Speaker) => ({
+  // Filter only workshop speakers based on their tags
+  const workshopCategories = ["ws-future-web", "ws-cann", "ws-flutter", "ws-cangjie", "ws-edge-ai", "ws-chitu", "ws-ai-education", "ws-rn", "ws-dora", "ws-rust", "ws-sglang", "open-for-sdg", "forum-aivision"];
+  const workshopSpeakers = speakers.speakers.filter((speaker: Speaker) => 
+    workshopCategories.includes(speaker.tag)
+  );
+  
+  return workshopSpeakers.map((speaker: Speaker) => ({
     params: { name: speaker.id },
     props: { speaker },
   }));
@@ -207,9 +214,10 @@ const socialIconMap: Record<string, string> = {
                   <a
                     href={`/schedule/${session.title
                       .toLowerCase()
-                      .replace(/[^\w\s-]/g, "")
+                      .replace(/[^\w\s\u4e00-\u9fff-]/g, "")
                       .replace(/\s+/g, "-")
                       .replace(/-+/g, "-")
+                      .replace(/^-+|-+$/g, "")
                       .trim()}/`}
                   >
                     <li class="single-agenda-card single-accordion-item card-hover">
