@@ -1,7 +1,7 @@
 # GOSIM Hangzhou 2025
 
 ## How to add Schedule
-1. Add data to JSON file at `src/json/Schedule.json`
+1. Add data to JSON file at `src/json/ScheduleBilingual.json`
 2. If you add speaker images, add only the file name, such as `speaker-name.jpg`
 3. Add potential speaker images as PNG or JPG files to `public/images/speakers/`
 

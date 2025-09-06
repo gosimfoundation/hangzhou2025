@@ -5,7 +5,7 @@ import type { ImageMetadata } from "astro";
 
 // Components
 import Layout from "layouts/LayoutLanding.astro";
-import schedule from "json/Schedule.json";
+import schedule from "json/ScheduleBilingual.json";
 import scheduleForum from "json/Schedule-forum.json";
 import speakers from "json/Speakers.json";
 import workshops from "json/Workshops.json";
@@ -19,16 +19,6 @@ type Event = {
   timeSlot: string;
   speakers?: { name: string; image?: string; roleOrg: string }[];
   room?: string;
-};
-
-type Schedule = {
-  sessions: {
-    [category: string]: Event[]; // Add this index signature
-  };
-};
-
-type Speakers = {
-  speakers: { name: string; image?: string; roleOrg: string }[];
 };
 
 // Generate static paths for events
@@ -47,14 +37,27 @@ export async function getStaticPaths() {
       .trim();
   };
 
-  // Collect all sessions from all categories in main schedule
+  // Collect all sessions from all categories in main schedule (bilingual structure)
   Object.entries(schedule.sessions).forEach(([category, categoryEvents]) => {
-    categoryEvents.forEach((event: Event) => {
+    categoryEvents.forEach((event: any) => {
+      const eventTitle = typeof event.title === 'string' ? event.title : event.title?.en || '';
+      const transformedEvent = {
+        title: eventTitle,
+        content: typeof event.content === 'string' ? event.content : event.content?.en || '',
+        date: typeof event.date === 'string' ? event.date : event.date?.en || '',
+        timeSlot: event.timeSlot,
+        speakers: event.speakers?.map((s: any) => ({
+          name: typeof s.name === 'string' ? s.name : s.name?.en || '',
+          image: s.image,
+          roleOrg: typeof s.roleOrg === 'string' ? s.roleOrg : s.roleOrg?.en || ''
+        })) || [],
+        room: typeof event.room === 'string' ? event.room : event.room?.en || ''
+      };
       events.push({
         params: {
-          event: createSlug(event.title),
+          event: createSlug(eventTitle),
         },
-        props: { event, category },
+        props: { event: transformedEvent, category },
       });
     });
   });
@@ -73,7 +76,6 @@ export async function getStaticPaths() {
 }
 
 // Get the event from the route parameter
-const { event } = Astro.params as { event: string };
 const { event: eventDetails, category } = Astro.props as {
   event: Event;
   category: string;
@@ -129,8 +131,10 @@ const eventCategory = category || "Uncategorized";
               <strong>Location:</strong>
               {
                 eventDetails.room ||
-                  schedule.categories.find((cat) => cat.name === eventCategory)
-                    ?.room ||
+                  schedule.categories.find((cat) => {
+                    const catName = typeof cat.name === 'string' ? cat.name : cat.name?.en || '';
+                    return catName === eventCategory;
+                  })?.room ||
                   "TBA"
               }
             </p>

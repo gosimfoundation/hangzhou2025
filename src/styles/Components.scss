@@ -1383,6 +1383,286 @@
    }
 }
 
+/* ------------------------- Bilingual Content Styles -------------------------------------------------- */
+
+/* Base bilingual text styling */
+.bilingual-text {
+  display: block;
+  line-height: 1.3;
+}
+
+.bilingual-text .zh-text {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.bilingual-text .en-text {
+  display: block;
+  font-weight: 400;
+  opacity: 0.8;
+  font-size: 0.9em;
+  line-height: 1.4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Inline bilingual text for compact display */
+.bilingual-text.inline {
+  display: inline;
+}
+
+.bilingual-text.inline .zh-text,
+.bilingual-text.inline .en-text {
+  display: inline;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+}
+
+.bilingual-text.inline .en-text {
+  margin-right: 0;
+}
+
+/* Schedule-specific bilingual styling */
+.single-agenda-card .bilingual-text {
+  line-height: 1.2;
+}
+
+.single-agenda-card .bilingual-text .zh-text {
+  font-weight: 600;
+  margin-bottom: 0.125rem;
+  font-size: 1em;
+}
+
+.single-agenda-card .bilingual-text .en-text {
+  font-weight: 400;
+  opacity: 0.75;
+  font-size: 0.85em;
+}
+
+/* Heading-specific bilingual styles */
+.bilingual-text h1 .zh-text,
+.bilingual-text h2 .zh-text,
+.bilingual-text h3 .zh-text,
+.bilingual-text h4 .zh-text,
+.bilingual-text h5 .zh-text,
+.bilingual-text h6 .zh-text {
+  font-weight: 700;
+}
+
+.bilingual-text h1 .en-text,
+.bilingual-text h2 .en-text,
+.bilingual-text h3 .en-text,
+.bilingual-text h4 .en-text,
+.bilingual-text h5 .en-text,
+.bilingual-text h6 .en-text {
+  font-weight: 500;
+  opacity: 0.75;
+}
+
+/* Speaker card bilingual styling */
+.single-speakers-card .bilingual-text .zh-text {
+  font-weight: 600;
+  margin-bottom: 0.125rem;
+  line-height: 1.2;
+}
+
+.single-speakers-card .bilingual-text .en-text {
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 0.85em;
+  line-height: 1.3;
+}
+
+/* Filter and category bilingual styling */
+.filter-group .single-filter .bilingual-text {
+  display: inline;
+}
+
+.filter-group .single-filter .bilingual-text .zh-text,
+.filter-group .single-filter .bilingual-text .en-text {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.filter-group .single-filter .bilingual-text .zh-text {
+  margin-right: 0.25rem;
+}
+
+/* Location row bilingual styling */
+.location-row .bilingual-text {
+  display: inline;
+}
+
+.location-row .bilingual-text .zh-text,
+.location-row .bilingual-text .en-text {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.location-row .bilingual-text .zh-text {
+  margin-right: 0.25rem;
+}
+
+/* Dark theme adjustments */
+[data-theme-section="dark"] .bilingual-text .zh-text {
+  color: var(--color-white);
+}
+
+[data-theme-section="dark"] .bilingual-text .en-text {
+  color: var(--color-text-light);
+  opacity: 0.7;
+}
+
+/* Responsive adjustments for bilingual content */
+@media screen and (max-width: 768px) {
+  .bilingual-text .zh-text {
+    margin-bottom: 0.125rem;
+    font-size: 0.95em;
+  }
+  
+  .bilingual-text .en-text {
+    font-size: 0.8em;
+  }
+
+  .single-agenda-card .bilingual-text .zh-text {
+    font-size: 0.9em;
+  }
+
+  .single-agenda-card .bilingual-text .en-text {
+    font-size: 0.75em;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .bilingual-text .zh-text {
+    margin-bottom: 0.1rem;
+  }
+
+  .bilingual-text .en-text {
+    font-size: 0.75em;
+  }
+
+  /* Compact inline display on mobile for filters */
+  .filter-group .single-filter .bilingual-text .zh-text {
+    margin-right: 0.125rem;
+  }
+
+  /* Stack bilingual text vertically in tight spaces */
+  .single-agenda-card .top .left .bilingual-text.stack-mobile .zh-text,
+  .single-agenda-card .top .left .bilingual-text.stack-mobile .en-text {
+    display: block;
+    margin-right: 0;
+  }
+
+  .single-agenda-card .top .left .bilingual-text.stack-mobile .zh-text {
+    margin-bottom: 0.125rem;
+  }
+}
+
+/* Special styling for time slots and dates */
+.timeslot .bilingual-text {
+  font-weight: 500;
+}
+
+.timeslot .bilingual-text .zh-text {
+  font-weight: 600;
+}
+
+.timeslot .bilingual-text .en-text {
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+/* Bilingual content in bottom content areas */
+.bottom-content .bilingual-text {
+  margin-bottom: 0.5rem;
+}
+
+.bottom-content .bilingual-text .zh-text {
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.bottom-content .bilingual-text .en-text {
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+/* Ensure proper spacing in accordion content */
+.single-accordion-item .bottom-content .bilingual-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Bilingual text in navigation and buttons */
+.main-nav-bar .bilingual-text,
+.btn .bilingual-text {
+  display: inline;
+}
+
+.main-nav-bar .bilingual-text .zh-text,
+.main-nav-bar .bilingual-text .en-text,
+.btn .bilingual-text .zh-text,
+.btn .bilingual-text .en-text {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.main-nav-bar .bilingual-text .zh-text,
+.btn .bilingual-text .zh-text {
+  margin-right: 0.25rem;
+}
+
+/* Accessibility improvements */
+.bilingual-text .zh-text:lang(zh) {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.bilingual-text .en-text:lang(en) {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .bilingual-text .en-text {
+    opacity: 1;
+    color: var(--color-text);
+  }
+
+  [data-theme-section="dark"] .bilingual-text .en-text {
+    opacity: 1;
+    color: var(--color-text-light);
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .bilingual-text .zh-text,
+  .bilingual-text .en-text {
+    transition: none;
+  }
+}
+
+/* Print styles for bilingual content */
+@media print {
+  .bilingual-text .zh-text,
+  .bilingual-text .en-text {
+    color: black !important;
+    opacity: 1 !important;
+  }
+
+  .bilingual-text .en-text {
+    font-size: 0.9em;
+  }
+}
+
 /* ------------------------- Modal Container -------------------------------------------------- */
 
 
