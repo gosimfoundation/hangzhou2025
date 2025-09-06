@@ -932,264 +932,775 @@
   ],
 
 
-    "forum-aivision": [
-      {
-        "date": {
-          "en": "TBD date",
-          "zh": "待定日期"
-        },
-        "timeSlot": "TBD time",
-        "title": {
-          "en": "Open Safe Superintelligence: Aligning Power with Collective Safety",
-          "zh": "开放安全的超级智能：将强大能力与集体安全对齐"
-        },
-        "content": {
-          "en": "Open Safe Superintelligence: Aligning Power with Collective Safety",
-          "zh": "开放安全的超级智能：将强大能力与集体安全对齐"
-        },
-        "speakers": [
-          {
-            "id": "xiaohu-zhu",
-            "name": {
-              "en": "Xiaohu Zhu",
-              "zh": "朱小虎"
-            },
-            "roleOrg": {
-              "en": "Founder, Center for Safe AGI",
-              "zh": "创始人, 安全通用人工智能中心"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "xiaohu-zhu.png"
-          }
-        ]
+
+  "forum-aivision": [
+    {
+      "date": {
+        "en": "September 12",
+        "zh": "9月12日"
       },
-      {
-        "date": {
-          "en": "TBD date",
-          "zh": "待定日期"
-        },
-        "timeSlot": "TBD time",
-        "title": {
-          "en": "Generative Al in education :Open source solutions and challenges",
-          "zh": "教育中的生成式AI：开源解决方案与挑战"
-        },
-        "content": {
-          "en": "Generative Al in education :Open source solutions and challenges",
-          "zh": "教育中的生成式AI：开源解决方案与挑战"
-        },
-        "speakers": [
-          {
-            "id": "salim-nahle",
-            "name": {
-              "en": "Salim Nahle",
-              "zh": "Salim Nahle"
-            },
-            "roleOrg": {
-              "en": "Program Manager \"Data & Artificial intelligence\" and Academic Manager of Executive Education, Efrei Paris",
-              "zh": "“数据与人工智能”项目经理兼高管教育学术负责人, Efrei Paris"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "salim-nahle.jpg"
-          }
-        ]
+      "timeSlot": "09:30 - 09:40",
+      "title": {
+        "en": "Opening Remarks",
+        "zh": "主持开场"
       },
-      {
-        "date": {
-          "en": "TBD date",
-          "zh": "待定日期"
-        },
-        "timeSlot": "TBD time",
-        "title": {
-          "en": "How to integrate artificial intelligence technology into the future art field",
-          "zh": "如何将人工智能技术融入未来的艺术领域"
-        },
-        "content": {
-          "en": "How to integrate artificial intelligence technology into the future art field",
-          "zh": "如何将人工智能技术融入未来的艺术领域"
-        },
-        "speakers": [
-          {
-            "id": "yichuan-yue",
-            "name": {
-              "en": "Yichuan Yue",
-              "zh": "岳一川"
-            },
-            "roleOrg": {
-              "en": "PhD, Capital Normal University, Artist",
-              "zh": "博士, 首都师范大学, 艺术家"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
+      "content": {
+        "en": "<p>GOSIM founder opening remarks, agenda introduction</p>",
+        "zh": "<p>GOSIM创始人开场致辞，议程介绍</p>"
       },
-      {
-        "date": {
-          "en": "TBD date",
-          "zh": "待定日期"
-        },
-        "timeSlot": "TBD time",
-        "title": {
-          "en": "AI Vision Forum Session",
-          "zh": "人工智能愿景论坛"
-        },
-        "content": {
-          "en": "AI Vision Forum presentations",
-          "zh": "人工智能愿景论坛演讲"
-        },
-        "speakers": [
-          {
-            "id": "liu-yue-gang",
-            "name": {
-              "en": "Liu Yuegang",
-              "zh": "刘月刚"
-            },
-            "roleOrg": {
-              "en": "AI Vision Forum GOSIM",
-              "zh": "人工智能愿景论坛 GOSIM"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
+      "speakers": [
+        {
+          "id": "tao-jiang",
+          "name": {
+            "en": "Jiang Tao",
+            "zh": "蒋涛"
+          },
+          "roleOrg": {
+            "en": "Founder & Chairman of CSDN, GOSIM Initiator",
+            "zh": "CSDN创始人&董事长，GOSIM发起人"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "tao-jiang.jpg"
+        }
+      ]
+    },
+    {
+      "date": {
+        "en": "September 12",
+        "zh": "9月12日"
       },
-      {
-        "date": {
-          "en": "TBD date",
-          "zh": "待定日期"
-        },
-        "timeSlot": "TBD time",
-        "title": {
-          "en": "AI Vision Forum Session",
-          "zh": "人工智能愿景论坛"
-        },
-        "content": {
-          "en": "AI Vision Forum presentations",
-          "zh": "人工智能愿景论坛演讲"
-        },
-        "speakers": [
-          {
-            "id": "du-kai-forum",
-            "name": {
-              "en": "Du Kai",
-              "zh": "杜凯"
-            },
-            "roleOrg": {
-              "en": "AI Vision Forum GOSIM",
-              "zh": "人工智能愿景论坛 GOSIM"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
+      "timeSlot": "09:40 - 11:40",
+      "title": {
+        "en": "Session 1: Restructuring Learning Paradigms in the Age of AI — From Knowledge Acquisition to Creative Generation",
+        "zh": "主题分享 1：人工智能驱动下的学习机制重构：从知识掌握到创造力生成的范式转型"
       },
-      {
-        "date": {
-          "en": "TBD date",
-          "zh": "待定日期"
-        },
-        "timeSlot": "TBD time",
-        "title": {
-          "en": "AI Vision Forum Session",
-          "zh": "人工智能愿景论坛"
-        },
-        "content": {
-          "en": "AI Vision Forum presentations",
-          "zh": "人工智能愿景论坛演讲"
-        },
-        "speakers": [
-          {
-            "id": "cailean-osborne",
-            "name": {
-              "en": "Cailean Osborne",
-              "zh": "Cailean Osborne"
-            },
-            "roleOrg": {
-              "en": "AI Vision Forum GOSIM",
-              "zh": "人工智能愿景论坛 GOSIM"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
+      "content": {
+        "en": "<p>AI is reshaping human learning mechanisms and the structure of knowledge systems, shifting education away from a knowledge-centered paradigm toward one driven by creative production and cognitive collaboration. This topic explores the tension between AI as a 'cognitive partner' versus an 'algorithmic supervisor,' and examines its implications for educational equity, privacy, and the evolving role of teachers. It also considers institutional and technological pathways for achieving knowledge democratization.</p><p><strong>Panel 1: AI+Education</strong> - Yan Yuqing, Wang Wei, Liu Yuegang, Bella Ren, Zheng Haoyun, Sun Zhigang</p><p><strong>Panel 2: AI+Creativity</strong> - Wei Wei, Wang Juchen, Alexandra Boucherifi-Kornmann, Yan Feng, Zhou Maohua</p>",
+        "zh": "<p>人工智能正在重塑人类的学习机制与知识体系结构，推动教育从以知识掌握为核心的范式迈向以创造力生成与认知协作为导向的新模式。本议题将探讨AI作为'认知伙伴'与'算法监工'之间的张力，如何影响教育公平、隐私保护与教师角色重构，并审视实现知识民主化的制度与技术路径。</p><p><strong>圆桌讨论1: AI+教育</strong> - 严玉庆、王伟、刘月刚、Bella Ren、郑浩云、孙志岗</p><p><strong>圆桌讨论2: AI+创造力</strong> - 唯伟、王钜辰、Alexandra Boucherifi-Kornmann、彦风、周茂华</p>"
       },
-      {
-        "date": {
-          "en": "TBD date",
-          "zh": "待定日期"
+      "speakers": [
+        {
+          "id": "salim-nahle",
+          "name": {
+            "en": "Salim NAHLE",
+            "zh": "Salim NAHLE"
+          },
+          "roleOrg": {
+            "en": "Head of Department of Data and Artificial Intelligence, Associate Professor, EFREI Paris Panthéon-Assas",
+            "zh": "数据与人工智能系主任，副教授，EFREI巴黎万神殿-阿萨斯大学"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "salim-nahle.png"
         },
-        "timeSlot": "TBD time",
-        "title": {
-          "en": "AI Vision Forum Session",
-          "zh": "人工智能愿景论坛"
+        {
+          "id": "vivian-cai",
+          "name": {
+            "en": "Vivian Cai",
+            "zh": "Vivian Cai"
+          },
+          "roleOrg": {
+            "en": "Co-Founder & CEO, Sustentra | 2025 Yale Entrepreneurship Fellowship Cover Story",
+            "zh": "联合创始人兼首席执行官, Sustentra | 2025耶鲁企业家精神奖学金封面人物"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "vivian-cai.jpg"
         },
-        "content": {
-          "en": "AI Vision Forum presentations",
-          "zh": "人工智能愿景论坛演讲"
+        {
+          "id": "wang-wei",
+          "name": {
+            "en": "Wang Wei",
+            "zh": "王伟"
+          },
+          "roleOrg": {
+            "en": "Professor at East China Normal University",
+            "zh": "华东师范大学教授"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "wang-wei.jpg"
         },
-        "speakers": [
-          {
-            "id": "jesse-mccrosky",
-            "name": {
-              "en": "Jesse McCrosky",
-              "zh": "Jesse McCrosky"
-            },
-            "roleOrg": {
-              "en": "AI Vision Forum GOSIM",
-              "zh": "人工智能愿景论坛 GOSIM"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
+        {
+          "id": "bella-ren",
+          "name": {
+            "en": "Bella Ren",
+            "zh": "Bella Ren"
+          },
+          "roleOrg": {
+            "en": "Co-Founder, AskSia",
+            "zh": "联合创始人, AskSia"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "bella-ren.jpg"
+        },
+        {
+          "id": "zheng-haoyun",
+          "name": {
+            "en": "Zheng Haoyun",
+            "zh": "郑浩云"
+          },
+          "roleOrg": {
+            "en": "Co-Founder, Dolphin Intelligence",
+            "zh": "联合创始人，海豚智能"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "zheng-haoyun.jpg"
+        },
+        {
+          "id": "wang-juchen",
+          "name": {
+            "en": "Wang Juchen",
+            "zh": "王钜辰"
+          },
+          "roleOrg": {
+            "en": "Founder, Cenya Piano Academy",
+            "zh": "创始人，央与国际钢琴学院"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "wang-juchen.jpg"
+        },
+        {
+          "id": "alexandra-boucherifi",
+          "name": {
+            "en": "Alexandra Boucherifi-Kornmann",
+            "zh": "Alexandra Boucherifi-Kornmann"
+          },
+          "roleOrg": {
+            "en": "Artist, Founder of European AI and Augmented Humanism Biennial",
+            "zh": "艺术家，欧洲人工智能与增生主义双年展创始人"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "alexandra-boucherifi.jpg"
+        },
+        {
+          "id": "yan-feng",
+          "name": {
+            "en": "Yan Feng",
+            "zh": "彦风"
+          },
+          "roleOrg": {
+            "en": "First-Class Artist, Chinese Academy of Arts",
+            "zh": "一级美术师, 中国艺术研究院"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "yan-feng.png"
+        },
+        {
+          "id": "liu-yuegang",
+          "name": {
+            "en": "Liu Yuegang",
+            "zh": "刘月刚"
+          },
+          "roleOrg": {
+            "en": "Vice Principal, Sun Yat-sen University Shenzhen Affiliated School",
+            "zh": "副校长，中山大学深圳附属学校"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "0-placeholder-person.png"
+        },
+        {
+          "id": "sun-zhigang",
+          "name": {
+            "en": "Sun Zhigang",
+            "zh": "孙志岗"
+          },
+          "roleOrg": {
+            "en": "Founder & CEO, AI Master",
+            "zh": "创始人、CEO, AI师傅"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "sun-zhigang.jpg"
+        },
+        {
+          "id": "wei-wei",
+          "name": {
+            "en": "Wei Wei",
+            "zh": "唯伟"
+          },
+          "roleOrg": {
+            "en": "Famous Bilibili Art Creator \"Youdian Yisi Oh\"",
+            "zh": "bilibili知名绘画UP主\"有点艺思哦\""
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "0-placeholder-person.png"
+        },
+        {
+          "id": "yan-yuqing",
+          "name": {
+            "en": "Yan Yuqing",
+            "zh": "严玉庆"
+          },
+          "roleOrg": {
+            "en": "Consultant, Tencent",
+            "zh": "顾问，腾讯"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "0-placeholder-person.png"
+        },
+        {
+          "id": "zhou-maohua",
+          "name": {
+            "en": "Zhou Maohua",
+            "zh": "周茂华"
+          },
+          "roleOrg": {
+            "en": "Head of Maker Center, Shenzhen No. 2 Senior High School",
+            "zh": "创客中心负责人，深圳市第二高级中学"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "0-placeholder-person.png"
+        }
+      ]
+    },
+    {
+      "date": {
+        "en": "September 12",
+        "zh": "9月12日"
       },
-      {
-        "date": {
-          "en": "TBD date",
-          "zh": "待定日期"
+      "timeSlot": "11:40 - 13:00",
+      "title": {
+        "en": "Lunch & AIGC Spotlight",
+        "zh": "午餐 & AIGC Spotlight"
+      },
+      "content": {
+        "en": "<p>Lunch, AIGC Spotlight awards ceremony and showcase</p><p><strong>Special Session:</strong> 'Technical Products' and 'Artistic Creativity' dual-unit global showcase</p>",
+        "zh": "<p>午餐，AIGC Spotlight 作品发奖和展示</p><p><strong>特别环节:</strong> '技术产品' 与 '艺术创意' 双单元全球作品展示</p>"
+      },
+      "speakers": []
+    },
+    {
+      "date": {
+        "en": "September 12",
+        "zh": "9月12日"
+      },
+      "timeSlot": "13:00 - 14:00",
+      "title": {
+        "en": "Session 2: From Automated Tools to Human-AI Symbiotic Systems — The Evolving Role of Artificial Intelligence",
+        "zh": "主题分享 2：从自动化工具到人机共生系统：人工智能角色的演化路径"
+      },
+      "content": {
+        "en": "<p>AI has progressed beyond being a mere tool, increasingly influencing human behavior, cognition, and value formation. This topic addresses the symbiotic paradox—\"Are we training AI, or is AI training us?\"—while critically examining technology dependence, its erosion of human agency, and the theoretical foundations and societal frameworks necessary for designing complementary human-AI collaboration systems.</p>",
+        "zh": "<p>AI不再只是工具，更逐步介入人类行为、思维与价值塑造的深层空间。本议题聚焦“人类训练AI”与“AI驯化人类”的共生悖论，审视技术依赖对人类主体性与判断力的侵蚀，进而探讨建立互补性人机协作框架的理论基础与社会适应路径。</p>"
+      },
+      "speakers": [
+        {
+          "id": "zhan-yiwen",
+          "name": {
+            "en": "Zhan Yiwen",
+            "zh": "展翼文"
+          },
+          "roleOrg": {
+            "en": "Associate Professor, Beijing Normal University",
+            "zh": "副教授，北京师范大学"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "zhan-yiwen.jpg"
         },
-        "timeSlot": "TBD time",
-        "title": {
-          "en": "AI Vision Forum Session",
-          "zh": "人工智能愿景论坛"
+        {
+          "id": "li-jianzhong",
+          "name": {
+            "en": "Li Jianzhong",
+            "zh": "李建忠"
+          },
+          "roleOrg": {
+            "en": "SVP, CSDN",
+            "zh": "SVP，CSDN"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "li-jianzhong.jpg"
         },
-        "content": {
-          "en": "AI Vision Forum presentations",
-          "zh": "人工智能愿景论坛演讲"
+        {
+          "id": "yin-danqing",
+          "name": {
+            "en": "Yin Danqing",
+            "zh": "尹丹青"
+          },
+          "roleOrg": {
+            "en": "Co-Founder, Saint Novel Biotech",
+            "zh": "联合创始人，Saint Novel Biotech"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "yin-danqing.jpg"
         },
-        "speakers": [
-          {
-            "id": "christian-maitre",
-            "name": {
-              "en": "Christian Maitre",
-              "zh": "Christian Maitre"
-            },
-            "roleOrg": {
-              "en": "AI Vision Forum GOSIM",
-              "zh": "人工智能愿景论坛 GOSIM"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      }
-    ],
+        {
+          "id": "zhao-simiao",
+          "name": {
+            "en": "Zhao Simiao",
+            "zh": "赵思邈"
+          },
+          "roleOrg": {
+            "en": "CEO, Pawmed | PhD Candidate in AI Medicine at Oxford University",
+            "zh": "CEO，爪子制药 | 牛津大学AI医药方向博士研究生"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "zhao-simiao.jpg"
+        },
+        {
+          "id": "liu-qunkai",
+          "name": {
+            "en": "Liu Qunkai",
+            "zh": "刘群凯"
+          },
+          "roleOrg": {
+            "en": "CEO & Founder, ABCD Tech | China Representative of French VC Breega",
+            "zh": "CEO & Founder，ABCD Tech | 法国风投Breega的中国代表"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "liu-qunkai.jpg"
+        },
+        {
+          "id": "du-kai",
+          "name": {
+            "en": "Du Kai",
+            "zh": "杜凯"
+          },
+          "roleOrg": {
+            "en": "Assistant Professor of Psychology and Cognitive Science, Tsinghua University (Liu Jia's team, AGI and the Second Cognitive Revolution at the New Evolutionary Node)",
+            "zh": "心理与认知科学助理教授，清华大学（刘嘉团队，站在新进化节点上 AGI与第二次认知革命）"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "0-placeholder-person.png"
+        },
+        {
+          "id": "nicolas-flores-herr",
+          "name": {
+            "en": "Nicolas Flores Herr",
+            "zh": "Nicolas Flores Herr"
+          },
+          "roleOrg": {
+            "en": "Team Lead Foundation Models & Gen AI Systems, Fraunhofer IAIS",
+            "zh": "基础模型与生成式AI系统团队负责人，弗劳恩霍夫IAIS研究所"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "0-placeholder-person.png"
+        },
+        {
+          "id": "kuang-kun",
+          "name": {
+            "en": "Kuang Kun",
+            "zh": "况琨"
+          },
+          "roleOrg": {
+            "en": "Associate Professor, PhD Supervisor, Deputy Director of AI Department, School of Computer Science, Zhejiang University",
+            "zh": "副教授，博士生导师，人工智能系副主任，浙江大学计算机学院"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "0-placeholder-person.png"
+        }
+      ]
+    },
+    {
+      "date": {
+        "en": "September 12",
+        "zh": "9月12日"
+      },
+      "timeSlot": "14:00 - 15:00",
+      "title": {
+        "en": "Session 3: Ethical Paradoxes and Governance of AI — Norms and Practices from a Global Perspective",
+        "zh": "主题分享 3：人工智能伦理悖论与治理体系构建：全球视野下的规范与实践"
+      },
+      "content": {
+        "en": "<p>As AI technology rapidly advances, ethical governance frameworks struggle to keep pace. Who is accountable for algorithmic injustice, data privacy breaches, or misuse? This topic investigates the ethical tensions that arise across cultural and institutional boundaries, calls for anticipatory, inclusive, and enforceable governance mechanisms, and advocates for formats like \"black-box debates\" to enhance transparency and public engagement in AI systems.</p>",
+        "zh": "<p>面对快速演化的AI技术，伦理治理体系滞后的问题日益突出。谁为算法不公、隐私泄露与失控使用负责？本议题将探讨全球治理中不同文化与制度的伦理张力，呼吁构建有前瞻性、包容性与可执行性的治理机制，并通过“黑箱辩论”等形式提升技术透明度与公众参与度。</p>"
+      },
+      "speakers": [
+        {
+          "id": "florent-zara",
+          "name": {
+            "en": "Florent Zara",
+            "zh": "Florent Zara"
+          },
+          "roleOrg": {
+            "en": "Open Source AI Advocate (Moderator), Eclipse Foundation",
+            "zh": "开源AI倡导者（主持人）, Eclipse Foundation"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "florent-zara.jpg"
+        },
+        {
+          "id": "zhou-hui",
+          "name": {
+            "en": "Zhou Hui",
+            "zh": "周辉"
+          },
+          "roleOrg": {
+            "en": "Deputy Director, Institute of Law, Chinese Academy of Social Sciences",
+            "zh": "副主任, 中国社会科学院法学研究所"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "zhou-hui.jpg"
+        },
+        {
+          "id": "cailean-osborne",
+          "name": {
+            "en": "Dr. Cailean Osborne",
+            "zh": "Dr. Cailean Osborne"
+          },
+          "roleOrg": {
+            "en": "Senior Researcher (Panelist), Linux Foundation Research",
+            "zh": "高级研究员（圆桌讨论成员）, Linux Foundation Research"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "cailean-osborne.jpg"
+        },
+        {
+          "id": "jesse-mccrosky",
+          "name": {
+            "en": "Jesse McCrosky",
+            "zh": "Jesse McCrosky"
+          },
+          "roleOrg": {
+            "en": "Principal Architect – Gen AI (Panelist), Egen",
+            "zh": "首席架构师 – 生成式AI（圆桌讨论成员）, Egen"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "jesse-mccrosky.jpg"
+        },
+        {
+          "id": "xiaohu-zhu",
+          "name": {
+            "en": "Xiaohu Zhu",
+            "zh": "朱晓虎"
+          },
+          "roleOrg": {
+            "en": "Founder (Panelist), Center for Safe AGI",
+            "zh": "创始人（圆桌讨论成员）, Center for Safe AGI"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "xiaohu-zhu.jpg"
+        },
+        {
+          "id": "christian-maitre",
+          "name": {
+            "en": "Christian Maitre",
+            "zh": "Christian Maitre"
+          },
+          "roleOrg": {
+            "en": "CEO and Founder (Panelist), Caspera.lab",
+            "zh": "CEO兼创始人（圆桌讨论成员）, Caspera.lab"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "christian-maitre.jpg"
+        },
+        {
+          "id": "wu-shaoqing",
+          "name": {
+            "en": "Wu Shaoqing",
+            "zh": "吴少卿"
+          },
+          "roleOrg": {
+            "en": "Head of AI Governance (Panelist), DeepSeek",
+            "zh": "AI治理负责人（圆桌讨论成员）, DeepSeek"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "0-placeholder-person.png"
+        },
+        {
+          "id": "abdallah-essa",
+          "name": {
+            "en": "Abdallah ESSA",
+            "zh": "Abdallah ESSA"
+          },
+          "roleOrg": {
+            "en": "Head of AI and NLP (Panelist), AFNOR Group",
+            "zh": "AI与NLP负责人（圆桌讨论成员）, AFNOR Group"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "0-placeholder-person.png"
+        }
+      ]
+    },
+    {
+      "date": {
+        "en": "September 12",
+        "zh": "9月12日"
+      },
+      "timeSlot": "15:00 - 15:30",
+      "title": {
+        "en": "Tea Break",
+        "zh": "茶歇"
+      },
+      "content": {
+        "en": "<p>Free discussion and networking, enjoy Hangzhou Longjing tea</p>",
+        "zh": "<p>自由讨论与交流，品尝杭州龙井茶</p>"
+      },
+      "speakers": []
+    },
+    {
+      "date": {
+        "en": "September 12",
+        "zh": "9月12日"
+      },
+      "timeSlot": "15:30 - 16:30",
+      "title": {
+        "en": "Session 4: Building Artificial Intelligence as a Global Digital Public Good — Vision, Pathways, and Cooperation",
+        "zh": "主题分享 4：构建作为全球数字公共产品的人工智能：理念、路径与合作机制"
+      },
+      "content": {
+        "en": "<p>AI is increasingly becoming a core part of global infrastructure, raising urgent questions about its accessibility, sustainability, and public accountability. Framed through the lens of \"global digital public goods,\" this topic explores open collaboration models, governance frameworks, and how AI can align with the United Nations Sustainable Development Goals (SDGs), promoting cross-border cooperation and long-term institutional arrangements.</p>",
+        "zh": "<p>AI正逐步成为全球基础设施的一部分，其公共性、可及性与可持续性问题日益重要。本议题以“全球数字公共产品”为框架，探讨AI的开放共享模式、治理机制设计及与联合国可持续发展目标（SDGs）的融合路径，推动跨国协作、资源共建与长远制度安排。</p>"
+      },
+      "speakers": [
+        {
+          "id": "emily-chen",
+          "name": {
+            "en": "Emily Chen",
+            "zh": "陈阳"
+          },
+          "roleOrg": {
+            "en": "Co-Founder (Panel Moderator), KAIYUANSHE",
+            "zh": "开源社 (KAIYUANSHE) 联合创始人, 圆桌讨论主持人"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "emily-chen.jpg"
+        },
+        {
+          "id": "mehdi-snene",
+          "name": {
+            "en": "Dr. Mehdi Snene",
+            "zh": "Mehdi Snene 博士"
+          },
+          "roleOrg": {
+            "en": "AI Advisor (Keynote Speaker), UN / ODET",
+            "zh": "人工智能顾问（主题演讲）, 联合国数字经济与技术办公室 (UN/ODET)"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "mehdi-snene.jpg"
+        },
+        {
+          "id": "sameer-chauhan",
+          "name": {
+            "en": "Sameer Chauhan",
+            "zh": "Sameer Chauhan"
+          },
+          "roleOrg": {
+            "en": "Director (Panelist), UNICC",
+            "zh": "主任（圆桌讨论成员）, 联合国国际计算中心 (UNICC)"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "sameer-chauhan.jpg"
+        },
+        {
+          "id": "emily-bennett",
+          "name": {
+            "en": "Emily Bennett",
+            "zh": "Emily Bennett"
+          },
+          "roleOrg": {
+            "en": "Head, Digital Public Solutions (Panelist), UNICC",
+            "zh": "数字公共解决方案负责人（圆桌讨论成员）, 联合国国际计算中心 (UNICC)"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "emily-bennett.jpg"
+        },
+        {
+          "id": "carlos-correia",
+          "name": {
+            "en": "Carlos Correia",
+            "zh": "Carlos Correia"
+          },
+          "roleOrg": {
+            "en": "Senior IT Officer, Digital Foundations (Panelist), UNICC",
+            "zh": "高级IT官员，数字基础（圆桌讨论成员）, 联合国国际计算中心 (UNICC)"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "carlos-correia.jpg"
+        },
+        {
+          "id": "yonghua-lin",
+          "name": {
+            "en": "Dr. Yonghua Lin",
+            "zh": "林咏华"
+          },
+          "roleOrg": {
+            "en": "Vice President (Panelist), BAAI",
+            "zh": "副院长（圆桌讨论成员）, 北京智源人工智能研究院 (BAAI)"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "yonghua-lin.jpg"
+        },
+        {
+          "id": "tao-jiang",
+          "name": {
+            "en": "Tao Jiang",
+            "zh": "蒋涛"
+          },
+          "roleOrg": {
+            "en": "Founder & Chairman (Panelist), CSDN",
+            "zh": "创始人&董事长（圆桌讨论成员）, CSDN"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "tao-jiang.jpg"
+        },
+        {
+          "id": "qin-wang",
+          "name": {
+            "en": "Prof. Qin Wang",
+            "zh": "王钦"
+          },
+          "roleOrg": {
+            "en": "Professor (Panelist), CASS",
+            "zh": "教授（圆桌讨论成员）, 中国社会科学院 (CASS)"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "qin-wang.jpg"
+        },
+        {
+          "id": "richard-bian",
+          "name": {
+            "en": "Richard Bian (Si-Kang Bian)",
+            "zh": "边思康 (Richard Bian)"
+          },
+          "roleOrg": {
+            "en": "Director of Strategy and Product, OSS (Panelist), Ant Group",
+            "zh": "开源战略与产品总监（圆桌讨论成员）, 蚂蚁集团"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "richard-bian.jpg"
+        },
+        {
+          "id": "piao-geshi",
+          "name": {
+            "en": "Piao Geshi",
+            "zh": "朴戈石"
+          },
+          "roleOrg": {
+            "en": "Head of Data (Panelist), DeepSeek",
+            "zh": "数据负责人（圆桌讨论成员）, DeepSeek"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "0-placeholder-person.png"
+        }
+      ]
+    },
+    {
+      "date": {
+        "en": "September 12",
+        "zh": "9月12日"
+      },
+      "timeSlot": "16:30 - 17:30",
+      "title": {
+        "en": "Panel Summary & Closing Remarks",
+        "zh": "全体汇报与总结发言"
+      },
+      "content": {
+        "en": "<p>Closing remarks by Forum Sponsor</p>",
+        "zh": "<p>论坛赞助方致闭幕辞</p>"
+      },
+      "speakers": [
+        {
+          "id": "ren-xudong",
+          "name": {
+            "en": "Ren Xudong",
+            "zh": "任旭东"
+          },
+          "roleOrg": {
+            "en": "Forum Sponsor",
+            "zh": "论坛赞助方"
+          },
+          "tags": [
+            "forum-aivision"
+          ],
+          "image": "ren-xudong.jpg"
+        }
+      ]
+    },
+    {
+      "date": {
+        "en": "September 12",
+        "zh": "9月12日"
+      },
+      "timeSlot": "17:30 - 20:30",
+      "title": {
+        "en": "Dinner",
+        "zh": "晚宴"
+      },
+      "content": {
+        "en": "<p>Enjoy dinner at West Lake State Guest House with views of West Lake</p>",
+        "zh": "<p>用晚宴，欣赏西湖美景</p>"
+      },
+      "speakers": []
+    }
+  ],
+
     "ai-models-infra": [
       {
         "date": {
