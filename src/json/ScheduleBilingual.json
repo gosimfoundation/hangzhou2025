@@ -634,7 +634,7 @@
         },
         "speakers": [
           {
-            "id": "jason-li",
+            "id": "li-jianzhong",
             "name": {
               "en": "Jason Li",
               "zh": "李建忠"
@@ -2010,7 +2010,7 @@
         },
         "speakers": [
           {
-            "id": "ren-xudong",
+            "id": "bill-ren",
             "name": {
               "en": "Ren Xudong",
               "zh": "任旭东"
@@ -6483,7 +6483,7 @@
         },
         "speakers": [
           {
-            "id": "sbastien-crozet",
+            "id": "sebastien-crozet",
             "name": {
               "en": "Sebastian Crozet",
               "zh": "Sebastian Crozet"
@@ -6495,7 +6495,7 @@
             "tags": [
               "ws-edge-ai"
             ],
-            "image": "sbastien-crozet.png"
+            "image": "sebastien-crozet.png"
           }
         ]
       },

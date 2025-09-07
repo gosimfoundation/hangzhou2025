@@ -118,7 +118,11 @@
       "org": "联合国数字与新兴技术办公室",
       "roleOrg": "首席人工智能官，联合国数字基础设施与新兴技术",
       "image": "mehdi-snene.png",
-      "tags": ["plenary", "open-for-sdg", "forum-aivision"],
+      "tags": [
+        "plenary",
+        "open-for-sdg",
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -137,7 +141,9 @@
       "org": "",
       "roleOrg": "前联合国秘书长高级别咨询机构成员",
       "image": "mohamed-farahat.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -156,7 +162,9 @@
       "org": "突尼斯政府",
       "roleOrg": "突尼斯前数字与技术部长",
       "image": "nooman-fehri.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -175,7 +183,9 @@
       "org": "",
       "roleOrg": "上海交大工研院执行院长",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -194,7 +204,10 @@
       "org": "",
       "roleOrg": "中国教育技术协会教育信息技术产业专业委员会常务委员，深圳市第二高级中学创客中心负责人",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "forum-aivision",
+        "ws-ai-education"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -213,7 +226,9 @@
       "org": "北京大学",
       "roleOrg": "北京大学终身正教授、副院长",
       "image": "minghui-zhou.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -232,7 +247,9 @@
       "org": "北京大学 / 北京智源人工智能研究院",
       "roleOrg": "北京大学教授，北京智源人工智能研究院理事长",
       "image": "tiejun-huang.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -251,7 +268,9 @@
       "org": "",
       "roleOrg": "哈尔滨工业大学软件学院副院长",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-cann"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -270,7 +289,9 @@
       "org": "中国电信数字智能科技公司",
       "roleOrg": "中国电信智慧城市研究院副院长，中国电信首席专家, 中国电信数字智能科技公司",
       "image": "speaker-zhang-yun-fei.jpeg",
-      "tags": ["agentic-web"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -289,7 +310,9 @@
       "org": "",
       "roleOrg": "清华大学集成电路学院副教授",
       "image": "hu-he.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -308,7 +331,9 @@
       "org": "清华大学",
       "roleOrg": "清华大学计算机系长聘教授；高性能计算研究所所长, 清华大学",
       "image": "speaker-di-ji-dong.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -327,7 +352,11 @@
       "org": "清华大学",
       "roleOrg": "清华大学教授",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-next", "forum-aivision", "open-for-sdg"],
+      "tags": [
+        "ai-next",
+        "forum-aivision",
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -346,7 +375,9 @@
       "org": "",
       "roleOrg": "清华大学教授",
       "image": "xu-han.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-cann"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -365,7 +396,11 @@
       "org": "",
       "roleOrg": "AI师傅创始人&CEO，原哈工大计算机副教授",
       "image": "zhigang-sun.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "agentic-web",
+        "forum-aivision",
+        "ws-ai-education"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -384,7 +419,9 @@
       "org": "Pytorch基金会",
       "roleOrg": "Pytorch基金会执行董事",
       "image": "matt-white.png",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -403,7 +440,9 @@
       "org": "Eclipse基金会和LF CNCF",
       "roleOrg": "Eclipse基金会和LF CNCF董事会成员",
       "image": "bryan-che.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -422,7 +461,9 @@
       "org": "联合国国际计算中心 (UNICC)",
       "roleOrg": "高级IT官员，数字基础（圆桌讨论成员）, 联合国国际计算中心 (UNICC)",
       "image": "carlos-correia.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -441,7 +482,9 @@
       "org": "Linux Foundation Research",
       "roleOrg": "高级研究员（圆桌讨论成员）, Linux Foundation Research",
       "image": "cailean-osborne.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -460,7 +503,9 @@
       "org": "Eclipse Foundation",
       "roleOrg": "开源AI倡导者（主持人）, Eclipse Foundation",
       "image": "florent-zara.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -479,7 +524,11 @@
       "org": "弗劳恩霍夫智能分析和信息系统研究所",
       "roleOrg": "IAIS 基础模型与生成式人工智能系统团队负责人",
       "image": "nicolas-flores-herr.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "ai-next",
+        "forum-aivision",
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -498,7 +547,9 @@
       "org": "",
       "roleOrg": "华为菲尔兹实验室主任",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-future-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -517,7 +568,10 @@
       "org": "红帽亚太区",
       "roleOrg": "首席技术官, 红帽亚太区",
       "image": "vincent-caldeira.jpeg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "ai-models-infra",
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -536,7 +590,9 @@
       "org": "",
       "roleOrg": "华为昇腾处理器产品总监",
       "image": "xiaolei-wang.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-cann"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -555,7 +611,9 @@
       "org": "华为",
       "roleOrg": "华为仓颉编程语言生态与产业发展总监, 华为",
       "image": "speaker-wang-xue-zhi.jpg",
-      "tags": ["ws-cangjie"],
+      "tags": [
+        "ws-cangjie"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -574,7 +632,10 @@
       "org": "",
       "roleOrg": "腾讯教育顾问，广东省人力资源研究会基础教育与教师发展专业委员会副会长，广东教师继续再教育专委会常务理事",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision",
+        "ws-ai-education"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -593,7 +654,9 @@
       "org": "",
       "roleOrg": "华为高级首席架构师兼技术经理",
       "image": "jingbin-zhang.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -612,7 +675,9 @@
       "org": "英伟达",
       "roleOrg": "首席研究科学家和技术负责人, 英伟达",
       "image": "jinwei-gu.jpg",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -631,7 +696,9 @@
       "org": "阿里巴巴集团通义千问团队",
       "roleOrg": "技术人员, 阿里巴巴集团通义千问团队",
       "image": "junrong-lin.jpg",
-      "tags": ["ws-sglang"],
+      "tags": [
+        "ws-sglang"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -650,7 +717,10 @@
       "org": "英伟达",
       "roleOrg": "首席工程师，开发者技术, 英伟达",
       "image": "markus-tavenrath.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra",
+        "ws-edge-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -669,7 +739,9 @@
       "org": "阿里云",
       "roleOrg": "高级工程师, 阿里云",
       "image": "shangming-cai-.jpg",
-      "tags": ["ws-sglang"],
+      "tags": [
+        "ws-sglang"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -688,7 +760,9 @@
       "org": "华为技术有限公司",
       "roleOrg": "高级工程师, 华为技术有限公司",
       "image": "shuangrui-chen.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -707,7 +781,9 @@
       "org": "",
       "roleOrg": "阿里云高级工程师 RBG 项目 Committer",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ws-chitu"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -726,7 +802,9 @@
       "org": "华为",
       "roleOrg": "华为高级工程师",
       "image": "yue-bao.jpg",
-      "tags": ["ws-edge-ai"],
+      "tags": [
+        "ws-edge-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -745,7 +823,9 @@
       "org": "美团",
       "roleOrg": "SGlang 提交者, 美团",
       "image": "chao-wang.jpg",
-      "tags": ["ws-sglang"],
+      "tags": [
+        "ws-sglang"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -764,7 +844,9 @@
       "org": "华为技术有限公司",
       "roleOrg": "Web前端框架技术专家, 华为技术有限公司",
       "image": "chunhui-mo.jpg",
-      "tags": ["agentic-web"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -783,7 +865,7 @@
       "org": "华为",
       "roleOrg": "华为系统工程师",
       "image": "dmitrii-desiatkin.jpg",
-      "tags": ["ws-future-web"],
+      "tags": [],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -802,7 +884,9 @@
       "org": "英伟达",
       "roleOrg": "英伟达GPU计算专家",
       "image": "speaker-wang-dong.png",
-      "tags": ["ws-sglang"],
+      "tags": [
+        "ws-sglang"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -821,7 +905,9 @@
       "org": "",
       "roleOrg": "华为技术有限公司Dora开源贡献者",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-dora"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -840,7 +926,9 @@
       "org": "华为",
       "roleOrg": "Web核心专家, 华为, 华为",
       "image": "guangzhen-li.png",
-      "tags": ["agentic-web"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -859,7 +947,9 @@
       "org": "字节跳动",
       "roleOrg": "开发者, 字节跳动",
       "image": "speaker-chen-hai-quan.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -878,7 +968,9 @@
       "org": "谷歌云",
       "roleOrg": "AI专家, 谷歌云",
       "image": "jennie-shi.jpeg",
-      "tags": ["agentic-web"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -897,7 +989,9 @@
       "org": "",
       "roleOrg": "华为软件工程师",
       "image": "jingshi-shangguan.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-future-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -916,7 +1010,9 @@
       "org": "华为",
       "roleOrg": "AI编译器专家, 华为",
       "image": "zhang-renwei.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "-",
         "twitter": "-",
@@ -935,7 +1031,9 @@
       "org": "华为",
       "roleOrg": "博士, 华为",
       "image": "speaker-wang-tian-ce.jpg",
-      "tags": ["ws-sglang"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -954,7 +1052,9 @@
       "org": "字节跳动",
       "roleOrg": "软件工程师, 字节跳动",
       "image": "wilson-wang.jpeg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -973,7 +1073,9 @@
       "org": "",
       "roleOrg": "沐曦推理引擎负责人",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ws-chitu"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -992,7 +1094,9 @@
       "org": "字节跳动",
       "roleOrg": "字节跳动AI性能优化专家",
       "image": "xiaolei-zhang.jpeg",
-      "tags": ["ws-sglang"],
+      "tags": [
+        "ws-sglang"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1011,7 +1115,9 @@
       "org": "华为",
       "roleOrg": "华为架构师",
       "image": "xiaoming-bao.png",
-      "tags": ["ws-sglang"],
+      "tags": [
+        "ws-sglang"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1030,7 +1136,9 @@
       "org": "字节跳动",
       "roleOrg": "Coze Compass技术负责人, 字节跳动",
       "image": "speaker-wang-xin-meng.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1049,7 +1157,9 @@
       "org": "阿里云计算有限公司",
       "roleOrg": "研发工程师, 阿里云计算有限公司",
       "image": "yi-zhang.png",
-      "tags": ["ws-sglang"],
+      "tags": [
+        "ws-sglang"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1068,7 +1178,9 @@
       "org": "华为",
       "roleOrg": "博士, 华为",
       "image": "speaker-ding-yi-bin.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1087,7 +1199,9 @@
       "org": "阿里巴巴",
       "roleOrg": "工程师, 阿里巴巴",
       "image": "yizhong-cao-.jpg",
-      "tags": ["ws-sglang"],
+      "tags": [
+        "ws-sglang"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1106,7 +1220,9 @@
       "org": "华为",
       "roleOrg": "华为软件工程师",
       "image": "zhizhen-ye.jpeg",
-      "tags": ["ws-future-web"],
+      "tags": [
+        "ws-future-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1125,7 +1241,9 @@
       "org": "Volcano Reviewer, lws Contributor",
       "roleOrg": "华为云研发工程师, Volcano Reviewer, lws Contributor",
       "image": "chen-zicong.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1144,7 +1262,9 @@
       "org": "华为",
       "roleOrg": "咨询运营经理, 华为",
       "image": "hugejile.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1163,7 +1283,10 @@
       "org": "CSDN",
       "roleOrg": "创始人&董事长（圆桌讨论成员）, CSDN",
       "image": "tao-jiang.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "forum-aivision",
+        "plenary"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1182,7 +1305,9 @@
       "org": "",
       "roleOrg": "康迪科技董事长",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1201,7 +1326,9 @@
       "org": "开心武汉市科技有限公司",
       "roleOrg": "CSDN开新院副院长, 开心武汉市科技有限公司",
       "image": "speaker-chen-yu-long.png",
-      "tags": ["ws-cangjie"],
+      "tags": [
+        "ws-cangjie"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1220,7 +1347,9 @@
       "org": "重庆邮电大学",
       "roleOrg": "教授, 重庆邮电大学",
       "image": "cen-ming.jpg",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1239,7 +1368,9 @@
       "org": "",
       "roleOrg": "北京航空航天大学软件工程学院副教授",
       "image": "jing-zhang.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-future-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1258,7 +1389,10 @@
       "org": "马德里理工大学",
       "roleOrg": "马德里理工大学教授",
       "image": "joaquin-salvachua.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "agentic-web",
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1277,7 +1411,9 @@
       "org": "马德里理工大学",
       "roleOrg": "副教授, 马德里理工大学",
       "image": "jos-andrs-muoz-arcentales.jpg",
-      "tags": ["agentic-web"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1296,7 +1432,9 @@
       "org": "",
       "roleOrg": "副教授，博士生导师，人工智能系副主任，浙江大学计算机学院",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1315,7 +1453,10 @@
       "org": "中国社会科学院 (CASS)",
       "roleOrg": "教授（圆桌讨论成员）, 中国社会科学院 (CASS)",
       "image": "qin-wang.jpg",
-      "tags": ["ws-cann", "ws-globalization"],
+      "tags": [
+        "forum-aivision",
+        "ws-globalization"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1334,7 +1475,9 @@
       "org": "浙江大学",
       "roleOrg": "助理教授, 浙江大学",
       "image": "qian-zheng.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1353,7 +1496,9 @@
       "org": "上海交通大学",
       "roleOrg": "长聘副教授, 上海交通大学",
       "image": "speaker-zhang-quan-shi.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1372,7 +1517,9 @@
       "org": "北京邮电大学",
       "roleOrg": "副教授, 北京邮电大学",
       "image": "speaker-bai-ting.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1391,7 +1538,11 @@
       "org": "",
       "roleOrg": "美国东北大学教授",
       "image": "yanzhi-wang.jpeg",
-      "tags": ["apps-agents", "ws-ai-education", "ws-edge-ai"],
+      "tags": [
+        "apps-agents",
+        "ws-ai-education",
+        "ws-edge-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1410,7 +1561,9 @@
       "org": "",
       "roleOrg": "香港中文大学数据科学学院助理教授",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1429,7 +1582,9 @@
       "org": "东北大学",
       "roleOrg": "副教授, 东北大学",
       "image": "speaker-zhang-yin.png",
-      "tags": ["ws-cangjie"],
+      "tags": [
+        "ws-cangjie"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1448,7 +1603,9 @@
       "org": "",
       "roleOrg": "南开大学教授",
       "image": "yong-qin.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1467,7 +1624,9 @@
       "org": "",
       "roleOrg": "副教授，北京师范大学",
       "image": "zhan-yiwen.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1486,7 +1645,9 @@
       "org": "纽卡斯尔大学",
       "roleOrg": "助理教授, 纽卡斯尔大学",
       "image": "zhenghao-chen.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://x.com/DrZhenghaoChen",
@@ -1505,7 +1666,9 @@
       "org": "",
       "roleOrg": "CEO，爪子制药 | 牛津大学AI医药方向博士研究生",
       "image": "zhao-simiao.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1524,7 +1687,9 @@
       "org": "Generative AI Commons / LF AI & Data",
       "roleOrg": "Generative AI Commons联合主席，LF AI & Data董事会成员",
       "image": "anni-lai.png",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1543,7 +1708,9 @@
       "org": "",
       "roleOrg": "中国科学技术大学学生",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-dora"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1562,7 +1729,9 @@
       "org": "东北大学",
       "roleOrg": "学生仓颉布道师, 东北大学",
       "image": "speaker-zhang-hao-yang.png",
-      "tags": ["ws-cangjie"],
+      "tags": [
+        "ws-cangjie"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1581,7 +1750,9 @@
       "org": "西北工业大学",
       "roleOrg": "西北工业大学博士研究生, 上海音乐学院/西北工业大学",
       "image": "jixun-yao.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1600,7 +1771,9 @@
       "org": "High-Performance Web Engines CG, W3C",
       "roleOrg": "Chair, High-Performance Web Engines CG, W3C",
       "image": "martin-alvarez-espinar.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1619,7 +1792,9 @@
       "org": "",
       "roleOrg": "清华大学计算机系 博士",
       "image": "runqing-zhang.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-chitu"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1638,7 +1813,9 @@
       "org": "",
       "roleOrg": "重庆邮电大学博士",
       "image": "ruping-cen.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-dora"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1657,7 +1834,10 @@
       "org": "Efrei Paris",
       "roleOrg": "Efrei Paris“数据与人工智能”项目经理兼高管教育学术经理",
       "image": "salim-nahle.png",
-      "tags": ["forum-aivision"],
+      "tags": [
+        "ai-next",
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1676,7 +1856,9 @@
       "org": "牛津大学",
       "roleOrg": "牛顿国际研究员, 牛津大学",
       "image": "shiwei-liu.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1695,7 +1877,10 @@
       "org": "华东师范大学",
       "roleOrg": "奇点智能研究院开源技术委员会主任, 华东师范大学",
       "image": "wei-wang.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next",
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1714,7 +1899,9 @@
       "org": "清华大学",
       "roleOrg": "清华大学博士研究生",
       "image": "weiyu-xie.jpg",
-      "tags": ["ws-edge-ai"],
+      "tags": [
+        "ws-edge-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1733,7 +1920,9 @@
       "org": "openEuler社区技术委员会",
       "roleOrg": "openEuler社区技术委员会主席",
       "image": "xinwei-hu.jpeg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1752,7 +1941,9 @@
       "org": "",
       "roleOrg": "首都师范大学博士，艺术家",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1771,7 +1962,7 @@
       "org": "首都师范大学",
       "roleOrg": "首都师范大学艺术家",
       "image": "yicuan-yue.jpg",
-      "tags": ["forum-aivision"],
+      "tags": [],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1790,7 +1981,9 @@
       "org": "",
       "roleOrg": "南方科技大学学生",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-dora"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1809,7 +2002,9 @@
       "org": "",
       "roleOrg": "南开大学学生",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "ws-dora"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1828,7 +2023,9 @@
       "org": "",
       "roleOrg": "东南大学学生",
       "image": "zhongjin.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-dora"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1847,7 +2044,9 @@
       "org": "国际信息研究学会",
       "roleOrg": "院士，国际信息研究学会",
       "image": "speaker-shi-zhong-zhi.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1866,7 +2065,10 @@
       "org": "",
       "roleOrg": "艺术家，欧洲人工智能与增生主义双年展创始人",
       "image": "alexandra-boucherifi.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next",
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1885,7 +2087,9 @@
       "org": "",
       "roleOrg": "CSDN 高级副总裁 & GitCode CEO",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1904,7 +2108,9 @@
       "org": "AskSia",
       "roleOrg": "联合创始人, AskSia",
       "image": "bella-ren.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1923,7 +2129,9 @@
       "org": "Caspera.lab",
       "roleOrg": "CEO兼创始人（圆桌讨论成员）, Caspera.lab",
       "image": "christian-maitre.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1942,7 +2150,9 @@
       "org": "First Person Project",
       "roleOrg": "创始人, First Person Project",
       "image": "drummond-reed.jpg",
-      "tags": ["agentic-web"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "http://twitter.com/drummondreed",
@@ -1961,7 +2171,9 @@
       "org": "圆桌讨论主持人",
       "roleOrg": "开源社 (KAIYUANSHE) 联合创始人, 圆桌讨论主持人",
       "image": "emily-chen.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1980,7 +2192,9 @@
       "org": "开源（上海）技术咨询有限公司",
       "roleOrg": "开源（上海）技术咨询有限公司创始人",
       "image": "gregory-terzian.jpg",
-      "tags": ["ws-future-web"],
+      "tags": [
+        "ws-future-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1999,7 +2213,9 @@
       "org": "",
       "roleOrg": "可可乐博CEO",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-ai-education"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2018,7 +2234,10 @@
       "org": "",
       "roleOrg": "TIMU首席技术官",
       "image": "jesse-ezell.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "agentic-web",
+        "ws-flutter"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2037,7 +2256,9 @@
       "org": "",
       "roleOrg": "上海仪电智算科技MaaS平台负责人",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-chitu"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2056,7 +2277,9 @@
       "org": "Kornia AI",
       "roleOrg": "联合创始人, Kornia AI",
       "image": "jian-shi.jpg",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2075,7 +2298,9 @@
       "org": "99 Faces of AI Podcast / Bielik.AI",
       "roleOrg": "创始人, 99 Faces of AI Podcast / Bielik.AI",
       "image": "karol-stryja.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2094,7 +2319,9 @@
       "org": "",
       "roleOrg": "CEO & Founder，ABCD Tech | 法国风投Breega的中国代表",
       "image": "liu-qunkai.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2113,7 +2340,9 @@
       "org": "中国电子技术标准化研究院",
       "roleOrg": "高级工程师，中国电子技术标准化研究院云计算研究室主任",
       "image": "liyun-yang.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2132,7 +2361,9 @@
       "org": "Danube Tech",
       "roleOrg": "首席执行官, Danube Tech",
       "image": "markus-sabadello.jpg",
-      "tags": ["agentic-web"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2151,7 +2382,9 @@
       "org": "四川饺子互动科技有限公司",
       "roleOrg": "CTO, 四川饺子互动科技有限公司",
       "image": "speaker-liu-nan-bing.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://twitter.com/1ronben",
@@ -2170,7 +2403,10 @@
       "org": "",
       "roleOrg": "W3C副总裁，战略负责人",
       "image": "philippe-le-hegaret.png",
-      "tags": ["agentic-web"],
+      "tags": [
+        "agentic-web",
+        "ws-future-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2189,7 +2425,10 @@
       "org": "蚂蚁集团",
       "roleOrg": "战略与新产品总监 (OSS)，蚂蚁集团",
       "image": "richard-bian.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "forum-aivision",
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2208,7 +2447,10 @@
       "org": "",
       "roleOrg": "Makepad联合创始人",
       "image": "rik-arends.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf",
+        "ws-embedded-rust"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2227,7 +2469,9 @@
       "org": "iTunel Technology Ltd (Hong Kong)",
       "roleOrg": "CTO, iTunel Technology Ltd (Hong Kong)",
       "image": "robin-shang.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2246,7 +2490,9 @@
       "org": "联合国国际计算中心 (UNICC)",
       "roleOrg": "主任（圆桌讨论成员）, 联合国国际计算中心 (UNICC)",
       "image": "sameer-chauhan.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2265,7 +2511,10 @@
       "org": "OpenCV.org",
       "roleOrg": "CEO, OpenCV.org",
       "image": "satya-mallick.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "embodied-ai",
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://x.com/LearnOpenCV",
@@ -2284,7 +2533,9 @@
       "org": "",
       "roleOrg": "Makepad联合创始人",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-embedded-rust"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2303,7 +2554,9 @@
       "org": "宇树科技",
       "roleOrg": "机器人工程师 / 技术总监, 宇树科技",
       "image": "mashengyue.jpg",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://github.com/Msy-yy",
@@ -2322,7 +2575,9 @@
       "org": "",
       "roleOrg": "清程极智联合创始人",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "ws-chitu"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2334,14 +2589,16 @@
       "draft": false
     },
     {
-      "id": "sbastien-crozet",
+      "id": "sebastien-crozet",
       "name": "Sébastien Crozet",
       "bio": "Sébastien Crozet has been in love with the Rust programming language since its earliest days. He is the creator and maintainer of popular open-source libraries, including nalgebra and Rapier, for the Rust ecosystem that specialize in linear algebra, geometry, and physics. He is the founder of Dimforge where he focuses on contributing to the future of cross-platform scientific computing and AI.",
       "role": "Dimforge 创始人",
       "org": "Dimforge",
       "roleOrg": "Dimforge 创始人",
-      "image": "sbastien-crozet.png",
-      "tags": ["rustchinaconf"],
+      "image": "sebastien-crozet.png",
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2360,7 +2617,9 @@
       "org": "Sustentra | 2025耶鲁企业家精神奖学金封面人物",
       "roleOrg": "联合创始人兼首席执行官, Sustentra | 2025耶鲁企业家精神奖学金封面人物",
       "image": "vivian-cai.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2379,7 +2638,9 @@
       "org": "",
       "roleOrg": "创始人，央与国际钢琴学院",
       "image": "wang-juchen.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2398,7 +2659,7 @@
       "org": "深势科技",
       "roleOrg": "深势科技创始人兼首席执行官",
       "image": "weijie-sun.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2417,7 +2678,9 @@
       "org": "Futurewei Technologies, Inc.",
       "roleOrg": "技术战略高级总监, Futurewei Technologies, Inc.",
       "image": "wenjing-chu.png",
-      "tags": ["agentic-web"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2436,7 +2699,9 @@
       "org": "1ms.ai",
       "roleOrg": "创始人, 1ms.ai",
       "image": "xavier-tao.jpg",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/HaixuanT",
@@ -2455,7 +2720,9 @@
       "org": "",
       "roleOrg": "Mindverse联合创始人",
       "image": "xiang-ying.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2474,7 +2741,9 @@
       "org": "安全通用人工智能中心",
       "roleOrg": "安全通用人工智能中心创始人",
       "image": "xiaohu-zhu.png",
-      "tags": ["forum-aivision"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "@neil_csagi",
@@ -2493,7 +2762,9 @@
       "org": "",
       "roleOrg": "联合创始人，Saint Novel Biotech",
       "image": "yin-danqing.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2512,7 +2783,9 @@
       "org": "长亭科技",
       "roleOrg": "AI代码产品技术总监, 长亭科技",
       "image": "yin-zhenxi.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2531,7 +2804,9 @@
       "org": "",
       "roleOrg": "Rokid全球产品、工程和生态系统高级总监",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2550,7 +2825,9 @@
       "org": "",
       "roleOrg": "联合创始人，海豚智能",
       "image": "zheng-haoyun.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2569,7 +2846,9 @@
       "org": "记忆张量（上海）科技有限公司",
       "roleOrg": "记忆张量（上海）科技有限公司联合创始人兼 CTO",
       "image": "zhiyu-li.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2588,7 +2867,9 @@
       "org": "中国社会科学院法学研究所",
       "roleOrg": "副主任, 中国社会科学院法学研究所",
       "image": "zhou-hui.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2607,7 +2888,10 @@
       "org": "Neo4j",
       "roleOrg": "AI社区架构师, Neo4j",
       "image": "alexy-khrabrov-.jpeg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "apps-agents",
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "@chiefscientist",
@@ -2626,7 +2910,9 @@
       "org": "无隶属",
       "roleOrg": "高级MLOps主管, 无隶属",
       "image": "aurlienmorgan-claudon.png",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/AurelienMorgan_",
@@ -2645,7 +2931,9 @@
       "org": "360",
       "roleOrg": "360 纳米AI搜索鸿蒙端技术组长, 360",
       "image": "speaker-zhao-dong.jpg",
-      "tags": ["ws-cangjie"],
+      "tags": [
+        "ws-cangjie"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2664,7 +2952,9 @@
       "org": "Bonsai Robotics",
       "roleOrg": "高级研究工程师, Bonsai Robotics",
       "image": "edgar-riba.jpeg",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/edgarriba",
@@ -2683,7 +2973,9 @@
       "org": "北京智源人工智能研究院",
       "roleOrg": "数据研究团队技术负责人, 北京智源人工智能研究院",
       "image": "guang-liu.jpeg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/ZacLiu123",
@@ -2702,7 +2994,9 @@
       "org": "Egen",
       "roleOrg": "首席架构师 – 生成式AI（圆桌讨论成员）, Egen",
       "image": "jesse-mccrosky.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2721,7 +3015,9 @@
       "org": "",
       "roleOrg": "杭州颉创科技有限公司架构工程师",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-cangjie"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2740,7 +3036,9 @@
       "org": "",
       "roleOrg": "蚂蚁集团资深算法专家",
       "image": "jingdong-chen.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2759,7 +3057,9 @@
       "org": "北京初联科技有限公司",
       "roleOrg": "服务器应用架构师, 北京初联科技有限公司",
       "image": "speaker-wu-jing-run.png",
-      "tags": ["ws-cangjie"],
+      "tags": [
+        "ws-cangjie"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2778,7 +3078,9 @@
       "org": "Mozilla 数据协作组",
       "roleOrg": "Mozilla 数据协作组的工程师 & 数据科学家",
       "image": "johann-diedrick.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2797,7 +3099,9 @@
       "org": "",
       "roleOrg": "Elevatia Studio首席程序员",
       "image": "sizhe-cheng.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2816,7 +3120,10 @@
       "org": "",
       "roleOrg": "中山大学深圳附属学校副校长",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision",
+        "ws-ai-education"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2835,7 +3142,9 @@
       "org": "ZettaScale Technology",
       "roleOrg": "高级软件工程师, ZettaScale Technology",
       "image": "yuyuan-yuan.jpg",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://x.com/az6980522",
@@ -2854,7 +3163,9 @@
       "org": "Hugging Face",
       "roleOrg": "Hugging Face EA / AI研究员",
       "image": "adina-yakefu.png",
-      "tags": ["ws-globalization"],
+      "tags": [
+        "ws-globalization"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://x.com/AdinaYakup",
@@ -2873,7 +3184,9 @@
       "org": "",
       "roleOrg": "蚂蚁集团前端工程师，Ant Design 开源贡献者",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2892,7 +3205,9 @@
       "org": "Exel Industries | EXXACT Robotics",
       "roleOrg": "AI研究与MLOps工程师, Exel Industries | EXXACT Robotics",
       "image": "dandjinou-charbel.jpeg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2911,7 +3226,9 @@
       "org": "",
       "roleOrg": "Cline创始工程师",
       "image": "evan-fannin.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2930,7 +3247,7 @@
       "org": "Jina AI",
       "roleOrg": "创始工程师, Jina AI",
       "image": "florian-hnicke.png",
-      "tags": ["ws-cann"],
+      "tags": [],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/florianhoenicke",
@@ -2949,7 +3266,9 @@
       "org": "杭州半宇宙科技有限公司",
       "roleOrg": "杭州半宇宙技术研究员, 杭州半宇宙科技有限公司",
       "image": "speaker-han-hong-ying.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "apps-agents"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2968,7 +3287,9 @@
       "org": "Hugging Face",
       "roleOrg": "机器学习工程师, Hugging Face",
       "image": "jingya-huang.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/Jhuaplin",
@@ -2987,7 +3308,9 @@
       "org": "",
       "roleOrg": "Hugging Face 机器学习工程师",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-edge-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3006,7 +3329,9 @@
       "org": "Igalia",
       "roleOrg": "软件工程师, Igalia",
       "image": "manuel-rego.jpg",
-      "tags": ["agentic-web"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "https://mastodon.social/@regocas",
         "twitter": "",
@@ -3025,7 +3350,9 @@
       "org": "Igalia",
       "roleOrg": "Igalia软件工程师",
       "image": "martin-robinson.jpg",
-      "tags": ["ws-future-web"],
+      "tags": [
+        "ws-future-web"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3044,7 +3371,9 @@
       "org": "Hugging Face",
       "roleOrg": "具身AI工程师, Hugging Face",
       "image": "martino-russi.png",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://x.com/NepYope",
@@ -3063,7 +3392,7 @@
       "org": "CopilotKit",
       "roleOrg": "创始工程师, CopilotKit",
       "image": "michael-tyler-slaton.png",
-      "tags": ["agentic-web"],
+      "tags": [],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3082,7 +3411,9 @@
       "org": "",
       "roleOrg": "Callstack首席工程师",
       "image": "michal-pierzchala.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-rn"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3101,7 +3432,7 @@
       "org": "英特尔",
       "roleOrg": "云软件工程师, 英特尔",
       "image": "ruoyu-ying.jpg",
-      "tags": ["ws-cann"],
+      "tags": [],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3120,7 +3451,10 @@
       "org": "深圳开鸿数字产业发展有限公司",
       "roleOrg": "软件工程师, 深圳开鸿数字产业发展有限公司",
       "image": "tao-li.jpg",
-      "tags": ["ws-dora"],
+      "tags": [
+        "embodied-ai",
+        "ws-dora"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3139,7 +3473,9 @@
       "org": "爱奇艺",
       "roleOrg": "助理研究员, 爱奇艺",
       "image": "speaker-pan-wan-kun.jpg",
-      "tags": ["ws-cangjie"],
+      "tags": [
+        "ws-cangjie"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3158,7 +3494,9 @@
       "org": "BAAI",
       "roleOrg": "BAAI算法工程师",
       "image": "xiang-yang.jpg",
-      "tags": ["ws-dora"],
+      "tags": [
+        "ws-dora"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3177,7 +3515,10 @@
       "org": "Hugging Face",
       "roleOrg": "软件工程师, Hugging Face",
       "image": "xuan-son-nguyen.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra",
+        "ws-edge-ai"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "@ngxson",
@@ -3196,7 +3537,9 @@
       "org": "深圳市人工智能与机器人研究院",
       "roleOrg": "副研究员, 深圳市人工智能与机器人研究院",
       "image": "xuan-xia.jpg",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3215,7 +3558,9 @@
       "org": "rs开源机器人中间件社区技术专家",
       "roleOrg": "Dora-rs开源机器人中间件社区技术专家",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-dora"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3234,7 +3579,9 @@
       "org": "无",
       "roleOrg": "软件工程师, 无",
       "image": "yikai-zhu.jpg",
-      "tags": ["ws-sglang"],
+      "tags": [
+        "ws-sglang"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3253,7 +3600,11 @@
       "org": "北京智源人工智能研究院",
       "roleOrg": "北京智源人工智能研究院副院长兼总工程师",
       "image": "yonghua-lin.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "forum-aivision",
+        "open-for-sdg",
+        "plenary"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3272,7 +3623,9 @@
       "org": "Manycore Tech Inc.",
       "roleOrg": "研究工程师, Manycore Tech Inc.",
       "image": "yongsen-mao.jpg",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3291,7 +3644,9 @@
       "org": "Dora-rs",
       "roleOrg": "Dora-rs学生",
       "image": "hu-youhao.jpg",
-      "tags": ["ws-dora"],
+      "tags": [
+        "ws-dora"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3310,7 +3665,10 @@
       "org": "",
       "roleOrg": "Afnor集团AI与NLP负责人",
       "image": "abdallah-essa.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "apps-agents",
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3329,7 +3687,9 @@
       "org": "rs 社区生态系统负责人",
       "roleOrg": "Dora-rs 社区生态系统负责人",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ws-dora"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3348,7 +3708,9 @@
       "org": "蚂蚁集团",
       "roleOrg": "Mooncake核心成员 / Envoy Golang维护者, 蚂蚁集团",
       "image": "speaker-zhu-de-jiang.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3367,7 +3729,9 @@
       "org": "联合国国际计算中心 (UNICC)",
       "roleOrg": "数字公共解决方案负责人（圆桌讨论成员）, 联合国国际计算中心 (UNICC)",
       "image": "emily-bennett.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3386,7 +3750,9 @@
       "org": "ANP开源技术社区",
       "roleOrg": "发起人, ANP开源技术社区",
       "image": "speaker-chang-gao-wei.jpg",
-      "tags": ["agentic-web"],
+      "tags": [
+        "agentic-web"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3405,7 +3771,9 @@
       "org": "上海音乐学院",
       "roleOrg": "上海音乐学院博士研究生",
       "image": "huixin-xue.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3424,7 +3792,9 @@
       "org": "",
       "roleOrg": "清程极智技术专家",
       "image": "jian-li.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "ws-chitu"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3443,7 +3813,9 @@
       "org": "",
       "roleOrg": "科大讯飞技术专家",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-cann"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3462,7 +3834,9 @@
       "org": "vLLM",
       "roleOrg": "核心维护者, vLLM",
       "image": "kaichao-you.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/KaichaoYou",
@@ -3481,7 +3855,9 @@
       "org": "Bielik.AI",
       "roleOrg": "核心团队成员, Bielik.AI",
       "image": "krzysztof-ociepa.jpeg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3500,7 +3876,10 @@
       "org": "",
       "roleOrg": "SVP, CSDN",
       "image": "jianzhong-li.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision",
+        "plenary"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3519,7 +3898,9 @@
       "org": "",
       "roleOrg": "Futurewei Technologies",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-edge-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3538,7 +3919,9 @@
       "org": "",
       "roleOrg": "前 Flutter 团队成员、Flutter Bounty Hunters 负责人",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-flutter"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3557,7 +3940,9 @@
       "org": "",
       "roleOrg": "React Native 核心贡献者、React Native for visionOS 创始人",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-rn"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3576,7 +3961,9 @@
       "org": "",
       "roleOrg": "Runhouse机器学习基础设施工程师",
       "image": "paul-yang.jpeg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3595,7 +3982,9 @@
       "org": "北京智源人工智能研究院",
       "roleOrg": "具身智能大模型负责人, 北京智源人工智能研究院",
       "image": "speaker-wang-peng-wei.jpg",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3614,7 +4003,9 @@
       "org": "DeepSeek",
       "roleOrg": "数据负责人（圆桌讨论成员）, DeepSeek",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3633,7 +4024,10 @@
       "org": "",
       "roleOrg": "论坛赞助方",
       "image": "bill-ren.jpg",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision",
+        "plenary"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3652,7 +4046,9 @@
       "org": "Procero AI",
       "roleOrg": "董事会成员和顾问, Procero AI",
       "image": "richard-reiner.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3671,7 +4067,9 @@
       "org": "国际电信联盟",
       "roleOrg": "国际电信联盟，基础设施部门负责人",
       "image": "walid-mathlouthi.jpg",
-      "tags": ["agentic-web", "open-for-sdg"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3690,7 +4088,10 @@
       "org": "北京青城极智科技有限公司",
       "roleOrg": "副总裁, 首席信息官, 北京青城极智科技有限公司",
       "image": "speaker-he-wan-qing.jpeg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra",
+        "ws-chitu"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3709,7 +4110,10 @@
       "org": "有点意思O",
       "roleOrg": "Bilibili知名艺术内容创作者, 有点意思O",
       "image": "speaker-wei-wei.jpg",
-      "tags": ["ai-next"],
+      "tags": [
+        "ai-next",
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3728,7 +4132,9 @@
       "org": "DeepSeek",
       "roleOrg": "AI治理负责人（圆桌讨论成员）, DeepSeek",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "forum-aivision"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3747,7 +4153,10 @@
       "org": "中国艺术研究院",
       "roleOrg": "一级美术师, 中国艺术研究院",
       "image": "yan-feng.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "forum-aivision",
+        "ws-ai-education"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3766,7 +4175,9 @@
       "org": "",
       "roleOrg": "SGLang Committer",
       "image": "yanboyang.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ws-sglang"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3785,7 +4196,9 @@
       "org": "",
       "roleOrg": "傲意科技 COO",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "open-for-sdg"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3804,7 +4217,9 @@
       "org": "",
       "roleOrg": "Roboraction.AI CEO (主持人)",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3823,7 +4238,9 @@
       "org": "",
       "roleOrg": "openUBMC社区技术委员会委员",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-cann"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3842,7 +4259,9 @@
       "org": "人形机器人（上海）有限公司",
       "roleOrg": "运动控制算法与框架负责人, 人形机器人（上海）有限公司",
       "image": "speaker-yin-yun-peng.jpg",
-      "tags": ["embodied-ai"],
+      "tags": [
+        "embodied-ai"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3861,7 +4280,9 @@
       "org": "智谱AI",
       "roleOrg": "技术布道师, 智谱AI",
       "image": "yuxuan-zhang.jpg",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ai-models-infra"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3880,7 +4301,9 @@
       "org": "",
       "roleOrg": "昇腾生态技术专家",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-models-infra"],
+      "tags": [
+        "ws-chitu"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3899,7 +4322,9 @@
       "org": "",
       "roleOrg": "智谱副总裁",
       "image": "0-placeholder-person.png",
-      "tags": ["ai-next"],
+      "tags": [
+        "ws-chitu"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3918,7 +4343,10 @@
       "org": "",
       "roleOrg": "英特尔AI软件布道师",
       "image": "zhuo-wu.jpeg",
-      "tags": ["ai-next"],
+      "tags": [
+        "apps-agents",
+        "ws-edge-ai"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3937,7 +4365,52 @@
       "org": "",
       "roleOrg": "RustChinaConf 组委会",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "mike-ma-solana",
+      "name": "Mike Ma",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "",
+      "image": "0-placeholder-person.png",
+      "tags": [
+        "ws-solana"
+      ],
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "sebastien-crozet",
+      "name": "Sébastien Crozet",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "",
+      "image": "0-placeholder-person.png",
+      "tags": [
+        "rustchinaconf",
+        "ws-edge-ai"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3956,7 +4429,9 @@
       "org": "",
       "roleOrg": "Rust 基金会执行董事",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3975,7 +4450,9 @@
       "org": "",
       "roleOrg": "开放原子开源旋武社区工作委员会主席",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3994,7 +4471,9 @@
       "org": "",
       "roleOrg": "非凸科技策略负责人",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4013,7 +4492,9 @@
       "org": "",
       "roleOrg": "Rust类型团队联合负责人，编译器团队成员，语言团队顾问，Rust愿景文档工作联合负责人",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4032,7 +4513,9 @@
       "org": "",
       "roleOrg": "Rust 项目语言、库、Cargo 和规范团队成员",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4051,7 +4534,9 @@
       "org": "",
       "roleOrg": "Rust for Linux 核心开发者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4070,7 +4555,9 @@
       "org": "",
       "roleOrg": "字节跳动研发工程师",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4089,7 +4576,9 @@
       "org": "",
       "roleOrg": "TrustInSoft 解决方案工程总监",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4108,7 +4597,9 @@
       "org": "",
       "roleOrg": "清华大学计算机科学与技术系的副教授和博士生导师兼该软件研究所的副所长",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4127,7 +4618,11 @@
       "org": "",
       "roleOrg": "SecondState 创始人",
       "image": "michael-yuan.jpeg",
-      "tags": ["rustchinaconf", "ws-globalization"],
+      "tags": [
+        "plenary",
+        "rustchinaconf",
+        "ws-globalization"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4146,7 +4641,9 @@
       "org": "",
       "roleOrg": "嵌入式 Rust 工作组的创始成员之一，也是 postcard 系列 crate 的作者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4165,7 +4662,9 @@
       "org": "",
       "roleOrg": "Rust 基金会专注于安全的软件开发人员",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4184,7 +4683,9 @@
       "org": "",
       "roleOrg": "ScopeDB 联合创始人",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4203,7 +4704,9 @@
       "org": "",
       "roleOrg": "RustPBX 发起人，滴滴云产品技术总监",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4222,7 +4725,9 @@
       "org": "",
       "roleOrg": "Blueshift CEO",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4241,7 +4746,9 @@
       "org": "",
       "roleOrg": "RMK 作者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4260,7 +4767,9 @@
       "org": "",
       "roleOrg": "GreptimeDB 核心开发者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4279,7 +4788,9 @@
       "org": "",
       "roleOrg": "IDEA 研究院首席科学家，Moonbit 平台负责人",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4298,7 +4809,9 @@
       "org": "",
       "roleOrg": "Linera 应用程序开发者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4317,7 +4830,9 @@
       "org": "",
       "roleOrg": "Databend Labs 技术副总裁",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4336,7 +4851,9 @@
       "org": "",
       "roleOrg": "Rust Web 框架 Salvo 作者，Palpo 核心开发者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4355,7 +4872,9 @@
       "org": "",
       "roleOrg": "杭州又算科技CEO/Zino应用开发框架作者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4374,7 +4893,9 @@
       "org": "",
       "roleOrg": "Rust 编译器团队成员",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4393,7 +4914,9 @@
       "org": "",
       "roleOrg": "Dioxus Labs 创始人/CEO",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4412,7 +4935,9 @@
       "org": "",
       "roleOrg": "英飞凌MCU现场应用工程师",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4431,7 +4956,9 @@
       "org": "",
       "roleOrg": "Ratatui 的主要维护者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4450,7 +4977,9 @@
       "org": "",
       "roleOrg": "clippy 团队成员",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4469,7 +4998,9 @@
       "org": "",
       "roleOrg": "华为工程师，Rust 编译器团队维护者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4488,7 +5019,9 @@
       "org": "",
       "roleOrg": "南京大学PASCAL实验室研究生，rust-analyzer维护者，Rust Foundation Fellowship",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4507,7 +5040,9 @@
       "org": "",
       "roleOrg": "Lead DevRel APAC @Xion",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4526,7 +5061,9 @@
       "org": "",
       "roleOrg": "Futurewei 首席架构师 / Theseus OS 创造者 / Robius 项目技术负责人",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4545,7 +5082,9 @@
       "org": "",
       "roleOrg": "Rustdoc 团队负责人，编译器团队、开发工具团队成员",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4564,7 +5103,9 @@
       "org": "",
       "roleOrg": "Wild Linker 作者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4583,7 +5124,9 @@
       "org": "",
       "roleOrg": "Kong 软件工程师，Tokio 维护者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4602,7 +5145,9 @@
       "org": "",
       "roleOrg": "May-rs 作者 / GPU芯片行业公司高级软件经理",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4621,7 +5166,9 @@
       "org": "",
       "roleOrg": "os-checker 作者，开源贡献者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4640,7 +5187,9 @@
       "org": "",
       "roleOrg": "集团高级技术专家，Asterinas OS 项目发起人",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4659,7 +5208,9 @@
       "org": "",
       "roleOrg": "波特兰州立大学计算机科学副教授/ Rust-Edu 创始人和负责人",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4678,7 +5229,9 @@
       "org": "",
       "roleOrg": "快手数据平台大数据引擎架构师",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4697,7 +5250,9 @@
       "org": "",
       "roleOrg": "vivo 系统架构专家，10余年操作系统内核和语言运行时设计开发经验",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4716,7 +5271,9 @@
       "org": "",
       "roleOrg": "中兴通讯高级技术教练",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4735,7 +5292,9 @@
       "org": "",
       "roleOrg": "Rust 编译器团队成员",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4754,7 +5313,9 @@
       "org": "",
       "roleOrg": "中兴通讯架构师 / Rust 布道师",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4773,7 +5334,9 @@
       "org": "",
       "roleOrg": "ASF Member, Apache OpenDAL PMC Chair, Senior Engineer at LanceDB",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4792,7 +5355,9 @@
       "org": "",
       "roleOrg": "GenUI，SurrealismUI Slint框架，以及VoceSpace音视频软件的作者",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4811,7 +5376,9 @@
       "org": "",
       "roleOrg": "香港大学学生研究助理",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4830,7 +5397,9 @@
       "org": "",
       "roleOrg": "AiMo Network Co-Founder && CTO",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4849,7 +5418,9 @@
       "org": "",
       "roleOrg": "CertiK 安全研究员",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4868,7 +5439,9 @@
       "org": "",
       "roleOrg": "西北工业大学博士生，主要研究操作系统，分布式系统和云计算Serverless",
       "image": "0-placeholder-person.png",
-      "tags": ["rustchinaconf"],
+      "tags": [
+        "rustchinaconf"
+      ],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4887,7 +5460,9 @@
       "org": "上海开源信息技术协会",
       "roleOrg": "上海开源信息技术协会常务副理事长",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-globalization"],
+      "tags": [
+        "ws-globalization"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -4906,7 +5481,9 @@
       "org": "白鲸开源",
       "roleOrg": "白鲸开源 CEO, Apache 基金会成员",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-globalization"],
+      "tags": [
+        "ws-globalization"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -4925,7 +5502,9 @@
       "org": "开源社",
       "roleOrg": "开源社联合创始人，RTE开发者社区主理人",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-globalization"],
+      "tags": [
+        "ws-globalization"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -4944,7 +5523,9 @@
       "org": "SciMigo",
       "roleOrg": "SciMigo经理",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-ai-education"],
+      "tags": [
+        "ws-ai-education"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -4963,7 +5544,9 @@
       "org": "复旦大学",
       "roleOrg": "复旦大学副教授",
       "image": "yonghui-wu.jpg",
-      "tags": ["ws-ai-education"],
+      "tags": [
+        "ws-ai-education"
+      ],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
