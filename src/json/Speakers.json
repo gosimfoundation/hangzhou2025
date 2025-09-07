@@ -193,10 +193,10 @@
     {
       "id": "maohua-zhou",
       "name": "Maohua Zhou",
-      "bio": "Maohua Zhou - Vice Chairman of the Modern Educational Technology Branch of the Chinese Institute of Electronics, Director of the Innovation Education Center of Shenzhen No. 2 Senior High School",
-      "role": "Vice Chairman of the Modern Educational Technology Branch of the Chinese Institute of Electronics",
-      "org": "Director of the Innovation Education Center of Shenzhen No. 2 Senior High School",
-      "roleOrg": "Vice Chairman of the Modern Educational Technology Branch of the Chinese Institute of Electronics, Director of the Innovation Education Center of Shenzhen No. 2 Senior High School",
+      "bio": "Standing Committee Member of the Education Information Technology Industry Committee, China Association for Educational Technology; Head of the Maker Center, Shenzhen No.2 Senior High School",
+      "role": "Standing Committee Member of the Education Information Technology Industry Committee, China Association for Educational Technology; Head of the Maker Center, Shenzhen No.2 Senior High School",
+      "org": "Education Information Technology Industry Committee, China Association for Educational Technology",
+      "roleOrg": "Standing Committee Member of the Education Information Technology Industry Committee, China Association for Educational Technology; Head of the Maker Center, Shenzhen No.2 Senior High School",
       "image": "0-placeholder-person.png",
       "tags": ["forum-aivision", "ws-ai-education"],
       "socialLinks": {
@@ -4948,6 +4948,25 @@
       "org": "SciMigo",
       "roleOrg": "SciMigo Manager",
       "image": "0-placeholder-person.png",
+      "tags": ["ws-ai-education"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yonghui-wu",
+      "name": "Yonghui Wu",
+      "bio": "Yonghui Wu, Ph.D., an Associate Professor at Fudan University and a visiting scholar at Stony Brook University. From 2001 to 2011, he served as the coach of the Fudan University programming contest team, which advanced to the ACM-ICPC World Finals every year and won three medals in the finals. Since 2012, he has published the \"Collegiate Programming Contests and Education\" series, including simplified Chinese, traditional Chinese, and English versions. Since 2013, he has lectured across Mainland China, Hong Kong, Macau, Taiwan, North America, Latin America, South Asia, Southeast Asia, the Middle East, and other regions, and has led the ICPC Programming Training League, which involves over 400 universities.",
+      "role": "Associate Professor",
+      "org": "Fudan University",
+      "roleOrg": "Associate Professor, Fudan University",
+      "image": "yonghui-wu.jpg",
       "tags": ["ws-ai-education"],
       "socialLinks": {
         "mastodon": "",

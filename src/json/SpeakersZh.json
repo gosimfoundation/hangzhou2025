@@ -189,10 +189,10 @@
     {
       "id": "maohua-zhou",
       "name": "周茂华",
-      "bio": "周茂华 - 中国电子学会现代教育技术分会副主任委员，深圳第二高级中学创新教育中心主任",
-      "role": "中国电子学会现代教育技术分会副主任委员，深圳第二高级中学创新教育中心主任",
+      "bio": "周茂华 - 中国教育技术协会教育信息技术产业专业委员会常务委员，深圳市第二高级中学创客中心负责人",
+      "role": "中国教育技术协会教育信息技术产业专业委员会常务委员，深圳市第二高级中学创客中心负责人",
       "org": "",
-      "roleOrg": "中国电子学会现代教育技术分会副主任委员，深圳第二高级中学创新教育中心主任",
+      "roleOrg": "中国教育技术协会教育信息技术产业专业委员会常务委员，深圳市第二高级中学创客中心负责人",
       "image": "0-placeholder-person.png",
       "tags": ["ai-next"],
       "socialLinks": {
@@ -4944,6 +4944,25 @@
       "org": "SciMigo",
       "roleOrg": "SciMigo经理",
       "image": "0-placeholder-person.png",
+      "tags": ["ws-ai-education"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yonghui-wu",
+      "name": "吴永辉",
+      "bio": "吴永辉，博士，复旦大学副教授，Stony Brook University访问学者。2001到2011担任复旦大学程序设计竞赛队教练，每年晋级ACM-ICPC世界总决赛，并获得3枚总决赛奖牌。2012年至今，编写并出版\"大学程序设计课程与竞赛训练教材\"系列，包括简体、繁体中文版和英文版。2013年至今，在两岸四地、北美、拉美、南亚、东南亚、中东等地讲学，并主持超过400家大学参加的ICPC训练联盟。",
+      "role": "副教授",
+      "org": "复旦大学",
+      "roleOrg": "复旦大学副教授",
+      "image": "yonghui-wu.jpg",
       "tags": ["ws-ai-education"],
       "socialLinks": {
         "mastodon": "",

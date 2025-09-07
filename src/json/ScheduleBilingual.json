@@ -116,7 +116,7 @@
       "id": "ai-next",
       "group": "tracks"
     },
-        {
+    {
       "name": {
         "en": "AI Vision Forum",
         "zh": "AI Vision Forum 人工智能愿景论坛"
@@ -140,7 +140,6 @@
       "id": "open-for-sdg",
       "group": "colocated"
     },
-
     {
       "name": {
         "en": "RustChinaConf & Rust Global China Plenary",
@@ -287,7 +286,7 @@
     },
     {
       "name": {
-        "en": "AI 4 Education Workshop",
+        "en": "AI for Education Workshop",
         "zh": "AI 教育工作坊"
       },
       "room": {
@@ -345,7 +344,7 @@
       "id": "ws-solana",
       "group": "workshops"
     },
-        {
+    {
       "name": {
         "en": "Open Source Globalization Workshop",
         "zh": "开源出海工作坊"
@@ -1298,14 +1297,14 @@
           "en": "September 12",
           "zh": "9月12日"
         },
-        "timeSlot": "09:40 - 11:40",
+        "timeSlot": "09:40 - 10:40",
         "title": {
           "en": "Session 1: Restructuring Learning Paradigms in the Age of AI — From Knowledge Acquisition to Creative Generation",
           "zh": "主题分享 1：人工智能驱动下的学习机制重构：从知识掌握到创造力生成的范式转型"
         },
         "content": {
-          "en": "<p>AI is reshaping human learning mechanisms and the structure of knowledge systems, shifting education away from a knowledge-centered paradigm toward one driven by creative production and cognitive collaboration. This topic explores the tension between AI as a 'cognitive partner' versus an 'algorithmic supervisor,' and examines its implications for educational equity, privacy, and the evolving role of teachers. It also considers institutional and technological pathways for achieving knowledge democratization.</p><p><strong>Panel 1: AI+Education</strong> - Yan Yuqing, Wang Wei, Liu Yuegang, Bella Ren, Zheng Haoyun, Sun Zhigang</p><p><strong>Panel 2: AI+Creativity</strong> - Wei Wei, Wang Juchen, Alexandra Boucherifi-Kornmann, Yan Feng, Zhou Maohua</p>",
-          "zh": "<p>人工智能正在重塑人类的学习机制与知识体系结构，推动教育从以知识掌握为核心的范式迈向以创造力生成与认知协作为导向的新模式。本议题将探讨AI作为'认知伙伴'与'算法监工'之间的张力，如何影响教育公平、隐私保护与教师角色重构，并审视实现知识民主化的制度与技术路径。</p><p><strong>圆桌讨论1: AI+教育</strong> - 严玉庆、王伟、刘月刚、Bella Ren、郑浩云、孙志岗</p><p><strong>圆桌讨论2: AI+创造力</strong> - 唯伟、王钜辰、Alexandra Boucherifi-Kornmann、彦风、周茂华</p>"
+          "en": "<p>AI is reshaping human learning mechanisms and the structure of knowledge systems, shifting education away from a knowledge-centered paradigm toward one driven by creative production and cognitive collaboration. This topic explores the tension between AI as a 'cognitive partner' versus an 'algorithmic supervisor,' and examines its implications for educational equity, privacy, and the evolving role of teachers. It also considers institutional and technological pathways for achieving knowledge democratization.</p><p><strong>Panel: AI+Education</strong> - Yan Yuqing, Wang Wei, Liu Yuegang, Bella Ren, Zheng Haoyun, Sun Zhigang</p>",
+          "zh": "<p>人工智能正在重塑人类的学习机制与知识体系结构，推动教育从以知识掌握为核心的范式迈向以创造力生成与认知协作为导向的新模式。本议题将探讨AI作为'认知伙伴'与'算法监工'之间的张力，如何影响教育公平、隐私保护与教师角色重构，并审视实现知识民主化的制度与技术路径。</p><p><strong>圆桌讨论: AI+教育</strong> - 严玉庆、王伟、刘月刚、Bella Ren、郑浩云、孙志岗</p>"
         },
         "speakers": [
           {
@@ -1384,6 +1383,68 @@
             "image": "zheng-haoyun.jpg"
           },
           {
+            "id": "yuegang-liu",
+            "name": {
+              "en": "Liu Yuegang",
+              "zh": "刘月刚"
+            },
+            "roleOrg": {
+              "en": "Vice Principal, Sun Yat-sen University Shenzhen Affiliated School",
+              "zh": "副校长，中山大学深圳附属学校"
+            },
+            "tags": [
+              "forum-aivision"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "zhigang-sun",
+            "name": {
+              "en": "Sun Zhigang",
+              "zh": "孙志岗"
+            },
+            "roleOrg": {
+              "en": "Founder & CEO, AI Master",
+              "zh": "创始人、CEO, AI师傅"
+            },
+            "tags": [
+              "forum-aivision"
+            ],
+            "image": "sun-zhigang.jpg"
+          },
+          {
+            "id": "yuqing-yan",
+            "name": {
+              "en": "Yan Yuqing",
+              "zh": "严玉庆"
+            },
+            "roleOrg": {
+              "en": "Consultant, Tencent",
+              "zh": "顾问，腾讯"
+            },
+            "tags": [
+              "forum-aivision"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": {
+          "en": "September 12",
+          "zh": "9月12日"
+        },
+        "timeSlot": "10:40 - 11:40",
+        "title": {
+          "en": "Session 2: AI+Creativity",
+          "zh": "主题分享 2：AI创造力"
+        },
+        "content": {
+          "en": "<p>Exploring how AI transforms creative expression and artistic production, from traditional art forms to new media. This session examines the collaborative potential between human creativity and AI, addressing questions of authorship, artistic authenticity, and the future of creative industries.</p><p><strong>Panel: AI+Creativity</strong> - Wang Juchen, Alexandra Boucherifi-Kornmann, Yan Feng, Wei Wei, Zhou Maohua</p>",
+          "zh": "<p>探讨AI如何改变创意表达和艺术创作，从传统艺术形式到新媒体艺术。本环节审视人类创意与AI之间的协作潜力，讨论作者身份、艺术真实性以及创意产业的未来。</p><p><strong>圆桌讨论: AI+创造力</strong> - 王钜辰、Alexandra Boucherifi-Kornmann、彦风、唯伟、周茂华</p>"
+        },
+        "speakers": [
+          {
             "id": "wang-juchen",
             "name": {
               "en": "Wang Juchen",
@@ -1429,36 +1490,6 @@
             "image": "yan-feng.png"
           },
           {
-            "id": "yuegang-liu",
-            "name": {
-              "en": "Liu Yuegang",
-              "zh": "刘月刚"
-            },
-            "roleOrg": {
-              "en": "Vice Principal, Sun Yat-sen University Shenzhen Affiliated School",
-              "zh": "副校长，中山大学深圳附属学校"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "0-placeholder-person.png"
-          },
-          {
-            "id": "zhigang-sun",
-            "name": {
-              "en": "Sun Zhigang",
-              "zh": "孙志岗"
-            },
-            "roleOrg": {
-              "en": "Founder & CEO, AI Master",
-              "zh": "创始人、CEO, AI师傅"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "sun-zhigang.jpg"
-          },
-          {
             "id": "speaker-wei-wei",
             "name": {
               "en": "Wei Wei",
@@ -1474,21 +1505,6 @@
             "image": "speaker-wei-wei.jpg"
           },
           {
-            "id": "yuqing-yan",
-            "name": {
-              "en": "Yan Yuqing",
-              "zh": "严玉庆"
-            },
-            "roleOrg": {
-              "en": "Consultant, Tencent",
-              "zh": "顾问，腾讯"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "0-placeholder-person.png"
-          },
-          {
             "id": "maohua-zhou",
             "name": {
               "en": "Zhou Maohua",
@@ -1496,7 +1512,7 @@
             },
             "roleOrg": {
               "en": "Head of Maker Center, Shenzhen No. 2 Senior High School",
-              "zh": "创客中心负责人，深圳市第二高级中学"
+              "zh": "中国教育技术协会教育信息技术产业专业委员会常务委员，深圳市第二高级中学创客中心负责人"
             },
             "tags": [
               "forum-aivision"
@@ -1528,12 +1544,12 @@
         },
         "timeSlot": "13:00 - 14:00",
         "title": {
-          "en": "Session 2: From Automated Tools to Human-AI Symbiotic Systems — The Evolving Role of Artificial Intelligence",
-          "zh": "主题分享 2：从自动化工具到人机共生系统：人工智能角色的演化路径"
+          "en": "Session 3: AI Ethics and Governance - Ethics and Regulatory Framework",
+          "zh": "主题分享 3：人工智能伦理与监管伦理"
         },
         "content": {
-          "en": "<p>AI has progressed beyond being a mere tool, increasingly influencing human behavior, cognition, and value formation. This topic addresses the symbiotic paradox—\"Are we training AI, or is AI training us?\"—while critically examining technology dependence, its erosion of human agency, and the theoretical foundations and societal frameworks necessary for designing complementary human-AI collaboration systems.</p>",
-          "zh": "<p>AI不再只是工具，更逐步介入人类行为、思维与价值塑造的深层空间。本议题聚焦“人类训练AI”与“AI驯化人类”的共生悖论，审视技术依赖对人类主体性与判断力的侵蚀，进而探讨建立互补性人机协作框架的理论基础与社会适应路径。</p>"
+          "en": "<p>As AI technology rapidly evolves, establishing comprehensive ethical frameworks and regulatory mechanisms becomes crucial. This session explores the fundamental principles of AI ethics, examining questions of accountability, transparency, fairness, and the balance between innovation and responsible development.</p>",
+          "zh": "<p>随着人工智能技术的快速发展，建立完善的伦理框架和监管机制变得至关重要。本环节探讨AI伦理的基本原则，审视问责制、透明度、公平性以及创新与负责任发展之间的平衡。</p>"
         },
         "speakers": [
           {
@@ -1639,7 +1655,7 @@
             "tags": [
               "forum-aivision"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "nicolas-flores-herr.jpg"
           },
           {
             "id": "kuang-kun",
@@ -1665,12 +1681,12 @@
         },
         "timeSlot": "14:00 - 15:00",
         "title": {
-          "en": "Session 3: Ethical Paradoxes and Governance of AI — Norms and Practices from a Global Perspective",
-          "zh": "主题分享 3：人工智能伦理悖论与治理体系构建：全球视野下的规范与实践"
+          "en": "Session 4: AI Norms and Governance Practice Guidelines — Ethics and Innovation from a Global Perspective",
+          "zh": "主题分享 4：人工智能伦理与治理实践准则：全球视野下的创新伦理"
         },
         "content": {
           "en": "<p>As AI technology rapidly advances, ethical governance frameworks struggle to keep pace. Who is accountable for algorithmic injustice, data privacy breaches, or misuse? This topic investigates the ethical tensions that arise across cultural and institutional boundaries, calls for anticipatory, inclusive, and enforceable governance mechanisms, and advocates for formats like \"black-box debates\" to enhance transparency and public engagement in AI systems.</p>",
-          "zh": "<p>面对快速演化的AI技术，伦理治理体系滞后的问题日益突出。谁为算法不公、隐私泄露与失控使用负责？本议题将探讨全球治理中不同文化与制度的伦理张力，呼吁构建有前瞻性、包容性与可执行性的治理机制，并通过“黑箱辩论”等形式提升技术透明度与公众参与度。</p>"
+          "zh": "<p>面对快速演化的AI技术，伦理治理体系滞后的问题日益突出。谁为算法不公、隐私泄露与失控使用负责？本议题将探讨全球治理中不同文化与制度的伦理张力，呼吁构建有前瞻性、包容性与可执行性的治理机制，并通过\"黑箱辩论\"等形式提升技术透明度与公众参与度。</p>"
         },
         "speakers": [
           {
@@ -1737,7 +1753,7 @@
             "id": "xiaohu-zhu",
             "name": {
               "en": "Xiaohu Zhu",
-              "zh": "朱晓虎"
+              "zh": "朱小虎"
             },
             "roleOrg": {
               "en": "Founder (Panelist), Center for Safe AGI",
@@ -1818,12 +1834,12 @@
         },
         "timeSlot": "15:30 - 16:30",
         "title": {
-          "en": "Session 4: Building Artificial Intelligence as a Global Digital Public Good — Vision, Pathways, and Cooperation",
-          "zh": "主题分享 4：构建作为全球数字公共产品的人工智能：理念、路径与合作机制"
+          "en": "Session 5: Building Open and Compatible Digital Public Products — Connection, Cooperation and Sustainable Development",
+          "zh": "主题分享 5：构建开放兼容的数字公共产品：连接、合作与可持续发展"
         },
         "content": {
           "en": "<p>AI is increasingly becoming a core part of global infrastructure, raising urgent questions about its accessibility, sustainability, and public accountability. Framed through the lens of \"global digital public goods,\" this topic explores open collaboration models, governance frameworks, and how AI can align with the United Nations Sustainable Development Goals (SDGs), promoting cross-border cooperation and long-term institutional arrangements.</p>",
-          "zh": "<p>AI正逐步成为全球基础设施的一部分，其公共性、可及性与可持续性问题日益重要。本议题以“全球数字公共产品”为框架，探讨AI的开放共享模式、治理机制设计及与联合国可持续发展目标（SDGs）的融合路径，推动跨国协作、资源共建与长远制度安排。</p>"
+          "zh": "<p>AI正逐步成为全球基础设施的一部分，其公共性、可及性与可持续性问题日益重要。本议题以\"全球数字公共产品\"为框架，探讨AI的开放共享模式、治理机制设计及与联合国可持续发展目标（SDGs）的融合路径，推动跨国协作、资源共建与长远制度安排。</p>"
         },
         "speakers": [
           {
@@ -1989,8 +2005,8 @@
           "zh": "全体总结发言"
         },
         "content": {
-          "en": "<p>Closing remarks by Forum Sponsor</p>",
-          "zh": "<p>论坛赞助方致闭幕辞</p>"
+          "en": "<p>Panel Summary & Closing Remarks</p>",
+          "zh": "<p>全体总结发言和闭幕致辞</p>"
         },
         "speakers": [
           {
@@ -6812,8 +6828,8 @@
               "zh": "周茂华"
             },
             "roleOrg": {
-              "en": "Vice Chairman of the Modern Educational Technology Branch of the Chinese Institute of Electronics, Director of the Innovation Education Center of Shenzhen No. 2 Senior High School",
-              "zh": "中国电子学会现代教育技术分会副主任委员，深圳第二高级中学创新教育中心主任"
+              "en": "Standing Committee Member of the Education Information Technology Industry Committee, China Association for Educational Technology; Head of the Maker Center, Shenzhen No.2 Senior High School",
+              "zh": "中国教育技术协会教育信息技术产业专业委员会常务委员，深圳市第二高级中学创客中心负责人"
             },
             "tags": [
               "ws-ai-education"
@@ -6861,12 +6877,12 @@
         },
         "timeSlot": "11:25 - 12:00",
         "title": {
-          "en": "Roundtable meeting: Innovative Explorer of School and Future Education Reform",
-          "zh": "圆桌会议：学校与未来教育改革创新探索者"
+          "en": "Roundtable meeting: Future School Paradigm: Human-Machine Symbiotic Educational Ecosystem",
+          "zh": "圆桌会议：未来学校新样态：人机共生的教育生态"
         },
         "content": {
-          "en": "Roundtable meeting: Innovative Explorer of School and Future Education Reform",
-          "zh": "圆桌会议：学校与未来教育改革创新探索者"
+          "en": "Roundtable meeting: Future School Paradigm: Human-Machine Symbiotic Educational Ecosystem",
+          "zh": "圆桌会议：未来学校新样态：人机共生的教育生态"
         },
         "speakers": [
           {
@@ -6958,6 +6974,21 @@
               "ws-ai-education"
             ],
             "image": "yanzhi-wang.jpeg"
+          },
+          {
+            "id": "yonghui-wu",
+            "name": {
+              "en": "Yonghui Wu",
+              "zh": "吴永辉"
+            },
+            "roleOrg": {
+              "en": "Associate Professor at Fudan University, Visiting Scholar at Stony Brook University",
+              "zh": "复旦大学副教授，Stony Brook University访问学者"
+            },
+            "tags": [
+              "ws-ai-education"
+            ],
+            "image": "yonghui-wu.jpg"
           }
         ]
       }
@@ -7077,21 +7108,6 @@
         },
         "speakers": [
           {
-            "id": "oskar-kwasniewski",
-            "name": {
-              "en": "Oskar Kwasniewski",
-              "zh": "Oskar Kwasniewski"
-            },
-            "roleOrg": {
-              "en": "React Native Core Contributor, Creator of React Native for visionOS",
-              "zh": "React Native 核心贡献者、React Native for visionOS 创始人"
-            },
-            "tags": [
-              "ws-rn"
-            ],
-            "image": "0-placeholder-person.png"
-          },
-          {
             "id": "michal-pierzchala",
             "name": {
               "en": "Michal Pierzchala",
@@ -7100,6 +7116,21 @@
             "roleOrg": {
               "en": "Chief Engineer of Callstack",
               "zh": "Callstack首席工程师"
+            },
+            "tags": [
+              "ws-rn"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "oskar-kwasniewski",
+            "name": {
+              "en": "Oskar Kwasniewski",
+              "zh": "Oskar Kwasniewski"
+            },
+            "roleOrg": {
+              "en": "React Native Core Contributor, Creator of React Native for visionOS",
+              "zh": "React Native 核心贡献者、React Native for visionOS 创始人"
             },
             "tags": [
               "ws-rn"
@@ -7449,244 +7480,243 @@
         ]
       }
     ],
-    
-  "ws-globalization": [
-    {
-      "date": {
-        "en": "September 14",
-        "zh": "9月14日"
-      },
-      "timeSlot": "10:15-10:35",
-      "title": {
-        "en": "Concept and Implementation of an Open-Source Innovation International Cooperation Demonstration Zone",
-        "zh": "开源创新国际合作示范区的概念与实施"
-      },
-      "content": {
-        "en": "A talk on the concept and implementation of an open-source innovation international cooperation demonstration zone.",
-        "zh": "关于开源创新国际合作示范区的概念与实施的演讲。"
-      },
-      "speakers": [
-        {
-          "id": "guofeng-zhang",
-          "name": {
-            "en": "Guofeng Zhang",
-            "zh": "张国锋"
-          },
-          "roleOrg": {
-            "en": "Deputy Chairman of Shanghai Open Source Information Technology Association",
-            "zh": "上海开源信息技术协会常务副理事长"
-          },
-          "tags": [
-            "ws-globalization"
-          ],
-          "image": "0-placeholder-person.png"
-        }
-      ]
-    },
-    {
-      "date": {
-        "en": "September 14",
-        "zh": "9月14日"
-      },
-      "timeSlot": "10:35-10:55",
-      "title": {
-        "en": "Crossing Borders: Turning Open Source Innovation into a Global Business",
-        "zh": "跨越边界：将开源创新打造为全球商业产品"
-      },
-      "content": {
-        "en": "A talk on turning open source innovation into a global business.",
-        "zh": "关于将开源创新打造为全球商业产品的演讲。"
-      },
-      "speakers": [
-        {
-          "id": "william-guo",
-          "name": {
-            "en": "William Guo",
-            "zh": "郭炜"
-          },
-          "roleOrg": {
-            "en": "WhaleOps CEO, Apache Software Foundation Member",
-            "zh": "白鲸开源 CEO, Apache 基金会成员"
-          },
-          "tags": [
-            "ws-globalization"
-          ],
-          "image": "0-placeholder-person.png"
-        }
-      ]
-    },
-    {
-      "date": {
-        "en": "September 14",
-        "zh": "9月14日"
-      },
-      "timeSlot": "10:55-11:15",
-      "title": {
-        "en": "Open-source AI's Overseas Expansion Strategy: How to Build Global Open-source Projects",
-        "zh": "开源AI出海战略：如何打造全球化的开源项目"
-      },
-      "content": {
-        "en": "A talk on the strategy for expanding open-source AI projects globally.",
-        "zh": "关于开源AI出海战略以及如何打造全球化开源项目的演讲。"
-      },
-      "speakers": [
-        {
-          "id": "richard-lin",
-          "name": {
-            "en": "Richard Lin",
-            "zh": "林旅强"
-          },
-          "roleOrg": {
-            "en": "Co-founder of the Open Source Society, Head of the RTE Developer Community",
-            "zh": "开源社联合创始人，RTE开发者社区主理人"
-          },
-          "tags": [
-            "ws-globalization"
-          ],
-          "image": "0-placeholder-person.png"
-        }
-      ]
-    },
-    {
-      "date": {
-        "en": "September 14",
-        "zh": "9月14日"
-      },
-      "timeSlot": "11:15-11:35",
-      "title": {
-        "en": "Collaboration and Responsibility in the Open-Source AI Ecosystem",
-        "zh": "AI 开源生态的协作与责任"
-      },
-      "content": {
-        "en": "A talk on the collaboration and responsibility within the open-source AI ecosystem.",
-        "zh": "关于AI开源生态系统中的协作与责任的演讲。"
-      },
-      "speakers": [
-        {
-          "id": "adina-yakefu",
-          "name": {
-            "en": "Adina Yakefu",
-            "zh": "Adina Yakefu"
-          },
-          "roleOrg": {
-            "en": "Hugging Face EA / AI Researcher",
-            "zh": "Hugging Face EA / AI研究员"
-          },
-          "tags": [
-            "ws-globalization"
-          ],
-          "image": "0-placeholder-person.png"
-        }
-      ]
-    },
-    {
-      "date": {
-        "en": "September 14",
-        "zh": "9月14日"
-      },
-      "timeSlot": "11:35-12:15",
-      "title": {
-        "en": "Roundtable meeting: Opportunities and Challenges of Open Source Globalization",
-        "zh": "圆桌会议：开源出海的机会与挑战"
-      },
-      "content": {
-        "en": "A roundtable discussion on the opportunities and challenges of open source globalization.",
-        "zh": "关于开源出海的机会与挑战的圆桌会议。"
-      },
-      "speakers": [
-        {
-          "id": "richard-lin",
-          "name": {
-            "en": "Richard Lin",
-            "zh": "林旅强"
-          },
-          "roleOrg": {
-            "en": "Co-founder of the Open Source Society, Head of the RTE Developer Community",
-            "zh": "开源社联合创始人，RTE开发者社区主理人"
-          },
-          "tags": [
-            "ws-globalization"
-          ],
-          "image": "0-placeholder-person.png"
+    "ws-globalization": [
+      {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
         },
-        {
-          "id": "guofeng-zhang",
-          "name": {
-            "en": "Guofeng Zhang",
-            "zh": "张国锋"
-          },
-          "roleOrg": {
-            "en": "Deputy Chairman of Shanghai Open Source Information Technology Association",
-            "zh": "上海开源信息技术协会常务副理事长"
-          },
-          "tags": [
-            "ws-globalization"
-          ],
-          "image": "0-placeholder-person.png"
+        "timeSlot": "10:15-10:35",
+        "title": {
+          "en": "Concept and Implementation of an Open-Source Innovation International Cooperation Demonstration Zone",
+          "zh": "开源创新国际合作示范区的概念与实施"
         },
-        {
-          "id": "michael-yuan",
-          "name": {
-            "en": "Michael Yuan",
-            "zh": "Michael Yuan"
-          },
-          "roleOrg": {
-            "en": "The Founder of Second State, the Initiator of GOSIM",
-            "zh": "Second State 创始人、GOSIM 发起人"
-          },
-          "tags": [
-            "ws-globalization"
-          ],
-          "image": "0-placeholder-person.png"
+        "content": {
+          "en": "A talk on the concept and implementation of an open-source innovation international cooperation demonstration zone.",
+          "zh": "关于开源创新国际合作示范区的概念与实施的演讲。"
         },
-        {
-          "id": "william-guo",
-          "name": {
-            "en": "William Guo",
-            "zh": "郭炜"
-          },
-          "roleOrg": {
-            "en": "WhaleOps CEO, Apache Software Foundation Member",
-            "zh": "白鲸开源 CEO, Apache 基金会成员"
-          },
-          "tags": [
-            "ws-globalization"
-          ],
-          "image": "0-placeholder-person.png"
+        "speakers": [
+          {
+            "id": "guofeng-zhang",
+            "name": {
+              "en": "Guofeng Zhang",
+              "zh": "张国锋"
+            },
+            "roleOrg": {
+              "en": "Deputy Chairman of Shanghai Open Source Information Technology Association",
+              "zh": "上海开源信息技术协会常务副理事长"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
         },
-        {
-          "id": "adina-yakefu",
-          "name": {
-            "en": "Adina Yakefu",
-            "zh": "Adina Yakefu"
-          },
-          "roleOrg": {
-            "en": "Hugging Face EA / AI Researcher",
-            "zh": "Hugging Face EA / AI研究员"
-          },
-          "tags": [
-            "ws-globalization"
-          ],
-          "image": "0-placeholder-person.png"
+        "timeSlot": "10:35-10:55",
+        "title": {
+          "en": "Crossing Borders: Turning Open Source Innovation into a Global Business",
+          "zh": "跨越边界：将开源创新打造为全球商业产品"
         },
-        {
-          "id": "qin-wang",
-          "name": {
-            "en": "Qin Wang",
-            "zh": "王钦"
+        "content": {
+          "en": "A talk on turning open source innovation into a global business.",
+          "zh": "关于将开源创新打造为全球商业产品的演讲。"
+        },
+        "speakers": [
+          {
+            "id": "william-guo",
+            "name": {
+              "en": "William Guo",
+              "zh": "郭炜"
+            },
+            "roleOrg": {
+              "en": "WhaleOps CEO, Apache Software Foundation Member",
+              "zh": "白鲸开源 CEO, Apache 基金会成员"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
+        },
+        "timeSlot": "10:55-11:15",
+        "title": {
+          "en": "Open-source AI's Overseas Expansion Strategy: How to Build Global Open-source Projects",
+          "zh": "开源AI出海战略：如何打造全球化的开源项目"
+        },
+        "content": {
+          "en": "A talk on the strategy for expanding open-source AI projects globally.",
+          "zh": "关于开源AI出海战略以及如何打造全球化开源项目的演讲。"
+        },
+        "speakers": [
+          {
+            "id": "richard-lin",
+            "name": {
+              "en": "Richard Lin",
+              "zh": "林旅强"
+            },
+            "roleOrg": {
+              "en": "Co-founder of the Open Source Society, Head of the RTE Developer Community",
+              "zh": "开源社联合创始人，RTE开发者社区主理人"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
+        },
+        "timeSlot": "11:15-11:35",
+        "title": {
+          "en": "Collaboration and Responsibility in the Open-Source AI Ecosystem",
+          "zh": "AI 开源生态的协作与责任"
+        },
+        "content": {
+          "en": "A talk on the collaboration and responsibility within the open-source AI ecosystem.",
+          "zh": "关于AI开源生态系统中的协作与责任的演讲。"
+        },
+        "speakers": [
+          {
+            "id": "adina-yakefu",
+            "name": {
+              "en": "Adina Yakefu",
+              "zh": "Adina Yakefu"
+            },
+            "roleOrg": {
+              "en": "Hugging Face EA / AI Researcher",
+              "zh": "Hugging Face EA / AI研究员"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
+        },
+        "timeSlot": "11:35-12:15",
+        "title": {
+          "en": "Roundtable meeting: Opportunities and Challenges of Open Source Globalization",
+          "zh": "圆桌会议：开源出海的机会与挑战"
+        },
+        "content": {
+          "en": "A roundtable discussion on the opportunities and challenges of open source globalization.",
+          "zh": "关于开源出海的机会与挑战的圆桌会议。"
+        },
+        "speakers": [
+          {
+            "id": "richard-lin",
+            "name": {
+              "en": "Richard Lin",
+              "zh": "林旅强"
+            },
+            "roleOrg": {
+              "en": "Co-founder of the Open Source Society, Head of the RTE Developer Community",
+              "zh": "开源社联合创始人，RTE开发者社区主理人"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "0-placeholder-person.png"
           },
-          "roleOrg": {
-            "en": "Professor from the Chinese Academy of Social Sciences",
-            "zh": "中国社科院教授"
+          {
+            "id": "guofeng-zhang",
+            "name": {
+              "en": "Guofeng Zhang",
+              "zh": "张国锋"
+            },
+            "roleOrg": {
+              "en": "Deputy Chairman of Shanghai Open Source Information Technology Association",
+              "zh": "上海开源信息技术协会常务副理事长"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "0-placeholder-person.png"
           },
-          "tags": [
-            "ws-globalization"
-          ],
-          "image": "0-placeholder-person.png"
-        }
-      ]
-    }
-  ],
+          {
+            "id": "michael-yuan",
+            "name": {
+              "en": "Michael Yuan",
+              "zh": "Michael Yuan"
+            },
+            "roleOrg": {
+              "en": "The Founder of Second State, the Initiator of GOSIM",
+              "zh": "Second State 创始人、GOSIM 发起人"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "william-guo",
+            "name": {
+              "en": "William Guo",
+              "zh": "郭炜"
+            },
+            "roleOrg": {
+              "en": "WhaleOps CEO, Apache Software Foundation Member",
+              "zh": "白鲸开源 CEO, Apache 基金会成员"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "adina-yakefu",
+            "name": {
+              "en": "Adina Yakefu",
+              "zh": "Adina Yakefu"
+            },
+            "roleOrg": {
+              "en": "Hugging Face EA / AI Researcher",
+              "zh": "Hugging Face EA / AI研究员"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "qin-wang",
+            "name": {
+              "en": "Qin Wang",
+              "zh": "王钦"
+            },
+            "roleOrg": {
+              "en": "Professor from the Chinese Academy of Social Sciences",
+              "zh": "中国社科院教授"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      }
+    ],
     "rust-china-plenary": [
       {
         "date": {
