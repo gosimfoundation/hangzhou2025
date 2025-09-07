@@ -131,11 +131,14 @@ const eventCategory = category || "Uncategorized";
               <strong>Location:</strong>
               {
                 eventDetails.room ||
-                  schedule.categories.find((cat) => {
-                    const catName = typeof cat.name === 'string' ? cat.name : cat.name?.en || '';
-                    return catName === eventCategory;
-                  })?.room ||
-                  "TBA"
+                  (() => {
+                    // Find category by matching the category ID with the event's category
+                    const cat = schedule.categories.find((cat) => cat.id === category);
+                    if (cat && cat.room) {
+                      return typeof cat.room === 'string' ? cat.room : cat.room?.en || '';
+                    }
+                    return "TBA";
+                  })()
               }
             </p>
           </div>
