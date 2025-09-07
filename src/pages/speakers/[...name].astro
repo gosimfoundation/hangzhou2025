@@ -60,9 +60,11 @@ const speakerSessions = [
     (acc: Session[], [category, sessions]: [string, Session[]]) => {
       const matchingSessions = sessions
         .filter((session) =>
-          session.speakers.some((s) => 
-            (typeof s.name === 'string' ? s.name : s.name?.en) === speaker.name
-          )
+          session.speakers.some((s) => {
+            const sessionSpeakerName = typeof s.name === 'string' ? s.name : s.name?.en;
+            const sessionSpeakerId = s.id;
+            return sessionSpeakerName === speaker.name || sessionSpeakerId === speaker.id;
+          })
         )
         .map((session) => ({
           title: typeof session.title === 'string' ? session.title : session.title?.en || '',
