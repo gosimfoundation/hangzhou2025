@@ -5,6 +5,10 @@
       "id": "all"
     },
     {
+      "name": "PLENARY & TRACKS",
+      "group": true
+    },
+    {
       "name": "GOSIM Plenary Sessions",
       "id": "plenary"
     },
@@ -29,8 +33,28 @@
       "id": "ai-next"
     },
     {
+      "name": "WORKSHOPS",
+      "group": true
+    },
+    {
+      "name": "SGLang Workshop",
+      "id": "ws-sglang"
+    },
+    {
+      "name": "Cangjie Workshop",
+      "id": "ws-cangjie"
+    },
+    {
+      "name": "Dora Workshop",
+      "id": "ws-dora"
+    },
+    {
       "name": "Future Web Workshop",
       "id": "ws-future-web"
+    },
+    {
+      "name": "Edge AI Workshop",
+      "id": "ws-edge-ai"
     },
     {
       "name": "CANN Workshop",
@@ -39,14 +63,6 @@
     {
       "name": "Flutter Workshop",
       "id": "ws-flutter"
-    },
-    {
-      "name": "Cangjie Workshop",
-      "id": "ws-cangjie"
-    },
-    {
-      "name": "Edge AI Workshop",
-      "id": "ws-edge-ai"
     },
     {
       "name": "Open Source Chitu First Meetup",
@@ -61,16 +77,8 @@
       "id": "ws-rn"
     },
     {
-      "name": "Dora Workshop",
-      "id": "ws-dora"
-    },
-    {
       "name": "Rust Workshop",
       "id": "ws-rust"
-    },
-    {
-      "name": "SGLang Workshop",
-      "id": "ws-sglang"
     },
     {
       "name": "Makepad Workshop",
@@ -83,6 +91,14 @@
     {
       "name": "Solana for Rustaceans Workshop",
       "id": "ws-solana"
+    },
+    {
+      "name": "Open Source Globalization Workshop",
+      "id": "ws-globalization"
+    },
+    {
+      "name": "CO-LOCATED EVENTS",
+      "group": true
     },
     {
       "name": "Open for SDG Conference",
@@ -106,7 +122,7 @@
       "org": "UN Office for Digital and Emerging Technologies",
       "roleOrg": "Chief AI Officer, Digital infrastructure and emerging technologies, UN",
       "image": "mehdi-snene.png",
-      "tag": "open-for-sdg",
+      "tags": ["plenary", "open-for-sdg", "forum-aivision"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -125,7 +141,7 @@
       "org": "",
       "roleOrg": "Former UNSG HLAB member, legal expert with UNESCO.",
       "image": "mohamed-farahat.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -144,7 +160,7 @@
       "org": "Government of Tunisia",
       "roleOrg": "Former Digital and technology minister, Tunisia",
       "image": "nooman-fehri.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -163,7 +179,7 @@
       "org": "Institute of Industrial Research, Shanghai Jiao Tong University",
       "roleOrg": "Executive Dean, Institute of Industrial Research, Shanghai Jiao Tong University",
       "image": "0-placeholder-person.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -182,7 +198,7 @@
       "org": "Director of the Innovation Education Center of Shenzhen No. 2 Senior High School",
       "roleOrg": "Vice Chairman of the Modern Educational Technology Branch of the Chinese Institute of Electronics, Director of the Innovation Education Center of Shenzhen No. 2 Senior High School",
       "image": "0-placeholder-person.png",
-      "tag": "ai-next",
+      "tags": ["forum-aivision", "ws-ai-education"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -201,7 +217,7 @@
       "org": "Peking University",
       "roleOrg": "Tenured Full Professor and Vice Dean at Peking University",
       "image": "minghui-zhou.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -220,7 +236,7 @@
       "org": "Peking University / BAAI",
       "roleOrg": "Prof. from Peking Univ., Chairman of BAAI",
       "image": "tiejun-huang.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -239,7 +255,7 @@
       "org": "School of Software, Harbin Institute of Technology (HIT)",
       "roleOrg": "Vice Dean, School of Software, Harbin Institute of Technology (HIT)",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -258,7 +274,7 @@
       "org": "China Telecom Digital Intelligence Technology Co., Ltd.",
       "roleOrg": "Vice President of China Telecom Smart City Research Institute, Chief Expert at China Telecom, China Telecom Digital Intelligence Technology Co., Ltd.",
       "image": "speaker-zhang-yun-fei.jpeg",
-      "tag": "agentic-web",
+      "tags": ["agentic-web"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -277,7 +293,7 @@
       "org": "School of Integrated Circuits, Tsinghua University",
       "roleOrg": "Associate professor, School of Integrated Circuits, Tsinghua University",
       "image": "hu-he.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -296,7 +312,7 @@
       "org": "Tsinghua University",
       "roleOrg": "Tenured Professor, Department of Computer Science, Tsinghua University; Director, Institute of High Performance Computing, Tsinghua University",
       "image": "speaker-di-ji-dong.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -315,7 +331,7 @@
       "org": "Tsinghua University",
       "roleOrg": "Professor, Tsinghua University",
       "image": "0-placeholder-person.png",
-      "tag": "open-for-sdg",
+      "tags": ["ai-next", "forum-aivision", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -334,7 +350,7 @@
       "org": "",
       "roleOrg": "Tsinghua University Professor",
       "image": "xu-han.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -353,7 +369,7 @@
       "org": "Former associate professor of computer science at Harbin Institute of Technology",
       "roleOrg": "Founder&CEO of AI Master, Former associate professor of computer science at Harbin Institute of Technology",
       "image": "zhigang-sun.jpg",
-      "tag": "ai-next",
+      "tags": ["agentic-web", "forum-aivision", "ws-ai-education"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -372,7 +388,7 @@
       "org": "Linux Foundation/PyTorch Foundation",
       "roleOrg": "GM of AI/Executive Director, Linux Foundation/PyTorch Foundation",
       "image": "matt-white.png",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "matthew-d-white",
@@ -391,7 +407,7 @@
       "org": "Eclipse Foundation and LF CNCF",
       "roleOrg": "Board Member, Eclipse Foundation and LF CNCF",
       "image": "bryan-che.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -410,7 +426,7 @@
       "org": "Digital Foundations (Panelist), UNICC",
       "roleOrg": "Senior IT Officer, Digital Foundations (Panelist), UNICC",
       "image": "carlos-correia.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -429,7 +445,7 @@
       "org": "Linux Foundation Research",
       "roleOrg": "Senior Researcher (Panelist), Linux Foundation Research",
       "image": "cailean-osborne.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -448,7 +464,7 @@
       "org": "Eclipse Foundation",
       "roleOrg": "Open Source AI Advocate (Moderator), Eclipse Foundation",
       "image": "florent-zara.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -467,7 +483,7 @@
       "org": "Fraunhofer IAIS",
       "roleOrg": "Team Lead Foundation Models & Gen AI Systems, Fraunhofer IAIS",
       "image": "nicolas-flores-herr.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["ai-next", "forum-aivision", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -486,7 +502,7 @@
       "org": "Huawei Field Laboratory",
       "roleOrg": "Director of Huawei Field Laboratory",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -505,7 +521,7 @@
       "org": "Red Hat APAC",
       "roleOrg": "CTO, Red Hat APAC",
       "image": "vincent-caldeira.jpeg",
-      "tag": "open-for-sdg",
+      "tags": ["ai-models-infra", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -524,7 +540,7 @@
       "org": "Huawei Ascend Processors",
       "roleOrg": "Product Director, Huawei Ascend Processors",
       "image": "xiaolei-wang.jpg",
-      "tag": "apps-agents",
+      "tags": ["ws-cann"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -543,7 +559,7 @@
       "org": "Huawei",
       "roleOrg": "Director of Ecology and Industry Development for Huawei's Cangjie Programming Language, Huawei",
       "image": "speaker-wang-xue-zhi.jpg",
-      "tag": "ws-cangjie",
+      "tags": ["ws-cangjie"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -562,7 +578,7 @@
       "org": "Vice President of the Basic Education and Teacher Development Professional Committee of the Guangdong Human Resources Research Association, and Standing Director of the Guangdong Teachers Continuing Education Committee",
       "roleOrg": "Tencent Education Consultant, Vice President of the Basic Education and Teacher Development Professional Committee of the Guangdong Human Resources Research Association, and Standing Director of the Guangdong Teachers Continuing Education Committee",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -581,7 +597,7 @@
       "org": "Huawei",
       "roleOrg": "Senior Principal Architect & Technical Manager, Huawei",
       "image": "jingbin-zhang.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -600,7 +616,7 @@
       "org": "NVIDIA",
       "roleOrg": "Principal Research Scientist and Tech Lead, NVIDIA",
       "image": "jinwei-gu.jpg",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -619,7 +635,7 @@
       "org": "Qwen Team, Alibaba Group",
       "roleOrg": "Member of Technical Staff, Qwen Team, Alibaba Group",
       "image": "junrong-lin.jpg",
-      "tag": "ws-sglang",
+      "tags": ["ws-sglang"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -638,7 +654,7 @@
       "org": "NVIDIA",
       "roleOrg": "Principal Engineer Developer Technology, NVIDIA",
       "image": "markus-tavenrath.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -657,7 +673,7 @@
       "org": "Alibaba Cloud",
       "roleOrg": "Senior Engineer, Alibaba Cloud",
       "image": "shangming-cai-.jpg",
-      "tag": "ws-sglang",
+      "tags": ["ws-sglang"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -676,7 +692,7 @@
       "org": "Huawei Technology Ltd.",
       "roleOrg": "Senior Engineer, Huawei Technology Ltd.",
       "image": "shuangrui-chen.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -695,7 +711,7 @@
       "org": "",
       "roleOrg": "Alibaba Cloud Senior Engineer RBG Project Committer",
       "image": "0-placeholder-person.png",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -714,7 +730,7 @@
       "org": "Huawei",
       "roleOrg": "Senior Engineering, Huawei",
       "image": "yue-bao.jpg",
-      "tag": "ws-edge-ai",
+      "tags": ["ws-edge-ai"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -733,7 +749,7 @@
       "org": "Meituan",
       "roleOrg": "SGlang Committer, Meituan",
       "image": "chao-wang.jpg",
-      "tag": "ws-sglang",
+      "tags": ["ws-sglang"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -752,7 +768,7 @@
       "org": "Huawei Technologies Co., Ltd.",
       "roleOrg": "Web Frontend Framework Technology Expert, Huawei Technologies Co., Ltd.",
       "image": "chunhui-mo.jpg",
-      "tag": "agentic-web",
+      "tags": ["agentic-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -771,7 +787,7 @@
       "org": "Huawei",
       "roleOrg": "System Engineer, Huawei",
       "image": "dmitrii-desiatkin.jpg",
-      "tag": "ws-future-web",
+      "tags": ["ws-future-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -790,7 +806,7 @@
       "org": "NVIDIA",
       "roleOrg": "GPU Computing Expert, NVIDIA",
       "image": "speaker-wang-dong.png",
-      "tag": "ws-sglang",
+      "tags": ["ws-sglang"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -809,7 +825,7 @@
       "org": "Huawei Technology, Ltd.",
       "roleOrg": "Dora Contributor, Huawei Technology, Ltd.",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -828,7 +844,7 @@
       "org": "Huawei",
       "roleOrg": "Web Core Expert, HUAWEI, Huawei",
       "image": "guangzhen-li.png",
-      "tag": "agentic-web",
+      "tags": ["agentic-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -847,7 +863,7 @@
       "org": "ByteDance",
       "roleOrg": "Developer, ByteDance",
       "image": "speaker-chen-hai-quan.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -866,7 +882,7 @@
       "org": "Google Cloud",
       "roleOrg": "AI Specialist, Google Cloud",
       "image": "jennie-shi.jpeg",
-      "tag": "agentic-web",
+      "tags": ["agentic-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -885,7 +901,7 @@
       "org": "HUAWEI",
       "roleOrg": "Software Engineer at HUAWEI",
       "image": "jingshi-shangguan.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -904,7 +920,7 @@
       "org": "HUAWEI",
       "roleOrg": "AI Compiler Expert, HUAWEI",
       "image": "zhang-renwei.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "-",
         "twitter": "-",
@@ -923,7 +939,7 @@
       "org": "Huawei",
       "roleOrg": "Technical Expert, Huawei Central Software Institute",
       "image": "speaker-wang-tian-ce.jpg",
-      "tag": "ws-sglang",
+      "tags": ["ws-sglang"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -942,7 +958,7 @@
       "org": "ByteDance Inc.",
       "roleOrg": "SW Engineer, ByteDance Inc.",
       "image": "wilson-wang.jpeg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -961,7 +977,7 @@
       "org": "MeTaX Inference System",
       "roleOrg": "Head of MeTaX Inference System",
       "image": "0-placeholder-person.png",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -980,7 +996,7 @@
       "org": "Bytedance",
       "roleOrg": "AI Performance Optimization Expert, Bytedance",
       "image": "xiaolei-zhang.jpeg",
-      "tag": "ws-sglang",
+      "tags": ["ws-sglang"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -999,7 +1015,7 @@
       "org": "Huawei",
       "roleOrg": "Architect, Huawei",
       "image": "xiaoming-bao.png",
-      "tag": "ws-sglang",
+      "tags": ["ws-sglang"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1018,7 +1034,7 @@
       "org": "ByteDance",
       "roleOrg": "Technical Lead of Coze Compass, ByteDance",
       "image": "speaker-wang-xin-meng.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1037,7 +1053,7 @@
       "org": "Alibaba Cloud Computing Co., Ltd.",
       "roleOrg": "Software Engineer, Alibaba Cloud Computing Co., Ltd.",
       "image": "yi-zhang.png",
-      "tag": "ws-sglang",
+      "tags": ["ws-sglang"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1056,7 +1072,7 @@
       "org": "HUAWEI",
       "roleOrg": "Dr., HUAWEI",
       "image": "speaker-ding-yi-bin.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1075,7 +1091,7 @@
       "org": "Alibaba",
       "roleOrg": "Engineer, Alibaba",
       "image": "yizhong-cao-.jpg",
-      "tag": "ws-sglang",
+      "tags": ["ws-sglang"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1094,7 +1110,7 @@
       "org": "Huawei",
       "roleOrg": "Software Engineer, Huawei",
       "image": "zhizhen-ye.jpeg",
-      "tag": "ws-future-web",
+      "tags": ["ws-future-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1113,7 +1129,7 @@
       "org": "Volcano Reviewer, lws Contributor",
       "roleOrg": "Huawei Cloud R&D Engineer, Volcano Reviewer, lws Contributor",
       "image": "chen-zicong.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1132,7 +1148,7 @@
       "org": "Huawei",
       "roleOrg": "Advisory Operation Manager, Huawei",
       "image": "hugejile.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1151,7 +1167,7 @@
       "org": "CSDN",
       "roleOrg": "Founder & Chairman (Panelist), CSDN",
       "image": "tao-jiang.jpg",
-      "tag": "ai-next",
+      "tags": ["forum-aivision", "plenary"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1170,7 +1186,7 @@
       "org": "Kandi Technologies",
       "roleOrg": "Chairman, Kandi Technologies",
       "image": "0-placeholder-person.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1189,7 +1205,7 @@
       "org": "Kaixin Wuhan Technology Co., Ltd.",
       "roleOrg": "Vice Dean of CSDN Kaixin College, Kaixin Wuhan Technology Co., Ltd.",
       "image": "speaker-chen-yu-long.png",
-      "tag": "ws-cangjie",
+      "tags": ["ws-cangjie"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1208,7 +1224,7 @@
       "org": "Chongqing University of Posts and Telecommunications",
       "roleOrg": "Professor, Chongqing University of Posts and Telecommunications",
       "image": "cen-ming.jpg",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1227,7 +1243,7 @@
       "org": "Beihang University",
       "roleOrg": "Associate Professor in School of Software, Beihang University",
       "image": "jing-zhang.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1246,7 +1262,7 @@
       "org": "Universidad Politecnica de Madrid",
       "roleOrg": "Professor at the Universidad Politecnica de Madrid",
       "image": "joaquin-salvachua.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1265,7 +1281,7 @@
       "org": "Universidad Politécnica de Madrid",
       "roleOrg": "Associate Professor, Universidad Politécnica de Madrid",
       "image": "jos-andrs-muoz-arcentales.jpg",
-      "tag": "agentic-web",
+      "tags": ["agentic-web"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1284,7 +1300,7 @@
       "org": "PhD Supervisor, Deputy Director of AI Department, School of Computer Science, Zhejiang University",
       "roleOrg": "Associate Professor, PhD Supervisor, Deputy Director of AI Department, School of Computer Science, Zhejiang University",
       "image": "0-placeholder-person.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1303,7 +1319,7 @@
       "org": "CASS",
       "roleOrg": "Professor (Panelist), CASS",
       "image": "qin-wang.jpg",
-      "tag": "apps-agents",
+      "tags": ["apps-agents", "ws-globalization"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1322,7 +1338,7 @@
       "org": "Zhejiang University",
       "roleOrg": "Assistant Professor, Zhejiang University",
       "image": "qian-zheng.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1341,7 +1357,7 @@
       "org": "Shanghai Jiao Tong University",
       "roleOrg": "Associate Professor, Shanghai Jiao Tong University",
       "image": "speaker-zhang-quan-shi.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1360,7 +1376,7 @@
       "org": "Beijing University of Posts and Telecommunications",
       "roleOrg": "Associate Professor, Beijing University of Posts and Telecommunications",
       "image": "speaker-bai-ting.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1379,7 +1395,7 @@
       "org": "Northeastern University in the United States",
       "roleOrg": "Professor of Northeastern University in the United States",
       "image": "yanzhi-wang.jpeg",
-      "tag": "apps-agents",
+      "tags": ["apps-agents", "ws-ai-education", "ws-edge-ai"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1398,7 +1414,7 @@
       "org": "Department of Data Science, CUHK",
       "roleOrg": "Assistant Professor, Department of Data Science, CUHK",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1417,7 +1433,7 @@
       "org": "Northeastern University",
       "roleOrg": "Associate Professor, Northeastern University",
       "image": "speaker-zhang-yin.png",
-      "tag": "ws-cangjie",
+      "tags": ["ws-cangjie"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1436,7 +1452,7 @@
       "org": "Nankai University",
       "roleOrg": "Prof., Nankai University",
       "image": "yong-qin.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1455,7 +1471,7 @@
       "org": "Beijing Normal University",
       "roleOrg": "Associate Professor, Beijing Normal University",
       "image": "zhan-yiwen.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1474,7 +1490,7 @@
       "org": "The University of Newcastle",
       "roleOrg": "Assistant Professor, The University of Newcastle",
       "image": "zhenghao-chen.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://x.com/DrZhenghaoChen",
@@ -1493,7 +1509,7 @@
       "org": "Pawmed | PhD Candidate in AI Medicine at Oxford University",
       "roleOrg": "CEO, Pawmed | PhD Candidate in AI Medicine at Oxford University",
       "image": "zhao-simiao.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1512,7 +1528,7 @@
       "org": "Generative AI Commons / LF AI & Data",
       "roleOrg": "Co-Chair, Generative AI Commons. Board Member. LF AI & Data",
       "image": "anni-lai.png",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1531,7 +1547,7 @@
       "org": "University of Science and Technology of China",
       "roleOrg": "Student, University of Science and Technology of China",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1550,7 +1566,7 @@
       "org": "Northeastern University",
       "roleOrg": "Student Cangjie Evangelist, Northeastern University",
       "image": "speaker-zhang-hao-yang.png",
-      "tag": "ws-cangjie",
+      "tags": ["ws-cangjie"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1569,7 +1585,7 @@
       "org": "Northwestern Polytechnical University",
       "roleOrg": "Ph.D. Candidate at Northwestern Polytechnical University, Shanghai Conservatory of Music/Northwestern Polytechnical University",
       "image": "jixun-yao.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1588,7 +1604,7 @@
       "org": "High-Performance Web Engines CG, W3C",
       "roleOrg": "Chair, High-Performance Web Engines CG, W3C",
       "image": "martin-alvarez-espinar.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1607,7 +1623,7 @@
       "org": "Department of Computer Science and Technology, Tsinghua University",
       "roleOrg": "Ph.D., Department of Computer Science and Technology, Tsinghua University",
       "image": "runqing-zhang.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1626,7 +1642,7 @@
       "org": "Chongqing University of Posts and Telecommunications",
       "roleOrg": "Ph.D, Chongqing University of Posts and Telecommunications",
       "image": "ruping-cen.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1645,7 +1661,7 @@
       "org": "Efrei Paris",
       "roleOrg": "Program Manager “Data & Artificial Intelligence” and Academic Manager of Executive Education, Efrei Paris",
       "image": "salim-nahle.png",
-      "tag": "Co-located",
+      "tags": ["Co-located"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1664,7 +1680,7 @@
       "org": "University of Oxford",
       "roleOrg": "Newton International Fellow, University of Oxford",
       "image": "shiwei-liu.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1683,7 +1699,7 @@
       "org": "East China Normal University",
       "roleOrg": "Director of the Open Source Technical Committee, Singular Intelligence Research Institute, East China Normal University",
       "image": "wei-wang.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1702,7 +1718,7 @@
       "org": "Tsinghua University",
       "roleOrg": "PH.D. Candidate, Tsinghua University",
       "image": "weiyu-xie.jpg",
-      "tag": "ws-edge-ai",
+      "tags": ["ws-edge-ai"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1721,7 +1737,7 @@
       "org": "openEuler Community",
       "roleOrg": "Chair of the openEuler Community Technical Committee, openEuler Community",
       "image": "xinwei-hu.jpeg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1740,7 +1756,7 @@
       "org": "capital normal university",
       "roleOrg": "Artist,  capital normal university",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1759,7 +1775,7 @@
       "org": "Capital Normal University",
       "roleOrg": "Artist, Capital Normal University",
       "image": "yicuan-yue.jpg",
-      "tag": "Co-located",
+      "tags": ["Co-located"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1778,7 +1794,7 @@
       "org": "Southern University of Science and Technology",
       "roleOrg": "Student of Southern University of Science and Technology",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1797,7 +1813,7 @@
       "org": "Nankai University",
       "roleOrg": "Student of Nankai University",
       "image": "0-placeholder-person.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1816,7 +1832,7 @@
       "org": "Southeastern University",
       "roleOrg": "Student, Southeastern University",
       "image": "zhongjin.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1835,7 +1851,7 @@
       "org": "International Academy for Information Studies",
       "roleOrg": "Academician, International Academy for Information Studies",
       "image": "speaker-shi-zhong-zhi.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1854,7 +1870,7 @@
       "org": "Founder of European AI and Augmented Humanism Biennial",
       "roleOrg": "Artist, Founder of European AI and Augmented Humanism Biennial",
       "image": "alexandra-boucherifi.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1873,7 +1889,7 @@
       "org": "CEO of GitCode",
       "roleOrg": "Senior Vice President of CSDN, CEO of GitCode ",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1892,7 +1908,7 @@
       "org": "AskSia",
       "roleOrg": "Co-Founder, AskSia",
       "image": "bella-ren.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1911,7 +1927,7 @@
       "org": "Caspera.lab",
       "roleOrg": "CEO and Founder (Panelist), Caspera.lab",
       "image": "christian-maitre.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1930,7 +1946,7 @@
       "org": "First Person Project",
       "roleOrg": "Founder, First Person Project",
       "image": "drummond-reed.jpg",
-      "tag": "agentic-web",
+      "tags": ["agentic-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "http://twitter.com/drummondreed",
@@ -1949,7 +1965,7 @@
       "org": "KAIYUANSHE",
       "roleOrg": "Co-Founder (Panel Moderator), KAIYUANSHE",
       "image": "emily-chen.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1968,7 +1984,7 @@
       "org": "FOSS(Shanghai) Technology Consulting",
       "roleOrg": "Founder, FOSS(Shanghai) Technology Consulting",
       "image": "gregory-terzian.jpg",
-      "tag": "ws-future-web",
+      "tags": ["ws-future-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -1987,7 +2003,7 @@
       "org": "CocoRobo",
       "roleOrg": "CEO of CocoRobo",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2006,7 +2022,7 @@
       "org": "TIMU",
       "roleOrg": "CTO, TIMU",
       "image": "jesse-ezell.png",
-      "tag": "apps-agents",
+      "tags": ["agentic-web", "ws-flutter"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2025,7 +2041,7 @@
       "org": "MaaS Platform",
       "roleOrg": "INESA Director of MaaS Platform",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2044,7 +2060,7 @@
       "org": "Kornia AI",
       "roleOrg": "Co-founder, Kornia AI",
       "image": "jian-shi.jpg",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2063,7 +2079,7 @@
       "org": "99 Faces of AI Podcast / Bielik.AI",
       "roleOrg": "Founder, 99 Faces of AI Podcast / Bielik.AI",
       "image": "karol-stryja.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2082,7 +2098,7 @@
       "org": "ABCD Tech | China Representative of French VC Breega",
       "roleOrg": "CEO & Founder, ABCD Tech | China Representative of French VC Breega",
       "image": "liu-qunkai.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2101,7 +2117,7 @@
       "org": "China Electronics Standardization Institute",
       "roleOrg": "Senior Engineer, Director of the Cloud Computing Research Office, CESI",
       "image": "liyun-yang.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2120,7 +2136,7 @@
       "org": "Danube Tech",
       "roleOrg": "CEO, Danube Tech",
       "image": "markus-sabadello.jpg",
-      "tag": "agentic-web",
+      "tags": ["agentic-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2139,7 +2155,7 @@
       "org": "Sichuan Jiaozi Interactive Technology Co., Ltd.",
       "roleOrg": "CTO, Sichuan Jiaozi Interactive Technology Co., Ltd.",
       "image": "speaker-liu-nan-bing.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://twitter.com/1ronben",
@@ -2158,7 +2174,7 @@
       "org": "Strategy Lead",
       "roleOrg": "W3C Vice President, Strategy Lead",
       "image": "philippe-le-hegaret.png",
-      "tag": "agentic-web",
+      "tags": ["agentic-web", "ws-future-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2177,7 +2193,7 @@
       "org": "Ant Group",
       "roleOrg": "Director of Strategy and New Product (OSS), Ant Group",
       "image": "richard-bian.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["forum-aivision", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2196,7 +2212,7 @@
       "org": "Makepad",
       "roleOrg": "Co-founder of Makepad",
       "image": "rik-arends.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2215,7 +2231,7 @@
       "org": "iTunel Technology Ltd (Hong Kong)",
       "roleOrg": "CTO, iTunel Technology Ltd (Hong Kong)",
       "image": "robin-shang.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2234,7 +2250,7 @@
       "org": "UNICC",
       "roleOrg": "Director (Panelist), UNICC",
       "image": "sameer-chauhan.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2253,7 +2269,7 @@
       "org": "OpenCV.org",
       "roleOrg": "CEO, OpenCV.org",
       "image": "satya-mallick.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["embodied-ai", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://x.com/LearnOpenCV",
@@ -2272,7 +2288,7 @@
       "org": "Makepad",
       "roleOrg": "Co-founder of Makepad",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2291,7 +2307,7 @@
       "org": "Unitree Robotics",
       "roleOrg": "Robot Engineer / Technical Director, Unitree Robotics",
       "image": "mashengyue.jpg",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://github.com/Msy-yy",
@@ -2310,7 +2326,7 @@
       "org": "Founder",
       "roleOrg": "Qingcheng.AI Co-Founder",
       "image": "0-placeholder-person.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2329,7 +2345,7 @@
       "org": "Dimforge",
       "roleOrg": "Founder, Dimforge",
       "image": "sbastien-crozet.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2348,7 +2364,7 @@
       "org": "Sustentra | 2025 Yale Entrepreneurship Fellowship Cover Story",
       "roleOrg": "Co-Founder & CEO, Sustentra | 2025 Yale Entrepreneurship Fellowship Cover Story",
       "image": "vivian-cai.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2367,7 +2383,7 @@
       "org": "Cenya Piano Academy",
       "roleOrg": "Founder, Cenya Piano Academy",
       "image": "wang-juchen.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2386,7 +2402,7 @@
       "org": "DP Technology",
       "roleOrg": "Founder&CEO at DP Technology",
       "image": "weijie-sun.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2405,7 +2421,7 @@
       "org": "Futurewei Technologies, Inc.",
       "roleOrg": "Senior Director of Technology Strategy, Futurewei Technologies, Inc.",
       "image": "wenjing-chu.png",
-      "tag": "agentic-web",
+      "tags": ["agentic-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2424,7 +2440,7 @@
       "org": "1ms.ai",
       "roleOrg": "Founder, 1ms.ai",
       "image": "xavier-tao.jpg",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/HaixuanT",
@@ -2443,7 +2459,7 @@
       "org": "Mindverse",
       "roleOrg": "CoFounder, Mindverse",
       "image": "xiang-ying.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2462,7 +2478,7 @@
       "org": "Center for Safe AGI",
       "roleOrg": "Founder, Center for Safe AGI",
       "image": "xiaohu-zhu.png",
-      "tag": "Co-located",
+      "tags": ["Co-located"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "@neil_csagi",
@@ -2481,7 +2497,7 @@
       "org": "Saint Novel Biotech",
       "roleOrg": "Co-Founder, Saint Novel Biotech",
       "image": "yin-danqing.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2500,7 +2516,7 @@
       "org": "Chaitin Tech",
       "roleOrg": "Technical Director, AI Coding Products, Chaitin Tech",
       "image": "yin-zhenxi.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2519,7 +2535,7 @@
       "org": "Engineering and Ecosystem at Rokid",
       "roleOrg": "Global Senior Director of Product, Engineering and Ecosystem at Rokid",
       "image": "0-placeholder-person.png",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2538,7 +2554,7 @@
       "org": "Dolphin Intelligence",
       "roleOrg": "Co-Founder, Dolphin Intelligence",
       "image": "zheng-haoyun.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2557,7 +2573,7 @@
       "org": "MemTensor (Shanghai) Technology Co., Ltd.",
       "roleOrg": "CTO, MemTensor (Shanghai) Technology Co., Ltd.",
       "image": "zhiyu-li.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2576,7 +2592,7 @@
       "org": "Institute of Law, Chinese Academy of Social Sciences",
       "roleOrg": "Deputy Director, Institute of Law, Chinese Academy of Social Sciences",
       "image": "zhou-hui.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2595,7 +2611,7 @@
       "org": "Neo4j",
       "roleOrg": "AI Community Architect, Neo4j",
       "image": "alexy-khrabrov-.jpeg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "@chiefscientist",
@@ -2614,7 +2630,7 @@
       "org": "Unaffiliated",
       "roleOrg": "Senior MLOps Lead, Unaffiliated",
       "image": "aurlienmorgan-claudon.png",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/AurelienMorgan_",
@@ -2633,7 +2649,7 @@
       "org": "360",
       "roleOrg": "Technical Lead of the 360 Nano AI Search HarmonyOS Team, 360",
       "image": "speaker-zhao-dong.jpg",
-      "tag": "ws-cangjie",
+      "tags": ["ws-cangjie"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2652,7 +2668,7 @@
       "org": "Bonsai Robotics",
       "roleOrg": "Staff Research Engineer, Bonsai Robotics",
       "image": "edgar-riba.jpeg",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/edgarriba",
@@ -2671,7 +2687,7 @@
       "org": "BAAI",
       "roleOrg": "Technical Lead of Data Research Team, BAAI",
       "image": "guang-liu.jpeg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/ZacLiu123",
@@ -2690,7 +2706,7 @@
       "org": "Egen",
       "roleOrg": "Principal Architect – Gen AI (Panelist), Egen",
       "image": "jesse-mccrosky.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2709,7 +2725,7 @@
       "org": "Jiechuang",
       "roleOrg": "Architect of Jiechuang",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2728,7 +2744,7 @@
       "org": "Ant Group",
       "roleOrg": "Senior Algorithm Expert of Ant Group",
       "image": "jingdong-chen.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2747,7 +2763,7 @@
       "org": "Beijing Chulian Technology Co., Ltd.",
       "roleOrg": "Server Application Architect, Beijing Chulian Technology Co., Ltd.",
       "image": "speaker-wu-jing-run.png",
-      "tag": "ws-cangjie",
+      "tags": ["ws-cangjie"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2766,7 +2782,7 @@
       "org": "Mozilla Data Collective",
       "roleOrg": "Staff Engineer & Data Scientist， Mozilla Data Collective",
       "image": "johann-diedrick.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2785,7 +2801,7 @@
       "org": "Elevatia Studio",
       "roleOrg": "Lead Programmer, Elevatia Studio",
       "image": "sizhe-cheng.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2804,7 +2820,7 @@
       "org": "SYU Shenzhen Affiliated School",
       "roleOrg": "Vice Principal of SYU Shenzhen Affiliated School",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2823,7 +2839,7 @@
       "org": "ZettaScale Technology",
       "roleOrg": "Senior Software Engineer, ZettaScale Technology",
       "image": "yuyuan-yuan.jpg",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://x.com/az6980522",
@@ -2842,7 +2858,7 @@
       "org": "Hugging Face",
       "roleOrg": "EA / AI researcher, Hugging Face",
       "image": "adina-yakefu.png",
-      "tag": "undefined",
+      "tags": ["ws-globalization"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://x.com/AdinaYakup",
@@ -2861,7 +2877,7 @@
       "org": "Ant Group | Ant Design Contributor",
       "roleOrg": "Front-end Engineer, Ant Group | Ant Design Contributor",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2880,7 +2896,7 @@
       "org": "Exel Industries | EXXACT Robotics",
       "roleOrg": "AI Research & MLOps Engineer, Exel Industries | EXXACT Robotics",
       "image": "dandjinou-charbel.jpeg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2899,7 +2915,7 @@
       "org": "Cline",
       "roleOrg": "Founding Engineer at Cline",
       "image": "evan-fannin.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2918,7 +2934,7 @@
       "org": "Jina AI",
       "roleOrg": "Founding Engineer, Jina AI",
       "image": "florian-hnicke.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/florianhoenicke",
@@ -2937,7 +2953,7 @@
       "org": "Hangzhou Half Universe Technology Co., Ltd.",
       "roleOrg": "Technical Researcher at Hangzhou Half Universe, Hangzhou Half Universe Technology Co., Ltd.",
       "image": "speaker-han-hong-ying.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2956,7 +2972,7 @@
       "org": "Hugging Face",
       "roleOrg": "Machine Learning Engineer, Hugging Face",
       "image": "jingya-huang.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/Jhuaplin",
@@ -2975,7 +2991,7 @@
       "org": "Hugging Face",
       "roleOrg": "Machine Learning Engineer, Hugging Face",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2994,7 +3010,7 @@
       "org": "Igalia",
       "roleOrg": "Software engineer, Igalia",
       "image": "manuel-rego.jpg",
-      "tag": "agentic-web",
+      "tags": ["agentic-web"],
       "socialLinks": {
         "mastodon": "https://mastodon.social/@regocas",
         "twitter": "",
@@ -3013,7 +3029,7 @@
       "org": "Igalia",
       "roleOrg": "Software Engineer, Igalia",
       "image": "martin-robinson.jpg",
-      "tag": "ws-future-web",
+      "tags": ["ws-future-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3032,7 +3048,7 @@
       "org": "Hugging Face",
       "roleOrg": "Embodied AI Engineer, Hugging Face",
       "image": "martino-russi.png",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "https://x.com/NepYope",
@@ -3051,7 +3067,7 @@
       "org": "CopilotKit",
       "roleOrg": "Founding Engineer, CopilotKit",
       "image": "michael-tyler-slaton.png",
-      "tag": "agentic-web",
+      "tags": ["agentic-web"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3070,7 +3086,7 @@
       "org": "Callstack",
       "roleOrg": "Chief Engineer of Callstack",
       "image": "michal-pierzchala.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3089,7 +3105,7 @@
       "org": "Intel",
       "roleOrg": "Cloud Software Engineer, Intel",
       "image": "ruoyu-ying.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3108,7 +3124,7 @@
       "org": "Shenzhen Kaihong Digital Industry Development Co., Ltd.",
       "roleOrg": "Software Engineer, Shenzhen Kaihong Digital Industry Development Co., Ltd.",
       "image": "tao-li.jpg",
-      "tag": "ws-dora",
+      "tags": ["ws-dora"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3127,7 +3143,7 @@
       "org": "iQIYI",
       "roleOrg": "Assistant Researcher, iQIYI",
       "image": "speaker-pan-wan-kun.jpg",
-      "tag": "ws-cangjie",
+      "tags": ["ws-cangjie"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3146,7 +3162,7 @@
       "org": "BAAI",
       "roleOrg": "Algorithm Engineer, BAAI",
       "image": "xiang-yang.jpg",
-      "tag": "ws-dora",
+      "tags": ["ws-dora"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3165,7 +3181,7 @@
       "org": "Hugging Face",
       "roleOrg": "Software Engineer, Hugging Face",
       "image": "xuan-son-nguyen.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "@ngxson",
@@ -3184,7 +3200,7 @@
       "org": "Shenzhen Institute of Artificial Intelligence and Robotics for Society",
       "roleOrg": "Associate Researcher, Shenzhen Institute of Artificial Intelligence and Robotics for Society",
       "image": "xuan-xia.jpg",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3203,7 +3219,7 @@
       "org": "Dora-rs Open Source Project",
       "roleOrg": "Developer, Dora-rs Open Source Project",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3222,7 +3238,7 @@
       "org": "N/A",
       "roleOrg": "Software Engineer, N/A",
       "image": "yikai-zhu.jpg",
-      "tag": "ws-sglang",
+      "tags": ["ws-sglang"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3241,7 +3257,7 @@
       "org": "BAAI",
       "roleOrg": "VP and Chief Engineer at BAAI",
       "image": "yonghua-lin.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["forum-aivision", "plenary", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3260,7 +3276,7 @@
       "org": "Manycore Tech Inc.",
       "roleOrg": "Research engineer, Manycore Tech Inc.",
       "image": "yongsen-mao.jpg",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3279,7 +3295,7 @@
       "org": "Dora-rs",
       "roleOrg": "Student, Dora-rs",
       "image": "hu-youhao.jpg",
-      "tag": "ws-dora",
+      "tags": ["ws-dora"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3298,7 +3314,7 @@
       "org": "Afnor Group",
       "roleOrg": "Head of AI & NLP, Afnor Group",
       "image": "abdallah-essa.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3317,7 +3333,7 @@
       "org": "Dora-rs",
       "roleOrg": "Head of Community Ecosystem, Dora-rs",
       "image": "0-placeholder-person.png",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3336,7 +3352,7 @@
       "org": "Ant Group",
       "roleOrg": "Mooncake Core Member / Envoy Golang maintainer, Ant Group",
       "image": "speaker-zhu-de-jiang.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3355,7 +3371,7 @@
       "org": "Digital Public Solutions (Panelist), UNICC",
       "roleOrg": "Head, Digital Public Solutions (Panelist), UNICC",
       "image": "emily-bennett.jpg",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3374,7 +3390,7 @@
       "org": "ANP Open Source Technology Community",
       "roleOrg": "Initiator, ANP Open Source Technology Community",
       "image": "speaker-chang-gao-wei.jpg",
-      "tag": "agentic-web",
+      "tags": ["agentic-web"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3393,7 +3409,7 @@
       "org": "Shanghai Conservatory of Music",
       "roleOrg": "Ph.D. Candidate at Shanghai Conservatory of Music",
       "image": "huixin-xue.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3412,7 +3428,7 @@
       "org": "",
       "roleOrg": "Qingcheng.AI Technical Expert",
       "image": "jian-li.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3431,7 +3447,7 @@
       "org": "",
       "roleOrg": "iFLYTEK Technical Expert",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3450,7 +3466,7 @@
       "org": "vLLM",
       "roleOrg": "Core Maintainer, vLLM",
       "image": "kaichao-you.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/KaichaoYou",
@@ -3469,7 +3485,7 @@
       "org": "Bielik.AI",
       "roleOrg": "Core Team Member, Bielik.AI",
       "image": "krzysztof-ociepa.jpeg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3487,8 +3503,8 @@
       "role": "SVP",
       "org": "CSDN",
       "roleOrg": "SVP, CSDN",
-      "image": "li-jianzhong.jpg",
-      "tag": "apps-agents",
+      "image": "jianzhong-li.jpg",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3507,7 +3523,7 @@
       "org": "",
       "roleOrg": "Futurewei Technologies",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3526,7 +3542,7 @@
       "org": "Chief of the Flutter Bounty Hunters",
       "roleOrg": "Former Flutter team member, Chief of the Flutter Bounty Hunters",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3545,7 +3561,7 @@
       "org": "Creator of React Native for visionOS",
       "roleOrg": "React Native Core Contributor, Creator of React Native for visionOS",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3564,7 +3580,7 @@
       "org": "Runhouse",
       "roleOrg": "ML Infra of Runhouse",
       "image": "paul-yang.jpeg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3583,7 +3599,7 @@
       "org": "Beijing Academy of Artificial Intelligence",
       "roleOrg": "Head of Embodied Intelligence Large Models, Beijing Academy of Artificial Intelligence",
       "image": "speaker-wang-peng-wei.jpg",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3602,7 +3618,7 @@
       "org": "DeepSeek",
       "roleOrg": "Head of Data (Panelist), DeepSeek",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3614,14 +3630,14 @@
       "draft": false
     },
     {
-      "id": "ren-xudong",
-      "name": "Ren Xudong",
+      "id": "bill-ren",
+      "name": "Bill Ren",
       "bio": "Ren Xudong - Forum Sponsor",
       "role": "Forum Sponsor",
       "org": "",
-      "roleOrg": "Forum Sponsor",
-      "image": "ren-xudong.jpg",
-      "tag": "apps-agents",
+      "roleOrg": "Chief open source liaison officer, Board member of CNCF",
+      "image": "bill-ren.jpg",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3640,7 +3656,7 @@
       "org": "Procero AI",
       "roleOrg": "Board Member and Advisor, Procero AI",
       "image": "richard-reiner.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3659,7 +3675,7 @@
       "org": "ITU",
       "roleOrg": "ITU, Head of Infrastructure division",
       "image": "walid-mathlouthi.jpg",
-      "tag": "open-for-sdg",
+      "tags": ["agentic-web", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3678,7 +3694,7 @@
       "org": "Beijing Qingcheng Jizhi Technology Co., Ltd.",
       "roleOrg": "VP, CIO, Beijing Qingcheng Jizhi Technology Co., Ltd.",
       "image": "speaker-he-wan-qing.jpeg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3697,7 +3713,7 @@
       "org": "Youdian Yisi O",
       "roleOrg": "Well-known Art Content Creator on Bilibili, Youdian Yisi O",
       "image": "speaker-wei-wei.jpg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3716,7 +3732,7 @@
       "org": "DeepSeek",
       "roleOrg": "Head of AI Governance (Panelist), DeepSeek",
       "image": "0-placeholder-person.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3735,7 +3751,7 @@
       "org": "Chinese Academy of Arts",
       "roleOrg": "First-Class Artist, Chinese Academy of Arts",
       "image": "yan-feng.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3754,7 +3770,7 @@
       "org": "",
       "roleOrg": "SGLang Committer",
       "image": "yanboyang.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3773,7 +3789,7 @@
       "org": "OYMotion",
       "roleOrg": "COO, OYMotion",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3792,7 +3808,7 @@
       "org": "",
       "roleOrg": "Moderator",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3811,7 +3827,7 @@
       "org": "the openUBMC Technical Committee",
       "roleOrg": "Member of the openUBMC Technical Committee",
       "image": "0-placeholder-person.png",
-      "tag": "apps-agents",
+      "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3830,7 +3846,7 @@
       "org": "Humanoid Robot (Shanghai) Co., Ltd.",
       "roleOrg": "Head of Motion Control Algorithms and Framework, Humanoid Robot (Shanghai) Co., Ltd.",
       "image": "speaker-yin-yun-peng.jpg",
-      "tag": "embodied-ai",
+      "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3849,7 +3865,7 @@
       "org": "ZhipuAI",
       "roleOrg": "Technology Evangelist, ZhipuAI",
       "image": "yuxuan-zhang.jpg",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3868,7 +3884,7 @@
       "org": "",
       "roleOrg": "Ascend Ecosystem Technology Specialist",
       "image": "0-placeholder-person.png",
-      "tag": "ai-models-infra",
+      "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3887,7 +3903,7 @@
       "org": "",
       "roleOrg": "ZhiPuAI VP",
       "image": "0-placeholder-person.png",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3906,7 +3922,7 @@
       "org": "",
       "roleOrg": "Intel AI Software Evangelist",
       "image": "zhuo-wu.jpeg",
-      "tag": "ai-next",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3925,7 +3941,7 @@
       "org": "",
       "roleOrg": "RustChinaConf Organizing Committee",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3944,7 +3960,7 @@
       "org": "",
       "roleOrg": "Executive Director of the Rust Foundation",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3963,7 +3979,7 @@
       "org": "",
       "roleOrg": "Chairman of the Open Atom Open Source Xuanwu Community Working Committee",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -3982,7 +3998,7 @@
       "org": "",
       "roleOrg": "Head of Strategy at Non-convex Tech",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4001,7 +4017,7 @@
       "org": "",
       "roleOrg": "Co-leads the types team, member of the compiler team, lang team advisor, and co-leads the Rust Vision Doc work",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4020,7 +4036,7 @@
       "org": "",
       "roleOrg": "Member of the Rust Project language, library, cargo, and specification teams",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4039,7 +4055,7 @@
       "org": "",
       "roleOrg": "Rust for Linux core developer",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4058,7 +4074,7 @@
       "org": "",
       "roleOrg": "ByteDance R&D Engineer",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4077,7 +4093,7 @@
       "org": "",
       "roleOrg": "Director, Solutions Engineering of TrustInSoft",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4096,7 +4112,7 @@
       "org": "",
       "roleOrg": "Associate Professor in the Department of Computer Science and Technology at Tsinghua University, PhD supervisor, and Deputy Director of the Software Research Institute",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4114,8 +4130,8 @@
       "role": "",
       "org": "",
       "roleOrg": "SecondState Founder",
-      "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "image": "michael-yuan.jpeg",
+      "tags": ["rustchinaconf", "ws-globalization"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4134,7 +4150,7 @@
       "org": "",
       "roleOrg": "one of the founding members of the Rust Embedded Working Group and the author of the postcard family of crates",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4153,7 +4169,7 @@
       "org": "",
       "roleOrg": "Security-focused Software Developer of Rust Foundation",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4172,7 +4188,7 @@
       "org": "",
       "roleOrg": "Co-founder of ScopeDB",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4191,7 +4207,7 @@
       "org": "",
       "roleOrg": "Initiator of RustPBX, Product Technology Director of Didi Cloud",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4210,7 +4226,7 @@
       "org": "",
       "roleOrg": "Blueshift CEO",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4229,7 +4245,7 @@
       "org": "",
       "roleOrg": "RMK author",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4248,7 +4264,7 @@
       "org": "",
       "roleOrg": "Core Developer of GreptimeDB",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4267,7 +4283,7 @@
       "org": "",
       "roleOrg": "Chief Scientist at IDEA Research Institute, Lead of Moonbit Platform",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4286,7 +4302,7 @@
       "org": "",
       "roleOrg": "Linera Application Developer",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4305,7 +4321,7 @@
       "org": "",
       "roleOrg": "VP of Technology at Databend Labs",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4324,7 +4340,7 @@
       "org": "",
       "roleOrg": "Author of Rust Web Framework Salvo, Core Developer of Palpo",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4343,7 +4359,7 @@
       "org": "",
       "roleOrg": "CEO of Hangzhou Yusuan Technology / Author of Zino Application Development Framework",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4362,7 +4378,7 @@
       "org": "",
       "roleOrg": "member of Rust Compiler Team",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4381,7 +4397,7 @@
       "org": "",
       "roleOrg": "Founder/CEO of Dioxus Labs",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4400,7 +4416,7 @@
       "org": "",
       "roleOrg": "Infineon MCU Field Application Engineer",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4419,7 +4435,7 @@
       "org": "",
       "roleOrg": "Primary maintainer of Ratatui",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4438,7 +4454,7 @@
       "org": "",
       "roleOrg": "member of clippy team",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4457,7 +4473,7 @@
       "org": "",
       "roleOrg": "Huawei Engineer, Maintainer of Rust Compiler Team",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4476,7 +4492,7 @@
       "org": "",
       "roleOrg": "Graduate Student at Nanjing University PASCAL Lab, rust-analyzer Maintainer, Rust Foundation Fellowship",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4495,7 +4511,7 @@
       "org": "",
       "roleOrg": "Lead DevRel APAC @Xion",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4514,7 +4530,7 @@
       "org": "",
       "roleOrg": "Chief Architect at Futurewei / Creator of Theseus OS / Technical lead of the Robius project.",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4533,7 +4549,7 @@
       "org": "",
       "roleOrg": "Lead of the Rustdoc team,member of the compiler team, of dev-tools team",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4552,7 +4568,7 @@
       "org": "",
       "roleOrg": "Wild Linker Author",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4571,7 +4587,7 @@
       "org": "",
       "roleOrg": "Kong Software Engineer, Tokio Maintainer",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4590,7 +4606,7 @@
       "org": "",
       "roleOrg": "Author of May-rs / Senior Software Manager at a GPU chip industry company",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4609,7 +4625,7 @@
       "org": "",
       "roleOrg": "Author of os-checker, open source contributor",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4628,7 +4644,7 @@
       "org": "",
       "roleOrg": "Senior Technical Expert of the Group, Initiator of the Asterinas OS Project",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4647,7 +4663,7 @@
       "org": "",
       "roleOrg": "Associate Professor of Computer Science at Portland State University/ Founder and leader of Rust-Edu",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4666,7 +4682,7 @@
       "org": "",
       "roleOrg": "Architect of Kuaishou Data Platform Big Data Engine",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4685,7 +4701,7 @@
       "org": "",
       "roleOrg": "vivo System Architecture Expert, Over 10 years of experience in OS kernel and language runtime design and development",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4704,7 +4720,7 @@
       "org": "",
       "roleOrg": "Senior Technical Coach at ZTE",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4723,7 +4739,7 @@
       "org": "",
       "roleOrg": "Rust compiler team member",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4742,7 +4758,7 @@
       "org": "",
       "roleOrg": "ZTE Architect / Rust Evangelist",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4761,7 +4777,7 @@
       "org": "",
       "roleOrg": "ASF Member, Apache OpenDAL PMC Chair, Senior Engineer at LanceDB",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4780,7 +4796,7 @@
       "org": "",
       "roleOrg": "Author of GenUI, SurrealismUI Slint framework, and VoceSpace audio-video software",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4799,7 +4815,7 @@
       "org": "",
       "roleOrg": "Student Research Assistant at the University of Hong Kong",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4818,7 +4834,7 @@
       "org": "",
       "roleOrg": "AiMo Network Co-Founder && CTO",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4837,7 +4853,7 @@
       "org": "",
       "roleOrg": "CertiK Security Researcher",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -4856,13 +4872,89 @@
       "org": "",
       "roleOrg": "PhD student at Northwestern Polytechnical University, mainly researching operating systems, distributed systems, and cloud computing Serverless",
       "image": "0-placeholder-person.png",
-      "tag": "rustchinaconf",
+      "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
         "github": "undefined",
         "linkedin": "undefined",
         "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "guofeng-zhang",
+      "name": "Guofeng Zhang",
+      "bio": "",
+      "role": "Deputy Chairman",
+      "org": "Shanghai Open Source Information Technology Association",
+      "roleOrg": "Deputy Chairman of Shanghai Open Source Information Technology Association",
+      "image": "0-placeholder-person.png",
+      "tags": ["ws-globalization"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "william-guo",
+      "name": "William Guo",
+      "bio": "",
+      "role": "CEO",
+      "org": "WhaleOps",
+      "roleOrg": "WhaleOps CEO, Apache Software Foundation Member",
+      "image": "0-placeholder-person.png",
+      "tags": ["ws-globalization"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "richard-lin",
+      "name": "Richard Lin",
+      "bio": "",
+      "role": "Co-founder",
+      "org": "Open Source Society",
+      "roleOrg": "Co-founder of the Open Source Society, Head of the RTE Developer Community",
+      "image": "0-placeholder-person.png",
+      "tags": ["ws-globalization"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "weidong-shao",
+      "name": "Weidong Shao",
+      "bio": "",
+      "role": "Manager",
+      "org": "SciMigo",
+      "roleOrg": "SciMigo Manager",
+      "image": "0-placeholder-person.png",
+      "tags": ["ws-ai-education"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
       },
       "status": "Accept",
       "draft": false

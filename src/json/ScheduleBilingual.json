@@ -116,6 +116,18 @@
       "id": "ai-next",
       "group": "tracks"
     },
+        {
+      "name": {
+        "en": "AI Vision Forum",
+        "zh": "AI Vision Forum 人工智能愿景论坛"
+      },
+      "room": {
+        "en": "West Lake State Guesthouse",
+        "zh": "西湖国宾馆"
+      },
+      "id": "forum-aivision",
+      "group": "colocated"
+    },
     {
       "name": {
         "en": "Open for SDG Conference",
@@ -128,18 +140,7 @@
       "id": "open-for-sdg",
       "group": "colocated"
     },
-    {
-      "name": {
-        "en": "AI Vision Forum",
-        "zh": "人工智能愿景论坛"
-      },
-      "room": {
-        "en": "West Lake State Guesthouse",
-        "zh": "西湖国宾馆"
-      },
-      "id": "forum-aivision",
-      "group": "colocated"
-    },
+
     {
       "name": {
         "en": "RustChinaConf & Rust Global China Plenary",
@@ -293,7 +294,7 @@
         "en": "Venue 8 - B03",
         "zh": "会场8-B03"
       },
-      "id": "ws-ai-4-education",
+      "id": "ws-ai-education",
       "group": "workshops"
     },
     {
@@ -306,18 +307,6 @@
         "zh": "会场9-B05"
       },
       "id": "ws-rn",
-      "group": "workshops"
-    },
-    {
-      "name": {
-        "en": "Rust Workshop",
-        "zh": "Rust 工作坊"
-      },
-      "room": {
-        "en": "TBD Venue",
-        "zh": "待定房间"
-      },
-      "id": "ws-rust",
       "group": "workshops"
     },
     {
@@ -354,6 +343,18 @@
         "zh": "会场6-B01"
       },
       "id": "ws-solana",
+      "group": "workshops"
+    },
+        {
+      "name": {
+        "en": "Open Source Globalization Workshop",
+        "zh": "开源出海工作坊"
+      },
+      "room": {
+        "en": "Venue 9 - B05",
+        "zh": "会场9-B05"
+      },
+      "id": "ws-globalization",
       "group": "workshops"
     }
   ],
@@ -582,7 +583,7 @@
             "tags": [
               "keynote"
             ],
-            "image": "michael-yuan.jpg"
+            "image": "michael-yuan.jpeg"
           }
         ]
       },
@@ -646,7 +647,7 @@
             "tags": [
               "keynote"
             ],
-            "image": "jason-li.jpg"
+            "image": "jianzhong-li.jpg"
           }
         ]
       }
@@ -1350,7 +1351,7 @@
             "tags": [
               "forum-aivision"
             ],
-            "image": "wang-wei.jpg"
+            "image": "wei-wang.jpg"
           },
           {
             "id": "bella-ren",
@@ -1470,7 +1471,7 @@
             "tags": [
               "forum-aivision"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "speaker-wei-wei.jpg"
           },
           {
             "id": "yuqing-yan",
@@ -1563,7 +1564,7 @@
             "tags": [
               "forum-aivision"
             ],
-            "image": "li-jianzhong.jpg"
+            "image": "jianzhong-li.jpg"
           },
           {
             "id": "yin-danqing",
@@ -1985,7 +1986,7 @@
         "timeSlot": "16:30 - 17:30",
         "title": {
           "en": "Panel Summary & Closing Remarks",
-          "zh": "全体汇报与总结发言"
+          "zh": "全体总结发言"
         },
         "content": {
           "en": "<p>Closing remarks by Forum Sponsor</p>",
@@ -2005,7 +2006,7 @@
             "tags": [
               "forum-aivision"
             ],
-            "image": "ren-xudong.jpg"
+            "image": "bill-ren.jpg"
           }
         ]
       },
@@ -2021,7 +2022,7 @@
         },
         "content": {
           "en": "<p>Enjoy dinner at West Lake State Guest House with views of West Lake</p>",
-          "zh": "<p>用晚宴，欣赏西湖美景</p>"
+          "zh": "<p>晚宴，欣赏西湖美景</p>"
         },
         "speakers": []
       }
@@ -4182,7 +4183,7 @@
             "tags": [
               "apps-agents"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "speaker-bai-ting.jpg"
           }
         ]
       },
@@ -6366,7 +6367,7 @@
             "tags": [
               "ws-edge-ai"
             ],
-            "image": "yanzhi-wang.jpg"
+            "image": "yanzhi-wang.jpeg"
           }
         ]
       },
@@ -6724,16 +6725,16 @@
         ]
       }
     ],
-    "ws-ai-4-education": [
+    "ws-ai-education": [
       {
         "date": {
-          "en": "September 13",
-          "zh": "9月13日"
+          "en": "September 14",
+          "zh": "9月14日"
         },
         "timeSlot": "10:15 - 10:25",
         "title": {
-          "en": "AI for Education: Opening Remarks",
-          "zh": "AI for Education: 开场致辞"
+          "en": "Opening Remarks",
+          "zh": "开场致辞"
         },
         "content": {
           "en": "Opening Remarks",
@@ -6751,7 +6752,7 @@
               "zh": "中山大学深圳附属学校副校长"
             },
             "tags": [
-              "ws-ai-4-education"
+              "ws-ai-education"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -6759,33 +6760,17 @@
       },
       {
         "date": {
-          "en": "September 13",
-          "zh": "9月13日"
+          "en": "September 14",
+          "zh": "9月14日"
         },
         "timeSlot": "10:25 - 10:45",
         "title": {
-          "en": "TBD",
-          "zh": "TBD"
+          "en": "Educational Ecological Changes from the Perspective of History and Future Educational Elements",
+          "zh": "历史观下的教育生态变迁及未来教育要素"
         },
         "content": {
-          "en": "TBD",
-          "zh": "TBD"
-        },
-        "speakers": []
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "10:45 - 11:05",
-        "title": {
-          "en": "The New Model of Future Schools: An Educational Ecosystem of Human-Machine Coexistence",
-          "zh": "未来学校新样态：人机共生的教育生态"
-        },
-        "content": {
-          "en": "The New Model of Future Schools: An Educational Ecosystem of Human-Machine Coexistence",
-          "zh": "未来学校新样态：人机共生的教育生态"
+          "en": "Educational Ecological Changes from the Perspective of History and Future Educational Elements",
+          "zh": "历史观下的教育生态变迁及未来教育要素"
         },
         "speakers": [
           {
@@ -6799,7 +6784,7 @@
               "zh": "腾讯教育顾问，广东省人力资源研究会基础教育与教师发展专业委员会副会长，广东教师继续再教育专委会常务理事"
             },
             "tags": [
-              "ws-ai-4-education"
+              "ws-ai-education"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -6807,17 +6792,17 @@
       },
       {
         "date": {
-          "en": "September 13",
-          "zh": "9月13日"
+          "en": "September 14",
+          "zh": "9月14日"
         },
-        "timeSlot": "11:05 - 11:25",
+        "timeSlot": "10:45 - 11:05",
         "title": {
-          "en": "AI + Knowledge Management: Empowering Primary and Secondary School Teachers",
-          "zh": "AI + 知识管理：为中小学教师赋能"
+          "en": "The Transformation of Teachers in the AI Era: From Knowledge Communicators to Knowledge Managers",
+          "zh": "AI 时代教师的转型：从知识传播者到知识管理师"
         },
         "content": {
-          "en": "AI + Knowledge Management: Empowering Primary and Secondary School Teachers",
-          "zh": "AI + 知识管理：为中小学教师赋能"
+          "en": "The Transformation of Teachers in the AI Era: From Knowledge Communicators to Knowledge Managers",
+          "zh": "AI 时代教师的转型：从知识传播者到知识管理师"
         },
         "speakers": [
           {
@@ -6831,7 +6816,7 @@
               "zh": "中国电子学会现代教育技术分会副主任委员，深圳第二高级中学创新教育中心主任"
             },
             "tags": [
-              "ws-ai-4-education"
+              "ws-ai-education"
             ],
             "image": "0-placeholder-person.png"
           }
@@ -6839,8 +6824,40 @@
       },
       {
         "date": {
-          "en": "September 13",
-          "zh": "9月13日"
+          "en": "September 14",
+          "zh": "9月14日"
+        },
+        "timeSlot": "11:05 - 11:25",
+        "title": {
+          "en": "Deliver High Quality AI STEM Tutor to Everyone, Everywhere",
+          "zh": "为全球每一个人提供高品质的人工智能 STEM 教育辅导服务"
+        },
+        "content": {
+          "en": "Deliver High Quality AI STEM Tutor to Everyone, Everywhere",
+          "zh": "为全球每一个人提供高品质的人工智能 STEM 教育辅导服务"
+        },
+        "speakers": [
+          {
+            "id": "weidong-shao",
+            "name": {
+              "en": "Weidong Shao",
+              "zh": "Weidong Shao"
+            },
+            "roleOrg": {
+              "en": "SciMigo Manager",
+              "zh": "SciMigo经理"
+            },
+            "tags": [
+              "ws-ai-education"
+            ],
+            "image": "0-placeholder-person.png"
+          }
+        ]
+      },
+      {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
         },
         "timeSlot": "11:25 - 12:00",
         "title": {
@@ -6863,7 +6880,7 @@
               "zh": "中山大学深圳附属学校副校长"
             },
             "tags": [
-              "ws-ai-4-education"
+              "ws-ai-education"
             ],
             "image": "0-placeholder-person.png"
           },
@@ -6878,7 +6895,7 @@
               "zh": "腾讯教育顾问，广东省人力资源研究会基础教育与教师发展专业委员会副会长，广东教师继续再教育专委会常务理事"
             },
             "tags": [
-              "ws-ai-4-education"
+              "ws-ai-education"
             ],
             "image": "0-placeholder-person.png"
           },
@@ -6893,9 +6910,9 @@
               "zh": "AI师傅创始人&CEO，原哈工大计算机副教授"
             },
             "tags": [
-              "ws-ai-4-education"
+              "ws-ai-education"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "sun-zhigang.jpg"
           },
           {
             "id": "haiyang-xin",
@@ -6908,7 +6925,7 @@
               "zh": "可可乐博CEO"
             },
             "tags": [
-              "ws-ai-4-education"
+              "ws-ai-education"
             ],
             "image": "0-placeholder-person.png"
           },
@@ -6923,9 +6940,9 @@
               "zh": "中国艺术研究院一级美术师"
             },
             "tags": [
-              "ws-ai-4-education"
+              "ws-ai-education"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "yan-feng.png"
           },
           {
             "id": "yanzhi-wang",
@@ -6938,7 +6955,7 @@
               "zh": "美国东北大学教授"
             },
             "tags": [
-              "ws-ai-4-education"
+              "ws-ai-education"
             ],
             "image": "yanzhi-wang.jpeg"
           }
@@ -7432,6 +7449,244 @@
         ]
       }
     ],
+    
+  "ws-globalization": [
+    {
+      "date": {
+        "en": "September 14",
+        "zh": "9月14日"
+      },
+      "timeSlot": "10:15-10:35",
+      "title": {
+        "en": "Concept and Implementation of an Open-Source Innovation International Cooperation Demonstration Zone",
+        "zh": "开源创新国际合作示范区的概念与实施"
+      },
+      "content": {
+        "en": "A talk on the concept and implementation of an open-source innovation international cooperation demonstration zone.",
+        "zh": "关于开源创新国际合作示范区的概念与实施的演讲。"
+      },
+      "speakers": [
+        {
+          "id": "guofeng-zhang",
+          "name": {
+            "en": "Guofeng Zhang",
+            "zh": "张国锋"
+          },
+          "roleOrg": {
+            "en": "Deputy Chairman of Shanghai Open Source Information Technology Association",
+            "zh": "上海开源信息技术协会常务副理事长"
+          },
+          "tags": [
+            "ws-globalization"
+          ],
+          "image": "0-placeholder-person.png"
+        }
+      ]
+    },
+    {
+      "date": {
+        "en": "September 14",
+        "zh": "9月14日"
+      },
+      "timeSlot": "10:35-10:55",
+      "title": {
+        "en": "Crossing Borders: Turning Open Source Innovation into a Global Business",
+        "zh": "跨越边界：将开源创新打造为全球商业产品"
+      },
+      "content": {
+        "en": "A talk on turning open source innovation into a global business.",
+        "zh": "关于将开源创新打造为全球商业产品的演讲。"
+      },
+      "speakers": [
+        {
+          "id": "william-guo",
+          "name": {
+            "en": "William Guo",
+            "zh": "郭炜"
+          },
+          "roleOrg": {
+            "en": "WhaleOps CEO, Apache Software Foundation Member",
+            "zh": "白鲸开源 CEO, Apache 基金会成员"
+          },
+          "tags": [
+            "ws-globalization"
+          ],
+          "image": "0-placeholder-person.png"
+        }
+      ]
+    },
+    {
+      "date": {
+        "en": "September 14",
+        "zh": "9月14日"
+      },
+      "timeSlot": "10:55-11:15",
+      "title": {
+        "en": "Open-source AI's Overseas Expansion Strategy: How to Build Global Open-source Projects",
+        "zh": "开源AI出海战略：如何打造全球化的开源项目"
+      },
+      "content": {
+        "en": "A talk on the strategy for expanding open-source AI projects globally.",
+        "zh": "关于开源AI出海战略以及如何打造全球化开源项目的演讲。"
+      },
+      "speakers": [
+        {
+          "id": "richard-lin",
+          "name": {
+            "en": "Richard Lin",
+            "zh": "林旅强"
+          },
+          "roleOrg": {
+            "en": "Co-founder of the Open Source Society, Head of the RTE Developer Community",
+            "zh": "开源社联合创始人，RTE开发者社区主理人"
+          },
+          "tags": [
+            "ws-globalization"
+          ],
+          "image": "0-placeholder-person.png"
+        }
+      ]
+    },
+    {
+      "date": {
+        "en": "September 14",
+        "zh": "9月14日"
+      },
+      "timeSlot": "11:15-11:35",
+      "title": {
+        "en": "Collaboration and Responsibility in the Open-Source AI Ecosystem",
+        "zh": "AI 开源生态的协作与责任"
+      },
+      "content": {
+        "en": "A talk on the collaboration and responsibility within the open-source AI ecosystem.",
+        "zh": "关于AI开源生态系统中的协作与责任的演讲。"
+      },
+      "speakers": [
+        {
+          "id": "adina-yakefu",
+          "name": {
+            "en": "Adina Yakefu",
+            "zh": "Adina Yakefu"
+          },
+          "roleOrg": {
+            "en": "Hugging Face EA / AI Researcher",
+            "zh": "Hugging Face EA / AI研究员"
+          },
+          "tags": [
+            "ws-globalization"
+          ],
+          "image": "0-placeholder-person.png"
+        }
+      ]
+    },
+    {
+      "date": {
+        "en": "September 14",
+        "zh": "9月14日"
+      },
+      "timeSlot": "11:35-12:15",
+      "title": {
+        "en": "Roundtable meeting: Opportunities and Challenges of Open Source Globalization",
+        "zh": "圆桌会议：开源出海的机会与挑战"
+      },
+      "content": {
+        "en": "A roundtable discussion on the opportunities and challenges of open source globalization.",
+        "zh": "关于开源出海的机会与挑战的圆桌会议。"
+      },
+      "speakers": [
+        {
+          "id": "richard-lin",
+          "name": {
+            "en": "Richard Lin",
+            "zh": "林旅强"
+          },
+          "roleOrg": {
+            "en": "Co-founder of the Open Source Society, Head of the RTE Developer Community",
+            "zh": "开源社联合创始人，RTE开发者社区主理人"
+          },
+          "tags": [
+            "ws-globalization"
+          ],
+          "image": "0-placeholder-person.png"
+        },
+        {
+          "id": "guofeng-zhang",
+          "name": {
+            "en": "Guofeng Zhang",
+            "zh": "张国锋"
+          },
+          "roleOrg": {
+            "en": "Deputy Chairman of Shanghai Open Source Information Technology Association",
+            "zh": "上海开源信息技术协会常务副理事长"
+          },
+          "tags": [
+            "ws-globalization"
+          ],
+          "image": "0-placeholder-person.png"
+        },
+        {
+          "id": "michael-yuan",
+          "name": {
+            "en": "Michael Yuan",
+            "zh": "Michael Yuan"
+          },
+          "roleOrg": {
+            "en": "The Founder of Second State, the Initiator of GOSIM",
+            "zh": "Second State 创始人、GOSIM 发起人"
+          },
+          "tags": [
+            "ws-globalization"
+          ],
+          "image": "0-placeholder-person.png"
+        },
+        {
+          "id": "william-guo",
+          "name": {
+            "en": "William Guo",
+            "zh": "郭炜"
+          },
+          "roleOrg": {
+            "en": "WhaleOps CEO, Apache Software Foundation Member",
+            "zh": "白鲸开源 CEO, Apache 基金会成员"
+          },
+          "tags": [
+            "ws-globalization"
+          ],
+          "image": "0-placeholder-person.png"
+        },
+        {
+          "id": "adina-yakefu",
+          "name": {
+            "en": "Adina Yakefu",
+            "zh": "Adina Yakefu"
+          },
+          "roleOrg": {
+            "en": "Hugging Face EA / AI Researcher",
+            "zh": "Hugging Face EA / AI研究员"
+          },
+          "tags": [
+            "ws-globalization"
+          ],
+          "image": "0-placeholder-person.png"
+        },
+        {
+          "id": "qin-wang",
+          "name": {
+            "en": "Qin Wang",
+            "zh": "王钦"
+          },
+          "roleOrg": {
+            "en": "Professor from the Chinese Academy of Social Sciences",
+            "zh": "中国社科院教授"
+          },
+          "tags": [
+            "ws-globalization"
+          ],
+          "image": "0-placeholder-person.png"
+        }
+      ]
+    }
+  ],
     "rust-china-plenary": [
       {
         "date": {

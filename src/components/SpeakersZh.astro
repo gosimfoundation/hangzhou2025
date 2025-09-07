@@ -10,15 +10,22 @@ const filteredSpeakers = speakersData.speakers.filter(
   (speaker) => speaker.draft !== true && speaker.id !== "tbd"
 )
 
+// Group categories by their group property (similar to schedule)
+const groupedCategories = {
+  tracks: speakersData.categories.filter(cat => !cat.group && cat.id !== 'all' && !cat.id.startsWith('ws-') && cat.id !== 'open-for-sdg' && cat.id !== 'forum-aivision' && cat.id !== 'rustchinaconf'),
+  workshops: speakersData.categories.filter(cat => !cat.group && cat.id.startsWith('ws-')),
+  colocated: speakersData.categories.filter(cat => !cat.group && (cat.id === 'open-for-sdg' || cat.id === 'forum-aivision' || cat.id === 'rustchinaconf'))
+}
+
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "images/speakers/*.{jpeg,jpg,png,gif}"
 )
 ---
 
-<div class="filter-container filter-alpha-animate">
+<div class="filter-container filter-alpha-animate" role="region" aria-label="Speaker filters">
   <div class="overlay overlay-dark" data-filter-toggle="close">
-    <div class="close" data-filter-toggle="close">
+    <div class="close" data-filter-toggle="close" role="button" aria-label="Close filters" tabindex="0">
       <div class="close-fill"></div>
       <div class="bar bar-top"></div>
       <div class="bar bar-bottom"></div>
@@ -26,18 +33,97 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   </div>
   <div class="filter-box">
     <p>Filter:</p>
-    <div class="filter-group" data-filter-group>
-      {
-        speakersData.categories.map((category) => (
-          <div
-            class="single-filter"
-            data-filter-status={category.id === "all" ? "active" : "not-active"}
-            data-filter-category={category.id}
-          >
-            <span>{category.name}</span>
-          </div>
-        ))
-      }
+    <div class="filter-group" data-filter-group role="group" aria-label="Speaker category filters">
+      <!-- All Speakers Button -->
+      <div class="all-speakers-section">
+        <div
+          class="single-filter all-button full-width"
+          data-filter-status="active"
+          data-filter-category="all"
+          data-multiple-select="false"
+          role="button"
+          aria-pressed="true"
+          aria-label="Show all speakers"
+          tabindex="0"
+        >
+          <span>全体讲师</span>
+        </div>
+      </div>
+      
+      <!-- Plenary & Tracks Group -->
+      <div class="filter-group-section">
+        <div class="filter-group-header">
+          <h4 class="filter-group-title">全体大会与分会场</h4>
+        </div>
+        <div class="filter-group-tags">
+          {
+            groupedCategories.tracks.map((category) => (
+              <div
+                class="single-filter"
+                data-filter-status="not-active"
+                data-filter-category={category.id}
+                data-multiple-select="false"
+                role="button"
+                aria-pressed="false"
+                aria-label={`Filter by ${category.name}`}
+                tabindex="0"
+              >
+                <span>{category.name}</span>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+      
+      <!-- Workshops Group -->
+      <div class="filter-group-section">
+        <div class="filter-group-header">
+          <h4 class="filter-group-title">工作坊</h4>
+        </div>
+        <div class="filter-group-tags">
+          {
+            groupedCategories.workshops.map((category) => (
+              <div
+                class="single-filter"
+                data-filter-status="not-active"
+                data-filter-category={category.id}
+                data-multiple-select="false"
+                role="button"
+                aria-pressed="false"
+                aria-label={`Filter by ${category.name}`}
+                tabindex="0"
+              >
+                <span>{category.name}</span>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+      
+      <!-- Co-located Events Group -->
+      <div class="filter-group-section">
+        <div class="filter-group-header">
+          <h4 class="filter-group-title">同期活动</h4>
+        </div>
+        <div class="filter-group-tags">
+          {
+            groupedCategories.colocated.map((category) => (
+              <div
+                class="single-filter"
+                data-filter-status="not-active"
+                data-filter-category={category.id}
+                data-multiple-select="false"
+                role="button"
+                aria-pressed="false"
+                aria-label={`Filter by ${category.name}`}
+                tabindex="0"
+              >
+                <span>{category.name}</span>
+              </div>
+            ))
+          }
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -54,19 +140,80 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     <div class="row row-filter">
       <div class="col">
         <div class="filter-group" data-filter-group>
-          {
-            speakersData.categories.map((category) => (
-              <div
-                class="single-filter"
-                data-filter-status={
-                  category.id === "all" ? "active" : "not-active"
-                }
-                data-filter-category={category.id}
-              >
-                <span>{category.name}</span>
-              </div>
-            ))
-          }
+          <!-- All Speakers Button -->
+          <div class="all-speakers-section">
+            <div
+              class="single-filter all-button full-width"
+              data-filter-status="active"
+              data-filter-category="all"
+              data-multiple-select="false"
+            >
+              <span>All</span>
+            </div>
+          </div>
+          
+          <!-- Plenary & Tracks Group -->
+          <div class="filter-group-section">
+            <div class="filter-group-header">
+              <h4 class="filter-group-title">全体大会与分会场</h4>
+            </div>
+            <div class="filter-group-tags">
+              {
+                groupedCategories.tracks.map((category) => (
+                  <div
+                    class="single-filter"
+                    data-filter-status="not-active"
+                    data-filter-category={category.id}
+                    data-multiple-select="false"
+                  >
+                    <span>{category.name}</span>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+          
+          <!-- Workshops Group -->
+          <div class="filter-group-section">
+            <div class="filter-group-header">
+              <h4 class="filter-group-title">工作坊</h4>
+            </div>
+            <div class="filter-group-tags">
+              {
+                groupedCategories.workshops.map((category) => (
+                  <div
+                    class="single-filter"
+                    data-filter-status="not-active"
+                    data-filter-category={category.id}
+                    data-multiple-select="false"
+                  >
+                    <span>{category.name}</span>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+          
+          <!-- Co-located Events Group -->
+          <div class="filter-group-section">
+            <div class="filter-group-header">
+              <h4 class="filter-group-title">同期活动</h4>
+            </div>
+            <div class="filter-group-tags">
+              {
+                groupedCategories.colocated.map((category) => (
+                  <div
+                    class="single-filter"
+                    data-filter-status="not-active"
+                    data-filter-category={category.id}
+                    data-multiple-select="false"
+                  >
+                    <span>{category.name}</span>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -79,7 +226,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
             data-filter-status="active"
             data-filter-index={index}
             data-filter-index-even={index % 2 === 0}
-            data-filter-category={speaker.tag}
+            data-filter-category={speaker.tags ? speaker.tags.join(' ') : ''}
           >
             <a
               href={`/zh/speakers/${speaker.id}/`}
@@ -133,4 +280,126 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     height: 100%;
     width: 100%;
   }
+  
+  /* All Speakers Button styling */
+  .all-speakers-section {
+    margin: 1rem 0;
+    width: 100%;
+  }
+  
+  .all-button.full-width {
+    width: 100%;
+    display: block;
+    background-color: #e9cb2c !important;
+    color: #212529 !important;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .all-button.full-width:hover {
+    background-color: rgb(208, 156, 0) !important;
+  }
+  
+  /* Filter group styling */
+  .filter-group-section {
+    margin: 1rem 0;
+  }
+  
+  .filter-group-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter-group-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .filter-group-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  /* Fix scrolling issues */
+  html, body {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    height: auto !important;
+    min-height: 100vh !important;
+  }
+  
+  .main {
+    overflow: visible !important;
+    min-height: 100vh !important;
+  }
 </style>
+
+<script>
+  // Single selection filtering for speakers
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterElements = document.querySelectorAll('[data-filter-category]') as NodeListOf<HTMLElement>;
+    const speakerElements = document.querySelectorAll('[data-filter-category]:not(.single-filter)') as NodeListOf<HTMLElement>;
+    let activeFilter = 'all'; // Start with 'all' active
+    
+    filterElements.forEach(filter => {
+      filter.addEventListener('click', function(this: HTMLElement) {
+        const category = this.getAttribute('data-filter-category') || '';
+        
+        // Set the new active filter
+        activeFilter = category;
+        
+        updateFilterStates();
+        if (activeFilter === 'all') {
+          showAllSpeakers();
+        } else {
+          filterSpeakers();
+        }
+      });
+    });
+    
+    function updateFilterStates() {
+      filterElements.forEach(filter => {
+        const category = filter.getAttribute('data-filter-category') || '';
+        const isActive = category === activeFilter;
+        
+        filter.setAttribute('data-filter-status', isActive ? 'active' : 'not-active');
+        filter.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+      });
+    }
+    
+    function showAllSpeakers() {
+      speakerElements.forEach(speaker => {
+        speaker.style.display = 'block';
+        speaker.setAttribute('data-filter-status', 'active');
+      });
+    }
+    
+    function filterSpeakers() {
+      speakerElements.forEach(speaker => {
+        const speakerCategories = speaker.getAttribute('data-filter-category') || '';
+        const speakerCategoryArray = speakerCategories.split(' ').filter(Boolean);
+        const shouldShow = speakerCategoryArray.includes(activeFilter);
+        
+        speaker.style.display = shouldShow ? 'block' : 'none';
+        speaker.setAttribute('data-filter-status', shouldShow ? 'active' : 'not-active');
+      });
+    }
+    
+    // Initialize filter states and show all speakers by default
+    updateFilterStates();
+    showAllSpeakers();
+  });
+</script>
