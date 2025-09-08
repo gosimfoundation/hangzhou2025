@@ -69,7 +69,7 @@ const speakerSessions = [
         )
         .map((session) => ({
           title: typeof session.title === 'string' ? session.title : session.title?.zh || session.title?.en || '',
-          titleForUrl: typeof session.title === 'string' ? session.title : session.title?.en || '',
+          titleForUrl: (typeof session.title === 'string' ? session.title : session.title?.en || session.title?.zh || ''),
           speakers: session.speakers.map(s => ({
             name: typeof s.name === 'string' ? s.name : s.name?.zh || s.name?.en || ''
           })),
@@ -91,6 +91,7 @@ const speakerSessions = [
     )
     .map((session) => ({
       title: session.title,
+      titleForUrl: session.title,
       speakers: session.speakers,
       date: session.date,
       timeSlot: session.timeSlot,
@@ -209,7 +210,7 @@ const socialIconMap: Record<string, string> = {
               <ul class="row row-list">
                 {speakerSessions.map((session) => (
                   <a
-                    href={`/zh/schedule/${session.titleForUrl
+                    href={`/zh/schedule/${(session.titleForUrl || session.title || '')
                       .toLowerCase()
                       .replace(/[^\w\s-]/g, "")
                       .replace(/\s+/g, "-")
