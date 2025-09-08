@@ -100,7 +100,7 @@ def create_speaker_event_mapping():
     
     # Dora Workshop
     ws_dora_speakers = [
-        "ruping-ceng", "yang-li", "yiming-zhang", "baorui-lv", "tao-li", 
+        "ruping-cen", "yang-li", "yiming-zhang", "baorui-lv", "tao-li", 
         "xiang-yang", "hu-youhao", "zhongjin-lu", "yijun-chen", "gege-wang", "bob-ding"
     ]
     add_speaker_tags(ws_dora_speakers, "ws-dora")

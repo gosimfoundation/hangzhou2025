@@ -5697,9 +5697,9 @@
         },
         "speakers": [
           {
-            "id": "ruping-ceng",
+            "id": "ruping-cen",
             "name": {
-              "en": "Ruping Ceng",
+              "en": "Ruping Cen",
               "zh": "岑汝平"
             },
             "roleOrg": {
@@ -5709,7 +5709,7 @@
             "tags": [
               "ws-dora"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "ruping-cen.jpg"
           }
         ]
       },
