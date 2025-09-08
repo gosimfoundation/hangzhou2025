@@ -4792,6 +4792,19 @@
               "ai-next"
             ],
             "image": "karol-stryja.png"
+          },
+          {
+            "id": "katarzyna-z-staroslawska",
+            "name": {
+              "en": "Katarzyna Z. Staroslawska",
+              "zh": "Katarzyna Z. Staroslawska"
+            },
+            "roleOrg": {
+              "en": "External Expert, Agencja Badań Medycznyc",
+              "zh": "外部专家, Agencja Badań Medycznyc"
+            },
+            "tags": ["ai-next"],
+            "image": "katarzyna-z-staroslawska.jpeg"
           }
         ]
       },
