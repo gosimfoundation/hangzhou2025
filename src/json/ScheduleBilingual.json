@@ -2055,8 +2055,8 @@
           "zh": "OpenSeek：开源驱动的下一代AI模型"
         },
         "content": {
-          "en": "OpenSeek: Open-Source Driven Next AI Models",
-          "zh": "OpenSeek：开源驱动的下一代AI模型"
+          "en": "OpenSeek aims to unite global open-source communities to collaboratively advance algorithms, data, and systems for next-generation models. In stage one, we released CCI4.0, OpenSeek-small, and OpenSeek-Pipeline, developed the DualPipe-V strategy in FlagScale, and launched a collaborative task with the PAZHOU Competition to support community contributions. The initiative is organized into three dedicated working groups, focusing respectively on data, algorithms, and systems.",
+          "zh": "OpenSeek旨在联合全球开源社区，协作推进算法、数据和系统，促进下一代模型的发展。在第一阶段，我们发布了CCI4.0、OpenSeek-small和OpenSeek-Pipeline，在FlagScale中开发了DualPipe-V策略，并与琶洲竞赛启动协作任务以支持社区贡献。该倡议组织为三个专门的工作组，分别专注于数据、算法和系统。"
         },
         "speakers": [
           {
@@ -2087,8 +2087,8 @@
           "zh": "引擎与熔炉：在超级计算机上构建定制化的 PyTorch 框架"
         },
         "content": {
-          "en": "The Engine and the Forge: Building a Custom PyTorch Framework on a Supercomputer",
-          "zh": "引擎与熔炉：在超级计算机上构建定制化的 PyTorch 框架"
+          "en": "This is a deep-dive for the builders, architects, and infrastructure experts. We will take the audience on a technical journey into the heart of the Bielik.AI project. We start with the \"engine\": our custom PyTorch framework built specifically for supercomputer environments. This presentation explores the architectural decisions, optimization strategies, and engineering challenges involved in adapting PyTorch for large-scale distributed training on supercomputing infrastructure. We examine performance bottlenecks, memory management strategies, and the practical considerations of scaling deep learning workloads to thousands of compute nodes.",
+          "zh": "这是为构建者、架构师和基础设施专家准备的深度探讨。我们将带领听众踏上深入Bielik.AI项目核心的技术之旅。我们从\"引擎\"开始：我们专为超级计算机环境构建的定制PyTorch框架。本次演讲探讨在超级计算基础设施上适配PyTorch进行大规模分布式训练所涉及的架构决策、优化策略和工程挑战。我们研究性能瓶颈、内存管理策略，以及将深度学习工作负载扩展到数千个计算节点的实际考虑因素。"
         },
         "speakers": [
           {
@@ -2119,8 +2119,8 @@
           "zh": "Khronos在标准化AI加速中的角色：AI生态系统研究项目的发现"
         },
         "content": {
-          "en": "Khronos's Role in Standardizing AI Acceleration: Findings from the AI Ecosystem Research Project",
-          "zh": "Khronos在标准化AI加速中的角色：AI生态系统研究项目的发现"
+          "en": "This presentation will reveal the key findings of the Khronos Group's comprehensive AI Ecosystem Research Project, a major initiative undertaken to gain a data-driven understanding of the rapidly evolving AI acceleration landscape. We explore how Khronos standards like OpenCL, Vulkan, and emerging specifications address the diverse needs of AI developers across different hardware platforms. The presentation covers industry trends, hardware vendor perspectives, developer requirements, and the strategic role of open standards in ensuring interoperability and innovation in AI acceleration technologies.",
+          "zh": "本次演讲将揭示Khronos组织全面AI生态系统研究项目的关键发现，这是一项旨在数据驱动地理解快速发展的AI加速领域的重大举措。我们探讨OpenCL、Vulkan等Khronos标准以及新兴规范如何满足不同硬件平台上AI开发者的多样化需求。演讲涵盖行业趋势、硬件供应商观点、开发者需求，以及开放标准在确保AI加速技术互操作性和创新方面的战略作用。"
         },
         "speakers": [
           {
@@ -2151,8 +2151,8 @@
           "zh": "GLM 4.5系列模型开源生态"
         },
         "content": {
-          "en": "Open-Source Ecosystem of the GLM-4.5 Series Models",
-          "zh": "GLM 4.5系列模型开源生态"
+          "en": "This presentation will discuss the models open-sourced by ZhiPuAI since 2025, including the GLM-4.5 series and GLM-4.1V series, as well as describe ZhiPuAI's engineering and algorithmic adaptation in model open-source, and community collaboration models. Through a systematic explanation of ZhiPuAI's open-source model processes, developers will become familiar with the engineering and algorithmic challenges in the large model open-source process, solutions, and working methods.",
+          "zh": "本次介绍将陈述2025年来智谱开源的模型，包括GLM-4.5系列，GLM-4.1V系列，以及陈述智谱AI在模型开源上的工程与算法适配，社区合作模式。通过系统性阐述智谱AI开源模型的流程，让开发者熟悉大模型开源过程中的工程和算法难题，解决方案和工作方法。"
         },
         "speakers": [
           {
@@ -2311,8 +2311,8 @@
           "zh": "昇腾高吞吐投机推理框架Omni-Infer"
         },
         "content": {
-          "en": "Omni-Infer: Ascend High-Throughput Speculative Inference Framework",
-          "zh": "昇腾高吞吐投机推理框架Omni-Infer"
+          "en": "High-acceptance-rate speculative inference schemes represented by EAGLE/MTP are driving the deployment of speculative inference. Speculative inference computes multiple tokens in one inference, which can fully leverage Ascend's high computational density-to-bandwidth ratio. To this end, we developed the high-performance inference framework omniinfer to fully unleash Ascend's performance. Targeting the model structural characteristics of speculative inference schemes like EAGLE and MTP, we optimized the speculative inference scheduling framework, reducing Ascend's idle time, and optimized sampling methods to maintain model accuracy while improving acceptance rates. We also implemented hardware-specific optimizations for Ascend's characteristics.",
+          "zh": "EAGLE/MTP为代表的高接受率的投机推理方案，正推动着投机推理的落地。投机推理一次推理计算多个token，能够充分发挥昇腾高计算密度带宽比的特点。为此，我们开发适配了高性能推理框架omniinfer，来充分发挥昇腾的性能。针对eagle、mtp等投机推理方案模型结构上的特点，我们优化投机推理的调度框架，降低昇腾的空闲时间，并对采样方式进行优化，维持模型精度、提升接受率。当然，针对昇腾硬件的特点，我们也实现了针对性的硬件优化。"
         },
         "speakers": [
           {
@@ -2375,8 +2375,8 @@
           "zh": "面向国产智能算力的大模型训推优化平台"
         },
         "content": {
-          "en": "Large Model Training and Inference Optimization Platform for Indigenous Intelligent Computing Power",
-          "zh": "面向国产智能算力的大模型训推优化平台"
+          "en": "This presentation introduces Qingcheng.ai's design and development of a training and inference optimization platform for indigenous large models, with improving indigenous intelligent computing power as the core application scenario. The platform adopts the self-developed Chitu inference engine, designs a unified framework for training and fine-tuning, and proposes hybrid precision and low-bit quantization optimization schemes. While maintaining computational accuracy and general problem-solving capabilities, it significantly improves model computational speed and reduces computational resource consumption through engineering and product practices.",
+          "zh": "本讲介绍清程极智以国产智能算力提升为核心应用场景，设计开发面向国产大模型的训推优化平台，采用自研赤兔推理引擎，设计训练及微调统一框架、提出混合精度和低比特量化优化方案，在保持计算精度及通用问题求解能力的同时，大幅度提升模型的计算速度、降低计算资源消耗的工程和产品实践。通过拆解大模型推理引擎的挑战和优化技术，展示国产推理引擎与国产智能算力适配的性能优势，以及在此基础之上，如何通过推理引擎的系统优化，达到E2E业务应用Benchmark优化的目的。"
         },
         "speakers": [
           {
@@ -2407,8 +2407,8 @@
           "zh": "vLLM：人人可用的简单、快速且低成本的大模型服务方案"
         },
         "content": {
-          "en": "vLLM: Easy, Fast, and Cheap LLM Serving for Everyone",
-          "zh": "vLLM：人人可用的简单、快速且低成本的大模型服务方案"
+          "en": "vLLM is a fast and easy-to-use library for LLM inference and serving. In this talk, I will briefly introduce the evolution of the vLLM project, the open-source community behind it, and highlight some features that are interesting to many users.",
+          "zh": "vLLM是一个快速且易于使用的大语言模型推理和服务库。在这次演讲中，我将简要介绍vLLM项目的发展历程、背后的开源社区，并重点介绍一些用户感兴趣的功能特性。"
         },
         "speakers": [
           {
@@ -2439,8 +2439,8 @@
           "zh": "蚂蚁多模态大模型实践"
         },
         "content": {
-          "en": "Multimodal Large Language Model Practices at Ant Group",
-          "zh": "蚂蚁多模态大模型实践"
+          "en": "Introduction to Ant Group's Ming-Omni series open-source work in the large model field, sharing practices and progress in multimodal large model architecture evolution, cross-modal fusion, and unified generation and understanding. Through joint design and optimization of model architecture and training processes, we are committed to building comprehensive modal capabilities for models, achieving multimodal foundation models that can see, hear, speak, and draw.",
+          "zh": "介绍蚂蚁在大模型领域Ming-Omni系列开源工作，分享在多模态大模型架构演进、跨模态融合、生成与理解统一等技术领域的实践与进展。通过模型架构、训练过程的联合设计与优化，致力于打造模型全模态能力，实现能看、能听、能说、能画的多模态基础模型。"
         },
         "speakers": [
           {
@@ -2503,8 +2503,8 @@
           "zh": "SGLang使能MindSpore框架方案"
         },
         "content": {
-          "en": "SGLang enabling MindSpore Framework",
-          "zh": "SGLang使能MindSpore框架方案"
+          "en": "Currently, SGLang exclusively supports the PyTorch AI framework and runs on Ascend NPUs through the torch_npu plugin. We designed a dual-framework collaborative solution for PyTorch and MindSpore, fully considering cross-framework resource reuse while simplifying interfaces to leverage MindSpore's performance advantages on Ascend NPUs. Developers can easily integrate MindSpore models into SGLang while maintaining unchanged user workflows. MindSpore's integration solution also provides a foundation for subsequent integration of other frameworks.",
+          "zh": "目前，SGLang唯一支持的AI框架是PyTorch，并通过torch_npu插件得以在昇腾NPU上运行。我们设计了PyTorch和MindSpore双框架协同运行的方案，充分考虑了跨框架的资源复用，并尽量简化接口，发挥MindSpore在昇腾NPU上的性能优势。开发者能够轻松地将MindSpore模型接入SGLang，而用户的使用流程无任何变化。MindSpore的接入方案也为后续其他框架的接入提供了基础。"
         },
         "speakers": [
           {
@@ -2697,8 +2697,8 @@
           "zh": "OpenCV 5：开源软件的奋斗与胜利"
         },
         "content": {
-          "en": "OpenCV 5: The Struggles & Triumph of Open Source Software",
-          "zh": "OpenCV 5：开源软件的奋斗与胜利"
+          "en": "In a world where massive AI projects are closed-source, and a handful of companies are set to control the future of AI, people are rightfully asking, \"Where is OpenCV 5?\" Join us to learn about the past, present, and future of the open-source computer vision library we all use and love. We will discuss what is new and improved in OpenCV 5 and what is deprecated. Finally, we will discuss OpenCV's future roadmap.",
+          "zh": "在一个大型AI项目都是闭源的世界里，少数公司将控制AI的未来，人们理所当然地问：\"OpenCV 5在哪里？\"加入我们，了解我们都在使用和喜爱的开源计算机视觉库的过去、现在和未来。我们将讨论OpenCV 5中的新增和改进功能以及已弃用的内容。最后，我们将讨论OpenCV的未来路线图。"
         },
         "speakers": [
           {
@@ -2729,8 +2729,8 @@
           "zh": "从非公路车到机器人：康迪科技的“三海”突围之路"
         },
         "content": {
-          "en": "From Off-Road Vehicles to Robotics: Kandi Technologies’ “Three Seas” Breakthrough Journey",
-          "zh": "从非公路车到机器人：康迪科技的“三海”突围之路"
+          "en": "Based on the foundation of globalized production, supply chain, and sales networks built from electric off-road vehicles, this talk describes how Kandi Technologies, now serving as an integrator in the intelligent robotics field, anchors North American security patrol and golf caddy robots. It explores the journey from manufacturing overseas to intelligent manufacturing overseas, and then to ecological overseas expansion, becoming China's technology bridge.",
+          "zh": "基于电动非公路车构建的生产全球化与供应链全球化，销售网络全球化的基础。讲述康迪科技如今作为智能机器人领域的集成者，锚定北美安防巡检以及高尔夫球童机器人，如何从制造出海，到智造出海，再到生态出海，成为中国技术摆渡人。"
         },
         "speakers": [
           {
@@ -2761,8 +2761,8 @@
           "zh": "Amiga：面向智能农业与户外物流的模块化AI 优先平台"
         },
         "content": {
-          "en": "Amiga: A Modular, AI‑First Platform for Smart Farming and Outdoor Logistics",
-          "zh": "Amiga：面向智能农业与户外物流的模块化AI 优先平台"
+          "en": "This talk presents Amiga, a next-generation rover platform, specifically designed for modular robotics in farming and outdoor logistics. Engineered for rapid prototyping and real-world deployment, Amiga enables customizable electric utility vehicles that streamline labor-intensive tasks, reduce costs, and support organic regenerative farming practices. We explore Amiga's hardware and software modularity, highlighting interchangeable toolkits and actuation systems, and demonstrate how the SDK offers easy-to-use APIs and edge-ML pipelines that power agentic AI and visual-language action models for dynamic environmental responsiveness.",
+          "zh": "本次演讲介绍Amiga，一个专为农业和户外物流模块化机器人设计的下一代探测器平台。Amiga专为快速原型开发和实际部署而设计，能够提供可定制的电动多功能车辆，简化劳动密集型任务，降低成本，并支持有机再生农业实践。我们将探索Amiga的硬件和软件模块化特性，重点介绍可互换的工具包和执行系统，并演示SDK如何提供易于使用的API和边缘ML管道，为动态环境响应提供智能体AI和视觉-语言动作模型。"
         },
         "speakers": [
           {
@@ -3026,8 +3026,8 @@
           "zh": "从格物到致知，具身智能机器人开发范式的改变"
         },
         "content": {
-          "en": "Development Practices with Dora on OpenHarmony",
-          "zh": "从格物到致知，具身智能机器人开发范式的改变"
+          "en": "Shenkaihong, in collaboration with industry and academia, is developing an open-source, full-scenario, and intelligent full-stack robot operating system based on OpenHarmony. This system targets various robotic application scenarios, including education, industrial automation, inspection, and service robotics. The presentation will explore the architecture, design principles, and practical implementation of this comprehensive robotics platform, demonstrating how OpenHarmony can serve as the foundation for next-generation intelligent robotics systems.",
+          "zh": "深开鸿与产学研各方合作，正在开发基于OpenHarmony的开源、全场景、智能化的全栈机器人操作系统。该系统面向教育、工业自动化、巡检、服务机器人等各种机器人应用场景。演讲将探讨这个全面机器人平台的架构、设计原理和实际实现，展示OpenHarmony如何作为下一代智能机器人系统的基础。"
         },
         "speakers": [
           {
@@ -3119,11 +3119,11 @@
         "timeSlot": "11:25 - 12:00",
         "title": {
           "en": "HopeJr: A $500 Open-Source Humanoid Arm for Everyone",
-          "zh": "面向物理AI的Cosmos世界基础模型"
+          "zh": "HopeJr：面向所有人的500美元开源人形机械臂"
         },
         "content": {
-          "en": "HopeJr: A $500 Open-Source Humanoid Arm for Everyone",
-          "zh": "面向物理AI的Cosmos世界基础模型"
+          "en": "An overview of a $500 open-source humanoid arm and glove system enabling real-time learning and teleoperation. We'll explore how AI, robotics, and embedded systems merge to empower individual creators and researchers with accessible humanoid robotics technology. This presentation covers the design philosophy, technical architecture, manufacturing considerations, and community development model that makes advanced robotics accessible to makers, students, and researchers worldwide. We examine the integration challenges, control systems, and the potential for democratizing humanoid robotics development.",
+          "zh": "概述一个500美元的开源人形机械臂和手套系统，支持实时学习和远程操作。我们将探讨AI、机器人和嵌入式系统如何融合，为个人创作者和研究人员提供可访问的人形机器人技术。本次演讲涵盖设计理念、技术架构、制造考虑因素，以及使全球制造者、学生和研究人员都能使用先进机器人技术的社区开发模式。我们研究集成挑战、控制系统，以及人形机器人开发民主化的潜力。"
         },
         "speakers": [
           {
@@ -3151,11 +3151,11 @@
         "timeSlot": "14:00 - 14:35",
         "title": {
           "en": "Powering the Future of ROS 2 with Zenoh: Fast, Scalable, and Resilient Communication for Robotics and Autonomy",
-          "zh": "具身大小脑操作框架与具身大脑模型构建"
+          "zh": "用Zenoh驱动ROS 2的未来：面向机器人与自主系统的快速、可扩展且弹性的通信"
         },
         "content": {
-          "en": "Powering the Future of ROS 2 with Zenoh: Fast, Scalable, and Resilient Communication for Robotics and Autonomy",
-          "zh": "具身大小脑操作框架与具身大脑模型构建"
+          "en": "Modern robotics, V2V, and autonomous systems need fast, scalable, and resilient communication. Zenoh unifies pub/sub, queries, and storage, offering low latency, Tier-1 ROS 2 middleware rmw_zenoh, and seamless edge-to-cloud integration. This presentation explores how Zenoh revolutionizes robotics communication architectures, enabling distributed systems that can scale from single robots to massive fleets while maintaining real-time performance and fault tolerance. We examine practical deployment scenarios, performance benchmarks, and the roadmap for next-generation robotics infrastructure.",
+          "zh": "现代机器人、车联网和自主系统需要快速、可扩展且弹性的通信。Zenoh统一了发布/订阅、查询和存储，提供低延迟、一级ROS 2中间件rmw_zenoh，以及无缝的边缘到云集成。本次演讲探讨Zenoh如何革命性地改变机器人通信架构，使分布式系统能够从单个机器人扩展到大规模机群，同时保持实时性能和容错能力。我们研究实际部署场景、性能基准以及下一代机器人基础设施的路线图。"
         },
         "speakers": [
           {
@@ -3215,11 +3215,11 @@
         "timeSlot": "15:40 - 16:15",
         "title": {
           "en": "SpatialLM: Training Large Language Models for Structured Indoor Modeling",
-          "zh": "午餐"
+          "zh": "SpatialLM：训练用于结构化室内建模的大型语言模型"
         },
         "content": {
-          "en": "SpatialLM: Training Large Language Models for Structured Indoor Modeling",
-          "zh": "午餐"
+          "en": "SpatialLM is a large language model designed to process 3D point cloud data and generate structured 3D scene understanding outputs. These outputs include architectural elements like walls, doors, windows, and furniture arrangements with precise spatial relationships. This presentation explores the novel approaches for training language models to understand spatial geometry, the challenges of bridging natural language processing with 3D spatial reasoning, and practical applications in robotics, AR/VR, and smart building management systems.",
+          "zh": "SpatialLM是一个专为处理3D点云数据并生成结构化3D场景理解输出而设计的大型语言模型。这些输出包括墙壁、门、窗户和家具布置等建筑元素以及精确的空间关系。本次演讲探讨训练语言模型理解空间几何的新颖方法、自然语言处理与3D空间推理桥接的挑战，以及在机器人、AR/VR和智能建筑管理系统中的实际应用。"
         },
         "speakers": [
           {
@@ -3316,8 +3316,8 @@
           "zh": "AI与下一代Web"
         },
         "content": {
-          "en": "AI and Next Generation Web - Agentic Web",
-          "zh": "AI与下一代Web"
+          "en": "W3C works with global Web community on analyzing the broad and evolving impact of AI systems on the Web, and examining the potential role of Web standardization in shaping and managing that impact. This talk shares the recent AI related activities and discussions in W3C such as AI in browser, AI Agents, Web ML, AI and accessibility, AI security and privacy, as well as some coming activities on the topic of Web and AI.",
+          "zh": "W3C与全球Web社区合作，分析AI系统对Web的广泛和不断演变的影响，并研究Web标准化在塑造和管理这种影响方面的潜在作用。本次演讲分享W3C最近与AI相关的活动和讨论，如浏览器中的AI、AI智能体、Web ML、AI与可访问性、AI安全与隐私，以及一些即将开展的Web和AI主题活动。"
         },
         "speakers": [
           {
@@ -3348,8 +3348,8 @@
           "zh": "智能体协议：引领互联网迈向 Agentic Web 时代"
         },
         "content": {
-          "en": "Agent Protocol: Leading the Internet into the Agentic Web Era",
-          "zh": "智能体协议：引领互联网迈向 Agentic Web 时代"
+          "en": "With the development of large model technology, agents are gradually becoming core participants in the Internet. This presentation reviews the technical evolution from the Semantic Web to the Agentic Web, proposing the urgency and necessity of building standardized agent network protocols. We identify four key trends of the Agentic Web: agents replacing traditional software, achieving universal interconnection, protocol-centered connection methods, and autonomous collaborative capabilities. We propose design principles and functional requirements for agent network protocols, and compare mainstream protocols like MCP, A2A, ACP and ANP.",
+          "zh": "随着大模型技术的发展，智能体（Agent）正逐步成为互联网的核心参与者。本次演讲梳理了从语义网到Agentic Web的技术演进，提出构建标准化智能体网络协议的紧迫性与必要性。我们总结出Agentic Web的四大关键趋势：智能体替代传统软件、实现普遍互联、以协议为核心连接方式，以及具备自主协作能力。同时，本文指出当前互联网在接口、协作和数据孤岛等方面对智能体发展构成阻碍。为解决上述挑战，我们提出了智能体网络协议的设计原则与功能需求，并比较分析了MCP、A2A、ACP与ANP等主流协议。"
         },
         "speakers": [
           {
@@ -3380,8 +3380,8 @@
           "zh": "Servo：一个用Rust编写的全新网页引擎"
         },
         "content": {
-          "en": "Servo: A new web engine written in Rust",
-          "zh": "Servo：一个用Rust编写的全新网页引擎"
+          "en": "Servo is a modern open source web rendering engine written in Rust. Built for safety, modularity, and performance, Servo brings memory safety and concurrency to the forefront of browser engine innovation. Servo development has been reactivated in 2023 since Igalia took over the maintenance of the project, the project community has been constantly growing since then. In this talk we'll discuss the last few years working on the project, the main features implemented and the overall evolution of Servo. We'll highlight the new platform additions like Android and OpenHarmony, together with the multiple optimizations that have been developed to make Servo a viable alternative to other web engines.",
+          "zh": "Servo是一个用Rust编写的现代开源Web渲染引擎。Servo专为安全性、模块化和性能而构建，将内存安全和并发性带到了浏览器引擎创新的前沿。自2023年Igalia接管项目维护以来，Servo开发重新激活，项目社区不断壮大。在这次演讲中，我们将讨论过去几年项目的工作情况、实现的主要功能以及Servo的整体演进。我们将重点介绍Android和OpenHarmony等新平台的增加，以及为使Servo成为其他Web引擎可行替代方案而开发的多种优化。"
         },
         "speakers": [
           {
@@ -3412,8 +3412,8 @@
           "zh": "超越现有范式：面向后数字时代AI生态系统的RVP协议"
         },
         "content": {
-          "en": "Beyond Existing Paradigms: RVP Protocol for Post-Digital AI Ecosystems",
-          "zh": "超越现有范式：面向后数字时代AI生态系统的RVP协议"
+          "en": "As AI technology enters a new era, the limitations of traditional digital architecture become increasingly apparent. This presentation will introduce the revolutionary RVP (Reality-Virtualization-Perception) protocol, a brand-new AI ecosystem architecture designed for the post-digital era. The talk will deeply analyze the three core components of the RVP protocol: multi-source data fusion at the reality layer, digital twin technology at the virtualization layer, and multimodal AI capability integration at the perception layer. It will highlight how this protocol breaks through existing technical bottlenecks to achieve cross-domain collaboration and adaptive evolution of intelligent networks.",
+          "zh": "随着AI技术迈入新纪元，传统数字化架构的局限性日益凸显。本次演讲将介绍革命性的RVP（Reality-Virtualization-Perception）协议，这是面向后数字时代设计的全新AI生态系统架构。演讲将深入解析RVP协议的三大核心：现实层的多源数据融合、虚拟化层的数字孪生技术、以及感知层的多模态AI能力整合。重点阐述该协议如何突破现有技术瓶颈，实现跨域协同、自适应进化的智能网络。通过智慧城市、自动驾驶、工业互联网等实际应用案例，展示RVP协议在解决数据孤岛、算力分散、模型割裂等关键问题上的独特优势。"
         },
         "speakers": [
           {
@@ -3476,8 +3476,8 @@
           "zh": "构建Agentic Web：谷歌的愿景、技术与框架，共创协作式 AI 未来"
         },
         "content": {
-          "en": "Building the Agentic Web: Google's Vision, Technology, and Frameworks for a Collaborative AI Future",
-          "zh": "构建Agentic Web：谷歌的愿景、技术与框架，共创协作式 AI 未来"
+          "en": "Unlock the infinite potential of AI agents! This keynote presentation will dive deep into how to leverage ADK, A2A, MCP and Agent Engine to build AI agents. Learn how to harness Google's latest AI technologies to create collaborative, efficient, and scalable multi-agent systems. Explore the future of agent development and discover how agents will revolutionize the way we interact with technology. This comprehensive overview covers Google's strategic vision for the agentic web, practical implementation frameworks, and the collaborative ecosystem needed to realize the full potential of AI-powered web interactions.",
+          "zh": "解锁 AI 智能体的无限潜能！本场专题演讲将深入探讨如何借助 ADK、A2A、MCP 和 Agent Engine 构建 AI 智能体。了解如何利用 Google 最新的 AI 技术打造协作性强、高效、可扩展的多智能体系统。探索智能体开发的未来，了解智能体将如何革新我们与科技的互动方式。这一全面概述涵盖了Google对智能体网络的战略愿景、实用的实现框架，以及实现AI驱动的网络交互全部潜力所需的协作生态系统。"
         },
         "speakers": [
           {
@@ -3540,8 +3540,8 @@
           "zh": "MarkdownFlow，下一个HTML"
         },
         "content": {
-          "en": "MarkdownFlow, the next HTML",
-          "zh": "MarkdownFlow，下一个HTML"
+          "en": "MarkdownFlow extends standard Markdown with AI intelligence to create personalized, interactive pages. Its tagline is \"Write Once, Deliver Personally\". All of humans, code and AIs can read and write MarkdownFlow content seamlessly. This revolutionary approach combines the simplicity of Markdown with the power of AI-driven personalization, enabling content that adapts dynamically to each reader's context, preferences, and needs. We explore how MarkdownFlow bridges the gap between static content and dynamic user experiences, making web content more accessible and engaging.",
+          "zh": "MarkdownFlow通过AI智能扩展标准Markdown，创建个性化的交互式页面。它的口号是\"写一次，个性化交付\"。所有人类、代码和AI都可以无缝地读写MarkdownFlow内容。这种革命性方法将Markdown的简洁性与AI驱动的个性化能力相结合，使内容能够根据每个读者的上下文、偏好和需求动态适应。我们探讨MarkdownFlow如何弥合静态内容和动态用户体验之间的差距，使Web内容更加可访问和引人入胜。"
         },
         "speakers": [
           {
@@ -3572,8 +3572,8 @@
           "zh": "第一人称项目：在个人AI智能体中建立信任"
         },
         "content": {
-          "en": "The First Person Project: Establishing Trust in Personal AI Agents",
-          "zh": "第一人称项目：在个人AI智能体中建立信任"
+          "en": "Personal AI agents are one of the most exciting areas in AI. They have the potential to assist individuals in thousands of personal tasks, projects, and decisions. But for personal AI agents to take action on behalf of individuals, they must have the explicit trust and permission of their principals. This presentation explores the fundamental challenges of establishing trust relationships between humans and AI agents, including issues of consent, delegation of authority, privacy protection, and accountability. We examine technical solutions for trust frameworks, cryptographic proof systems, and governance models that can enable safe and beneficial personal AI agent deployment.",
+          "zh": "个人AI智能体是AI中最令人兴奋的领域之一。它们有潜力在成千上万的个人任务、项目和决策中为个人提供帮助。但是要让个人AI智能体代表个人采取行动，它们必须获得其委托人的明确信任和许可。本次演讲探讨在人类与AI智能体之间建立信任关系的根本挑战，包括同意、权威委托、隐私保护和问责制等问题。我们研究信任框架、密码学证明系统和治理模型的技术解决方案，这些解决方案能够实现安全且有益的个人AI智能体部署。"
         },
         "speakers": [
           {
@@ -3604,8 +3604,8 @@
           "zh": "面向智能体网络的去中心化标识符（DID）"
         },
         "content": {
-          "en": "Decentralized Identifiers (DIDs) for the Agentic Web",
-          "zh": "面向智能体网络的去中心化标识符（DID）"
+          "en": "The Agentic Web needs digital identity that is independent of central authorities and intermediaries. This talk will present the technology, current activities, and the community of Decentralized Identifiers (DIDs), which enable verifiable, self-sovereign digital identity for AI agents and autonomous systems. We explore how DIDs can provide secure, privacy-preserving identity management for agent-to-agent interactions, the challenges of implementing decentralized identity in distributed AI systems, and the role of blockchain and cryptographic technologies in ensuring trust and authenticity in the agentic web ecosystem.",
+          "zh": "智能体网络需要独立于中央权威机构和中介机构的数字身份。本次演讲将介绍去中心化标识符（DID）的技术、当前活动和社区，DID能够为AI智能体和自主系统提供可验证的自主数字身份。我们探讨DID如何为智能体间交互提供安全、隐私保护的身份管理，在分布式AI系统中实施去中心化身份的挑战，以及区块链和加密技术在确保智能体网络生态系统中信任和真实性方面的作用。"
         },
         "speakers": [
           {
@@ -3732,8 +3732,8 @@
           "zh": "开源MCP通用访问网关，解决Agent工具孤岛困境"
         },
         "content": {
-          "en": "Open Source MCP Universal Access Gateway, Solving Agent Tool Island Dilemma",
-          "zh": "开源MCP通用访问网关，解决Agent工具孤岛困境"
+          "en": "MCP provides powerful capabilities for AI Agents, but practical MCP implementation faces many challenges. How to seamlessly integrate MCP Servers within enterprise, home, and mobile LANs for global access? How to quickly publish and deploy MCP Server tools? How to effectively manage numerous MCP Servers with flexible usage? How to set up on-demand access permissions for MCP Servers and tools with security? MCPdirect is an open-source MCP Universal Access Gateway from a Hong Kong startup team, designed to solve these critical integration and management challenges in the MCP ecosystem.",
+          "zh": "MCP 为 AI Agent 提供了强大的动力，但实际应用 MCP 面临诸多挑战。如何无缝整合企业、家庭、移动局域网内MCP Server并全球使用？如何快速发布MCP Server的工具并投入使用？如何有效管理众多的MCP Server并灵活使用？如何按需设置MCP Server及工具访问权限并安全使用？MCPdirect 是一个来自中国香港创业团队的开源MCP通用访问网关，旨在解决MCP生态系统中的这些关键集成和管理挑战。"
         },
         "speakers": [
           {
@@ -3764,8 +3764,8 @@
           "zh": "高性能Web引擎"
         },
         "content": {
-          "en": "High-Performance Web Engines",
-          "zh": "高性能Web引擎"
+          "en": "This presentation explores the current state and future directions of high-performance web engines, focusing on the latest developments in browser engine optimization, rendering performance, and computational efficiency. As Chair of the W3C High-Performance Web Engines Community Group, Martin will discuss emerging standards, best practices for engine development, and the challenges of balancing performance with web compatibility. The talk covers modern optimization techniques, GPU acceleration, memory management strategies, and the integration of AI capabilities into web engines to meet the demands of next-generation web applications.",
+          "zh": "本次演讲探讨高性能Web引擎的现状和未来发展方向，重点关注浏览器引擎优化、渲染性能和计算效率的最新发展。作为W3C高性能Web引擎社区组主席，Martin将讨论新兴标准、引擎开发最佳实践，以及平衡性能与Web兼容性的挑战。演讲涵盖现代优化技术、GPU加速、内存管理策略，以及将AI能力集成到Web引擎中以满足下一代Web应用需求。"
         },
         "speakers": [
           {
@@ -3830,8 +3830,8 @@
           "zh": "扣子 ，用 Agent 重塑生产力"
         },
         "content": {
-          "en": "Coze, Reshaping Productivity with Agents",
-          "zh": "扣子 ，用 Agent 重塑生产力"
+          "en": "Agents are facing a year of comprehensive explosion. This presentation will focus on the full lifecycle of Agents, exploring how to better help Agent developers quickly take Agents from idea to demo, and from demo to production, covering development, evaluation, observation, optimization, and enterprise-level applications.",
+          "zh": "Agent正面临全面爆发的一年，本次演讲将围绕Agent全生命周期，探讨从开发、评测、观测、调优和企业级应用等几方面，如何更好的帮助Agent开发者快速将Agent从idea到demo、从demo到生产。"
         },
         "speakers": [
           {
@@ -3862,8 +3862,8 @@
           "zh": "2025大模型服务性能排行榜"
         },
         "content": {
-          "en": "2025 Large Model Service Performance Rankings",
-          "zh": "2025大模型服务性能排行榜"
+          "en": "In the current era of rapid iteration of large model applications, large model services represented by MaaS are increasingly becoming one of the core ways for developers to call large model capabilities for application development due to their convenient access methods and low usage thresholds. However, facing the emerging and distinctive large model service platforms in the market, developers often face significant selection difficulties. How to find stable and cost-effective service providers has become an important topic. This presentation shares findings based on market demand and the difficulties developers face. Tsinghua University, in collaboration with the China Software Evaluation Center, launched the '2025 Large Model Service Performance Rankings' to provide comprehensive evaluation and guidance for the industry.",
+          "zh": "在大模型应用快速迭代的当下，以MaaS为代表的大模型服务凭借其便捷的接入方式和较低的使用门槛，日益成为开发者调用大模型能力进行应用开发的核心方式之一。然而，面对市场上层出不穷、各具特色的大模型服务平台，开发者往往面临着较大的选择难题，如何找到性能稳定、高性价比的服务商成为重要课题。本次演讲分享正是基于这样的市场需求和开发者面临的困境，清华大学联合中国软件评测中心，推出了《2025大模型服务性能排行榜》，为业界提供全面的评测和指导。"
         },
         "speakers": [
           {
@@ -3894,8 +3894,8 @@
           "zh": "未来的认知AI：通过OpenVINO实现的视觉语言应用的智能多模态模型与RAG"
         },
         "content": {
-          "en": "Cognitive AI for the Future: Agentic Multimodal Models and RAG for Vision Language Applications with OpenVINO",
-          "zh": "未来的认知AI：通过OpenVINO实现的视觉语言应用的智能多模态模型与RAG"
+          "en": "Cognitive AI represents a transformative leap in how machines understand and interact with the world. Despite its potential, practical challenges remain in making these systems accessible and applicable across diverse domains. This talk addresses how multimodal models, combined with Retrieval-Augmented Generation (RAG) and agentic workflows, can enable cognitive AI systems to deliver personalized, context-aware solutions with OpenVINO. With applications ranging from educational tools to assistive technologies for the elderly and disabled, this talk focuses on practical strategies for optimizing, and deploying these models and pipelines, making them both scalable and accessible to researchers and practitioners.",
+          "zh": "认知AI代表了机器理解和与世界交互方式的变革性飞跃。尽管具有潜力，但在使这些系统在不同领域中变得可访问和适用方面仍存在实际挑战。本次演讲讨论了多模态模型如何与检索增强生成(RAG)和智能体工作流相结合，使认知AI系统能够通过OpenVINO提供个性化、上下文感知的解决方案。从教育工具到老年人和残疾人辅助技术的应用，本次演讲重点介绍优化和部署这些模型和管道的实用策略，使其对研究人员和从业者既可扩展又可访问。"
         },
         "speakers": [
           {
@@ -4022,8 +4022,8 @@
           "zh": "鸿蒙行业创新解决方案：构建更加智能的应用服务体验"
         },
         "content": {
-          "en": "HarmonyOS Industry Innovation Solution: Building a More Intelligent Application Service Experience",
-          "zh": "鸿蒙行业创新解决方案：构建更加智能的应用服务体验"
+          "en": "At a time when industry intelligent needs are upgrading and device barriers need to be broken, this sharing focuses on HarmonyOS industry innovation solutions: starting from its distributed technology and full-scenario collaborative capabilities, it explains HarmonyOS app industry solutions in detail to help enterprises reduce development costs and increase efficiency.",
+          "zh": "行业智能化需求升级、设备壁垒待破之际，本次分享聚焦鸿蒙行业创新解决方案：从其分布式技术、全场景协同能力切入，详解鸿蒙app的行业解决方案，助力企业开发降本增效。"
         },
         "speakers": [
           {
@@ -4054,8 +4054,8 @@
           "zh": "一个Agent搞定所有代码：构建Cline自主编码伙伴的经验教训"
         },
         "content": {
-          "en": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
-          "zh": "一个Agent搞定所有代码：构建Cline自主编码伙伴的经验教训"
+          "en": "As AI moves from autocomplete to autonomous agents, we set out to build Cline—an open, model-agnostic coding partner capable of tackling long-horizon development tasks. This talk shares hard-earned lessons from building an AI system that can read, write, and execute code across entire codebases. We'll cover the technical challenges of context management, tool usage, and error recovery, as well as the design decisions that enable Cline to work with any LLM provider. Whether you're building AI tools or integrating them into your workflow, this session offers practical insights into the future of AI-assisted software development.",
+          "zh": "随着AI从自动补全发展到自主智能体，我们着手构建Cline——一个开放的、与模型无关的编码伙伴，能够处理长期的开发任务。这次演讲分享了构建一个能够在整个代码库中读取、编写和执行代码的AI系统的宝贵经验。我们将涵盖上下文管理、工具使用和错误恢复等技术挑战，以及使Cline能够与任何LLM提供商协作的设计决策。无论您是在构建AI工具还是将它们集成到工作流程中，本次会议都将为AI辅助软件开发的未来提供实用见解。"
         },
         "speakers": [
           {
@@ -4086,8 +4086,8 @@
           "zh": "本地设备上的端到端AI聊天与翻译系统"
         },
         "content": {
-          "en": "End-to-end AI chat and translation system on local devices",
-          "zh": "本地设备上的端到端AI聊天与翻译系统"
+          "en": "In this presentation, we present the recent progress of our end-to-end AI chat and translation system on local devices, such as laptop computers or local AI accelerators. Our end-to-end system has innovative features including specialized model architectures for efficient inference on edge devices, advanced optimization techniques for real-time performance, and comprehensive multilingual support with high-quality translation capabilities. We demonstrate practical applications and performance benchmarks that showcase the viability of running sophisticated AI systems entirely on local hardware without cloud dependencies.",
+          "zh": "在这次演讲中，我们展示了我们在本地设备（如笔记本电脑或本地AI加速器）上的端到端AI聊天与翻译系统的最新进展。我们的端到端系统具有创新特性，包括针对边缘设备高效推理的专用模型架构、实现实时性能的先进优化技术，以及具有高质量翻译能力的全面多语言支持。我们展示了实际应用和性能基准，证明了在完全不依赖云端的情况下在本地硬件上运行复杂AI系统的可行性。"
         },
         "speakers": [
           {
@@ -4150,8 +4150,8 @@
           "zh": "kOS：下一代自主智能系统"
         },
         "content": {
-          "en": "kOS: The Next Generation of Autonomous Intelligent Systems",
-          "zh": "kOS：下一代自主智能系统"
+          "en": "This presentation focuses on the evolution journey of the kOS Agentic System, exploring the development directions and implementation paths of next-generation autonomous intelligent systems. We examine the architectural innovations that enable truly autonomous decision-making, the integration of multi-modal AI capabilities, and the challenges of creating systems that can operate independently while maintaining safety and reliability. The talk covers practical applications, system design principles, and the future roadmap for autonomous intelligent platforms.",
+          "zh": "本次演讲围绕kOS Agentic System的演进历程，探讨下一代自主智能系统的发展方向与实现路径。我们研究能够实现真正自主决策的架构创新、多模态AI能力的集成，以及创建能够独立运行同时保持安全性和可靠性的系统所面临的挑战。演讲涵盖实际应用、系统设计原则，以及自主智能平台的未来路线图。"
         },
         "speakers": [
           {
@@ -4214,8 +4214,8 @@
           "zh": "Second Me：用你的观点、经历与记忆，训练你的个人大模型"
         },
         "content": {
-          "en": "Second Me: Train Your Personal Large Model with Your Views, Experiences, and Memories",
-          "zh": "Second Me：用你的观点、经历与记忆，训练你的个人大模型"
+          "en": "Second Me aims to train a personal large model shaped by your memories. It uses your views and experiences (as well as your daily recorded thoughts) as core training data, making AI no longer just a knowledge base, but something that can carry your expression, preferences, and boundaries. We will demonstrate the thinking behind Second Me, practical experiences during development, the use of Second Me in actual products, and some issues that need to be explored.",
+          "zh": "Second Me 目标是训练一个由你的记忆塑造的个人大模型。它以你的观点与经历（以及你日常记录的思考）为核心语料，让 AI 不再只是知识库，而是能带着你的表达、偏好和界限。我们将展示Second Me背后的思考，实践过程中的经验，Second Me在实际产品中的使用，以及一些待探讨的问题。"
         },
         "speakers": [
           {
@@ -4246,8 +4246,8 @@
           "zh": "基于LLM的辅助作战Agent在多单位即时战略游戏（RTS）中的可行性与实现"
         },
         "content": {
-          "en": "Feasibility and Implementation of LLM-based Auxiliary Combat Agents in Multi-unit Real-Time Strategy (RTS) Games",
-          "zh": "基于LLM的辅助作战Agent在多单位即时战略游戏（RTS）中的可行性与实现"
+          "en": "This talk explores the feasibility and specific implementation of Large Language Models (LLMs) as auxiliary combat agents in multi-unit Real-Time Strategy (RTS) games. Unlike traditional rule-based or heuristic AI systems, LLM-based agents can understand and parse players' high-level commands and abstract language through natural language understanding, and dynamically convert them into executable game operations. We analyze key issues in the implementation process, including player semantic understanding, command learning comprehension, game structure learning, game state understanding, execution content output, and error correction, as well as challenges in real-time performance and accuracy trade-offs.",
+          "zh": "探讨大型语言模型（LLM）在多单位即时战略游戏（RTS）中作为辅助作战 Agent 的可行性及其具体实现方式。不同于传统基于规则或启发式的 AI 系统，基于 LLM 的 Agent 能够通过自然语言理解解析玩家的高层次指令和抽象语言，并将其动态转化为可执行的游戏操作。我们分析了实现过程中的关键问题，包括 玩家语义理解 指令学习理解 游戏结构学习 游戏状态理解 执行内容输出 错误纠正，以及在实时性与准确性权衡中的挑战。"
         },
         "speakers": [
           {
@@ -4406,8 +4406,8 @@
           "zh": "有效的上下文工程：放弃重排序器，增加记忆，从RAG搜索到机器人动作的统一架构"
         },
         "content": {
-          "en": "Context engineering that sticks: drop the reranker, add memory, one architecture from rag search to robot action",
-          "zh": "有效的上下文工程：放弃重排序器，增加记忆，从RAG搜索到机器人动作的统一架构"
+          "en": "We demonstrate how a custom RAG system without rerankers achieves strong internal MRR (Mean Reciprocal Rank) and powers our agents. Then we transform the same context-engineering approach into robot memory: short-term buffers, episodic logs, and long-term knowledge graphs. This unified architecture bridges information retrieval and robotic action planning, showing how memory-augmented systems can maintain contextual understanding across diverse AI applications. We explore the technical implementation, performance comparisons, and practical benefits of memory-centric approaches over traditional reranking methods.",
+          "zh": "我们展示了一个不使用重排序器的定制RAG系统如何实现强大的内部MRR（平均倒数排名）并为我们的智能体提供动力。然后我们将相同的上下文工程方法转化为机器人记忆：短期缓冲区、情节日志和长期知识图谱。这种统一架构连接了信息检索和机器人动作规划，展示了记忆增强系统如何在不同的AI应用中保持上下文理解。我们探讨技术实现、性能比较，以及记忆中心方法相对于传统重排序方法的实际优势。"
         },
         "speakers": [
           {
@@ -4440,8 +4440,8 @@
           "zh": "AI时代的创新教育"
         },
         "content": {
-          "en": "Innovative Education in the AI Era",
-          "zh": "AI时代的创新教育"
+          "en": "The advent of the age of artificial general intelligence has changed the landscape and paradigm of education. What are the new challenges that education faces in the AI era? Where are the possible solutions? The Super Brain AI Incubator has conducted a series of educational explorations, discussing the fundamental changes in education in the AI era and validating various possibilities for education.",
+          "zh": "通用人工智能时代的到来，改变了教育的格局与范式。AI时代，教育面临着哪些新的挑战？可能的出路在哪里？超脑AI孵化器做了一系列的教育探索，探讨了AI时代教育的根本性变革，验证了教育的多种可能性。"
         },
         "speakers": [
           {
@@ -4472,8 +4472,8 @@
           "zh": "AI绘画的未来方向"
         },
         "content": {
-          "en": "The Future Directions of AI Art",
-          "zh": "AI绘画的未来方向"
+          "en": "Exploring the current limitations of AI painting, what are the fundamental differences between AI and human thinking, and what directions the future may hold.",
+          "zh": "AI绘画当下的局限，它和人的思考根本差异是什么，未来会有哪些方向。"
         },
         "speakers": [
           {
@@ -4600,8 +4600,8 @@
           "zh": "SongEval：歌曲美学评价基准数据集"
         },
         "content": {
-          "en": "SongEval: A Benchmark Dataset for Song Aesthetics Evaluation",
-          "zh": "SongEval：歌曲美学评价基准数据集"
+          "en": "Aesthetics serve as an implicit and important criterion in song generation tasks that reflect human perception beyond objective metrics. However, evaluating the aesthetics of generated songs remains a fundamental challenge, as the appreciation of music is highly subjective. To address this issue, we introduce SongEval, the first open-source, large-scale benchmark dataset for evaluating the aesthetics of full-length songs. SongEval includes over 2,399 songs in full length, summing up to more than 140 hours, with aesthetic ratings from 16 professional annotators with musical backgrounds. Each song is evaluated across five key dimensions: overall coherence, memorability, naturalness of vocal breathing and phrasing, clarity of song structure, and overall musicality.",
+          "zh": "美学作为歌曲生成任务中一个隐含而重要的标准，反映了超越客观指标的人类感知。然而，评估生成歌曲的美学仍然是一个根本性挑战，因为对音乐的欣赏具有高度主观性。为了解决这个问题，我们推出了SongEval，第一个用于评估完整歌曲美学的开源大规模基准数据集。SongEval包含超过2,399首完整歌曲，总时长超过140小时，由16位具有音乐背景的专业标注员进行美学评分。每首歌曲在五个关键维度上进行评估：整体连贯性、可记忆性、声乐呼吸和措辞的自然性、歌曲结构的清晰度以及整体音乐性。"
         },
         "speakers": [
           {
@@ -4647,8 +4647,8 @@
           "zh": "面向下一代游戏的AI驱动模型与数据压缩"
         },
         "content": {
-          "en": "AI-Driven Model & Data Compression for Next-Generation Gaming",
-          "zh": "面向下一代游戏的AI驱动模型与数据压缩"
+          "en": "As gaming continues to evolve toward richer, more immersive experiences—including real-time rendering, volumetric environments, and AI-driven interactivity—efficient compression of both neural models and game data becomes critical. This presentation explores cutting-edge AI-driven compression techniques specifically designed for next-generation gaming applications. We examine how machine learning approaches can optimize asset storage, reduce bandwidth requirements, and maintain visual fidelity while enabling seamless streaming of complex game content across diverse hardware platforms.",
+          "zh": "随着游戏继续向更丰富、更沉浸式的体验发展——包括实时渲染、体积环境和AI驱动的交互性——神经模型和游戏数据的高效压缩变得至关重要。本次演讲探讨专门为下一代游戏应用设计的尖端AI驱动压缩技术。我们研究机器学习方法如何优化资产存储、减少带宽需求、保持视觉保真度，同时实现复杂游戏内容在不同硬件平台上的无缝流式传输。"
         },
         "speakers": [
           {
@@ -4759,8 +4759,8 @@
           "zh": "从社区火花到国家影响力：Bielik.AI的故事与力量"
         },
         "content": {
-          "en": "From a Community Spark to National Impact: The Story and Power of Bielik.AI",
-          "zh": "从社区火花到国家影响力：Bielik.AI的故事与力量"
+          "en": "This presentation tells the complete story of Bielik.AI, from its grassroots origins to its real-world impact. We begin with the \"why\": how a passionate open-source community identified a critical need for Polish language AI capabilities and mobilized to address it. The journey showcases how community-driven innovation can scale from local enthusiasm to national significance, demonstrating the power of open collaboration in advancing AI technology. We explore the challenges of building language-specific models, community governance strategies, and the broader implications for AI democratization and cultural preservation through technology.",
+          "zh": "本次演讲讲述了Bielik.AI的完整故事，从其草根起源到现实世界的影响。我们从\"为什么\"开始：一个充满激情的开源社区如何识别出对波兰语AI能力的关键需求并动员起来解决这个问题。这个旅程展示了社区驱动的创新如何从本地热情扩展到国家意义，展现了开放协作在推进AI技术方面的力量。我们探讨构建特定语言模型的挑战、社区治理策略，以及通过技术实现AI民主化和文化保护的更广泛意义。"
         },
         "speakers": [
           {
@@ -4791,8 +4791,8 @@
           "zh": "智能时代协同创新"
         },
         "content": {
-          "en": "Collaborative Innovation in the Age of Intelligence",
-          "zh": "智能时代协同创新"
+          "en": "The 2024 Nobel Prize in Physics was awarded to Hopfield and Hinton for their foundational discoveries and inventions that enable machine learning through artificial neural networks. The 2024 Nobel Prize in Chemistry was awarded to David Baker, Hassabis, and Jumper for their contributions to protein design and prediction. These major events mark the arrival of the human intelligence age. This presentation explores the paradigm shift from individual innovation to collaborative intelligence, examining how AI systems and human creativity can work together to address complex global challenges and drive unprecedented scientific breakthroughs.",
+          "zh": "2024年诺贝尔物理学奖授予霍普菲尔德和欣顿，以表彰他们\"通过人工神经网络实现机器学习的基础性发现和发明\"。2024年诺贝尔化学奖颁发给大卫·贝克、哈萨比斯和约翰·迈克尔·江珀，以表彰其在蛋白质设计和预测方面的贡献，这些重大事件，标志着人类智能时代的到来。本次演讲探讨从个人创新到协同智能的范式转变，研究AI系统和人类创造力如何协同工作，以应对复杂的全球挑战并推动前所未有的科学突破。"
         },
         "speakers": [
           {
@@ -4855,8 +4855,8 @@
           "zh": "UCM面向稀疏化注意力加速的推理架构设计分享"
         },
         "content": {
-          "en": "Sharing on the Design of UCM Inference Architecture for Sparse Attention Acceleration",
-          "zh": "UCM面向稀疏化注意力加速的推理架构设计分享"
+          "en": "As large model parameters and context windows continue to expand simultaneously, dense attention computation has become the absolute bottleneck for online inference—memory usage follows a quadratic curve, and latency scales linearly with sequence length. The industry commonly adopts KVCache + speculative decoding to mitigate this, but it still falls short in extreme scenarios with ultra-long sequences. This sharing focuses on the \"sparse attention\" paradigm, systematically presenting for the first time our self-developed UCM inference memory data manager's sparse inference stack architectural design and implementation experience, from algorithms and plugin design to software implementation.",
+          "zh": "随着大模型参数与上下文窗口同步膨胀，稠密注意力计算已成为线上推理的绝对瓶颈——显存占用呈二次曲线、延迟随序列长度线性飙升。业界普遍采用KVCache+投机解码来缓解，但在超长序列的极限场景下仍捉襟见肘。本次分享聚焦「稀疏注意力」这一新范式，从算法、插件化设计到软件实现，首次系统性公开我们自研UCM推理记忆数据管理器的稀疏化推理栈的架构设计思路与落地经验。"
         },
         "speakers": [
           {
@@ -4935,8 +4935,8 @@
           "zh": "脉冲计算：挑战和机遇"
         },
         "content": {
-          "en": "Pulse Computing: Challenges and Opportunities",
-          "zh": "脉冲计算：挑战和机遇"
+          "en": "This presentation focuses on the core challenges and key opportunities of spiking computing, an emerging brain-inspired computing paradigm. Spiking computing is characterized by event-driven and asynchronous information processing, distinguishing it from traditional continuous synchronous computing. The presentation first addresses core challenges: the difficulties in constructing discontinuous computing models, exploring how to establish efficient and practical algorithmic frameworks, followed by an exposition of the potential applications and prospects of spiking computing in three areas: model algorithms, sensing device integration, and neuromorphic hardware applications.",
+          "zh": "本报告主要介绍脉冲计算这一新兴类脑计算范式的核心挑战与关键机遇。脉冲计算以事件驱动和异步信息传递为特征，区别于传统连续同步计算。报告首先聚焦核心挑战：非连续性计算模型的构建难题，探讨如何建立高效、可用的算法框架，随后阐述脉冲计算在模型算法、感知器件融合、神经拟态硬件应用三个方面的潜在应用潜力及前景。"
         },
         "speakers": [
           {
@@ -4983,8 +4983,8 @@
           "zh": "Ventus OpenGPGPU项目概览"
         },
         "content": {
-          "en": "Overview of Ventus OpenGPGPU Project",
-          "zh": "Ventus OpenGPGPU项目概览"
+          "en": "Ventus is a high-performance open-source GPGPU based on RISC-V and its vector Extension to deliver a scalable, fully open-source GPU solution. By Professor Hu He from Tsinghua University, this project represents a groundbreaking initiative in creating accessible, transparent, and customizable GPU computing architectures. The presentation covers the technical foundations of the Ventus architecture, its RISC-V vector extension implementation, performance characteristics, and the broader implications for democratizing GPU computing through open-source hardware design.",
+          "zh": "Ventus是基于RISC-V及其向量扩展的高性能开源GPGPU，旨在提供可扩展的完全开源GPU解决方案。由清华大学何虎教授主导，该项目在创建可访问、透明和可定制的GPU计算架构方面代表了突破性举措。演讲涵盖Ventus架构的技术基础、其RISC-V向量扩展实现、性能特征，以及通过开源硬件设计实现GPU计算民主化的更广泛意义。"
         },
         "speakers": [
           {
@@ -5081,8 +5081,8 @@
           "zh": "SGLang：一个高效的开源大规模LLM服务框架"
         },
         "content": {
-          "en": "SGLang: An Efficient Open-Source Framework for Large-Scale LLM Serving",
-          "zh": "SGLang：一个高效的开源大规模LLM服务框架"
+          "en": "SGLang is an efficient open-source framework for large-scale LLM serving. Over the past year, SGLang has experienced rapid iteration and significant advancements. This presentation presents an overview of SGLang's leading features, including KV Cache Reuse, Zero-overhead Batch Scheduling, Speculative Decoding, Prefill/Decode Disaggregation, and Large-scale Expert Parallelism.",
+          "zh": "SGLang是一个高效的开源大规模LLM服务框架。在过去的一年中，SGLang经历了快速的迭代和发展，本次Talk将概括性地介绍SGLang的核心特性，主要包括：KV Cache重用、Zero-overhead批调度、投机采样、Prefill & Decode分离和大规模专家并行。"
         },
         "speakers": [
           {
@@ -5113,8 +5113,8 @@
           "zh": "基于Mooncake的SGLang Prefill/Decode分离方案"
         },
         "content": {
-          "en": "SGLang Prefill/Decode Disaggregation with Mooncake",
-          "zh": "基于Mooncake的SGLang Prefill/Decode分离方案"
+          "en": "Large Language Model (LLM) inference comprises two distinct phases: Prefill and Decode. The Prefill phase is computation-intensive, processing the entire input sequence, while the Decode phase is memory-intensive, managing the Key-Value (KV) cache for token generation. Traditionally, these phases are handled within a unified engine, where combined scheduling of prefill and decode batches introduces inefficiencies. To address these challenges, we introduce Prefill and Decoding (PD) Disaggregation in SGLang, which enables tailored optimizations for each.",
+          "zh": "大语言模型(LLM)推理包含两个不同的阶段：Prefill和Decode。Prefill阶段是计算密集型的，处理整个输入序列，而Decode阶段是内存密集型的，管理用于生成token的键值(KV)缓存。传统上，这些阶段在统一引擎内处理，其中prefill和decode批次的组合调度会带来效率低下的问题。为了解决这些挑战，我们在SGLang中引入了Prefill和Decoding(PD)分离，这使得能够为每个阶段进行定制优化。"
         },
         "speakers": [
           {
@@ -5145,8 +5145,8 @@
           "zh": "讯飞MaaS平台大模型高性能推理实践"
         },
         "content": {
-          "en": "High-Performance Inference Practice for Large Language Models on iFLYTEK MaaS Platform",
-          "zh": "讯飞MaaS平台大模型高性能推理实践"
+          "en": "Technical introduction of iFLYTEK's PD (Prefill-Decode) separation approach based on open-source engines combined with their own inference service framework.",
+          "zh": "讯飞基于开源引擎结合自身推理服务框架在PD分离上的相关技术介绍。"
         },
         "speakers": [
           {
@@ -5177,8 +5177,8 @@
           "zh": "午餐"
         },
         "content": {
-          "en": "Thinking with SGLang: Inference empowering Training in the Reinforcement Learning Era",
-          "zh": "午餐"
+          "en": "Enabling LLMs to improve their outputs with reinforcement learning and test-time scaling (TTS) is now a tendency, which leads to the adoption and unprecedented importance of inference engines in model training. In this presentation, we will go through the recent progress and community adoption in SGLang under RL scenarios.",
+          "zh": "使LLM通过强化学习和测试时间扩展(TTS)改进其输出现在是一种趋势，这导致了推理引擎在模型训练中的采用和前所未有的重要性。在本次演讲中，我们将回顾SGLang在强化学习场景下的最新进展和社区采用情况。"
         },
         "speakers": [
           {
@@ -5317,11 +5317,11 @@
         "timeSlot": "16:15 - 16:50",
         "title": {
           "en": "Efficient Practices for LLM Inference with SGLang on Ascend",
-          "zh": "Qwen团队在大模型推理中算法-系统联合优化实践"
+          "zh": "sglang on ascend 大模型推理的高效实践"
         },
         "content": {
-          "en": "Efficient Practices for LLM Inference with SGLang on Ascend",
-          "zh": "Qwen团队在大模型推理中算法-系统联合优化实践"
+          "en": "The Huawei Ascend architecture differs significantly from NVIDIA GPU architecture, including differences in chip architecture, interconnect, software stack, programming system, and operator libraries, which brings many challenges for SGLang on Ascend adaptation and support. This presentation introduces the Ascend system architecture and shares the journey and efficient practices of SGLang on Ascend adaptation. We explore the technical hurdles overcome, performance optimizations achieved, and lessons learned in porting SGLang to the Ascend ecosystem.",
+          "zh": "华为昇腾架构相比NV GPU架构存在较多不同点，包含芯片的架构、互联、软件栈、编程体系、算子库等，也为sglang on ascend的适配与支持带来诸多挑战。本议题介绍昇腾的体系结构，以及sglang on ascend适配的心路历程与高效实践。我们探讨克服的技术难题、实现的性能优化，以及在将SGLang移植到昇腾生态系统中吸取的经验教训。"
         },
         "speakers": [
           {
@@ -5418,8 +5418,8 @@
           "zh": "仓颉编程语言生态建设进展介绍"
         },
         "content": {
-          "en": "Cangjie - A Fast Growing Programming Language",
-          "zh": "仓颉编程语言生态建设进展介绍"
+          "en": "Overall progress of the Cangjie programming language ecosystem development.",
+          "zh": "整体仓颉编程语言整体生态进展。"
         },
         "speakers": [
           {
@@ -5450,8 +5450,8 @@
           "zh": "仓颉在鸿蒙应用：纳米AI的应用开发实践"
         },
         "content": {
-          "en": "Cangjie in HarmonyOS: Sharing of Nami AI Application Development",
-          "zh": "仓颉在鸿蒙应用：纳米AI的应用开发实践"
+          "en": "Cangjie in HarmonyOS applications: Nami AI search application development practices.",
+          "zh": "仓颉在鸿蒙应用：纳米AI搜索的应用开发实践。"
         },
         "speakers": [
           {
@@ -5562,8 +5562,8 @@
           "zh": "基于仓颉的开源Spire天擎Web开发框架介绍"
         },
         "content": {
-          "en": "Spire: a Open Source Web Framework Base on Cangjie",
-          "zh": "基于仓颉的开源Spire天擎Web开发框架介绍"
+          "en": "Spire Tianqing, as the first Web development framework designed specifically for enterprise-level applications, provides Web development technology solutions for developers by integrating modern Web development concepts with Cangjie language features. In terms of architectural design, Tianqing's overall design borrows from ASP.NET Core's modular design philosophy, adopts modern patterns such as middleware pipelines and dependency injection, and achieves excellent performance and horizontal scalability while maintaining a lightweight kernel. The framework significantly reduces the threshold for Cangjie language developers to build complex Web applications through carefully designed API interface layers.",
+          "zh": "Spire天擎，作为首个专为企业级应用设计的Web开发框架，它通过融合现代Web开发理念与仓颉语言特性，为开发者提供Web开发技术解决方案。架构设计层面，天擎整体设计借鉴了ASP.NET Core的模块化设计思想，采用中间件管道、依赖注入等现代化模式，在保持轻量级内核的同时，实现了出色的性能表现与横向扩展能力。框架通过精心设计的API接口层，显著降低了仓颉语言开发者构建复杂Web应用的门槛。"
         },
         "speakers": [
           {
@@ -5692,8 +5692,8 @@
           "zh": "DORA-RS 高性能计算框架在具身机器人中的应用"
         },
         "content": {
-          "en": "Application of the DORA-RS High-Performance Computing Framework in Embodied Robotics",
-          "zh": "DORA-RS 高性能计算框架在具身机器人中的应用"
+          "en": "This presentation introduces the intrinsic advantages of the dora-rs framework and its concrete applications across multiple embodied robotics platforms — exemplified by dora-rs-enabled grasping and sorting systems.",
+          "zh": "本次演讲介绍dora-rs框架的内在优势及其在多个具身机器人平台上的具体应用——以基于dora-rs的抓取和分拣系统为例。"
         },
         "speakers": [
           {
@@ -5724,8 +5724,8 @@
           "zh": "Dora-rs用Rust赋能下一代机器人开发"
         },
         "content": {
-          "en": "Leveraging Rust, Dora-rs is empowering next-generation robotics development",
-          "zh": "Dora-rs用Rust赋能下一代机器人开发"
+          "en": "Introduction to Dora's technical architecture, robotics cases developed based on Dora, and the construction of the Dora Chinese community.",
+          "zh": "介绍dora的技术架构，基于dora开发的机器人案例以及dora中文社区的建设。"
         },
         "speakers": [
           {
@@ -5820,8 +5820,8 @@
           "zh": "基于OpenHarmony的Dora开发实践"
         },
         "content": {
-          "en": "Dora Development Practices on OpenHarmony",
-          "zh": "基于OpenHarmony的Dora开发实践"
+          "en": "This session shares common challenges and practical recommendations for Dora development on OpenHarmony. Key topics include: development environment setup, cross-compilation strategies, hardware adaptation methods, debugging techniques, and performance optimization. The presentation will provide hands-on guidance for developers looking to implement Dora-based robotics solutions on the OpenHarmony platform, covering both technical implementation details and practical deployment considerations.",
+          "zh": "本次分享将介绍在OpenHarmony上进行Dora开发的常见挑战和实用建议。主要内容包括：开发环境搭建、交叉编译策略、硬件适配方法、调试技术和性能优化。演讲将为希望在OpenHarmony平台上实现基于Dora的机器人解决方案的开发者提供实践指导，涵盖技术实现细节和实际部署考虑因素。"
         },
         "speakers": [
           {
@@ -5932,8 +5932,8 @@
           "zh": "如何使用 Dora-rs 从零开始制作一个 AI 机器人"
         },
         "content": {
-          "en": "How to Build an AI Robot from Scratch Using Dora-rs",
-          "zh": "如何使用 Dora-rs 从零开始制作一个 AI 机器人"
+          "en": "This session explores the practical application of dataflow-oriented robotic architecture using Dora-rs, specifically focusing on humanoid robot development. The presentation will demonstrate how to build an AI robot from scratch using Dora's dataflow paradigm, covering the fundamental concepts of dataflow programming in robotics, implementation strategies for humanoid systems, and practical examples of sensor integration, decision-making processes, and actuator control within the Dora framework.",
+          "zh": "本次会议探讨使用Dora-rs的数据流导向机器人架构的实际应用，特别关注人形机器人开发。演讲将展示如何使用Dora的数据流范式从零开始构建AI机器人，涵盖机器人学中数据流编程的基本概念、人形系统的实现策略，以及在Dora框架内传感器集成、决策过程和执行器控制的实际示例。"
         },
         "speakers": [
           {
@@ -5964,8 +5964,8 @@
           "zh": "Dora接入与统一启动流程"
         },
         "content": {
-          "en": "Dora Integration and the Unified Launch Process",
-          "zh": "Dora接入与统一启动流程"
+          "en": "Building on the Open Source Summer project work, this presentation shares experiences in integrating various external ecosystems with Dora and building unified launch processes around Dora. We explore the technical challenges of ecosystem integration, standardization of launch workflows, and best practices for creating seamless interoperability between Dora and other robotics frameworks. The talk covers practical implementation strategies, common integration pitfalls, and solutions for creating robust, unified development environments.",
+          "zh": "结合开源之夏工作，分享各种外部生态接入Dora并围绕Dora构建统一启动流程的经验。我们探讨生态系统集成的技术挑战、启动工作流程的标准化，以及在Dora和其他机器人框架之间创建无缝互操作性的最佳实践。演讲涵盖实际实施策略、常见集成陷阱，以及创建强大统一开发环境的解决方案。"
         },
         "speakers": [
           {
@@ -6044,8 +6044,8 @@
           "zh": "开放生态中的创新与共建- Dora-rs 社区的活动与展望"
         },
         "content": {
-          "en": "Innovation and Collaboration in the Open Ecosystem — The Dora-rs Community's Journey and Vision",
-          "zh": "开放生态中的创新与共建- Dora-rs 社区的活动与展望"
+          "en": "This presentation will provide an in-depth introduction to the technical characteristics and ecological development of Dora-rs as a new generation of high-performance development framework for intelligent robots. The presentation will focus on showcasing Dora-rs's innovative practices in the open-source HarmonyOS ecosystem, including deep cooperation with universities, open-source HarmonyOS communities, and OpenLoong humanoid robots, as well as providing development software and hardware toolchains for the community. By sharing experiences from GOSIM hackathons, exhibitions, and community training courses, we envision how Dora-rs can promote the autonomous and controllable development of domestic robot technology through an open collaboration model, building an \"AI-first\" robot development ecosystem.",
+          "zh": "本次演讲将深入介绍Dora-rs作为新一代智能机器人高性能开发框架的技术特性与生态发展。演讲将重点展示Dora-rs在开源鸿蒙生态中的创新实践，包括与高校，开源鸿蒙社区，OpenLoong人形机器人的深度合作、以及面向社区提供开发软硬件工具链等。通过分享GOSIM黑客松、展会，社区培训课程等活动经验，展望Dora-rs如何通过开放协作模式，推动国产机器人技术自主可控发展，构建\"AI优先\"的机器人开发生态。"
         },
         "speakers": [
           {
@@ -6110,8 +6110,8 @@
           "zh": "Servo布局系统深入解析"
         },
         "content": {
-          "en": "A Dive Into the Servo Layout System",
-          "zh": "Servo布局系统深入解析"
+          "en": "Servo is a new web rendering engine written in Rust. This workshop will be an in-depth look at Servo's one-of-a-kind layout system, which uses Rust's fearless concurrency to add parallelism to layout. We'll explore Servo's layout engine to understand how it works, driving deep into the technical details, explaining the architecture of a modern CSS layout engine, looking at how CSS features are implemented, and describing the different phases and data structures involved.",
+          "zh": "Servo是一个用Rust编写的新型Web渲染引擎。本次工作坊将深入探讨Servo独特的布局系统，该系统使用Rust的无畏并发为布局添加并行性。我们将探索Servo的布局引擎以了解其工作原理，深入技术细节，解释现代CSS布局引擎的架构，查看CSS功能的实现方式，并描述涉及的不同阶段和数据结构。"
         },
         "speakers": [
           {
@@ -6142,8 +6142,8 @@
           "zh": "嵌入式Servo系统的乐趣与价值"
         },
         "content": {
-          "en": "The Joy and Value of Embedded Servo Systems",
-          "zh": "嵌入式Servo系统的乐趣与价值"
+          "en": "Servo is a web engine without a browser. In this workshop we will try to remedy this by embedding Servo in various browser-like applications, and showcase various potential use cases (maybe even the AI browser from the future).",
+          "zh": "Servo是一个没有浏览器的Web引擎。在这个工作坊中，我们将尝试通过将Servo嵌入到各种类似浏览器的应用程序中来解决这个问题，并展示各种潜在的用例（甚至可能是未来的AI浏览器）。"
         },
         "speakers": [
           {
@@ -6174,8 +6174,8 @@
           "zh": "Prune4Web：面向Web智能体的DOM树剪枝编程框架"
         },
         "content": {
-          "en": "Prune4Web: DOM Tree Pruning Programming for Web Agent",
-          "zh": "Prune4Web：面向Web智能体的DOM树剪枝编程框架"
+          "en": "Web automation uses intelligent agents to perform high-level tasks by mimicking human interactions with webpages. Despite recent advances in LLM-based web agents, efficiently navigating complex, real-world webpages remains challenging due to massive DOM structures. This talk will present Prune4Web, a paradigm that transforms DOM processing from LLM-based filtering to programmatic pruning. This approach eliminates the need for LLMs to process full DOMs, instead delegating traversal and scoring to lightweight, interpretable programs.",
+          "zh": "Web自动化使用智能代理通过模仿人类与网页的交互来执行高级任务。尽管基于LLM的Web代理最近取得了进展，但由于庞大的DOM结构，有效导航复杂的真实世界网页仍然具有挑战性。本次演讲将介绍Prune4Web，这是一种将DOM处理从基于LLM的过滤转变为程序化剪枝的范式。这种方法消除了LLM处理完整DOM的需要，而是将遍历和评分委托给轻量级、可解释的程序。"
         },
         "speakers": [
           {
@@ -6206,8 +6206,8 @@
           "zh": "OpenHarmony与Servo的协同创新：统一渲染与WebDriver"
         },
         "content": {
-          "en": "Driving Innovation with Servo and OpenHarmony: Unified Rendering and WebDriver",
-          "zh": "OpenHarmony与Servo的协同创新：统一渲染与WebDriver"
+          "en": "Servo is ported to OpenHarmony in 2024, building upon the progress presented at GOSIM 2024. This talk demonstrates the unified rendering approach of Servo on OpenHarmony and showcases significant advances made for WebDriver integration with automated testing capabilities. We explore the technical architecture of unified rendering across different device form factors, the implementation of WebDriver standards for cross-platform automation, and the roadmap ahead for enhanced web compatibility and performance optimizations in the OpenHarmony ecosystem.",
+          "zh": "Servo在2024年被移植到OpenHarmony，基于在GOSIM 2024上展示的进展。本次演讲展示了Servo在OpenHarmony上的统一渲染方法，并展示了WebDriver集成与自动化测试能力方面取得的重大进展。我们探讨跨不同设备形态的统一渲染技术架构、用于跨平台自动化的WebDriver标准实现，以及在OpenHarmony生态系统中增强Web兼容性和性能优化的未来路线图。"
         },
         "speakers": [
           {
@@ -6253,8 +6253,8 @@
           "zh": "AI与下一代互联网"
         },
         "content": {
-          "en": "AI and Next Generation Web - Future Web",
-          "zh": "AI与下一代互联网"
+          "en": "W3C works with the global Web community on analyzing the broad and evolving impact of AI systems on the Web, and examining the potential role of Web standardization in shaping and managing that impact. This talk explores how AI is transforming web technologies, the emergence of intelligent web agents, advances in Web Machine Learning APIs, accessibility considerations for AI-powered web applications, and security and privacy challenges in the AI-web intersection. We'll discuss upcoming W3C initiatives and standardization efforts that will define the future of intelligent web experiences.",
+          "zh": "W3C与全球Web社区合作，分析AI系统对Web的广泛和不断演变的影响，并研究Web标准化在塑造和管理这种影响方面的潜在作用。本次演讲探讨AI如何改变Web技术、智能Web代理的出现、Web机器学习API的进展、AI驱动的Web应用的可访问性考虑，以及AI与Web交汇处的安全和隐私挑战。我们将讨论即将到来的W3C倡议和标准化工作，这些将定义智能Web体验的未来。"
         },
         "speakers": [
           {
@@ -6366,8 +6366,8 @@
           "zh": "面向边缘的大规模 MoE 部署的协同压缩"
         },
         "content": {
-          "en": "Collaborative Compression for Large-Scale MoE Deployment on Edge",
-          "zh": "面向边缘的大规模 MoE 部署的协同压缩"
+          "en": "The Mixture of Experts (MoE) architecture enables scaling Large Language Models while keeping computation costs low. However, ultra-large MoE models with hundreds of billions of parameters require massive memory and storage, making edge deployment challenging. This presentation introduces a comprehensive compression framework combining expert pruning, MoE-specific mixed-precision quantization, and activation optimization. The framework reduces both model weight size and activation memory usage, achieving the first efficient deployment of models as large as DeepSeek-V3 under 128 GB memory constraints, outperforming uniform low-bit quantization methods.",
+          "zh": "专家混合（MoE）架构是扩展大语言模型的重要方法，能够在保持低计算成本的同时增加模型容量。然而，最新的超大规模MoE模型仍有数千亿参数，需要非常大的内存和存储空间，使得在边缘或资源受限环境中的部署变得困难。本演讲介绍了一个针对超大规模MoE模型的压缩框架，结合了专家剪枝、MoE专用混合精度量化和激活优化。该框架既减少了模型权重大小，又降低了激活使用的内存。在128GB内存限制下，实现了据我们所知首次高效部署DeepSeek-V3等大规模模型，性能优于相同内存限制下的统一低位量化方法。"
         },
         "speakers": [
           {
@@ -6446,8 +6446,8 @@
           "zh": "KTransformers: 单卡大模型的极致推理"
         },
         "content": {
-          "en": "KTransformers: The Ultimate Inference on a Single Card",
-          "zh": "KTransformers: 单卡大模型的极致推理"
+          "en": "KTransformers is a CPU-GPU heterogeneous inference framework that can perform inference on mainstream large models such as DeepSeekR1 and KimiK2 using a single card. It achieves separation of different computations by placing MoE layers on CPU and MLA on GPU, fully utilizing resources of different hardware. Additionally, KTransformers adopts the newly developed Expert Defer technology, which can fully leverage the advantages of CPU-GPU heterogeneous architecture and significantly improve performance. KTransformers has made extensive attempts on different hardware platforms and achieved good results.",
+          "zh": "KTransformers是CPU GPU异构的推理框架，能够使用一张卡进行DeepSeekR1 KimiK2等主流大模型的推理。它通过把MoE层放到CPU，MLA放到GPU实现了不同计算的分离，充分利用了不同硬件的资源。此外ktransformers还采用了最新研发的Expert Defer技术，能够充分利用CPU GPU异构架构的优势，较大提升性能。ktransformers还在不同的硬件平台上做了广泛的尝试，均取得了不错的成果。"
         },
         "speakers": [
           {
@@ -6478,8 +6478,8 @@
           "zh": "使用 Slang 和 Rust 实现的单一源跨平台 GPU 科学计算"
         },
         "content": {
-          "en": "Single-source cross-platform GPU LLM inference with Slang and Rust",
-          "zh": "使用 Slang 和 Rust 实现的单一源跨平台 GPU 科学计算"
+          "en": "Leveraging Rust and Khronos' emerging Slang initiative, we introduce our initial efforts toward a cross-platform GPU LLM inference ecosystem. With a single-source approach we aim to minimize backend-specific code and foster community participation.",
+          "zh": "利用Rust和Khronos新兴的Slang倡议，我们介绍了我们在跨平台GPU大语言模型推理生态系统方面的初步努力。通过单一源方法，我们旨在最大限度地减少特定后端代码并促进社区参与。"
         },
         "speakers": [
           {
@@ -6510,8 +6510,8 @@
           "zh": "端侧 AI：探索 KubeEdge 的可能性与价值"
         },
         "content": {
-          "en": "AI for Edge: Exploring the possibilities and value with KubeEdge",
-          "zh": "端侧 AI：探索 KubeEdge 的可能性与价值"
+          "en": "Edge AI enables real-time, low-latency inference by processing data locally, unlocking transformative applications across industries. With advancements in cloud-native technologies, Edge AI is evolving into a powerful cloud-edge collaborative paradigm, allowing dynamic AI workload orchestration between edge and cloud to optimize performance, accuracy, and privacy.",
+          "zh": "边缘AI通过本地数据处理实现实时、低延迟推理，在各个行业中开启变革性应用。随着云原生技术的进步，边缘AI正在演变为强大的云边协作范式，允许在边缘和云之间进行动态AI工作负载编排，以优化性能、准确性和隐私。"
         },
         "speakers": [
           {
@@ -6623,8 +6623,8 @@
           "zh": "CANN 全面开源开放策略和节奏"
         },
         "content": {
-          "en": "CANN Comprehensive Open-Source and Openness Strategy and Roadmap",
-          "zh": "CANN 全面开源开放策略和节奏"
+          "en": "This presentation provides a comprehensive overview of Ascend chip evolution: from ensemble approach to swarm tactics, and CANN evolution journey from manual investment to intelligent automation. We explore the transition from usable to user-friendly: CANN feature introduction and open-source strategy, including detailed technical roadmap, community engagement plans, and the strategic vision for making CANN a cornerstone of the open AI compute ecosystem. The talk covers architectural innovations, developer experience improvements, and collaborative opportunities for industry partners.",
+          "zh": "本次演讲全面回顾昇腾芯片演进历程：从合唱团到蚁群战术，以及CANN演进历程：从投入人工到享受智能。我们探讨从能用到好用的转变：CANN特性介绍与开源开放计划，包括详细的技术路线图、社区参与计划，以及将CANN打造为开放AI计算生态系统基石的战略愿景。演讲涵盖架构创新、开发者体验改进，以及为行业合作伙伴提供的协作机会。"
         },
         "speakers": [
           {
@@ -6655,8 +6655,8 @@
           "zh": "知识密度牵引下的大模型高效计算"
         },
         "content": {
-          "en": "Efficient Computing Framework for LLMs Driven by Knowledge Density",
-          "zh": "知识密度牵引下的大模型高效计算"
+          "en": "As the scale of large language models and their training data continues to expand, the bottleneck between model performance and resource consumption is becoming increasingly prominent. Traditional approaches to model optimization often focus on architectural improvements or hardware acceleration, but overlook the fundamental question of how knowledge is distributed and utilized within these massive parameter spaces. This presentation introduces a novel computing framework driven by knowledge density analysis, which enables more efficient utilization of computational resources by identifying and prioritizing the most knowledge-rich components of large language models during both training and inference phases.",
+          "zh": "随着大型语言模型及其训练数据规模的不断扩大，模型性能与资源消耗之间的瓶颈日益突出。传统的模型优化方法通常专注于架构改进或硬件加速，但忽略了知识在这些大规模参数空间中是如何分布和利用的根本问题。本次演讲介绍了一种由知识密度分析驱动的新型计算框架，通过识别和优先处理大型语言模型中知识最丰富的组件，在训练和推理阶段都能更高效地利用计算资源。"
         },
         "speakers": [
           {
@@ -6687,8 +6687,8 @@
           "zh": "AsNumpy：昇腾原生高效 Python 数学运算库"
         },
         "content": {
-          "en": "AsNumpy: Ascend-Native Efficient Python Mathematical Computing Library",
-          "zh": "AsNumpy：昇腾原生高效 Python 数学运算库"
+          "en": "The explosive growth of artificial intelligence applications urgently requires improving development productivity while ensuring performance. This presentation introduces AsNumpy, a lightweight Python mathematical computing library jointly developed by Harbin Institute of Technology and Huawei that deeply supports Ascend NPU and is highly compatible with the NumPy interface. The presentation first analyzes the current computing modes of artificial intelligence, then presents the design scheme and characteristics of AsNumpy, and finally demonstrates the ease of use of AsNumpy through examples.",
+          "zh": "当前爆发式的人工智能应用急需在兼顾性能的前提下提升开发的生产效率。本报告介绍的AsNumpy是哈工大联合华为打造的一款深度支持昇腾NPU并高度兼容Numpy接口的轻量级Python数学运算库。报告首先分析当前人工智能的计算模式，然后给出AsNumpy的设计方案和特点，最后结合实例展示了AsNumpy的易用性。"
         },
         "speakers": [
           {
@@ -6719,8 +6719,8 @@
           "zh": "昇腾深度开发创新实践"
         },
         "content": {
-          "en": "Ascend Innovative Practices In-Depth Development",
-          "zh": "昇腾深度开发创新实践"
+          "en": "This presentation mainly introduces the practical implementation of iFLYTEK's Spark large model using Ascend computing power. It focuses on reporting how Spark's large-scale training clusters achieve rapid system recovery under ten-thousand-card Ascend clusters, and the development of efficient fusion operators using Ascend C technology.",
+          "zh": "主要介绍讯飞星火大模型使用昇腾算力实践情况。重点报告在万卡昇腾集群下，星火大规模训练集群如何进行快速系统恢复；使用Ascend C研发高效融合算子。"
         },
         "speakers": [
           {
@@ -6849,8 +6849,8 @@
           "zh": "为全球每一个人提供高品质的人工智能 STEM 教育辅导服务"
         },
         "content": {
-          "en": "Deliver High Quality AI STEM Tutor to Everyone, Everywhere",
-          "zh": "为全球每一个人提供高品质的人工智能 STEM 教育辅导服务"
+          "en": "Access to high-quality tutoring remains out of reach for millions of students due to cost, geography, and limited availability of skilled teachers. This talk presents a vision for an affordable, AI-powered STEM tutoring platform that can deliver personalized, adaptive learning experiences to students worldwide. We explore the technical architecture behind scalable AI tutoring systems, the challenges of creating culturally sensitive educational content, and the practical implementation strategies for making high-quality STEM education accessible to underserved communities globally.",
+          "zh": "由于成本、地理位置和熟练教师的有限可用性，数百万学生仍然无法获得高质量的辅导服务。本次演讲展示了一个愿景：建立一个经济实惠的AI驱动STEM辅导平台，能够为全球学生提供个性化、自适应的学习体验。我们探讨可扩展AI辅导系统背后的技术架构、创建文化敏感教育内容的挑战，以及使高质量STEM教育为全球服务不足的社区提供服务的实际实施策略。"
         },
         "speakers": [
           {
@@ -7005,8 +7005,8 @@
           "zh": "How to Build Apps with Makepad"
         },
         "content": {
-          "en": "How to Build Apps with Makepad",
-          "zh": "How to Build Apps with Makepad"
+          "en": "In this workshop, we will teach you how to build a simple app with Makepad, a modern GPU-based UI Framework for Rust that allows for writing fast and lightweight apps. The app we are going to build is a simple but functional demonstration of Makepad's capabilities, showcasing its unique approach to GPU-accelerated rendering and declarative UI design. Participants will learn the fundamentals of Makepad's architecture, how to create responsive layouts, handle user interactions, and leverage Rust's performance benefits for creating smooth, native-feeling applications across platforms.",
+          "zh": "在这个工作坊中，我们将教您如何使用Makepad构建一个简单的应用程序，Makepad是一个基于GPU的现代Rust UI框架，允许编写快速轻量级的应用程序。我们将要构建的应用程序是Makepad功能的简单但功能性演示，展示其独特的GPU加速渲染和声明性UI设计方法。参与者将学习Makepad架构的基础知识、如何创建响应式布局、处理用户交互，以及利用Rust的性能优势在跨平台上创建流畅、原生感觉的应用程序。"
         },
         "speakers": [
           {
@@ -7054,8 +7054,8 @@
           "zh": "Flutter Meetup"
         },
         "content": {
-          "en": "Flutter Meetup",
-          "zh": "Flutter Meetup"
+          "en": "Flutter is one of the most exciting cross-platform frameworks today—but anyone who has worked closely with it knows the pain of waiting for upstream fixes, struggling with forks, and maintaining patches. In this session, we'll explore Nest: a toolkit for extending Flutter's engine and framework without fracturing the ecosystem. We'll share why Nest exists, how it works, and the challenges we've faced in building it, including technical design, CI/CD pipelines, and the practical realities of hosting engine binaries for developers who need faster iteration.",
+          "zh": "Flutter是当今最令人兴奋的跨平台框架之一——但任何深度使用过它的人都知道等待上游修复、处理分支和维护补丁的痛苦。在本次会议中，我们将探索Nest：一个用于扩展Flutter引擎和框架而不分裂生态系统的工具包。我们将分享Nest存在的原因、工作原理以及构建过程中面临的挑战，包括技术设计、CI/CD管道和为需要比Flutter团队更快迭代的开发者提供引擎二进制文件的实际现实。"
         },
         "speakers": [
           {
@@ -7103,8 +7103,8 @@
           "zh": "“原生应用”新境界：免去构建的开发体验"
         },
         "content": {
-          "en": "Native Apps Without a Build Step",
-          "zh": "“原生应用”新境界：免去构建的开发体验"
+          "en": "React Native apps are bigger and more complex than ever. At Callstack, we've built Rock—open, modular, self-hosted, and incrementally adoptable framework for React Native—to help teams scale, migrate, and deliver faster. React Native just turned 10, and its adoption has followed a familiar curve—from early startups to scale-ups, mainstream apps, and finally large enterprises making their move. The Community CLI has long been the backbone of this ecosystem, but as React Native evolved—embracing Expo, modularity, and framework-driven development—we realized the needs of today's teams go far beyond what the CLI alone can offer. In this talk, we'll share how we got here, why frameworks are the future of React Native, and how our new open-source framework can help teams migrate smoothly, unify tooling, and accelerate delivery.",
+          "zh": "React Native应用比以往任何时候都更大、更复杂。在Callstack，我们构建了Rock——一个开放、模块化、自托管且可增量采用的React Native框架——帮助团队扩展、迁移和更快交付。React Native刚满10年，其采用遵循了熟悉的曲线——从早期初创公司到规模化企业，主流应用，最后是大型企业的采用。社区CLI长期以来一直是这个生态系统的支柱，但随着React Native的发展——拥抱Expo、模块化和框架驱动的开发——我们意识到今天团队的需求远远超出了CLI单独能提供的。在这次演讲中，我们将分享我们如何走到今天，为什么框架是React Native的未来，以及我们的新开源框架如何帮助团队顺利迁移、统一工具和加速交付。"
         },
         "speakers": [
           {
@@ -7184,8 +7184,8 @@
           "zh": "赤兔推理引擎的前世今生和未来"
         },
         "content": {
-          "en": "The Past, Present, and Future of the Chitu Inference Engine",
-          "zh": "赤兔推理引擎的前世今生和未来"
+          "en": "Chitu inference engine is a large model inference engine that supports multi-element computing power and is actively developed in the open source community. This report introduces the birth history, technical evolution and future vision of the Chitu inference engine.",
+          "zh": "赤兔推理引擎是在开源社区活跃开发中的支持多元算力的大模型推理引擎。本报告介绍赤兔推理引擎的诞生历史、技术演进与未来构想。"
         },
         "speakers": [
           {
@@ -7216,8 +7216,8 @@
           "zh": "Chitu 与并行推理优化的技术"
         },
         "content": {
-          "en": "Chitu and Parallel Inference Optimization Technology",
-          "zh": "Chitu 与并行推理优化的技术"
+          "en": "This talk is about parallel inference technologies and optimizations on LLM inference and optimization practices on Chitu inference system.",
+          "zh": "本次演讲介绍并行推理技术以及在LLM推理上的优化实践，重点讨论在赤兔推理系统上的优化实践。"
         },
         "speakers": [
           {
@@ -7248,8 +7248,8 @@
           "zh": "从 \"能跑\" 到 \"好用\"：Chitu 工业化部署实践与效率工具链"
         },
         "content": {
-          "en": "From \"Able\" to \"Useful\": Chitu's Industrial Deployment Practices and Turnkey Tool-chain",
-          "zh": "从 \"能跑\" 到 \"好用\"：Chitu 工业化部署实践与效率工具链"
+          "en": "Sharing Chitu large model industrial deployment practices: discussing tool-chain efficiency improvement cases and providing reusable implementation experience.",
+          "zh": "分享 Chitu 大模型工业化部署：讲工具链提效案例，给可复用落地经验。"
         },
         "speakers": [
           {
@@ -7280,8 +7280,8 @@
           "zh": "自主创新算力平台建设"
         },
         "content": {
-          "en": "Building an indigenous innovation Compute Platform",
-          "zh": "自主创新算力平台建设"
+          "en": "YiCloud INESA Smart Computing Platform Overview: A training-inference integrated smart computing cloud platform for AI application deployment, dedicated to solving core pain points from AI model development to large-scale deployment, achieving an efficient \"development-to-online\" closed loop. Features include unified training/fine-tuning/inference support, intelligent heterogeneous resource scheduling (NVIDIA/Ascend/MeTaX chips), elastic inference services, and full-stack domestic adaptation.",
+          "zh": "YiCloud 仪电智算云平台摘要：面向 AI 应用落地的训推一体智算云平台，致力于解决 AI 模型从研发到规模化部署的核心痛点，实现\"开发即上线\"的高效闭环。关键能力包括：1.训推一体化架构，统一平台支持训练、微调、推理全流程；2.智能资源调度，支持NVIDIA/昇腾/沐曦等异构芯片，万卡级任务秒级下发；3.弹性推理服务，高并发动态调度；4.国产化全栈适配，从芯片到模型的完整国产化支持。"
         },
         "speakers": [
           {
@@ -7360,8 +7360,8 @@
           "zh": "GLM - 从想象力到生产力"
         },
         "content": {
-          "en": "GLM - From Imagination to Productivity",
-          "zh": "GLM - 从想象力到生产力"
+          "en": "With the vision of 'making machines think like humans and making human life better with trustworthy AI,' ZhiPuAI is committed to building a new generation of cognitive intelligence large models, focusing on Chinese innovation in large models. This talk covers GLM's evolution from imagination to productivity, including GLM-Realtime, AutoGLM, and GLM-4.5 achievements.",
+          "zh": "以\"让机器像人一样思考，用可信赖AI让人类更美好\"为愿景，智谱致力于打造新一代认知智能大模型，专注于做大模型的中国创新。2025年1月，智谱发布全新端到端模型GLM-Realtime，支持清唱、2分钟记忆及Function Call功能。3月，智谱发布首个具备深度研究和操作能力的AI Agent，AutoGLM沉思。7月，智谱发布新一代旗舰模型GLM-4.5，首次在单个模型中实现将推理、编码和智能体能力原生融合，以满足智能体应用的复杂需求。在MMLU Pro、AIME 24、HLE等12个最具有代表性的评测基准中，GLM-4.5的综合平均分取得全球模型第三、国产模型第一，开源模型第一。"
         },
         "speakers": [
           {
@@ -7392,8 +7392,8 @@
           "zh": "CANN开源开放分层解耦技术栈"
         },
         "content": {
-          "en": "The CANN Open-Source Hierarchy Decoupled Technology Stack",
-          "zh": "CANN开源开放分层解耦技术栈"
+          "en": "Ascend CANN open source strategy and hierarchical decoupled technology stack sharing, focusing on deepening cooperation in the Ascend technology ecosystem and building competitive advantages in the third-party ecosystem.",
+          "zh": "昇腾CANN开源开放策略及分层解耦技术栈分享，聚焦昇腾技术生态深化合作，致力打造三方生态昇腾竞争力。"
         },
         "speakers": [
           {
@@ -7424,8 +7424,8 @@
           "zh": "沐曦推理引擎的极致性能"
         },
         "content": {
-          "en": "The Ultimate Performance of the Metax Inference System",
-          "zh": "沐曦推理引擎的极致性能"
+          "en": "Introduction to MeTaX's small models and LLM inference engine products, focusing on achieving ultimate performance in AI inference.",
+          "zh": "主要介绍沐曦小模型和LLM推理引擎产品，专注于在AI推理中实现极致性能。"
         },
         "speakers": [
           {
@@ -7492,8 +7492,8 @@
           "zh": "开源创新国际合作示范区的概念与实施"
         },
         "content": {
-          "en": "A talk on the concept and implementation of an open-source innovation international cooperation demonstration zone.",
-          "zh": "关于开源创新国际合作示范区的概念与实施的演讲。"
+          "en": "The core of open source is institutional innovation. Whether it's the United States, European Union, or China, the obstacles to open source are the traditional thoughts, cultures, values, and rule systems formed over thousands of years based on the exclusive properties of the physical world. Additionally, countries around the world urgently need secure and reliable digital public goods and services in developing their digital economies and digital transformation, which far exceeds the scope of existing international organizational systems established based on geographical spaces, requiring new technologies, new thinking, new models, and broader international cooperation.",
+          "zh": "开源的核心是制度创新，无论是美国、欧盟还是中国，开源的障碍都是各自国内数千年以来基于物理世界独占排他属性所形成的传统思想、文化、价值观及规则体系。另外，世界各国在发展数字经济及数字化转型过程中，迫切需要安全可靠的数字公共产品及服务，这远超传统基于地域空间所建立的现有国际组织体系所管辖的范畴，需要新技术、新思维、新模式，更需要更广泛的国际合作。"
         },
         "speakers": [
           {
@@ -7524,8 +7524,8 @@
           "zh": "跨越边界：将开源创新打造为全球商业产品"
         },
         "content": {
-          "en": "A talk on turning open source innovation into a global business.",
-          "zh": "关于将开源创新打造为全球商业产品的演讲。"
+          "en": "In this age of limitless digital possibilities, open source is not only a symbol of technological innovation but also a key driver of global business expansion. This talk will take you through the journey of open source projects from inception to crossing borders and entering global markets. As a founder who started in the open source community and successfully turned it into a global business, I will share how open source innovation can break regional barriers and gain the support of global enterprises and investors. We will explore how to build a sustainable business model using open source, tackle challenges in different markets, and commercialize globally. Through real-life case studies, I will analyze how to turn technological passion and community support into long-term business success.",
+          "zh": "在这个数字化无限可能的时代，开源不仅是技术创新的象征，也是全球商业扩张的关键驱动力。本次演讲将带您了解开源项目从起步到跨越国界、进入全球市场的历程。作为从开源社区起步并成功将其转化为全球业务的创始人，我将分享开源创新如何打破地域壁垒，获得全球企业和投资者的支持。我们将探讨如何利用开源构建可持续的商业模式，应对不同市场的挑战，并实现全球商业化。通过真实案例研究，我将分析如何将技术热情和社区支持转化为长期商业成功。"
         },
         "speakers": [
           {
@@ -7556,8 +7556,8 @@
           "zh": "开源AI出海战略：如何打造全球化的开源项目"
         },
         "content": {
-          "en": "A talk on the strategy for expanding open-source AI projects globally.",
-          "zh": "关于开源AI出海战略以及如何打造全球化开源项目的演讲。"
+          "en": "Many Chinese open-source/AI projects have gained some recognition domestically but struggle to go global. This talk will reveal the four major misconceptions about open source globalization, analyze the main global battlefields and trends for 2025, and share how to make your project stand out among international developers through community operations and strategic planning, using real case studies.",
+          "zh": "很多中国开源/AI项目在国内小有名气，却难以走向全球。本演讲将揭示开源出海的四大误区，解析2025全球主战场与趋势，并结合真实案例，分享如何通过社区运营与战略布局，让你的项目在国际开发者中脱颖而出。"
         },
         "speakers": [
           {
@@ -7588,8 +7588,8 @@
           "zh": "AI 开源生态的协作与责任"
         },
         "content": {
-          "en": "A talk on the collaboration and responsibility within the open-source AI ecosystem.",
-          "zh": "关于AI开源生态系统中的协作与责任的演讲。"
+          "en": "Open source makes AI development faster and more open, but it also brings responsibility challenges, such as model bias and compliance risks. In this sharing, I will talk about how the open source community collaborates and how we should find a balance between openness and responsibility.",
+          "zh": "开源让AI发展得更快、更开放，但同时也带来了责任挑战，比如模型偏见和合规风险。在这次分享中，我会谈谈开源社区如何协作，以及我们该如何在开放与责任之间找到平衡。"
         },
         "speakers": [
           {
