@@ -6363,7 +6363,7 @@
         "timeSlot": "14:30 - 14:55",
         "title": {
           "en": "Collaborative Compression for Large-Scale MoE Deployment on Edge",
-          "zh": "面向边缘的大规模 MoE 部署的协同压缩"
+          "zh": "面向端侧的大规模 MoE 部署的协同压缩"
         },
         "content": {
           "en": "The Mixture of Experts (MoE) architecture enables scaling Large Language Models while keeping computation costs low. However, ultra-large MoE models with hundreds of billions of parameters require massive memory and storage, making edge deployment challenging. This presentation introduces a comprehensive compression framework combining expert pruning, MoE-specific mixed-precision quantization, and activation optimization. The framework reduces both model weight size and activation memory usage, achieving the first efficient deployment of models as large as DeepSeek-V3 under 128 GB memory constraints, outperforming uniform low-bit quantization methods.",
