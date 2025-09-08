@@ -199,10 +199,10 @@
     {
       "id": "maohua-zhou",
       "name": "周茂华",
-      "bio": "周茂华 - 中国教育技术协会教育信息技术产业专业委员会常务委员，深圳市第二高级中学创客中心负责人",
-      "role": "中国教育技术协会教育信息技术产业专业委员会常务委员，深圳市第二高级中学创客中心负责人",
-      "org": "",
-      "roleOrg": "中国教育技术协会教育信息技术产业专业委员会常务委员，深圳市第二高级中学创客中心负责人",
+      "bio": "深圳市第二高级中学 数智化研究中心 AI教育研究员",
+      "role": "AI教育研究员",
+      "org": "深圳市第二高级中学 数智化研究中心",
+      "roleOrg": "深圳市第二高级中学 数智化研究中心 AI教育研究员",
       "image": "0-placeholder-person.png",
       "tags": [
         "forum-aivision",
@@ -3897,7 +3897,7 @@
       "role": "Futurewei Technologies",
       "org": "",
       "roleOrg": "Futurewei Technologies",
-      "image": "0-placeholder-person.png",
+      "image": "mats-lundgren.png",
       "tags": [
         "ws-edge-ai"
       ],

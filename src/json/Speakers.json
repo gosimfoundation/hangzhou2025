@@ -203,10 +203,10 @@
     {
       "id": "maohua-zhou",
       "name": "Maohua Zhou",
-      "bio": "Standing Committee Member of the Education Information Technology Industry Committee, China Association for Educational Technology; Head of the Maker Center, Shenzhen No.2 Senior High School",
-      "role": "Standing Committee Member of the Education Information Technology Industry Committee, China Association for Educational Technology; Head of the Maker Center, Shenzhen No.2 Senior High School",
-      "org": "Education Information Technology Industry Committee, China Association for Educational Technology",
-      "roleOrg": "Standing Committee Member of the Education Information Technology Industry Committee, China Association for Educational Technology; Head of the Maker Center, Shenzhen No.2 Senior High School",
+      "bio": "AI Education Researcher, Digital-Intelligence Research Center, Shenzhen Second Senior High School",
+      "role": "AI Education Researcher",
+      "org": "Digital-Intelligence Research Center, Shenzhen Second Senior High School",
+      "roleOrg": "AI Education Researcher, Digital-Intelligence Research Center, Shenzhen Second Senior High School",
       "image": "0-placeholder-person.png",
       "tags": [
         "forum-aivision",
@@ -3901,7 +3901,7 @@
       "role": "Futurewei Technologies",
       "org": "",
       "roleOrg": "Futurewei Technologies",
-      "image": "0-placeholder-person.png",
+      "image": "mats-lundgren.png",
       "tags": [
         "ws-edge-ai"
       ],
