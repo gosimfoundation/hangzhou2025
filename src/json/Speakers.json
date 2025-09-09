@@ -3651,10 +3651,10 @@
     {
       "id": "bill-ren",
       "name": "Bill Ren",
-      "bio": "Ren Xudong - Forum Sponsor",
-      "role": "Forum Sponsor",
-      "org": "",
-      "roleOrg": "Chief open source liaison officer, Board member of CNCF",
+      "bio": "Chief open source liaison officer of Huawei, Board member of CNCF",
+      "role": "Chief open source liaison officer",
+      "org": "Huawei",
+      "roleOrg": "Chief open source liaison officer of Huawei, Board member of CNCF",
       "image": "bill-ren.jpg",
       "tags": ["plenary", "forum-aivision"],
       "socialLinks": {
@@ -4696,10 +4696,10 @@
     {
       "id": "hongliang-tian",
       "name": "HongLiang Tian",
-      "bio": "",
-      "role": "",
-      "org": "",
-      "roleOrg": "Senior Technical Expert of the Group, Initiator of the Asterinas OS Project",
+      "bio": "Senior Technical Expert of Ant Group, Initiator of the Asterinas OS Project",
+      "role": "Senior Technical Expert",
+      "org": "Ant Group",
+      "roleOrg": "Senior Technical Expert of Ant Group, Initiator of the Asterinas OS Project",
       "image": "0-placeholder-person.png",
       "tags": ["rustchinaconf"],
       "socialLinks": {

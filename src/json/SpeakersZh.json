@@ -3647,10 +3647,10 @@
     {
       "id": "bill-ren",
       "name": "任旭东",
-      "bio": "任旭东 - 论坛赞助方",
-      "role": "论坛赞助方",
-      "org": "",
-      "roleOrg": "论坛赞助方",
+      "bio": "华为首席开源联络官、CNCF基金会董事",
+      "role": "首席开源联络官",
+      "org": "华为",
+      "roleOrg": "华为首席开源联络官、CNCF基金会董事",
       "image": "bill-ren.jpg",
       "tags": ["forum-aivision", "plenary"],
       "socialLinks": {
@@ -4692,11 +4692,11 @@
     {
       "id": "hongliang-tian",
       "name": "田洪亮",
-      "bio": "田洪亮 - 集团高级技术专家，Asterinas OS 项目发起人",
-      "role": "集团高级技术专家，Asterinas OS 项目发起人",
-      "org": "",
-      "roleOrg": "集团高级技术专家，Asterinas OS 项目发起人",
-      "image": "0-placeholder-person.png",
+      "bio": "蚂蚁集团资深技术专家，Asterinas OS 项目发起人",
+      "role": "资深技术专家，Asterinas OS 项目发起人",
+      "org": "蚂蚁集团",
+      "roleOrg": "蚂蚁集团资深技术专家，Asterinas OS 项目发起人",
+      "image": "rustchinaconf/田洪亮.jpg",
       "tags": ["rustchinaconf"],
       "socialLinks": {
         "mastodon": "undefined",
