@@ -1420,13 +1420,13 @@
               "zh": "孙志岗"
             },
             "roleOrg": {
-              "en": "Founder & CEO, AI Master",
-              "zh": "创始人、CEO, AI师傅"
+              "en": "Founder&CEO of AI Shifu, Former associate professor of computer science at Harbin Institute of Technology",
+              "zh": "AI师傅创始人&CEO，原哈工大计算机副教授"
             },
             "tags": [
               "forum-aivision"
             ],
-            "image": "sun-zhigang.jpg"
+            "image": "zhigang-sun.jpg"
           },
           {
             "id": "yuqing-yan",
@@ -3524,11 +3524,11 @@
         "timeSlot": "16:50 - 17:25",
         "title": {
           "en": "MarkdownFlow, the next HTML",
-          "zh": "MarkdownFlow，下一个HTML"
+          "zh": "MarkdownFlow，下一代HTML"
         },
         "content": {
           "en": "MarkdownFlow extends standard Markdown with AI intelligence to create personalized, interactive pages. Its tagline is \"Write Once, Deliver Personally\". All of humans, code and AIs can read and write MarkdownFlow content seamlessly. This revolutionary approach combines the simplicity of Markdown with the power of AI-driven personalization, enabling content that adapts dynamically to each reader's context, preferences, and needs. We explore how MarkdownFlow bridges the gap between static content and dynamic user experiences, making web content more accessible and engaging.",
-          "zh": "MarkdownFlow通过AI智能扩展标准Markdown，创建个性化的交互式页面。它的口号是\"写一次，个性化交付\"。所有人类、代码和AI都可以无缝地读写MarkdownFlow内容。这种革命性方法将Markdown的简洁性与AI驱动的个性化能力相结合，使内容能够根据每个读者的上下文、偏好和需求动态适应。我们探讨MarkdownFlow如何弥合静态内容和动态用户体验之间的差距，使Web内容更加可访问和引人入胜。"
+          "zh": "MarkdownFlow通过AI智能扩展标准Markdown，创建个性化的交互式页面。它的口号是\"一次创作，千人千面\"。所有人类、代码和AI都可以无缝地读写MarkdownFlow内容。这种革命性方法将Markdown的简洁性与AI驱动的个性化能力相结合，使内容能够根据每个读者的上下文、偏好和需求动态适应。我们探讨MarkdownFlow如何弥合静态内容和动态用户体验之间的差距，使Web内容更加可访问和引人入胜。"
         },
         "speakers": [
           {
@@ -3538,8 +3538,8 @@
               "zh": "孙志岗"
             },
             "roleOrg": {
-              "en": "Founder and CEO of AI Shifu",
-              "zh": "Founder and CEO of AI Shifu"
+              "en": "Founder&CEO of AI Shifu, Former associate professor of computer science at Harbin Institute of Technology",
+              "zh": "AI师傅创始人&CEO，原哈工大计算机副教授"
             },
             "tags": [
               "agentic-web"
@@ -6906,13 +6906,13 @@
               "zh": "孙志岗"
             },
             "roleOrg": {
-              "en": "Founder&CEO of AI Master, Former associate professor of computer science at Harbin Institute of Technology",
+              "en": "Founder&CEO of AI Shifu, Former associate professor of computer science at Harbin Institute of Technology",
               "zh": "AI师傅创始人&CEO，原哈工大计算机副教授"
             },
             "tags": [
               "ws-ai-education"
             ],
-            "image": "sun-zhigang.jpg"
+            "image": "zhigang-sun.jpg"
           },
           {
             "id": "haiyang-xin",
