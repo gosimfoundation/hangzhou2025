@@ -38,7 +38,7 @@ def update_speaker_tags(json_file_path, speaker_mapping):
                                  'agentic-web', 'apps-agents', 'ai-next', 'ws-sglang', 
                                  'ws-cangjie', 'ws-dora', 'ws-future-web', 'ws-edge-ai', 
                                  'ws-cann', 'ws-flutter', 'ws-chitu', 'ws-ai-education', 
-                                 'ws-rn', 'ws-rust', 'ws-makepad', 'ws-embedded-rust-ai', 
+                                 'ws-rn', 'ws-rust', 'ws-makepad', 'ws-embedded-rust', 
                                  'ws-solana', 'ws-globalization', 'open-for-sdg', 
                                  'forum-aivision', 'rustchinaconf']:
                 speakers_not_in_mapping.append(speaker_id)

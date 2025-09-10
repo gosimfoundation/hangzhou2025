@@ -77,16 +77,12 @@
       "id": "ws-rn"
     },
     {
-      "name": "Rust Workshop",
-      "id": "ws-rust"
-    },
-    {
       "name": "Makepad Workshop",
       "id": "ws-makepad"
     },
     {
       "name": "Embedded Rust x AI WorkShop",
-      "id": "ws-embedded-rust-ai"
+      "id": "ws-embedded-rust"
     },
     {
       "name": "Solana for Rustaceans Workshop",
@@ -114,25 +110,7 @@
     }
   ],
   "speakers": [
-    {
-      "id": "xitong-li",
-      "name": "Xitong Li",
-      "bio": "Professor of Information Systems and Operations Management at HEC Paris.",
-      "role": "Professor of Information Systems and Operations Management",
-      "org": "HEC Paris",
-      "roleOrg": "Professor of Information Systems and Operations Management, HEC Paris",
-      "image": "xitong-li.jpeg",
-      "tag": "ai-next",
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "website": ""
-      },
-      "status": "Accept",
-      "draft": false
-    },
+
     {
       "id": "mehdi-snene",
       "name": "Mehdi Snene",
@@ -186,6 +164,63 @@
         "github": "undefined",
         "linkedin": "undefined",
         "website": "https://acetforafrica.org/our-people/noomane-fehri/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+        {
+      "id": "bill-ren",
+      "name": "Bill Ren",
+      "bio": "Chief open source liaison officer of Huawei, Board member of CNCF",
+      "role": "Chief open source liaison officer",
+      "org": "Huawei",
+      "roleOrg": "Chief open source liaison officer of Huawei, Board member of CNCF",
+      "image": "bill-ren.jpg",
+      "tags": ["plenary", "forum-aivision"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+        {
+      "id": "tao-jiang",
+      "name": "Tao Jiang",
+      "bio": "Tao Jiang - Founder & Chairman (Panelist), CSDN",
+      "role": "Founder & Chairman (Panelist)",
+      "org": "CSDN",
+      "roleOrg": "Founder & Chairman (Panelist), CSDN",
+      "image": "tao-jiang.jpg",
+      "tags": ["forum-aivision", "plenary"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+        {
+      "id": "michael-yuan",
+      "name": "Michael Yuan",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "SecondState Founder",
+      "image": "michael-yuan.jpeg",
+      "tags": ["plenary", "rustchinaconf", "ws-globalization","ws-embedded-rust"],
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
       },
       "status": "Accept",
       "draft": false
@@ -1168,25 +1203,6 @@
       "roleOrg": "Advisory Operation Manager, Huawei",
       "image": "hugejile.jpg",
       "tags": ["apps-agents"],
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "website": ""
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "tao-jiang",
-      "name": "Tao Jiang",
-      "bio": "Tao Jiang - Founder & Chairman (Panelist), CSDN",
-      "role": "Founder & Chairman (Panelist)",
-      "org": "CSDN",
-      "roleOrg": "Founder & Chairman (Panelist), CSDN",
-      "image": "tao-jiang.jpg",
-      "tags": ["forum-aivision", "plenary"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2250,7 +2266,7 @@
       "org": "Makepad",
       "roleOrg": "Co-founder of Makepad",
       "image": "rik-arends.png",
-      "tags": ["rustchinaconf", "ws-embedded-rust"],
+      "tags": ["rustchinaconf", "ws-makepad"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2326,7 +2342,7 @@
       "org": "Makepad",
       "roleOrg": "Co-founder of Makepad",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-embedded-rust"],
+      "tags": ["ws-makepad"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2574,6 +2590,63 @@
       "roleOrg": "Global Senior Director of Product, Engineering and Ecosystem at Rokid",
       "image": "0-placeholder-person.png",
       "tags": ["apps-agents"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+        {
+      "id": "handong-zhang",
+      "name": "Handong Zhang",
+      "bio": "Independent Consultant",
+      "role": "Independent Consultant",
+      "org": "",
+      "roleOrg": "Independent Consultant",
+      "image": "0-placeholder-person.png",
+      "tags": ["ws-makepad"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "siheng-chen",
+      "name": "Siheng Chen",
+      "bio": "Cheng Shi, Second State, EchoKit Developer",
+      "role": "Cheng Shi, Second State, EchoKit Developer",
+      "org": "Second State",
+      "roleOrg": "Cheng Shi, Second State, EchoKit Developer",
+      "image": "0-placeholder-person.png",
+      "tags": ["ws-embedded-rust"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xitong-li",
+      "name": "Xitong Li",
+      "bio": "Professor of Information Systems and Operations Management at HEC Paris.",
+      "role": "Professor of Information Systems and Operations Management",
+      "org": "HEC Paris",
+      "roleOrg": "Professor of Information Systems and Operations Management, HEC Paris",
+      "image": "xitong-li.jpeg",
+      "tags": ["ai-next"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3668,25 +3741,6 @@
       "draft": false
     },
     {
-      "id": "bill-ren",
-      "name": "Bill Ren",
-      "bio": "Chief open source liaison officer of Huawei, Board member of CNCF",
-      "role": "Chief open source liaison officer",
-      "org": "Huawei",
-      "roleOrg": "Chief open source liaison officer of Huawei, Board member of CNCF",
-      "image": "bill-ren.jpg",
-      "tags": ["plenary", "forum-aivision"],
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "website": ""
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
       "id": "richard-reiner",
       "name": "Richard REINER",
       "bio": "I am a serial entrepreneur and company builder with multiple Fortune 1000 exits, and a leading global cybersecurity expert who has held C-level and VP roles at leading global companies. I'm active as an executive, investor, mentor, and Board member with many high-growth companies at the intersections of cybersecurity, AI, and IoT, the same spaces in which I have built and successfully exited multiple companies and hold numerous patents.\r\n\r\nI am Founding Partner at CC Stratus Capital, an innovative investment firm with a strategic focus on cybersecurity and AI.\r\n\r\nI was Executive Chair of dfuse / StreamingFast, the leading blockchain big data platform (acquired by The Graph) and Chair of Cybeats, the IoT endpoint security company (acquired by Relay Medical). I was previously Chief Technology Officer - Safe Identity in Intel's Security Group, and VP Safe Identity at McAfee. I was President of PasswordBox, the leading digital identity company, leading up to the company’s acquisition by Intel. I was Chairman & CEO of Enomaly, a global leader in cloud computing, up to Enomaly’s acquisition in 2011; and was the founder, CEO, and CTO of Assurent, a leading cybersecurity company, up to its acquisition in 2006.\r\n\r\nI serve and have served on the Boards and Advisory Boards of many leading cybersecurity, cloud, AI, and IoT companies such as Autohost, Korbit AI, Shearwater Aerospace, Immunio, Elliptic Technologies, Virima, CloudeAssurance, Veracode, NetClarity, Virima, and Fonolo.\r\n\r\nI'm often quoted by the press, in media such as the New York Times, CBS, NBC, USA Today, TechCrunch, etc., and hold a Ph.D. and numerous patents in cybersecurity, big data, and AI.",
@@ -4189,25 +4243,6 @@
       "roleOrg": "Associate Professor in the Department of Computer Science and Technology at Tsinghua University, PhD supervisor, and Deputy Director of the Software Research Institute",
       "image": "0-placeholder-person.png",
       "tags": ["rustchinaconf"],
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "michael-yuan",
-      "name": "Michael Yuan",
-      "bio": "",
-      "role": "",
-      "org": "",
-      "roleOrg": "SecondState Founder",
-      "image": "michael-yuan.jpeg",
-      "tags": ["plenary", "rustchinaconf", "ws-globalization"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",

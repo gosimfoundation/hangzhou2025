@@ -6966,12 +6966,61 @@
       {
         "date": {
           "en": "September 14",
+          "zh": "9月14日"
+        },
+        "timeSlot": "14:00 - 17:30",
+        "title": {
+          "en": "Embedded Rust for AI",
+          "zh": "嵌入式Rust用于AI"
+        },
+        "content": {
+          "en": "Embedded Rust for AI",
+          "zh": "嵌入式Rust用于AI"
+        },
+        "speakers": [
+          {
+            "id": "siheng-chen",
+            "name": {
+              "en": "Siheng Chen",
+              "zh": "陈思衡"
+            },
+            "roleOrg": {
+              "en": "Cheng Shi, Second State, EchoKit Developer",
+              "zh": "Second State 程师，EchoKit研发"
+            },
+            "tags": [
+              "ws-embedded-rust"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+          {
+            "id": "michael-yuan",
+            "name": {
+              "en": "Michael Yuan",
+              "zh": "Michael Yuan"
+            },
+            "roleOrg": {
+              "en": "Founder of Second State, Founder of GOSIM",
+              "zh": "Second State创始人、GOSIM发起人"
+            },
+            "tags": [
+              "ws-embedded-rust"
+            ],
+            "image": "michael-yuan.jpeg"
+          }
+        ]
+      }
+    ],
+        "ws-makepad": [
+      {
+        "date": {
+          "en": "September 14",
           "zh": "September 14"
         },
         "timeSlot": "14:00 - 17:30",
         "title": {
           "en": "How to Build Apps with Makepad",
-          "zh": "How to Build Apps with Makepad"
+          "zh": "如何使用Makepad开发应用程序"
         },
         "content": {
           "en": "In this workshop, we will teach you how to build a simple app with Makepad, a modern GPU-based UI Framework for Rust that allows for writing fast and lightweight apps. The app we are going to build is a simple but functional demonstration of Makepad's capabilities, showcasing its unique approach to GPU-accelerated rendering and declarative UI design. Participants will learn the fundamentals of Makepad's architecture, how to create responsive layouts, handle user interactions, and leverage Rust's performance benefits for creating smooth, native-feeling applications across platforms.",
@@ -7002,6 +7051,21 @@
             "roleOrg": {
               "en": "Co-founder of Makepad",
               "zh": "Makepad联合创始人"
+            },
+            "tags": [
+              "ws-embedded-rust"
+            ],
+            "image": "0-placeholder-person.png"
+          },
+                    {
+            "id": "handong-zhang",
+            "name": {
+              "en": "Handong Zhang",
+              "zh": "张汉东"
+            },
+            "roleOrg": {
+              "en": "Independent Consultant",
+              "zh": "独立咨询师"
             },
             "tags": [
               "ws-embedded-rust"

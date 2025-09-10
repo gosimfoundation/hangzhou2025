@@ -82,7 +82,7 @@
     },
     {
       "name": "嵌入式 Rust 与 AI 工作坊",
-      "id": "ws-embedded-rust-ai"
+      "id": "ws-embedded-rust"
     },
     {
       "name": "Solana for Rustaceans 工作坊",
@@ -110,25 +110,6 @@
     }
   ],
   "speakers": [
-    {
-      "id": "xitong-li",
-      "name": "李希潼",
-      "bio": "法国巴黎高等商学院 (HEC) 信息系统和运营管理教授。",
-      "role": "信息系统和运营管理教授",
-      "org": "法国巴黎高等商学院",
-      "roleOrg": "法国巴黎高等商学院 (HEC) 信息系统和运营管理教授",
-      "image": "xitong-li.jpeg",
-      "tag": "ai-next",
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "website": ""
-      },
-      "status": "Accept",
-      "draft": false
-    },
     {
       "id": "mehdi-snene",
       "name": "Mehdi Snene",
@@ -232,7 +213,7 @@
       "org": "",
       "roleOrg": "SecondState 创始人",
       "image": "michael-yuan.jpeg",
-      "tags": ["plenary", "rustchinaconf", "ws-globalization"],
+      "tags": ["plenary", "rustchinaconf", "ws-globalization", "ws-embedded-rust"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -2247,7 +2228,7 @@
       "org": "",
       "roleOrg": "Makepad联合创始人",
       "image": "rik-arends.png",
-      "tags": ["rustchinaconf", "ws-embedded-rust"],
+      "tags": ["rustchinaconf", "ws-makepad"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2323,7 +2304,7 @@
       "org": "",
       "roleOrg": "Makepad联合创始人",
       "image": "0-placeholder-person.png",
-      "tags": ["ws-embedded-rust"],
+      "tags": ["ws-makepad"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -2571,6 +2552,63 @@
       "roleOrg": "Rokid全球产品、工程和生态系统高级总监",
       "image": "0-placeholder-person.png",
       "tags": ["apps-agents"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+        {
+      "id": "handong-zhang",
+      "name": "张汉东",
+      "bio": "独立咨询师",
+      "role": "独立咨询师",
+      "org": "",
+      "roleOrg": "独立咨询师",
+      "image": "0-placeholder-person.png",
+      "tags": ["ws-makepad"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "siheng-chen",
+      "name": "陈思衡",
+      "bio": "独立咨询师",
+      "role": "独立咨询师",
+      "org": "",
+      "roleOrg": "独立咨询师",
+      "image": "0-placeholder-person.png",
+      "tags": ["ws-embedded-rust"],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xitong-li",
+      "name": "李希潼",
+      "bio": "法国巴黎高等商学院 (HEC) 信息系统和运营管理教授。",
+      "role": "信息系统和运营管理教授",
+      "org": "法国巴黎高等商学院",
+      "roleOrg": "法国巴黎高等商学院 (HEC) 信息系统和运营管理教授",
+      "image": "xitong-li.jpeg",
+      "tag": "ai-next",
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -3787,25 +3825,6 @@
       "roleOrg": "AI治理负责人（圆桌讨论成员）, DeepSeek",
       "image": "0-placeholder-person.png",
       "tags": ["forum-aivision"],
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "website": ""
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "yan-feng",
-      "name": "彦风",
-      "bio": "彦风 - 一级美术师, 中国艺术研究院",
-      "role": "一级美术师",
-      "org": "中国艺术研究院",
-      "roleOrg": "一级美术师, 中国艺术研究院",
-      "image": "yan-feng.png",
-      "tags": ["forum-aivision", "ws-ai-education"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
