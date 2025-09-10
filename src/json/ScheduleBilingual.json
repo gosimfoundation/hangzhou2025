@@ -5053,343 +5053,359 @@
         ]
       }
     ],
-    "ws-sglang": [
+"ws-sglang": [
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "10:15 - 10:50",
+    "title": {
+      "en": "SGLang: An Efficient Open-Source Framework for Large-Scale LLM Serving",
+      "zh": "SGLang：一个高效的开源大规模LLM服务框架"
+    },
+    "content": {
+      "en": "SGLang is an efficient open-source framework for large-scale LLM serving. Over the past year, SGLang has experienced rapid iteration and significant advancements. This presentation presents an overview of SGLang's leading features, including KV Cache Reuse, Zero-overhead Batch Scheduling, Speculative Decoding, Prefill/Decode Disaggregation, and Large-scale Expert Parallelism.",
+      "zh": "SGLang是一个高效的开源大规模LLM服务框架。在过去的一年中，SGLang经历了快速的迭代和发展，本次Talk将概括性地介绍SGLang的核心特性，主要包括：KV Cache重用、Zero-overhead批调度、投机采样、Prefill & Decode分离和大规模专家并行。"
+    },
+    "speakers": [
       {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
+        "id": "yi-zhang",
+        "name": {
+          "en": "Yi Zhang",
+          "zh": "张懿"
         },
-        "timeSlot": "10:15 - 10:50",
-        "title": {
-          "en": "SGLang: An Efficient Open-Source Framework for Large-Scale LLM Serving",
-          "zh": "SGLang：一个高效的开源大规模LLM服务框架"
+        "roleOrg": {
+          "en": "SGLang Committer",
+          "zh": "SGLang Committer"
         },
-        "content": {
-          "en": "SGLang is an efficient open-source framework for large-scale LLM serving. Over the past year, SGLang has experienced rapid iteration and significant advancements. This presentation presents an overview of SGLang's leading features, including KV Cache Reuse, Zero-overhead Batch Scheduling, Speculative Decoding, Prefill/Decode Disaggregation, and Large-scale Expert Parallelism.",
-          "zh": "SGLang是一个高效的开源大规模LLM服务框架。在过去的一年中，SGLang经历了快速的迭代和发展，本次Talk将概括性地介绍SGLang的核心特性，主要包括：KV Cache重用、Zero-overhead批调度、投机采样、Prefill & Decode分离和大规模专家并行。"
-        },
-        "speakers": [
-          {
-            "id": "yi-zhang",
-            "name": {
-              "en": "Yi Zhang",
-              "zh": "张懿"
-            },
-            "roleOrg": {
-              "en": "Software Engineer, Alibaba Cloud Computing Co., Ltd.",
-              "zh": "阿里云计算有限公司软件工程师"
-            },
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "yi-zhang.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "10:50 - 11:25",
-        "title": {
-          "en": "SGLang Prefill/Decode Disaggregation with Mooncake",
-          "zh": "基于Mooncake的SGLang Prefill/Decode分离方案"
-        },
-        "content": {
-          "en": "Large Language Model (LLM) inference comprises two distinct phases: Prefill and Decode. The Prefill phase is computation-intensive, processing the entire input sequence, while the Decode phase is memory-intensive, managing the Key-Value (KV) cache for token generation. Traditionally, these phases are handled within a unified engine, where combined scheduling of prefill and decode batches introduces inefficiencies. To address these challenges, we introduce Prefill and Decoding (PD) Disaggregation in SGLang, which enables tailored optimizations for each.",
-          "zh": "大语言模型(LLM)推理包含两个不同的阶段：Prefill和Decode。Prefill阶段是计算密集型的，处理整个输入序列，而Decode阶段是内存密集型的，管理用于生成token的键值(KV)缓存。传统上，这些阶段在统一引擎内处理，其中prefill和decode批次的组合调度会带来效率低下的问题。为了解决这些挑战，我们在SGLang中引入了Prefill和Decoding(PD)分离，这使得能够为每个阶段进行定制优化。"
-        },
-        "speakers": [
-          {
-            "id": "shangming-cai-",
-            "name": {
-              "en": "Shangming Cai",
-              "zh": "蔡尚铭"
-            },
-            "roleOrg": {
-              "en": "Senior Engineer, Alibaba Cloud",
-              "zh": "阿里云高级工程师"
-            },
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "shangming-cai-.jpg"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "11:25 - 12:00",
-        "title": {
-          "en": "High-Performance Inference Practice for Large Language Models on iFLYTEK MaaS Platform",
-          "zh": "讯飞MaaS平台大模型高性能推理实践"
-        },
-        "content": {
-          "en": "Technical introduction of iFLYTEK's PD (Prefill-Decode) separation approach based on open-source engines combined with their own inference service framework.",
-          "zh": "讯飞基于开源引擎结合自身推理服务框架在PD分离上的相关技术介绍。"
-        },
-        "speakers": [
-          {
-            "id": "yanbo-yang",
-            "name": {
-              "en": "Yanbo Yang",
-              "zh": "杨彦波"
-            },
-            "roleOrg": {
-              "en": "SGLang Committer",
-              "zh": "SGLang Committer"
-            },
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "yanboyang.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "14:00 - 14:35",
-        "title": {
-          "en": "Thinking with SGLang: Inference empowering Training in the Reinforcement Learning Era",
-          "zh": "午餐"
-        },
-        "content": {
-          "en": "Enabling LLMs to improve their outputs with reinforcement learning and test-time scaling (TTS) is now a tendency, which leads to the adoption and unprecedented importance of inference engines in model training. In this presentation, we will go through the recent progress and community adoption in SGLang under RL scenarios.",
-          "zh": "使LLM通过强化学习和测试时间扩展(TTS)改进其输出现在是一种趋势，这导致了推理引擎在模型训练中的采用和前所未有的重要性。在本次演讲中，我们将回顾SGLang在强化学习场景下的最新进展和社区采用情况。"
-        },
-        "speakers": [
-          {
-            "id": "junrong-lin",
-            "name": {
-              "en": "Junrong Lin",
-              "zh": "林骏荣"
-            },
-            "roleOrg": {
-              "en": "Member of Technical Staff, Qwen Team, Alibaba Group",
-              "zh": "阿里巴巴集团Qwen团队技术人员"
-            },
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "junrong-lin.jpg"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "14:35 - 15:10",
-        "title": {
-          "en": "SpecForge: Open Source Framework for Training Speculative Decoding Models",
-          "zh": "和SGLang一起思考：推理赋能强化学习时代的模型训练"
-        },
-        "content": {
-          "en": "SpecForge: Open Source Framework for Training Speculative Decoding Models",
-          "zh": "和SGLang一起思考：推理赋能强化学习时代的模型训练"
-        },
-        "speakers": [
-          {
-            "id": "yikai-zhu",
-            "name": {
-              "en": "Yikai Zhu",
-              "zh": "朱熠恺"
-            },
-            "roleOrg": {
-              "en": "Software Engineer, N/A",
-              "zh": "软件工程师"
-            },
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "yikai-zhu.jpg"
-          },
-          {
-            "id": "chao-wang",
-            "name": {
-              "en": "Chao Wang",
-              "zh": "王超"
-            },
-            "roleOrg": {
-              "en": "SGlang Committer, Meituan",
-              "zh": "SGLang Committer，美团"
-            },
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "chao-wang.jpg"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "15:10 - 15:20",
-        "title": {
-          "en": "Group Photo",
-          "zh": "SpecForge: 用于训练投机采样模型的开源框架"
-        },
-        "content": {
-          "en": "Group Photo",
-          "zh": "SpecForge: 用于训练投机采样模型的开源框架"
-        },
-        "speakers": []
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "15:20 - 15:40",
-        "title": {
-          "en": "Tea Break",
-          "zh": "合影"
-        },
-        "content": {
-          "en": "Tea Break",
-          "zh": "合影"
-        },
-        "speakers": []
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "15:40 - 16:15",
-        "title": {
-          "en": "Joint Algorithm-System Optimization Practices by the Qwen Team in Large Language Model Inference",
-          "zh": "茶歇"
-        },
-        "content": {
-          "en": "Joint Algorithm-System Optimization Practices by the Qwen Team in Large Language Model Inference",
-          "zh": "茶歇"
-        },
-        "speakers": [
-          {
-            "id": "yizhong-cao-",
-            "name": {
-              "en": "Yizhong Cao",
-              "zh": "曹逸中"
-            },
-            "roleOrg": {
-              "en": "Engineer, Alibaba",
-              "zh": "阿里巴巴工程师"
-            },
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "yizhong-cao-.jpg"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "16:15 - 16:50",
-        "title": {
-          "en": "Efficient Practices for LLM Inference with SGLang on Ascend",
-          "zh": "sglang on ascend 大模型推理的高效实践"
-        },
-        "content": {
-          "en": "The Huawei Ascend architecture differs significantly from NVIDIA GPU architecture, including differences in chip architecture, interconnect, software stack, programming system, and operator libraries, which brings many challenges for SGLang on Ascend adaptation and support. This presentation introduces the Ascend system architecture and shares the journey and efficient practices of SGLang on Ascend adaptation. We explore the technical hurdles overcome, performance optimizations achieved, and lessons learned in porting SGLang to the Ascend ecosystem.",
-          "zh": "华为昇腾架构相比NV GPU架构存在较多不同点，包含芯片的架构、互联、软件栈、编程体系、算子库等，也为sglang on ascend的适配与支持带来诸多挑战。本议题介绍昇腾的体系结构，以及sglang on ascend适配的心路历程与高效实践。我们探讨克服的技术难题、实现的性能优化，以及在将SGLang移植到昇腾生态系统中吸取的经验教训。"
-        },
-        "speakers": [
-          {
-            "id": "xiaoming-bao",
-            "name": {
-              "en": "Xiaoming Bao",
-              "zh": "包小明"
-            },
-            "roleOrg": {
-              "en": "Architect, Huawei",
-              "zh": "华为架构师"
-            },
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "xiaoming-bao.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "16:50 - 17:25",
-        "title": {
-          "en": "Research on all-to-all Communication Optimization in Large-Scale Mixture of Experts (MoE) Models",
-          "zh": "SGLang on Ascend大模型推理的高效实践"
-        },
-        "content": {
-          "en": "Research on all-to-all Communication Optimization in Large-Scale Mixture of Experts (MoE) Models",
-          "zh": "SGLang on Ascend大模型推理的高效实践"
-        },
-        "speakers": [
-          {
-            "id": "speaker-wang-dong",
-            "name": {
-              "en": "Dong Wang",
-              "zh": "王冬"
-            },
-            "roleOrg": {
-              "en": "GPU Computing Expert of NVIDIA",
-              "zh": "英伟达GPU计算专家"
-            },
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
-        "timeSlot": "17:25 - 18:00",
-        "title": {
-          "en": "Volcengine SGLang Best Practices - Deploying DeepSeek with PD Disaggregation and Expert Parallelism",
-          "zh": "大规模混合专家模型（MoE）中的AII2AII通信优化研究"
-        },
-        "content": {
-          "en": "Volcengine SGLang Best Practices - Deploying DeepSeek with PD Disaggregation and Expert Parallelism",
-          "zh": "大规模混合专家模型（MoE）中的AII2AII通信优化研究"
-        },
-        "speakers": [
-          {
-            "id": "xiaolei-zhang",
-            "name": {
-              "en": "Xiaolei Zhang",
-              "zh": "张晓雷"
-            },
-            "roleOrg": {
-              "en": "AI Performance Optimization Expert, Bytedance",
-              "zh": "字节跳动AI性能优化专家"
-            },
-            "tags": [
-              "ws-sglang"
-            ],
-            "image": "xiaolei-zhang.jpeg"
-          }
-        ]
+        "tags": [
+          "ws-sglang"
+        ],
+        "image": "yi-zhang.png"
       }
-    ],
+    ]
+  },
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "10:50 - 11:25",
+    "title": {
+      "en": "SGLang Prefill/Decode Disaggregation with Mooncake",
+      "zh": "基于Mooncake的SGLang Prefill/Decode分离方案"
+    },
+    "content": {
+      "en": "Large Language Model (LLM) inference comprises two distinct phases: Prefill and Decode. The Prefill phase is computation-intensive, processing the entire input sequence, while the Decode phase is memory-intensive, managing the Key-Value (KV) cache for token generation. Traditionally, these phases are handled within a unified engine, where combined scheduling of prefill and decode batches introduces inefficiencies. To address these challenges, we introduce Prefill and Decoding (PD) Disaggregation in SGLang, which enables tailored optimizations for each.",
+      "zh": "大语言模型(LLM)推理包含两个不同的阶段：Prefill和Decode。Prefill阶段是计算密集型的，处理整个输入序列，而Decode阶段是内存密集型的，管理用于生成token的键值(KV)缓存。传统上，这些阶段在统一引擎内处理，其中prefill和decode批次的组合调度会带来效率低下的问题。为了解决这些挑战，我们在SGLang中引入了Prefill和Decoding(PD)分离，这使得能够为每个阶段进行定制优化。"
+    },
+    "speakers": [
+      {
+        "id": "shangming-cai",
+        "name": {
+          "en": "Shangming Cai",
+          "zh": "蔡尚铭"
+        },
+        "roleOrg": {
+          "en": "Mooncake Core Member / SGLang Committer",
+          "zh": "Mooncake Core Member / SGLang Committer"
+        },
+        "tags": [
+          "ws-sglang"
+        ],
+        "image": "shangming-cai-.jpg"
+      }
+    ]
+  },
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "11:25 - 12:00",
+    "title": {
+      "en": "High-Performance Inference Practice for Large Language Models on iFLYTEK MaaS Platform",
+      "zh": "讯飞MaaS平台大模型高性能推理实践"
+    },
+    "content": {
+      "en": "Technical introduction of iFLYTEK's PD (Prefill-Decode) separation approach based on open-source engines combined with their own inference service framework.",
+      "zh": "讯飞基于开源引擎结合自身推理服务框架在PD分离上的相关技术介绍。"
+    },
+    "speakers": [
+      {
+        "id": "yanbo-yang",
+        "name": {
+          "en": "Yanbo Yang",
+          "zh": "杨彦波"
+        },
+        "roleOrg": {
+          "en": "SGLang Committer",
+          "zh": "SGLang Committer"
+        },
+        "tags": [
+          "ws-sglang"
+        ],
+        "image": "yanboyang.png"
+      }
+    ]
+  },
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "12:00 - 14:00",
+    "title": {
+      "en": "Lunch",
+      "zh": "午餐"
+    },
+    "content": {
+      "en": "Lunch Break",
+      "zh": "午餐时间"
+    },
+    "speakers": []
+  },
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "14:00 - 14:35",
+    "title": {
+      "en": "Thinking with SGLang: Inference empowering Training in the Reinforcement Learning Era",
+      "zh": "和SGLang一起思考：推理赋能强化学习时代的模型训练"
+    },
+    "content": {
+      "en": "Enabling LLMs to improve their outputs with reinforcement learning and test-time scaling (TTS) is now a tendency, which leads to the adoption and unprecedented importance of inference engines in model training. In this presentation, we will go through the recent progress and community adoption in SGLang under RL scenarios.",
+      "zh": "使LLM通过强化学习和测试时间扩展(TTS)改进其输出现在是一种趋势，这导致了推理引擎在模型训练中的采用和前所未有的重要性。在本次演讲中，我们将回顾SGLang在强化学习场景下的最新进展和社区采用情况。"
+    },
+    "speakers": [
+      {
+        "id": "junrong-lin",
+        "name": {
+          "en": "Junrong Lin",
+          "zh": "林骏荣"
+        },
+        "roleOrg": {
+          "en": "SGLang Committer, Member of Qwen Team, Alibaba Group",
+          "zh": "SGLang Committer、Qwen团队成员"
+        },
+        "tags": [
+          "ws-sglang"
+        ],
+        "image": "junrong-lin.jpg"
+      }
+    ]
+  },
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "14:35 - 15:10",
+    "title": {
+      "en": "SpecForge: Open Source Framework for Training Speculative Decoding Models",
+      "zh": "SpecForge: 用于训练投机采样模型的开源框架"
+    },
+    "content": {
+      "en": "SpecForge: Open Source Framework for Training Speculative Decoding Models",
+      "zh": "SpecForge: 用于训练投机采样模型的开源框架"
+    },
+    "speakers": [
+      {
+        "id": "yikai-zhu",
+        "name": {
+          "en": "Yikai Zhu",
+          "zh": "朱熠恺"
+        },
+        "roleOrg": {
+          "en": "SGLang Committer",
+          "zh": "SGLang Committer"
+        },
+        "tags": [
+          "ws-sglang"
+        ],
+        "image": "yikai-zhu.jpg"
+      },
+      {
+        "id": "chao-wang",
+        "name": {
+          "en": "Chao Wang",
+          "zh": "王超"
+        },
+        "roleOrg": {
+          "en": "SGLang Committer",
+          "zh": "SGLang Committer"
+        },
+        "tags": [
+          "ws-sglang"
+        ],
+        "image": "chao-wang.jpg"
+      }
+    ]
+  },
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "15:10 - 15:20",
+    "title": {
+      "en": "Group Photo",
+      "zh": "合影"
+    },
+    "content": {
+      "en": "Group Photo",
+      "zh": "合影"
+    },
+    "speakers": []
+  },
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "15:20 - 15:40",
+    "title": {
+      "en": "Tea Break",
+      "zh": "茶歇"
+    },
+    "content": {
+      "en": "Tea Break",
+      "zh": "茶歇"
+    },
+    "speakers": []
+  },
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "15:40 - 16:15",
+    "title": {
+      "en": "Joint Algorithm-System Optimization Practices by the Qwen Team in Large Language Model Inference",
+      "zh": "Qwen团队在大模型推理中算法-系统联合优化实践"
+    },
+    "content": {
+      "en": "Joint Algorithm-System Optimization Practices by the Qwen Team in Large Language Model Inference",
+      "zh": "Qwen团队在大模型推理中算法-系统联合优化实践"
+    },
+    "speakers": [
+      {
+        "id": "yizhong-cao",
+        "name": {
+          "en": "Yizhong Cao",
+          "zh": "曹逸中"
+        },
+        "roleOrg": {
+          "en": "Member of Qwen Team, Alibaba Group",
+          "zh": "Qwen团队成员"
+        },
+        "tags": [
+          "ws-sglang"
+        ],
+        "image": "yizhong-cao-.jpg"
+      }
+    ]
+  },
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "16:15 - 16:50",
+    "title": {
+      "en": "Efficient Practices for LLM Inference with SGLang on Ascend",
+      "zh": "SGLang on Ascend大模型推理的高效实践"
+    },
+    "content": {
+      "en": "The Huawei Ascend architecture differs significantly from NVIDIA GPU architecture, including differences in chip architecture, interconnect, software stack, programming system, and operator libraries, which brings many challenges for SGLang on Ascend adaptation and support. This presentation introduces the Ascend system architecture and shares the journey and efficient practices of SGLang on Ascend adaptation. We explore the technical hurdles overcome, performance optimizations achieved, and lessons learned in porting SGLang to the Ascend ecosystem.",
+      "zh": "华为昇腾架构相比NV GPU架构存在较多不同点，包含芯片的架构、互联、软件栈、编程体系、算子库等，也为sglang on ascend的适配与支持带来诸多挑战。本议题介绍昇腾的体系结构，以及sglang on ascend适配的心路历程与高效实践。我们探讨克服的技术难题、实现的性能优化，以及在将SGLang移植到昇腾生态系统中吸取的经验教训。"
+    },
+    "speakers": [
+      {
+        "id": "xiaoming-bao",
+        "name": {
+          "en": "Xiaoming Bao",
+          "zh": "包小明"
+        },
+        "roleOrg": {
+          "en": "Architect of Huawei",
+          "zh": "华为昇腾高级架构师、SGLang贡献者"
+        },
+        "tags": [
+          "ws-sglang"
+        ],
+        "image": "xiaoming-bao.png"
+      }
+    ]
+  },
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "16:50 - 17:25",
+    "title": {
+      "en": "Research on all-to-all Communication Optimization in Large-Scale Mixture of Experts (MoE) Models",
+      "zh": "大规模混合专家模型（MoE）中的AII2AII通信优化研究"
+    },
+    "content": {
+      "en": "Research on all-to-all Communication Optimization in Large-Scale Mixture of Experts (MoE) Models",
+      "zh": "大规模混合专家模型（MoE）中的AII2AII通信优化研究"
+    },
+    "speakers": [
+      {
+        "id": "dong-wang",
+        "name": {
+          "en": "Dong Wang",
+          "zh": "王冬"
+        },
+        "roleOrg": {
+          "en": "GPU Computing Expert of NVIDIA",
+          "zh": "英伟达GPU计算专家"
+        },
+        "tags": [
+          "ws-sglang"
+        ],
+        "image": "dong-wang.png"
+      }
+    ]
+  },
+  {
+    "date": {
+      "en": "September 14",
+      "zh": "9月14日"
+    },
+    "timeSlot": "17:25 - 18:00",
+    "title": {
+      "en": "Volcengine SGLang Best Practices - Deploying DeepSeek with PD Disaggregation and Expert Parallelism",
+      "zh": "火山引擎SGLang最佳实践-使用PD分离和专家并行部署DeepSeek模型"
+    },
+    "content": {
+      "en": "Volcengine SGLang Best Practices - Deploying DeepSeek with PD Disaggregation and Expert Parallelism",
+      "zh": "火山引擎SGLang最佳实践-使用PD分离和专家并行部署DeepSeek模型"
+    },
+    "speakers": [
+      {
+        "id": "xiaolei-zhang",
+        "name": {
+          "en": "Xiaolei Zhang",
+          "zh": "张晓雷"
+        },
+        "roleOrg": {
+          "en": "AI Performance Optimization Expert, Bytedance",
+          "zh": "字节跳动AI性能优化专家"
+        },
+        "tags": [
+          "ws-sglang"
+        ],
+        "image": "xiaolei-zhang.jpeg"
+      }
+    ]
+  }
+],
     "ws-cangjie": [
       {
         "date": {
