@@ -1456,7 +1456,7 @@
         },
         "content": {
           "en": "<p>Exploring how AI transforms creative expression and artistic production, from traditional art forms to new media. This session examines the collaborative potential between human creativity and AI, addressing questions of authorship, artistic authenticity, and the future of creative industries.</p><p><strong>Panel: AI+Creativity</strong> - Wang Juchen, Alexandra Boucherifi-Kornmann, Yan Feng, Wei Wei, Zhou Maohua</p>",
-          "zh": "<p>探讨AI如何改变创意表达和艺术创作，从传统艺术形式到新媒体艺术。本环节审视人类创意与AI之间的协作潜力，讨论作者身份、艺术真实性以及创意产业的未来。</p><p><strong>圆桌讨论: AI+创造力</strong> - 王钜辰、Alexandra Boucherifi-Kornmann、彦风、唯伟、周茂华</p>"
+          "zh": "<p>探讨AI如何改变创意表达和艺术创作，从传统艺术形式到新媒体艺术。本环节审视人类创意与AI之间的协作潜力，讨论作者身份、艺术真实性以及创意产业的未来。</p><p><strong>圆桌讨论: AI+创造力</strong> - 王钜辰、Alexandra Boucherifi-Kornmann、唯伟、周茂华</p>"
         },
         "speakers": [
           {
@@ -3981,7 +3981,7 @@
             "id": "yin-zhenxi",
             "name": {
               "en": "Yin Zhenxi",
-              "zh": "Yin Zhenxi"
+              "zh": "尹振玺"
             },
             "roleOrg": {
               "en": "Technical Director, AI Coding Products, Chaitin Tech",
@@ -6974,21 +6974,6 @@
             "image": "0-placeholder-person.png"
           },
           {
-            "id": "yan-feng",
-            "name": {
-              "en": "Feng Yan",
-              "zh": "彦风"
-            },
-            "roleOrg": {
-              "en": "First-class Artist of the Chinese National Academy of Arts",
-              "zh": "中国艺术研究院一级美术师"
-            },
-            "tags": [
-              "ws-ai-education"
-            ],
-            "image": "yan-feng.png"
-          },
-          {
             "id": "yanzhi-wang",
             "name": {
               "en": "Yanzhi Wang",
@@ -7633,7 +7618,7 @@
             "tags": [
               "ws-globalization"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "adina-yakefu.png"
           }
         ]
       },
@@ -7652,6 +7637,21 @@
           "zh": "关于开源出海的机会与挑战的圆桌会议。"
         },
         "speakers": [
+          {
+            "id": "wei-wang",
+            "name": {
+              "en": "Moderator - Wang Wei",
+              "zh": "主持人 - 王伟"
+            },
+            "roleOrg": {
+              "en": "Director of the Open Source Technical Committee, Singular Intelligence Research Institute, East China Normal University",
+              "zh": "奇点智能研究院开源技术委员会主任, 华东师范大学"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "wei-wang.jpg"
+          },
           {
             "id": "richard-lin",
             "name": {
@@ -7725,7 +7725,7 @@
             "tags": [
               "ws-globalization"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "adina-yakefu.png"
           },
           {
             "id": "qin-wang",
