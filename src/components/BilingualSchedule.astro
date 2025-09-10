@@ -838,6 +838,11 @@ const getLocalizedText = (key: string): string => {
   .timeslot {
     min-width: 8em !important;
   }
+    @media screen and (max-width: 640px) {
+    .timeslot {
+      width: 100% !important;
+    }
+  }
   .tracks {
     flex-shrink: 0;
   }

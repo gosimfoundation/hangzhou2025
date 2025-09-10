@@ -62,18 +62,34 @@ const speakerSessions = [
       const matchingSessions = sessions
         .filter((session) =>
           session.speakers.some((s) => {
-            const sessionSpeakerName = typeof s.name === 'string' ? s.name : s.name?.zh || s.name?.en;
+            const sessionSpeakerName =
+              typeof s.name === "string" ? s.name : s.name?.zh || s.name?.en;
             const sessionSpeakerId = s.id;
-            return sessionSpeakerName === speaker.name || sessionSpeakerId === speaker.id;
+            return (
+              sessionSpeakerName === speaker.name ||
+              sessionSpeakerId === speaker.id
+            );
           })
         )
         .map((session) => ({
-          title: typeof session.title === 'string' ? session.title : session.title?.zh || session.title?.en || '',
-          titleForUrl: (typeof session.title === 'string' ? session.title : session.title?.en || session.title?.zh || ''),
-          speakers: session.speakers.map(s => ({
-            name: typeof s.name === 'string' ? s.name : s.name?.zh || s.name?.en || ''
+          title:
+            typeof session.title === "string"
+              ? session.title
+              : session.title?.zh || session.title?.en || "",
+          titleForUrl:
+            typeof session.title === "string"
+              ? session.title
+              : session.title?.en || session.title?.zh || "",
+          speakers: session.speakers.map((s) => ({
+            name:
+              typeof s.name === "string"
+                ? s.name
+                : s.name?.zh || s.name?.en || "",
           })),
-          date: typeof session.date === 'string' ? session.date : session.date?.zh || session.date?.en || '',
+          date:
+            typeof session.date === "string"
+              ? session.date
+              : session.date?.zh || session.date?.en || "",
           timeSlot: session.timeSlot,
           category,
         }));
@@ -210,7 +226,11 @@ const socialIconMap: Record<string, string> = {
               <ul class="row row-list">
                 {speakerSessions.map((session) => (
                   <a
-                    href={`/zh/schedule/${(session.titleForUrl || session.title || '')
+                    href={`/zh/schedule/${(
+                      session.titleForUrl ||
+                      session.title ||
+                      ""
+                    )
                       .toLowerCase()
                       .replace(/[^\w\s-]/g, "")
                       .replace(/\s+/g, "-")
@@ -252,6 +272,11 @@ const socialIconMap: Record<string, string> = {
   }
   .timeslot {
     width: 8em !important;
+  }
+  @media screen and (max-width: 640px) {
+    .timeslot {
+      width: 100% !important;
+    }
   }
   .gradient-circle-wrap {
     display: flex;

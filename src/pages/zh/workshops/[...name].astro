@@ -42,11 +42,25 @@ interface schedule {
 // Get the speaker name from the route parameter
 export async function getStaticPaths() {
   // Filter only workshop speakers based on their tags
-  const workshopCategories = ["ws-future-web", "ws-cann", "ws-flutter", "ws-cangjie", "ws-edge-ai", "ws-chitu", "ws-ai-education", "ws-rn", "ws-dora", "ws-rust", "ws-sglang", "open-for-sdg", "forum-aivision"];
-  const workshopSpeakers = speakers.speakers.filter((speaker: Speaker) => 
+  const workshopCategories = [
+    "ws-future-web",
+    "ws-cann",
+    "ws-flutter",
+    "ws-cangjie",
+    "ws-edge-ai",
+    "ws-chitu",
+    "ws-ai-education",
+    "ws-rn",
+    "ws-dora",
+    "ws-rust",
+    "ws-sglang",
+    "open-for-sdg",
+    "forum-aivision",
+  ];
+  const workshopSpeakers = speakers.speakers.filter((speaker: Speaker) =>
     workshopCategories.includes(speaker.tag)
   );
-  
+
   return workshopSpeakers.map((speaker: Speaker) => ({
     params: { name: speaker.id },
     props: { speaker },
@@ -67,17 +81,32 @@ const speakerSessions = [
     (acc: Session[], [category, sessions]: [string, Session[]]) => {
       const matchingSessions = sessions
         .filter((session) =>
-          session.speakers.some((s) => 
-            (typeof s.name === 'string' ? s.name : s.name?.zh || s.name?.en) === speaker.name
+          session.speakers.some(
+            (s) =>
+              (typeof s.name === "string"
+                ? s.name
+                : s.name?.zh || s.name?.en) === speaker.name
           )
         )
         .map((session) => ({
-          title: typeof session.title === 'string' ? session.title : session.title?.zh || session.title?.en || '',
-          titleEn: typeof session.title === 'string' ? session.title : session.title?.en || '',  // For URL generation
-          speakers: session.speakers.map(s => ({
-            name: typeof s.name === 'string' ? s.name : s.name?.zh || s.name?.en || ''
+          title:
+            typeof session.title === "string"
+              ? session.title
+              : session.title?.zh || session.title?.en || "",
+          titleEn:
+            typeof session.title === "string"
+              ? session.title
+              : session.title?.en || "", // For URL generation
+          speakers: session.speakers.map((s) => ({
+            name:
+              typeof s.name === "string"
+                ? s.name
+                : s.name?.zh || s.name?.en || "",
           })),
-          date: typeof session.date === 'string' ? session.date : session.date?.zh || session.date?.en || '',
+          date:
+            typeof session.date === "string"
+              ? session.date
+              : session.date?.zh || session.date?.en || "",
           timeSlot: session.timeSlot,
           category,
         }));
@@ -95,7 +124,7 @@ const speakerSessions = [
     )
     .map((session) => ({
       title: session.title,
-      titleEn: session.title,  // Forum sessions are already in English
+      titleEn: session.title, // Forum sessions are already in English
       speakers: session.speakers,
       date: session.date,
       timeSlot: session.timeSlot,
@@ -261,5 +290,10 @@ const socialIconMap: Record<string, string> = {
   .gradient-circle-wrap {
     display: flex;
     justify-content: center;
+  }
+  @media screen and (max-width: 640px) {
+    .timeslot {
+      width: 100% !important;
+    }
   }
 </style>
