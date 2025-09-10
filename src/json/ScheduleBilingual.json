@@ -6404,19 +6404,19 @@
         },
         "speakers": [
           {
-            "id": "jingyua-huang",
+            "id": "jingya-huang",
             "name": {
-              "en": "Jingyua Huang",
+              "en": "Jingya Huang",
               "zh": "黄靖雅"
             },
             "roleOrg": {
-              "en": "Machine Learning Engineer, Hugging Face",
-              "zh": "Hugging Face 机器学习工程师"
+              "en": "Machine Learning Engineer of Hugging Face",
+              "zh": "Hugging Face机器学习工程师"
             },
             "tags": [
-              "ws-edge-ai"
+              "ai-models-infra"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "jingya-huang.jpg"
           }
         ]
       },

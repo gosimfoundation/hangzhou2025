@@ -2621,7 +2621,8 @@
       "roleOrg": "Dimforge 创始人",
       "image": "/images/speakers/sebastien-crozet.png",
       "tags": [
-        "rustchinaconf"
+        "rustchinaconf",
+        "ws-edge-ai"
       ],
       "socialLinks": {
         "mastodon": "undefined",
@@ -3416,7 +3417,8 @@
       "roleOrg": "机器学习工程师, Hugging Face",
       "image": "/images/speakers/jingya-huang.jpg",
       "tags": [
-        "ai-models-infra"
+        "ai-models-infra",
+        "ws-edge-ai"
       ],
       "socialLinks": {
         "mastodon": "undefined",
@@ -3424,27 +3426,6 @@
         "github": "https://github.com/JingyaHuang",
         "linkedin": "https://www.linkedin.com/in/jingya-huang-96158b15b/",
         "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "jingyua-huang",
-      "name": "黄靖雅",
-      "bio": "黄靖雅 - Hugging Face 机器学习工程师",
-      "role": "Hugging Face 机器学习工程师",
-      "org": "",
-      "roleOrg": "Hugging Face 机器学习工程师",
-      "image": "/images/speakers/jingya-huang.jpg",
-      "tags": [
-        "ws-edge-ai"
-      ],
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "website": ""
       },
       "status": "Accept",
       "draft": false
@@ -4472,28 +4453,6 @@
       "image": "/images/speakers/0-placeholder-person.png",
       "tags": [
         "ws-solana"
-      ],
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "sebastien-crozet",
-      "name": "Sébastien Crozet",
-      "bio": "",
-      "role": "",
-      "org": "",
-      "roleOrg": "",
-      "image": "/images/speakers/sebastien-crozet.png",
-      "tags": [
-        "rustchinaconf",
-        "ws-edge-ai"
       ],
       "socialLinks": {
         "mastodon": "undefined",

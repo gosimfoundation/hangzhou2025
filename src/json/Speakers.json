@@ -2664,7 +2664,8 @@
       "roleOrg": "Founder, Dimforge",
       "image": "/images/speakers/sebastien-crozet.png",
       "tags": [
-        "rustchinaconf"
+        "rustchinaconf",
+        "ws-edge-ai"
       ],
       "socialLinks": {
         "mastodon": "undefined",
@@ -3418,7 +3419,8 @@
       "roleOrg": "Machine Learning Engineer, Hugging Face",
       "image": "/images/speakers/jingya-huang.jpg",
       "tags": [
-        "ai-models-infra"
+        "ai-models-infra",
+        "ws-edge-ai"
       ],
       "socialLinks": {
         "mastodon": "undefined",
@@ -3426,27 +3428,6 @@
         "github": "https://github.com/JingyaHuang",
         "linkedin": "https://www.linkedin.com/in/jingya-huang-96158b15b/",
         "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "jingyua-huang",
-      "name": "Jingyua Huang",
-      "bio": "Jingyua Huang - Machine Learning Engineer, Hugging Face",
-      "role": "Machine Learning Engineer",
-      "org": "Hugging Face",
-      "roleOrg": "Machine Learning Engineer, Hugging Face",
-      "image": "/images/speakers/jingya-huang.jpg",
-      "tags": [
-        "ws-edge-ai"
-      ],
-      "socialLinks": {
-        "mastodon": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "website": ""
       },
       "status": "Accept",
       "draft": false
@@ -4495,28 +4476,6 @@
       "image": "/images/speakers/rustchinaconf/rebecca.png",
       "tags": [
         "rustchinaconf"
-      ],
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "Accept",
-      "draft": false
-    },
-    {
-      "id": "sebastien-crozet",
-      "name": "Sébastien Crozet",
-      "bio": "",
-      "role": "",
-      "org": "",
-      "roleOrg": "",
-      "image": "/images/speakers/rustchinaconf/Sébastien.jpg",
-      "tags": [
-        "rustchinaconf",
-        "ws-edge-ai"
       ],
       "socialLinks": {
         "mastodon": "undefined",
