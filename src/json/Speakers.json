@@ -909,19 +909,19 @@
       "status": "Accept",
       "draft": false
     },
-    {
-      "id": "speaker-chen-hai-quan",
-      "name": "Haiquan Chen",
-      "bio": "Developer at Volcano Engine and core contributor to the veRL project. Focus on agentic RL and cloud infrastructure.",
+        {
+      "id": "xibin-wu",
+      "name": "Xibin Wu",
+      "bio": "Xibin Wu obtained his master's degree from the University of Science and Technology Beijing. He currently serves as a Technical Expert at ByteDance, with his main research focuses on large-scale distributed systems and machine learning systems. Presently working in the Seed Infra team, he dedicates himself to reinforcement learning algorithms and systems, and also acts as a maintainer of the verl open-source community.",
       "role": "Developer",
       "org": "ByteDance",
-      "roleOrg": "Developer, ByteDance",
-      "image": "speaker-chen-hai-quan.jpg",
+      "roleOrg": "Core Contributor of verl, ByteDance Seed",
+      "image": "xibin-wu.png",
       "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
-        "github": "https://github.com/chenhaiq",
+        "github": "undefined",
         "linkedin": "undefined",
         "website": "undefined"
       },

@@ -2300,19 +2300,19 @@
         },
         "speakers": [
           {
-            "id": "speaker-chen-hai-quan",
+            "id": "xibin-wu",
             "name": {
-              "en": "Haiquan Chen",
-              "zh": "陈海泉"
+              "en": "Xibin Wu",
+              "zh": "巫锡斌"
             },
             "roleOrg": {
-              "en": "Developer of ByteDance",
-              "zh": "字节跳动工程师"
+              "en": "Core Contributor of verl, ByteDance Seed",
+              "zh": "字节跳动Seed verl核心开发者"
             },
             "tags": [
               "ai-models-infra"
             ],
-            "image": "speaker-chen-hai-quan.jpg"
+            "image": "xibin-wu.png"
           }
         ]
       },

@@ -889,19 +889,19 @@
       "status": "Accept",
       "draft": false
     },
-    {
-      "id": "speaker-chen-hai-quan",
-      "name": "陈海泉",
-      "bio": "火山引擎开发者，veRL项目核心贡献者。专注于智能体强化学习和云基础设施。",
-      "role": "开发者",
+            {
+      "id": "xibin-wu",
+      "name": "巫锡斌",
+      "bio": "巫锡斌，硕士毕业于北京科技大学，字节跳动技术专家，主要研究方向是大规模分布式系统、机器学习系统。现就职于Seed Infra团队，专注于强化学习算法和系统，verl开源社区maintainer。",
+      "role": "Seed verl核心开发者",
       "org": "字节跳动",
-      "roleOrg": "开发者, 字节跳动",
-      "image": "speaker-chen-hai-quan.jpg",
+      "roleOrg": "字节跳动Seed verl核心开发者",
+      "image": "xibin-wu.png",
       "tags": ["ai-models-infra"],
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
-        "github": "https://github.com/chenhaiq",
+        "github": "undefined",
         "linkedin": "undefined",
         "website": "undefined"
       },
