@@ -19,7 +19,7 @@ const groupedCategories = {
 
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "images/speakers/*.{jpeg,jpg,png,gif}"
+  "images/speakers/**/*.{jpeg,jpg,png,gif}"
 )
 ---
 
@@ -237,10 +237,10 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
               <div class="card-row card-row-image">
                 <div class="card-image">
                   {speaker?.image &&
-                    images[`/public/images/speakers/${speaker.image}`] && (
+                    images[`/public${speaker.image}`] && (
                       <Picture
                         src={images[
-                          `/public/images/speakers/${speaker.image}`
+                          `/public${speaker.image}`
                         ]()}
                         formats={["webp", "jpg"]}
                         alt={speaker.name}
