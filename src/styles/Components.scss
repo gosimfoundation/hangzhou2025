@@ -1205,7 +1205,11 @@
    flex-shrink: 0;
    font-size: .8em;
 }
-
+@media screen and (max-width: 830px) {
+   .tracks .single-filter {
+      font-size: 0.6em;
+   }
+}
 @media screen and (max-width: 640px) {
    .top > .tracks > .single-filter {
   margin-top: -8px;
