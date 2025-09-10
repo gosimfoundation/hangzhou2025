@@ -1456,7 +1456,7 @@
         },
         "content": {
           "en": "<p>Exploring how AI transforms creative expression and artistic production, from traditional art forms to new media. This session examines the collaborative potential between human creativity and AI, addressing questions of authorship, artistic authenticity, and the future of creative industries.</p><p><strong>Panel: AI+Creativity</strong> - Wang Juchen, Alexandra Boucherifi-Kornmann, Yan Feng, Wei Wei, Zhou Maohua</p>",
-          "zh": "<p>探讨AI如何改变创意表达和艺术创作，从传统艺术形式到新媒体艺术。本环节审视人类创意与AI之间的协作潜力，讨论作者身份、艺术真实性以及创意产业的未来。</p><p><strong>圆桌讨论: AI+创造力</strong> - 王钜辰、Alexandra Boucherifi-Kornmann、彦风、唯伟、周茂华</p>"
+          "zh": "<p>探讨AI如何改变创意表达和艺术创作，从传统艺术形式到新媒体艺术。本环节审视人类创意与AI之间的协作潜力，讨论作者身份、艺术真实性以及创意产业的未来。</p><p><strong>圆桌讨论: AI+创造力</strong> - 王钜辰、Alexandra Boucherifi-Kornmann、唯伟、周茂华</p>"
         },
         "speakers": [
           {
@@ -3348,7 +3348,7 @@
             "tags": [
               "agentic-web"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "philippe-le-hegaret.png"
           }
         ]
       },
@@ -3563,7 +3563,7 @@
             "id": "zhigang-sun",
             "name": {
               "en": "Zhigang Sun",
-              "zh": "Zhigang Sun"
+              "zh": "孙志岗"
             },
             "roleOrg": {
               "en": "Founder and CEO of AI Shifu",
@@ -3572,7 +3572,7 @@
             "tags": [
               "agentic-web"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "zhigang-sun.jpg"
           }
         ]
       },
@@ -3862,7 +3862,7 @@
             "tags": [
               "apps-agents"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "speaker-wang-xin-meng.jpg"
           }
         ]
       },
@@ -3894,7 +3894,7 @@
             "tags": [
               "apps-agents"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "speaker-di-ji-dong.jpg"
           }
         ]
       },
@@ -3926,7 +3926,7 @@
             "tags": [
               "apps-agents"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "zhuo-wu.jpeg"
           }
         ]
       },
@@ -3935,7 +3935,7 @@
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "14:00 - 14:20",
+        "timeSlot": "14:00 - 14:25",
         "title": {
           "en": "SPEAR - A Scalable and Distributed AI Agents Framework Across Edge and Cloud",
           "zh": "SPEAR - 跨边缘云的可扩展分布式AI代理框架"
@@ -3967,7 +3967,7 @@
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "14:20 - 14:40",
+        "timeSlot": "14:25 - 14:50",
         "title": {
           "en": "MonkeyCode-Open-Source AI code assistant",
           "zh": "MonkeyCode - 开源AI代码助手"
@@ -3981,11 +3981,11 @@
             "id": "yin-zhenxi",
             "name": {
               "en": "Yin Zhenxi",
-              "zh": "Yin Zhenxi"
+              "zh": "尹振玺"
             },
             "roleOrg": {
               "en": "Technical Director, AI Coding Products, Chaitin Tech",
-              "zh": "AI编码产品技术总监, 长亭科技"
+              "zh": "长亭科技AI代码产品技术总监"
             },
             "tags": [
               "apps-agents"
@@ -3999,21 +3999,21 @@
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "14:40 - 15:00",
+        "timeSlot": "14:50 - 15:15",
         "title": {
-          "en": "How to Use AI to Create AI, How Agents Interact with the World",
-          "zh": "如何用AI制造AI，智能体如何与世界交互"
+          "en": "Nexent: How to Build Agents with AI, and How Agents Can Be Applied in Real Enterprises",
+          "zh": "Nexent：如何用AI制造AI，智能体如何落地真实企业"
         },
         "content": {
-          "en": "How to Use AI to Create AI, How Agents Interact with the World",
-          "zh": "如何用AI制造AI，智能体如何与世界交互"
+          "en": "Nexent: How to Build Agents with AI, and How Agents Can Be Applied in Real Enterprises",
+          "zh": "Nexent：如何用AI制造AI，智能体如何落地真实企业"
         },
         "speakers": [
           {
             "id": "shuangrui-chen",
             "name": {
-              "en": "Shuangrui CHEN",
-              "zh": "Shuangrui CHEN"
+              "en": "Shuangrui Chen",
+              "zh": "陈双瑞"
             },
             "roleOrg": {
               "en": "Senior Engineer, Huawei Technology Ltd.",
@@ -4031,7 +4031,7 @@
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "15:00 - 15:20",
+        "timeSlot": "15:40 - 16:15",
         "title": {
           "en": "HarmonyOS Industry Innovation Solution: Building a More Intelligent Application Service Experience",
           "zh": "鸿蒙行业创新解决方案：构建更加智能的应用服务体验"
@@ -4045,7 +4045,7 @@
             "id": "hugejile",
             "name": {
               "en": "hugejile",
-              "zh": "hugejile"
+              "zh": "呼歌吉乐"
             },
             "roleOrg": {
               "en": "Advisory Operation Manager, Huawei",
@@ -4054,39 +4054,7 @@
             "tags": [
               "apps-agents"
             ],
-            "image": "0-placeholder-person.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "15:40 - 16:15",
-        "title": {
-          "en": "One Agent to Code Them All: Lessons from Building Cline’s Autonomous Coding Partner",
-          "zh": "一个Agent搞定所有代码：构建Cline自主编码伙伴的经验教训"
-        },
-        "content": {
-          "en": "As AI moves from autocomplete to autonomous agents, we set out to build Cline—an open, model-agnostic coding partner capable of tackling long-horizon development tasks. This talk shares hard-earned lessons from building an AI system that can read, write, and execute code across entire codebases. We'll cover the technical challenges of context management, tool usage, and error recovery, as well as the design decisions that enable Cline to work with any LLM provider. Whether you're building AI tools or integrating them into your workflow, this session offers practical insights into the future of AI-assisted software development.",
-          "zh": "随着AI从自动补全发展到自主智能体，我们着手构建Cline——一个开放的、与模型无关的编码伙伴，能够处理长期的开发任务。这次演讲分享了构建一个能够在整个代码库中读取、编写和执行代码的AI系统的宝贵经验。我们将涵盖上下文管理、工具使用和错误恢复等技术挑战，以及使Cline能够与任何LLM提供商协作的设计决策。无论您是在构建AI工具还是将它们集成到工作流程中，本次会议都将为AI辅助软件开发的未来提供实用见解。"
-        },
-        "speakers": [
-          {
-            "id": "evan-fannin",
-            "name": {
-              "en": "Evan Fannin",
-              "zh": "Evan Fannin"
-            },
-            "roleOrg": {
-              "en": "Founding Engineer at Cline",
-              "zh": "Cline创始工程师"
-            },
-            "tags": [
-              "apps-agents"
-            ],
-            "image": "0-placeholder-person.png"
+            "image": "hugejile.jpg"
           }
         ]
       },
@@ -4182,7 +4150,7 @@
             "tags": [
               "apps-agents"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "speaker-han-hong-ying.jpg"
           }
         ]
       },
@@ -4237,7 +4205,7 @@
             "id": "xiang-ying",
             "name": {
               "en": "Xiang Ying",
-              "zh": "Xiang Ying"
+              "zh": "应翔"
             },
             "roleOrg": {
               "en": "CoFounder, Mindverse",
@@ -4246,7 +4214,7 @@
             "tags": [
               "apps-agents"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "xiang-ying.jpg"
           }
         ]
       },
@@ -4310,7 +4278,7 @@
             "tags": [
               "apps-agents"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "alexy-khrabrov-.jpeg"
           }
         ]
       },
@@ -4374,7 +4342,7 @@
             "tags": [
               "apps-agents"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "zhiyu-li.jpg"
           }
         ]
       },
@@ -6298,7 +6266,7 @@
             "tags": [
               "ws-future-web"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "philippe-le-hegaret.png"
           }
         ]
       }
@@ -6347,7 +6315,7 @@
             "tags": [
               "ws-edge-ai"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "zhuo-wu.jpeg"
           }
         ]
       },
@@ -6634,7 +6602,7 @@
             "tags": [
               "ws-edge-ai"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "zhuo-wu.jpeg"
           }
         ]
       }
@@ -6972,21 +6940,6 @@
               "ws-ai-education"
             ],
             "image": "0-placeholder-person.png"
-          },
-          {
-            "id": "yan-feng",
-            "name": {
-              "en": "Feng Yan",
-              "zh": "彦风"
-            },
-            "roleOrg": {
-              "en": "First-class Artist of the Chinese National Academy of Arts",
-              "zh": "中国艺术研究院一级美术师"
-            },
-            "tags": [
-              "ws-ai-education"
-            ],
-            "image": "yan-feng.png"
           },
           {
             "id": "yanzhi-wang",
@@ -7633,7 +7586,7 @@
             "tags": [
               "ws-globalization"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "adina-yakefu.png"
           }
         ]
       },
@@ -7652,6 +7605,21 @@
           "zh": "关于开源出海的机会与挑战的圆桌会议。"
         },
         "speakers": [
+          {
+            "id": "wei-wang",
+            "name": {
+              "en": "Moderator - Wang Wei",
+              "zh": "主持人 - 王伟"
+            },
+            "roleOrg": {
+              "en": "Director of the Open Source Technical Committee, Singular Intelligence Research Institute, East China Normal University",
+              "zh": "奇点智能研究院开源技术委员会主任, 华东师范大学"
+            },
+            "tags": [
+              "ws-globalization"
+            ],
+            "image": "wei-wang.jpg"
+          },
           {
             "id": "richard-lin",
             "name": {
@@ -7725,7 +7693,7 @@
             "tags": [
               "ws-globalization"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "adina-yakefu.png"
           },
           {
             "id": "qin-wang",
