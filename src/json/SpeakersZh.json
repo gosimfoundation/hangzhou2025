@@ -720,7 +720,7 @@
     },
     {
       "id": "shuangrui-chen",
-      "name": "Shuangrui CHEN",
+      "name": "陈双瑞",
       "bio": "👨‍💻 华为高级工程师 | 🤖 AI智能体专家\r\n🎓 伦敦大学学院（UCL）机器学习理学硕士\r\n🧠 专注于多智能体系统、模型编排和自主任务执行\r\n🚀 Nexent项目负责人，这是一个实现零代码多模态服务的开源智能体平台\r\n🌍 热衷于连接数据、模型和工具，构建真正可用的智能系统",
       "role": "高级工程师",
       "org": "华为技术有限公司",
@@ -1176,8 +1176,8 @@
     },
     {
       "id": "hugejile",
-      "name": "hugejile",
-      "bio": "hugejile - 咨询运营经理, 华为",
+      "name": "呼歌吉乐",
+      "bio": "咨询运营经理, 华为",
       "role": "咨询运营经理",
       "org": "华为",
       "roleOrg": "咨询运营经理, 华为",
@@ -2469,8 +2469,8 @@
     },
     {
       "id": "xiang-ying",
-      "name": "Xiang Ying",
-      "bio": "Xiang Ying - Mindverse联合创始人",
+      "name": "应翔",
+      "bio": "Mindverse联合创始人",
       "role": "Mindverse联合创始人",
       "org": "",
       "roleOrg": "Mindverse联合创始人",
@@ -2622,7 +2622,7 @@
     {
       "id": "alexy-khrabrov-",
       "name": "Alexy Khrabrov",
-      "bio": "Alexy Khrabrov是图数据库领域的定义者Neo4j公司的AI社区架构师。Alexy是NumFOCUS开源科学的创始主席，也是AI联盟的联合创始人。Alexy曾是Linux基金会AI与数据（LFAI）创成式AI Commons的创始主席，现在代表Neo4j在LFAI任职。Alexy是湾区AI和AI Agent SF聚会的创始人及组织者，也是自2013年以来举办的独立开源AI会议Scale/Data/AI By the Bay的组织者。",
+      "bio": "是图数据库领域的定义者Neo4j公司的AI社区架构师。Alexy是NumFOCUS开源科学的创始主席，也是AI联盟的联合创始人。Alexy曾是Linux基金会AI与数据（LFAI）创成式AI Commons的创始主席，现在代表Neo4j在LFAI任职。Alexy是湾区AI和AI Agent SF聚会的创始人及组织者，也是自2013年以来举办的独立开源AI会议Scale/Data/AI By the Bay的组织者。",
       "role": "AI社区架构师",
       "org": "Neo4j",
       "roleOrg": "AI社区架构师, Neo4j",
