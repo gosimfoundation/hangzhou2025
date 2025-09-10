@@ -115,6 +115,25 @@
   ],
   "speakers": [
     {
+      "id": "xitong-li",
+      "name": "Xitong Li",
+      "bio": "Professor of Information Systems and Operations Management at HEC Paris.",
+      "role": "Professor of Information Systems and Operations Management",
+      "org": "HEC Paris",
+      "roleOrg": "Professor of Information Systems and Operations Management, HEC Paris",
+      "image": "xitong-li.jpeg",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
       "id": "mehdi-snene",
       "name": "Mehdi Snene",
       "bio": "Dr. Mehdi Snene is a Senior Advisor to the UN Secretary-General's Special Envoy for Digital and Emerging Technologies and a member of the UN Office for Digital and Emerging Technologies, where he leads global initiatives in AI capacity-building, digital public infrastructure, and emerging tech. He previously directed the €1 billion Human Brain Project, EPFL, advancing neuromorphic computing and brain simulation, and served as Chief AI Officer, HealthAI, overseeing the strategic development and deployment of AI in healthcare. A former Associate Professor, the University of Geneva, he founded and led a research lab focused on AI, neuroscience, and high-performance computing.",
@@ -330,7 +349,7 @@
       "role": "Professor",
       "org": "Tsinghua University",
       "roleOrg": "Professor, Tsinghua University",
-      "image": "0-placeholder-person.png",
+      "image": "kai-du.jpg",
       "tags": ["ai-next", "forum-aivision", "open-for-sdg"],
       "socialLinks": {
         "mastodon": "undefined",
@@ -1185,7 +1204,7 @@
       "role": "Chairman",
       "org": "Kandi Technologies",
       "roleOrg": "Chairman, Kandi Technologies",
-      "image": "0-placeholder-person.png",
+      "image": "speaker-dong-xue-qin.jpeg",
       "tags": ["embodied-ai"],
       "socialLinks": {
         "mastodon": "",

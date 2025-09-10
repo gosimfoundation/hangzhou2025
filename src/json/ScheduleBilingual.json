@@ -1208,7 +1208,7 @@
             "tags": [
               "open-for-sdg"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "kai-du.jpg"
           },
           {
             "id": "satya-mallick",
@@ -2761,7 +2761,7 @@
             "tags": [
               "embodied-ai"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "speaker-dong-xue-qin.jpeg"
           }
         ]
       },
@@ -2802,30 +2802,46 @@
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "14:00 - 14:35",
+        "timeSlot": "12:00 - 14:00",
         "title": {
-          "en": "Embodied AI Panel",
+          "en": "Lunch",
           "zh": "午餐"
         },
         "content": {
-          "en": "Embodied AI Panel",
+          "en": "Lunch",
           "zh": "午餐"
+        },
+        "speakers": []
+      },
+            {
+        "date": {
+          "en": "September 13",
+          "zh": "9月13日"
+        },
+        "timeSlot": "14:00 - 15:00",
+        "title": {
+          "en": "Panel ：Embodied Intelligence — The Second Half of AI",
+          "zh": "圆桌对话：具身智能：AI的下半场"
+        },
+        "content": {
+          "en": "Panel ：Embodied Intelligence — The Second Half of AI",
+          "zh": "圆桌对话：具身智能：AI的下半场"
         },
         "speakers": [
           {
-            "id": "xueqin-dong",
+            "id": "jinwei-gu",
             "name": {
-              "en": "Xueqin Dong",
-              "zh": "董学勤"
+              "en": "Jinwei Gu",
+              "zh": "顾金伟"
             },
             "roleOrg": {
-              "en": "Chairman, Kandi Technologies",
-              "zh": "康迪科技董事长"
+              "en": "Principal Research Scientist and Tech Lead, NVIDIA",
+              "zh": "NVIDIA资深研究员兼技术小组长"
             },
             "tags": [
               "embodied-ai"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "jinwei-gu.jpg"
           },
           {
             "id": "mashengyue",
@@ -2841,36 +2857,6 @@
               "embodied-ai"
             ],
             "image": "mashengyue.jpg"
-          },
-          {
-            "id": "speaker-yin-yun-peng",
-            "name": {
-              "en": "Yunpeng Yin",
-              "zh": "尹云鹏"
-            },
-            "roleOrg": {
-              "en": "Head of Motion Control Algorithms and Framework, Humanoid Robotics (Shanghai) Co., Ltd.",
-              "zh": "人形机器人上海有限公司运控算法与框架负责人"
-            },
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "speaker-yin-yun-peng.jpg"
-          },
-          {
-            "id": "jinwei-gu",
-            "name": {
-              "en": "Jinwei Gu",
-              "zh": "顾金伟"
-            },
-            "roleOrg": {
-              "en": "Principal Research Scientist and Tech Lead, NVIDIA",
-              "zh": "NVIDIA资深研究员兼技术小组长"
-            },
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "jinwei-gu.jpg"
           },
           {
             "id": "speaker-wang-peng-wei",
@@ -2903,21 +2889,6 @@
             "image": "xuan-xia.jpg"
           },
           {
-            "id": "cen-ming",
-            "name": {
-              "en": "Cen Ming",
-              "zh": "岑明"
-            },
-            "roleOrg": {
-              "en": "Professor, Chongqing University of Posts and Telecommunications",
-              "zh": "重庆邮电大学教授"
-            },
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "cen-ming.jpg"
-          },
-          {
             "id": "yu-huang",
             "name": {
               "en": "Yu Huang",
@@ -2939,14 +2910,14 @@
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "14:35 - 15:10",
+        "timeSlot": "15:00 - 15:20",
         "title": {
           "en": "Mixing of multi modal AI model to solve complex robotic task with dora-rs",
-          "zh": "圆桌对话：具身智能：AI的下半场"
+          "zh": "利用dora-rs混合多模态AI模型，解决复杂机器人任务"
         },
         "content": {
           "en": "Mixing of multi modal AI model to solve complex robotic task with dora-rs",
-          "zh": "圆桌对话：具身智能：AI的下半场"
+          "zh": "利用dora-rs混合多模态AI模型，解决复杂机器人任务"
         },
         "speakers": [
           {
@@ -2974,11 +2945,11 @@
         "timeSlot": "15:40 - 16:15",
         "title": {
           "en": "From Investigation to Knowledge: A New Paradigm for Embodied Intelligent Robot Development",
-          "zh": "利用dora-rs混合多模态AI模型，解决复杂机器人任务"
+          "zh": "从格物到致知，具身智能机器人开发范式的改变"
         },
         "content": {
           "en": "From Investigation to Knowledge: A New Paradigm for Embodied Intelligent Robot Development",
-          "zh": "利用dora-rs混合多模态AI模型，解决复杂机器人任务"
+          "zh": "从格物到致知，具身智能机器人开发范式的改变"
         },
         "speakers": [
           {
@@ -3006,11 +2977,11 @@
         "timeSlot": "16:15 - 16:50",
         "title": {
           "en": "Human-Agent Interaction in Business: Autonomy vs. Human Control",
-          "zh": "茶歇"
+          "zh": "商业中的人机交互：自主性与人类控制"
         },
         "content": {
           "en": "Human-Agent Interaction in Business: Autonomy vs. Human Control",
-          "zh": "茶歇"
+          "zh": "商业中的人机交互：自主性与人类控制"
         },
         "speakers": [
           {
@@ -3038,7 +3009,7 @@
         "timeSlot": "16:50 - 17:25",
         "title": {
           "en": "Development Practices with Dora on OpenHarmony",
-          "zh": "从格物到致知，具身智能机器人开发范式的改变"
+          "zh": "基于OpenHarmony的机器人操作系统"
         },
         "content": {
           "en": "Shenkaihong, in collaboration with industry and academia, is developing an open-source, full-scenario, and intelligent full-stack robot operating system based on OpenHarmony. This system targets various robotic application scenarios, including education, industrial automation, inspection, and service robotics. The presentation will explore the architecture, design principles, and practical implementation of this comprehensive robotics platform, demonstrating how OpenHarmony can serve as the foundation for next-generation intelligent robotics systems.",
@@ -3058,23 +3029,23 @@
             "tags": [
               "embodied-ai"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "tao-li.jpg"
           }
         ]
       },
-      {
+            {
         "date": {
           "en": "September 14",
-          "zh": "9月13日"
+          "zh": "9月14日"
         },
         "timeSlot": "10:15 - 10:50",
         "title": {
           "en": "Cosmos World Foundation Models for Physical AI",
-          "zh": "商业中的人与智能体交互：自主性与人工控制的平衡"
+          "zh": "面向物理AI的Cosmos世界基础模型"
         },
         "content": {
           "en": "Cosmos World Foundation Models for Physical AI",
-          "zh": "商业中的人与智能体交互：自主性与人工控制的平衡"
+          "zh": "面向物理AI的Cosmos世界基础模型"
         },
         "speakers": [
           {
@@ -3097,16 +3068,16 @@
       {
         "date": {
           "en": "September 14",
-          "zh": "9月13日"
+          "zh": "9月14日"
         },
         "timeSlot": "10:50 - 11:25",
         "title": {
           "en": "Embodied Cerebrum-Cerebellum Operation Framework and Brain Model Construction",
-          "zh": "基于OpenHarmony的机器人操作系统"
+          "zh": "具身大脑-小脑操作框架与脑模型构建"
         },
         "content": {
           "en": "Embodied Cerebrum-Cerebellum Operation Framework and Brain Model Construction",
-          "zh": "基于OpenHarmony的机器人操作系统"
+          "zh": "具身大脑-小脑操作框架与脑模型构建"
         },
         "speakers": [
           {
@@ -3198,11 +3169,11 @@
         "timeSlot": "14:35 - 15:10",
         "title": {
           "en": "Accessible Agentic Computer Vision with Kornia",
-          "zh": "HopeJr：面向所有人的500美元开源人形机械臂"
+          "zh": "基于Kornia的易用型智能体视觉计算框架"
         },
         "content": {
           "en": "Accessible Agentic Computer Vision with Kornia",
-          "zh": "HopeJr：面向所有人的500美元开源人形机械臂"
+          "zh": "基于Kornia的易用型智能体视觉计算框架"
         },
         "speakers": [
           {
@@ -3228,6 +3199,38 @@
           "zh": "9月14日"
         },
         "timeSlot": "15:40 - 16:15",
+        "title": {
+          "en": "AIRSPEED: An Open-Source General-Purpose Data Generation Platform for Embodied Intelligence",
+          "zh": "AIRSPEED：面向具身智能的开源通用数据生成平台"
+        },
+        "content": {
+          "en": "AIRSPEED: An Open-Source General-Purpose Data Generation Platform for Embodied Intelligence",
+          "zh": "AIRSPEED：面向具身智能的开源通用数据生成平台"
+        },
+        "speakers": [
+          {
+            "id": "xuan-xia",
+            "name": {
+              "en": "Xuan Xia",
+              "zh": "夏轩"
+            },
+            "roleOrg": {
+              "en": "Associate Researcher, Shenzhen Institute of Artificial Intelligence and Robotics for Society",
+              "zh": "深圳市人工智能与机器人研究院副研究员"
+            },
+            "tags": [
+              "embodied-ai"
+            ],
+            "image": "xuan-xia.jpg"
+          }
+        ]
+      },
+            {
+        "date": {
+          "en": "September 14",
+          "zh": "9月14日"
+        },
+        "timeSlot": "16:15 - 16:50",
         "title": {
           "en": "SpatialLM: Training Large Language Models for Structured Indoor Modeling",
           "zh": "SpatialLM：训练用于结构化室内建模的大型语言模型"
@@ -3259,46 +3262,14 @@
           "en": "September 14",
           "zh": "9月14日"
         },
-        "timeSlot": "16:15 - 16:50",
-        "title": {
-          "en": "AIRSPEED: An Open-Source General-Purpose Data Generation Platform for Embodied Intelligence",
-          "zh": "以Zenoh驱动ROS 2的未来：快速、可扩展且具备弹性的机器人与自主系统通信"
-        },
-        "content": {
-          "en": "AIRSPEED: An Open-Source General-Purpose Data Generation Platform for Embodied Intelligence",
-          "zh": "以Zenoh驱动ROS 2的未来：快速、可扩展且具备弹性的机器人与自主系统通信"
-        },
-        "speakers": [
-          {
-            "id": "xuan-xia",
-            "name": {
-              "en": "Xuan Xia",
-              "zh": "夏轩"
-            },
-            "roleOrg": {
-              "en": "Associate Researcher, Shenzhen Institute of Artificial Intelligence and Robotics for Society",
-              "zh": "深圳市人工智能与机器人研究院副研究员"
-            },
-            "tags": [
-              "embodied-ai"
-            ],
-            "image": "xuan-xia.jpg"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 14",
-          "zh": "9月14日"
-        },
         "timeSlot": "16:50 - 17:25",
         "title": {
           "en": "Map Generation and Path Planning Approach for Unstructured Environments",
-          "zh": "基于Kornia的易用型智能体视觉计算框架"
+          "zh": "非结构化环境的地图生成与路径规划方法"
         },
         "content": {
           "en": "Map Generation and Path Planning Approach for Unstructured Environments",
-          "zh": "基于Kornia的易用型智能体视觉计算框架"
+          "zh": "非结构化环境的地图生成与路径规划方法"
         },
         "speakers": [
           {
@@ -4495,7 +4466,7 @@
             "id": "alexandra-boucherifi",
             "name": {
               "en": "Alexandra Boucherifi-Kornmann",
-              "zh": "Boucherifi-Kornmann"
+              "zh": "Alexandra Boucherifi-Kornmann"
             },
             "roleOrg": {
               "en": "Artist, Founder of the augmented painting or augmentism, creator of the European Biennial of AI and augmentism Société de l'augmentisme",
@@ -4504,7 +4475,7 @@
             "tags": [
               "ai-next"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "alexandra-boucherifi.jpg"
           }
         ]
       },
@@ -4530,22 +4501,6 @@
           "zh": "9月13日"
         },
         "timeSlot": "14:00 - 14:20",
-        "title": {
-          "en": "TBD",
-          "zh": "TBD"
-        },
-        "content": {
-          "en": "TBD",
-          "zh": "TBD"
-        },
-        "speakers": []
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "14:20 - 14:40",
         "title": {
           "en": "Interdisciplinary Research on the Integration of Artificial Intelligence and Traditional Art",
           "zh": "人工智能与传统艺术的跨学科融合研究"
@@ -4577,7 +4532,7 @@
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "14:40 - 15:00",
+        "timeSlot": "14:20 - 14:40",
         "title": {
           "en": "SongEval: A Benchmark Dataset for Song Aesthetics Evaluation",
           "zh": "SongEval：歌曲美学评价基准数据集"
@@ -4624,7 +4579,7 @@
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "15:00 - 15:20",
+        "timeSlot": "14:40 - 15:00",
         "title": {
           "en": "AI-Driven Model & Data Compression for Next-Generation Gaming",
           "zh": "面向下一代游戏的AI驱动模型与数据压缩"
@@ -4648,6 +4603,38 @@
               "ai-next"
             ],
             "image": "zhenghao-chen.png"
+          }
+        ]
+      },
+            {
+        "date": {
+          "en": "September 13",
+          "zh": "9月13日"
+        },
+        "timeSlot": "15:00 - 15:20",
+        "title": {
+          "en": "Towards Trustworthy and Reproducible Large Models: An Open-Source Tiered Framework",
+          "zh": "迈向可信与可复现：大模型开源开放分级体系构建"
+        },
+        "content": {
+          "en": "Towards Trustworthy and Reproducible Large Models: An Open-Source Tiered Framework",
+          "zh": "迈向可信与可复现：大模型开源开放分级体系构建"
+        },
+        "speakers": [
+          {
+            "id": "wei-wang",
+            "name": {
+              "en": "Wei Wang",
+              "zh": "王伟"
+            },
+            "roleOrg": {
+              "en": "Director of the Open Source Technology Committee, Singularity Intelligence Research Institute, Professor, East China Normal University",
+              "zh": "奇点智能研究院开源技术委员会主任，华东师范大学数据科学与工程学院教授"
+            },
+            "tags": [
+              "ai-next"
+            ],
+            "image": "0-placeholder-person.png"
           }
         ]
       },
@@ -4699,35 +4686,35 @@
           }
         ]
       },
-      {
+            {
         "date": {
           "en": "September 13",
           "zh": "9月13日"
         },
         "timeSlot": "16:15 - 16:50",
         "title": {
-          "en": "Towards Trustworthy and Reproducible Large Models: An Open-Source Tiered Framework",
-          "zh": "迈向可信与可复现：大模型开源开放分级体系构建"
+          "en": "Education 4.0: A New Age of Creativity with AI",
+          "zh": "教育4.0：人工智能引领的创造力新时代"
         },
         "content": {
-          "en": "Towards Trustworthy and Reproducible Large Models: An Open-Source Tiered Framework",
-          "zh": "迈向可信与可复现：大模型开源开放分级体系构建"
+          "en": "Education 4.0: A New Age of Creativity with AI",
+          "zh": "教育4.0：人工智能引领的创造力新时代"
         },
         "speakers": [
-          {
-            "id": "wei-wang",
+                    {
+            "id": "xitong-li",
             "name": {
-              "en": "Wei Wang",
-              "zh": "王伟"
+              "en": "Xitong Li",
+              "zh": "李希潼"
             },
             "roleOrg": {
-              "en": "Director of the Open Source Technology Committee, Singularity Intelligence Research Institute, Professor, East China Normal University",
-              "zh": "奇点智能研究院开源技术委员会主任，华东师范大学数据科学与工程学院教授"
+              "en": "Professor of Information Systems and Operations Management, HEC Paris",
+              "zh": "法国巴黎高等商学院 (HEC) 信息系统和运营管理教授"
             },
             "tags": [
               "ai-next"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "xitong-li.jpeg"
           }
         ]
       },
@@ -4859,7 +4846,7 @@
             "id": "jingbin-zhang",
             "name": {
               "en": "Jingbin Zhang",
-              "zh": "Jingbin Zhang"
+              "zh": "张静斌"
             },
             "roleOrg": {
               "en": "Senior Principal Architect & Technical Manager, Huawei",
@@ -4868,7 +4855,7 @@
             "tags": [
               "ai-next"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "jingbin-zhang.jpg"
           }
         ]
       },
@@ -4916,7 +4903,7 @@
             "tags": [
               "ai-next"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "kai-du.jpg"
           }
         ]
       },
@@ -4996,7 +4983,7 @@
             "tags": [
               "ai-next"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "hu-he.jpg"
           }
         ]
       },
