@@ -399,7 +399,7 @@
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "08:00 - 09:30",
+        "timeSlot": "08:00 - 09:10",
         "title": {
           "en": "Registration and badge pickup",
           "zh": "注册和领取胸牌"
@@ -415,7 +415,7 @@
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "08:30 - 09:30",
+        "timeSlot": "08:30 - 09:10",
         "title": {
           "en": "Breakfast",
           "zh": "早餐"
@@ -431,7 +431,7 @@
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "09:30 - 09:35",
+        "timeSlot": "09:10 - 09:25",
         "title": {
           "en": "Plenary: Opening Remarks Day 1",
           "zh": "全体大会：开场致辞 第一天"
@@ -458,44 +458,12 @@
           }
         ]
       },
-      {
+            {
         "date": {
           "en": "September 13",
           "zh": "9月13日"
         },
-        "timeSlot": "09:35 - 09:50",
-        "title": {
-          "en": "Plenary: Keynote",
-          "zh": "全体大会：主题演讲"
-        },
-        "content": {
-          "en": "Keynote by Mehdi Snene, Chief AI Officer, Digital infrastructure and emerging technologies, UN.",
-          "zh": "由联合国技术特使办公室首席人工智能官Mehdi Snene发表主题演讲。"
-        },
-        "speakers": [
-          {
-            "id": "mehdi-snene",
-            "name": {
-              "en": "Mehdi Snene",
-              "zh": "Mehdi Snene"
-            },
-            "roleOrg": {
-              "en": "Chief AI Officer, Digital infrastructure and emerging technologies, UN",
-              "zh": "联合国技术特使办公室首席人工智能官"
-            },
-            "tags": [
-              "keynote"
-            ],
-            "image": "mehdi-snene.png"
-          }
-        ]
-      },
-      {
-        "date": {
-          "en": "September 13",
-          "zh": "9月13日"
-        },
-        "timeSlot": "09:50 - 10:05",
+        "timeSlot": "09:25 - 09:40",
         "title": {
           "en": "Plenary: Open Source Collaboration, Inspiring Innovation, Co-Creating an Intelligent World",
           "zh": "全体大会：开源协作，激发创新，共创智能世界"
@@ -524,10 +492,43 @@
       },
       {
         "date": {
+          "en": "September 13",
+          "zh": "9月13日"
+        },
+        "timeSlot": "09:40 - 09:55",
+        "title": {
+          "en": "Plenary: Keynote",
+          "zh": "全体大会：主题演讲"
+        },
+        "content": {
+          "en": "Keynote by Mehdi Snene, Chief AI Officer, Digital infrastructure and emerging technologies, UN.",
+          "zh": "由联合国技术特使办公室首席人工智能官Mehdi Snene发表主题演讲。"
+        },
+        "speakers": [
+          {
+            "id": "mehdi-snene",
+            "name": {
+              "en": "Mehdi Snene",
+              "zh": "Mehdi Snene"
+            },
+            "roleOrg": {
+              "en": "Chief AI Officer, Digital infrastructure and emerging technologies, UN",
+              "zh": "联合国技术特使办公室首席人工智能官"
+            },
+            "tags": [
+              "keynote"
+            ],
+            "image": "mehdi-snene.png"
+          }
+        ]
+      },
+
+      {
+        "date": {
           "en": "September 14",
           "zh": "9月14日"
         },
-        "timeSlot": "08:00 - 09:30",
+        "timeSlot": "08:00 - 09:10",
         "title": {
           "en": "Registration and badge pickup",
           "zh": "注册和领取胸牌"
@@ -543,7 +544,7 @@
           "en": "September 14",
           "zh": "9月14日"
         },
-        "timeSlot": "08:30 - 09:30",
+        "timeSlot": "08:30 - 09:10",
         "title": {
           "en": "Breakfast",
           "zh": "早餐"
@@ -559,7 +560,7 @@
           "en": "September 14",
           "zh": "9月14日"
         },
-        "timeSlot": "09:30 - 09:35",
+        "timeSlot": "09:15 - 09:25",
         "title": {
           "en": "Plenary: Opening Remarks Day 2",
           "zh": "全体大会：开场致辞 第二天"
@@ -591,7 +592,7 @@
           "en": "September 14",
           "zh": "9月14日"
         },
-        "timeSlot": "09:35 - 09:50",
+        "timeSlot": "09:25 - 09:40",
         "title": {
           "en": "Open Data, Open Compute and Open Evaluation for Embodied AI innovation",
           "zh": "开放数据、开放算力与开放评测：推动具身智能创新"
@@ -623,7 +624,7 @@
           "en": "September 14",
           "zh": "9月14日"
         },
-        "timeSlot": "09:50 - 10:05",
+        "timeSlot": "09:40 - 09:55",
         "title": {
           "en": "Plenary: Several Core Propositions on the Paradigm Shift of the AI Industry",
           "zh": "全体大会：AI产业范式转变的若干个核心命题"
@@ -2977,11 +2978,11 @@
         "timeSlot": "16:15 - 16:50",
         "title": {
           "en": "Human-Agent Interaction in Business: Autonomy vs. Human Control",
-          "zh": "商业中的人机交互：自主性与人类控制"
+          "zh": "商业中的人与智能体交互：自主性与人工控制的平衡"
         },
         "content": {
           "en": "Human-Agent Interaction in Business: Autonomy vs. Human Control",
-          "zh": "商业中的人机交互：自主性与人类控制"
+          "zh": "商业中的人与智能体交互：自主性与人工控制的平衡"
         },
         "speakers": [
           {
@@ -3073,11 +3074,11 @@
         "timeSlot": "10:50 - 11:25",
         "title": {
           "en": "Embodied Cerebrum-Cerebellum Operation Framework and Brain Model Construction",
-          "zh": "具身大脑-小脑操作框架与脑模型构建"
+          "zh": "具身大小脑操作框架与具身大脑模型构建"
         },
         "content": {
           "en": "Embodied Cerebrum-Cerebellum Operation Framework and Brain Model Construction",
-          "zh": "具身大脑-小脑操作框架与脑模型构建"
+          "zh": "具身大小脑操作框架与具身大脑模型构建"
         },
         "speakers": [
           {
@@ -3137,7 +3138,7 @@
         "timeSlot": "14:00 - 14:35",
         "title": {
           "en": "Powering the Future of ROS 2 with Zenoh: Fast, Scalable, and Resilient Communication for Robotics and Autonomy",
-          "zh": "用Zenoh驱动ROS 2的未来：面向机器人与自主系统的快速、可扩展且弹性的通信"
+          "zh": "以Zenoh驱动ROS 2的未来：快速、可扩展且具备弹性的机器人与自主系统通信"
         },
         "content": {
           "en": "Modern robotics, V2V, and autonomous systems need fast, scalable, and resilient communication. Zenoh unifies pub/sub, queries, and storage, offering low latency, Tier-1 ROS 2 middleware rmw_zenoh, and seamless edge-to-cloud integration. This presentation explores how Zenoh revolutionizes robotics communication architectures, enabling distributed systems that can scale from single robots to massive fleets while maintaining real-time performance and fault tolerance. We examine practical deployment scenarios, performance benchmarks, and the roadmap for next-generation robotics infrastructure.",
@@ -3201,11 +3202,11 @@
         "timeSlot": "15:40 - 16:15",
         "title": {
           "en": "AIRSPEED: An Open-Source General-Purpose Data Generation Platform for Embodied Intelligence",
-          "zh": "AIRSPEED：面向具身智能的开源通用数据生成平台"
+          "zh": "AIRSPEED：用于具身智能的开源通用数据生产平台"
         },
         "content": {
           "en": "AIRSPEED: An Open-Source General-Purpose Data Generation Platform for Embodied Intelligence",
-          "zh": "AIRSPEED：面向具身智能的开源通用数据生成平台"
+          "zh": "AIRSPEED：用于具身智能的开源通用数据生产平台"
         },
         "speakers": [
           {
@@ -3233,7 +3234,7 @@
         "timeSlot": "16:15 - 16:50",
         "title": {
           "en": "SpatialLM: Training Large Language Models for Structured Indoor Modeling",
-          "zh": "SpatialLM：训练用于结构化室内建模的大型语言模型"
+          "zh": "SpatialLM：用于结构化室内建模的大语言模型训练"
         },
         "content": {
           "en": "SpatialLM is a large language model designed to process 3D point cloud data and generate structured 3D scene understanding outputs. These outputs include architectural elements like walls, doors, windows, and furniture arrangements with precise spatial relationships. This presentation explores the novel approaches for training language models to understand spatial geometry, the challenges of bridging natural language processing with 3D spatial reasoning, and practical applications in robotics, AR/VR, and smart building management systems.",
@@ -3265,11 +3266,11 @@
         "timeSlot": "16:50 - 17:25",
         "title": {
           "en": "Map Generation and Path Planning Approach for Unstructured Environments",
-          "zh": "非结构化环境的地图生成与路径规划方法"
+          "zh": "面向非结构化环境的地图生成与路径规划方法"
         },
         "content": {
           "en": "Map Generation and Path Planning Approach for Unstructured Environments",
-          "zh": "非结构化环境的地图生成与路径规划方法"
+          "zh": "面向非结构化环境的地图生成与路径规划方法"
         },
         "speakers": [
           {
@@ -4634,7 +4635,7 @@
             "tags": [
               "ai-next"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "wei-wang.jpg"
           }
         ]
       },
@@ -4756,7 +4757,7 @@
             },
             "roleOrg": {
               "en": "External Expert, Agencja Badań Medycznyc",
-              "zh": "外部专家, Agencja Badań Medycznyc"
+              "zh": "SpeakLeash基金会/Bielik.ai副总裁，欧盟委员会互操作性专家组成员"
             },
             "tags": ["ai-next"],
             "image": "katarzyna-z-staroslawska.jpeg"
