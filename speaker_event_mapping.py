@@ -138,7 +138,7 @@ def create_speaker_event_mapping():
     ]
     add_speaker_tags(ws_embedded_rust_speakers, "ws-embedded-rust")
 
-    # Flutter Workshop
+    # Flutter Meetup
     ws_flutter_speakers = [
         "jesse-ezell", "matt-carroll"
     ]

@@ -262,8 +262,8 @@
     },
     {
       "name": {
-        "en": "Flutter Workshop",
-        "zh": "Flutter 技术沙龙"
+        "en": "Flutter Meetup",
+        "zh": "Flutter 全球开发者研讨会"
       },
       "room": {
         "en": "Venue 9 - B05",
@@ -274,7 +274,7 @@
     },
     {
       "name": {
-        "en": "Open Source Chitu First Meetup",
+        "en": "Chitu First Meetup",
         "zh": "开源赤兔项目首次 Meetup"
       },
       "room": {
