@@ -1554,6 +1554,27 @@
       "status": "Accept",
       "draft": false
     },
+        {
+      "id": "serge-stinckwich",
+      "name": "Serge Stinckwich",
+      "bio": "●联合国大学澳门研究所研究负责人",
+      "role": "研究负责人",
+      "org": "联合国大学澳门研究所",
+      "roleOrg": "联合国大学澳门研究所研究负责人",
+      "image": "/images/speakers/serge-stinckwich.png",
+      "tags": [
+        "open-for-sdg"
+      ],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
     {
       "id": "yanzhi-wang",
       "name": "王言治",

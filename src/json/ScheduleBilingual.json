@@ -1176,8 +1176,8 @@
           "zh": "Future AI 未来人工智能促进联合国可持续发展目标"
         },
         "content": {
-          "en": "Panel Discussion (60 min)\nModerator: Bryan Che (Board Member, Eclipse Foundation and LF CNCF)\nPanelists:\n* Prof. Kai Du (Assistant Professor, Psychology & Cognitive Science, Tsinghua University)\n* Prof. Yin Peng (Assistant Professor, Department of Data Science, CUHK)\n* Dr. Satya Mallick (CEO of OpenCV.org, AI & Computer Vision Expert)\n* Adina Yakefu (EA / AI researcher, Hugging Face)\n\nEnvisioning the future of AI in sustainable development context. Focus on inclusive and equitable AI futures, bridging innovation with impact, and promoting multistakeholder collaboration.",
-          "zh": "小组讨论 (60分钟)\n主持人: Bryan Che (Eclipse基金会和LF CNCF董事会成员)\n讨论嘉宾:\n* 杜凯 (清华大学心理与认知科学系助理教授)\n* 殷鹏 (香港中文大学数据科学学院助理教授)\n* Dr. Satya Mallick (OpenCV.org 首席执行官，AI 与计算机视觉专家，AI与计算机视觉专家)\n* Adina Yakefu (Hugging Face EA / AI研究员)\n\n展望AI在可持续发展背景下的未来。重点关注包容性和公平的AI未来，连接创新与影响，促进多方利益相关者协作。"
+          "en": "Opening Talk (10 minutes)\n* Title: Artificial Intelligence As a Digital Public Goods\n* Speaker: Serge Stinckwich (Head of Research, United Nations University Institute in Macau)\n\nPanel Discussion (50 min)\nModerator: Bryan Che (Board Member, Eclipse Foundation and LF CNCF)\nPanelists:\n* Prof. Kai Du (Assistant Professor, Psychology & Cognitive Science, Tsinghua University)\n* Prof. Yin Peng (Assistant Professor, Department of Data Science, CUHK)\n* Dr. Satya Mallick (CEO of OpenCV.org, AI & Computer Vision Expert)\n* Adina Yakefu (EA / AI researcher, Hugging Face)\n* Serge Stinckwich (Head of Research, United Nations University Institute in Macau)\n\nEnvisioning the future of AI in sustainable development context. Focus on inclusive and equitable AI futures, bridging innovation with impact, and promoting multistakeholder collaboration.",
+          "zh": "开场演讲 (10分钟)\n* 题目：AI作为数字公共福利\n* 讲师：Serge Stinckwich (联合国大学澳门研究所研究负责人)\n\n小组讨论 (50分钟)\n* 主持人: Bryan Che (Eclipse基金会和LF CNCF董事会成员)\n讨论嘉宾:\n* 杜凯 (清华大学心理与认知科学系助理教授)\n* 殷鹏 (香港中文大学数据科学学院助理教授)\n* Dr. Satya Mallick (OpenCV.org 首席执行官，AI 与计算机视觉专家，AI与计算机视觉专家)\n* Adina Yakefu (Hugging Face EA / AI研究员)\n* Serge Stinckwich (联合国大学澳门研究所研究部主任)\n\n展望AI在可持续发展背景下的未来。重点关注包容性和公平的AI未来，连接创新与影响，促进多方利益相关者协作。"
         },
         "speakers": [
           {
@@ -1254,6 +1254,21 @@
               "open-for-sdg"
             ],
             "image": "adina-yakefu.png"
+          },
+          {
+            "id": "serge-stinckwich",
+            "name": {
+              "en": "Serge Stinckwich",
+              "zh": "Serge Stinckwich"
+            },
+            "roleOrg": {
+              "en": "Head of Research, United Nations University Institute in Macau",
+              "zh": "联合国大学澳门研究所研究部主任"
+            },
+            "tags": [
+              "open-for-sdg"
+            ],
+            "image": "serge-stinckwich.png"
           }
         ]
       },
@@ -1655,7 +1670,7 @@
             "tags": [
               "forum-aivision"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "kai-du.jpg"
           },
           {
             "id": "nicolas-flores-herr",

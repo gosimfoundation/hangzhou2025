@@ -1577,6 +1577,27 @@
       "draft": false
     },
     {
+      "id": "serge-stinckwich",
+      "name": "Serge Stinckwich",
+      "bio": "●Head of Research, United Nations University Institute in Macau",
+      "role": "Head of Research",
+      "org": "United Nations University Institute in Macau",
+      "roleOrg": "Head of Research, United Nations University Institute in Macau",
+      "image": "/images/speakers/serge-stinckwich.png",
+      "tags": [
+        "open-for-sdg"
+      ],
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
       "id": "yanzhi-wang",
       "name": "Yanzhi Wang",
       "bio": "Yanzhi Wang - Professor of Northeastern University in the United States",
