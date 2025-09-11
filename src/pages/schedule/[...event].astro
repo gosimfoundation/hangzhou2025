@@ -158,9 +158,9 @@ const eventCategory = category || "Uncategorized";
                       (s) => s.name === speaker.name
                     );
                     
-                    // Check if this speaker is a workshop speaker based on their tags
+                    // Check if this speaker is a workshop speaker based on their tag
                     const workshopCategories = ["ws-future-web", "ws-cann", "ws-flutter", "ws-cangjie", "ws-edge-ai", "ws-chitu", "ws-ai-education", "ws-rn", "ws-dora", "ws-rust", "ws-sglang", "open-for-sdg", "forum-aivision"];
-                    let isWorkshopSpeaker = fullSpeakerDetails ? (fullSpeakerDetails.tags && fullSpeakerDetails.tags.some(tag => workshopCategories.includes(tag))) : false;
+                    let isWorkshopSpeaker = fullSpeakerDetails ? workshopCategories.includes(fullSpeakerDetails.tag) : false;
 
                     // Determine the correct URL path
                     const speakerPath = isWorkshopSpeaker
@@ -177,10 +177,13 @@ const eventCategory = category || "Uncategorized";
                             <div class="card-row card-row-image">
                               <div class="card-image">
                                 {(fullSpeakerDetails?.image ||
-                                  speaker?.image) && (
+                                  speaker?.image) &&
+                                  images[
+                                    `/public/images/speakers/${fullSpeakerDetails?.image || speaker.image}`
+                                  ] && (
                                     <Picture
                                       src={images[
-                                        `/public/images/speakers/${(fullSpeakerDetails?.image || speaker.image || '').replace(/^.*[\\\/]/, '')}`
+                                        `/public/images/speakers/${fullSpeakerDetails?.image || speaker.image}`
                                       ]()}
                                       formats={["webp", "jpg"]}
                                       alt={speaker.name}
