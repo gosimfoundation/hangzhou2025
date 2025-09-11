@@ -856,20 +856,25 @@ const getLocalizedText = (key: string): string => {
   .all-button.full-width {
     width: 100%;
     display: block;
-    background-color: #e9cb2c !important;
-    color: #212529 !important;
     font-weight: 600;
     border-radius: 25px;
     padding: 0.75rem 1.5rem;
     text-align: center;
     font-size: 1rem;
-    border: none;
+    border: 1px solid var(--color-border);
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    background-color: #fff;
+    color: #212529;
   }
   
-  .all-button.full-width:hover {
-    background-color: rgb(208, 156, 0) !important;
+  .all-button.full-width[data-filter-status="active"] {
+    background-color: #e9cb2c !important;
+    border: 1px solid #e9cb2c !important;
+    color: #212529 !important;
+  }
+  
+  .all-button.full-width[data-filter-status="not-active"]:hover {
+    background-color: rgba(var(--color-dark-rgb), 0.1);
   }
   
   /* Filter group styling */
