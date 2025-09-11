@@ -6347,11 +6347,11 @@
         "timeSlot": "14:05 - 14:30",
         "title": {
           "en": "How llama.cpp works, their focus, roadmap, how to contribute, etc",
-          "zh": "llama.cpp 多模态支持的全面升级"
+          "zh": "llama.cpp 如何工作、核心关注点、路线图、如何贡献等"
         },
         "content": {
           "en": "How llama.cpp works, their focus, roadmap, how to contribute, etc",
-          "zh": "llama.cpp 多模态支持的全面升级"
+          "zh": "llama.cpp 如何工作、核心关注点、路线图、如何贡献等"
         },
         "speakers": [
           {
