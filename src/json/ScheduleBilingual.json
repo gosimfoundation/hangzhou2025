@@ -2039,21 +2039,6 @@
           "zh": "<p>全体总结发言和闭幕致辞</p>"
         },
         "speakers": [
-          {
-            "id": "bill-ren",
-            "name": {
-              "en": "Ren Xudong",
-              "zh": "任旭东"
-            },
-            "roleOrg": {
-              "en": "Chief open source liaison officer, Board member of CNCF",
-              "zh": "华为首席开源联络官、CNCF基金会董事"
-            },
-            "tags": [
-              "forum-aivision"
-            ],
-            "image": "bill-ren.jpg"
-          }
         ]
       },
       {
