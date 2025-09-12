@@ -897,7 +897,7 @@
           "zh": "Open Policy 开放政策促进联合国可持续发展目标"
         },
         "content": {
-          "en": "Panel Discussion (60 min)\nModerator: Anni Lai (Co-Chair, Generative AI Commons)\nPanelists:\n* Nooman Fehri (Former Digital and Technology Minister, Tunisia)\n* Vincent Caldeira (CTO of Red Hat APAC, Top 10 CTO in APAC 2023)\n* Matt White (Executive Director, PyTorch Foundation)\n* Richard Lin (Co-founder of the Open Source Society, Head of the RTE Developer Community)\n* Liyun Yang (Mulan Community - Open Source Policy Strategy for China Government)\n\nDiscussing governance models, contribution pathways, policy and legal considerations, and alignment mechanisms for UN engagement with open source communities.",
+          "en": "Panel Discussion (60 min)\nModerator: Anni Lai (Co-Chair, Generative AI Commons)\nPanelists:\n* Nooman Fehri (Former Digital and Technology Minister, Tunisia)\n* Vincent Caldeira (CTO of Red Hat APAC, Top 10 CTO in APAC 2023)\n* Matt White (Executive Director, PyTorch Foundation)\n* Richard Lin (Co-founder of Kaiyuanshe, Head of the RTE Developer Community)\n* Liyun Yang (Mulan Community - Open Source Policy Strategy for China Government)\n\nDiscussing governance models, contribution pathways, policy and legal considerations, and alignment mechanisms for UN engagement with open source communities.",
           "zh": "小组讨论 (60分钟)\n主持人: Anni Lai (生成式AI共同体联合主席)\n讨论嘉宾:\n* Nooman Fehri (突尼斯前数字技术部长)\n* Vincent Caldeira (红帽亚太区首席技术官，2023 年亚太区十大 CTO，2023年亚太区十大CTO)\n* Matt White (PyTorch基金会执行董事)\n* 林旅强 (开源社联合创始人，RTE开发者社区主理人)\n* 杨丽蕴 (木兰社区 - 中国政府开源政策战略)\n\n讨论联合国参与开源社区的治理模式、贡献路径、政策与法律考量，以及协调机制。"
         },
         "speakers": [
@@ -968,7 +968,7 @@
               "zh": "林旅强"
             },
             "roleOrg": {
-              "en": "Co-founder of the Open Source Society, Head of the RTE Developer Community",
+              "en": "Co-founder of Kaiyuanshe, Head of the RTE Developer Community",
               "zh": "开源社联合创始人，RTE开发者社区主理人"
             },
             "tags": [
@@ -7632,7 +7632,7 @@
               "zh": "林旅强"
             },
             "roleOrg": {
-              "en": "Co-founder of the Open Source Society, Head of the RTE Developer Community",
+              "en": "Co-founder of Kaiyuanshe, Head of the RTE Developer Community",
               "zh": "开源社联合创始人，RTE开发者社区主理人"
             },
             "tags": [
@@ -7711,7 +7711,7 @@
               "zh": "林旅强"
             },
             "roleOrg": {
-              "en": "Co-founder of the Open Source Society, Head of the RTE Developer Community",
+              "en": "Co-founder of Kaiyuanshe, Head of the RTE Developer Community",
               "zh": "开源社联合创始人，RTE开发者社区主理人"
             },
             "tags": [
