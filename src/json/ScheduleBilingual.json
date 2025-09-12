@@ -3526,7 +3526,7 @@
             "tags": [
               "agentic-web"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "jesse-ezell.png"
           }
         ]
       },
@@ -7115,8 +7115,8 @@
         },
         "timeSlot": "10:15 - 12:00",
         "title": {
-          "en": "Flutter Meetup",
-          "zh": "Flutter Meetup"
+          "en": "Nest: Hatching New Flutters",
+          "zh": "Nest：孵化新的 Flutter"
         },
         "content": {
           "en": "Flutter is one of the most exciting cross-platform frameworks today—but anyone who has worked closely with it knows the pain of waiting for upstream fixes, struggling with forks, and maintaining patches. In this session, we'll explore Nest: a toolkit for extending Flutter's engine and framework without fracturing the ecosystem. We'll share why Nest exists, how it works, and the challenges we've faced in building it, including technical design, CI/CD pipelines, and the practical realities of hosting engine binaries for developers who need faster iteration.",
@@ -7136,7 +7136,7 @@
             "tags": [
               "ws-flutter"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "jesse-ezell.png"
           },
           {
             "id": "matt-carroll",
@@ -7151,7 +7151,7 @@
             "tags": [
               "ws-flutter"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "matt-carroll.png"
           }
         ]
       }
@@ -7185,7 +7185,7 @@
             "tags": [
               "ws-rn"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "michal-pierzchala.jpg"
           },
           {
             "id": "oskar-kwasniewski",
@@ -7200,7 +7200,7 @@
             "tags": [
               "ws-rn"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "oskar.jpeg"
           }
         ]
       }
