@@ -7069,10 +7069,8 @@
               "en": "Co-founder of Makepad",
               "zh": "Makepad联合创始人"
             },
-            "tags": [
-              "ws-embedded-rust"
-            ],
-            "image": "/images/speakers/rustchinaconf/Rik.png"
+            "tags": ["ws-embedded-rust"],
+            "image": "rik-arends.png"
           },
           {
             "id": "sebastian-michailidis",
@@ -7087,7 +7085,7 @@
             "tags": [
               "ws-embedded-rust"
             ],
-            "image": "0-placeholder-person.png"
+            "image": "sebastian-michailidis.jpg"
           },
           {
             "id": "handong-zhang",
@@ -9276,7 +9274,7 @@
             "tags": [
               "rust-china-3"
             ],
-            "image": "/images/speakers/rustchinaconf/Rik.png"
+            "image": "/images/speakers/rik-arends.png"
           }
         ]
       },

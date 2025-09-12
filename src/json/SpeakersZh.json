@@ -2558,10 +2558,8 @@
       "role": "Makepad联合创始人",
       "org": "",
       "roleOrg": "Makepad联合创始人",
-      "image": "/images/speakers/0-placeholder-person.png",
-      "tags": [
-        "ws-makepad"
-      ],
+      "image": "/images/speakers/sebastian-michailidis.jpg",
+      "tags": ["ws-makepad"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -4029,10 +4027,8 @@
       "role": "前 Flutter 团队成员、Flutter Bounty Hunters 负责人",
       "org": "",
       "roleOrg": "前 Flutter 团队成员、Flutter Bounty Hunters 负责人",
-      "image": "/images/speakers/0-placeholder-person.png",
-      "tags": [
-        "ws-flutter"
-      ],
+      "image": "/images/speakers/matt-carroll.png",
+      "tags": ["ws-flutter"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
@@ -4050,10 +4046,8 @@
       "role": "React Native 核心贡献者、React Native for visionOS 创始人",
       "org": "",
       "roleOrg": "React Native 核心贡献者、React Native for visionOS 创始人",
-      "image": "/images/speakers/0-placeholder-person.png",
-      "tags": [
-        "ws-rn"
-      ],
+      "image": "/images/speakers/oskar.jpeg",
+      "tags": ["ws-rn"],
       "socialLinks": {
         "mastodon": "",
         "twitter": "",
