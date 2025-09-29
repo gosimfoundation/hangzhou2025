@@ -4578,7 +4578,7 @@
       "role": "",
       "org": "",
       "roleOrg": "Member of the Rust Project language, library, cargo, and specification teams",
-      "image": "/images/speakers/rustchinaconf/jonathan.png",
+      "image": "/images/speakers/rustchinaconf/josh-091-full-square.jpg",
       "tags": [
         "rustchinaconf"
       ],
@@ -4767,7 +4767,7 @@
       "role": "",
       "org": "",
       "roleOrg": "Blueshift CEO",
-      "image": "/images/speakers/0-placeholder-person.png",
+      "image": "/images/speakers/rustchinaconf/DeanLittle.png",
       "tags": [
         "rustchinaconf"
       ],
@@ -4809,7 +4809,7 @@
       "role": "",
       "org": "",
       "roleOrg": "Core Developer of GreptimeDB",
-      "image": "/images/speakers/0-placeholder-person.png",
+      "image": "/images/speakers/rustchinaconf/钟镇炽.jpg",
       "tags": [
         "rustchinaconf"
       ],
@@ -4830,7 +4830,7 @@
       "role": "",
       "org": "",
       "roleOrg": "Chief Scientist at IDEA Research Institute, Lead of Moonbit Platform",
-      "image": "/images/speakers/0-placeholder-person.png",
+      "image": "/images/speakers/rustchinaconf/张宏波.jpg",
       "tags": [
         "rustchinaconf"
       ],
@@ -4845,13 +4845,13 @@
       "draft": false
     },
     {
-      "id": "yubing-zhao",
-      "name": "YuBing Zhao",
+      "id": "yubin-zhao",
+      "name": "Yubin Zhao",
       "bio": "",
       "role": "",
       "org": "",
       "roleOrg": "Linera Application Developer",
-      "image": "/images/speakers/0-placeholder-person.png",
+      "image": "/images/speakers/rustchinaconf/赵玉斌.jpg",
       "tags": [
         "rustchinaconf"
       ],
@@ -4866,13 +4866,13 @@
       "draft": false
     },
     {
-      "id": "smallfish-chen",
-      "name": "Smallfish",
+      "id": "xiaoyu-chen",
+      "name": "Xiaoyu Chen",
       "bio": "",
       "role": "",
       "org": "",
       "roleOrg": "VP of Technology at Databend Labs",
-      "image": "/images/speakers/0-placeholder-person.png",
+      "image": "/images/speakers/rustchinaconf/陈小玉.jpg",
       "tags": [
         "rustchinaconf"
       ],

@@ -4551,7 +4551,7 @@
       "role": "Rust 项目语言、库、Cargo 和规范团队成员",
       "org": "",
       "roleOrg": "Rust 项目语言、库、Cargo 和规范团队成员",
-      "image": "/images/speakers/0-placeholder-person.png",
+      "image": "/images/speakers/rustchinaconf/josh-091-full-square.jpg",
       "tags": [
         "rustchinaconf"
       ],
@@ -4777,12 +4777,12 @@
     },
     {
       "id": "zhenchi-zhong",
-      "name": "钟振驰",
-      "bio": "钟振驰 - GreptimeDB 核心开发者",
+      "name": "钟镇炽",
+      "bio": "钟镇炽 - GreptimeDB 核心开发者",
       "role": "GreptimeDB 核心开发者",
       "org": "",
       "roleOrg": "GreptimeDB 核心开发者",
-      "image": "/images/speakers/0-placeholder-person.png",
+      "image": "/images/speakers/rustchinaconf/钟镇炽.jpg",
       "tags": [
         "rustchinaconf"
       ],
@@ -4839,13 +4839,13 @@
       "draft": false
     },
     {
-      "id": "smallfish-chen",
-      "name": "陈小鱼",
-      "bio": "陈小鱼 - Databend Labs 技术副总裁",
+      "id": "xiaoyu-chen",
+      "name": "陈小玉",
+      "bio": "陈小玉 - Databend Labs 技术副总裁",
       "role": "Databend Labs 技术副总裁",
       "org": "",
       "roleOrg": "Databend Labs 技术副总裁",
-      "image": "/images/speakers/0-placeholder-person.png",
+      "image": "/images/speakers/rustchinaconf/陈小玉.jpg",
       "tags": [
         "rustchinaconf"
       ],
@@ -5344,8 +5344,8 @@
     },
     {
       "id": "xuewo-ding",
-      "name": "丁学沃",
-      "bio": "丁学沃 - ASF Member, Apache OpenDAL PMC Chair, Senior Engineer at LanceDB",
+      "name": "丁皓",
+      "bio": "丁皓 - ASF Member, Apache OpenDAL PMC Chair, Senior Engineer at LanceDB",
       "role": "ASF Member, Apache OpenDAL PMC Chair, Senior Engineer at LanceDB",
       "org": "",
       "roleOrg": "ASF Member, Apache OpenDAL PMC Chair, Senior Engineer at LanceDB",

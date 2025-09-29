@@ -8002,7 +8002,7 @@
               "rust-china-2",
               "rust-china-3"
             ],
-            "image": "/images/speakers/rustchinaconf/jonathan.png"
+            "image": "/images/speakers/rustchinaconf/josh-091-full-square.jpg"
           }
         ]
       },
@@ -8538,9 +8538,9 @@
         },
         "speakers": [
           {
-            "id": "yubing-zhao",
+            "id": "yubin-zhao",
             "name": {
-              "en": "YuBing Zhao",
+              "en": "Yubin Zhao",
               "zh": "赵玉斌"
             },
             "roleOrg": {
@@ -8570,9 +8570,9 @@
         },
         "speakers": [
           {
-            "id": "smallfish-chen",
+            "id": "xiaoyu-chen",
             "name": {
-              "en": "Smallfish",
+              "en": "Xiaoyu Chen",
               "zh": "陈小玉"
             },
             "roleOrg": {
@@ -8888,7 +8888,7 @@
             "tags": [
               "rust-china-2"
             ],
-            "image": "/images/speakers/rustchinaconf/吴家焱.jpg"
+            "image": "/images/speakers/rustchinaconf/吴家焱 .jpg"
           }
         ]
       },

@@ -208,7 +208,7 @@ def create_speaker_event_mapping():
     # Rust China Track 1
     rust_china_1_speakers = [
         "james-munns", "adam-harvey", "zili-chen", "jindi-shen", "dean-little",
-        "haobo-gu", "zhenchi-zhong", "hongbo-zhang", "yubing-zhao", "smallfish-chen",
+        "haobo-gu", "zhenchi-zhong", "hongbo-zhang", "yubin-zhao", "xiaoyu-chen",
         "xuecheng-yang", "zan-pan"
     ]
     add_speaker_tags(rust_china_1_speakers, "rustchinaconf")
