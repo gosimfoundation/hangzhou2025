@@ -81,10 +81,7 @@ const { event: eventDetails, category } = Astro.props as {
   category: string;
 };
 
-// Import all images
-const images = import.meta.glob<{ default: ImageMetadata }>(
-  "images/speakers/*.{jpeg,jpg,png,gif}"
-);
+// For images in public directory, we can reference them directly
 
 // Find the first matching category for the event
 const eventCategory = category || "Uncategorized";
@@ -176,22 +173,13 @@ const eventCategory = category || "Uncategorized";
                           <div class="single-speakers-card">
                             <div class="card-row card-row-image">
                               <div class="card-image">
-                                {(fullSpeakerDetails?.image ||
-                                  speaker?.image) &&
-                                  images[
-                                    `/public/images/speakers/${fullSpeakerDetails?.image || speaker.image}`
-                                  ] && (
-                                    <Picture
-                                      src={images[
-                                        `/public/images/speakers/${fullSpeakerDetails?.image || speaker.image}`
-                                      ]()}
-                                      formats={["webp", "jpg"]}
-                                      alt={speaker.name}
-                                      class="overlay"
-                                      widths={[275, 400, 500, 600, 750, 900]}
-                                      sizes="(max-width: 700px) 58vw, 450px"
-                                    />
-                                  )}
+                                {(fullSpeakerDetails?.image || speaker?.image) && (
+                                  <img
+                                    src={fullSpeakerDetails?.image || speaker.image}
+                                    alt={speaker.name}
+                                    class="overlay"
+                                  />
+                                )}
                               </div>
                             </div>
                             <div class="card-row card-row-info">
